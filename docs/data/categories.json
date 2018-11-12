@@ -1,0 +1,933 @@
+[
+  {
+    "Category": "Alignment",
+    "Tools": [
+      {
+        "Name": "cellRanger"
+      },
+      {
+        "Name": "Falcon",
+        "Citations": 138,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "haplotyped-methylome"
+      },
+      {
+        "Name": "MECAT",
+        "Citations": 12,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "NanoPipe"
+      },
+      {
+        "Name": "pbbioconda"
+      },
+      {
+        "Name": "poremap"
+      },
+      {
+        "Name": "poreTally",
+        "Citations": 0,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ],
+    "Description": "Alignment of reads to a reference"
+  },
+  {
+    "Category": "AvailablityofTestData",
+    "Tools": [
+      {
+        "Name": "Chiron",
+        "Citations": 4,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "chiron"
+      },
+      {
+        "Name": "nanotest"
+      }
+    ]
+  },
+  {
+    "Category": "BaseCalling",
+    "Tools": [
+      {
+        "Name": "Albacore",
+        "Citations": 19,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "C3POa"
+      },
+      {
+        "Name": "cellRanger"
+      },
+      {
+        "Name": "Chiron",
+        "Citations": 4,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "chiron"
+      },
+      {
+        "Name": "pbdagcon"
+      },
+      {
+        "Name": "pbssc",
+        "Citations": 4,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Poreplex",
+        "PyPI": "poreplex"
+      },
+      {
+        "Name": "R2C2",
+        "Citations": 0,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "scrappie",
+        "PyPI": "scrappie"
+      }
+    ]
+  },
+  {
+    "Category": "DenovoAssembly",
+    "Tools": [
+      {
+        "Name": "ALLPATHS-LG/Discovar",
+        "Citations": 789,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Architect",
+        "Citations": 7,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "ARCS",
+        "Citations": 8,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Canu",
+        "Citations": 300,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Circlator",
+        "Citations": 116,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "circlator"
+      },
+      {
+        "Name": "DALIGNER",
+        "Citations": 18,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Falcon",
+        "Citations": 138,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Flye",
+        "Citations": 17,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "HGAP",
+        "Citations": 1356,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Hinge",
+        "Citations": 13,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "MARVEL",
+        "Citations": 32,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "MaSuRCA",
+        "Citations": 30,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "MECAT",
+        "Citations": 12,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "MHAP",
+        "Citations": 283,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "miniasm",
+        "Citations": 13,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Minimap2",
+        "Citations": 13,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "PBcR*",
+        "Citations": 283,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "Poreplex",
+        "PyPI": "poreplex"
+      },
+      {
+        "Name": "PoreSeq",
+        "Citations": 39,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "SMARTdenovo",
+        "Citations": 4406,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "SPAdes",
+        "Citations": 3535,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Unicycler",
+        "Citations": 95,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ]
+  },
+  {
+    "Category": "ErrorCorrectionandPolishing",
+    "Tools": [
+      {
+        "Name": "Arrow"
+      },
+      {
+        "Name": "Falcon",
+        "Citations": 138,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Filtlong"
+      },
+      {
+        "Name": "Flye",
+        "Citations": 17,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "haplotyped-methylome"
+      },
+      {
+        "Name": "HGAP",
+        "Citations": 1356,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "INC-Seq",
+        "Citations": 13,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "levelfind_poreseq"
+      },
+      {
+        "Name": "MARVEL",
+        "Citations": 32,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "MECAT",
+        "Citations": 12,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Nanocorr",
+        "Citations": 105,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Nanocorrect*",
+        "Citations": 190,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "nanopolish",
+        "Citations": 63,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "NaS",
+        "Citations": 67,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "pbbioconda"
+      },
+      {
+        "Name": "pinfish"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "Porechop*"
+      },
+      {
+        "Name": "poreTally",
+        "Citations": 0,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "satlacc"
+      }
+    ]
+  },
+  {
+    "Category": "EvaluatingExisitingMethods",
+    "Tools": [
+      {
+        "Name": "Aligner comparisons",
+        "Citations": 0,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Assembler comparisons",
+        "Citations": 8,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Base caller comparisons"
+      },
+      {
+        "Name": "DeepSimulator",
+        "Citations": 1,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ]
+  },
+  {
+    "Category": "GapFilling",
+    "Tools": [
+      {
+        "Name": "ARCS",
+        "Citations": 8,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ]
+  },
+  {
+    "Category": "GeneExpressionAnalysis",
+    "Tools": [
+      {
+        "Name": "cellRanger"
+      },
+      {
+        "Name": "Mandalorion-Episode II",
+        "Citations": 24,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "satlacc"
+      }
+    ]
+  },
+  {
+    "Category": "GeneratingConsensusSequence",
+    "Tools": [
+      {
+        "Name": "Arrow"
+      },
+      {
+        "Name": "Canu",
+        "Citations": 300,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "cellRanger"
+      },
+      {
+        "Name": "Falcon",
+        "Citations": 138,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "HGAP",
+        "Citations": 1356,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Hinge",
+        "Citations": 13,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "nanopolish",
+        "Citations": 63,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "pbdagcon"
+      },
+      {
+        "Name": "pbssc",
+        "Citations": 4,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "pinfish"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "pychopper"
+      },
+      {
+        "Name": "satlacc"
+      },
+      {
+        "Name": "SMARTdenovo",
+        "Citations": 4406,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "unanimity"
+      }
+    ]
+  },
+  {
+    "Category": "IsoformDetection",
+    "Tools": [
+      {
+        "Name": "BLAT",
+        "Citations": 1280,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Gmap",
+        "Citations": 615,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Mandalorion-Episode II",
+        "Citations": 24,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "MetaSV",
+        "Citations": 25,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "pbbioconda"
+      },
+      {
+        "Name": "pinfish"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "SURVIVOR",
+        "Citations": 15,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "TAPIS",
+        "Citations": 54,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "ToFU",
+        "Citations": 47,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ]
+  },
+  {
+    "Category": "LongReadOverlapping",
+    "Tools": [
+      {
+        "Name": "DALIGNER",
+        "Citations": 18,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Hinge",
+        "Citations": 13,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "MARVEL",
+        "Citations": 32,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "MECAT",
+        "Citations": 12,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "MHAP",
+        "Citations": 283,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Minimap2",
+        "Citations": 13,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ]
+  },
+  {
+    "Category": "MethylationDetection",
+    "Tools": [
+      {
+        "Name": "haplotyped-methylome"
+      },
+      {
+        "Name": "mCaller",
+        "Citations": 2,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "nanoraw",
+        "Citations": 9,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "nanoraw"
+      },
+      {
+        "Name": "poreTally",
+        "Citations": 0,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "SignalAlign",
+        "Citations": 50,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "signalAlign"
+      },
+      {
+        "Name": "Tombo",
+        "Citations": 63,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ]
+  },
+  {
+    "Category": "Normalisation",
+    "Tools": [
+      {
+        "Name": "cellRanger"
+      },
+      {
+        "Name": "Mandalorion-Episode II",
+        "Citations": 24,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ],
+    "Description": "Removal of unwanted variation that may affect results"
+  },
+  {
+    "Category": "ProvideSummaryStatistics",
+    "Tools": [
+      {
+        "Name": "NanoPack",
+        "Citations": 6,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "Poreplex",
+        "PyPI": "poreplex"
+      }
+    ]
+  },
+  {
+    "Category": "QualityChecking",
+    "Tools": [
+      {
+        "Name": "AlignQC",
+        "Citations": 26,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "AlignQC"
+      },
+      {
+        "Name": "BaseModsTools"
+      },
+      {
+        "Name": "MultiQC",
+        "Citations": 97,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "multiqc"
+      },
+      {
+        "Name": "NanoPack",
+        "Citations": 6,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "QUAST",
+        "Citations": 841,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "quast"
+      },
+      {
+        "Name": "QUAST-LG",
+        "Citations": 0,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ]
+  },
+  {
+    "Category": "QualityTrimming",
+    "Tools": [
+      {
+        "Name": "Canu",
+        "Citations": 300,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "cellRanger"
+      },
+      {
+        "Name": "NanoPack",
+        "Citations": 6,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "pbssc",
+        "Citations": 4,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Poreplex",
+        "PyPI": "poreplex"
+      },
+      {
+        "Name": "R2C2",
+        "Citations": 0,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "satlacc"
+      }
+    ]
+  },
+  {
+    "Category": "ReadQuantification",
+    "Tools": [
+      {
+        "Name": "cellRanger"
+      },
+      {
+        "Name": "Mandalorion-Episode II",
+        "Citations": 24,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "satlacc"
+      }
+    ]
+  },
+  {
+    "Category": "SNPandVariantAnalysis",
+    "Tools": [
+      {
+        "Name": "Arrow"
+      },
+      {
+        "Name": "davidcoffey/MinION",
+        "Citations": 11,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "marginCaller",
+        "Citations": 209,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "nanopolish",
+        "Citations": 63,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "NanoSV",
+        "Citations": 11,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "NanoSV"
+      },
+      {
+        "Name": "pbbioconda"
+      },
+      {
+        "Name": "PBHoney",
+        "Citations": 28,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "pbsv"
+      },
+      {
+        "Name": "Pbsv_polish"
+      },
+      {
+        "Name": "shishir-reddy/nanopore-pipeline"
+      },
+      {
+        "Name": "SMRT-SV",
+        "Citations": 229,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Sniffles",
+        "Citations": 4,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ]
+  },
+  {
+    "Category": "SuitableforSingle-cellExperiments",
+    "Tools": [
+      {
+        "Name": "cellRanger"
+      },
+      {
+        "Name": "satlacc"
+      },
+      {
+        "Name": "SPAdes",
+        "Citations": 3535,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ]
+  },
+  {
+    "Category": "TestedonHumanData",
+    "Tools": [
+      {
+        "Name": "Circlator",
+        "Citations": 116,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "circlator"
+      },
+      {
+        "Name": "Mandalorion-Episode II",
+        "Citations": 24,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Unicycler",
+        "Citations": 95,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ]
+  },
+  {
+    "Category": "TestedonNon-HumanData",
+    "Tools": [
+      {
+        "Name": "Circlator",
+        "Citations": 116,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "circlator"
+      },
+      {
+        "Name": "miniasm",
+        "Citations": 13,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "nanotest"
+      },
+      {
+        "Name": "NaS",
+        "Citations": 67,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Unicycler",
+        "Citations": 95,
+        "Publications": 1,
+        "Preprints": 0
+      }
+    ]
+  },
+  {
+    "Category": "Visualisation",
+    "Tools": [
+      {
+        "Name": "Betaduck"
+      },
+      {
+        "Name": "CS"
+      },
+      {
+        "Name": "D-GENIES",
+        "Citations": 0,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "Minidot",
+        "Citations": 84,
+        "Publications": 1,
+        "Preprints": 0
+      },
+      {
+        "Name": "NanoPack",
+        "Citations": 6,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "NanoPlot",
+        "Citations": 6,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "NanoPlot"
+      },
+      {
+        "Name": "nanoplotter",
+        "Citations": 0,
+        "Publications": 1,
+        "Preprints": 0,
+        "PyPI": "nanoplotter"
+      },
+      {
+        "Name": "pinfish"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "plotnanopolish"
+      },
+      {
+        "Name": "poremap"
+      },
+      {
+        "Name": "POREquality"
+      },
+      {
+        "Name": "pycoQC",
+        "PyPI": "pycoQC"
+      }
+    ],
+    "Description": "Functions for visualising some aspect of scRNA-seq data or analysis"
+  }
+]
