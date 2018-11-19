@@ -55,7 +55,7 @@ make_cats_json <- function(tidysw_cat, swsheet, descs) {
     namelist <- lapply(namelist, function(x) {
         swsheet %>%
             dplyr::filter(Name %in% x) %>%
-            dplyr::select(Name, Citations, Technology_in_Focus, Publications, BioC, CRAN,
+            dplyr::select(Name, Citations, Publications, BioC, CRAN,
                           PyPI, Conda)
     })
 
