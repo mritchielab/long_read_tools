@@ -1,23 +1,23 @@
 [
   {
     "Category": "Alignment",
-    "Description": "Alignment of reads to a reference"
+    "Description": "Alignment of long reads to a reference"
   },
   {
-    "Category": "AlleleSpecific",
-    "Description": "Detection of allele-specific expression"
+    "Category": "BaseCalling",
+    "Description": "Detection of change of electrical current produced by ONT sequencers and translate it to a DNA sequence"
   },
   {
-    "Category": "AlternativeSplicing",
-    "Description": "Detection of alternative splicing"
+    "Category": "LongReadOverlapping",
+    "Description": "Finds pairs of reads that align to eachother"
   },
   {
-    "Category": "Assembly",
-    "Description": "Tools that perform assembly of scRNA-seq reads"
+    "Category": "DenovoAssembly",
+    "Description": "Tools that perform assembly of long reads"
   },
   {
-    "Category": "CellCycle",
-    "Description": "Assignment or correction of stages of the cell cycle, or other uses of cell cycle (or similar) genes"
+    "Category": "GeneratingConsensusSequence",
+    "Description": "Generating a consensus sequence from the assembled reads"
   },
   {
     "Category": "Classification",
