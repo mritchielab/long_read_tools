@@ -1,0 +1,949 @@
+[
+  {
+    "Category": "Alignment",
+    "Tools": [
+      {
+        "Name": "Falcon",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "haplotyped-methylome",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "MECAT",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "NanoPipe",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "pbbioconda",
+        "Technology_in_Focus": "PacBio"
+      },
+      {
+        "Name": "poremap",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "poreTally",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      }
+    ],
+    "Description": "Alignment of long reads to a reference"
+  },
+  {
+    "Category": "AnalysisPipelines",
+    "Tools": [
+      {
+        "Name": "davidcoffey/MinION",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "DeepSimulator",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "F5c",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "LQS",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "nanoflow",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "NanoGrid",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "NanopolishComp",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "nanopore",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "nano-snakemake",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "poreFUME",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "poremap",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "Poretools",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1,
+        "PyPI": "poretools"
+      },
+      {
+        "Name": "WUB",
+        "Technology_in_Focus": "ONT"
+      }
+    ]
+  },
+  {
+    "Category": "AvailablityofTestData",
+    "Tools": [
+      {
+        "Name": "Chiron",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1,
+        "PyPI": "chiron"
+      },
+      {
+        "Name": "nanotest",
+        "Technology_in_Focus": "ONT"
+      }
+    ]
+  },
+  {
+    "Category": "BaseCalling",
+    "Tools": [
+      {
+        "Name": "Albacore",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "C3POa",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "Chiron",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1,
+        "PyPI": "chiron"
+      },
+      {
+        "Name": "DeepSimulator",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "pbdagcon",
+        "Technology_in_Focus": "PacBio"
+      },
+      {
+        "Name": "pbssc",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Poreplex",
+        "Technology_in_Focus": "ONT",
+        "PyPI": "poreplex"
+      },
+      {
+        "Name": "R2C2",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "scrappie",
+        "Technology_in_Focus": "ONT",
+        "PyPI": "scrappie"
+      }
+    ],
+    "Description": "Detection of change of electrical current produced by ONT sequencers and translate it to a DNA sequence"
+  },
+  {
+    "Category": "DenovoAssembly",
+    "Tools": [
+      {
+        "Name": "ALLPATHS-LG/Discovar",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1
+      },
+      {
+        "Name": "Architect",
+        "Technology_in_Focus": "10x Genomics",
+        "Publications": 1
+      },
+      {
+        "Name": "ARCS",
+        "Technology_in_Focus": "10x Genomics",
+        "Publications": 1
+      },
+      {
+        "Name": "Canu",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Circlator",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1,
+        "PyPI": "circlator"
+      },
+      {
+        "Name": "DALIGNER",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Falcon",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Flye",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1
+      },
+      {
+        "Name": "HGAP",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Hinge",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1
+      },
+      {
+        "Name": "MARVEL",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "MaSuRCA",
+        "Technology_in_Focus": "ONT, PacBio, Illumina",
+        "Publications": 1
+      },
+      {
+        "Name": "MECAT",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "MHAP",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "miniasm",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Minimap2",
+        "Technology_in_Focus": "ONT, PacBio, Illumina",
+        "Publications": 1
+      },
+      {
+        "Name": "PBcR*",
+        "Technology_in_Focus": "PacBio, ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "pipeline-pinfish-analysis",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "Poreplex",
+        "Technology_in_Focus": "ONT",
+        "PyPI": "poreplex"
+      },
+      {
+        "Name": "PoreSeq",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "SMARTdenovo",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1
+      },
+      {
+        "Name": "SPAdes",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1
+      },
+      {
+        "Name": "Unicycler",
+        "Technology_in_Focus": "ONT, PacBio, Illumina",
+        "Publications": 1
+      }
+    ],
+    "Description": "Tools that perform assembly of long reads"
+  },
+  {
+    "Category": "ErrorCorrectionandPolishing",
+    "Tools": [
+      {
+        "Name": "Arrow",
+        "Technology_in_Focus": "PacBio"
+      },
+      {
+        "Name": "Falcon",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Filtlong",
+        "Technology_in_Focus": "ONT, PacBio"
+      },
+      {
+        "Name": "Flye",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1
+      },
+      {
+        "Name": "haplotyped-methylome",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "HGAP",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "INC-Seq",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "levelfind_poreseq",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "MARVEL",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "MECAT",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Nanocorr",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "Nanocorrect*",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "nanopolish",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "NaS",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "pbbioconda",
+        "Technology_in_Focus": "PacBio"
+      },
+      {
+        "Name": "pinfish",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "Porechop*",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "poreTally",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "satlacc",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "Pilon",
+        "Technology_in_Focus": "Illumina",
+        "Publications": 1
+      }
+    ]
+  },
+  {
+    "Category": "EvaluatingExisitingMethods",
+    "Tools": [
+      {
+        "Name": "Aligner comparisons",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "Assembler comparisons",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "Base caller comparisons",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "DeepSimulator",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      }
+    ]
+  },
+  {
+    "Category": "GapFilling",
+    "Tools": [
+      {
+        "Name": "ARCS",
+        "Technology_in_Focus": "10x Genomics",
+        "Publications": 1
+      }
+    ]
+  },
+  {
+    "Category": "GeneExpressionAnalysis",
+    "Tools": [
+      {
+        "Name": "Mandalorion-Episode II",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "satlacc",
+        "Technology_in_Focus": "ONT"
+      }
+    ]
+  },
+  {
+    "Category": "GeneratingConsensusSequence",
+    "Tools": [
+      {
+        "Name": "Arrow",
+        "Technology_in_Focus": "PacBio"
+      },
+      {
+        "Name": "Canu",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Falcon",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "HGAP",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Hinge",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1
+      },
+      {
+        "Name": "nanopolish",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "pbdagcon",
+        "Technology_in_Focus": "PacBio"
+      },
+      {
+        "Name": "pbssc",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "pinfish",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "pychopper",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "satlacc",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "SMARTdenovo",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1
+      },
+      {
+        "Name": "unanimity",
+        "Technology_in_Focus": "PacBio"
+      }
+    ],
+    "Description": "Generating a consensus sequence from the assembled reads"
+  },
+  {
+    "Category": "IsoformDetection",
+    "Tools": [
+      {
+        "Name": "BLAT",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "Gmap",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Mandalorion-Episode II",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "MetaSV",
+        "Technology_in_Focus": "ONT, PacBio, Illumina",
+        "Publications": 1
+      },
+      {
+        "Name": "pbbioconda",
+        "Technology_in_Focus": "PacBio"
+      },
+      {
+        "Name": "pinfish",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "SURVIVOR",
+        "Technology_in_Focus": "ONT, PacBio, Illumina",
+        "Publications": 1
+      },
+      {
+        "Name": "TAPIS",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "ToFU",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      }
+    ]
+  },
+  {
+    "Category": "LongReadOverlapping",
+    "Tools": [
+      {
+        "Name": "DALIGNER",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Hinge",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1
+      },
+      {
+        "Name": "MARVEL",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "MECAT",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "MHAP",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Minimap2",
+        "Technology_in_Focus": "ONT, PacBio, Illumina",
+        "Publications": 1
+      }
+    ],
+    "Description": "Finds pairs of reads that align to eachother"
+  },
+  {
+    "Category": "MethylationDetection",
+    "Tools": [
+      {
+        "Name": "F5c",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "haplotyped-methylome",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "mCaller",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "nanoraw",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1,
+        "PyPI": "nanoraw"
+      },
+      {
+        "Name": "poreTally",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "SignalAlign",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1,
+        "PyPI": "signalAlign"
+      },
+      {
+        "Name": "Tombo",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      }
+    ]
+  },
+  {
+    "Category": "Normalisation",
+    "Tools": [
+      {
+        "Name": "Mandalorion-Episode II",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      }
+    ],
+    "Description": "Removal of unwanted variation that may affect results"
+  },
+  {
+    "Category": "ProvideSummaryStatistics",
+    "Tools": [
+      {
+        "Name": "NanoPack",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "Poreplex",
+        "Technology_in_Focus": "ONT",
+        "PyPI": "poreplex"
+      }
+    ]
+  },
+  {
+    "Category": "QualityChecking",
+    "Tools": [
+      {
+        "Name": "AlignQC",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1,
+        "PyPI": "AlignQC"
+      },
+      {
+        "Name": "BaseModsTools",
+        "Technology_in_Focus": "PacBio"
+      },
+      {
+        "Name": "MultiQC",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1,
+        "PyPI": "multiqc"
+      },
+      {
+        "Name": "NanoPack",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "QUAST",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1,
+        "PyPI": "quast"
+      },
+      {
+        "Name": "QUAST-LG",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      }
+    ]
+  },
+  {
+    "Category": "QualityTrimming",
+    "Tools": [
+      {
+        "Name": "Canu",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "NanoPack",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "pbssc",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Poreplex",
+        "Technology_in_Focus": "ONT",
+        "PyPI": "poreplex"
+      },
+      {
+        "Name": "R2C2",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "satlacc",
+        "Technology_in_Focus": "ONT"
+      }
+    ]
+  },
+  {
+    "Category": "ReadQuantification",
+    "Tools": [
+      {
+        "Name": "Mandalorion-Episode II",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "satlacc",
+        "Technology_in_Focus": "ONT"
+      }
+    ]
+  },
+  {
+    "Category": "SNPandVariantAnalysis",
+    "Tools": [
+      {
+        "Name": "Arrow",
+        "Technology_in_Focus": "PacBio"
+      },
+      {
+        "Name": "davidcoffey/MinION",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "marginCaller",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "nanopolish",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSV",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1,
+        "PyPI": "NanoSV"
+      },
+      {
+        "Name": "pbbioconda",
+        "Technology_in_Focus": "PacBio"
+      },
+      {
+        "Name": "PBHoney",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "pbsv",
+        "Technology_in_Focus": "PacBio"
+      },
+      {
+        "Name": "Pbsv_polish",
+        "Technology_in_Focus": "PacBio"
+      },
+      {
+        "Name": "shishir-reddy/nanopore-pipeline",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "SMRT-SV",
+        "Technology_in_Focus": "PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Sniffles",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Pilon",
+        "Technology_in_Focus": "Illumina",
+        "Publications": 1
+      }
+    ]
+  },
+  {
+    "Category": "SuitableforSinglecellExperiments",
+    "Tools": [
+      {
+        "Name": "satlacc",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "SPAdes",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1
+      }
+    ]
+  },
+  {
+    "Category": "TestedonHumanData",
+    "Tools": [
+      {
+        "Name": "Circlator",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1,
+        "PyPI": "circlator"
+      },
+      {
+        "Name": "Mandalorion-Episode II",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "Unicycler",
+        "Technology_in_Focus": "ONT, PacBio, Illumina",
+        "Publications": 1
+      }
+    ]
+  },
+  {
+    "Category": "TestedonNonHumanData",
+    "Tools": [
+      {
+        "Name": "Circlator",
+        "Technology_in_Focus": "All long reads",
+        "Publications": 1,
+        "PyPI": "circlator"
+      },
+      {
+        "Name": "miniasm",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "nanotest",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "NaS",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "Unicycler",
+        "Technology_in_Focus": "ONT, PacBio, Illumina",
+        "Publications": 1
+      }
+    ]
+  },
+  {
+    "Category": "Visualisation",
+    "Tools": [
+      {
+        "Name": "Betaduck",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "CS",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "D-GENIES",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1
+      },
+      {
+        "Name": "Minidot",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1
+      },
+      {
+        "Name": "NanoPack",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "NanoPlot",
+        "Technology_in_Focus": "ONT, PacBio",
+        "Publications": 1,
+        "PyPI": "NanoPlot"
+      },
+      {
+        "Name": "nanoplotter",
+        "Technology_in_Focus": "ONT",
+        "Publications": 1,
+        "PyPI": "nanoplotter"
+      },
+      {
+        "Name": "pinfish",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "plotnanopolish",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "poremap",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "POREquality",
+        "Technology_in_Focus": "ONT"
+      },
+      {
+        "Name": "pycoQC",
+        "Technology_in_Focus": "ONT",
+        "PyPI": "pycoQC"
+      }
+    ],
+    "Description": "Functions for visualising some aspect of scRNA-seq data or analysis"
+  }
+]

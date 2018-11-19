@@ -21,7 +21,6 @@ get_swsheet <- function() {
                     Platform = Programming_Language,
                     DOIs = DOI,
                     Description = Details,
-                    Technology_in_Focus = Targetted_Technology,
                     Code = Source)
                                
 }
