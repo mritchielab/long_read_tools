@@ -38,6 +38,17 @@ $(document).ready(function () {
 
     return linked.join(', ')
   }
+  
+  function linkTechs (techs) {
+    var linked = []
+
+    for (var i = 0; i < techs.length; i++) {
+      var tech = techs[i]
+      linked.push('<a href="technologies.html#' + tech + '">' + tech.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')
+    }
+
+    return linked.join(', ')
+  }
 
   function printList (urlParams) {
     /* -- Open JSON file, parse the contents, loop through & print markup -- */
@@ -105,6 +116,7 @@ $(document).ready(function () {
         var updated = value.Updated
         var license = value.License
         var cats = value.Categories
+        var techs = value.Technologies
         var bioc = value.BioC
         var pypi = value.PyPI
         var cran = value.CRAN
@@ -216,11 +228,13 @@ $(document).ready(function () {
           entry += '<li class="list-group-item"><strong>License: </strong> ' + license + '</li>'
         }
 
-        entry += '<li class="list-group-item"><strong>Categories: </strong> ' + linkCats(cats) + '</li>' +
-                 '<li class="list-group-item">' +
-                 '<strong>Added: </strong> ' + added +
-                 ', <strong>Updated: </strong>' + updated +
-                 '</li>' +
+        entry += '<li class="list-group-item"><strong>Categories: </strong> ' + linkCats(cats) + '</li>'
+                 
+        entry += '<li class="list-group-item"><strong>Technologies: </strong> ' + linkTechs(techs) + '</li>' +
+                 //'<li class="list-group-item">' +
+                 //'<strong>Added: </strong> ' + added +
+                 //', <strong>Updated: </strong>' + updated +
+                 //'</li>' +
                  '</ul>' +
                  '</div>'
 

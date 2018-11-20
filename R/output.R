@@ -42,7 +42,7 @@ make_tools_json <- function(tidysw_cat) {
 #'
 #' Create categories JSON
 #'
-#' @param tidysw_tech Tibble containing tidy software table
+#' @param tidysw_cat Tibble containing tidy software table
 #' @param swsheet Tibble containing software table
 #' @param descs data.frame containing category descriptions
 make_cats_json <- function(tidysw_cat, swsheet, descs) {
@@ -69,6 +69,40 @@ make_cats_json <- function(tidysw_cat, swsheet, descs) {
 
     futile.logger::flog.info("Writing 'categories.json'...")
     readr::write_lines(cats, "docs/data/categories.json")
+}
+
+
+#' Make technologies JSON
+#'
+#' Create technologies JSON
+#'
+#' @param tidysw_tech Tibble containing tidy software table
+#' @param swsheet Tibble containing software table
+#' @param descs data.frame containing category descriptions
+make_techs_json <- function(tidysw_tech, swsheet, descs) {
+  
+  `%>%` <- magrittr::`%>%`
+  
+  futile.logger::flog.info("Converting technologies...")
+  
+  namelist <- split(tidysw_tech$Name, f = tidysw_tech$Technology)
+  namelist <- lapply(namelist, function(x) {
+    swsheet %>%
+      dplyr::filter(Name %in% x) %>%
+      dplyr::select(Name, Citations, Publications, BioC, CRAN,
+                    PyPI, Conda)
+  })
+  
+  techs <- tidysw_tech %>%
+    dplyr::select(Technology) %>%
+    dplyr::arrange(Technology) %>%
+    unique() %>%
+    dplyr::mutate(Tools = namelist[Technology]) %>%
+    #dplyr::left_join(descs, by = "Technology") %>%
+    jsonlite::toJSON(pretty = TRUE)
+  
+  futile.logger::flog.info("Writing 'technologies.json'...")
+  readr::write_lines(techs, "docs/data/technologies.json")
 }
 
 
