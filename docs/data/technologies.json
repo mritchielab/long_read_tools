@@ -1,0 +1,495 @@
+[
+  {
+    "Technology": "All_Long_Reads",
+    "Tools": [
+      {
+        "Name": "ALLPATHS-LG/Discovar",
+        "Publications": 1
+      },
+      {
+        "Name": "Circlator",
+        "Publications": 1,
+        "PyPI": "circlator"
+      },
+      {
+        "Name": "Flye",
+        "Publications": 1
+      },
+      {
+        "Name": "Hinge",
+        "Publications": 1
+      },
+      {
+        "Name": "SMARTdenovo",
+        "Publications": 1
+      },
+      {
+        "Name": "SPAdes",
+        "Publications": 1
+      }
+    ]
+  },
+  {
+    "Technology": "Illumina",
+    "Tools": [
+      {
+        "Name": "MaSuRCA",
+        "Publications": 1
+      },
+      {
+        "Name": "MetaSV",
+        "Publications": 1
+      },
+      {
+        "Name": "Minimap2",
+        "Publications": 1
+      },
+      {
+        "Name": "SURVIVOR",
+        "Publications": 1
+      },
+      {
+        "Name": "Unicycler",
+        "Publications": 1
+      },
+      {
+        "Name": "Pilon",
+        "Publications": 1
+      }
+    ]
+  },
+  {
+    "Technology": "ONT",
+    "Tools": [
+      {
+        "Name": "Albacore",
+        "Publications": 1
+      },
+      {
+        "Name": "Aligner comparisons",
+        "Publications": 1
+      },
+      {
+        "Name": "AlignQC",
+        "Publications": 1,
+        "PyPI": "AlignQC"
+      },
+      {
+        "Name": "Assembler comparisons",
+        "Publications": 1
+      },
+      {
+        "Name": "Base caller comparisons"
+      },
+      {
+        "Name": "Betaduck"
+      },
+      {
+        "Name": "BLAT",
+        "Publications": 1
+      },
+      {
+        "Name": "C3POa"
+      },
+      {
+        "Name": "Canu",
+        "Publications": 1
+      },
+      {
+        "Name": "Chiron",
+        "Publications": 1,
+        "PyPI": "chiron"
+      },
+      {
+        "Name": "CS"
+      },
+      {
+        "Name": "DALIGNER",
+        "Publications": 1
+      },
+      {
+        "Name": "davidcoffey/MinION",
+        "Publications": 1
+      },
+      {
+        "Name": "DeepSimulator",
+        "Publications": 1
+      },
+      {
+        "Name": "D-GENIES",
+        "Publications": 1
+      },
+      {
+        "Name": "F5c"
+      },
+      {
+        "Name": "Filtlong"
+      },
+      {
+        "Name": "Gmap",
+        "Publications": 1
+      },
+      {
+        "Name": "haplotyped-methylome"
+      },
+      {
+        "Name": "INC-Seq",
+        "Publications": 1
+      },
+      {
+        "Name": "levelfind_poreseq"
+      },
+      {
+        "Name": "LQS",
+        "Publications": 1
+      },
+      {
+        "Name": "Mandalorion-Episode II",
+        "Publications": 1
+      },
+      {
+        "Name": "marginCaller",
+        "Publications": 1
+      },
+      {
+        "Name": "MaSuRCA",
+        "Publications": 1
+      },
+      {
+        "Name": "mCaller",
+        "Publications": 1
+      },
+      {
+        "Name": "MECAT",
+        "Publications": 1
+      },
+      {
+        "Name": "MetaSV",
+        "Publications": 1
+      },
+      {
+        "Name": "MHAP",
+        "Publications": 1
+      },
+      {
+        "Name": "miniasm",
+        "Publications": 1
+      },
+      {
+        "Name": "Minidot",
+        "Publications": 1
+      },
+      {
+        "Name": "Minimap2",
+        "Publications": 1
+      },
+      {
+        "Name": "MultiQC",
+        "Publications": 1,
+        "PyPI": "multiqc"
+      },
+      {
+        "Name": "Nanocorr",
+        "Publications": 1
+      },
+      {
+        "Name": "Nanocorrect*",
+        "Publications": 1
+      },
+      {
+        "Name": "nanoflow"
+      },
+      {
+        "Name": "NanoGrid"
+      },
+      {
+        "Name": "NanoPack",
+        "Publications": 1,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "NanoPipe"
+      },
+      {
+        "Name": "NanoPlot",
+        "Publications": 1,
+        "PyPI": "NanoPlot"
+      },
+      {
+        "Name": "nanoplotter",
+        "Publications": 1,
+        "PyPI": "nanoplotter"
+      },
+      {
+        "Name": "nanopolish",
+        "Publications": 1
+      },
+      {
+        "Name": "NanopolishComp"
+      },
+      {
+        "Name": "nanopore"
+      },
+      {
+        "Name": "nanoraw",
+        "Publications": 1,
+        "PyPI": "nanoraw"
+      },
+      {
+        "Name": "nano-snakemake"
+      },
+      {
+        "Name": "NanoSV",
+        "Publications": 1,
+        "PyPI": "NanoSV"
+      },
+      {
+        "Name": "nanotest"
+      },
+      {
+        "Name": "NaS",
+        "Publications": 1
+      },
+      {
+        "Name": "PBcR*",
+        "Publications": 1
+      },
+      {
+        "Name": "pinfish"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "plotnanopolish"
+      },
+      {
+        "Name": "Porechop*"
+      },
+      {
+        "Name": "poreFUME"
+      },
+      {
+        "Name": "poremap"
+      },
+      {
+        "Name": "Poreplex",
+        "PyPI": "poreplex"
+      },
+      {
+        "Name": "POREquality"
+      },
+      {
+        "Name": "PoreSeq",
+        "Publications": 1
+      },
+      {
+        "Name": "poreTally",
+        "Publications": 1
+      },
+      {
+        "Name": "Poretools",
+        "Publications": 1,
+        "PyPI": "poretools"
+      },
+      {
+        "Name": "pychopper"
+      },
+      {
+        "Name": "pycoQC",
+        "PyPI": "pycoQC"
+      },
+      {
+        "Name": "QUAST",
+        "Publications": 1,
+        "PyPI": "quast"
+      },
+      {
+        "Name": "QUAST-LG",
+        "Publications": 1
+      },
+      {
+        "Name": "R2C2",
+        "Publications": 1
+      },
+      {
+        "Name": "satlacc"
+      },
+      {
+        "Name": "scrappie",
+        "PyPI": "scrappie"
+      },
+      {
+        "Name": "shishir-reddy/nanopore-pipeline"
+      },
+      {
+        "Name": "SignalAlign",
+        "Publications": 1,
+        "PyPI": "signalAlign"
+      },
+      {
+        "Name": "Sniffles",
+        "Publications": 1
+      },
+      {
+        "Name": "SURVIVOR",
+        "Publications": 1
+      },
+      {
+        "Name": "Tombo",
+        "Publications": 1
+      },
+      {
+        "Name": "Unicycler",
+        "Publications": 1
+      },
+      {
+        "Name": "WUB"
+      }
+    ]
+  },
+  {
+    "Technology": "PacBio",
+    "Tools": [
+      {
+        "Name": "AlignQC",
+        "Publications": 1,
+        "PyPI": "AlignQC"
+      },
+      {
+        "Name": "Arrow"
+      },
+      {
+        "Name": "BaseModsTools"
+      },
+      {
+        "Name": "Canu",
+        "Publications": 1
+      },
+      {
+        "Name": "DALIGNER",
+        "Publications": 1
+      },
+      {
+        "Name": "D-GENIES",
+        "Publications": 1
+      },
+      {
+        "Name": "Falcon",
+        "Publications": 1
+      },
+      {
+        "Name": "Filtlong"
+      },
+      {
+        "Name": "Gmap",
+        "Publications": 1
+      },
+      {
+        "Name": "HGAP",
+        "Publications": 1
+      },
+      {
+        "Name": "MARVEL",
+        "Publications": 1
+      },
+      {
+        "Name": "MECAT",
+        "Publications": 1
+      },
+      {
+        "Name": "MHAP",
+        "Publications": 1
+      },
+      {
+        "Name": "miniasm",
+        "Publications": 1
+      },
+      {
+        "Name": "MultiQC",
+        "Publications": 1,
+        "PyPI": "multiqc"
+      },
+      {
+        "Name": "NanoPack",
+        "Publications": 1,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "NanoPlot",
+        "Publications": 1,
+        "PyPI": "NanoPlot"
+      },
+      {
+        "Name": "NanoSV",
+        "Publications": 1,
+        "PyPI": "NanoSV"
+      },
+      {
+        "Name": "pbbioconda"
+      },
+      {
+        "Name": "PBcR*",
+        "Publications": 1
+      },
+      {
+        "Name": "pbdagcon"
+      },
+      {
+        "Name": "PBHoney",
+        "Publications": 1
+      },
+      {
+        "Name": "pbssc",
+        "Publications": 1
+      },
+      {
+        "Name": "pbsv"
+      },
+      {
+        "Name": "Pbsv_polish"
+      },
+      {
+        "Name": "QUAST",
+        "Publications": 1,
+        "PyPI": "quast"
+      },
+      {
+        "Name": "QUAST-LG",
+        "Publications": 1
+      },
+      {
+        "Name": "SMRT-SV",
+        "Publications": 1
+      },
+      {
+        "Name": "Sniffles",
+        "Publications": 1
+      },
+      {
+        "Name": "TAPIS",
+        "Publications": 1
+      },
+      {
+        "Name": "ToFU",
+        "Publications": 1
+      },
+      {
+        "Name": "unanimity"
+      }
+    ]
+  },
+  {
+    "Technology": "tenX_Genomics",
+    "Tools": [
+      {
+        "Name": "Architect",
+        "Publications": 1
+      },
+      {
+        "Name": "ARCS",
+        "Publications": 1
+      }
+    ]
+  }
+]
