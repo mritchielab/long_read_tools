@@ -2,7 +2,6 @@
   {
     "Name": "Albacore",
     "DOIs": "10.1371/journal.pone.0178751",
-    "Targetted_Technology": "ONT",
     "Description": "Uses recurrent neural networks (RNN) that claim to substantially improve single-read and consensus accuracy",
     "Code": "https://github.com/dvera/albacore",
     "License": "GNU General Public License v3.0",
@@ -36,7 +35,6 @@
   {
     "Name": "Aligner comparisons",
     "DOIs": "10.1101/126656",
-    "Targetted_Technology": "ONT",
     "Description": "Evaluates short-read alignment tools (i.e. STAR, Tophat2, Hisat2, bbmap, gmap) for long read alignment",
     "ONT": true,
     "PacBio": false,
@@ -67,7 +65,6 @@
   {
     "Name": "AlignQC",
     "DOIs": "10.12688/f1000research.10571.2",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "Python",
     "Description": "Uses 3 layers of quality assessments; (1) basic statistics of the data, including read length, alignment and coverage across all chromosomes; (2) error pattern analysis if a reference genome is provided; (3) transcript-related statistics if a gene annotation is provided.  Alignqc takes the standard BAM format file as the input, outputs XHTML format file for easy visualization, and provides links to access all analysis results.",
     "Code": "https://github.com/jasonweirather/AlignQC",
@@ -102,7 +99,6 @@
   {
     "Name": "ALLPATHS-LG/Discovar",
     "DOIs": "10.1073/pnas.1017351108",
-    "Targetted_Technology": "All long reads",
     "Platform": "C++",
     "Description": "Uses hybrid and debruijin graphs",
     "Code": "https://software.broadinstitute.org/allpathslg/blog/",
@@ -136,7 +132,6 @@
   {
     "Name": "Architect",
     "DOIs": "10.1093/bioinformatics/btw267",
-    "Targetted_Technology": "10x Genomics",
     "Platform": "Python",
     "Description": "A genomic scaffolder aimed at synthetic long read and read-cloud sequencing technologies",
     "Code": "https://github.com/kuleshov/architect",
@@ -170,7 +165,6 @@
   {
     "Name": "ARCS",
     "DOIs": "10.1093/bioinformatics/btx675",
-    "Targetted_Technology": "10x Genomics",
     "Platform": "C++",
     "Description": "Scaffolding genome assemblies",
     "Code": "https://github.com/bcgsc/arcs",
@@ -204,7 +198,6 @@
   },
   {
     "Name": "Arrow",
-    "Targetted_Technology": "PacBio",
     "Description": "An improved consensus model (phase out of Quiver) based on a more straightforward hidden Markov model approach",
     "Code": "https://github.com/PacificBiosciences/GenomicConsensus",
     "License": "Pacific Biosciences of California, Inc.",
@@ -227,7 +220,6 @@
   {
     "Name": "Assembler comparisons",
     "DOIs": "10.1186/s12864-016-2895-8",
-    "Targetted_Technology": "ONT",
     "Description": "Tested on abyss, Celera, Velvet and SSAKE. Concludes saying that OLC can be considered as a favourable algorithmic framework for the development of assembler tools for Nanopore-based data",
     "ONT": true,
     "PacBio": false,
@@ -257,7 +249,6 @@
   },
   {
     "Name": "Base caller comparisons",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Compares Albacore, Guppy, Scrappie, deepnnano, Chiron",
     "Code": "https://github.com/rrwick/Basecallingcomparison",
@@ -279,7 +270,6 @@
   },
   {
     "Name": "BaseModsTools",
-    "Targetted_Technology": "PacBio",
     "Platform": "Python",
     "Description": "Tools for optimizing and quality checking performance of basemods and related tools on PacBio Data",
     "Code": "https://github.com/bnbowman/BaseModsTools",
@@ -301,7 +291,6 @@
   },
   {
     "Name": "Betaduck",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "For tidying the PromethION outputs and visualising the data",
     "Code": "https://github.com/alexiswl/betaduck",
@@ -324,7 +313,6 @@
   {
     "Name": "BLAT",
     "DOIs": "10.1101/gr.229202",
-    "Targetted_Technology": "ONT",
     "Code": "http://genome.ucsc.edu/FAQ/FAQblat#blat3",
     "ONT": true,
     "PacBio": false,
@@ -354,7 +342,6 @@
   },
   {
     "Name": "C3POa",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Computational pipeline for calling consensi on R2C2 nanopore data",
     "Code": "https://github.com/rvolden/C3POa",
@@ -377,7 +364,6 @@
   {
     "Name": "Canu",
     "DOIs": "10.1101/gr.215087.116",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "C++",
     "Description": "Detect overlaps in high-noise sequences using MHAP. Generate corrected sequence consensus. Trim corrected sequences. Assemble trimmed corrected sequences. Takes all-vs-all read self-mappings (typically by minimap) as input and outputs an assembly graph in the GFA format. Different from mainstream assemblers, miniasm does not have a consensus step. It simply concatenates pieces of read sequences to generate the final contig sequences. Thus, the per-base error rate is similar to the raw input reads.",
     "Code": "https://github.com/marbl/canu",
@@ -412,7 +398,6 @@
   {
     "Name": "Chiron",
     "DOIs": "10.1093/gigascience/giy037",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "A deep learning CNN+RNN+CTC structure to establish end-to-end base calling. Built with tensorflow and python 2.7.",
     "Code": "https://github.com/haotianteng/Chiron",
@@ -448,7 +433,6 @@
   {
     "Name": "Circlator",
     "DOIs": "10.1186/s13059-015-0849-0",
-    "Targetted_Technology": "All long reads",
     "Platform": "Python",
     "Description": "Circularizes genome assemblies",
     "Code": "https://github.com/sangerpathogens/circlator",
@@ -483,7 +467,6 @@
   },
   {
     "Name": "CS",
-    "Targetted_Technology": "ONT",
     "Description": "Generate isoform-based alignments and exon-based alignments",
     "Code": "https://github.com/mohanbolisetty/dscam_nanopore",
     "ONT": true,
@@ -505,7 +488,6 @@
   {
     "Name": "D-GENIES",
     "DOIs": "10.7717/peerj.4958",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "Python",
     "Description": "An online tool designed to compare two genomes. It supports large genome and you can interact with the dot plot to improve the visualisation",
     "Code": "http://dgenies.toulouse.inra.fr/",
@@ -538,7 +520,6 @@
   {
     "Name": "DALIGNER",
     "DOIs": "10.1007/978-3-662-44753-6_5",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "C",
     "Description": "Utilizes efficient k-mer matching to detect long-read overlaps and must rely heavily on filtering repetitive k-mers for efficiency as all k-mers in all reads are considered.",
     "Code": "https://github.com/thegenemyers/DALIGNER",
@@ -572,7 +553,6 @@
   {
     "Name": "davidcoffey/MinION",
     "DOIs": "10.1038/s41467-017-01343-4",
-    "Targetted_Technology": "ONT",
     "Platform": "Shell",
     "Description": "A pipeline for calling structural variants",
     "Code": "https://github.com/davidcoffey/MinION",
@@ -606,7 +586,6 @@
   {
     "Name": "DeepSimulator",
     "DOIs": "10.1093/bioinformatics/bty223",
-    "Targetted_Technology": "ONT",
     "Platform": "C, Python",
     "Description": "Deep learning based Nanopore simulator which can simulate the process of Nanopore sequencing.",
     "Code": "https://github.com/lykaust15/DeepSimulator",
@@ -639,7 +618,6 @@
   },
   {
     "Name": "F5c",
-    "Targetted_Technology": "ONT",
     "Platform": "C",
     "Description": "A faster implementation of Nanopolish call-methylation in C",
     "Code": "https://github.com/hasindu2008/f5c",
@@ -662,7 +640,6 @@
   {
     "Name": "Falcon",
     "DOIs": "10.1038/nmeth.4035",
-    "Targetted_Technology": "PacBio",
     "Platform": "Python",
     "Description": "OLC approach",
     "Code": "https://github.com/PacificBiosciences/FALCON",
@@ -696,7 +673,6 @@
   },
   {
     "Name": "Filtlong",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "C++",
     "Description": "Filter long read data by quality and create a subset of smaller but “better” in quality based on read length and read identity",
     "Code": "https://github.com/rrwick/filtlong",
@@ -719,7 +695,6 @@
   {
     "Name": "Flye",
     "DOIs": "10.1073/pnas.1604560113",
-    "Targetted_Technology": "All long reads",
     "Platform": "Python",
     "Description": "Combination of de bruijin graph and OLC approach",
     "Code": "https://github.com/fenderglass/Flye",
@@ -754,7 +729,6 @@
   {
     "Name": "Gmap",
     "DOIs": "10.1093/bioinformatics/bti310",
-    "Targetted_Technology": "PacBio",
     "Code": "http://research-pub.gene.com/gmap/",
     "ONT": true,
     "PacBio": true,
@@ -784,7 +758,6 @@
   },
   {
     "Name": "haplotyped-methylome",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Reproducibility workflow for Gigante et al., 2018: Using long-read sequencing to detect imprinted DNA methylation",
     "Code": "https://github.com/scottgigante/haplotypedmethylome",
@@ -807,7 +780,6 @@
   {
     "Name": "HGAP",
     "DOIs": "10.1038/nmeth.2474",
-    "Targetted_Technology": "PacBio",
     "Platform": "Python",
     "Description": "A pipeline for assembling reads and error correcting",
     "Code": "https://github.com/ben-lerch/HGAP-3.0",
@@ -841,7 +813,6 @@
   {
     "Name": "Hinge",
     "DOIs": "10.1101/gr.216465.116",
-    "Targetted_Technology": "All long reads",
     "Platform": "C++",
     "Description": "It is an OLC(Overlap-Layout-Consensus) assembler",
     "Code": "https://github.com/HingeAssembler/HINGE",
@@ -876,7 +847,6 @@
   {
     "Name": "INC-Seq",
     "DOIs": "10.1093/bioinformatics/bty191",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Extracts repeating sequence segments and corrects them by constructing a consensus sequence",
     "Code": "https://github.com/CSB5/INCSeq",
@@ -909,7 +879,6 @@
   },
   {
     "Name": "levelfind_poreseq",
-    "Targetted_Technology": "ONT",
     "Platform": "Jupyter Notebook",
     "Description": "Extract signal levels and noise information of DNA bases using a Bayesian model",
     "Code": "https://github.com/luplatina/levelfind_poreseq",
@@ -932,7 +901,6 @@
   {
     "Name": "LQS",
     "DOIs": "10.1038/nmeth.3444",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Code": "https://github.com/jts/nanopore-paper-analysis",
     "ONT": true,
@@ -965,7 +933,6 @@
   {
     "Name": "Mandalorion-Episode II",
     "DOIs": "10.1038/ncomms16027",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Mandalorion defines isoforms based on splice site, TSS and polyA site usage",
     "Code": "https://github.com/rvolden/MandalorionEpisodeII",
@@ -999,7 +966,6 @@
   {
     "Name": "marginCaller",
     "DOIs": "10.1038/nmeth.3290",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Currently through this model it is possible to get multiple substitutions called at a site, if two non-reference bases both have posterior probability greater than 0.3. Margincaller does not currently report reference base probs",
     "Code": "https://github.com/benedictpaten/marginAlign",
@@ -1033,7 +999,6 @@
   {
     "Name": "MARVEL",
     "DOIs": "10.1038/nature25458",
-    "Targetted_Technology": "PacBio",
     "Platform": "C",
     "Description": "A tool that provides overlapping, patching, correction and assembly of long reads",
     "Code": "https://github.com/schloi/MARVEL",
@@ -1068,7 +1033,6 @@
   {
     "Name": "MaSuRCA",
     "DOIs": "10.1101/gr.213405.116",
-    "Targetted_Technology": "ONT, PacBio, Illumina",
     "Platform": "M4",
     "Description": "Combines the benefits of deBruijn graph and Overlap-Layout-Consensus assembly approaches. Since version 3.2.1 it supports hybrid assembly with short Illumina reads and long high error PacBio/MinION data",
     "Code": "https://github.com/alekseyzimin/masurca",
@@ -1103,7 +1067,6 @@
   {
     "Name": "mCaller",
     "DOIs": "10.1101/127100",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "A binary classifier to improve bacterial base modification N6-methyladenine (m6a) classification by marking adenines as methylated or unmethylated based on differences between measured and expected current values as each adenine travels through the nanopore.",
     "Code": "https://github.com/almcintyre/mCaller",
@@ -1137,7 +1100,6 @@
   {
     "Name": "MECAT",
     "DOIs": "10.1038/nmeth.4432",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "C++",
     "Description": "an ultra-fast Mapping, Error Correction and de novo Assembly Tool.",
     "Code": "https://github.com/xiaochuanle/MECAT",
@@ -1172,7 +1134,6 @@
   {
     "Name": "MetaSV",
     "DOIs": "10.1093/bioinformatics/btv204",
-    "Targetted_Technology": "ONT, PacBio, Illumina",
     "Platform": "Python",
     "Code": "https://github.com/bioinform/metasv",
     "ONT": true,
@@ -1205,7 +1166,6 @@
   {
     "Name": "MHAP",
     "DOIs": "10.1038/nbt.3238",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "Java",
     "Description": "Uses a dimensionality reduction technique named minhash to create a more compact representation of sequencing reads. Originally developed to determine the similarity of web pages, minhash reduces a text or string to a small set of fingerprints, called a sketch.",
     "Code": "https://github.com/marbl/MHAP",
@@ -1239,7 +1199,6 @@
   {
     "Name": "miniasm",
     "DOIs": "10.1093/bioinformatics/bty191",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "Tex",
     "Description": "Takes all-vs-all read self-mappings (typically by minimap) as input and outputs an assembly graph in the GFA format. Different from mainstream assemblers, miniasm does not have a consensus step. It simply concatenates pieces of read sequences to generate the final contig sequences. Thus, the per-base error rate is similar to the raw input reads.",
     "Code": "https://github.com/lh3/miniasm",
@@ -1274,7 +1233,6 @@
   {
     "Name": "Minidot",
     "DOIs": "10.1093/bioinformatics/btw152",
-    "Targetted_Technology": "ONT",
     "Platform": "R",
     "Description": "Creates dotplots from minimap2 results",
     "Code": "https://github.com/thackl/minidot",
@@ -1308,7 +1266,6 @@
   {
     "Name": "Minimap2",
     "DOIs": "10.1093/bioinformatics/bty191",
-    "Targetted_Technology": "ONT, PacBio, Illumina",
     "Platform": "C",
     "Description": "Maps reads to a human genome",
     "Code": "https://github.com/lh3/minimap2",
@@ -1342,7 +1299,6 @@
   {
     "Name": "MultiQC",
     "DOIs": "10.1093/bioinformatics/btw354",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "Python",
     "Description": "Summarise and analyse results for multiple tools and samples in a single report",
     "Code": "https://multiqc.info/",
@@ -1375,7 +1331,6 @@
   },
   {
     "Name": "nano-snakemake",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "A set of snakemake pipelines for nanopore whole genome sequencing processing and analysis.",
     "Code": "https://github.com/wdecoster/nanosnakemake",
@@ -1398,7 +1353,6 @@
   {
     "Name": "Nanocorr",
     "DOIs": "10.1101/gr.191395.115",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Error correction tool for ONT data",
     "Code": "https://github.com/jgurtowski/nanocorr",
@@ -1433,7 +1387,6 @@
   {
     "Name": "Nanocorrect*",
     "DOIs": "10.1038/nmeth.3444",
-    "Targetted_Technology": "ONT",
     "Platform": "Jupyter Notebook",
     "Description": "A simple error correction method inspired by pbdagcon. Quite slow and other methods have superceeded the capability of this tiool. Hence, it was depriciated.",
     "Code": "https://github.com/jts/nanocorrect",
@@ -1467,7 +1420,6 @@
   },
   {
     "Name": "nanoflow",
-    "Targetted_Technology": "ONT",
     "Platform": "R",
     "Description": "Bioinformatics pipeline for nanopore sequencing data",
     "Code": "https://github.com/zhaoc1/nanoflow",
@@ -1489,7 +1441,6 @@
   },
   {
     "Name": "NanoGrid",
-    "Targetted_Technology": "ONT",
     "Platform": "Shell",
     "Description": "A parallel wrapper around the Nanopolish framework",
     "Code": "https://github.com/skoren/NanoGrid",
@@ -1512,7 +1463,6 @@
   {
     "Name": "NanoPack",
     "DOIs": "10.1093/bioinformatics/bty149",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "Python",
     "Description": "A set of tools developed for visualization and processing of long-read sequencing data from Oxford Nanopore Technologies and Pacific Biosciences.",
     "Code": "https://github.com/wdecoster/nanopack",
@@ -1546,7 +1496,6 @@
   },
   {
     "Name": "NanoPipe",
-    "Targetted_Technology": "ONT",
     "Platform": "Perl",
     "Description": "Provides alignments to any target of interest, alignment statistics and information about polymorphisms",
     "Code": "https://github.com/IOBMuenster/nanopipe2",
@@ -1569,7 +1518,6 @@
   {
     "Name": "NanoPlot",
     "DOIs": "10.1093/bioinformatics/bty149",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "Python",
     "Description": "Plotting reads and alignments",
     "Code": "https://github.com/wdecoster/NanoPlot",
@@ -1604,7 +1552,6 @@
   {
     "Name": "nanoplotter",
     "DOIs": "10.1093/bioinformatics/bty150",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Plotting functions of Oxford Nanopore sequencing data",
     "Code": "https://github.com/wdecoster/nanoplotter",
@@ -1639,7 +1586,6 @@
   {
     "Name": "nanopolish",
     "DOIs": "10.1038/nmeth.4184",
-    "Targetted_Technology": "ONT",
     "Platform": "C++",
     "Description": "An algorthm to analyse ONT data at signal level",
     "Code": "https://github.com/jts/nanopolish",
@@ -1673,7 +1619,6 @@
   },
   {
     "Name": "NanopolishComp",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Upstream pre-processing and downstream analysis of nanopolish",
     "Code": "https://github.com/aslide/NanopolishComp",
@@ -1695,7 +1640,6 @@
   },
   {
     "Name": "nanopore",
-    "Targetted_Technology": "ONT",
     "Platform": "C",
     "Description": "UCSC Nanopore group's software pipeline for reference-based sequence analysis",
     "Code": "https://github.com/mitenjain/nanopore",
@@ -1718,7 +1662,6 @@
   {
     "Name": "nanoraw",
     "DOIs": "10.1101/094672",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "The first algorithm for the identification of modified nucleotides without the need for prior training data along with the open source software implementation.",
     "Code": "https://github.com/marcus1487/nanoraw",
@@ -1753,7 +1696,6 @@
   {
     "Name": "NanoSV",
     "DOIs": "10.1038/s41467-017-01343-4",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "Python",
     "Description": "Identifies split- and gapped-aligned reads and clusters the reads according to the orientations and genomic positions of the read segments to define breakpoint-junctions of structural variations",
     "Code": "https://github.com/mroosmalen/nanosv",
@@ -1787,7 +1729,6 @@
   },
   {
     "Name": "nanotest",
-    "Targetted_Technology": "ONT",
     "Platform": "Shell",
     "Description": "Small test datasets for testing nanopack scripts and modules",
     "Code": "https://github.com/wdecoster/nanotest",
@@ -1810,7 +1751,6 @@
   {
     "Name": "NaS",
     "DOIs": "10.1186/s12864-015-1519-z",
-    "Targetted_Technology": "ONT",
     "Platform": "Perl",
     "Description": "Combines Illumina and Oxford Nanopore technologies to produce synthetic aligned reads upto 60kb with no errors and spans repetitive regions",
     "Code": "https://github.com/institutdegenomique/NaS",
@@ -1844,7 +1784,6 @@
   },
   {
     "Name": "pbbioconda",
-    "Targetted_Technology": "PacBio",
     "Description": "The integration of alignment, polishing, variant calling, SV analysis, etc. In one package",
     "Code": "https://github.com/PacificBiosciences/pbbioconda",
     "ONT": false,
@@ -1866,7 +1805,6 @@
   {
     "Name": "PBcR*",
     "DOIs": "10.1038/nbt.3238",
-    "Targetted_Technology": "PacBio, ONT",
     "Description": "A correction algorithm and assembly strategy that uses short, high-fidelity sequences to correct the error in single-molecule sequences.",
     "Code": "http://wgsassembler.sourceforge.net",
     "License": "GNU General Public License v2.0",
@@ -1898,7 +1836,6 @@
   },
   {
     "Name": "pbdagcon",
-    "Targetted_Technology": "PacBio",
     "Platform": "C++",
     "Description": "Have implemented DAGCon (Directed Acyclic Graph Consensus) which is a sequence consensus algorithm based on using directed acyclic graphs to encode multiple sequence alignment",
     "Code": "https://github.com/PacificBiosciences/pbdagcon",
@@ -1922,7 +1859,6 @@
   {
     "Name": "PBHoney",
     "DOIs": "10.1186/1471-2105-15-180",
-    "Targetted_Technology": "PacBio",
     "Platform": "Python",
     "Description": "Considers both intra-read discordance and soft-clipped tails of long reads to identify structural variants.",
     "Code": "https://sourceforge.net/projects/pbjelly/",
@@ -1955,7 +1891,6 @@
   {
     "Name": "pbssc",
     "DOIs": "10.1111/mmi.13873",
-    "Targetted_Technology": "PacBio",
     "Platform": "Python",
     "Description": "PacBio's CCS method in SMRT Analysis 2.3 cannot distinguish between the strands of heteroduplex amplicons, so pbssc is a workaround method that is compatible with SMRT Analysis 2.3 and the .bax.h5 files generated from RSII instruments.",
     "Code": "https://github.com/verheytb/pbssc",
@@ -1989,7 +1924,6 @@
   },
   {
     "Name": "pbsv",
-    "Targetted_Technology": "PacBio",
     "Platform": "Python",
     "Description": "A suite of tools to call and analyse structural variants in diploid genomes",
     "Code": "https://github.com/PacificBiosciences/pbsv",
@@ -2011,7 +1945,6 @@
   },
   {
     "Name": "Pbsv_polish",
-    "Targetted_Technology": "PacBio",
     "Platform": "Python",
     "Description": "Polish structural variants",
     "Code": "https://github.com/ylipacbio/pbsv_polish",
@@ -2034,7 +1967,6 @@
   {
     "Name": "Pilon",
     "DOIs": "10.1371/journal.pone.0112963",
-    "Targetted_Technology": "Illumina",
     "Platform": "Scala",
     "Description": "Improving draft assemblies and find variants among strains",
     "Code": "https://github.com/broadinstitute/pilon",
@@ -2068,7 +2000,6 @@
   },
   {
     "Name": "pinfish",
-    "Targetted_Technology": "ONT",
     "Platform": "Go",
     "Description": "Annotate genomes using ONT data",
     "Code": "https://github.com/nanoporetech/pinfish",
@@ -2091,7 +2022,6 @@
   },
   {
     "Name": "pipeline-pinfish-analysis",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Annotating genomes using long read transcriptomics data with pinfish",
     "Code": "https://github.com/nanoporetech/pipelinepinfishanalysis",
@@ -2114,7 +2044,6 @@
   },
   {
     "Name": "plotnanopolish",
-    "Targetted_Technology": "ONT",
     "Platform": "R",
     "Description": "Scripts for plotting nanopolish methylation data",
     "Code": "https://github.com/gilfunk/plotnanopolish",
@@ -2136,7 +2065,6 @@
   },
   {
     "Name": "Porechop*",
-    "Targetted_Technology": "ONT",
     "Platform": "C++",
     "Description": "Remove adapters through alignments",
     "Code": "https://github.com/rrwick/Porechop",
@@ -2158,7 +2086,6 @@
   },
   {
     "Name": "poreFUME",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Analysis pipeline for functional metagenomic sequencing data obtained using nanopore sequencing",
     "Code": "https://github.com/EvdH0/poreFUME",
@@ -2180,7 +2107,6 @@
   },
   {
     "Name": "poremap",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Pipeline for nanopore read alignment and statistics",
     "Code": "https://github.com/camillaip/poremap",
@@ -2202,7 +2128,6 @@
   },
   {
     "Name": "Poreplex",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "A signal-level pre-processor for Oxford Nanopore direct RNA sequencing (DRS) data that does alignments with minimap2 and outputs fastq files for further processing.",
     "Code": "https://github.com/hyeshik/poreplex",
@@ -2226,7 +2151,6 @@
   },
   {
     "Name": "POREquality",
-    "Targetted_Technology": "ONT",
     "Platform": "R",
     "Description": "An R Markdown script designed to run as part of a Nanopore local base calling pipeline. Porequality reads Nanopore sequencing summary files to generate an aesthetically pleasing HTML report to facilitate the visualization of key metrics.",
     "Code": "https://github.com/carsweshau/POREquality",
@@ -2249,7 +2173,6 @@
   {
     "Name": "PoreSeq",
     "DOIs": "10.1038/nbt.3360",
-    "Targetted_Technology": "ONT",
     "Platform": "C++",
     "Description": "De novo sequence using the discretised ionic current data from an arbitrary number of independent nanopore reads of the same region of DNA",
     "Code": "https://github.com/tszalay/poreseq",
@@ -2283,7 +2206,6 @@
   {
     "Name": "poreTally",
     "DOIs": "10.1101/424184",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Benchmarking of assembling tools (e.g. Canu, minimap2, for user provided datasets",
     "Code": "https://github.com/cvdelannoy/poreTally",
@@ -2317,7 +2239,6 @@
   {
     "Name": "Poretools",
     "DOIs": "10.1093/bioinformatics/btu555",
-    "Targetted_Technology": "ONT",
     "Platform": "Jupyter Notebook",
     "Description": "Provide a python-based toolkit for flexible exploration of minION generated data for the purposes of quality control and downstream analysis.",
     "Code": "https://github.com/arq5x/poretools",
@@ -2351,7 +2272,6 @@
   },
   {
     "Name": "pychopper",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "Tool to identify full length cDNA reads",
     "Code": "https://github.com/nanoporetech/pychopper",
@@ -2374,7 +2294,6 @@
   },
   {
     "Name": "pycoQC",
-    "Targetted_Technology": "ONT",
     "Platform": "Jupyter Notebook",
     "Description": "Computing metrics and generating plots from Oxford Nanopore Albacore report",
     "Code": "https://github.com/aslide/pycoQC",
@@ -2398,7 +2317,6 @@
   {
     "Name": "QUAST",
     "DOIs": "10.1093/bioinformatics/btt086",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "C++",
     "Description": "Evaluating large-scale genome assemblies",
     "Code": "https://github.com/ablab/quast",
@@ -2433,7 +2351,6 @@
   {
     "Name": "QUAST-LG",
     "DOIs": "10.1093/bioinformatics/bty266",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "Python",
     "Description": "Improved version of QUAST",
     "Code": "http://cab.spbu.ru/software/quastlg/",
@@ -2466,7 +2383,6 @@
   {
     "Name": "R2C2",
     "DOIs": "10.1073/pnas.1806447115",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "More accurate reads from nanopore sequencing through Rolling Circle Amplification to Concatemeric Consensus method",
     "Code": "https://github.com/rvolden/C3POa",
@@ -2500,7 +2416,6 @@
   },
   {
     "Name": "satlacc",
-    "Targetted_Technology": "ONT",
     "Platform": "R",
     "Description": "Trims adapter sequences, retrieves optional UMI's, clusters reads and produces a consensus sequence for each cluster after multiple sequence alignment",
     "Code": "https://github.com/MarioniLab/sarlacc",
@@ -2523,7 +2438,6 @@
   },
   {
     "Name": "scrappie",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Code": "https://github.com/nanoporetech/scrappie",
     "License": "Mozilla Public License Version 2.0",
@@ -2546,7 +2460,6 @@
   },
   {
     "Name": "shishir-reddy/nanopore-pipeline",
-    "Targetted_Technology": "ONT",
     "Platform": "Shell",
     "Description": "Based on David Coffey’s pipeline above",
     "Code": "https://github.com/shishirreddy/nanoporepipeline",
@@ -2569,7 +2482,6 @@
   {
     "Name": "SignalAlign",
     "DOIs": "10.1038/nmeth.4189",
-    "Targetted_Technology": "ONT",
     "Platform": "C",
     "Description": "This paper presents one of the first methods able to detect methylation changes directly from Oxford Nanopore long- read sequencing. It can detect three cytosine variants and two adenine variants.",
     "Code": "https://github.com/ArtRand/signalAlign",
@@ -2604,7 +2516,6 @@
   {
     "Name": "SMARTdenovo",
     "DOIs": "10.1016/0022-2836(70)90057-4",
-    "Targetted_Technology": "All long reads",
     "Platform": "C",
     "Description": "Overlap-layout-consensus (OLC) approach",
     "Code": "https://github.com/ruanjue/smartdenovo",
@@ -2638,7 +2549,6 @@
   {
     "Name": "SMRT-SV",
     "DOIs": "10.1038/nature13907",
-    "Targetted_Technology": "PacBio",
     "Platform": "Python",
     "Description": "Structural variant (SV) and indel caller for PacBio reads ",
     "Code": "https://github.com/EichlerLab/pacbio_variant_caller",
@@ -2672,7 +2582,6 @@
   {
     "Name": "Sniffles",
     "DOIs": "10.1101/169557",
-    "Targetted_Technology": "ONT, PacBio",
     "Platform": "HTML",
     "Description": "Uses evidence from split-read alignments, high-mismatch regions, and coverage analysis from sorted alignment outputs of BWA-MEM",
     "Code": "https://github.com/fritzsedlazeck/Sniffles",
@@ -2706,7 +2615,6 @@
   {
     "Name": "SPAdes",
     "DOIs": "10.1089/cmb.2012.0021",
-    "Targetted_Technology": "All long reads",
     "Platform": "Python",
     "Description": "Tested on bacterial genome and uses de Bruijn graph approach.",
     "Code": "http://cab.spbu.ru/software/spades/",
@@ -2740,7 +2648,6 @@
   {
     "Name": "SURVIVOR",
     "DOIs": "10.1038/ncomms14061",
-    "Targetted_Technology": "ONT, PacBio, Illumina",
     "Code": "https://github.com/fritzsedlazeck/SURVIVOR",
     "ONT": true,
     "PacBio": false,
@@ -2772,7 +2679,6 @@
   {
     "Name": "TAPIS",
     "DOIs": "10.1038/ncomms11706",
-    "Targetted_Technology": "PacBio",
     "Platform": "Python",
     "Description": "For correcting and aligning long reads with/without a second generation reads, transcript clustering, novel and full-length splice isoform detection, and identification and analysis of polyAdenylation (poly(A)) and alternative poly(A) (APA).",
     "Code": "https://bitbucket.org/comp_bio/tapis",
@@ -2805,7 +2711,6 @@
   {
     "Name": "ToFU",
     "DOIs": "10.1038/nbt.3242",
-    "Targetted_Technology": "PacBio",
     "Code": "https://github.com/PacificBiosciences/IsoSeq_SA3nUP",
     "ONT": false,
     "PacBio": true,
@@ -2837,7 +2742,6 @@
   {
     "Name": "Tombo",
     "DOIs": "10.1038/nmeth.4184",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "A suite of tools primarily for the identification of modified nucleotides",
     "Code": "https://github.com/nanoporetech/tombo",
@@ -2870,7 +2774,6 @@
   },
   {
     "Name": "unanimity",
-    "Targetted_Technology": "PacBio",
     "Platform": "Python",
     "Code": "https://github.com/PacificBiosciences/unanimity",
     "License": "BSD 3Clause Clear License",
@@ -2893,7 +2796,6 @@
   {
     "Name": "Unicycler",
     "DOIs": "10.1371/journal.pcbi.1005595",
-    "Targetted_Technology": "ONT, PacBio, Illumina",
     "Platform": "C++",
     "Description": "Assemble Illumina (uses spades), ONT, PacBio (uses miniasm+Racon) or hybrid data for bacterial genomes",
     "Code": "https://github.com/rrwick/unicycler",
@@ -2927,7 +2829,6 @@
   },
   {
     "Name": "WUB",
-    "Targetted_Technology": "ONT",
     "Platform": "Python",
     "Description": "A repository of available tools from ONT",
     "Code": "https://github.com/nanoporetech/wub",

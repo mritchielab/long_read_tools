@@ -126,14 +126,14 @@
                         <th data-field="Code" data-sortable="true" data-visible="false">Source</th>
                         <th data-field="Description" data-sortable="true" data-visible="false">Description</th>
                         <th data-field="License" data-sortable="true" data-visible="true">License</th>
-                        <th data-field="Technologies" data-sortable="true" data-visible="true" data-filter-control="select" data-formatter="techsFormatter">Technologies in Focus</th>
-                        <th data-field="ONT" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Oxford Nanopore</th>
-                        <th data-field="PacBio" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Pac Bio</th>
-                        <th data-field="tenX_Genomics" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">10X Genomics</th>
-                        <th data-field="All_Long_Reads" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">All long reads</th>
-                        <th data-field="Illumina" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Illumina</th>
-                        <th data-field="BioNano_Genomics" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Bio-Nano Genomics</th>
-                        <th data-field="HiC" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Hi-C</th>
+                        <th data-field="Technologies" data-sortable="true" data-visible="true" data-formatter="techsFormatter">Technologies in Focus</th>
+                        <th data-field="ONT" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">Oxford Nanopore</th>
+                        <th data-field="PacBio" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">PacBio</th>
+                        <th data-field="tenX_Genomics" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">10X Genomics</th>
+                        <th data-field="All_Long_Reads" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">All long reads</th>
+                        <th data-field="Illumina" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">Illumina</th>
+                        <th data-field="BioNano_Genomics" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">Bio-Nano Genomics</th>
+                        <th data-field="HiC" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">Hi-C</th>
                         <th data-field="Categories" data-sortable="true" data-visible="true" data-filter-control="select" data-formatter="catsFormatter">Categories</th>
                         <th data-field="BaseCalling" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Base Calling</th>
                         <th data-field="LongReadOverlapping" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Long Read Overlapping</th>
@@ -171,6 +171,15 @@
 
     <script>
         function logicalFormatter (value) {
+          var colour = '#ff9999'
+          if (value) {
+            colour = '#009933'
+          }
+
+          return '<span  style="color: ' + colour + '">' + value + '</div>'
+        }
+        
+        function logicalFormatter2 (value) {
           var colour = '#ff9999'
           if (value) {
             colour = '#009933'

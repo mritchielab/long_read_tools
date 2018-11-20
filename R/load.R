@@ -11,7 +11,6 @@ get_swsheet <- function() {
                                  .default = readr::col_logical(),
                                  Tool = readr::col_character(),
                                  DOI = readr::col_character(),
-                                 Targetted_Technology = readr::col_character(),
                                  Programming_Language = readr::col_character(),
                                  Details = readr::col_character(),
                                  Source = readr::col_character(),
