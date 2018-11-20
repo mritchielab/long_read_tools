@@ -119,7 +119,6 @@ plot_platforms <- function(swsheet) {
 }
 
 
-
 #' Plot categories
 #'
 #' Produces a HTML page with an interactive plot showing the percentage of tools
@@ -131,13 +130,13 @@ plot_categories <- function(swsheet) {
     `%>%` <- magrittr::`%>%`
 
     catcounts <- swsheet %>%
-        dplyr::summarise_at(8:28, sum) %>%
+        dplyr::summarise_at(15:37, sum) %>%
         tidyr::gather(key = Category, value = Count) %>%
         dplyr::arrange(-Count, Category) %>%
         dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
-        dplyr::mutate(Category = stringr::str_replace_all(Category,
-                                                          "([[:upper:]])",
-                                                          " \\1")) %>%
+        #dplyr::mutate(Category = stringr::str_replace_all(Category,
+        #                                                  "([[:upper:]])",
+        #                                                  " \\1")) %>%
         dplyr::mutate(Category = stringr::str_trim(Category)) %>%
         dplyr::mutate(Category = factor(Category, levels = Category)) %>%
         dplyr::mutate(Percent = round(Prop * 100, 1))
