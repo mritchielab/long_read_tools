@@ -101,8 +101,7 @@ process_csv <- function(skip_shields = FALSE, skip_cites = FALSE,
     make_table_json(swsheet)
     make_tools_json(tidysw_cat)
     make_cats_json(tidysw_cat, swsheet, descs)
-
-
+    make_techs_json(tidysw_tech, swsheet, descs)
 
     flog.info("***** Performing analysis *****")
     if (!skip_analysis) {
