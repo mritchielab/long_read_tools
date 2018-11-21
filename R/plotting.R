@@ -70,20 +70,23 @@ plot_platforms <- function(swsheet) {
         dplyr::select(Platform) %>%
         dplyr::mutate(IsR = stringr::str_detect(Platform, "R"),
                       IsPython = stringr::str_detect(Platform, "Python"),
-                      IsMATLAB = stringr::str_detect(Platform, "MATLAB"),
+                      IsC = stringr::str_detect(Platform, "C"),
                       IsCPP = stringr::str_detect(Platform, "C++"),
-                      IsOther = !(IsR | IsPython | IsMATLAB | IsCPP)) %>%
-        dplyr::summarise(R = sum(IsR),
-                         Python = sum(IsPython),
-                         MATLAB = sum(IsMATLAB),
-                         CPP = sum(IsCPP),
-                  Other = sum(IsOther)) %>%
+                      IsUnknown = is.na(Platform),
+                      IsOther = !(IsR | IsPython | IsC | IsCPP |
+                                    IsUnknown)) %>%
+        dplyr::summarise(R = sum(IsR, na.rm = TRUE),
+                         Python = sum(IsPython, na.rm = TRUE),
+                         C = sum(IsC, na.rm = TRUE),
+                         CPP = sum(IsCPP, na.rm = TRUE),
+                         Other = sum(IsOther, na.rm = TRUE),
+                         Unknown = sum(IsUnknown)) %>%
         tidyr::gather(key = Platform, value = Count) %>%
         dplyr::mutate(Platform = factor(Platform,
-                                        levels = c("R", "Python", "MATLAB",
-                                                   "CPP", "Other"),
-                                        labels = c("R", "Python", "MATLAB",
-                                                   "C++", "Other")),
+                                        levels = c("Python", "R", "C",
+                                                   "CPP", "Other", "Unknown"),
+                                        labels = c("Python", "R", "C",
+                                                   "C++", "Other", "Unknown")),
                       Percent = round(Count / sum(Count) * 100, 1),
                       Label = paste0(Platform, "\n", Percent, "%")) %>%
         ggplot2::ggplot(ggplot2::aes(x = Platform, weight = Count,
@@ -116,7 +119,6 @@ plot_platforms <- function(swsheet) {
 }
 
 
-
 #' Plot categories
 #'
 #' Produces a HTML page with an interactive plot showing the percentage of tools
@@ -128,13 +130,13 @@ plot_categories <- function(swsheet) {
     `%>%` <- magrittr::`%>%`
 
     catcounts <- swsheet %>%
-        dplyr::summarise_at(8:28, sum) %>%
+        dplyr::summarise_at(15:37, sum) %>%
         tidyr::gather(key = Category, value = Count) %>%
         dplyr::arrange(-Count, Category) %>%
         dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
-        dplyr::mutate(Category = stringr::str_replace_all(Category,
-                                                          "([[:upper:]])",
-                                                          " \\1")) %>%
+        #dplyr::mutate(Category = stringr::str_replace_all(Category,
+        #                                                  "([[:upper:]])",
+        #                                                  " \\1")) %>%
         dplyr::mutate(Category = stringr::str_trim(Category)) %>%
         dplyr::mutate(Category = factor(Category, levels = Category)) %>%
         dplyr::mutate(Percent = round(Prop * 100, 1))
