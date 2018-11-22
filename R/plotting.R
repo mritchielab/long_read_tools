@@ -118,6 +118,57 @@ plot_platforms <- function(swsheet) {
                             selfcontained = FALSE, libdir = "libraries")
 }
 
+#' Plot technologies
+#'
+#' Produces a HTML page with an interactive plot showing the percentage of tools
+#' in each technology
+#'
+#' @param swsheet Tibble containing software table
+plot_technologies <- function(swsheet) {
+  
+  `%>%` <- magrittr::`%>%`
+  
+  techcounts <- swsheet %>%
+    dplyr::summarise_at(7:13, sum) %>%
+    tidyr::gather(key = Technology, value = Count) %>%
+    dplyr::arrange(-Count, Technology) %>%
+    dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
+    dplyr::mutate(Technology = ifelse(Technology == "tenxGenomics", "10X Genomics", Technology)) %>% 
+    dplyr::mutate(Technology = ifelse(Technology == "OxfordNanopore", "Oxford Nanopore", Technology)) %>% 
+    dplyr::mutate(Technology = ifelse(Technology == "AllLongReads", "All Long Reads", Technology)) %>% 
+    dplyr::mutate(Technology = ifelse(Technology == "BionanoGenomics", "Bio-Nano Genomics", Technology)) %>% 
+    dplyr::mutate(Technology = ifelse(Technology == "HiC", "Hi-C", Technology )) %>%
+    dplyr::mutate(Technology = factor(Technology, levels = Technology)) %>%
+    dplyr::mutate(Percent = round(Prop * 100, 1))
+  
+  plot <- ggplot2::ggplot(techcounts,
+                          ggplot2::aes(x = Technology, weight = Prop,
+                                       text = paste("Count:", Count, "\n",
+                                                    "Percent:", Percent))) +
+    ggplot2::geom_bar(fill = "#519FC7") +
+    ggplot2::scale_y_continuous(labels = scales::percent) +
+    ggplot2::ylab("Percentage of tools") +
+    ggplot2::ggtitle("Technologies") +
+    cowplot::theme_cowplot() +
+    ggplot2::theme(axis.title.x = ggplot2::element_blank(),
+                   legend.position = "none",
+                   legend.title    = ggplot2::element_text(size = 14),
+                   legend.text     = ggplot2::element_text(size = 12),
+                   legend.key.size = ggplot2::unit(25, "points"),
+                   plot.title      = ggplot2::element_text(size = 20),
+                   axis.text       = ggplot2::element_text(size = 12),
+                   axis.text.x     = ggplot2::element_text(angle = 60, hjust = 1,
+                                                           vjust = 0.5)
+    )
+  
+  plot <- plotly::ggplotly(plot, tooltip = c("x", "text")) %>%
+    plotly::layout(margin = list(l = 80, r = 10, b = 200, t = 50))
+  
+  htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
+                          file.path(getwd(), "docs/plots/technologies.html"),
+                          selfcontained = FALSE, libdir = "libraries")
+}
+
 
 #' Plot categories
 #'
@@ -130,13 +181,11 @@ plot_categories <- function(swsheet) {
     `%>%` <- magrittr::`%>%`
 
     catcounts <- swsheet %>%
-        dplyr::summarise_at(15:37, sum) %>%
+        dplyr::summarise_at(14:36, sum) %>%
         tidyr::gather(key = Category, value = Count) %>%
         dplyr::arrange(-Count, Category) %>%
         dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
-        #dplyr::mutate(Category = stringr::str_replace_all(Category,
-        #                                                  "([[:upper:]])",
-        #                                                  " \\1")) %>%
+        dplyr::mutate(Category = ifelse(Category == "SNPAndVariantAnalysis", "SNP And Variant Analysis", gsub("([a-z])([A-Z])", "\\1 \\2", Category)))%>%
         dplyr::mutate(Category = stringr::str_trim(Category)) %>%
         dplyr::mutate(Category = factor(Category, levels = Category)) %>%
         dplyr::mutate(Percent = round(Prop * 100, 1))
@@ -145,7 +194,7 @@ plot_categories <- function(swsheet) {
                             ggplot2::aes(x = Category, weight = Prop,
                                          text = paste("Count:", Count, "\n",
                                                       "Percent:", Percent))) +
-        ggplot2::geom_bar(fill = "#7A52C7") +
+        ggplot2::geom_bar(fill = "#9FC751") +
         ggplot2::scale_y_continuous(labels = scales::percent) +
         ggplot2::ylab("Percentage of tools") +
         ggplot2::ggtitle("Categories") +
