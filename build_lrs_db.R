@@ -61,7 +61,7 @@ process_csv <- function(skip_shields = FALSE, skip_cites = FALSE,
     titles_cache <- get_cached_titles()
 
     # Add new titles
-    # titles_cache <- add_to_titles_cache(swsheet, titles_cache)
+     titles_cache <- add_to_titles_cache(swsheet, titles_cache)
 
     # Check repositories
     repos <- check_repos(swsheet$Name, pkgs)
