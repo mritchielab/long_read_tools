@@ -1,8 +1,8 @@
 $(document).ready(function () {
   /* --Variables------------------------------------------------------------- */
 
-  var catsContainer = $('#categories-list')
-  var jsonPath = 'data/categories.json'
+  var techsContainer = $('#technologies-list')
+  var jsonPath = 'data/technologies.json'
 
   /* --Functions------------------------------------------------------------- */
 
@@ -38,29 +38,35 @@ $(document).ready(function () {
     $.getJSON(jsonPath, function (data) {
       $.each(data, function (key, value) {
         /* -- Assign returned data -- */
-        var category = value.Category
-        var desc = value.Description
+        var tech = value.Technology
+        //var desc = value.Description
         var tools = value.Tools
 
         var entry = ''
         
-        var cat_str
-        if (category == "SNPAndVariantAnalysis") {
-          cat_str = "SNP And Variant Analysis"
+        var tech_str
+        if (tech == "PacBio") {
+          tech_str = tech
+        } else if (tech == "BionanoGenomics") {
+          tech_str = "Bio-Nano Genomics"
+        } else if (tech == "tenxGenomics") {
+          tech_str = "10X Genomics"  
+        } else if (tech == "HiC"){
+          tech_str = "Hi-C"
         } else {
-          cat_str = category.replace(/([a-z])([A-Z])/g, '$1 $2')
+          tech_str = tech.replace(/([a-z])([A-Z])/g, '$1 $2')
         }
         
         entry += '<div class="panel-heading">' +
-                 '<h4 id="' + category + '" class="panel-title">' +
-                 '<a data-toggle="collapse" class="accordion-toggle collapsed" href="#' + category + '_c">' + cat_str
+                 '<h4 id="' + tech + '" class="panel-title">' +
+                 '<a data-toggle="collapse" class="accordion-toggle collapsed" href="#' + tech + '_c">' + tech_str
 
         entry += '</a></h4></div>' +
-                 '<div id="' + category + '_c" class="panel-collapse collapse">' +
+                 '<div id="' + tech + '_c" class="panel-collapse collapse">' +
                  '<ul class="list-group">'
 
         // Add description
-        entry += '<li class="list-group-item"><h5>' + desc + '</h5></li>'
+        //entry += '<li class="list-group-item"><h5>' + desc + '</h5></li>'
 
         if (urlParams.has('sort')) {
           switch(urlParams.get('sort')) {
@@ -133,7 +139,7 @@ $(document).ready(function () {
         entry += '</ul>' + '</div>'
 
         /* -- Add it to the list! -- */
-        catsContainer.append(entry)
+        techsContainer.append(entry)
       })
 
       expandLinked()

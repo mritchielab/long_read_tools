@@ -13,8 +13,8 @@
 
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@LRS-DB" />
-        <meta name="twitter:title" content="LRS-DB main table" />
+        <meta name="twitter:site" content="@long_read_tools" />
+        <meta name="twitter:title" content="long_read_tools main table" />
         <meta name="twitter:description" content="Filter and sort long read data analysis tools" />
         <meta name="twitter:image" content="" />
 
@@ -71,7 +71,7 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
-                        <img id="db_banner" alt="LRS-DB" src="img/banner2.svg" />
+                        <img id="logo-image" alt="LRS-DB" src="img/banner.svg" />
                     </a>
                 </div>
                 <ul class="nav navbar-nav">
@@ -85,8 +85,8 @@
                     <li><a href="faqs.html">FAQs</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="https://twitter.com/LRs-DB"><i class="fa fa-twitter" style="font-size:28px"></i></a></li>
-                    <li><a href="https://github.com/shaniAmare/lrs_db"><i class="fa fa-github" style="font-size:28px"></i></a></li>
+                    <li><a href="https://twitter.com/long_read_tools"><i class="fa fa-twitter" style="font-size:28px"></i></a></li>
+                    <li><a href="https://github.com/shaniAmare/long_read_tools"><i class="fa fa-github" style="font-size:28px"></i></a></li>
                 </ul>
             </div>
         </nav>
@@ -127,40 +127,31 @@
                         <th data-field="Description" data-sortable="true" data-visible="false">Description</th>
                         <th data-field="License" data-sortable="true" data-visible="true">License</th>
                         <th data-field="Technologies" data-sortable="true" data-visible="true" data-formatter="techsFormatter">Technologies in Focus</th>
-                        <th data-field="ONT" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">Oxford Nanopore</th>
-                        <th data-field="PacBio" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">PacBio</th>
-                        <th data-field="tenX_Genomics" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">10X Genomics</th>
-                        <th data-field="All_Long_Reads" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">All long reads</th>
-                        <th data-field="Illumina" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">Illumina</th>
-                        <th data-field="BioNano_Genomics" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">Bio-Nano Genomics</th>
-                        <th data-field="HiC" data-sortable="true" data-visible="false" data-formatter="logicalFormatter2" data-filter-control="select">Hi-C</th>
-                        <th data-field="Categories" data-sortable="true" data-visible="true" data-filter-control="select" data-formatter="catsFormatter">Categories</th>
+                        <th data-field="Categories" data-sortable="true" data-visible="true" data-formatter="catsFormatter">Categories</th>
                         <th data-field="BaseCalling" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Base Calling</th>
                         <th data-field="LongReadOverlapping" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Long Read Overlapping</th>
                         <th data-field="DenovoAssembly" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select"><i>De-novo</i> Assembly</th>
                         <th data-field="Alignment" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Alignment</th>
                         <th data-field="GeneratingConsensusSequence" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Generating Consensus Sequence</th>
-                        <th data-field="ErrorCorrectionandPolishing" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Error Correction and Polishing</th>
+                        <th data-field="ErrorCorrectionAndPolishing" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Error Correction and Polishing</th>
                         <th data-field="EvaluatingExisitingMethods" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Evaluating Exisiting Methods</th>
                         <th data-field="IsoformDetection" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Isoform Detection</th>
                         <th data-field="MethylationDetection" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Methylation Detection</th>
                         <th data-field="QualityChecking" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Quality Checking</th>
-                        <th data-field="SNPandVariantAnalysis" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">SNP and Variant Analysis</th>
+                        <th data-field="SNPAndVariantAnalysis" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">SNP and Variant Analysis</th>
                         <th data-field="Visualisation" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Visualisation</th>
                         <th data-field="ReadQuantification" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Read Quantification</th>
-                        <th data-field="SuitableforSingle-cellExperiments" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Suitable for Single-cell Experiments</th>
-                        <th data-field="TestedonHumanData" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Tested on Human Data</th>
-                        <th data-field="TestedonNon-HumanData" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Tested on Non-Human Data</th>
+                        <th data-field="SuitableForSingleCellExperiments" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Suitable for Single-cell Experiments</th>
+                        <th data-field="TestedOnHumanData" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Tested on Human Data</th>
+                        <th data-field="TestedOnNonHumanData" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Tested on Non-Human Data</th>
                         <th data-field="Normalisation" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Normalisation</th>
                         <th data-field="ProvideSummaryStatistics" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Provide Summary Statistics</th>
                         <th data-field="QualityTrimming" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Quality Trimming</th>
-                        <th data-field="AvailablityofTestData" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Availablity of Test Data</th>
+                        <th data-field="AvailablityOfTestData" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Availablity of Test Data</th>
                         <th data-field="GeneExpressionAnalysis" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Expression Analysis</th>
                         <th data-field="GapFilling" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Gap Filling</th>
                         <th data-field="AnalysisPipelines" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Analysis Pipeline</th>
-                        <th data-field="Added" data-sortable="true" data-visible="false">Added</th>
-                        <th data-field="Updated" data-sortable="true" data-visible="false">Updated</th>
-                    </tr>
+                      </tr>
                 </thead>
             </table>
         </div>
@@ -197,9 +188,23 @@
           var formatted = []
 
           for (var i = 0; i < values.length; i++) {
-            var cat = values[i]
-            formatted.push('<a href="technologies.html#' + cat + '">' +
-                    cat.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')
+            var tech = values[i]
+            if (tech == "PacBio") {
+              formatted.push('<a href="technologies.html#' + tech + '">' +
+                    tech + '</a>')
+            } else if (tech == "HiC") {
+              formatted.push('<a href="technologies.html#' + tech + '">' +
+                    "Hi-C" + '</a>')
+            } else if (tech == "BionanoGenomics") {
+              formatted.push('<a href="technologies.html#' + tech + '">' +
+                    "Bio-Nano Genomics" + '</a>')
+            } else if (tech == "tenxGenomics") {
+              formatted.push('<a href="technologies.html#' + tech + '">' +
+                    "10X Genomics" + '</a>')        
+            } else {
+              formatted.push('<a href="technologies.html#' + tech + '">' +
+                    tech.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')
+            }
           }
 
           return formatted.join(', ')
@@ -211,8 +216,13 @@
 
           for (var i = 0; i < values.length; i++) {
             var cat = values[i]
-            formatted.push('<a href="categories.html#' + cat + '">' +
+            if (cat == "SNPAndVariantAnalysis") {
+              formatted.push('<a href="categories.html#' + cat + '">' +
+                    "SNP And Variant Analysis" + '</a>')        
+            } else {
+              formatted.push('<a href="categories.html#' + cat + '">' +
                     cat.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')
+            }        
           }
 
           return formatted.join(', ')

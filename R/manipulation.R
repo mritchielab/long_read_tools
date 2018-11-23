@@ -12,8 +12,8 @@ tidy_swsheet_tech <- function(swsheet) {
   futile.logger::flog.info("Tidying data for technologies...")
   
   tidyr::gather(swsheet, key = 'Technology', value = 'Val',
-                ONT,	PacBio,	tenX_Genomics,	
-                All_Long_Reads,	Illumina,	BioNano_Genomics,	HiC) %>%
+                OxfordNanopore,	PacBio,	tenxGenomics,
+                Illumina,	BionanoGenomics,	HiC) %>%
     dplyr::filter(Val == TRUE) %>%
     dplyr::select(-Val) %>%
     dplyr::arrange(Name)
@@ -54,11 +54,11 @@ tidy_swsheet_cat <- function(swsheet) {
 
     tidyr::gather(swsheet, key = 'Category', value = 'Val',
                   BaseCalling, LongReadOverlapping, DenovoAssembly,Alignment,
-                  GeneratingConsensusSequence,ErrorCorrectionandPolishing,EvaluatingExisitingMethods,
-                  IsoformDetection,	MethylationDetection,	QualityChecking,SNPandVariantAnalysis,
-                  Visualisation,	ReadQuantification,	SuitableforSinglecellExperiments,
-                  TestedonHumanData,TestedonNonHumanData,Normalisation,ProvideSummaryStatistics,
-                  QualityTrimming,AvailablityofTestData,GeneExpressionAnalysis,GapFilling,AnalysisPipelines) %>%
+                  GeneratingConsensusSequence,ErrorCorrectionAndPolishing,EvaluatingExisitingMethods,
+                  IsoformDetection,	MethylationDetection,	QualityChecking,SNPAndVariantAnalysis,
+                  Visualisation,	ReadQuantification,	SuitableForSingleCellExperiments,
+                  TestedOnHumanData,TestedOnNonHumanData,Normalisation,ProvideSummaryStatistics,
+                  QualityTrimming,AvailablityOfTestData,GeneExpressionAnalysis,GapFilling,AnalysisPipelines) %>%
         dplyr::filter(Val == TRUE) %>%
         dplyr::select(-Val) %>%
         dplyr::arrange(Name)

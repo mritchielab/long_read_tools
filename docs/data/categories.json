@@ -3,8 +3,12 @@
     "Category": "Alignment",
     "Tools": [
       {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
+      {
         "Name": "Falcon",
-        "Citations": 141,
+        "Citations": 143,
         "Publications": 1
       },
       {
@@ -50,7 +54,7 @@
       },
       {
         "Name": "LQS",
-        "Citations": 193,
+        "Citations": 196,
         "Publications": 1
       },
       {
@@ -86,19 +90,30 @@
       {
         "Name": "WUB"
       }
-    ]
+    ],
+    "Description": "Pipelines that include several tools functioning simultaneously"
   },
   {
-    "Category": "AvailablityofTestData",
+    "Category": "AvailablityOfTestData",
     "Tools": [
       {
         "Name": "Chiron",
-        "Citations": 4,
+        "Citations": 5,
         "Publications": 1,
         "PyPI": "chiron"
       },
       {
+        "Name": "Deepbinner",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
         "Name": "nanotest"
+      },
+      {
+        "Name": "PBJelly",
+        "Citations": 278,
+        "Publications": 1
       }
     ]
   },
@@ -106,18 +121,21 @@
     "Category": "BaseCalling",
     "Tools": [
       {
-        "Name": "Albacore",
-        "Citations": 19,
-        "Publications": 1
+        "Name": "Albacore"
       },
       {
         "Name": "C3POa"
       },
       {
         "Name": "Chiron",
-        "Citations": 4,
+        "Citations": 5,
         "Publications": 1,
         "PyPI": "chiron"
+      },
+      {
+        "Name": "DeepNano",
+        "Citations": 21,
+        "Publications": 1
       },
       {
         "Name": "DeepSimulator",
@@ -131,6 +149,9 @@
         "Name": "pbssc",
         "Citations": 4,
         "Publications": 1
+      },
+      {
+        "Name": "poreduck"
       },
       {
         "Name": "Poreplex",
@@ -153,7 +174,7 @@
     "Tools": [
       {
         "Name": "ALLPATHS-LG/Discovar",
-        "Citations": 791,
+        "Citations": 793,
         "Publications": 1
       },
       {
@@ -168,7 +189,7 @@
       },
       {
         "Name": "Canu",
-        "Citations": 305,
+        "Citations": 309,
         "Publications": 1
       },
       {
@@ -178,23 +199,27 @@
         "PyPI": "circlator"
       },
       {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
+      {
         "Name": "DALIGNER",
         "Citations": 18,
         "Publications": 1
       },
       {
         "Name": "Falcon",
-        "Citations": 141,
+        "Citations": 143,
         "Publications": 1
       },
       {
         "Name": "Flye",
-        "Citations": 17,
+        "Citations": 18,
         "Publications": 1
       },
       {
         "Name": "HGAP",
-        "Citations": 1362,
+        "Citations": 1370,
         "Publications": 1
       },
       {
@@ -204,12 +229,12 @@
       },
       {
         "Name": "MARVEL",
-        "Citations": 34,
+        "Citations": 35,
         "Publications": 1
       },
       {
         "Name": "MaSuRCA",
-        "Citations": 30,
+        "Citations": 32,
         "Publications": 1
       },
       {
@@ -224,17 +249,22 @@
       },
       {
         "Name": "miniasm",
-        "Citations": 15,
+        "Citations": 16,
         "Publications": 1
       },
       {
         "Name": "Minimap2",
-        "Citations": 15,
+        "Citations": 16,
         "Publications": 1
       },
       {
         "Name": "PBcR*",
         "Citations": 286,
+        "Publications": 1
+      },
+      {
+        "Name": "PBJelly",
+        "Citations": 278,
         "Publications": 1
       },
       {
@@ -250,32 +280,38 @@
         "Publications": 1
       },
       {
+        "Name": "Ra"
+      },
+      {
         "Name": "SMARTdenovo",
-        "Citations": 4419,
+        "Citations": 4421,
         "Publications": 1
       },
       {
         "Name": "SPAdes",
-        "Citations": 3564,
+        "Citations": 3594,
         "Publications": 1
       },
       {
         "Name": "Unicycler",
-        "Citations": 97,
+        "Citations": 101,
         "Publications": 1
+      },
+      {
+        "Name": "wtdbg2"
       }
     ],
-    "Description": "Tools that perform assembly of long reads"
+    "Description": "Assembly of long reads"
   },
   {
-    "Category": "ErrorCorrectionandPolishing",
+    "Category": "ErrorCorrectionAndPolishing",
     "Tools": [
       {
         "Name": "Arrow"
       },
       {
         "Name": "Falcon",
-        "Citations": 141,
+        "Citations": 143,
         "Publications": 1
       },
       {
@@ -283,7 +319,7 @@
       },
       {
         "Name": "Flye",
-        "Citations": 17,
+        "Citations": 18,
         "Publications": 1
       },
       {
@@ -291,12 +327,12 @@
       },
       {
         "Name": "HGAP",
-        "Citations": 1362,
+        "Citations": 1370,
         "Publications": 1
       },
       {
         "Name": "INC-Seq",
-        "Citations": 15,
+        "Citations": 16,
         "Publications": 1
       },
       {
@@ -304,7 +340,7 @@
       },
       {
         "Name": "MARVEL",
-        "Citations": 34,
+        "Citations": 35,
         "Publications": 1
       },
       {
@@ -319,12 +355,12 @@
       },
       {
         "Name": "Nanocorrect*",
-        "Citations": 193,
+        "Citations": 196,
         "Publications": 1
       },
       {
         "Name": "nanopolish",
-        "Citations": 63,
+        "Citations": 64,
         "Publications": 1
       },
       {
@@ -334,6 +370,11 @@
       },
       {
         "Name": "pbbioconda"
+      },
+      {
+        "Name": "Pilon",
+        "Citations": 501,
+        "Publications": 1
       },
       {
         "Name": "pinfish"
@@ -350,14 +391,18 @@
         "Publications": 1
       },
       {
-        "Name": "satlacc"
+        "Name": "Racon",
+        "Citations": 48,
+        "Publications": 1
       },
       {
-        "Name": "Pilon",
-        "Citations": 495,
-        "Publications": 1
+        "Name": "sarlacc"
+      },
+      {
+        "Name": "wtdbg2"
       }
-    ]
+    ],
+    "Description": "Correcting the errors to improve the genome assembly or reads before assembly. Some tools use a hybrid method of using short reads to achieve long reads with high accuracy"
   },
   {
     "Category": "EvaluatingExisitingMethods",
@@ -379,8 +424,12 @@
         "Name": "DeepSimulator",
         "Citations": 1,
         "Publications": 1
+      },
+      {
+        "Name": "RNAseqEval"
       }
-    ]
+    ],
+    "Description": "Benchmarking and evaluating functioanilty of existing tools and/or generating synthetic long read datasets"
   },
   {
     "Category": "GapFilling",
@@ -389,21 +438,32 @@
         "Name": "ARCS",
         "Citations": 8,
         "Publications": 1
+      },
+      {
+        "Name": "PBJelly",
+        "Citations": 278,
+        "Publications": 1
       }
-    ]
+    ],
+    "Description": "Localised alignment and seembly to improve and exisiting assembly"
   },
   {
     "Category": "GeneExpressionAnalysis",
     "Tools": [
+      {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
       {
         "Name": "Mandalorion-Episode II",
         "Citations": 25,
         "Publications": 1
       },
       {
-        "Name": "satlacc"
+        "Name": "sarlacc"
       }
-    ]
+    ],
+    "Description": "Testing of differential expression across samples"
   },
   {
     "Category": "GeneratingConsensusSequence",
@@ -413,17 +473,21 @@
       },
       {
         "Name": "Canu",
-        "Citations": 305,
+        "Citations": 309,
         "Publications": 1
       },
       {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
+      {
         "Name": "Falcon",
-        "Citations": 141,
+        "Citations": 143,
         "Publications": 1
       },
       {
         "Name": "HGAP",
-        "Citations": 1362,
+        "Citations": 1370,
         "Publications": 1
       },
       {
@@ -433,7 +497,7 @@
       },
       {
         "Name": "nanopolish",
-        "Citations": 63,
+        "Citations": 64,
         "Publications": 1
       },
       {
@@ -454,11 +518,14 @@
         "Name": "pychopper"
       },
       {
-        "Name": "satlacc"
+        "Name": "Ra"
+      },
+      {
+        "Name": "sarlacc"
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4419,
+        "Citations": 4421,
         "Publications": 1
       },
       {
@@ -472,12 +539,16 @@
     "Tools": [
       {
         "Name": "BLAT",
-        "Citations": 1285,
+        "Citations": 1286,
         "Publications": 1
       },
       {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
+      {
         "Name": "Gmap",
-        "Citations": 618,
+        "Citations": 621,
         "Publications": 1
       },
       {
@@ -506,7 +577,7 @@
       },
       {
         "Name": "TAPIS",
-        "Citations": 55,
+        "Citations": 56,
         "Publications": 1
       },
       {
@@ -514,7 +585,8 @@
         "Citations": 47,
         "Publications": 1
       }
-    ]
+    ],
+    "Description": "Idenitification of multiple isoforms encoded by a single gene due to alternative splicing"
   },
   {
     "Category": "LongReadOverlapping",
@@ -531,7 +603,7 @@
       },
       {
         "Name": "MARVEL",
-        "Citations": 34,
+        "Citations": 35,
         "Publications": 1
       },
       {
@@ -546,7 +618,7 @@
       },
       {
         "Name": "Minimap2",
-        "Citations": 15,
+        "Citations": 16,
         "Publications": 1
       }
     ],
@@ -579,16 +651,17 @@
       },
       {
         "Name": "SignalAlign",
-        "Citations": 50,
+        "Citations": 51,
         "Publications": 1,
         "PyPI": "signalAlign"
       },
       {
         "Name": "Tombo",
-        "Citations": 63,
+        "Citations": 64,
         "Publications": 1
       }
-    ]
+    ],
+    "Description": "Identification of DNA/Chromatin related epigenetics, such as, histone modifications and DNA methylation"
   },
   {
     "Category": "Normalisation",
@@ -605,16 +678,34 @@
     "Category": "ProvideSummaryStatistics",
     "Tools": [
       {
+        "Name": "FastQC"
+      },
+      {
+        "Name": "minion_MultiQC"
+      },
+      {
+        "Name": "MinIONQC",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
         "Name": "NanoPack",
         "Citations": 7,
         "Publications": 1,
         "PyPI": "nanopack"
       },
       {
+        "Name": "poreduck"
+      },
+      {
         "Name": "Poreplex",
         "PyPI": "poreplex"
+      },
+      {
+        "Name": "RNAseqEval"
       }
-    ]
+    ],
+    "Description": "provide statistics that could be looked at to evaluate the quality of data"
   },
   {
     "Category": "QualityChecking",
@@ -629,8 +720,19 @@
         "Name": "BaseModsTools"
       },
       {
+        "Name": "FastQC"
+      },
+      {
+        "Name": "minion_MultiQC"
+      },
+      {
+        "Name": "MinIONQC",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
         "Name": "MultiQC",
-        "Citations": 101,
+        "Citations": 103,
         "Publications": 1,
         "PyPI": "multiqc"
       },
@@ -642,7 +744,7 @@
       },
       {
         "Name": "QUAST",
-        "Citations": 847,
+        "Citations": 852,
         "Publications": 1,
         "PyPI": "quast"
       },
@@ -650,15 +752,22 @@
         "Name": "QUAST-LG",
         "Citations": 0,
         "Publications": 1
+      },
+      {
+        "Name": "RNAseqEval"
       }
-    ]
+    ],
+    "Description": "Provide a measure of the quality of the reads"
   },
   {
     "Category": "QualityTrimming",
     "Tools": [
       {
+        "Name": "Albacore"
+      },
+      {
         "Name": "Canu",
-        "Citations": 305,
+        "Citations": 309,
         "Publications": 1
       },
       {
@@ -682,9 +791,10 @@
         "Publications": 1
       },
       {
-        "Name": "satlacc"
+        "Name": "sarlacc"
       }
-    ]
+    ],
+    "Description": "Removal of low-quality reads"
   },
   {
     "Category": "ReadQuantification",
@@ -695,12 +805,13 @@
         "Publications": 1
       },
       {
-        "Name": "satlacc"
+        "Name": "sarlacc"
       }
-    ]
+    ],
+    "Description": "Quantification of expression from reads"
   },
   {
-    "Category": "SNPandVariantAnalysis",
+    "Category": "SNPAndVariantAnalysis",
     "Tools": [
       {
         "Name": "Arrow"
@@ -712,12 +823,12 @@
       },
       {
         "Name": "marginCaller",
-        "Citations": 210,
+        "Citations": 211,
         "Publications": 1
       },
       {
         "Name": "nanopolish",
-        "Citations": 63,
+        "Citations": 64,
         "Publications": 1
       },
       {
@@ -741,6 +852,11 @@
         "Name": "Pbsv_polish"
       },
       {
+        "Name": "Pilon",
+        "Citations": 501,
+        "Publications": 1
+      },
+      {
         "Name": "shishir-reddy/nanopore-pipeline"
       },
       {
@@ -752,30 +868,30 @@
         "Name": "Sniffles",
         "Citations": 4,
         "Publications": 1
-      },
-      {
-        "Name": "Pilon",
-        "Citations": 495,
-        "Publications": 1
       }
-    ]
+    ],
+    "Description": "Detection or use of variants"
   },
   {
-    "Category": "SuitableforSinglecellExperiments",
+    "Category": "SuitableForSingleCellExperiments",
     "Tools": [
       {
-        "Name": "satlacc"
+        "Name": "sarlacc"
       },
       {
         "Name": "SPAdes",
-        "Citations": 3564,
+        "Citations": 3594,
         "Publications": 1
       }
-    ]
+    ],
+    "Description": "Algorithms that can be used for analysing/processing  single-cell data generated by long read sequencing platforms"
   },
   {
-    "Category": "TestedonHumanData",
+    "Category": "TestedOnHumanData",
     "Tools": [
+      {
+        "Name": "Albacore"
+      },
       {
         "Name": "Circlator",
         "Citations": 116,
@@ -788,15 +904,24 @@
         "Publications": 1
       },
       {
+        "Name": "Racon",
+        "Citations": 48,
+        "Publications": 1
+      },
+      {
         "Name": "Unicycler",
-        "Citations": 97,
+        "Citations": 101,
         "Publications": 1
       }
-    ]
+    ],
+    "Description": "Evidence in publications to have been successfully employed to analyse human data"
   },
   {
-    "Category": "TestedonNonHumanData",
+    "Category": "TestedOnNonHumanData",
     "Tools": [
+      {
+        "Name": "Albacore"
+      },
       {
         "Name": "Circlator",
         "Citations": 116,
@@ -804,8 +929,12 @@
         "PyPI": "circlator"
       },
       {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
+      {
         "Name": "miniasm",
-        "Citations": 15,
+        "Citations": 16,
         "Publications": 1
       },
       {
@@ -817,11 +946,17 @@
         "Publications": 1
       },
       {
+        "Name": "Racon",
+        "Citations": 48,
+        "Publications": 1
+      },
+      {
         "Name": "Unicycler",
-        "Citations": 97,
+        "Citations": 101,
         "Publications": 1
       }
-    ]
+    ],
+    "Description": "Evidence in publications to have been successfully employed to analyse non-human data"
   },
   {
     "Category": "Visualisation",
@@ -830,7 +965,9 @@
         "Name": "Betaduck"
       },
       {
-        "Name": "CS"
+        "Name": "BulkVis",
+        "Citations": 0,
+        "Publications": 1
       },
       {
         "Name": "D-GENIES",
@@ -838,8 +975,23 @@
         "Publications": 1
       },
       {
+        "Name": "dscam_nanopore"
+      },
+      {
+        "Name": "methplotlib",
+        "PyPI": "methplotlib"
+      },
+      {
         "Name": "Minidot",
-        "Citations": 85,
+        "Citations": 88,
+        "Publications": 1
+      },
+      {
+        "Name": "minion_MultiQC"
+      },
+      {
+        "Name": "MinIONQC",
+        "Citations": 0,
         "Publications": 1
       },
       {
@@ -880,6 +1032,6 @@
         "PyPI": "pycoQC"
       }
     ],
-    "Description": "Functions for visualising some aspect of scRNA-seq data or analysis"
+    "Description": "Functions for visualising some aspect of long read data or analysis"
   }
 ]

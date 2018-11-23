@@ -129,7 +129,7 @@ plot_technologies <- function(swsheet) {
   `%>%` <- magrittr::`%>%`
   
   techcounts <- swsheet %>%
-    dplyr::summarise_at(7:13, sum) %>%
+    dplyr::summarise_at(7:12, sum) %>%
     tidyr::gather(key = Technology, value = Count) %>%
     dplyr::arrange(-Count, Technology) %>%
     dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
@@ -181,7 +181,7 @@ plot_categories <- function(swsheet) {
     `%>%` <- magrittr::`%>%`
 
     catcounts <- swsheet %>%
-        dplyr::summarise_at(14:36, sum) %>%
+        dplyr::summarise_at(13:35, sum) %>%
         tidyr::gather(key = Category, value = Count) %>%
         dplyr::arrange(-Count, Category) %>%
         dplyr::mutate(Prop = Count / nrow(swsheet)) %>%

@@ -33,8 +33,42 @@ $(document).ready(function () {
 
     for (var i = 0; i < cats.length; i++) {
       var cat = cats[i]
-      linked.push('<a href="categories.html#' + cat + '">' + cat.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')
-    }
+      if (cat == "SNPAndVariantAnalysis") {
+              linked.push('<a href="categories.html#' + cat + '">' +
+                    "SNP And Variant Analysis" + '</a>')        
+            } else {
+              linked.push('<a href="categories.html#' + cat + '">' +
+                    cat.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')
+            }
+      }
+
+    return linked.join(', ')
+  }
+  
+  function linkTechs (techs) {
+    var linked = []
+
+    for (var i = 0; i < techs.length; i++) {
+      var tech = techs[i]
+     
+       if (tech == "PacBio") {
+                linked.push('<a href="technologies.html#' + tech + '">' +
+                      tech + '</a>')
+              } else if (tech == "HiC") {
+                linked.push('<a href="technologies.html#' + tech + '">' +
+                      "Hi-C" + '</a>')
+              } else if (tech == "BionanoGenomics") {
+                linked.push('<a href="technologies.html#' + tech + '">' +
+                      "Bio-Nano Genomics" + '</a>')
+              } else if (tech == "tenxGenomics") {
+                linked.push('<a href="technologies.html#' + tech + '">' +
+                      "10X Genomics" + '</a>')        
+              } else {
+                linked.push('<a href="technologies.html#' + tech + '">' +
+                      tech.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')
+              }
+     
+        }
 
     return linked.join(', ')
   }
@@ -105,6 +139,7 @@ $(document).ready(function () {
         var updated = value.Updated
         var license = value.License
         var cats = value.Categories
+        var techs = value.Technologies
         var bioc = value.BioC
         var pypi = value.PyPI
         var cran = value.CRAN
@@ -216,11 +251,13 @@ $(document).ready(function () {
           entry += '<li class="list-group-item"><strong>License: </strong> ' + license + '</li>'
         }
 
-        entry += '<li class="list-group-item"><strong>Categories: </strong> ' + linkCats(cats) + '</li>' +
-                 '<li class="list-group-item">' +
-                 '<strong>Added: </strong> ' + added +
-                 ', <strong>Updated: </strong>' + updated +
-                 '</li>' +
+        entry += '<li class="list-group-item"><strong>Categories: </strong> ' + linkCats(cats) + '</li>'
+                 
+        entry += '<li class="list-group-item"><strong>Technologies: </strong> ' + linkTechs(techs) + '</li>' +
+                 //'<li class="list-group-item">' +
+                 //'<strong>Added: </strong> ' + added +
+                 //', <strong>Updated: </strong>' + updated +
+                 //'</li>' +
                  '</ul>' +
                  '</div>'
 
