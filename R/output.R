@@ -42,7 +42,7 @@ make_tools_json <- function(tidysw_cat) {
 #'
 #' Create categories JSON
 #'
-#' @param tidysw_tech Tibble containing tidy software table
+#' @param tidysw_cat Tibble containing tidy software table
 #' @param swsheet Tibble containing software table
 #' @param descs data.frame containing category descriptions
 make_cats_json <- function(tidysw_cat, swsheet, descs) {
@@ -72,14 +72,46 @@ make_cats_json <- function(tidysw_cat, swsheet, descs) {
 }
 
 
+#' Make technologies JSON
+#'
+#' Create technologies JSON
+#'
+#' @param tidysw_tech Tibble containing tidy software table
+#' @param swsheet Tibble containing software table
+#' @param descs data.frame containing category descriptions
+make_techs_json <- function(tidysw_tech, swsheet, descs) {
+  
+  `%>%` <- magrittr::`%>%`
+  
+  futile.logger::flog.info("Converting technologies...")
+  
+  namelist <- split(tidysw_tech$Name, f = tidysw_tech$Technology)
+  namelist <- lapply(namelist, function(x) {
+    swsheet %>%
+      dplyr::filter(Name %in% x) %>%
+      dplyr::select(Name, Citations, Publications, BioC, CRAN,
+                    PyPI, Conda)
+  })
+  
+  techs <- tidysw_tech %>%
+    dplyr::select(Technology) %>%
+    dplyr::arrange(Technology) %>%
+    unique() %>%
+    dplyr::mutate(Tools = namelist[Technology]) %>%
+    #dplyr::left_join(descs, by = "Technology") %>%
+    jsonlite::toJSON(pretty = TRUE)
+  
+  futile.logger::flog.info("Writing 'technologies.json'...")
+  readr::write_lines(techs, "docs/data/technologies.json")
+}
+
+
 #' Write footer
 #'
 #' Write a HTML footer to use on website pages
 write_footer <- function() {
     datetime <- Sys.time()
     attr(datetime, "tzone") <- "UTC"
-
-    writeLines(paste0('<p class="text-muted">Last updated: ', datetime,
-                      ' UTC</p>'),
-               "docs/footer_content.html")
+    asterik <- "(*) denotes that the tool is not updated or maintained as of the last long-read-tools database updated date"
+    writeLines(paste0('<p class="text-muted">',asterik,' of: ', datetime,' UTC</p>'),"docs/footer_content.html")
 }
