@@ -3,6 +3,11 @@
     "Category": "Alignment",
     "Tools": [
       {
+        "Name": "bwa-sw",
+        "Citations": 2936,
+        "Publications": 1
+      },
+      {
         "Name": "Cogent",
         "PyPI": "cogent"
       },
@@ -12,7 +17,20 @@
         "Publications": 1
       },
       {
-        "Name": "haplotyped-methylome"
+        "Name": "GraphMap",
+        "Citations": 72,
+        "Publications": 1
+      },
+      {
+        "Name": "haplotyped-methylome",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "marginAlign",
+        "Citations": 212,
+        "Publications": 1,
+        "PyPI": "marginAlign"
       },
       {
         "Name": "MECAT",
@@ -23,7 +41,29 @@
         "Name": "NanoPipe"
       },
       {
+        "Name": "NGMLR",
+        "Citations": 12,
+        "Publications": 1
+      },
+      {
+        "Name": "pb-assembly"
+      },
+      {
+        "Name": "pbalign"
+      },
+      {
         "Name": "pbbioconda"
+      },
+      {
+        "Name": "pbmm2"
+      },
+      {
+        "Name": "Picky",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
       },
       {
         "Name": "poremap"
@@ -40,22 +80,31 @@
     "Category": "AnalysisPipelines",
     "Tools": [
       {
+        "Name": "bionano-tools"
+      },
+      {
         "Name": "davidcoffey/MinION",
         "Citations": 11,
         "Publications": 1
       },
       {
         "Name": "DeepSimulator",
-        "Citations": 1,
+        "Citations": 2,
         "Publications": 1
       },
       {
         "Name": "F5c"
       },
       {
+        "Name": "IsoSeq4"
+      },
+      {
         "Name": "LQS",
-        "Citations": 196,
+        "Citations": 197,
         "Publications": 1
+      },
+      {
+        "Name": "nano-snakemake"
       },
       {
         "Name": "nanoflow"
@@ -70,10 +119,21 @@
         "Name": "nanopore"
       },
       {
-        "Name": "nano-snakemake"
+        "Name": "ont-assembly-polish"
+      },
+      {
+        "Name": "pbsmrtpipe"
+      },
+      {
+        "Name": "Picky",
+        "Citations": 1,
+        "Publications": 1
       },
       {
         "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
       },
       {
         "Name": "poreFUME"
@@ -83,9 +143,13 @@
       },
       {
         "Name": "Poretools",
-        "Citations": 155,
+        "Citations": 156,
         "Publications": 1,
         "PyPI": "poretools"
+      },
+      {
+        "Name": "SMRT-Link",
+        "Publications": 1
       },
       {
         "Name": "WUB"
@@ -97,8 +161,13 @@
     "Category": "AvailablityOfTestData",
     "Tools": [
       {
+        "Name": "ABruijn",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
         "Name": "Chiron",
-        "Citations": 5,
+        "Citations": 6,
         "Publications": 1,
         "PyPI": "chiron"
       },
@@ -111,8 +180,21 @@
         "Name": "nanotest"
       },
       {
+        "Name": "NGMLR",
+        "Citations": 12,
+        "Publications": 1
+      },
+      {
+        "Name": "npAnalysis",
+        "Citations": 22,
+        "Publications": 1
+      },
+      {
+        "Name": "npScarf"
+      },
+      {
         "Name": "PBJelly",
-        "Citations": 278,
+        "Citations": 279,
         "Publications": 1
       }
     ]
@@ -124,23 +206,34 @@
         "Name": "Albacore"
       },
       {
+        "Name": "basecRAWller*",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
         "Name": "C3POa"
       },
       {
         "Name": "Chiron",
-        "Citations": 5,
+        "Citations": 6,
         "Publications": 1,
         "PyPI": "chiron"
       },
       {
         "Name": "DeepNano",
-        "Citations": 21,
+        "Citations": 22,
         "Publications": 1
       },
       {
         "Name": "DeepSimulator",
-        "Citations": 1,
+        "Citations": 2,
         "Publications": 1
+      },
+      {
+        "Name": "guppy"
+      },
+      {
+        "Name": "Nanonet*"
       },
       {
         "Name": "pbdagcon"
@@ -165,13 +258,65 @@
       {
         "Name": "scrappie",
         "PyPI": "scrappie"
+      },
+      {
+        "Name": "sloika"
       }
     ],
     "Description": "Detection of change of electrical current produced by ONT sequencers and translate it to a DNA sequence"
   },
   {
+    "Category": "BaseModificationDetection",
+    "Tools": [
+      {
+        "Name": "DeepSignal",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "F5c"
+      },
+      {
+        "Name": "haplotyped-methylome",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "mCaller",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "nanoraw*",
+        "Citations": 9,
+        "Publications": 1
+      },
+      {
+        "Name": "poreTally",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "SignalAlign",
+        "Citations": 51,
+        "Publications": 1,
+        "PyPI": "signalAlign"
+      },
+      {
+        "Name": "Tombo",
+        "Citations": 64,
+        "Publications": 1
+      }
+    ]
+  },
+  {
     "Category": "DenovoAssembly",
     "Tools": [
+      {
+        "Name": "ABruijn",
+        "Citations": 18,
+        "Publications": 1
+      },
       {
         "Name": "ALLPATHS-LG/Discovar",
         "Citations": 793,
@@ -188,8 +333,14 @@
         "Publications": 1
       },
       {
+        "Name": "bionano-tools"
+      },
+      {
+        "Name": "BLASR"
+      },
+      {
         "Name": "Canu",
-        "Citations": 309,
+        "Citations": 310,
         "Publications": 1
       },
       {
@@ -213,18 +364,26 @@
         "Publications": 1
       },
       {
+        "Name": "FALCON-Phase"
+      },
+      {
         "Name": "Flye",
         "Citations": 18,
         "Publications": 1
       },
       {
         "Name": "HGAP",
-        "Citations": 1370,
+        "Citations": 1373,
         "Publications": 1
       },
       {
         "Name": "Hinge",
         "Citations": 13,
+        "Publications": 1
+      },
+      {
+        "Name": "LINKS",
+        "Citations": 32,
         "Publications": 1
       },
       {
@@ -234,7 +393,7 @@
       },
       {
         "Name": "MaSuRCA",
-        "Citations": 32,
+        "Citations": 222,
         "Publications": 1
       },
       {
@@ -244,7 +403,7 @@
       },
       {
         "Name": "MHAP",
-        "Citations": 286,
+        "Citations": 287,
         "Publications": 1
       },
       {
@@ -258,13 +417,25 @@
         "Publications": 1
       },
       {
+        "Name": "nanotatoR"
+      },
+      {
+        "Name": "npScarf"
+      },
+      {
+        "Name": "ont-assembly-polish"
+      },
+      {
+        "Name": "pb-assembly"
+      },
+      {
         "Name": "PBcR*",
-        "Citations": 286,
+        "Citations": 287,
         "Publications": 1
       },
       {
         "Name": "PBJelly",
-        "Citations": 278,
+        "Citations": 279,
         "Publications": 1
       },
       {
@@ -276,7 +447,7 @@
       },
       {
         "Name": "PoreSeq",
-        "Citations": 39,
+        "Citations": 40,
         "Publications": 1
       },
       {
@@ -284,12 +455,15 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4421,
+        "Citations": 4425,
         "Publications": 1
       },
       {
+        "Name": "SMIS"
+      },
+      {
         "Name": "SPAdes",
-        "Citations": 3594,
+        "Citations": 3597,
         "Publications": 1
       },
       {
@@ -323,17 +497,22 @@
         "Publications": 1
       },
       {
-        "Name": "haplotyped-methylome"
+        "Name": "haplotyped-methylome",
+        "Citations": 0,
+        "Publications": 1
       },
       {
         "Name": "HGAP",
-        "Citations": 1370,
+        "Citations": 1373,
         "Publications": 1
       },
       {
         "Name": "INC-Seq",
         "Citations": 16,
         "Publications": 1
+      },
+      {
+        "Name": "IsoSeq4"
       },
       {
         "Name": "levelfind_poreseq"
@@ -349,13 +528,16 @@
         "Publications": 1
       },
       {
+        "Name": "medaka"
+      },
+      {
         "Name": "Nanocorr",
-        "Citations": 106,
+        "Citations": 107,
         "Publications": 1
       },
       {
         "Name": "Nanocorrect*",
-        "Citations": 196,
+        "Citations": 197,
         "Publications": 1
       },
       {
@@ -369,11 +551,17 @@
         "Publications": 1
       },
       {
+        "Name": "ont-assembly-polish"
+      },
+      {
+        "Name": "pb-assembly"
+      },
+      {
         "Name": "pbbioconda"
       },
       {
         "Name": "Pilon",
-        "Citations": 501,
+        "Citations": 502,
         "Publications": 1
       },
       {
@@ -418,15 +606,18 @@
         "Publications": 1
       },
       {
-        "Name": "Base caller comparisons"
-      },
-      {
-        "Name": "DeepSimulator",
-        "Citations": 1,
+        "Name": "Base caller comparisons",
         "Publications": 1
       },
       {
-        "Name": "RNAseqEval"
+        "Name": "DeepSimulator",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "RNAseqEval",
+        "Citations": 3,
+        "Publications": 1
       }
     ],
     "Description": "Benchmarking and evaluating functioanilty of existing tools and/or generating synthetic long read datasets"
@@ -440,8 +631,11 @@
         "Publications": 1
       },
       {
+        "Name": "bionano-tools"
+      },
+      {
         "Name": "PBJelly",
-        "Citations": 278,
+        "Citations": 279,
         "Publications": 1
       }
     ],
@@ -460,6 +654,9 @@
         "Publications": 1
       },
       {
+        "Name": "pipeline-transcriptome-de"
+      },
+      {
         "Name": "sarlacc"
       }
     ],
@@ -469,11 +666,16 @@
     "Category": "GeneratingConsensusSequence",
     "Tools": [
       {
+        "Name": "ABruijn",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
         "Name": "Arrow"
       },
       {
         "Name": "Canu",
-        "Citations": 309,
+        "Citations": 310,
         "Publications": 1
       },
       {
@@ -487,7 +689,7 @@
       },
       {
         "Name": "HGAP",
-        "Citations": 1370,
+        "Citations": 1373,
         "Publications": 1
       },
       {
@@ -496,12 +698,24 @@
         "Publications": 1
       },
       {
+        "Name": "IsoSeq4"
+      },
+      {
         "Name": "nanopolish",
         "Citations": 64,
         "Publications": 1
       },
       {
+        "Name": "ont-assembly-polish"
+      },
+      {
+        "Name": "pb-assembly"
+      },
+      {
         "Name": "pbdagcon"
+      },
+      {
+        "Name": "pbmm2"
       },
       {
         "Name": "pbssc",
@@ -525,7 +739,7 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4421,
+        "Citations": 4425,
         "Publications": 1
       },
       {
@@ -552,6 +766,9 @@
         "Publications": 1
       },
       {
+        "Name": "IsoSeq4"
+      },
+      {
         "Name": "Mandalorion-Episode II",
         "Citations": 25,
         "Publications": 1
@@ -571,8 +788,11 @@
         "Name": "pipeline-pinfish-analysis"
       },
       {
+        "Name": "pipeline-transcriptome-de"
+      },
+      {
         "Name": "SURVIVOR",
-        "Citations": 15,
+        "Citations": 16,
         "Publications": 1
       },
       {
@@ -591,6 +811,9 @@
   {
     "Category": "LongReadOverlapping",
     "Tools": [
+      {
+        "Name": "BLASR"
+      },
       {
         "Name": "DALIGNER",
         "Citations": 18,
@@ -613,55 +836,19 @@
       },
       {
         "Name": "MHAP",
-        "Citations": 286,
+        "Citations": 287,
         "Publications": 1
       },
       {
         "Name": "Minimap2",
         "Citations": 16,
         "Publications": 1
+      },
+      {
+        "Name": "ont-assembly-polish"
       }
     ],
     "Description": "Finds pairs of reads that align to eachother"
-  },
-  {
-    "Category": "MethylationDetection",
-    "Tools": [
-      {
-        "Name": "F5c"
-      },
-      {
-        "Name": "haplotyped-methylome"
-      },
-      {
-        "Name": "mCaller",
-        "Citations": 3,
-        "Publications": 1
-      },
-      {
-        "Name": "nanoraw",
-        "Citations": 9,
-        "Publications": 1,
-        "PyPI": "nanoraw"
-      },
-      {
-        "Name": "poreTally",
-        "Citations": 0,
-        "Publications": 1
-      },
-      {
-        "Name": "SignalAlign",
-        "Citations": 51,
-        "Publications": 1,
-        "PyPI": "signalAlign"
-      },
-      {
-        "Name": "Tombo",
-        "Citations": 64,
-        "Publications": 1
-      }
-    ],
-    "Description": "Identification of DNA/Chromatin related epigenetics, such as, histone modifications and DNA methylation"
   },
   {
     "Category": "Normalisation",
@@ -670,6 +857,9 @@
         "Name": "Mandalorion-Episode II",
         "Citations": 25,
         "Publications": 1
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
       }
     ],
     "Description": "Removal of unwanted variation that may affect results"
@@ -678,7 +868,19 @@
     "Category": "ProvideSummaryStatistics",
     "Tools": [
       {
+        "Name": "bionano-tools"
+      },
+      {
         "Name": "FastQC"
+      },
+      {
+        "Name": "lima"
+      },
+      {
+        "Name": "marginAlign",
+        "Citations": 212,
+        "Publications": 1,
+        "PyPI": "marginAlign"
       },
       {
         "Name": "minion_MultiQC"
@@ -689,10 +891,29 @@
         "Publications": 1
       },
       {
+        "Name": "MinKNOW"
+      },
+      {
+        "Name": "NanoOK",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
         "Name": "NanoPack",
         "Citations": 7,
         "Publications": 1,
         "PyPI": "nanopack"
+      },
+      {
+        "Name": "nanotatoR"
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
+      },
+      {
+        "Name": "poRe",
+        "Citations": 46,
+        "Publications": 1
       },
       {
         "Name": "poreduck"
@@ -702,7 +923,22 @@
         "PyPI": "poreplex"
       },
       {
-        "Name": "RNAseqEval"
+        "Name": "RNAseqEval",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "Shiny-apps"
+      },
+      {
+        "Name": "SQANTI2",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "WIMP",
+        "Citations": 7,
+        "Publications": 1
       }
     ],
     "Description": "provide statistics that could be looked at to evaluate the quality of data"
@@ -718,6 +954,12 @@
       },
       {
         "Name": "BaseModsTools"
+      },
+      {
+        "Name": "bionano-tools"
+      },
+      {
+        "Name": "BioNano Access"
       },
       {
         "Name": "FastQC"
@@ -737,14 +979,24 @@
         "PyPI": "multiqc"
       },
       {
+        "Name": "NanoOK",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
         "Name": "NanoPack",
         "Citations": 7,
         "Publications": 1,
         "PyPI": "nanopack"
       },
       {
+        "Name": "poRe",
+        "Citations": 46,
+        "Publications": 1
+      },
+      {
         "Name": "QUAST",
-        "Citations": 852,
+        "Citations": 854,
         "Publications": 1,
         "PyPI": "quast"
       },
@@ -754,7 +1006,14 @@
         "Publications": 1
       },
       {
-        "Name": "RNAseqEval"
+        "Name": "RNAseqEval",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI2",
+        "Citations": 7,
+        "Publications": 1
       }
     ],
     "Description": "Provide a measure of the quality of the reads"
@@ -766,9 +1025,18 @@
         "Name": "Albacore"
       },
       {
+        "Name": "bionano-tools"
+      },
+      {
+        "Name": "BioNano Access"
+      },
+      {
         "Name": "Canu",
-        "Citations": 309,
+        "Citations": 310,
         "Publications": 1
+      },
+      {
+        "Name": "lima"
       },
       {
         "Name": "NanoPack",
@@ -792,6 +1060,11 @@
       },
       {
         "Name": "sarlacc"
+      },
+      {
+        "Name": "SQANTI2",
+        "Citations": 7,
+        "Publications": 1
       }
     ],
     "Description": "Removal of low-quality reads"
@@ -803,6 +1076,9 @@
         "Name": "Mandalorion-Episode II",
         "Citations": 25,
         "Publications": 1
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
       },
       {
         "Name": "sarlacc"
@@ -817,14 +1093,24 @@
         "Name": "Arrow"
       },
       {
+        "Name": "bionano-tools"
+      },
+      {
+        "Name": "BioNano Access"
+      },
+      {
         "Name": "davidcoffey/MinION",
         "Citations": 11,
         "Publications": 1
       },
       {
-        "Name": "marginCaller",
-        "Citations": 211,
-        "Publications": 1
+        "Name": "marginAlign",
+        "Citations": 212,
+        "Publications": 1,
+        "PyPI": "marginAlign"
+      },
+      {
+        "Name": "minorseq"
       },
       {
         "Name": "nanopolish",
@@ -836,6 +1122,17 @@
         "Citations": 11,
         "Publications": 1,
         "PyPI": "NanoSV"
+      },
+      {
+        "Name": "nanotatoR"
+      },
+      {
+        "Name": "NGMLR",
+        "Citations": 12,
+        "Publications": 1
+      },
+      {
+        "Name": "npInv"
       },
       {
         "Name": "pbbioconda"
@@ -852,8 +1149,13 @@
         "Name": "Pbsv_polish"
       },
       {
+        "Name": "Picky",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
         "Name": "Pilon",
-        "Citations": 501,
+        "Citations": 502,
         "Publications": 1
       },
       {
@@ -880,7 +1182,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 3594,
+        "Citations": 3597,
         "Publications": 1
       }
     ],
@@ -899,8 +1201,21 @@
         "PyPI": "circlator"
       },
       {
+        "Name": "guppy"
+      },
+      {
         "Name": "Mandalorion-Episode II",
         "Citations": 25,
+        "Publications": 1
+      },
+      {
+        "Name": "NGMLR",
+        "Citations": 12,
+        "Publications": 1
+      },
+      {
+        "Name": "Picky",
+        "Citations": 1,
         "Publications": 1
       },
       {
@@ -920,6 +1235,11 @@
     "Category": "TestedOnNonHumanData",
     "Tools": [
       {
+        "Name": "ABruijn",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
         "Name": "Albacore"
       },
       {
@@ -931,6 +1251,19 @@
       {
         "Name": "Cogent",
         "PyPI": "cogent"
+      },
+      {
+        "Name": "DeepSignal",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "guppy"
+      },
+      {
+        "Name": "LINKS",
+        "Citations": 32,
+        "Publications": 1
       },
       {
         "Name": "miniasm",
@@ -946,6 +1279,17 @@
         "Publications": 1
       },
       {
+        "Name": "npAnalysis",
+        "Citations": 22,
+        "Publications": 1
+      },
+      {
+        "Name": "npScarf"
+      },
+      {
+        "Name": "ont-assembly-polish"
+      },
+      {
         "Name": "Racon",
         "Citations": 48,
         "Publications": 1
@@ -953,6 +1297,11 @@
       {
         "Name": "Unicycler",
         "Citations": 101,
+        "Publications": 1
+      },
+      {
+        "Name": "WIMP",
+        "Citations": 7,
         "Publications": 1
       }
     ],
@@ -962,7 +1311,15 @@
     "Category": "Visualisation",
     "Tools": [
       {
+        "Name": "ABruijn",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
         "Name": "Betaduck"
+      },
+      {
+        "Name": "BioNano Access"
       },
       {
         "Name": "BulkVis",
@@ -995,6 +1352,9 @@
         "Publications": 1
       },
       {
+        "Name": "MinKNOW"
+      },
+      {
         "Name": "NanoPack",
         "Citations": 7,
         "Publications": 1,
@@ -1022,6 +1382,11 @@
         "Name": "plotnanopolish"
       },
       {
+        "Name": "poRe",
+        "Citations": 46,
+        "Publications": 1
+      },
+      {
         "Name": "poremap"
       },
       {
@@ -1030,6 +1395,14 @@
       {
         "Name": "pycoQC",
         "PyPI": "pycoQC"
+      },
+      {
+        "Name": "Shiny-apps"
+      },
+      {
+        "Name": "WIMP",
+        "Citations": 7,
+        "Publications": 1
       }
     ],
     "Description": "Functions for visualising some aspect of long read data or analysis"

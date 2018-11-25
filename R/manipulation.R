@@ -55,7 +55,7 @@ tidy_swsheet_cat <- function(swsheet) {
     tidyr::gather(swsheet, key = 'Category', value = 'Val',
                   BaseCalling, LongReadOverlapping, DenovoAssembly,Alignment,
                   GeneratingConsensusSequence,ErrorCorrectionAndPolishing,EvaluatingExisitingMethods,
-                  IsoformDetection,	BaeModificationDetection,	QualityChecking,SNPAndVariantAnalysis,
+                  IsoformDetection,	BaseModificationDetection,	QualityChecking,SNPAndVariantAnalysis,
                   Visualisation,	ReadQuantification,	SuitableForSingleCellExperiments,
                   TestedOnHumanData,TestedOnNonHumanData,Normalisation,ProvideSummaryStatistics,
                   QualityTrimming,AvailablityOfTestData,GeneExpressionAnalysis,GapFilling,AnalysisPipelines) %>%

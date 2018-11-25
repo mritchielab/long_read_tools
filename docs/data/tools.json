@@ -1,5 +1,38 @@
 [
   {
+    "Name": "ABruijn",
+    "DOIs": "10.1073/pnas.1604560113",
+    "Platform": "C++",
+    "Description": "De novo assembler for long reads",
+    "Code": "https://github.com/bioreps/ABruijn",
+    "License": "BSD 3-Clause License",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Assembly of long error-prone reads using de Bruijn graphs",
+          "DOI": "10.1073/pnas.1604560113",
+          "PubDate": "2016-12-13",
+          "Preprint": false,
+          "Citations": 18
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 18,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2016-12-13"],
+    "Github": "bioreps/ABruijn",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["DenovoAssembly", "GeneratingConsensusSequence", "Visualisation", "TestedOnNonHumanData", "AvailablityOfTestData"]
+  },
+  {
     "Name": "Albacore",
     "Platform": "Python",
     "Description": "Basecalls from raw signal using recurrent neural networks (RNN) that claim to substantially improve single-read and consensus accuracy",
@@ -183,7 +216,7 @@
     "Name": "Arrow",
     "Description": "An improved consensus model (phase out of Quiver) based on a more straightforward hidden Markov model approach",
     "Code": "https://github.com/PacificBiosciences/GenomicConsensus",
-    "License": "Pacific Biosciences of California, Inc.",
+    "License": "BSD 3-Clause Clear License",
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
@@ -230,6 +263,7 @@
   },
   {
     "Name": "Base caller comparisons",
+    "DOIs": "10.5281/zenodo.1188469",
     "Platform": "Python",
     "Description": "Compares Albacore, Guppy, Scrappie, deepnnano, Chiron",
     "Code": "https://github.com/rrwick/Basecallingcomparison",
@@ -240,13 +274,49 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [null],
-      "Preprints": [null]
+      "Publications": [
+        {
+          "DOI": "10.5281/zenodo.1188469",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
     },
-    "PubDates": [null],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
     "Github": "rrwick/Basecallingcomparison",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["EvaluatingExisitingMethods"]
+  },
+  {
+    "Name": "basecRAWller*",
+    "DOIs": "10.1101/133058",
+    "Description": "Basecaller for Nanopore, now deprecated",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1101/133058",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 3
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 3,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseCalling"]
   },
   {
     "Name": "BaseModsTools",
@@ -287,6 +357,65 @@
     "Github": "alexiswl/betaduck",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["Visualisation"]
+  },
+  {
+    "Name": "bionano-tools",
+    "Platform": "Perl",
+    "Description": "Custom tools to 'facilitate' BioNano Genomics data analysis",
+    "Code": "https://github.com/Nucleomics-VIB/bionano-tools",
+    "License": "Creative Commons Attribution-ShareAlike 3.0 Unported License",
+    "OxfordNanopore": false,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": true,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "Nucleomics-VIB/bionano-tools",
+    "Technologies": ["BionanoGenomics"],
+    "Categories": ["DenovoAssembly", "QualityChecking", "SNPAndVariantAnalysis", "ProvideSummaryStatistics", "QualityTrimming", "GapFilling", "AnalysisPipelines"]
+  },
+  {
+    "Name": "BioNano Access",
+    "Code": "https://bionanogenomics.com/support-page/bionano-access/",
+    "OxfordNanopore": false,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": true,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Technologies": ["BionanoGenomics"],
+    "Categories": ["QualityChecking", "SNPAndVariantAnalysis", "Visualisation", "QualityTrimming"]
+  },
+  {
+    "Name": "BLASR",
+    "Platform": "C++",
+    "Description": "The long read aligner for PacBio",
+    "Code": "https://github.com/PacificBiosciences/blasr",
+    "License": "BSD 3 Clause Clear License",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "PacificBiosciences/blasr",
+    "Technologies": ["PacBio"],
+    "Categories": ["LongReadOverlapping", "DenovoAssembly"]
   },
   {
     "Name": "BLAT",
@@ -349,6 +478,37 @@
     "Categories": ["Visualisation"]
   },
   {
+    "Name": "bwa-sw",
+    "DOIs": "10.1093/bioinformatics/btp698",
+    "Platform": "C++",
+    "Description": "Genomic alignment. Now superseded by minimap2.",
+    "Code": "http://bio-bwa.sourceforge.net/",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": true,
+    "Illumina": true,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1093/bioinformatics/btp698",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 2936
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 2936,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina"],
+    "Categories": ["Alignment"]
+  },
+  {
     "Name": "C3POa",
     "Platform": "Python",
     "Description": "Computational pipeline for calling consensi on R2C2 nanopore data",
@@ -388,12 +548,12 @@
           "DOI": "10.1101/gr.215087.116",
           "PubDate": "2017-03-16",
           "Preprint": false,
-          "Citations": 309
+          "Citations": 310
         }
       ],
       "Preprints": []
     },
-    "Citations": 309,
+    "Citations": 310,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-03-16"],
@@ -421,12 +581,12 @@
           "DOI": "10.1093/gigascience/giy037",
           "PubDate": "2018-04-10",
           "Preprint": false,
-          "Citations": 5
+          "Citations": 6
         }
       ],
       "Preprints": []
     },
-    "Citations": 5,
+    "Citations": 6,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-04-10"],
@@ -624,7 +784,7 @@
     "Platform": "Python",
     "Description": "An alternative basecaller for Oxford Nanopore MinION reads based on deep recurrent neural networks",
     "Code": "https://github.com/jeammimi/deepnano",
-    "License": "BSD-3-Clause",
+    "License": "BSD 3-Clause Clear License",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
@@ -638,18 +798,46 @@
           "DOI": "10.1371/journal.pone.0178751",
           "PubDate": "2017-06-05",
           "Preprint": false,
-          "Citations": 21
+          "Citations": 22
         }
       ],
       "Preprints": []
     },
-    "Citations": 21,
+    "Citations": 22,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-06-05"],
     "Github": "jeammimi/deepnano",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["BaseCalling"]
+  },
+  {
+    "Name": "DeepSignal",
+    "DOIs": "10.1101/385849",
+    "Description": "5mC and 6mA detection from Nanopore reads",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1101/385849",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 0
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 0,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseModificationDetection", "TestedOnNonHumanData"]
   },
   {
     "Name": "DeepSimulator",
@@ -670,12 +858,12 @@
           "DOI": "10.1093/bioinformatics/bty223",
           "PubDate": "2018-04-04",
           "Preprint": false,
-          "Citations": 1
+          "Citations": 2
         }
       ],
       "Preprints": []
     },
-    "Citations": 1,
+    "Citations": 2,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-04-04"],
@@ -720,7 +908,7 @@
     "PubDates": [null],
     "Github": "hasindu2008/f5c",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["MethylationDetection", "AnalysisPipelines"]
+    "Categories": ["BaseModificationDetection", "AnalysisPipelines"]
   },
   {
     "Name": "Falcon",
@@ -728,7 +916,7 @@
     "Platform": "Python",
     "Description": "OLC approach",
     "Code": "https://github.com/PacificBiosciences/FALCON",
-    "License": "Pacific Biosciences of California, Inc",
+    "License": "BSD 3-Clause Clear License",
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
@@ -756,7 +944,30 @@
     "Categories": ["DenovoAssembly", "Alignment", "GeneratingConsensusSequence", "ErrorCorrectionAndPolishing"]
   },
   {
+    "Name": "FALCON-Phase",
+    "Platform": "C",
+    "Description": "Integrates PacBio long-read assemblies with Phase Genomics Hi-C data to create phased, diploid, chromosome-scale scaffolds.",
+    "Code": "https://github.com/phasegenomics/FALCON-Phase",
+    "License": "BSD",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": true,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "phasegenomics/FALCON-Phase",
+    "Technologies": ["PacBio", "HiC"],
+    "Categories": ["DenovoAssembly"]
+  },
+  {
     "Name": "FastQC",
+    "Platform": "Java",
+    "Description": "Quality control tool for high throughput sequencing data",
     "Code": "http://www.bioinformatics.babraham.ac.uk/projects/fastqc",
     "License": "GNU General Public License v3.0",
     "OxfordNanopore": true,
@@ -799,7 +1010,7 @@
     "Platform": "Python",
     "Description": "Combination of de bruijin graph and OLC approach",
     "Code": "https://github.com/fenderglass/Flye",
-    "License": "BSD 3",
+    "License": "BSD 3-Clause Clear License",
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
@@ -829,6 +1040,7 @@
   {
     "Name": "Gmap",
     "DOIs": "10.1093/bioinformatics/bti310",
+    "Description": "genomic mapping and alignment tool for mRNA",
     "Code": "http://research-pub.gene.com/gmap",
     "OxfordNanopore": true,
     "PacBio": true,
@@ -856,10 +1068,41 @@
     "Categories": ["IsoformDetection"]
   },
   {
-    "Name": "haplotyped-methylome",
-    "Platform": "Python",
-    "Description": "Reproducibility workflow for Gigante et al., 2018: Using long-read sequencing to detect imprinted DNA methylation",
-    "Code": "https://github.com/scottgigante/haplotypedmethylome",
+    "Name": "GraphMap",
+    "DOIs": "10.1038/ncomms11307",
+    "Platform": "C++",
+    "Description": "long read alignment",
+    "Code": "https://github.com/isovic/graphmap",
+    "License": "MIT",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1038/ncomms11307",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 72
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 72,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "isovic/graphmap",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Alignment"]
+  },
+  {
+    "Name": "guppy",
+    "Description": "GPU-enhanced basecaller from ONT",
+    "License": "ONT developer license agreement",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
@@ -871,9 +1114,39 @@
       "Preprints": [null]
     },
     "PubDates": [null],
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseCalling", "TestedOnHumanData", "TestedOnNonHumanData"]
+  },
+  {
+    "Name": "haplotyped-methylome",
+    "DOIs": "10.1101/445924",
+    "Platform": "Python",
+    "Description": "Reproducibility workflow for Gigante et al., 2018: Using long-read sequencing to detect imprinted DNA methylation",
+    "Code": "https://github.com/scottgigante/haplotypedmethylome",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1101/445924",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 0
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 0,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
     "Github": "scottgigante/haplotypedmethylome",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["Alignment", "ErrorCorrectionAndPolishing", "MethylationDetection"]
+    "Categories": ["Alignment", "ErrorCorrectionAndPolishing", "BaseModificationDetection"]
   },
   {
     "Name": "HGAP",
@@ -894,12 +1167,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-03",
           "Preprint": false,
-          "Citations": 1370
+          "Citations": 1373
         }
       ],
       "Preprints": []
     },
-    "Citations": 1370,
+    "Citations": 1373,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-03"],
@@ -973,6 +1246,27 @@
     "Categories": ["ErrorCorrectionAndPolishing"]
   },
   {
+    "Name": "IsoSeq4",
+    "Platform": "Python",
+    "Description": "Scalable De Novo Isoform Discovery from Single-Molecule PacBio Reads",
+    "Code": "https://github.com/PacificBiosciences/IsoSeq3",
+    "License": "BSD 3-Clause Clear License",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "PacificBiosciences/IsoSeq3",
+    "Technologies": ["PacBio"],
+    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "IsoformDetection", "AnalysisPipelines"]
+  },
+  {
     "Name": "levelfind_poreseq",
     "Platform": "Jupyter Notebook",
     "Description": "Extract signal levels and noise information of DNA bases using a Bayesian model",
@@ -993,6 +1287,58 @@
     "Categories": ["ErrorCorrectionAndPolishing"]
   },
   {
+    "Name": "lima",
+    "Platform": "R",
+    "Description": "Demultiplex Barcoded PacBio Samples",
+    "Code": "https://github.com/PacificBiosciences/barcoding",
+    "License": "BSD 3 Clause Clear License",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "PacificBiosciences/barcoding",
+    "Technologies": ["PacBio"],
+    "Categories": ["ProvideSummaryStatistics", "QualityTrimming"]
+  },
+  {
+    "Name": "LINKS",
+    "DOIs": "10.1186/s13742-015-0076-3",
+    "Description": "Long Interval Nucleotide K-mer Scaffolder",
+    "Code": "https://github.com/bcgsc/LINKS",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1186/s13742-015-0076-3",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 32
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 32,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "bcgsc/LINKS",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["DenovoAssembly", "TestedOnNonHumanData"]
+  },
+  {
     "Name": "LQS",
     "DOIs": "10.1038/nmeth.3444",
     "Platform": "Python",
@@ -1010,12 +1356,12 @@
           "DOI": "10.1038/nmeth.3444",
           "PubDate": "2015-06-15",
           "Preprint": false,
-          "Citations": 196
+          "Citations": 197
         }
       ],
       "Preprints": []
     },
-    "Citations": 196,
+    "Citations": 197,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-06-15"],
@@ -1056,11 +1402,12 @@
     "Categories": ["IsoformDetection", "ReadQuantification", "TestedOnHumanData", "Normalisation", "GeneExpressionAnalysis"]
   },
   {
-    "Name": "marginCaller",
+    "Name": "marginAlign",
     "DOIs": "10.1038/nmeth.3290",
     "Platform": "Python",
-    "Description": "Currently through this model it is possible to get multiple substitutions called at a site, if two non-reference bases both have posterior probability greater than 0.3. Margincaller does not currently report reference base probs",
+    "Description": "Align and call SNVs. Package contains marginAlign, marginCaller and marginStats",
     "Code": "https://github.com/benedictpaten/marginAlign",
+    "License": "MIT",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
@@ -1074,18 +1421,19 @@
           "DOI": "10.1038/nmeth.3290",
           "PubDate": "2015-02-16",
           "Preprint": false,
-          "Citations": 211
+          "Citations": 212
         }
       ],
       "Preprints": []
     },
-    "Citations": 211,
+    "Citations": 212,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-02-16"],
     "Github": "benedictpaten/marginAlign",
+    "PyPI": "marginAlign",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["SNPAndVariantAnalysis"]
+    "Categories": ["Alignment", "SNPAndVariantAnalysis", "ProvideSummaryStatistics"]
   },
   {
     "Name": "MARVEL",
@@ -1122,7 +1470,7 @@
   },
   {
     "Name": "MaSuRCA",
-    "DOIs": "10.1101/gr.213405.116",
+    "DOIs": "10.1093/bioinformatics/btt476",
     "Platform": "M4",
     "Description": "Combines the benefits of deBruijn graph and Overlap-Layout-Consensus assembly approaches. Since version 3.2.1 it supports hybrid assembly with short Illumina reads and long high error PacBio/MinION data",
     "Code": "https://github.com/alekseyzimin/masurca",
@@ -1136,19 +1484,18 @@
     "Refs": {
       "Publications": [
         {
-          "Title": "Hybrid assembly of the large and highly repetitive genome of Aegilops tauschii, a progenitor of bread wheat, with the MaSuRCA mega-reads algorithm",
-          "DOI": "10.1101/gr.213405.116",
-          "PubDate": "2017-01-28",
+          "DOI": "10.1093/bioinformatics/btt476",
+          "PubDate": [],
           "Preprint": false,
-          "Citations": 32
+          "Citations": 222
         }
       ],
       "Preprints": []
     },
-    "Citations": 32,
+    "Citations": 222,
     "Publications": 1,
     "Preprints": 0,
-    "PubDates": ["2017-01-28"],
+    "PubDates": ["character(0)"],
     "Github": "alekseyzimin/masurca",
     "Technologies": ["OxfordNanopore", "Illumina"],
     "Categories": ["DenovoAssembly"]
@@ -1183,7 +1530,7 @@
     "PubDates": ["2017-04-14"],
     "Github": "almcintyre/mCaller",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["MethylationDetection"]
+    "Categories": ["BaseModificationDetection"]
   },
   {
     "Name": "MECAT",
@@ -1219,9 +1566,31 @@
     "Categories": ["LongReadOverlapping", "DenovoAssembly", "Alignment", "ErrorCorrectionAndPolishing"]
   },
   {
+    "Name": "medaka",
+    "Platform": "Python",
+    "Description": "sequence correction",
+    "Code": "https://github.com/nanoporetech/medaka",
+    "License": "Mozilla Public License Version 2.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "nanoporetech/medaka",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["ErrorCorrectionAndPolishing"]
+  },
+  {
     "Name": "MetaSV",
     "DOIs": "10.1093/bioinformatics/btv204",
     "Platform": "Python",
+    "Description": "structural variant caller",
     "Code": "https://github.com/bioinform/metasv",
     "OxfordNanopore": true,
     "PacBio": false,
@@ -1290,12 +1659,12 @@
           "DOI": "10.1038/nbt.3238",
           "PubDate": "2015-05-25",
           "Preprint": false,
-          "Citations": 286
+          "Citations": 287
         }
       ],
       "Preprints": []
     },
-    "Citations": 286,
+    "Citations": 287,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-05-25"],
@@ -1453,6 +1822,44 @@
     "Categories": ["QualityChecking", "Visualisation", "ProvideSummaryStatistics"]
   },
   {
+    "Name": "MinKNOW",
+    "Description": "Data acquisition from ONT sequencers",
+    "License": "ONT developer license agreement",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["Visualisation", "ProvideSummaryStatistics"]
+  },
+  {
+    "Name": "minorseq",
+    "Description": "Minor variant calling and phasing tool",
+    "Code": "https://github.com/PacificBiosciences/minorseq",
+    "License": "BSD 3 Clause Clear License",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "PacificBiosciences/minorseq",
+    "Technologies": ["PacBio"],
+    "Categories": ["SNPAndVariantAnalysis"]
+  },
+  {
     "Name": "MultiQC",
     "DOIs": "10.1093/bioinformatics/btw354",
     "Platform": "Python",
@@ -1524,12 +1931,12 @@
           "DOI": "10.1101/gr.191395.115",
           "PubDate": "2015-10-08",
           "Preprint": false,
-          "Citations": 106
+          "Citations": 107
         }
       ],
       "Preprints": []
     },
-    "Citations": 106,
+    "Citations": 107,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-10-08"],
@@ -1541,7 +1948,7 @@
     "Name": "Nanocorrect*",
     "DOIs": "10.1038/nmeth.3444",
     "Platform": "Jupyter Notebook",
-    "Description": "A simple error correction method inspired by pbdagcon. Quite slow and other methods have superceeded the capability of this tiool. Hence, it was depriciated.",
+    "Description": "A simple error correction method inspired by pbdagcon. Quite slow and other methods have superseded the capability of this tool. Hence, it was deprecated.",
     "Code": "https://github.com/jts/nanocorrect",
     "License": "MIT",
     "OxfordNanopore": true,
@@ -1557,12 +1964,12 @@
           "DOI": "10.1038/nmeth.3444",
           "PubDate": "2015-06-15",
           "Preprint": false,
-          "Citations": 196
+          "Citations": 197
         }
       ],
       "Preprints": []
     },
-    "Citations": 196,
+    "Citations": 197,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-06-15"],
@@ -1609,6 +2016,59 @@
     "Github": "skoren/NanoGrid",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["AnalysisPipelines"]
+  },
+  {
+    "Name": "Nanonet*",
+    "Platform": "C++",
+    "Description": "first generation RNN basecaller from ONT",
+    "Code": "https://github.com/ProgramFiles/nanonet",
+    "License": "Mozilla Public License Version 2.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "ProgramFiles/nanonet",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseCalling"]
+  },
+  {
+    "Name": "NanoOK",
+    "DOIs": "10.1093/bioinformatics/btv540",
+    "Platform": "Java/R",
+    "Description": "Alignment-based quality control",
+    "Code": "https://github.com/TGAC/NanoOK",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1093/bioinformatics/btv540",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 8
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 8,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "TGAC/NanoOK",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["QualityChecking", "ProvideSummaryStatistics"]
   },
   {
     "Name": "NanoPack",
@@ -1803,10 +2263,10 @@
     "Categories": ["AnalysisPipelines"]
   },
   {
-    "Name": "nanoraw",
+    "Name": "nanoraw*",
     "DOIs": "10.1101/094672",
     "Platform": "Python",
-    "Description": "The first algorithm for the identification of modified nucleotides without the need for prior training data along with the open source software implementation.",
+    "Description": "The first algorithm for the identification of modified nucleotides without the need for prior training data along with the open source software implementation. Now superseded by Tombo.",
     "Code": "https://github.com/marcus1487/nanoraw",
     "OxfordNanopore": true,
     "PacBio": false,
@@ -1831,9 +2291,8 @@
     "Preprints": 0,
     "PubDates": ["2016-12-16"],
     "Github": "marcus1487/nanoraw",
-    "PyPI": "nanoraw",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["MethylationDetection"]
+    "Categories": ["BaseModificationDetection"]
   },
   {
     "Name": "NanoSV",
@@ -1867,6 +2326,27 @@
     "PyPI": "NanoSV",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["SNPAndVariantAnalysis"]
+  },
+  {
+    "Name": "nanotatoR",
+    "Platform": "R",
+    "Description": "Bionano Data Annotation R package",
+    "Code": "https://github.com/VilainLab/nanotatoR",
+    "License": "GNU General Public License v2.0",
+    "OxfordNanopore": false,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": true,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "VilainLab/nanotatoR",
+    "Technologies": ["BionanoGenomics"],
+    "Categories": ["DenovoAssembly", "SNPAndVariantAnalysis", "ProvideSummaryStatistics"]
   },
   {
     "Name": "nanotest",
@@ -1922,6 +2402,169 @@
     "Categories": ["ErrorCorrectionAndPolishing", "TestedOnNonHumanData"]
   },
   {
+    "Name": "NGMLR",
+    "DOIs": "10.1038/s41592-018-0001-7",
+    "Platform": "C++",
+    "Description": "Long-read mapper designed to align PacBio or Oxford Nanopore (standard and ultra-long) to a reference genome with a focus on reads that span structural variations",
+    "Code": "https://github.com/philres/ngmlr",
+    "License": "MIT",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1038/s41592-018-0001-7",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 12
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 12,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "philres/ngmlr",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Alignment", "SNPAndVariantAnalysis", "TestedOnHumanData", "AvailablityOfTestData"]
+  },
+  {
+    "Name": "npAnalysis",
+    "DOIs": "10.1186/s13742-016-0137-2",
+    "Description": "Real-time analysis of Oxford Nanopore MinION sequencing",
+    "Code": "https://github.com/mdcao/npAnalysis",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1186/s13742-016-0137-2",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 22
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 22,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "mdcao/npAnalysis",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData"]
+  },
+  {
+    "Name": "npInv",
+    "Platform": "Java",
+    "Description": "Detection of genomic inversions",
+    "Code": "https://github.com/haojingshao/npInv",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "haojingshao/npInv",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["SNPAndVariantAnalysis"]
+  },
+  {
+    "Name": "npScarf",
+    "Description": "Scaffolding and completing assemblies in real time",
+    "Code": "https://github.com/mdcao/npScarf",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "mdcao/npScarf",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["DenovoAssembly", "TestedOnNonHumanData", "AvailablityOfTestData"]
+  },
+  {
+    "Name": "ont-assembly-polish",
+    "Description": "ONT assembly and Illumina polishing pipeline, using Canu/Racon/bwa-mem/pilon",
+    "Code": "https://github.com/nanoporetech/ont-assembly-polish",
+    "License": "Mozilla Public License Version 2.1",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": true,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "nanoporetech/ont-assembly-polish",
+    "Technologies": ["OxfordNanopore", "Illumina"],
+    "Categories": ["LongReadOverlapping", "DenovoAssembly", "GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "TestedOnNonHumanData", "AnalysisPipelines"]
+  },
+  {
+    "Name": "pb-assembly",
+    "Platform": "Python",
+    "Description": "An assembly tool for PacBio reads",
+    "Code": "https://github.com/PacificBiosciences/pb-assembly",
+    "License": "BSD 3-Clause Clear License",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "PacificBiosciences/pb-assembly",
+    "Technologies": ["PacBio"],
+    "Categories": ["DenovoAssembly", "Alignment", "GeneratingConsensusSequence", "ErrorCorrectionAndPolishing"]
+  },
+  {
+    "Name": "pbalign",
+    "Platform": "Python",
+    "Description": "To align PacBio reads to reference sequences",
+    "Code": "https://github.com/PacificBiosciences/pbalign",
+    "License": "BSD 3 Clause Clear License",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "PacificBiosciences/pbalign",
+    "Technologies": ["PacBio"],
+    "Categories": ["Alignment"]
+  },
+  {
     "Name": "pbbioconda",
     "Description": "The integration of alignment, polishing, variant calling, SV analysis, etc. In one package",
     "Code": "https://github.com/PacificBiosciences/pbbioconda",
@@ -1959,12 +2602,12 @@
           "DOI": "10.1038/nbt.3238",
           "PubDate": "2015-05-25",
           "Preprint": false,
-          "Citations": 286
+          "Citations": 287
         }
       ],
       "Preprints": []
     },
-    "Citations": 286,
+    "Citations": 287,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-05-25"],
@@ -1976,7 +2619,7 @@
     "Platform": "C++",
     "Description": "Have implemented DAGCon (Directed Acyclic Graph Consensus) which is a sequence consensus algorithm based on using directed acyclic graphs to encode multiple sequence alignment",
     "Code": "https://github.com/PacificBiosciences/pbdagcon",
-    "License": "Pacific Biosciences of California, Inc.",
+    "License": "BSD 3-Clause Clear License",
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
@@ -2042,17 +2685,59 @@
           "DOI": "10.1371/journal.pone.0047768",
           "PubDate": [],
           "Preprint": false,
-          "Citations": 278
+          "Citations": 279
         }
       ],
       "Preprints": []
     },
-    "Citations": 278,
+    "Citations": 279,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["character(0)"],
     "Technologies": ["PacBio"],
     "Categories": ["DenovoAssembly", "AvailablityOfTestData", "GapFilling"]
+  },
+  {
+    "Name": "pbmm2",
+    "Platform": "C++",
+    "Description": "A SMRT wrapper for minimap2. Its purpose is to support native PacBio in- and output, provide sets of recommended parameters, and generate sorted output on-the-fly.",
+    "Code": "https://github.com/PacificBiosciences/pbmm2",
+    "License": "BSD 3-Clause Clear License",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "PacificBiosciences/pbmm2",
+    "Technologies": ["PacBio"],
+    "Categories": ["Alignment", "GeneratingConsensusSequence"]
+  },
+  {
+    "Name": "pbsmrtpipe",
+    "Platform": "Python",
+    "Description": "PacBio Workflow Engine",
+    "Code": "https://github.com/PacificBiosciences/pbsmrtpipe",
+    "License": "BSD 3 Clause Clear License",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "PacificBiosciences/pbsmrtpipe",
+    "Technologies": ["PacBio"],
+    "Categories": ["AnalysisPipelines"]
   },
   {
     "Name": "pbssc",
@@ -2128,6 +2813,38 @@
     "Categories": ["SNPAndVariantAnalysis"]
   },
   {
+    "Name": "Picky",
+    "DOIs": "10.1038/s41592-018-0002-6",
+    "Platform": "Perl",
+    "Description": "Structural variant pipeline for long reads",
+    "Code": "https://github.com/TheJacksonLaboratory/Picky",
+    "License": "Jackson Laboratory Non-Commercial License",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1038/s41592-018-0002-6",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 1
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 1,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "TheJacksonLaboratory/Picky",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Alignment", "SNPAndVariantAnalysis", "TestedOnHumanData", "AnalysisPipelines"]
+  },
+  {
     "Name": "Pilon",
     "DOIs": "10.1371/journal.pone.0112963",
     "Platform": "Scala",
@@ -2147,12 +2864,12 @@
           "DOI": "10.1371/journal.pone.0112963",
           "PubDate": "2014-11-20",
           "Preprint": false,
-          "Citations": 501
+          "Citations": 502
         }
       ],
       "Preprints": []
     },
-    "Citations": 501,
+    "Citations": 502,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-11-20"],
@@ -2203,6 +2920,27 @@
     "Categories": ["DenovoAssembly", "GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "IsoformDetection", "Visualisation", "AnalysisPipelines"]
   },
   {
+    "Name": "pipeline-transcriptome-de",
+    "Platform": "Python",
+    "Description": "Pipeline for differential gene expression (DGE) and differential transcript usage (DTU) analysis using long reads",
+    "Code": "https://github.com/nanoporetech/pipeline-transcriptome-de",
+    "License": "Mozilla Public License Version 2.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "nanoporetech/pipeline-transcriptome-de",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Alignment", "IsoformDetection", "ReadQuantification", "Normalisation", "ProvideSummaryStatistics", "GeneExpressionAnalysis", "AnalysisPipelines"]
+  },
+  {
     "Name": "plotnanopolish",
     "Platform": "R",
     "Description": "Scripts for plotting nanopolish methylation data",
@@ -2221,6 +2959,36 @@
     "Github": "gilfunk/plotnanopolish",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["Visualisation"]
+  },
+  {
+    "Name": "poRe",
+    "DOIs": "10.1093/bioinformatics/btu590",
+    "Platform": "R",
+    "Description": "Extraction and visualisation of nanopore sequencing data",
+    "Code": "https://sourceforge.net/projects/rpore/files/",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1093/bioinformatics/btu590",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 46
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 46,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["QualityChecking", "Visualisation", "ProvideSummaryStatistics"]
   },
   {
     "Name": "Porechop*",
@@ -2363,12 +3131,12 @@
           "DOI": "10.1038/nbt.3360",
           "PubDate": "2015-09-09",
           "Preprint": false,
-          "Citations": 39
+          "Citations": 40
         }
       ],
       "Preprints": []
     },
-    "Citations": 39,
+    "Citations": 40,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-09-09"],
@@ -2406,7 +3174,7 @@
     "PubDates": ["2018-09-25"],
     "Github": "cvdelannoy/poreTally",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["Alignment", "ErrorCorrectionAndPolishing", "MethylationDetection"]
+    "Categories": ["Alignment", "ErrorCorrectionAndPolishing", "BaseModificationDetection"]
   },
   {
     "Name": "Poretools",
@@ -2427,12 +3195,12 @@
           "DOI": "10.1093/bioinformatics/btu555",
           "PubDate": "2014-08-21",
           "Preprint": false,
-          "Citations": 155
+          "Citations": 156
         }
       ],
       "Preprints": []
     },
-    "Citations": 155,
+    "Citations": 156,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-08-21"],
@@ -2502,12 +3270,12 @@
           "DOI": "10.1093/bioinformatics/btt086",
           "PubDate": "2013-02-20",
           "Preprint": false,
-          "Citations": 852
+          "Citations": 854
         }
       ],
       "Preprints": []
     },
-    "Citations": 852,
+    "Citations": 854,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-02-20"],
@@ -2635,8 +3403,9 @@
   },
   {
     "Name": "RNAseqEval",
+    "DOIs": "10.1093/bioinformatics/btx668",
     "Platform": "Python",
-    "Description": "A collection of tools for evaluating RNA seq mapping. ",
+    "Description": "A collection of tools for evaluating RNA seq mapping.",
     "Code": "https://github.com/kkrizanovic/RNAseqEval",
     "OxfordNanopore": true,
     "PacBio": true,
@@ -2645,10 +3414,20 @@
     "BionanoGenomics": true,
     "HiC": true,
     "Refs": {
-      "Publications": [null],
-      "Preprints": [null]
+      "Publications": [
+        {
+          "DOI": "10.1093/bioinformatics/btx668",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 3
+        }
+      ],
+      "Preprints": []
     },
-    "PubDates": [null],
+    "Citations": 3,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
     "Github": "kkrizanovic/RNAseqEval",
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "BionanoGenomics", "HiC"],
     "Categories": ["EvaluatingExisitingMethods", "QualityChecking", "ProvideSummaryStatistics"]
@@ -2677,6 +3456,7 @@
   {
     "Name": "scrappie",
     "Platform": "Python",
+    "Description": "development basecaller from ONT",
     "Code": "https://github.com/nanoporetech/scrappie",
     "License": "Mozilla Public License Version 2.0",
     "OxfordNanopore": true,
@@ -2694,6 +3474,26 @@
     "PyPI": "scrappie",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["BaseCalling"]
+  },
+  {
+    "Name": "Shiny-apps",
+    "Platform": "R",
+    "Code": "https://github.com/Nucleomics-VIB/Shiny-apps",
+    "License": "Creative Commons Attribution-ShareAlike 3.0 Unported License",
+    "OxfordNanopore": false,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": true,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "Nucleomics-VIB/Shiny-apps",
+    "Technologies": ["BionanoGenomics"],
+    "Categories": ["Visualisation", "ProvideSummaryStatistics"]
   },
   {
     "Name": "shishir-reddy/nanopore-pipeline",
@@ -2746,7 +3546,28 @@
     "Github": "ArtRand/signalAlign",
     "PyPI": "signalAlign",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["MethylationDetection"]
+    "Categories": ["BaseModificationDetection"]
+  },
+  {
+    "Name": "sloika",
+    "Platform": "Python",
+    "Description": "ONT software for training network models for basecalling",
+    "Code": "https://github.com/nanoporetech/sloika",
+    "License": "Mozilla Public License Version 2.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "nanoporetech/sloika",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseCalling"]
   },
   {
     "Name": "SMARTdenovo",
@@ -2767,18 +3588,69 @@
           "DOI": "10.1016/0022-2836(70)90057-4",
           "PubDate": "2005-02-10",
           "Preprint": false,
-          "Citations": 4421
+          "Citations": 4425
         }
       ],
       "Preprints": []
     },
-    "Citations": 4421,
+    "Citations": 4425,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2005-02-10"],
     "Github": "ruanjue/smartdenovo",
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "BionanoGenomics", "HiC"],
     "Categories": ["DenovoAssembly", "GeneratingConsensusSequence"]
+  },
+  {
+    "Name": "SMIS",
+    "Platform": "C++",
+    "Description": "Scaffolding pipeline using data from long reads technologies (PacBio, ONT) to scaffold an initial draft assembly",
+    "Code": "https://github.com/wtsi-hpag/smis",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "wtsi-hpag/smis",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["DenovoAssembly"]
+  },
+  {
+    "Name": "SMRT-Link",
+    "DOIs": "doi.org/10.1093/nar/gkr1146",
+    "Platform": "Python",
+    "Description": "the web-based end-to-end workflow manager for the Sequel System",
+    "Code": "https://github.com/WenchaoLin/SMRT-Link",
+    "License": "BSD 3 Clause Clear License",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "doi.org/10.1093/nar/gkr1146",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
+    },
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "WenchaoLin/SMRT-Link",
+    "Technologies": ["PacBio"],
+    "Categories": ["AnalysisPipelines"]
   },
   {
     "Name": "SMRT-SV",
@@ -2815,7 +3687,7 @@
   {
     "Name": "Sniffles",
     "DOIs": "10.1101/169557",
-    "Platform": "HTML",
+    "Platform": "C++",
     "Description": "Uses evidence from split-read alignments, high-mismatch regions, and coverage analysis from sorted alignment outputs of BWA-MEM",
     "Code": "https://github.com/fritzsedlazeck/Sniffles",
     "OxfordNanopore": true,
@@ -2864,17 +3736,49 @@
           "DOI": "10.1089/cmb.2012.0021",
           "PubDate": "2012-04-16",
           "Preprint": false,
-          "Citations": 3594
+          "Citations": 3597
         }
       ],
       "Preprints": []
     },
-    "Citations": 3594,
+    "Citations": 3597,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2012-04-16"],
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "BionanoGenomics", "HiC"],
     "Categories": ["DenovoAssembly", "SuitableForSingleCellExperiments"]
+  },
+  {
+    "Name": "SQANTI2",
+    "DOIs": "10.1101/gr.222976.117",
+    "Platform": "Python",
+    "Description": "Is an automated pipeline for the classification of long-read transcripts that can assess the quality of data and the preprocessing pipeline using 47 unique descriptors",
+    "Code": "https://github.com/Magdoll/SQANTI2",
+    "License": "BSD 3 Clause Clear License",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1101/gr.222976.117",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 7
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 7,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "Magdoll/SQANTI2",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["QualityChecking", "ProvideSummaryStatistics", "QualityTrimming"]
   },
   {
     "Name": "SURVIVOR",
@@ -2893,12 +3797,12 @@
           "DOI": "10.1038/ncomms14061",
           "PubDate": "2017-01-24",
           "Preprint": false,
-          "Citations": 15
+          "Citations": 16
         }
       ],
       "Preprints": []
     },
-    "Citations": 15,
+    "Citations": 16,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-01-24"],
@@ -2997,7 +3901,7 @@
     "PubDates": ["2017-02-21"],
     "Github": "nanoporetech/tombo",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["MethylationDetection"]
+    "Categories": ["BaseModificationDetection"]
   },
   {
     "Name": "unanimity",
@@ -3051,6 +3955,34 @@
     "Github": "rrwick/unicycler",
     "Technologies": ["OxfordNanopore", "Illumina"],
     "Categories": ["DenovoAssembly", "TestedOnHumanData", "TestedOnNonHumanData"]
+  },
+  {
+    "Name": "WIMP",
+    "DOIs": "10.1101/030742",
+    "Description": "What Is In My Pot: real-time species identification from metagenomic samples on the MinION.",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1101/030742",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": 7
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 7,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["Visualisation", "TestedOnNonHumanData", "ProvideSummaryStatistics"]
   },
   {
     "Name": "wtdbg2",
