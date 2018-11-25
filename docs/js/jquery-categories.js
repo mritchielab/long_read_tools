@@ -47,6 +47,8 @@ $(document).ready(function () {
         var cat_str
         if (category == "SNPAndVariantAnalysis") {
           cat_str = "SNP And Variant Analysis"
+        } else if (category == "DenovoAssembly") {
+          cat_str = "<i>Denovo</i> Assembly"
         } else {
           cat_str = category.replace(/([a-z])([A-Z])/g, '$1 $2')
         }

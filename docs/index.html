@@ -219,6 +219,9 @@
             if (cat == "SNPAndVariantAnalysis") {
               formatted.push('<a href="categories.html#' + cat + '">' +
                     "SNP And Variant Analysis" + '</a>')        
+            } else if (cat == "DenovoAssembly") {
+              formatted.push('<a href="categories.html#' + cat + '">' +
+                    '<i>' + "Denovo" + '</i>' + " Assembly" + '</a>')        
             } else {
               formatted.push('<a href="categories.html#' + cat + '">' +
                     cat.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')
