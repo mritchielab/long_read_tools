@@ -21,7 +21,7 @@ get_swsheet <- function() {
                     DOIs = DOI,
                     Description = Details,
                     Code = Source)
-                               
+    swsheet <- swsheet[order(swsheet$Name),]                            
 }
 
 
