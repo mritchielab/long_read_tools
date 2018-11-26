@@ -3,8 +3,11 @@
     "Category": "Alignment",
     "Tools": [
       {
+        "Name": "Automation",
+        "Publications": 1
+      },
+      {
         "Name": "bwa-sw",
-        "Citations": 2936,
         "Publications": 1
       },
       {
@@ -12,37 +15,42 @@
         "PyPI": "cogent"
       },
       {
+        "Name": "cwDTW",
+        "Publications": 1
+      },
+      {
         "Name": "Falcon",
-        "Citations": 143,
         "Publications": 1
       },
       {
         "Name": "GraphMap",
-        "Citations": 72,
         "Publications": 1
       },
       {
         "Name": "haplotyped-methylome",
-        "Citations": 0,
         "Publications": 1
       },
       {
         "Name": "marginAlign",
-        "Citations": 212,
         "Publications": 1,
         "PyPI": "marginAlign"
       },
       {
         "Name": "MECAT",
-        "Citations": 12,
         "Publications": 1
+      },
+      {
+        "Name": "minimap2",
+        "Publications": 1
+      },
+      {
+        "Name": "minoTour"
       },
       {
         "Name": "NanoPipe"
       },
       {
         "Name": "NGMLR",
-        "Citations": 12,
         "Publications": 1
       },
       {
@@ -59,7 +67,6 @@
       },
       {
         "Name": "Picky",
-        "Citations": 1,
         "Publications": 1
       },
       {
@@ -70,7 +77,6 @@
       },
       {
         "Name": "poreTally",
-        "Citations": 0,
         "Publications": 1
       }
     ],
@@ -83,24 +89,36 @@
         "Name": "bionano-tools"
       },
       {
+        "Name": "CRuMPIT",
+        "Publications": 1
+      },
+      {
         "Name": "davidcoffey/MinION",
-        "Citations": 11,
         "Publications": 1
       },
       {
         "Name": "DeepSimulator",
-        "Citations": 2,
         "Publications": 1
       },
       {
         "Name": "F5c"
       },
       {
+        "Name": "HLA*PRG:LA",
+        "Publications": 1
+      },
+      {
         "Name": "IsoSeq4"
       },
       {
+        "Name": "Japsa"
+      },
+      {
         "Name": "LQS",
-        "Citations": 197,
+        "Publications": 1
+      },
+      {
+        "Name": "LRSDAY",
         "Publications": 1
       },
       {
@@ -126,7 +144,6 @@
       },
       {
         "Name": "Picky",
-        "Citations": 1,
         "Publications": 1
       },
       {
@@ -143,7 +160,6 @@
       },
       {
         "Name": "Poretools",
-        "Citations": 156,
         "Publications": 1,
         "PyPI": "poretools"
       },
@@ -162,18 +178,27 @@
     "Tools": [
       {
         "Name": "ABruijn",
-        "Citations": 18,
         "Publications": 1
       },
       {
         "Name": "Chiron",
-        "Citations": 6,
         "Publications": 1,
         "PyPI": "chiron"
       },
       {
+        "Name": "CRuMPIT",
+        "Publications": 1
+      },
+      {
         "Name": "Deepbinner",
-        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "HLA*PRG:LA",
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSatellite",
         "Publications": 1
       },
       {
@@ -181,12 +206,10 @@
       },
       {
         "Name": "NGMLR",
-        "Citations": 12,
         "Publications": 1
       },
       {
         "Name": "npAnalysis",
-        "Citations": 22,
         "Publications": 1
       },
       {
@@ -194,7 +217,10 @@
       },
       {
         "Name": "PBJelly",
-        "Citations": 279,
+        "Publications": 1
+      },
+      {
+        "Name": "spectrassembler",
         "Publications": 1
       }
     ]
@@ -207,7 +233,6 @@
       },
       {
         "Name": "basecRAWller*",
-        "Citations": 3,
         "Publications": 1
       },
       {
@@ -215,22 +240,27 @@
       },
       {
         "Name": "Chiron",
-        "Citations": 6,
         "Publications": 1,
         "PyPI": "chiron"
       },
       {
         "Name": "DeepNano",
-        "Citations": 22,
         "Publications": 1
       },
       {
         "Name": "DeepSimulator",
-        "Citations": 2,
         "Publications": 1
       },
       {
         "Name": "guppy"
+      },
+      {
+        "Name": "Nanocall",
+        "Publications": 1
+      },
+      {
+        "Name": "Nanocall*",
+        "Publications": 1
       },
       {
         "Name": "Nanonet*"
@@ -240,7 +270,6 @@
       },
       {
         "Name": "pbssc",
-        "Citations": 4,
         "Publications": 1
       },
       {
@@ -252,7 +281,6 @@
       },
       {
         "Name": "R2C2",
-        "Citations": 0,
         "Publications": 1
       },
       {
@@ -269,8 +297,10 @@
     "Category": "BaseModificationDetection",
     "Tools": [
       {
+        "Name": "DeepMod"
+      },
+      {
         "Name": "DeepSignal",
-        "Citations": 0,
         "Publications": 1
       },
       {
@@ -278,58 +308,68 @@
       },
       {
         "Name": "haplotyped-methylome",
-        "Citations": 0,
         "Publications": 1
       },
       {
         "Name": "mCaller",
-        "Citations": 3,
         "Publications": 1
       },
       {
+        "Name": "NanoMod",
+        "Publications": 1
+      },
+      {
+        "Name": "nanomod*"
+      },
+      {
         "Name": "nanoraw*",
-        "Citations": 9,
         "Publications": 1
       },
       {
         "Name": "poreTally",
-        "Citations": 0,
         "Publications": 1
       },
       {
         "Name": "SignalAlign",
-        "Citations": 51,
         "Publications": 1,
         "PyPI": "signalAlign"
       },
       {
         "Name": "Tombo",
-        "Citations": 64,
         "Publications": 1
       }
     ]
+  },
+  {
+    "Category": "Demultiplexing",
+    "Tools": [
+      {
+        "Name": "lima"
+      },
+      {
+        "Name": "qcat",
+        "PyPI": "qcat"
+      }
+    ],
+    "Description": "Using barcode or other information to know which sequences came from which samples in a pool of samples"
   },
   {
     "Category": "DenovoAssembly",
     "Tools": [
       {
         "Name": "ABruijn",
-        "Citations": 18,
         "Publications": 1
       },
       {
         "Name": "ALLPATHS-LG/Discovar",
-        "Citations": 793,
         "Publications": 1
       },
       {
         "Name": "Architect",
-        "Citations": 7,
         "Publications": 1
       },
       {
         "Name": "ARCS",
-        "Citations": 8,
         "Publications": 1
       },
       {
@@ -340,12 +380,10 @@
       },
       {
         "Name": "Canu",
-        "Citations": 310,
         "Publications": 1
       },
       {
         "Name": "Circlator",
-        "Citations": 116,
         "Publications": 1,
         "PyPI": "circlator"
       },
@@ -355,12 +393,10 @@
       },
       {
         "Name": "DALIGNER",
-        "Citations": 18,
         "Publications": 1
       },
       {
         "Name": "Falcon",
-        "Citations": 143,
         "Publications": 1
       },
       {
@@ -368,52 +404,42 @@
       },
       {
         "Name": "Flye",
-        "Citations": 18,
         "Publications": 1
       },
       {
         "Name": "HGAP",
-        "Citations": 1373,
         "Publications": 1
       },
       {
         "Name": "Hinge",
-        "Citations": 13,
         "Publications": 1
       },
       {
         "Name": "LINKS",
-        "Citations": 32,
+        "Publications": 1
+      },
+      {
+        "Name": "LRSDAY",
         "Publications": 1
       },
       {
         "Name": "MARVEL",
-        "Citations": 35,
         "Publications": 1
       },
       {
         "Name": "MaSuRCA",
-        "Citations": 222,
         "Publications": 1
       },
       {
         "Name": "MECAT",
-        "Citations": 12,
         "Publications": 1
       },
       {
         "Name": "MHAP",
-        "Citations": 287,
         "Publications": 1
       },
       {
         "Name": "miniasm",
-        "Citations": 16,
-        "Publications": 1
-      },
-      {
-        "Name": "Minimap2",
-        "Citations": 16,
         "Publications": 1
       },
       {
@@ -430,12 +456,10 @@
       },
       {
         "Name": "PBcR*",
-        "Citations": 287,
         "Publications": 1
       },
       {
         "Name": "PBJelly",
-        "Citations": 279,
         "Publications": 1
       },
       {
@@ -447,7 +471,6 @@
       },
       {
         "Name": "PoreSeq",
-        "Citations": 40,
         "Publications": 1
       },
       {
@@ -455,7 +478,6 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4425,
         "Publications": 1
       },
       {
@@ -463,12 +485,14 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 3597,
+        "Publications": 1
+      },
+      {
+        "Name": "spectrassembler",
         "Publications": 1
       },
       {
         "Name": "Unicycler",
-        "Citations": 101,
         "Publications": 1
       },
       {
@@ -485,7 +509,6 @@
       },
       {
         "Name": "Falcon",
-        "Citations": 143,
         "Publications": 1
       },
       {
@@ -493,22 +516,22 @@
       },
       {
         "Name": "Flye",
-        "Citations": 18,
+        "Publications": 1
+      },
+      {
+        "Name": "FMLRC",
         "Publications": 1
       },
       {
         "Name": "haplotyped-methylome",
-        "Citations": 0,
         "Publications": 1
       },
       {
         "Name": "HGAP",
-        "Citations": 1373,
         "Publications": 1
       },
       {
         "Name": "INC-Seq",
-        "Citations": 16,
         "Publications": 1
       },
       {
@@ -518,13 +541,15 @@
         "Name": "levelfind_poreseq"
       },
       {
+        "Name": "LRSDAY",
+        "Publications": 1
+      },
+      {
         "Name": "MARVEL",
-        "Citations": 35,
         "Publications": 1
       },
       {
         "Name": "MECAT",
-        "Citations": 12,
         "Publications": 1
       },
       {
@@ -532,22 +557,18 @@
       },
       {
         "Name": "Nanocorr",
-        "Citations": 107,
         "Publications": 1
       },
       {
         "Name": "Nanocorrect*",
-        "Citations": 197,
         "Publications": 1
       },
       {
         "Name": "nanopolish",
-        "Citations": 64,
         "Publications": 1
       },
       {
         "Name": "NaS",
-        "Citations": 67,
         "Publications": 1
       },
       {
@@ -561,7 +582,6 @@
       },
       {
         "Name": "Pilon",
-        "Citations": 502,
         "Publications": 1
       },
       {
@@ -575,12 +595,14 @@
       },
       {
         "Name": "poreTally",
-        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "PRAPI",
         "Publications": 1
       },
       {
         "Name": "Racon",
-        "Citations": 48,
         "Publications": 1
       },
       {
@@ -597,12 +619,10 @@
     "Tools": [
       {
         "Name": "Aligner comparisons",
-        "Citations": 0,
         "Publications": 1
       },
       {
         "Name": "Assembler comparisons",
-        "Citations": 8,
         "Publications": 1
       },
       {
@@ -611,12 +631,10 @@
       },
       {
         "Name": "DeepSimulator",
-        "Citations": 2,
         "Publications": 1
       },
       {
         "Name": "RNAseqEval",
-        "Citations": 3,
         "Publications": 1
       }
     ],
@@ -627,15 +645,16 @@
     "Tools": [
       {
         "Name": "ARCS",
-        "Citations": 8,
         "Publications": 1
       },
       {
         "Name": "bionano-tools"
       },
       {
+        "Name": "BNG-FlagSiteRepair"
+      },
+      {
         "Name": "PBJelly",
-        "Citations": 279,
         "Publications": 1
       }
     ],
@@ -650,7 +669,6 @@
       },
       {
         "Name": "Mandalorion-Episode II",
-        "Citations": 25,
         "Publications": 1
       },
       {
@@ -667,7 +685,6 @@
     "Tools": [
       {
         "Name": "ABruijn",
-        "Citations": 18,
         "Publications": 1
       },
       {
@@ -675,7 +692,6 @@
       },
       {
         "Name": "Canu",
-        "Citations": 310,
         "Publications": 1
       },
       {
@@ -684,26 +700,29 @@
       },
       {
         "Name": "Falcon",
-        "Citations": 143,
         "Publications": 1
       },
       {
         "Name": "HGAP",
-        "Citations": 1373,
         "Publications": 1
       },
       {
         "Name": "Hinge",
-        "Citations": 13,
         "Publications": 1
       },
       {
         "Name": "IsoSeq4"
       },
       {
-        "Name": "nanopolish",
-        "Citations": 64,
+        "Name": "LRSDAY",
         "Publications": 1
+      },
+      {
+        "Name": "nanopolish",
+        "Publications": 1
+      },
+      {
+        "Name": "Ococo"
       },
       {
         "Name": "ont-assembly-polish"
@@ -719,7 +738,6 @@
       },
       {
         "Name": "pbssc",
-        "Citations": 4,
         "Publications": 1
       },
       {
@@ -739,7 +757,10 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4425,
+        "Publications": 1
+      },
+      {
+        "Name": "spectrassembler",
         "Publications": 1
       },
       {
@@ -753,7 +774,6 @@
     "Tools": [
       {
         "Name": "BLAT",
-        "Citations": 1286,
         "Publications": 1
       },
       {
@@ -762,7 +782,6 @@
       },
       {
         "Name": "Gmap",
-        "Citations": 621,
         "Publications": 1
       },
       {
@@ -770,12 +789,10 @@
       },
       {
         "Name": "Mandalorion-Episode II",
-        "Citations": 25,
         "Publications": 1
       },
       {
         "Name": "MetaSV",
-        "Citations": 25,
         "Publications": 1
       },
       {
@@ -791,18 +808,19 @@
         "Name": "pipeline-transcriptome-de"
       },
       {
+        "Name": "PRAPI",
+        "Publications": 1
+      },
+      {
         "Name": "SURVIVOR",
-        "Citations": 16,
         "Publications": 1
       },
       {
         "Name": "TAPIS",
-        "Citations": 56,
         "Publications": 1
       },
       {
         "Name": "ToFU",
-        "Citations": 47,
         "Publications": 1
       }
     ],
@@ -815,33 +833,31 @@
         "Name": "BLASR"
       },
       {
+        "Name": "cwDTW",
+        "Publications": 1
+      },
+      {
         "Name": "DALIGNER",
-        "Citations": 18,
         "Publications": 1
       },
       {
         "Name": "Hinge",
-        "Citations": 13,
         "Publications": 1
       },
       {
         "Name": "MARVEL",
-        "Citations": 35,
         "Publications": 1
       },
       {
         "Name": "MECAT",
-        "Citations": 12,
         "Publications": 1
       },
       {
         "Name": "MHAP",
-        "Citations": 287,
         "Publications": 1
       },
       {
-        "Name": "Minimap2",
-        "Citations": 16,
+        "Name": "minimap2",
         "Publications": 1
       },
       {
@@ -855,7 +871,6 @@
     "Tools": [
       {
         "Name": "Mandalorion-Episode II",
-        "Citations": 25,
         "Publications": 1
       },
       {
@@ -871,6 +886,10 @@
         "Name": "bionano-tools"
       },
       {
+        "Name": "CRuMPIT",
+        "Publications": 1
+      },
+      {
         "Name": "FastQC"
       },
       {
@@ -878,7 +897,6 @@
       },
       {
         "Name": "marginAlign",
-        "Citations": 212,
         "Publications": 1,
         "PyPI": "marginAlign"
       },
@@ -887,32 +905,41 @@
       },
       {
         "Name": "MinIONQC",
-        "Citations": 0,
         "Publications": 1
       },
       {
         "Name": "MinKNOW"
       },
       {
+        "Name": "minoTour"
+      },
+      {
+        "Name": "NanoComp",
+        "PyPI": "NanoComp"
+      },
+      {
         "Name": "NanoOK",
-        "Citations": 8,
         "Publications": 1
       },
       {
         "Name": "NanoPack",
-        "Citations": 7,
         "Publications": 1,
         "PyPI": "nanopack"
       },
       {
+        "Name": "NanoSatelliteR"
+      },
+      {
         "Name": "nanotatoR"
+      },
+      {
+        "Name": "Ococo"
       },
       {
         "Name": "pipeline-transcriptome-de"
       },
       {
         "Name": "poRe",
-        "Citations": 46,
         "Publications": 1
       },
       {
@@ -924,7 +951,6 @@
       },
       {
         "Name": "RNAseqEval",
-        "Citations": 3,
         "Publications": 1
       },
       {
@@ -932,12 +958,10 @@
       },
       {
         "Name": "SQANTI2",
-        "Citations": 7,
         "Publications": 1
       },
       {
         "Name": "WIMP",
-        "Citations": 7,
         "Publications": 1
       }
     ],
@@ -948,7 +972,6 @@
     "Tools": [
       {
         "Name": "AlignQC",
-        "Citations": 27,
         "Publications": 1,
         "PyPI": "AlignQC"
       },
@@ -965,58 +988,84 @@
         "Name": "FastQC"
       },
       {
+        "Name": "HPG pore",
+        "Publications": 1
+      },
+      {
         "Name": "minion_MultiQC"
       },
       {
         "Name": "MinIONQC",
-        "Citations": 0,
         "Publications": 1
       },
       {
+        "Name": "minoTour"
+      },
+      {
         "Name": "MultiQC",
-        "Citations": 103,
         "Publications": 1,
         "PyPI": "multiqc"
       },
       {
+        "Name": "NanoComp",
+        "PyPI": "NanoComp"
+      },
+      {
         "Name": "NanoOK",
-        "Citations": 8,
         "Publications": 1
       },
       {
         "Name": "NanoPack",
-        "Citations": 7,
         "Publications": 1,
         "PyPI": "nanopack"
       },
       {
         "Name": "poRe",
-        "Citations": 46,
+        "Publications": 1
+      },
+      {
+        "Name": "poreminion",
         "Publications": 1
       },
       {
         "Name": "QUAST",
-        "Citations": 854,
         "Publications": 1,
         "PyPI": "quast"
       },
       {
         "Name": "QUAST-LG",
-        "Citations": 0,
         "Publications": 1
       },
       {
         "Name": "RNAseqEval",
-        "Citations": 3,
         "Publications": 1
       },
       {
         "Name": "SQANTI2",
-        "Citations": 7,
         "Publications": 1
       }
     ],
     "Description": "Provide a measure of the quality of the reads"
+  },
+  {
+    "Category": "QualityFiltering",
+    "Tools": [
+      {
+        "Name": "BioNano Access"
+      },
+      {
+        "Name": "IsoSeq4"
+      },
+      {
+        "Name": "PRAPI",
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI2",
+        "Publications": 1
+      }
+    ],
+    "Description": "Remove low quality reads based on a specified quality threshold"
   },
   {
     "Category": "QualityTrimming",
@@ -1032,7 +1081,6 @@
       },
       {
         "Name": "Canu",
-        "Citations": 310,
         "Publications": 1
       },
       {
@@ -1040,13 +1088,11 @@
       },
       {
         "Name": "NanoPack",
-        "Citations": 7,
         "Publications": 1,
         "PyPI": "nanopack"
       },
       {
         "Name": "pbssc",
-        "Citations": 4,
         "Publications": 1
       },
       {
@@ -1055,7 +1101,6 @@
       },
       {
         "Name": "R2C2",
-        "Citations": 0,
         "Publications": 1
       },
       {
@@ -1063,7 +1108,6 @@
       },
       {
         "Name": "SQANTI2",
-        "Citations": 7,
         "Publications": 1
       }
     ],
@@ -1074,7 +1118,6 @@
     "Tools": [
       {
         "Name": "Mandalorion-Episode II",
-        "Citations": 25,
         "Publications": 1
       },
       {
@@ -1085,6 +1128,16 @@
       }
     ],
     "Description": "Quantification of expression from reads"
+  },
+  {
+    "Category": "Simulators",
+    "Tools": [
+      {
+        "Name": "DeepSimulator",
+        "Publications": 1
+      }
+    ],
+    "Description": "Simulate a sequencing process and produce <i>in-silico<\/i> reads"
   },
   {
     "Category": "SNPAndVariantAnalysis",
@@ -1100,12 +1153,18 @@
       },
       {
         "Name": "davidcoffey/MinION",
-        "Citations": 11,
+        "Publications": 1
+      },
+      {
+        "Name": "HLA*PRG:LA",
+        "Publications": 1
+      },
+      {
+        "Name": "LRSDAY",
         "Publications": 1
       },
       {
         "Name": "marginAlign",
-        "Citations": 212,
         "Publications": 1,
         "PyPI": "marginAlign"
       },
@@ -1113,13 +1172,18 @@
         "Name": "minorseq"
       },
       {
+        "Name": "minoTour"
+      },
+      {
         "Name": "nanopolish",
-        "Citations": 64,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSatellite",
         "Publications": 1
       },
       {
         "Name": "NanoSV",
-        "Citations": 11,
         "Publications": 1,
         "PyPI": "NanoSV"
       },
@@ -1128,18 +1192,19 @@
       },
       {
         "Name": "NGMLR",
-        "Citations": 12,
         "Publications": 1
       },
       {
         "Name": "npInv"
       },
       {
+        "Name": "Ococo"
+      },
+      {
         "Name": "pbbioconda"
       },
       {
         "Name": "PBHoney",
-        "Citations": 29,
         "Publications": 1
       },
       {
@@ -1150,12 +1215,10 @@
       },
       {
         "Name": "Picky",
-        "Citations": 1,
         "Publications": 1
       },
       {
         "Name": "Pilon",
-        "Citations": 502,
         "Publications": 1
       },
       {
@@ -1163,12 +1226,10 @@
       },
       {
         "Name": "SMRT-SV",
-        "Citations": 231,
         "Publications": 1
       },
       {
         "Name": "Sniffles",
-        "Citations": 4,
         "Publications": 1
       }
     ],
@@ -1182,7 +1243,6 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 3597,
         "Publications": 1
       }
     ],
@@ -1196,7 +1256,6 @@
       },
       {
         "Name": "Circlator",
-        "Citations": 116,
         "Publications": 1,
         "PyPI": "circlator"
       },
@@ -1204,28 +1263,35 @@
         "Name": "guppy"
       },
       {
+        "Name": "HLA*PRG:LA",
+        "Publications": 1
+      },
+      {
         "Name": "Mandalorion-Episode II",
-        "Citations": 25,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanocall*",
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSatellite",
         "Publications": 1
       },
       {
         "Name": "NGMLR",
-        "Citations": 12,
         "Publications": 1
       },
       {
         "Name": "Picky",
-        "Citations": 1,
         "Publications": 1
       },
       {
         "Name": "Racon",
-        "Citations": 48,
         "Publications": 1
       },
       {
         "Name": "Unicycler",
-        "Citations": 101,
         "Publications": 1
       }
     ],
@@ -1236,7 +1302,6 @@
     "Tools": [
       {
         "Name": "ABruijn",
-        "Citations": 18,
         "Publications": 1
       },
       {
@@ -1244,7 +1309,6 @@
       },
       {
         "Name": "Circlator",
-        "Citations": 116,
         "Publications": 1,
         "PyPI": "circlator"
       },
@@ -1253,8 +1317,15 @@
         "PyPI": "cogent"
       },
       {
+        "Name": "CRuMPIT",
+        "Publications": 1
+      },
+      {
         "Name": "DeepSignal",
-        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "Dyss",
         "Publications": 1
       },
       {
@@ -1262,25 +1333,36 @@
       },
       {
         "Name": "LINKS",
-        "Citations": 32,
+        "Publications": 1
+      },
+      {
+        "Name": "LRSDAY",
         "Publications": 1
       },
       {
         "Name": "miniasm",
-        "Citations": 16,
         "Publications": 1
+      },
+      {
+        "Name": "Nanocall*",
+        "Publications": 1
+      },
+      {
+        "Name": "NanoMod",
+        "Publications": 1
+      },
+      {
+        "Name": "nanomod*"
       },
       {
         "Name": "nanotest"
       },
       {
         "Name": "NaS",
-        "Citations": 67,
         "Publications": 1
       },
       {
         "Name": "npAnalysis",
-        "Citations": 22,
         "Publications": 1
       },
       {
@@ -1291,17 +1373,18 @@
       },
       {
         "Name": "Racon",
-        "Citations": 48,
+        "Publications": 1
+      },
+      {
+        "Name": "spectrassembler",
         "Publications": 1
       },
       {
         "Name": "Unicycler",
-        "Citations": 101,
         "Publications": 1
       },
       {
         "Name": "WIMP",
-        "Citations": 7,
         "Publications": 1
       }
     ],
@@ -1312,7 +1395,6 @@
     "Tools": [
       {
         "Name": "ABruijn",
-        "Citations": 18,
         "Publications": 1
       },
       {
@@ -1323,16 +1405,17 @@
       },
       {
         "Name": "BulkVis",
-        "Citations": 0,
         "Publications": 1
       },
       {
         "Name": "D-GENIES",
-        "Citations": 0,
         "Publications": 1
       },
       {
         "Name": "dscam_nanopore"
+      },
+      {
+        "Name": "Japsa"
       },
       {
         "Name": "methplotlib",
@@ -1340,7 +1423,6 @@
       },
       {
         "Name": "Minidot",
-        "Citations": 88,
         "Publications": 1
       },
       {
@@ -1348,29 +1430,31 @@
       },
       {
         "Name": "MinIONQC",
-        "Citations": 0,
         "Publications": 1
       },
       {
         "Name": "MinKNOW"
       },
       {
+        "Name": "minoTour"
+      },
+      {
         "Name": "NanoPack",
-        "Citations": 7,
         "Publications": 1,
         "PyPI": "nanopack"
       },
       {
         "Name": "NanoPlot",
-        "Citations": 7,
         "Publications": 1,
         "PyPI": "NanoPlot"
       },
       {
         "Name": "nanoplotter",
-        "Citations": 0,
         "Publications": 1,
         "PyPI": "nanoplotter"
+      },
+      {
+        "Name": "NanoSatelliteR"
       },
       {
         "Name": "pinfish"
@@ -1383,7 +1467,6 @@
       },
       {
         "Name": "poRe",
-        "Citations": 46,
         "Publications": 1
       },
       {
@@ -1391,6 +1474,10 @@
       },
       {
         "Name": "POREquality"
+      },
+      {
+        "Name": "PRAPI",
+        "Publications": 1
       },
       {
         "Name": "pycoQC",
@@ -1401,7 +1488,6 @@
       },
       {
         "Name": "WIMP",
-        "Citations": 7,
         "Publications": 1
       }
     ],

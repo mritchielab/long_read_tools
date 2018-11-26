@@ -181,7 +181,7 @@ plot_categories <- function(swsheet) {
     `%>%` <- magrittr::`%>%`
 
     catcounts <- swsheet %>%
-        dplyr::summarise_at(13:35, sum) %>%
+        dplyr::summarise_at(13:38, sum) %>%
         tidyr::gather(key = Category, value = Count) %>%
         dplyr::arrange(-Count, Category) %>%
         dplyr::mutate(Prop = Count / nrow(swsheet)) %>%

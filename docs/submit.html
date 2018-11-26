@@ -57,7 +57,7 @@
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.html">
                         <img id="logo-image" alt="lrs-DB" src="img/banner.svg" />
                     </a>
                 </div>
@@ -143,6 +143,14 @@
                         <label class="form-check-label" for="BaseCalling">Base Calling</label>
                     </li>
                     <li>
+                        <input class="form-check-input" type="checkbox" value="BaseModificationDetection" id="BaseModificationDetection" name="categories">
+                        <label class="form-check-label" for="BaseModificationDetection">Base Modification Detection</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="Demultiplexing" id="Demultiplexing" name="categories">
+                        <label class="form-check-label" for="Demultiplexing">Demultiplexing</label>
+                    </li>
+                    <li>
                         <input class="form-check-input" type="checkbox" value="DenovoAssembly" id="DenovoAssembly" name="categories">
                         <label class="form-check-label" for="DenovoAssembly"><i>De novo</i> Assembly</label>
                     </li>
@@ -171,16 +179,12 @@
                         <label class="form-check-label" for="IsoformDetection">Isoform Detection</label>
                     </li>
                     <li>
-                        <input class="form-check-input" type="checkbox" value="Gene Networks" id="gene_networks" name="categories">
-                        <label class="form-check-label" for="gene_networks">Gene Networks</label>
-                    </li>
-                    <li>
                         <input class="form-check-input" type="checkbox" value="LongReadOverlapping" id="LongReadOverlapping" name="categories">
                         <label class="form-check-label" for="LongReadOverlapping">Long-Read Overlapping</label>
                     </li>
                     <li>
-                        <input class="form-check-input" type="checkbox" value="BaseModificationDetection" id="BaseModificationDetection" name="categories">
-                        <label class="form-check-label" for="BaseModificationDetection">Base Modification Detection</label>
+                        <input class="form-check-input" type="checkbox" value="Metagenomics" id="Metagenomics" name="categories">
+                        <label class="form-check-label" for="Metagenomics">Metagenomics</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="Normalisation" id="Normalisation" name="categories">
@@ -195,12 +199,20 @@
                         <label class="form-check-label" for="QualityChecking">Quality Checking</label>
                     </li>
                     <li>
+                        <input class="form-check-input" type="checkbox" value="QualityFiltering" id="QualityFiltering" name="categories">
+                        <label class="form-check-label" for="QualityFiltering">Quality Filtering</label>
+                    </li>
+                    <li>
                         <input class="form-check-input" type="checkbox" value="QualityTrimming" id="QualityTrimming" name="categories">
                         <label class="form-check-label" for="QualityTrimming">Quality Trimming</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="ReadQuantification" id="ReadQuantification" name="categories">
                         <label class="form-check-label" for="ReadQuantification">Read Quantification</label>
+                    </li>
+                    <li>
+                        <input class="form-check-input" type="checkbox" value="Simulators" id="Simulators" name="categories">
+                        <label class="form-check-label" for="Simulators">Simulators</label>
                     </li>
                     <li>
                         <input class="form-check-input" type="checkbox" value="SNPAndVariantAnalysis" id="SNPAndVariantAnalysis" name="categories">

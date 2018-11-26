@@ -56,6 +56,22 @@
     "Description": "Provide a measure of the quality of the reads"
   },
   {
+    "Category": "QualityFiltering",
+    "Description": "Remove low quality reads based on a specified quality threshold"
+  },
+  {
+    "Category": "Metagenomics",
+    "Description": "Studying genetic material recovered directly from envrionmental samples"
+  },
+  {
+    "Category": "Simulators",
+    "Description": "Simulate a sequencing process and produce <i>in-silico</i> reads"
+  },
+  {
+    "Category": "Demultiplexing",
+    "Description": "Using barcode or other information to know which sequences came from which samples in a pool of samples"
+  },
+  {
     "Category": "Normalisation",
     "Description": "Removal of unwanted variation that may affect results"
   },

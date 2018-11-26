@@ -58,7 +58,8 @@ tidy_swsheet_cat <- function(swsheet) {
                   IsoformDetection,	BaseModificationDetection,	QualityChecking,SNPAndVariantAnalysis,
                   Visualisation,	ReadQuantification,	SuitableForSingleCellExperiments,
                   TestedOnHumanData,TestedOnNonHumanData,Normalisation,ProvideSummaryStatistics,
-                  QualityTrimming,AvailablityOfTestData,GeneExpressionAnalysis,GapFilling,AnalysisPipelines) %>%
+                  QualityTrimming,AvailablityOfTestData,GeneExpressionAnalysis,GapFilling,
+                  AnalysisPipelines, QualityFiltering, Metagenomics, Simulators, Demultiplexing) %>%
         dplyr::filter(Val == TRUE) %>%
         dplyr::select(-Val) %>%
         dplyr::arrange(Name)
