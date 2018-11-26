@@ -112,5 +112,20 @@
   },
   "SMIS": {
     "Ignored": ["PyPI/smis"]
+  },
+  "Automation": {
+    "Ignored": ["PyPI/automation"]
+  },
+  "NanoComp": {
+    "PyPI": ["NanoComp"]
+  },
+  "picopore": {
+    "PyPI": ["picopore"]
+  },
+  "PRAPI": {
+    "Ignored": ["PyPI/prapi"]
+  },
+  "SimLoRD": {
+    "PyPI": ["simlord"]
   }
 }
