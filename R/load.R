@@ -8,13 +8,13 @@ get_swsheet <- function() {
     futile.logger::flog.info("Loading LRS database...")
     swsheet <- readr::read_csv("lrs_tools_master.csv",
                                col_types = readr::cols(
-                                 .default = readr::col_logical(),
                                  Tool = readr::col_character(),
                                  DOI = readr::col_character(),
                                  Programming_Language = readr::col_character(),
                                  Details = readr::col_character(),
                                  Source = readr::col_character(),
-                                 License = readr::col_character()
+                                 License = readr::col_character(),
+                                 .default = readr::col_logical()
                                )) %>%
       dplyr::rename(Name = Tool,
                     Platform = Programming_Language,

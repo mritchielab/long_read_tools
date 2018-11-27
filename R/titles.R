@@ -44,15 +44,18 @@ add_to_titles_cache <- function(swsheet, titles_cache) {
                 } else {
                     crossref <- rcrossref::cr_works(doi)
                     title <- crossref$data$title
-                    date <- crossref$data$issued
+                    date <- crossref$data$issue
                     date <- as.character(date)
                 }
-
+                
                 if (!is.null(title)) {
+                    title_df = data.frame(DOI = doi,
+                                          Title = title,
+                                          PubDate = dplyr::if_else(is.na(date), NA, 
+                                                                   readr::parse_date(date)))
+                    
                     titles_cache <- dplyr::bind_rows(titles_cache,
-                                                     c(DOI = doi,
-                                                       Title = title,
-                                                       PubDate = date))
+                                                     title_df)
                     message(doi, " added to cache")
                     n_added <- n_added + 1
                 }
