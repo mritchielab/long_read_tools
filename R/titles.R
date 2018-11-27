@@ -49,7 +49,6 @@ add_to_titles_cache <- function(swsheet, titles_cache) {
                 }
                 
                 if (!is.null(title)) {
-                    print(date)
                     title_df = data.frame(DOI = doi,
                                           Title = title,
                                           PubDate = suppressWarnings(readr::parse_date(date, na = NA_character_)) %>%
