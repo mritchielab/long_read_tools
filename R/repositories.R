@@ -120,18 +120,6 @@ add_repos <- function(swsheet, repos) {
 }
 
 
-#' Clean repository url
-#'
-#' Remove '/' from repository url and replace with '_'
-#'
-#' @param repo url to repository
-#'
-#' @return repo_clean A string with '/' replaced with '_'
-clean_repo <- function(repo) {
-  repo_clean = stringr::str_replace_all(repo, '/', '_')
-  return(repo_clean)
-}
-
 #' Get shields
 #'
 #' Download shields describing various repositories
@@ -145,7 +133,6 @@ get_shields <- function(swsheet) {
     pb <- progress::progress_bar$new(total = nrow(swsheet), format = pb_format,
                                      clear = FALSE)
     futile.logger::flog.info("Downloading Bioconductor shields...")
-    dir.create("docs/img/shields/BioC/", showWarnings = FALSE)
     for (repo in swsheet$BioC) {
         pb$tick()
         if (!is.na(repo)) {
@@ -153,14 +140,12 @@ get_shields <- function(swsheet) {
                                 repo, ".svg")
             down_url <- paste0("http://bioconductor.org/shields/downloads/",
                                "release/", repo, ".svg")
-            
-            repo_clean = clean_repo(repo)
-            
+
             download.file(years_url,
-                          paste0("docs/img/shields/BioC/", repo_clean, "_years.svg"),
+                          paste0("docs/img/shields/BioC/", repo, "_years.svg"),
                           quiet = TRUE)
             download.file(down_url,
-                          paste0("docs/img/shields/BioC/", repo_clean,
+                          paste0("docs/img/shields/BioC/", repo,
                                  "_downloads.svg"),
                           quiet = TRUE)
         }
@@ -169,8 +154,6 @@ get_shields <- function(swsheet) {
     pb <- progress::progress_bar$new(total = nrow(swsheet),format = pb_format,
                                      clear = FALSE)
     futile.logger::flog.info("Downloading CRAN shields...")
-    dir.create("docs/img/shields/CRAN/", showWarnings = FALSE)
-    
     for (repo in swsheet$CRAN) {
         pb$tick()
         if (!is.na(repo)) {
@@ -178,14 +161,12 @@ get_shields <- function(swsheet) {
                                   repo)
             down_url <- paste0("http://cranlogs.r-pkg.org/badges/grand-total/",
                                repo)
-            
-            repo_clean = clean_repo(repo)
 
             download.file(version_url,
-                          paste0("docs/img/shields/CRAN/", repo_clean, "_version.svg"),
+                          paste0("docs/img/shields/CRAN/", repo, "_version.svg"),
                           quiet = TRUE)
             download.file(down_url,
-                          paste0("docs/img/shields/CRAN/", repo_clean,
+                          paste0("docs/img/shields/CRAN/", repo,
                                  "_downloads.svg"),
                           quiet = TRUE)
         }
@@ -194,7 +175,6 @@ get_shields <- function(swsheet) {
     pb <- progress::progress_bar$new(total = nrow(swsheet), format = pb_format,
                                      clear = FALSE)
     futile.logger::flog.info("Downloading PyPI shields...")
-    dir.create("docs/img/shields/PyPI/", showWarnings = FALSE)
     for (repo in swsheet$PyPI) {
         pb$tick()
         if (!is.na(repo)) {
@@ -204,19 +184,17 @@ get_shields <- function(swsheet) {
                                  repo, ".svg")
             status_url <- paste0("https://img.shields.io/pypi/status/",
                                  repo, ".svg")
-            
-            repo_clean <- clean_repo(repo)
 
             download.file(version_url,
-                          paste0("docs/img/shields/PyPI/", repo_clean,
+                          paste0("docs/img/shields/PyPI/", repo,
                                  "_version.svg"),
                           quiet = TRUE)
             download.file(python_url,
-                          paste0("docs/img/shields/PyPI/", repo_clean,
+                          paste0("docs/img/shields/PyPI/", repo,
                                  "_python.svg"),
                           quiet = TRUE)
             download.file(status_url,
-                          paste0("docs/img/shields/PyPI/", repo_clean,
+                          paste0("docs/img/shields/PyPI/", repo,
                                  "_status.svg"),
                           quiet = TRUE)
         }
@@ -225,7 +203,6 @@ get_shields <- function(swsheet) {
     pb <- progress::progress_bar$new(total = nrow(swsheet), format = pb_format,
                                      clear = FALSE)
     futile.logger::flog.info("Downloading GitHub shields...")
-    dir.create("docs/img/shields/GitHub/", showWarnings = FALSE)
     for (repo in swsheet$Github) {
         pb$tick()
         if (!is.na(repo)) {
@@ -236,7 +213,7 @@ get_shields <- function(swsheet) {
             commit_url <- paste0("https://img.shields.io/github/last-commit/",
                                  repo, ".svg")
 
-            repo_clean <- clean_repo(repo)
+            repo_clean <- stringr::str_replace_all(repo, "/", "_")
             
             download.file(stars_url,
                           paste0("docs/img/shields/GitHub/", repo_clean,
