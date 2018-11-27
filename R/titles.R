@@ -4,20 +4,20 @@
 #'
 #' @return title containing DOIs and titles
 get_cached_titles <- function() {
-    futile.logger::flog.info("Getting cached titles...")
-
-    if (!file.exists("docs/data/titles.csv")) {
-        futile.logger::flog.info("Cache file missing, creating...")
-        write_lines("DOI,Title", "docs/data/titles.csv")
-    }
-
-    titles <- readr::read_csv("docs/data/titles.csv",
-                              col_types = readr::cols(
-                                  DOI   = readr::col_character(),
-                                  Title = readr::col_character(),
-                                  PubDate = readr::col_date()
-                             )
-    )
+  futile.logger::flog.info("Getting cached titles...")
+  
+  if (!file.exists("docs/data/titles.csv")) {
+    futile.logger::flog.info("Cache file missing, creating...")
+    write_lines("DOI,Title", "docs/data/titles.csv")
+  }
+  
+  titles <- readr::read_csv("docs/data/titles.csv",
+                            col_types = readr::cols(
+                              DOI   = readr::col_character(),
+                              Title = readr::col_character(),
+                              PubDate = readr::col_date()
+                            )
+  )
 }
 
 
@@ -30,41 +30,44 @@ get_cached_titles <- function() {
 #'
 #' @return Updated titles cache
 add_to_titles_cache <- function(swsheet, titles_cache) {
-    futile.logger::flog.info("Adding new titles to cache...")
-
-    n_added <- 0
-    for (dois in swsheet$DOIs) {
-        for (doi in stringr::str_split(dois, ";")[[1]]) {
-            if (!is.na(doi) & !(doi %in% titles_cache$DOI)) {
-
-                if (stringr::str_detect(doi, "arxiv")) {
-                    id <- stringr::str_remove(doi, "arxiv/")
-                    title <- aRxiv::arxiv_search(id_list = id)$title
-                    date <- NA
-                } else {
-                    crossref <- rcrossref::cr_works(doi)
-                    title <- crossref$data$title
-                    date <- crossref$data$issued
-                    date <- as.character(date)
-                }
-
-                if (!is.null(title)) {
-                    titles_cache <- dplyr::bind_rows(titles_cache,
-                                                     c(DOI = doi,
-                                                       Title = title,
-                                                       PubDate = date))
-                    message(doi, " added to cache")
-                    n_added <- n_added + 1
-                }
-            }
+  futile.logger::flog.info("Adding new titles to cache...")
+  
+  n_added <- 0
+  for (dois in swsheet$DOIs) {
+    for (doi in stringr::str_split(dois, ";")[[1]]) {
+      if (!is.na(doi) & !(doi %in% titles_cache$DOI)) {
+        
+        if (stringr::str_detect(doi, "arxiv")) {
+          id <- stringr::str_remove(doi, "arxiv/")
+          title <- aRxiv::arxiv_search(id_list = id)$title
+          date <- NA
+        } else {
+          crossref <- rcrossref::cr_works(doi)
+          title <- crossref$data$title
+          date <- crossref$data$issue
+          date <- as.character(date)
         }
+        
+        if (!is.null(title)) {
+          title_df = data.frame(DOI = doi,
+                                Title = title,
+                                PubDate = suppressWarnings(readr::parse_date(date, na = NA_character_)) %>%
+                                  lubridate::as_date())
+          
+          titles_cache <- dplyr::bind_rows(titles_cache,
+                                           title_df)
+          message(doi, " added to cache")
+          n_added <- n_added + 1
+        }
+      }
     }
-
-    readr::write_csv(titles_cache, "docs/data/titles.csv")
-    msg <- paste("Added", n_added, "new titles to cache")
-    futile.logger::flog.info(msg)
-
-    return(titles_cache)
+  }
+  
+  readr::write_csv(titles_cache, "docs/data/titles.csv")
+  msg <- paste("Added", n_added, "new titles to cache")
+  futile.logger::flog.info(msg)
+  
+  return(titles_cache)
 }
 
 
@@ -78,19 +81,19 @@ add_to_titles_cache <- function(swsheet, titles_cache) {
 #'
 #' @return vector of titles
 get_titles <- function(dois, titles_cache) {
-
-    `%>%` <- magrittr::`%>%`
-
-    titles <- purrr::map(dois, function(doi) {
-        if (doi %in% titles_cache$DOI) {
-            titles_cache %>%
-                dplyr::filter(DOI == doi) %>%
-                dplyr::pull(Title)
-        } else {
-            NA
-        }
-    }) %>%
-        purrr::flatten_chr()
-
-    return(titles)
+  
+  `%>%` <- magrittr::`%>%`
+  
+  titles <- purrr::map(dois, function(doi) {
+    if (doi %in% titles_cache$DOI) {
+      titles_cache %>%
+        dplyr::filter(DOI == doi) %>%
+        dplyr::pull(Title)
+    } else {
+      NA
+    }
+  }) %>%
+    purrr::flatten_chr()
+  
+  return(titles)
 }
