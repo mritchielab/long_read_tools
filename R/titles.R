@@ -49,10 +49,11 @@ add_to_titles_cache <- function(swsheet, titles_cache) {
                 }
                 
                 if (!is.null(title)) {
+                    print(date)
                     title_df = data.frame(DOI = doi,
                                           Title = title,
-                                          PubDate = dplyr::if_else(is.na(date), NA, 
-                                                                   readr::parse_date(date)))
+                                          PubDate = suppressWarnings(readr::parse_date(date, na = NA_character_)) %>%
+                                            lubridate::as_date())
                     
                     titles_cache <- dplyr::bind_rows(titles_cache,
                                                      title_df)
