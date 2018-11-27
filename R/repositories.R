@@ -214,7 +214,7 @@ get_shields <- function(swsheet) {
                                  repo, ".svg")
 
             repo_clean <- stringr::str_replace_all(repo, "/", "_")
-
+            
             download.file(stars_url,
                           paste0("docs/img/shields/GitHub/", repo_clean,
                                  "_stars.svg"),
