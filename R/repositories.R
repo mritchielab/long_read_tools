@@ -145,6 +145,7 @@ get_shields <- function(swsheet) {
     pb <- progress::progress_bar$new(total = nrow(swsheet), format = pb_format,
                                      clear = FALSE)
     futile.logger::flog.info("Downloading Bioconductor shields...")
+    dir.create("docs/img/shields/BioC/", showWarnings = FALSE)
     for (repo in swsheet$BioC) {
         pb$tick()
         if (!is.na(repo)) {
@@ -168,6 +169,8 @@ get_shields <- function(swsheet) {
     pb <- progress::progress_bar$new(total = nrow(swsheet),format = pb_format,
                                      clear = FALSE)
     futile.logger::flog.info("Downloading CRAN shields...")
+    dir.create("docs/img/shields/CRAN/", showWarnings = FALSE)
+    
     for (repo in swsheet$CRAN) {
         pb$tick()
         if (!is.na(repo)) {
@@ -191,6 +194,7 @@ get_shields <- function(swsheet) {
     pb <- progress::progress_bar$new(total = nrow(swsheet), format = pb_format,
                                      clear = FALSE)
     futile.logger::flog.info("Downloading PyPI shields...")
+    dir.create("docs/img/shields/PyPI/", showWarnings = FALSE)
     for (repo in swsheet$PyPI) {
         pb$tick()
         if (!is.na(repo)) {
@@ -221,6 +225,7 @@ get_shields <- function(swsheet) {
     pb <- progress::progress_bar$new(total = nrow(swsheet), format = pb_format,
                                      clear = FALSE)
     futile.logger::flog.info("Downloading GitHub shields...")
+    dir.create("docs/img/shields/GitHub/", showWarnings = FALSE)
     for (repo in swsheet$Github) {
         pb$tick()
         if (!is.na(repo)) {
