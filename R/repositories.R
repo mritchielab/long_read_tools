@@ -128,7 +128,7 @@ add_repos <- function(swsheet, repos) {
 #'
 #' @return repo_clean A string with '/' replaced with '_'
 clean_repo <- function(repo) {
-  repo_clean = stringr::str_replace_all('/', '_', repo)
+  repo_clean = stringr::str_replace_all(repo, '/', '_')
   return(repo_clean)
 }
 
