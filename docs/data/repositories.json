@@ -178,5 +178,11 @@
   },
   "IsoCon": {
     "PyPI": ["IsoCon"]
+  },
+  "Centrifuge": {
+    "Ignored": ["PyPI/centrifuge"]
+  },
+  "SuperNova": {
+    "Ignored": ["CRAN/supernova", "PyPI/supernova"]
   }
 }
