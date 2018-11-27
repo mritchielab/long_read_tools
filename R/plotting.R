@@ -68,26 +68,15 @@ plot_platforms <- function(swsheet) {
 
     plot <- swsheet %>%
         dplyr::select(Platform) %>%
-        dplyr::mutate(IsR = stringr::str_detect(Platform, "R"),
-                      IsPython = stringr::str_detect(Platform, "Python"),
-                      IsC = stringr::str_detect(Platform, "C"),
-                      IsCPP = stringr::str_detect(Platform, "C++"),
-                      IsUnknown = is.na(Platform),
-                      IsOther = !(IsR | IsPython | IsC | IsCPP |
-                                    IsUnknown)) %>%
-        dplyr::summarise(R = sum(IsR, na.rm = TRUE),
-                         Python = sum(IsPython, na.rm = TRUE),
-                         C = sum(IsC, na.rm = TRUE),
-                         CPP = sum(IsCPP, na.rm = TRUE),
-                         Other = sum(IsOther, na.rm = TRUE),
-                         Unknown = sum(IsUnknown)) %>%
-        tidyr::gather(key = Platform, value = Count) %>%
-        dplyr::mutate(Platform = factor(Platform,
-                                        levels = c("Python", "R", "C",
-                                                   "CPP", "Other", "Unknown"),
-                                        labels = c("Python", "R", "C",
-                                                   "C++", "Other", "Unknown")),
-                      Percent = round(Count / sum(Count) * 100, 1),
+        dplyr::mutate(Platform = stringr::str_split(Platform, ", ")) %>%
+        tidyr::unnest() %>%
+        dplyr::mutate(Platform = ifelse(is.na(Platform), "Unknown", Platform) %>%
+                        forcats::fct_lump(n=5) %>%
+                        forcats::fct_infreq() %>%
+                        forcats::fct_relevel("Other", "Unknown", after=Inf)) %>%
+        dplyr::group_by(Platform) %>%
+        dplyr::summarise(Count = n()) %>%
+        dplyr::mutate(Percent = round(Count / sum(Count) * 100, 1),
                       Label = paste0(Platform, "\n", Percent, "%")) %>%
         ggplot2::ggplot(ggplot2::aes(x = Platform, weight = Count,
                                      fill = Platform,
