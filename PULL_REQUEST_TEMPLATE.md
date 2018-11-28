@@ -1,10 +1,11 @@
-our pull request is about something else they can be ignored.
+The following instructions are for pull requests related to tool entries.
+If your pull request is about something else they can be ignored.
 
 Please describe your pull request below and fill out the check list:
 
-**Description**:
+**Add your description here**:
 
-**Have you:**
+**Please check the following boxes with a `Y` or a `N`**
 
 - [ ] Only (manually) edited `lrs_tools_master.csv`
 - [ ] Completed all columns that needs logical values(i.e. TRUE, FALSE)
