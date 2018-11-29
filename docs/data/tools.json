@@ -135,12 +135,12 @@
           "DOI": "10.1073/pnas.1017351108",
           "PubDate": "2010-12-28",
           "Preprint": false,
-          "Citations": 793
+          "Citations": 794
         }
       ],
       "Preprints": []
     },
-    "Citations": 793,
+    "Citations": 794,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2010-12-28"],
@@ -450,12 +450,12 @@
           "DOI": "10.1101/gr.229202",
           "PubDate": "2008-07-19",
           "Preprint": false,
-          "Citations": 1291
+          "Citations": 1292
         }
       ],
       "Preprints": []
     },
-    "Citations": 1291,
+    "Citations": 1292,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2008-07-19"],
@@ -515,6 +515,28 @@
     "Categories": ["Visualisation"]
   },
   {
+    "Name": "BusyBee",
+    "DOIs": "10.1093/nar/gkx348",
+    "Description": "Webserver for metagenomic analysis of long reads or contigs",
+    "Code": "https://ccb-microbe.cs.uni-saarland.de/busybee",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": true,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [],
+      "Preprints": []
+    },
+    "Citations": 1,
+    "Publications": 0,
+    "Preprints": 0,
+    "PubDates": ["NA"],
+    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Categories": ["Visualisation", "TestedOnNonHumanData", "Metagenomics"]
+  },
+  {
     "Name": "bwa-sw",
     "DOIs": "10.1093/bioinformatics/btp698",
     "Platform": "C++",
@@ -531,7 +553,7 @@
       "Publications": [],
       "Preprints": []
     },
-    "Citations": 2940,
+    "Citations": 2942,
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -578,12 +600,12 @@
           "DOI": "10.1101/gr.215087.116",
           "PubDate": "2017-03-16",
           "Preprint": false,
-          "Citations": 316
+          "Citations": 320
         }
       ],
       "Preprints": []
     },
-    "Citations": 316,
+    "Citations": 320,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-03-16"],
@@ -713,12 +735,12 @@
           "DOI": "10.1186/s13059-015-0849-0",
           "PubDate": "2015-12-29",
           "Preprint": false,
-          "Citations": 117
+          "Citations": 119
         }
       ],
       "Preprints": []
     },
-    "Citations": 117,
+    "Citations": 119,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-12-29"],
@@ -1035,6 +1057,26 @@
     "Categories": ["BaseCalling"]
   },
   {
+    "Name": "Deepore",
+    "Platform": "Python",
+    "Description": "Nanopore base caller based on original Chiron adding Dropout and SRU",
+    "Code": "https://github.com/etheleon/deepore",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "etheleon/deepore",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseCalling", "TestedOnNonHumanData", "AvailablityOfTestData"]
+  },
+  {
     "Name": "DeepSignal",
     "DOIs": "10.1101/385849",
     "Description": "5mC and 6mA detection from Nanopore reads",
@@ -1164,12 +1206,12 @@
           "DOI": "10.1038/nmeth.3444",
           "PubDate": "2015-06-15",
           "Preprint": false,
-          "Citations": 197
+          "Citations": 199
         }
       ],
       "Preprints": []
     },
-    "Citations": 197,
+    "Citations": 199,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-06-15"],
@@ -1277,6 +1319,35 @@
     "Categories": ["DenovoAssembly", "GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "TestedOnHumanData", "AvailablityOfTestData"]
   },
   {
+    "Name": "fast5_fetcher",
+    "Platform": "Python",
+    "Description": "A tool for fetching nanopore fast5 files to save time and simplify downstream analysis.",
+    "Code": "https://github.com/Psy-Fer/fast5_fetcher",
+    "License": "MIT",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.5281/zenodo.1413903",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
+    },
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "Psy-Fer/fast5_fetcher",
+    "Technologies": ["OxfordNanopore", "OxfordNanopore"],
+    "Categories": ["SuitableForSingleCellExperiments", "Metagenomics"]
+  },
+  {
     "Name": "FastQC",
     "Platform": "Java",
     "Description": "Quality control tool for high throughput sequencing data",
@@ -1335,6 +1406,26 @@
     "Github": "BrooksLabUCSC/flair",
     "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
     "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "IsoformDetection", "TestedOnHumanData", "TestedOnNonHumanData", "AvailablityOfTestData", "GeneExpressionAnalysis"]
+  },
+  {
+    "Name": "flappie",
+    "Platform": "C",
+    "Description": "Basecall Fast5 reads using flip-flop basecalling",
+    "Code": "https://github.com/nanoporetech/flappie",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "nanoporetech/flappie",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseCalling"]
   },
   {
     "Name": "Flye",
@@ -1433,12 +1524,12 @@
           "DOI": "10.1093/bioinformatics/bti310",
           "PubDate": "2005-02-23",
           "Preprint": false,
-          "Citations": 624
+          "Citations": 626
         }
       ],
       "Preprints": []
     },
-    "Citations": 624,
+    "Citations": 626,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2005-02-23"],
@@ -1462,7 +1553,7 @@
       "Publications": [],
       "Preprints": []
     },
-    "Citations": 72,
+    "Citations": 73,
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -1613,12 +1704,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-03",
           "Preprint": false,
-          "Citations": 1376
+          "Citations": 1379
         }
       ],
       "Preprints": []
     },
-    "Citations": 1376,
+    "Citations": 1379,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-03"],
@@ -1751,12 +1842,12 @@
           "DOI": "10.1093/bioinformatics/bty191",
           "PubDate": "2018-05-04",
           "Preprint": false,
-          "Citations": 16
+          "Citations": 17
         }
       ],
       "Preprints": []
     },
-    "Citations": 16,
+    "Citations": 17,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-05-04"],
@@ -1937,12 +2028,54 @@
       "Publications": [],
       "Preprints": []
     },
-    "Citations": 307,
+    "Citations": 308,
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["Alignment"]
+  },
+  {
+    "Name": "last-genotype",
+    "Platform": "C++",
+    "Description": "Identify substitutions and assign reads by genotype",
+    "Code": "https://github.com/mcfrith/last-genotype",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "mcfrith/last-genotype",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["SNPAndVariantAnalysis"]
+  },
+  {
+    "Name": "last-rna",
+    "Platform": "Shell",
+    "Description": "Collection of scripts for the analysis of long transcriptomic reads",
+    "Code": "https://github.com/mcfrith/last-rna",
+    "License": "MIT",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "mcfrith/last-rna",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Alignment", "IsoformDetection", "GeneExpressionAnalysis"]
   },
   {
     "Name": "levelfind_poreseq",
@@ -2402,12 +2535,12 @@
           "DOI": "10.1038/nature25458",
           "PubDate": "2018-01-30",
           "Preprint": false,
-          "Citations": 36
+          "Citations": 38
         }
       ],
       "Preprints": []
     },
-    "Citations": 36,
+    "Citations": 38,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-01-30"],
@@ -2481,7 +2614,7 @@
       "Publications": [],
       "Preprints": []
     },
-    "Citations": 222,
+    "Citations": 224,
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -2766,12 +2899,12 @@
           "DOI": "10.1093/bioinformatics/bty191",
           "PubDate": "2018-05-04",
           "Preprint": false,
-          "Citations": 16
+          "Citations": 17
         }
       ],
       "Preprints": []
     },
-    "Citations": 16,
+    "Citations": 17,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-05-04"],
@@ -2798,12 +2931,12 @@
           "DOI": "10.1093/bioinformatics/btw152",
           "PubDate": "2016-03-20",
           "Preprint": false,
-          "Citations": 88
+          "Citations": 89
         }
       ],
       "Preprints": []
     },
-    "Citations": 88,
+    "Citations": 89,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-03-20"],
@@ -2831,12 +2964,12 @@
           "DOI": "10.1093/bioinformatics/bty191",
           "PubDate": "2018-05-04",
           "Preprint": false,
-          "Citations": 16
+          "Citations": 17
         }
       ],
       "Preprints": []
     },
-    "Citations": 16,
+    "Citations": 17,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-05-04"],
@@ -3007,12 +3140,12 @@
           "DOI": "10.1093/bioinformatics/btw354",
           "PubDate": "2016-06-17",
           "Preprint": false,
-          "Citations": 105
+          "Citations": 106
         }
       ],
       "Preprints": []
     },
-    "Citations": 105,
+    "Citations": 106,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-06-17"],
@@ -3231,12 +3364,12 @@
           "DOI": "10.1038/nmeth.3444",
           "PubDate": "2015-06-15",
           "Preprint": false,
-          "Citations": 197
+          "Citations": 199
         }
       ],
       "Preprints": []
     },
-    "Citations": 197,
+    "Citations": 199,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-06-15"],
@@ -3320,6 +3453,28 @@
     "Categories": ["AnalysisPipelines"]
   },
   {
+    "Name": "nanoget",
+    "Platform": "Python",
+    "Description": "Extract information from ONT reads",
+    "Code": "https://github.com/wdecoster/nanoget",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "wdecoster/nanoget",
+    "PyPI": "nanoget",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["QualityChecking", "ProvideSummaryStatistics"]
+  },
+  {
     "Name": "NanoGrid",
     "Platform": "Shell",
     "Description": "A parallel wrapper around the Nanopolish framework",
@@ -3338,6 +3493,27 @@
     "Github": "skoren/NanoGrid",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["AnalysisPipelines"]
+  },
+  {
+    "Name": "NanoLyse",
+    "Platform": "Python",
+    "Description": "Removes lambda control reads from Nanopore data",
+    "Code": "https://github.com/wdecoster/nanolyse",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "wdecoster/nanolyse",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["QualityFiltering"]
   },
   {
     "Name": "NanoMod",
@@ -3641,6 +3817,28 @@
     "Categories": ["AnalysisPipelines"]
   },
   {
+    "Name": "nanoQC",
+    "Platform": "Python",
+    "Description": "QC for ONT data",
+    "Code": "https://github.com/wdecoster/nanoQC",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "wdecoster/nanoQC",
+    "PyPI": "NanoQC",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["QualityChecking", "ProvideSummaryStatistics"]
+  },
+  {
     "Name": "nanoraw*",
     "DOIs": "10.1101/094672",
     "Platform": "Python",
@@ -3920,7 +4118,7 @@
       "Publications": [],
       "Preprints": []
     },
-    "Citations": 13,
+    "Citations": 14,
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -4031,12 +4229,12 @@
           "DOI": "10.1101/027607",
           "PubDate": "2015-09-25",
           "Preprint": false,
-          "Citations": 14
+          "Citations": 15
         }
       ],
       "Preprints": []
     },
-    "Citations": 14,
+    "Citations": 15,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-09-25"],
@@ -4197,12 +4395,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-03",
           "Preprint": false,
-          "Citations": 1376
+          "Citations": 1379
         }
       ],
       "Preprints": []
     },
-    "Citations": 1376,
+    "Citations": 1379,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-03"],
@@ -4229,12 +4427,12 @@
           "DOI": "10.1186/1471-2105-15-180",
           "PubDate": "2014-06-10",
           "Preprint": false,
-          "Citations": 29
+          "Citations": 30
         }
       ],
       "Preprints": []
     },
-    "Citations": 29,
+    "Citations": 30,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-06-10"],
@@ -4469,12 +4667,12 @@
           "DOI": "10.1371/journal.pone.0112963",
           "PubDate": "2014-11-20",
           "Preprint": false,
-          "Citations": 507
+          "Citations": 509
         }
       ],
       "Preprints": []
     },
-    "Citations": 507,
+    "Citations": 509,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-11-20"],
@@ -4702,6 +4900,27 @@
     "Categories": ["AnalysisPipelines", "Metagenomics"]
   },
   {
+    "Name": "PoreKit",
+    "Platform": "Python",
+    "Description": "Toolkit for ONT data",
+    "Code": "https://github.com/akloster/porekit-python",
+    "License": "ISC",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "akloster/porekit-python",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["QualityChecking", "Visualisation", "ProvideSummaryStatistics"]
+  },
+  {
     "Name": "poremap",
     "Platform": "Python",
     "Description": "Pipeline for nanopore read alignment and statistics",
@@ -4879,12 +5098,12 @@
           "DOI": "10.1093/bioinformatics/btu555",
           "PubDate": "2014-08-21",
           "Preprint": false,
-          "Citations": 156
+          "Citations": 157
         }
       ],
       "Preprints": []
     },
-    "Citations": 156,
+    "Citations": 157,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-08-21"],
@@ -4915,6 +5134,30 @@
     "Categories": ["ErrorCorrectionAndPolishing", "IsoformDetection", "Visualisation", "QualityFiltering"]
   },
   {
+    "Name": "PRINSEQ",
+    "DOIs": "10.1093/bioinformatics/btr026",
+    "Platform": "Perl",
+    "Description": "QC and filtering for multiple platforms",
+    "Code": "http://prinseq.sourceforge.net/",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": true,
+    "Illumina": true,
+    "BionanoGenomics": false,
+    "HiC": true,
+    "Refs": {
+      "Publications": [],
+      "Preprints": []
+    },
+    "Citations": 1316,
+    "Publications": 0,
+    "Preprints": 0,
+    "PubDates": ["NA"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "HiC"],
+    "Categories": ["QualityChecking", "QualityTrimming"]
+  },
+  {
     "Name": "proovread",
     "DOIs": "10.1093/bioinformatics/btu392",
     "Description": "Error correction tool for PacBio data",
@@ -4930,7 +5173,7 @@
       "Publications": [],
       "Preprints": []
     },
-    "Citations": 88,
+    "Citations": 89,
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -5022,12 +5265,12 @@
           "DOI": "10.1093/bioinformatics/btt086",
           "PubDate": "2013-02-20",
           "Preprint": false,
-          "Citations": 856
+          "Citations": 857
         }
       ],
       "Preprints": []
     },
-    "Citations": 856,
+    "Citations": 857,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-02-20"],
@@ -5171,7 +5414,7 @@
       "Publications": [],
       "Preprints": []
     },
-    "Citations": 48,
+    "Citations": 49,
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -5339,7 +5582,7 @@
   {
     "Name": "scrappie",
     "Platform": "Python",
-    "Description": "development basecaller from ONT",
+    "Description": "Development basecaller from ONT",
     "Code": "https://github.com/nanoporetech/scrappie",
     "License": "Mozilla Public License Version 2.0",
     "OxfordNanopore": true,
@@ -5357,6 +5600,27 @@
     "PyPI": "scrappie",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["BaseCalling"]
+  },
+  {
+    "Name": "selectION",
+    "Platform": "C++",
+    "Description": "Rapid linking of long reads to a reference genome",
+    "Code": "https://github.com/giesselmann/selectION",
+    "License": "MIT",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "giesselmann/selectION",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Alignment"]
   },
   {
     "Name": "Shiny-apps",
@@ -5472,12 +5736,12 @@
           "DOI": "10.1016/0022-2836(70)90057-4",
           "PubDate": "2005-02-10",
           "Preprint": false,
-          "Citations": 4429
+          "Citations": 4430
         }
       ],
       "Preprints": []
     },
-    "Citations": 4429,
+    "Citations": 4430,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2005-02-10"],
@@ -5549,12 +5813,12 @@
           "DOI": "10.1038/nature13907",
           "PubDate": "2014-11-10",
           "Preprint": false,
-          "Citations": 232
+          "Citations": 233
         }
       ],
       "Preprints": []
     },
-    "Citations": 232,
+    "Citations": 233,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-11-10"],
@@ -5614,12 +5878,12 @@
           "DOI": "10.1089/cmb.2012.0021",
           "PubDate": "2012-04-16",
           "Preprint": false,
-          "Citations": 3605
+          "Citations": 3612
         }
       ],
       "Preprints": []
     },
-    "Citations": 3605,
+    "Citations": 3612,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2012-04-16"],
@@ -5834,6 +6098,39 @@
     "Categories": ["ErrorCorrectionAndPolishing", "SNPAndVariantAnalysis", "AnalysisPipelines"]
   },
   {
+    "Name": "tandem-genotypes",
+    "DOIs": "10.1101/356931",
+    "Platform": "Python",
+    "Description": "Detection of tandem repeat expansions from long reads",
+    "Code": "https://github.com/mcfrith/tandem-genotypes",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Robust detection of tandem repeat expansions from long DNA reads",
+          "DOI": "10.1101/356931",
+          "PubDate": "2018-06-27",
+          "Preprint": false,
+          "Citations": 0
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 0,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2018-06-27"],
+    "Github": "mcfrith/tandem-genotypes",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["SNPAndVariantAnalysis", "TestedOnHumanData", "TestedOnNonHumanData", "AvailablityOfTestData"]
+  },
+  {
     "Name": "TAPIS",
     "DOIs": "10.1038/ncomms11706",
     "Platform": "Python",
@@ -5937,8 +6234,31 @@
     "Categories": ["BaseModificationDetection"]
   },
   {
+    "Name": "ToulligQC",
+    "Platform": "Python",
+    "Description": "QC for ONT data",
+    "Code": "https://github.com/GenomicParisCentre/toulligQC",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "Illumina": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "GenomicParisCentre/toulligQC",
+    "PyPI": "toulligqc",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["QualityChecking", "ProvideSummaryStatistics"]
+  },
+  {
     "Name": "TULIP",
     "DOIs": "10.1038/s41598-017-07650-6",
+    "Platform": "Perl",
     "Description": "Assembler for long reads",
     "Code": "https://github.com/Generade-nl/TULIP",
     "OxfordNanopore": true,
@@ -5999,12 +6319,12 @@
           "DOI": "10.1371/journal.pcbi.1005595",
           "PubDate": "2017-06-08",
           "Preprint": false,
-          "Citations": 101
+          "Citations": 103
         }
       ],
       "Preprints": []
     },
-    "Citations": 101,
+    "Citations": 103,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-06-08"],

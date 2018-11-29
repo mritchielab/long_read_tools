@@ -184,5 +184,20 @@
   },
   "SuperNova": {
     "Ignored": ["CRAN/supernova", "PyPI/supernova"]
+  },
+  "nanoget": {
+    "PyPI": ["nanoget"]
+  },
+  "NanoLyse": {
+    "Ignored": ["PyPI/NanoLyse"]
+  },
+  "nanoQC": {
+    "PyPI": ["NanoQC"]
+  },
+  "selectION": {
+    "Ignored": ["PyPI/selection"]
+  },
+  "ToulligQC": {
+    "PyPI": ["toulligqc"]
   }
 }
