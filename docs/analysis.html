@@ -90,6 +90,9 @@
             <!--// Plots --------------------------------------------------- -->
 
             <div class="row">
+                <div class="plot col-xs-12">
+                    <div id="number"></div>
+                </div>
                 <div class="plot col-xs-12 col-md-6">
                     <div id="publication"></div>
                 </div>
@@ -105,10 +108,11 @@
             </div>
 
             <script>
-            var p1 = new pym.Parent('publication', 'plots/publication.html', {})
-            var p2 = new pym.Parent('platforms', 'plots/platforms.html', {})
-            var p2 = new pym.Parent('technology', 'plots/technologies.html', {})
-            var p3 = new pym.Parent('categories', 'plots/categories.html', {})
+            var p1 = new pym.Parent('number', 'plots/number.html', {})
+            var p2 = new pym.Parent('publication', 'plots/publication.html', {})
+            var p3 = new pym.Parent('platforms', 'plots/platforms.html', {})
+            var p4 = new pym.Parent('technology', 'plots/technologies.html', {})
+            var p5 = new pym.Parent('categories', 'plots/categories.html', {})
             </script>
 
         </div>

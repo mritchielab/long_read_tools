@@ -4,6 +4,46 @@
 #' tools in the database
 #'
 #' @param swsheet Tibble containing software table
+
+# plot published tools on the database by the year
+
+plot_number <- function() {
+  titles         <- read.csv("docs/data/titles.csv")
+  titles$PubDate <- gsub("\\-.*","", titles$PubDate)
+  datecount      <- titles %>%
+                      dplyr::group_by(PubDate) %>% 
+                      dplyr::summarise(Count = n()) %>%
+                      tidyr::drop_na() %>%
+                      dplyr::mutate(Total=cumsum(Count))
+  
+  plot <- ggplot2::ggplot(datecount, ggplot2::aes(x = PubDate, y = Count)) +
+    ggplot2::geom_bar(stat = "identity", fill = "#51c7b4") +
+    ggplot2::xlab("Date") +
+    ggplot2::ylab("Number of tools") +
+    ggplot2::ggtitle("Number of published tools across time") +
+    cowplot::theme_cowplot() +
+    ggplot2::theme(plot.title   = ggplot2::element_text(size = 20),
+                   axis.title.x = ggplot2::element_blank(),
+                   axis.text    = ggplot2::element_text(size = 12),
+                   axis.text.x  = ggplot2::element_text(angle = 60,
+                                                        vjust = 0.5)
+    )
+  
+  htmlwidgets::saveWidget(plotly::ggplotly(plot), 
+             file.path(getwd(), "docs/plots/number.html"),
+             selfcontained = FALSE, 
+             libdir = "libraries")
+  
+  plot <- plotly::ggplotly(plot, dynamicTicks = TRUE) %>%
+    plotly::layout(margin = list(l = 70, r = 40, b = 90, t = 50))
+  
+  htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
+                          file.path(getwd(), "docs/plots/number.html"),
+                          selfcontained = FALSE, libdir = "libraries")
+}
+
+# plot publication status
+
 plot_publication <- function(swsheet) {
   
   `%>%` <- magrittr::`%>%`
@@ -19,15 +59,15 @@ plot_publication <- function(swsheet) {
                                       }),
                   HasPub = purrr::flatten_lgl(HasPub)) %>%
     dplyr::mutate(HasNot = !HasPub) %>%
-    dplyr::summarise(UnPublished = sum(HasNot),
+    dplyr::summarise(Unpublished = sum(HasNot),
                      Published = sum(HasPub)
     ) %>%
     tidyr::gather(key = Type, value = Count) %>%
     dplyr::mutate(Type = factor(Type,
                                 levels = c("Published",
-                                           "UnPublished"),
+                                           "Unpublished"),
                                 labels = c("Published",
-                                           "UnPublished"))) %>%
+                                           "Unpublished"))) %>%
     dplyr::arrange(Type) %>%
     dplyr::mutate(Cumulative = cumsum(Count),
                   Midpoint = Cumulative - (Count / 2),
@@ -39,9 +79,9 @@ plot_publication <- function(swsheet) {
     ggplot2::geom_bar(width = 1, position = "stack") +
     ggplot2::geom_text(ggplot2::aes(x = 1, y = Midpoint, label = Label),
                        size = 6, colour = "white") +
-    ggplot2::scale_fill_manual(values = c("#EC008C", "#00ADEF",
+    ggplot2::scale_fill_manual(values = c("#00cccc", "#006699",
                                           "#8DC63F")) +
-    ggplot2::scale_colour_manual(values = c("#EC008C", "#00ADEF",
+    ggplot2::scale_colour_manual(values = c("#00cccc", "#006699",
                                             "#8DC63F")) +
     ggplot2::ggtitle("Publication status") +
     cowplot::theme_nothing() +
@@ -92,17 +132,11 @@ plot_platforms <- function(swsheet) {
     ggplot2::ggplot(ggplot2::aes(x = Platform, weight = Count,
                                  fill = Platform,
                                  text = paste("Percent:", Percent))) +
-    ggplot2::geom_bar(width = 0.95, position = "dodge") +
+    ggplot2::geom_bar(width = 0.95, position = "dodge", fill = "#c77951") +
     ggplot2::geom_text(ggplot2::aes(x = Platform,
                                     y = Count + nrow(swsheet) * 0.05,
-                                    label = Label, colour = Platform),
+                                    label = Label, colour = "#c77951"),
                        size = 5) +
-    ggplot2::scale_fill_manual(values = c("#EC008C", "#00ADEF", "#8DC63F",
-                                          "#00B7C6", "#F47920", "#7A52C7",
-                                          "#999999")) +
-    ggplot2::scale_colour_manual(values = c("#EC008C", "#00ADEF", "#8DC63F",
-                                            "#00B7C6", "#F47920", "#7A52C7",
-                                            "#999999")) +
     ggplot2::ggtitle("Platforms") +
     cowplot::theme_nothing() +
     ggplot2::theme(plot.title = ggplot2::element_text(size = 20,

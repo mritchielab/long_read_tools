@@ -223,4 +223,782 @@ Z:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>[0K[?25hr[0K[
 [0K[?25h[2018-12-15 11:09:43] WARN: Some processing has been skipped, last updated time will not be set![0K[?25l
 [0K[?25h[2018-12-15 11:09:43] INFO: **** PROCESSING FINISHED *****[0K[?25l
 [0K[?25h]0; [?25l
+Z:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>[0K[?25hRScript build_lrs_db.R -s -c -p[0K[?25l
+[0K[?25h]0;  - RScript  build_lrs_db.R -s -c -p[?25l
+[0K[2G[?25h[?25l                                        ###[0K
+                                      #     #[0K
+                                    #   @ @   #[0K[?25h[?25l
+                                  #   @ @ @ @   #[0K
+                                #   @ @ @ @[0K[43G[?25h[?25l                                #   @ @ @ @ @ @   #[0K
+                              ##                   ##[0K
+                              ##  @ @ @ @ @ @ @ @  ##[0K
+                              ##      @ @ @ @    ##[0K
+[0K[15G[?25h[?25l                                  #     @ @     #[0K
+                                    #   @ @   #[0K
+                                      #  @  #[0K
+[0K[?25h                                        ###[0K[?25l
+[0K
+[0K
+                  LLL     RRRRRR   SSSSSSS      DDDDDD    BBBBBB[0K
+[0K[15G[?25h[?25l                  LLL     RR   RR  SS           DD    D   BB    B[0K
+                  LLL     RRRRRR   SSSSSSS  ==  DD    DD  BBBBBB[0K
+                  LLL     RR  RRR[0K[33G[?25h[?25l                  LLL     RR  RRR       SS      DD    D   BB    B[0K
+                  LLLLLL  RR   RR  SSSSSSS      DDDDDD    BBBBBB[0K
+[0K
+[0K
+[0K[?25h[2018-12-16 00:48:05] INFO: ***** STARTING PROCESSING *****[0K[?25l
+[0K[?25h[2018-12-16 00:48:05] INFO: ***** Loading data ******[0K[?25l
+[0K[?25h[2018-12-16 00:48:06] INFO: Loading LRS database...[0K[?25l
+[0K[?25h[2018-12-16 00:48:09] WARN: Skipping downloading of package lists, they may be out of date![0K[?25l
+[0K[?25h[2018-12-16 00:48:09] INFO: Getting category descriptions...[0K[?25l
+[0K[?25h[2018-12-16 00:48:09] INFO: Getting cached titles...[0K[?25l
+[0K[?25h[2018-12-16 00:48:11] INFO: Adding new titles to cache...[0K[?25l
+[0K[?25h[2018-12-16 00:48:12] INFO: Added 0 new titles to cache[0K[?25l
+[0K[?25h[?25l[2018-12-16 00:48:12] INFO[0K[24G[?25h[?25l[2018-12-16 00:48:12] INFO: Checking repositories...[0K
+[0K[?25h[2018-12-16 00:48:12] INFO: Added 0 new repositories[0K[?25l
+[0K[?25h[2018-12-16 00:48:13] INFO: Ignored 0 repostories[0K[?25l
+[0K[?25h[2018-12-16 00:48:13] INFO: ***** Processing table ******[0K[?25l
+[0K[?25h[2018-12-16 00:48:14] INFO: Adding references...[0K[?25l
+[0K[?25h[2018-12-16 00:48:14] WARN: Skipping downloading of citations from Crossref![0K[?25l
+[0K[?25h   |=                                                 | 1 % ~02s[0K[75G[?25l   |====                                              | 7 % ~01s[0K[6G[?25h[?25l   |======                                            | 10% ~01s[0K[21G[?25h[?25l   |========                                          | 14% ~01s[0K[46G[?25h[?25l   |==========                                        | 18% ~01s[0K[42G[?25h[?25l   |=============                                     | 23% ~01s[0K[55G[?25h[?25l   |==============                                    | 26% ~01s[0K[27G[?25h[?25l   |=================                                 | 32% ~01s[0K[53G[?25h[?25l   |==================                                | 35% ~00s[0K[75G[?25h[?25l   |====================                              | 38% ~00s[0K[1G[?25h   |=====================                             | 42% ~00s[0K[75G[?25l   |========================                          | 47% ~00s[0K[75G[?25h[?25l   |==========================                        | 51% ~00s[0K[66G[?25h[?25l   |=============================                     | 56% ~00s[0K[64G[?25h[?25l   |==============================                    | 59% ~00s[0K[11G[?25h[?25l   |================================                  | 64% ~00s[0K[75G[?25h[?25l   |===================================               | 68% ~00s[0K[75G[?25h[?25l   |====================================              | 71% ~00s[0K[7G[?25h[?25l   |======================================            | 76% ~00s[0K[17G[?25h[?25l   |========================================          | 79% ~00s[0K[36G[?25h[?25l   |===========================================       | 85% ~00s[0K[75G[?25h[?25l   |============================================      | 88% ~00s[0K[23G[?25h[?25l   |===============================================   | 92% ~00s[0K[59G[?25h[?25l   |================================================= | 98% ~00s[0K[75G[?25h[?25l   |==================================================| 100% elapsed = 01s[0K
+[0K[?25h[2018-12-16 00:48:15] INFO: Adding Github...[0K[?25l
+[0K[?25h[?25l[2018-1[0K[4G[?25h[?25l[2018-12-16 00:48:15] INFO: Adding package repositories...[0K
+[0K[?25h[2018-12-16 00:48:15] INFO: Tidying data for technologies...[0K[?25l
+[0K[?25h[2018-12-16 00:48:16] INFO: Adding technologies in focus to table...[0K[?25l
+[0K[?25h[2018-12-16 00:48:16] INFO: Tidying data for categories...[0K[?25l
+[0K[?25h[2018-12-16 00:48:16] INFO: Adding categories to table...[0K[?25l
+[0K[?25h[?25l[2018-12-16 00:48:17] INFO[0K[25G[?25h[?25l[2018-12-16 00:48:17] INFO: ***** Downloading shields ******[0K
+[0K[?25h[?25l[2018-12-16 00:48:17] WARN: Downloading of shields has been[0K[58G[?25h[?25l[2018-12-16 00:48:17] WARN: Downloading of shields has been skipped, they may be out of date![0K
+[0K[?25h[2018-12-16 00:48:17] INFO: ***** Converting to JSON *****[0K[?25l
+[0K[?25h[2018-12-16 00:48:17] INFO: Converting table...[0K[?25l
+[0K[?25h[2018-12-16 00:48:18] INFO: Converting tools table...[0K[?25l
+[0K[?25h[2018-12-16 00:48:18] INFO: Writing 'tools-table.json'...[0K[?25l
+[0K[?25h[2018-12-16 00:48:30] INFO: Converting tools...[0K[?25l
+[0K[?25h[?25l[2018-12-16 00:48:30] INF[0K[24G[?25h[?25l[2018-12-16 00:48:30] INFO: Writing 'tools.json'...[0K
+[0K[?25h[2018-12-16 00:48:36] INFO: Converting categories...[0K[?25l
+[0K[?25h[2018-12-16 00:48:37] INFO: Writing 'categories.json'...[0K[?25l
+[0K[?25h[2018-12-16 00:48:39] INFO: Converting technologies...[0K[?25l
+[0K[?25h[2018-12-16 00:48:39] INFO: Writing 'technologies.json'...[0K[?25l
+[0K[?25h[2018-12-16 00:48:40] INFO: ***** Perfor[0Kming analysis *****[0K[?25l
+[0K[?25h[2018-12-16 00:48:41] INFO: Plotting published tools across years...[0K[?25l
+[0K[?25h[?25lError in plot_number(swsheet) : unused argument (swsheet)[0K[57G[?25h]0; [?25l
+Calls: process_csv[0K
+Execution halted[0K
+[0K
+Z:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>[0K[1G[?25h[64G[?25lZ:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>RScript build_lrs_db.R -s -c -p[0K[?25h[?25l
+[0K[?25h]0;  - RScript  build_lrs_db.R -s -c -p[?25l
+                                        ##[0K[41G[?25h[?25l                                        ###[0K
+                                      #     #[0K
+                                    #   @ @   #[0K
+                                  #   @ @ @ @   #[0K
+                                #   @ @ @ @ @ @   #[0K
+                              ##                   ##[0K
+[0K[29G[?25h[?25l                              ##  @ @ @ @ @ @ @ @  ##[0K
+                              ##      @ @ @ @    ##[0K
+                                  #     @ @     #[0K
+                                    #   @ @   #[0K
+                                      #  @  #[0K
+                                        ###[0K
+[0K
+[0K
+                  LLL     RRRRRR   SSSSSSS      DDDDDD    BBBBBB[0K
+                  LLL     RR   RR  SS           DD    D   BB    B[0K
+                  LLL     RRRRRR   SSSSSSS  ==  DD    DD  BBBBBB[0K
+                  LLL     RR  RRR       SS      DD[0K[53G[?25h[?25l                  LLL     RR  RRR       SS      DD    D   BB    B[0K
+                  LLLLLL  RR   RR  SSSSSSS      DDDDDD    BBBBBB[0K
+[0K
+[0K
+[0K[?25h[2018-12-16 00:49:09] INFO: ***** STARTING PROCESSING *****[0K[?25l
+[0K[?25h[2018-12-16 00:49:10] INFO: ***** Loading data ******[0K[?25l
+[0K[?25h[2018-12-16 00:49:10] INFO: Loading LRS database...[0K[?25l
+[0K[?25h[2018-12-16 00:49:12] WARN: Skipping downloading of package lists, they may be out of date![0K[?25l
+[0K[?25h[2018-12-16 00:49:12] INFO: Getting category descriptions...[0K[?25l
+[0K[?25h[2018-12-16 00:49:12] INFO: Getting cached titles...[0K[?25l
+[0K[?25h[2018-12-16 00:49:14] INFO: Adding new titles to cache...[0K[?25l
+[0K[?25h[2018-12-16 00:49:15] INFO: Added 0 new titles to cache[0K[?25l
+[0K[?25h[?25l[2018-12-16 00:49:15] INFO: Checking rep[0K[38G[?25h[?25l[2018-12-16 00:49:15] INFO: Checking repositories...[0K
+[0K[?25h[?25l[2018-1[0K[6G[?25h[?25l[2018-12-16 00:49:15] INFO: Added 0 new repositories[0K
+[0K[?25h[2018-12-16 00:49:16] INFO: Ignored 0 rep[0Kostories[0K[?25l
+[0K[?25h[2018-12-16 00:49:16] INFO: ***** Processing table ******[0K[?25l
+[0K[?25h[2018-12-16 00:49:17] INFO: Adding references...[0K[?25l
+[0K[?25h[2018-12-16 00:49:17] WARN: Skipping downloading of citations from Crossref![0K[?25l
+[0K[?25h   |[0K[49G[?25l   |==                                                | 1 % ~01s[0K[48G[?25h[?25l   |====                                              | 8 % ~00s[0K[75G[?25h[?25l   |======                                            | 11% ~01s[0K[75G[?25h[?25l   |========                                          | 14% ~01s[0K[75G[?25h[?25l   |=========                                         | 18% ~01s[0K[75G[?25h[?25l   |=============                                     | 23% ~01s[0K[20G[?25h[?25l   |==============                                    | 26% ~01s[0K[3G[?25h[?25l   |================                                  | 32% ~00s[0K[75G[?25h[?25l   |==================                                | 35% ~00s[0K[75G[?25h[?25l   |====================                              | 40% ~00s[0K[75G[?25h[?25l   |======================                            | 43% ~00s[0K[75G[?25h[?25l   |=========================                         | 48% ~00s[0K[75G[?25h[?25l   |===========================                       | 52% ~00s[0K[42G[?25h[?25l   |==============================                    | 58% ~00s[0K[75G[?25h[?25l   |===============================                   | 62% ~00s[0K[16G[?25h[?25l   |===================================               | 67% ~00s[0K[43G[?25h[?25l   |=====================================             | 73% ~00s[0K[3G[?25h[?25l   |======================================            | 76% ~00s[0K[24G[?25h[?25l   |=========================================         | 81% ~00s[0K[29G[?25h[?25l   |===========================================       | 86% ~00s[0K[18G[?25h[?25l   |==============================================    | 90% ~00s[0K[1G[?25h   |================================================  | 96% ~00s[0K[69G[?25l   |==================================================| 100% elapsed = 01s[0K
+[0K[?25h[2018-12-16 00:49:18] INFO: Adding Github...[0K[?25l
+[0K[?25h[2018-12-16 00:49:18] INFO: Adding package repositories...[0K[?25l
+[0K[?25h[2018-12-16 00:49:19] INFO: Tidying data for technologies...[0K[?25l
+[0K[?25h[2018-12-16 00:49:19] INFO: Adding technologies in focus to table...[0K[?25l
+[0K[?25h[2018-12-16 00:49:19] INFO: Tidying data for categories...[0K[?25l
+[0K[?25h[2018-12-16 00:49:19] INFO: Adding categories to table...[0K[?25l
+[0K[?25h[2018-12-16 00:49:20] INFO: ***** Downloading shields ******[0K[?25l
+[0K[?25h[2018-12-16 00:49:20] WARN: Downloading of shields has been skipped, they may be out of date![0K[?25l
+[0K[?25h[2018-12-16 00:49:20] INFO: ***** Converting to JSON *****[0K[?25l
+[0K[?25h[2018-12-16 00:49:20] INFO: Converting table...[0K[?25l
+[0K[?25h[2018-12-16 00:49:21] INFO: Converting tools table...[0K[?25l
+[0K[?25h[2018-12-16 00:49:21] INFO: Writing 'tools-table.json'...[0K[?25l
+[0K[?25h[2018-12-16 00:49:33] INFO: Converting tools...[0K[?25l
+[0K[?25h[2018-12-16 00:49:33] INFO: Writing 'tools.json'...[0K[?25l
+[0K[?25h[2018-12-16 00:49:39] INFO: Converting categories...[0K[?25l
+[0K[?25h[2018-12-16 00:49:40] INFO: Writing 'categories.json'...[0K[?25l
+[0K[?25h[?25l[2018-12-16[0K[8G[?25h[?25l[2018-12-16 00:49:42] INFO: Converting technologies...[0K
+[0K[?25h[2018-12-16 00:49:42] INFO: Writing 'technologies.json'...[0K[?25l
+[0K[?25h[2018-12-16 00:49:44] INFO: ***** Performing analysis *****[0K[?25l
+[0K[?25h[?25l[20[0K[1G[?25h[2018-12-16 00:49:44] INFO: Plotting published tools across years...[0K[?25l
+[0K[?25h[?25l[2018-12-16 00:53:09][0K[19G[?25h[?25l[2018-12-16 00:53:09] INFO: Plotting publication status...[0K
+[0K[?25h[?25l[2018-12-16 00[0K[12G[?25h[?25l[2018-12-16 00:54:43] INFO: Plotting platforms...[0K
+[0K[?25h[2018-12-16 00:56:17] INFO: Plotting technologies...[0K[?25l
+[0K[?25h[2018-12-16 00:57:53] INFO: Plotting categories...[0K[?25l
+[0K[?25h[2018-12-16 00:59:26] WARN: Some processing has been skipped, last updated time will not be set![0K[?25l
+[0K[?25h[?25l[201[0K[3G[?25h[?25l[2018-12-16 00:59:27] INFO: **** PROCESSING FINISHED *****[0K
+[0K[?25h]0; [?25l
+Z:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>[0K[?25hRScript build_lrs_db.R -s -c -p[0K[?25lZ:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>python docs\test_server.py[0K[?25h[?25l
+[0K[?25h]0;  - python  docs\test_server.py * Serving Flask app "test_server" (lazy loading)[0K[?25l
+ * Environment: production[0K
+   WARNING: Do not use the development server in a production environment.[0K
+   Use a production WSGI server instead.[0K
+ * Debug mode: on[0K
+[0K[?25h * Restarting with stat[0K[?25l
+[0K[?25h * Debugger is active![0K[?25l
+[0K[?25h * Debugger PIN: 148-335-196[0K[?25l
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:28] "GET /index.html HTTP/1.1" 304 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:29] "GET /css/index.css HTTP/1.1" 200 -[0K[?25l
+127.0.0.1 - - [16/Dec/2018 01:03:29] "GET /css/layout.css HTTP/1.1" 304 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:30] "GET /footer_content.html HTTP/1.1" 304 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:30] "GET /data/tools-table.json?order=asc&offset=0&limit=10 HTTP[0K/[?25l
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:30] "GET /img/banner.svg HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:34] "GET /img/favicon/manifest.json HTTP/1.1" 404 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:34] "GET /analysis.html HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:34] "GET /css/analysis.css HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:35] "GET /plots/publication.html?initialWidth=601&childId=public[0Ka[?25l
+tion&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 [0K-
+[0K
+127.0.0.1 - - [16/Dec/2018 01:03:35] "GET /plots/number.html?initialWidth=1233&childId=number&par[0Ke
+ntTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:35] "GET /plots/platforms.html?initialWidth=601&childId=platform[0Ks[?25l
+&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:35] "GET /plots/technologies.html?initialWidth=1233&childId=tech[0Kn
+ology&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200[0K
+-[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:35] "GET /plots/categories.html?initialWidth=1233&childId=catego[0Kr[?25l
+ies&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:36] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/[?25l
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:36] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:36] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:36] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0
+ -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:36] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1[?25l
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:36] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:37] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:37] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:38] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks[?25l
+ HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:38] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:38] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2
+00 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:49] "GET /analysis.html HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:50] "GET /css/analysis.css HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:50] "GET /css/layout.css HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:51] "GET /plots/publication.html?initialWidth=601&childId=public[0Ka[?25l
+tion&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 [0K-
+[0K
+127.0.0.1 - - [16/Dec/2018 01:03:51] "GET /plots/technologies.html?initialWidth=1233&childId=tech[0Kn
+ology&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200[0K
+-[0K
+127.0.0.1 - - [16/Dec/2018 01:03:51] "GET /plots/number.html?initialWidth=1233&childId=number&par[0Ke
+ntTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:51] "GET /plots/categories.html?initialWidth=1233&childId=catego[0Kr[?25l
+ies&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:51] "GET /plots/platforms.html?initialWidth=601&childId=platform[0Ks
+&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:52] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:52] "GET /img/banner.svg HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:52] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:52] "GET /footer_content.html HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0[?25l
+ -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1[?25l
+.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:54] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks
+ HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:55] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:55] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:55] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0
+ -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:55] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1[?25l
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:55] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks[?25l
+ HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:55] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:55] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:55] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0[?25l
+ -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:55] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1[?25l
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:55] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT
+P/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks[?25l
+ HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0[?25l
+ -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks
+ HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0[?25l
+ -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1
+.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2
+00 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2
+00 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT
+P/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:56] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks[?25l
+ HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:58] "GET /img/favicon/manifest.json HTTP/1.1" 404 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:03:59] "GET /img/icon.png HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:16] "GET /analysis.html HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:16] "GET /css/analysis.css HTTP/1.1" 200 -[0K[?25l
+127.0.0.1 - - [16/Dec/2018 01:04:16] "GET /css/layout.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:17] "GET /plots/platforms.html?initialWidth=601&childId=platform[0Ks[?25l
+&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:17] "GET /plots/technologies.html?initialWidth=1233&childId=tech[0Kn
+ology&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200[0K
+-[0K
+127.0.0.1 - - [16/Dec/2018 01:04:17] "GET /plots/publication.html?initialWidth=601&childId=public[0Ka
+tion&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 [0K-
+[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:17] "GET /plots/number.html?initialWidth=1233&childId=number&par[0Ke[?25l
+ntTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:17] "GET /plots/categories.html?initialWidth=1233&childId=catego[0Kr
+ies&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:18] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:18] "GET /footer_content.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:18] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:18] "GET /img/banner.svg HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:18] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:19] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:20] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:20] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/[?25l
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:20] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:20] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:20] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0[?25l
+ -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:20] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/[?25l
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:20] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/[2G[?25h[?25l
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:21] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1[?25l
+.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:21] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:21] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[1G[?25h[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:21] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0[?25l
+ -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:21] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:21] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:21] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:21] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:21] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:21] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:22] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0
+ -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:22] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT
+P/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:22] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:22] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0[?25l
+ -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:22] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1
+.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:22] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2
+00 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:23] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks[?25l
+ HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:23] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks
+ HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:23] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks
+ HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:04:23] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks
+ HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:30] "GET /img/favicon/manifest.json HTTP/1.1" 404 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:04:32] "GET /img/icon.png HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:13] "GET /analysis.html HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:14] "GET /css/analysis.css HTTP/1.1" 200 -[0K[?25l
+127.0.0.1 - - [16/Dec/2018 01:05:14] "GET /css/layout.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:15] "GET /plots/publication.html?initialWidth=601&childId=public[0Ka[?25l
+tion&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 [0K-
+[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:15] "GET /plots/number.html?initialWidth=1233&childId=number&par[0Ke[?25l
+ntTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:15] "GET /plots/categories.html?initialWidth=1233&childId=catego[0Kr[?25l
+ies&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:15] "GET /plots/technologies.html?initialWidth=1233&childId=tech[0Kn[?25l
+ology&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200[0K
+-[0K
+127.0.0.1 - - [16/Dec/2018 01:05:15] "GET /plots/platforms.html?initialWidth=601&childId=platform[0Ks
+&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:16] "GET /img/banner.svg HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:17] "GET /footer_content.html HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:18] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/[?25l
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:18] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:18] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:18] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:18] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:19] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:19] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/[?25l
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:19] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:19] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:19] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:19] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:20] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:20] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0[?25l
+ -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:20] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1[?25l
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:20] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:20] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:20] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:20] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0
+ -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:20] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0
+ -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2
+00 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0
+ -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1[?25l
+.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2
+00 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT
+P/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0[?25l
+ -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:21] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT
+P/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:22] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks[?25l
+ HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:22] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks
+ HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:22] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks
+ HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:24] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks[?25l
+ HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:05:24] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks
+ HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:28] "GET /img/favicon/manifest.json HTTP/1.1" 404 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:05:30] "GET /img/icon.png HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:33] "GET /analysis.html HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:34] "GET /css/analysis.css HTTP/1.1" 200 -[0K[?25l
+127.0.0.1 - - [16/Dec/2018 01:07:34] "GET /css/layout.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:35] "GET /plots/number.html?initialWidth=1233&childId=number&par[0Ke[?25l
+ntTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:36] "GET /plots/categories.html?initialWidth=1233&childId=catego[0Kr[?25l
+ies&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:36] "GET /plots/platforms.html?initialWidth=601&childId=platform[0Ks
+&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:36] "GET /plots/publication.html?initialWidth=601&childId=public[0Ka[?25l
+tion&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 [0K-
+[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:36] "GET /plots/technologies.html?initialWidth=1233&childId=tech[0Kn[?25l
+ology&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200[0K
+-[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:36] "GET /img/banner.svg HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:37] "GET /footer_content.html HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:38] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:38] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:38] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:38] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:38] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/[?25l
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:38] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:38] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/[?25l
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:38] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:38] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:39] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0[?25l
+ -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:39] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:39] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1[?25l
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:39] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:39] "GET /analysis.html HTTP/1.1" 200 -[0K[?25l
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:39] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:39] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:39] "GET /css/layout.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:39] "GET /css/analysis.css HTTP/1.1" 200 -[0K[?25l
+127.0.0.1 - - [16/Dec/2018 01:07:39] "GET /img/banner.svg HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /plots/number.html?initialWidth=1233&childId=number&par[0Ke[?25l
+ntTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /plots/publication.html?initialWidth=601&childId=public[0Ka
+tion&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 [0K-
+[0K
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /footer_content.html HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /plots/categories.html?initialWidth=1233&childId=catego[0Kr
+ies&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /plots/technologies.html?initialWidth=1233&childId=tech[0Kn
+ology&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200[0K
+-[0K
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /plots/platforms.html?initialWidth=601&childId=platform[0Ks
+&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /analysis.html HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0
+ -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /img/favicon/manifest.json HTTP/1.1" 404 -[0K[?25l
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /css/analysis.css HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /img/banner.svg HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:40] "GET /css/layout.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:41] "GET /plots/technologies.html?initialWidth=1233&childId=tech[0Kn[?25l
+ology&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200[0K
+-[0K
+127.0.0.1 - - [16/Dec/2018 01:07:41] "GET /plots/categories.html?initialWidth=1233&childId=catego[0Kr
+ies&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:41] "GET /plots/number.html?initialWidth=1233&childId=number&par[0Ke
+ntTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:41] "GET /plots/publication.html?initialWidth=601&childId=public[0Ka
+tion&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 [0K-
+[0K
+127.0.0.1 - - [16/Dec/2018 01:07:41] "GET /plots/platforms.html?initialWidth=601&childId=platform[0Ks
+&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:41] "GET /footer_content.html HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:41] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:41] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:41] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0
+ -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:41] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:41] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks[?25l
+ HTTP/1.1" 200 -[0K
+[0K[?25h----------------------------------------[0K[?25l
+Exception happened during processing of request from ('127.0.0.1', 63772)[0K
+Traceback (most recent call last):[0K
+  File "C:\Python27\lib\SocketServer.py", line 596, in process_request_thread[0K[1G[?25h[?25l
+    self.finish_request(request, client_address)[0K
+  File "C:\Python27\lib\SocketServer.py", line 331, in finish_request[0K
+    self.RequestHandlerClass(request, client_address, self)[0K
+  File "C:\Python27\lib\SocketServer.py", line 654, in __init__[0K
+    self.finish()[0K
+  File "C:\Python27\lib\SocketServer.py", line 713, in finish[0K
+    self.wfile.close()[0K
+  File "C:\Python27\lib\socket.py", line 283, in close[0K
+    self.flush()[0K
+  File "C:\Python27\lib\socket.py", line 307, in flush[0K
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])[0K
+error: [Errno 10053] An established connection was aborted by the software in your host machine[0K
+----------------------------------------[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:42] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/[?25l
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/[?25l
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/[?25l
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt
+mlwidgets.css HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[2G[?25h[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt
+mlwidgets.css HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-h[0Kt[?25l
+mlwidgets.css HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2
+00 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT
+P/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks
+ HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0
+ -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/[?25l
+1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:43] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP[0K/
+1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:44] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:45] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1[?25l
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:45] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1[?25l
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:45] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[1G[?25h[?25l
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:45] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2
+00 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:45] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0
+ -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:46] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:46] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT
+P/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:46] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1
+.1" 200 -[0K
+[0K[?25h[?25l127.0.0.1 - - [16/Dec/2018 01:07:47] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[1G[?25h[?25l
+" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:47] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0
+ -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:47] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:47] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1[?25l
+.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:47] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2
+00 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:47] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[?25l
+P/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:47] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks[?25l
+ HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:47] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.[0K1
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:47] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.[0K1[?25l
+" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:47] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 20[0K0[?25l
+ -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:47] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/[0K1[1G[?25h[?25l
+.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:47] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" [0K2[?25l
+00 -[0K
+[0K[?25h[?25l127.0.0.1 - - [16/Dec/2018 01:07:48] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HT[0KT[1G[?25h[?25l
+P/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:48] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks[?25l
+ HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:48] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks[?25l
+ HTTP/1.1" 200 -[0K
+127.0.0.1 - - [16/Dec/2018 01:07:48] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.j[0Ks
+ HTTP/1.1" 200 -[0K
+[0K[?25h127.0.0.1 - - [16/Dec/2018 01:07:53] "GET /img/icon.png HTTP/1.1" 200 -[0K[?25l
+[0K[?25h]0; [?25l
+Z:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>[0K[?25hpython docs\test_server.py[0K[?25lZ:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>RScript build_lrs_db.R[0K[?25h[?25l
+[0K[?25h]0;  - RScript  build_lrs_db.R[?25l
+                                        ###[0K[?25h[?25l
+                                      #     #[0K
+                                    #   @ @   #[0K
+[0K[19G[?25h[?25l                                  #   @ @ @ @   #[0K
+                                #   @ @ @ @ @ @   #[0K
+[0K[2G[?25h[?25l                              ##                   ##[0K
+                              ##  @ @ @ @ @ @ @ @  ##[0K
+[0K[4G[?25h[?25l                              ##      @ @ @ @    ##[0K
+                                  #     @ @     #[0K
+                                    #   @ @   #[0K
+[0K[6G[?25h[?25l                                      #  @  #[0K
+                                        ###[0K
+[0K
+[0K
+                  LLL     RRRRRR   SSSSSSS      DDDDDD    BBBBBB[0K
+                  LLL     RR[0K[26G[?25h[?25l                  LLL     RR   RR  SS           DD    D   BB    B[0K
+                  LLL     RRRRRR   SSSSSSS  ==  DD    DD  BBBBBB[0K
+                  LLL     RR  RRR       SS      DD    D   BB    B[0K
+[0K[?25h                  LLLLLL  RR   RR  SSSSSSS      DDDDDD    BBBBBB[0K[?25l
+[0K
+[0K
+[0K[?25h[2018-12-16 01:08:39] INFO: ***** STARTING PROCESSING *****[0K[?25l
+[0K[?25h[2018-12-16 01:08:40] INFO: ***** Loading data ******[0K[?25l
+[0K[?25h[2018-12-16 01:08:40] INFO: Loading LRS database...[0K[?25l
+[0K[?25h[2018-12-16 01:08:43] INFO: Getting package repositories...[0K[?25l
+[0K[?25h[2018-12-16 01:08:43] INFO: Getting Bioconductor package list...[0K[?25l
+[0K[?25h[2018-12-16 01:08:45] INFO: Getting CRAN package list...[0K[?25l
+[0K[?25h[2018-12-16 01:08:50] INFO: Getting PyPI package list...[0K[?25l
+[0K[?25h[?25l[2018-12-16[0K[9G[?25h[?25l[2018-12-16 01:08:57] INFO: Getting Anaconda package list...[0K
+[0K[?25h   |                                                  | 0 % ~calculating[0K[75G[?25l   |==                                                | 3 % ~01m 16s[0K[75G[?25h[?25l   |====                                              | 3 % ~01m 16s[0K[34G[?25h[?25l   |====                                              | 6 % ~01m 13s[0K[75G[?25h[?25l   |=====                                             | 9 % ~01m 02s[0K[75G[?25h[?25l   |=======                                           | 9 % ~01m 02s[0K[42G[?25h[?25l   |=======                                           | 12% ~01m 02s[0K[75G[?25h[5G[?25l   |========                                          | 15% ~01m 02s[0K[75G[?25h[?25l   |==========                                        | 15% ~01m 02s[0K[16G[?25h[?25l   |==========                                        | 18% ~01m 00s[0K[75G[?25h[?25l   |===========                                       | 21% ~59s[0K[75G[?25h[?25l   |=============                                     | 21% ~59s[0K[44G[?25h[?25l   |=============                                     | 24% ~57s[0K[75G[?25h[?25l   |==============                                    | 27% ~57s[0K[57G[?25h[?25l   |==============                                    | 27% ~52s[0K[75G[?25h[?25l   |================                                  | 30% ~48s[0K[75G[?25h[?25l   |=================                                 | 33% ~47s[0K[75G[?25h[?25l   |===================                               | 36% ~44s[0K[75G[?25h[?25l   |====================                              | 36% ~44s[0K[52G[?25h[?25l   |====================                              | 39% ~42s[0K[75G[?25h[?25l   |======================                            | 42% ~39s[0K[75G[?25h[?25l   |=======================                           | 45% ~37s[0K[75G[?25h[?25l   |=========================                         | 48% ~35s[0K[75G[?25h[?25l   |==========================                        | 52% ~33s[0K[75G[?25h[?25l   |============================                      | 55% ~31s[0K[75G[?25h[27G[?25l   |=============================                     | 58% ~29s[0K[75G[?25h[31G[?25l   |===============================                   | 61% ~26s[0K[75G[?25h[?25l   |================================                  | 64% ~24s[0K[75G[?25h[?25l   |==================================                | 67% ~22s[0K[75G[?25h[?25l   |===================================               | 70% ~21s[0K[75G[?25h[?25l   |=====================================             | 73% ~18s[0K[75G[?25h[?25l   |======================================            | 76% ~16s[0K[75G[?25h[?25l   |========================================          | 79% ~14s[0K[75G[?25h[?25l   |=========================================         | 82% ~12s[0K[75G[?25h[?25l   |===========================================       | 85% ~10s[0K[75G[?25h[?25l   |============================================      | 88% ~08s[0K[?25h[75G[?25l   |==============================================    | 91% ~06s[0K[75G[?25h[?25l   |===============================================   | 94% ~04s[0K[75G[?25h[?25l   |================================================= | 97% ~02s[0K[75G[?25h[?25l   |==================================================| 100% elapsed = 01m 06s[0K
+[0K[?25h[2018-12-16 01:10:06] INFO: Getting category descriptions...[0K[?25l
+[0K[?25h[2018-12-16 01:10:06] INFO: Getting cached titles...[0K[?25l
+[0K[?25h[2018-12-16 01:10:08] INFO: Adding new titles to cache...[0K[?25l
+[0K[?25h[?25l[2018-12-16 01:10:09] INFO: Added 0[0K[32G[?25h[?25l[2018-12-16 01:10:09] INFO: Added 0 new titles to cache[0K
+[0K[?25h[2018-12-16 01:10:09] INFO: Checking repositories...[0K[?25l
+[0K[?25h[2018-12-16 01:10:11] INFO: Added 0 new repositories[0K[?25l
+[0K[?25h[2018-12-16 01:10:11] INFO: Ignored 0 repostories[0K[?25l
+[0K[?25h[2018-12-16 01:10:12] INFO: ***** Processing table ******[0K[?25l
+[0K[?25h[2018-12-16 01:10:12] INFO: Adding references...[0K[?25l
+[0K[?25h   |                                                  | 0 % ~calculating[0K[75G[?25l   |=                                                 | 1 % ~04m 12s[0K[75G[?25h[?25l   |==                                                | 2 % ~04m 37s[0K[75G[?25h[?25l   |==                                                | 3 % ~04m 05s[0K[75G[?25h[?25l   |===                                               | 4 % ~03m 45s[0K[32G[?25h[?25l   |===                                               | 5 % ~02m 58s[0K[75G[?25h[?25l   |====                                              | 7 % ~02m 47s[0K[71G[?25h[75G[54G[?25l   |====                                              | 8 % ~02m 47s[0K[75G[?25h[?25l   |=====                                             | 9 % ~02m 42s[0K[75G[?25h[30G[?25l   |=====                                             | 10% ~02m 48s[0K[75G[?25h[?25l   |======                                            | 11% ~02m 45s[0K[75G[?25h[?25l   |=======                                           | 11% ~02m 45s[0K[10G[?25h[?25l   |=======                                           | 12% ~02m 53s[0K[75G[?25h[?25l   |=======                                           | 13% ~02m 56s[0K[68G[?25h[75G[?25l   |========                                          | 13% ~02m 56s[0K[28G[?25h[?25l   |========                                          | 14% ~02m 52s[0K[75G[?25h[?25l   |========                                          | 15% ~02m 48s[0K[75G[?25h[?25l   |=========                                         | 16% ~02m 47s[0K[75G[?25h[?25l   |=========                                         | 18% ~02m 45s[0K[75G[?25h[?25l   |==========                                        | 20% ~02m 26s[0K[75G[?25h[?25l   |===========                                       | 21% ~02m 20s[0K[75G[?25h[?25l   |===========                                       | 22% ~02m 18s[0K[75G[?25h[?25l   |============                                      | 23% ~02m 14s[0K[67G[?25h[75G[?25l   |=============                                     | 24% ~02m 19s[0K[75G[?25h[?25l   |=============                                     | 25% ~02m 19s[0K[75G[?25h[?25l   |==============                                    | 26% ~02m 20s[0K[75G[?25h[49G[?25l   |==============                                    | 27% ~02m 18s[0K[75G[?25h[?25l   |===============                                   | 29% ~02m 13s[0K[75G[?25h[?25l   |================                                  | 31% ~02m 06s[0K[75G[?25h[7G[?25l   |================                                  | 32% ~02m 06s[0K[75G[?25h[?25l   |=================                                 | 33% ~02m 04s[0K[75G[?25h[?25l   |==================                                | 34% ~01m 60s[0K[75G[?25h[?25l   |==================                                | 35% ~01m 57s[0K[75G[?25h[?25l   |===================                               | 36% ~01m 58s[0K[75G[?25h[?25l   |===================                               | 37% ~01m 59s[0K[75G[?25h[?25l   |====================                              | 38% ~01m 59s[0K[75G[?25h[2G[?25l   |====================                              | 40% ~01m 57s[0K[75G[?25h[?25l   |=====================                             | 40% ~01m 57s[0K[23G[?25h[?25l   |=====================                             | 41% ~01m 55s[0K[75G[?25h[?25l   |=====================                             | 42% ~01m 54s[0K[75G[?25h[?25l   |======================                            | 43% ~01m 52s[0K[74G[?25h[75G[?25l   |======================                            | 44% ~01m 50s[0K[75G[?25h[?25l   |=======================                           | 45% ~01m 46s[0K[75G[?25h[?25l   |========================                          | 45% ~01m 46s[0K[38G[?25h[?25l   |========================                          | 46% ~01m 43s[0K[75G[?25h[?25l   |========================                          | 47% ~01m 43s[0K[54G[?25h[?25l   |========================                          | 47% ~01m 41s[0K[75G[?25h[?25l   |=========================                         | 48% ~01m 39s[0K[75G[?25h[7G[?25l   |==========================                        | 51% ~01m 33s[0K[75G[?25h[?25l   |==========================                        | 52% ~01m 30s[0K[75G[?25h[?25l   |===========================                       | 52% ~01m 30s[0K[54G[?25h[?25l   |===========================                       | 53% ~01m 29s[0K[75G[?25h[?25l   |===========================                       | 54% ~01m 29s[0K[54G[?25h[?25l   |===========================                       | 54% ~01m 27s[0K[75G[?25h[?25l   |============================                      | 55% ~01m 24s[0K[75G[?25h[?25l   |=============================                     | 56% ~01m 22s[0K[75G[?25h[?25l   |=============================                     | 57% ~01m 19s[0K[75G[?25h[?25l   |==============================                    | 58% ~01m 17s[0K[75G[?25h[?25l   |==============================                    | 59% ~01m 15s[0K[75G[?25h[?25l   |===============================                   | 60% ~01m 13s[0K[75G[?25h[?25l   |===============================                   | 62% ~01m 11s[0K[75G[?25h[?25l   |================================                  | 64% ~01m 05s[0K[75G[?25h[?25l   |=================================                 | 65% ~01m 03s[0K[75G[?25h[?25l   |=================================                 | 66% ~01m 03s[0K[59G[?25h[?25l   |=================================                 | 66% ~01m 01s[0K[75G[?25h[24G[?25l   |==================================                | 67% ~59s[0K[75G[?25h[?25l   |===================================               | 68% ~56s[0K[75G[?25h[?25l   |====================================              | 70% ~56s[0K[59G[?25h[?25l   |====================================              | 70% ~53s[0K[75G[?25h[?25l   |====================================              | 71% ~51s[0K[75G[?25h[2G[?25l   |=====================================             | 74% ~46s[0K[75G[?25h[?25l   |======================================            | 75% ~44s[0K[75G[?25h[?25l   |======================================            | 76% ~42s[0K[75G[?25h[?25l   |=======================================           | 77% ~40s[0K[75G[?25h[?25l   |========================================          | 77% ~40s[0K[45G[?25h[?25l   |========================================          | 78% ~38s[0K[75G[?25h[?25l   |========================================          | 79% ~36s[0K[75G[?25h[?25l   |=========================================         | 80% ~35s[0K[75G[?25h[?25l   |=========================================         | 81% ~32s[0K[75G[?25h[?25l   |==========================================        | 82% ~30s[0K[75G[?25h[?25l   |==========================================        | 84% ~28s[0K[75G[?25h[41G[?25l   |===========================================       | 86% ~24s[0K[75G[?25h[22G[?25l   |============================================      | 87% ~22s[0K[75G[?25h[?25l   |============================================      | 88% ~20s[0K[67G[?25h[75G[?25l   |=============================================     | 89% ~19s[0K[75G[?25h[6G[?25l   |==============================================    | 90% ~17s[0K[75G[?25h[?25l   |===============================================   | 92% ~13s[0K[75G[?25h[?25l   |===============================================   | 93% ~11s[0K[75G[?25h[?25l   |================================================  | 95% ~09s[0K[75G[?25h[?25l   |================================================  | 96% ~07s[0K[75G[?25h[?25l   |================================================= | 97% ~05s[0K[75G[?25h[?25l   |================================================= | 98% ~04s[0K[75G[?25h[?25l   |==================================================| 100% elapsed = 02m 46s[0K
+[0K[?25h[2018-12-16 01:12:58] INFO: Adding Github...[0K[?25l
+[0K[?25h[2018-12-16 01:12:58] INFO: Adding package repositories...[0K[?25l
+[0K[?25h[2018-12-16 01:12:59] INFO: Tidying data for technologies...[0K[?25l
+[0K[?25h[2018-12-16 01:12:59] INFO: Adding technologies in focus to table...[0K[?25l
+[0K[?25h[?25l[2018-12-16 01:12:59] INFO: Tidying data for categories.[0K[54G[?25h[?25l[2018-12-16 01:12:59] INFO: Tidying data for categories...[0K
+[0K[?25h[?25l[2018-12-16 01:12[0K[16G[?25h[?25l[2018-12-16 01:12:59] INFO: Adding categories to table...[0K
+[0K[?25h[2018-12-16 01:13:00] INFO: ***** Downloading shields ******[0K[?25l
+[0K[?25h[2018-12-16 01:13:01] INFO: Getting shields...[0K[?25l
+[0K[?25h[?25l[2018-12-1[0K[8G[?25h[?25l[2018-12-16 01:13:01] INFO: Downloading Bioconductor shields...[0K
+[0K[?25h[?25l   |==========>-----------------------------|  27% Elapsed:  2s Remaining:  4s[0K[22G[?25h[?25l   |===========>----------------------------|  31% Elapsed:  2s Remaining:  4s[0K[46G[?25h[?25l   |============>---------------------------|  34% Elapsed:  2s Remaining:  3s[0K[73G[?25h[?25l   |=============>--------------------------|  36% Elapsed:  2s Remaining:  3s[0K[?25h[?25l   |===============>------------------------|  39% Elapsed:  2s Remaining:  3s[0K[?25h[?25l   |================>-----------------------|  43% Elapsed:  2s Remaining:  2s[0K[71G[?25h[?25l   |=================>----------------------|  45% Elapsed:  2s Remaining:  2s[0K[?25h[?25l   |==================>---------------------|  48% Elapsed:  2s Remaining:  2s[0K[70G[?25h[?25l   |====================>-------------------|  51% Elapsed:  2s Remaining:  2s[0K[28G[?25h[?25l   |====================>-------------------|  53% Elapsed:  2s Remaining:  2s[0K[19G[?25h[?25l   |=====================>------------------|  56% Elapsed:  2s Remaining:  1s[0K[?25h[?25l   |=======================>----------------|  59% Elapsed:  2s Remaining:  1s[0K[11G[?25h[?25l   |========================>---------------|  62% Elapsed:  2s Remaining:  1s[0K[9G[?25h[?25l   |=========================>--------------|  66% Elapsed:  2s Remaining:  1s[0K[56G[?25h[?25l   |==========================>-------------|  69% Elapsed:  2s Remaining:  1s[0K[72G[?25h[?25l   |============================>-----------|  73% Elapsed:  2s Remaining:  1s[0K[59G[?25h[?25l   |=============================>----------|  76% Elapsed:  2s Remaining:  1s[0K[?25h[?25l   |==============================>---------|  79% Elapsed:  2s Remaining:  1s[0K[48G[?25h[?25l   |================================>-------|  81% Elapsed:  2s Remaining:  0s[0K[35G[?25h[?25l   |================================>-------|  83% Elapsed:  2s Remaining:  0s[0K[11G[?25h[?25l   |==================================>-----|  86% Elapsed:  2s Remaining:  0s[0K[62G[?25h[?25l   |===================================>----|  91% Elapsed:  2s Remaining:  0s[0K[66G[?25h[?25l   |====================================>---|  94% Elapsed:  2s Remaining:  0s[0K[?25h[?25l   |======================================>-|  96% Elapsed:  2s Remaining:  0s[0K[40G[?25h[?25l   |========================================| 100% Elapsed:  2s Remaining:  0s[0K[40G[?25h[?25l
+[2018-12-16 01:13:04] INFO: Downloading CRAN shields...[0K
+[0K[?25h[?25l   |===============>------------------------|  39% Elapsed: 34s Remaining:  1m[0K[63G[?25h[?25l   |===============>------------------------|  41% Elapsed: 34s Remaining: 49s[0K[?25h[?25l   |================>-----------------------|  42% Elapsed: 34s Remaining: 46s[0K[76G[?25h[?25l   |=================>----------------------|  45% Elapsed: 34s Remaining: 41s[0K[9G[?25h[?25l   |==================>---------------------|  47% Elapsed: 34s Remaining: 39s[0K[54G[?25h[?25l   |==================>---------------------|  49% Elapsed: 34s Remaining: 36s[0K[4G[?25h[?25l   |====================>-------------------|  52% Elapsed: 34s Remaining: 32s[0K[50G[?25h[?25l   |====================>-------------------|  53% Elapsed: 34s Remaining: 31s[0K[70G[?25h[?25l   |=====================>------------------|  55% Elapsed: 34s Remaining: 28s[0K[11G[?25h[?25l   |======================>-----------------|  57% Elapsed: 34s Remaining: 26s[0K[23G[?25h[?25l   |=======================>----------------|  60% Elapsed: 34s Remaining: 23s[0K[1G[?25h[?25l   |========================>---------------|  63% Elapsed: 34s Remaining: 21s[0K[65G[?25h[?25l   |=========================>--------------|  65% Elapsed: 34s Remaining: 18s[0K[?25h[?25l   |==========================>-------------|  68% Elapsed: 34s Remaining: 17s[0K[35G[?25h[?25l   |===========================>------------|  70% Elapsed: 34s Remaining: 15s[0K[?25h[?25l   |============================>-----------|  72% Elapsed: 34s Remaining: 13s[0K[24G[?25h[?25l   |=============================>----------|  74% Elapsed: 34s Remaining: 12s[0K[29G[?25h[?25l   |==============================>---------|  76% Elapsed: 34s Remaining: 11s[0K[?25h[?25l   |==============================>---------|  78% Elapsed: 34s Remaining: 10s[0K[?25h[?25l   |===============================>--------|  81% Elapsed: 35s Remaining:  8s[0K[?25h[?25l   |================================>-------|  83% Elapsed: 35s Remaining:  7s[0K[25G[?25h[?25l   |==================================>-----|  86% Elapsed: 35s Remaining:  5s[0K[8G[?25h[?25l   |==================================>-----|  89% Elapsed: 35s Remaining:  4s[0K[26G[?25h[?25l   |===================================>----|  91% Elapsed: 35s Remaining:  4s[0K[54G[?25h[?25l   |====================================>---|  93% Elapsed: 35s Remaining:  3s[0K[38G[?25h[?25l   |=====================================>--|  94% Elapsed: 35s Remaining:  2s[0K[13G[?25h[?25l   |======================================>-|  97% Elapsed: 35s Remaining:  1s[0K[62G[?25h[?25l   |======================================>-|  99% Elapsed: 35s Remaining:  1s[0K[10G[?25h[?25l   |========================================| 100% Elapsed: 35s Remaining:  0s[0K
+[0K[?25h[2018-12-16 01:13:39] INFO: Downloading PyPI shields...[0K[?25l
+[0K[?25h[?25l   |>---------------------------------------|   2% Elapsed:  3s Remainin[0K[70G[?25h[?25l   |>---------------------------------------|   3% Elapsed:  3s Remaining:  2m[0K[?25h[?25l   |>---------------------------------------|   4% Elapsed:  3s Remaining:  2m[0K[76G[?25h[?25l   |=>--------------------------------------|   4% Elapsed:  3s Remaining:  1m[0K[?25h[?25l   |=>--------------------------------------|   4% Elapsed:  4s Remaining:  1m[0K[4G[?25h[?25l   |=>--------------------------------------|   5% Elapsed:  4s Remaining:  1m[0K[17G[?25h[?25l   |==>-------------------------------------|   6% Elapsed:  4s Remaining:  1m[0K[17G[?25h[22G[?25l   |==>-------------------------------------|   7% Elapsed:  4s Remaining:  1m[0K[19G[?25h[?25l   |==>-------------------------------------|   7% Elapsed:  4s Remaining: 49s[0K[15G[?25h[?25l   |==>-------------------------------------|   7% Elapsed:  4s Remaining: 47s[0K[38G[?25h[?25l   |==>-------------------------------------|   8% Elapsed:  4s Remaining: 45s[0K[20G[?25h[?25l   |==>-------------------------------------|   8% Elapsed:  4s Remaining: 43s[0K[47G[?25h[?25l   |===>------------------------------------|   9% Elapsed:  4s Remaining: 41s[0K[54G[?25h[?25l   |===>------------------------------------|   9% Elapsed:  4s Remaining: 38s[0K[7G[?25h[?25l   |===>------------------------------------|  10% Elapsed:  4s Remaining: 38s[0K[70G[?25h[?25l   |===>------------------------------------|  10% Elapsed:  4s Remaining: 36s[0K[23G[?25h[?25l   |===>------------------------------------|  10% Elapsed:  4s Remaining: 35s[0K[?25h[?25l   |===>------------------------------------|  11% Elapsed:  7s Remaining:  1m[0K[?25h[?25l   |===>------------------------------------|  11% Elapsed:  9s Remaining:  1m[0K[?25h[?25l   |====>-----------------------------------|  11% Elapsed:  9s Remaining:  1m[0K[24G[?25h[?25l   |====>-----------------------------------|  12% Elapsed: 11s Remaining:  1m[0K[59G[?25h[?25l   |====>-----------------------------------|  13% Elapsed: 11s Remaining:  1m[0K[?25h[?25l   |=====>----------------------------------|  14% Elapsed: 11s Remaining:  1m[0K[25G[?25h[?25l   |=====>----------------------------------|  14% Elapsed: 12s Remaining:  1m[0K[44G[?25h[?25l   |=====>----------------------------------|  15% Elapsed: 12s Remaining:  1m[0K[42G[?25h[?25l   |======>---------------------------------|  17% Elapsed: 12s Remaining:  1m[0K[52G[?25h[?25l   |======>---------------------------------|  18% Elapsed: 12s Remaining:  1m[0K[?25h[?25l   |=======>--------------------------------|  19% Elapsed: 12s Remaining:  1m[0K[37G[?25h[?25l   |=======>--------------------------------|  19% Elapsed: 12s Remaining: 49s[0K[36G[?25h[?25l   |=======>--------------------------------|  20% Elapsed: 12s Remaining: 48s[0K[25G[?25h[?25l   |=======>--------------------------------|  20% Elapsed: 12s Remaining: 47s[0K[47G[?25h[?25l   |=======>--------------------------------|  21% Elapsed: 12s Remaining: 46s[0K[54G[?25h[?25l   |=======>--------------------------------|  21% Elapsed: 12s Remaining: 44s[0K[77G[?25h[?25l   |========>-------------------------------|  22% Elapsed: 12s Remaining: 43s[0K[55G[?25h[72G[?25l   |========>-------------------------------|  23% Elapsed: 12s Remaining: 41s[0K[76G[?25h[?25l   |========>-------------------------------|  23% Elapsed: 12s Remaining: 40s[0K[?25h[?25l   |========>-------------------------------|  24% Elapsed: 12s Remaining: 40s[0K[53G[?25h[?25l   |=========>------------------------------|  24% Elapsed: 12s Remaining: 39s[0K[64G[?25h[?25l   |=========>------------------------------|  25% Elapsed: 12s Remaining: 38s[0K[67G[?25h[?25l   |=========>------------------------------|  25% Elapsed: 12s Remaining: 36s[0K[?25h[?25l   |=========>------------------------------|  26% Elapsed: 12s Remaining: 35s[0K[44G[?25h[?25l   |==========>-----------------------------|  27% Elapsed: 12s Remaining: 34s[0K[72G[?25h[?25l   |==========>-----------------------------|  27% Elapsed: 12s Remaining: 33s[0K[?25h[?25l   |==========>-----------------------------|  28% Elapsed: 15s Remaining: 39s[0K[?25h[?25l   |==========>-----------------------------|  28% Elapsed: 17s Remaining: 44s[0K[27G[?25h[?25l   |===========>----------------------------|  30% Elapsed: 17s Remaining: 41s[0K[?25h[?25l   |===========>----------------------------|  30% Elapsed: 21s Remaining: 41s[0K[61G[?25h[?25l   |===========>----------------------------|  31% Elapsed: 21s Remaining: 49s[0K[68G[?25h[?25l   |===========>----------------------------|  31% Elapsed: 21s Remaining: 48s[0K[71G[?25h[?25l   |============>---------------------------|  31% Elapsed: 21s Remaining: 47s[0K[44G[?25h[?25l   |============>---------------------------|  31% Elapsed: 21s Remaining: 46s[0K[24G[?25h[?25l   |============>---------------------------|  32% Elapsed: 21s Remaining: 46s[0K[?25h[47G[?25l   |============>---------------------------|  32% Elapsed: 21s Remaining: 45s[0K[8G[?25h[67G[?25l   |============>---------------------------|  32% Elapsed: 21s Remaining: 44s[0K[29G[?25h[?25l   |============>---------------------------|  33% Elapsed: 21s Remaining: 44s[0K[19G[?25h[?25l   |============>---------------------------|  33% Elapsed: 21s Remaining: 43s[0K[13G[?25h[?25l   |============>---------------------------|  34% Elapsed: 22s Remaining: 43s[0K[?25h[?25l   |=============>--------------------------|  34% Elapsed: 22s Remaining: 42s[0K[78G[?25h[?25l   |=============>--------------------------|  34% Elapsed: 22s Remaining: 41s[0K[?25h[?25l   |=============>--------------------------|  35% Elapsed: 22s Remaining: 41s[0K[1G[?25h   |=============>--------------------------|  35% Elapsed: 22s Remaining: 40s[0K[?25l   |=============>--------------------------|  36% Elapsed: 22s Remaining: 39s[0K[29G[?25h[?25l   |==============>-------------------------|  37% Elapsed: 22s Remaining: 38s[0K[48G[?25h[43G[?25l   |==============>-------------------------|  37% Elapsed: 22s Remaining: 37s[0K[?25h[?25l   |==============>-------------------------|  39% Elapsed: 39s Remaining:  1m[0K[?25h[?25l   |================>-----------------------|  42% Elapsed: 39s Remaining:  1m[0K[48G[?25h[79G[?25l   |================>-----------------------|  42% Elapsed: 42s Remaining:  1m[0K[77G[?25h[?25l   |=================>----------------------|  45% Elapsed: 42s Remaining:  1m[0K[?25h[?25l   |=================>----------------------|  46% Elapsed: 42s Remaining: 49s[0K[?25h[?25l   |==================>---------------------|  47% Elapsed: 44s Remaining: 50s[0K[35G[?25h[?25l   |==================>---------------------|  48% Elapsed: 44s Remaining: 48s[0K[19G[?25h[?25l   |==================>---------------------|  48% Elapsed: 44s Remaining: 47s[0K[?25h[?25l   |===================>--------------------|  50% Elapsed: 46s Remaining: 47s[0K[?25h[?25l   |===================>--------------------|  51% Elapsed: 49s Remaining: 48s[0K[?25h[30G[?25l   |====================>-------------------|  51% Elapsed:  1m Remaining: 49s[0K[33G[?25h[?25l   |====================>-------------------|  52% Elapsed:  1m Remaining: 47s[0K[9G[?25h[?25l   |====================>-------------------|  53% Elapsed:  1m Remaining: 46s[0K[?25h[?25l   |=====================>------------------|  54% Elapsed:  1m Remaining: 47s[0K[?25h[?25l   |=====================>------------------|  54% Elapsed:  1m Remaining: 50s[0K[?25h[?25l   |=====================>------------------|  55% Elapsed:  1m Remaining:  1m[0K[?25h[?25l   |=====================>------------------|  56% Elapsed:  1m Remaining:  1m[0K[?25h[?25l   |======================>-----------------|  56% Elapsed:  1m Remaining:  1m[0K[77G[?25h[?25l   |======================>-----------------|  57% Elapsed:  1m Remaining:  1m[0K[30G[?25h[?25l   |======================>-----------------|  58% Elapsed:  1m Remaining:  1m[0K[?25h[?25l   |=======================>----------------|  59% Elapsed:  1m Remaining:  1m[0K[24G[?25h[?25l   |=======================>----------------|  60% Elapsed:  1m Remaining:  1m[0K[?25h[?25l   |=======================>----------------|  61% Elapsed:  1m Remaining:  1m[0K[21G[?25h[?25l   |========================>---------------|  62% Elapsed:  1m Remaining: 49s[0K[?25h[?25l   |========================>---------------|  63% Elapsed:  1m Remaining: 47s[0K[17G[?25h[?25l   |========================>---------------|  63% Elapsed:  1m Remaining: 46s[0K[?25h[?25l   |=========================>--------------|  65% Elapsed:  1m Remaining: 45s[0K[48G[?25h[?25l   |==========================>-------------|  66% Elapsed:  1m Remaining: 42s[0K[?25h[?25l   |==========================>-------------|  68% Elapsed:  1m Remaining: 40s[0K[44G[?25h[?25l   |===========================>------------|  69% Elapsed:  1m Remaining: 36s[0K[?25h[?25l   |===========================>------------|  70% Elapsed:  1m Remaining: 36s[0K[60G[?25h[4G[?25l   |===========================>------------|  71% Elapsed:  1m Remaining: 35s[0K[?25h[?25l   |============================>-----------|  72% Elapsed:  2m Remaining: 36s[0K[26G[?25h[?25l   |=============================>----------|  75% Elapsed:  2m Remaining: 30s[0K[?25h[?25l   |==============================>---------|  77% Elapsed:  2m Remaining: 29s[0K[?25h[?25l   |==============================>---------|  78% Elapsed:  2m Remaining: 28s[0K[70G[?25h[?25l   |==============================>---------|  79% Elapsed:  2m Remaining: 26s[0K[?25h[?25l   |===============================>--------|  79% Elapsed:  2m Remaining: 27s[0K[?25h[?25l   |===============================>--------|  80% Elapsed:  2m Remaining: 27s[0K[?25h[?25l   |===============================>--------|  81% Elapsed:  2m Remaining: 27s[0K[45G[?25h[?25l   |================================>-------|  82% Elapsed:  2m Remaining: 24s[0K[25G[?25h[?25l   |=================================>------|  85% Elapsed:  2m Remaining: 20s[0K[39G[?25h[?25l   |=================================>------|  86% Elapsed:  2m Remaining: 18s[0K[?25h[?25l   |==================================>-----|  87% Elapsed:  2m Remaining: 17s[0K[?25h[?25l   |==================================>-----|  87% Elapsed:  2m Remaining: 16s[0K[?25h[?25l   |==================================>-----|  88% Elapsed:  2m Remaining: 15s[0K[?25h[?25l   |===================================>----|  89% Elapsed:  2m Remaining: 15s[0K[62G[?25h[?25l   |===================================>----|  91% Elapsed:  2m Remaining: 12s[0K[14G[?25h[?25l   |====================================>---|  93% Elapsed:  2m Remaining:  8s[0K[14G[?25h[?25l   |=====================================>--|  94% Elapsed:  2m Remaining:  7s[0K[?25h[?25l   |=====================================>--|  96% Elapsed:  2m Remaining:  5s[0K[?25h[?25l   |======================================>-|  96% Elapsed:  2m Remaining:  5s[0K[33G[?25h[?25l   |======================================>-|  97% Elapsed:  2m Remaining:  4s[0K[?25h[?25l   |======================================>-|  98% Elapsed:  2m Remaining:  3s[0K[56G[?25h[?25l   |======================================>-|  99% Elapsed:  2m Remaining:  2s[0K[48G[?25h[?25l   |=======================================>|  99% Elapsed:  2m Remaining:  1s[0K[34G[?25h[?25l   |========================================| 100% Elapsed:  2m Remaining:  0s[0K
+[2018-12-[0K[7G[?25h[?25l[2018-12-16 01:15:46] INFO: Downloading GitHub shields...[0K
+[0K[?25h   |----------------------------------------|   1% Elapsed:  3s Remaining:  6m[0K[47G[?25l   |>---------------------------------------|   1% Elapsed:  7s Remaining:  7m[0K[?25h[?25l   |>---------------------------------------|   2% Elapsed: 10s Remaining:  8m[0K[?25h[?25l   |>---------------------------------------|   3% Elapsed: 14s Remaining:  9m[0K[?25h[?25l   |>---------------------------------------|   3% Elapsed: 18s Remaining: 10m[0K[?25h[9G[?25l   |>---------------------------------------|   4% Elapsed: 23s Remaining: 10m[0K[?25h[?25l   |=>--------------------------------------|   4% Elapsed: 28s Remaining: 11m[0K[?25h[?25l   |=>--------------------------------------|   5% Elapsed: 32s Remaining: 11m[0K[?25h[?25l   |=>--------------------------------------|   5% Elapsed: 37s Remaining: 11m[0K[?25h[?25l   |=>--------------------------------------|   6% Elapsed: 41s Remaining: 11m[0K[74G[?25h[?25l   |=>--------------------------------------|   6% Elapsed: 41s Remaining: 12m[0K[?25h[?25l   |=>--------------------------------------|   6% Elapsed: 46s Remaining: 12m[0K[69G[?25h[79G[?25l   |==>-------------------------------------|   6% Elapsed: 46s Remaining: 12m[0K[?25h[?25l   |==>-------------------------------------|   7% Elapsed: 50s Remaining: 11m[0K[?25h[?25l   |==>-------------------------------------|   7% Elapsed:  1m Remaining: 11m[0K[?25h[?25l   |==>-------------------------------------|   8% Elapsed:  1m Remaining: 11m[0K[?25h[?25l   |===>------------------------------------|   9% Elapsed:  1m Remaining: 11m[0K[?25h[?25l   |===>------------------------------------|  10% Elapsed:  1m Remaining: 12m[0K[?25h[?25l   |===>------------------------------------|  11% Elapsed:  1m Remaining: 12m[0K[?25h[?25l   |===>------------------------------------|  11% Elapsed:  2m Remaining: 12m[0K[?25h[?25l   |====>-----------------------------------|  12% Elapsed:  2m Remaining: 12m[0K[?25h[27G[?25l   |====>-----------------------------------|  13% Elapsed:  2m Remaining: 12m[0K[?25h[?25l   |====>-----------------------------------|  14% Elapsed:  2m Remaining: 12m[0K[?25h[?25l   |=====>----------------------------------|  14% Elapsed:  2m Remaining: 12m[0K[57G[?25h[79G[?25l   |=====>----------------------------------|  15% Elapsed:  2m Remaining: 12m[0K[?25h[15G[?25l   |=====>----------------------------------|  16% Elapsed:  2m Remaining: 11m[0K[?25h[?25l   |=====>----------------------------------|  16% Elapsed:  2m Remaining: 12m[0K[?25h[?25l   |======>---------------------------------|  16% Elapsed:  2m Remaining: 12m[0K[13G[?25h[?25l   |======>---------------------------------|  17% Elapsed:  2m Remaining: 11m[0K[?25h[?25l   |======>---------------------------------|  18% Elapsed:  2m Remaining: 11m[0K[?25h[?25l   |======>---------------------------------|  18% Elapsed:  3m Remaining: 11m[0K[?25h[?25l   |=======>--------------------------------|  19% Elapsed:  3m Remaining: 11m[0K[?25h[?25l   |=======>--------------------------------|  20% Elapsed:  3m Remaining: 11m[0K[?25h[?25l   |=======>--------------------------------|  21% Elapsed:  3m Remaining: 11m[0K[?25h[?25l   |========>-------------------------------|  21% Elapsed:  3m Remaining: 11m[0K[?25h[?25l   |========>-------------------------------|  22% Elapsed:  3m Remaining: 11m[0K[?25h[?25l   |========>-------------------------------|  23% Elapsed:  3m Remaining: 10m[0K[?25h[?25l   |========>-------------------------------|  24% Elapsed:  3m Remaining: 10m[0K[?25h[?25l   |=========>------------------------------|  24% Elapsed:  3m Remaining: 10m[0K[?25h[?25l   |=========>------------------------------|  25% Elapsed:  3m Remaining: 10m[0K[61G[?25h[79G[?25l   |=========>------------------------------|  26% Elapsed:  3m Remaining: 10m[0K[?25h[?25l   |==========>-----------------------------|  27% Elapsed:  4m Remaining: 10m[0K[77G[?25h[79G[?25l   |==========>-----------------------------|  28% Elapsed:  4m Remaining: 10m[0K[?25h[?25l   |===========>----------------------------|  29% Elapsed:  4m Remaining:  9m[0K[?25h[?25l   |===========>----------------------------|  30% Elapsed:  4m Remaining:  9m[0K[?25h[?25l   |===========>----------------------------|  31% Elapsed:  4m Remaining:  9m[0K[46G[?25h[79G[?25l   |============>---------------------------|  31% Elapsed:  4m Remaining:  9m[0K[?25h[?25l   |============>---------------------------|  32% Elapsed:  4m Remaining:  9m[0K[?25h[?25l   |============>---------------------------|  33% Elapsed:  4m Remaining:  9m[0K[?25h[?25l   |============>---------------------------|  34% Elapsed:  4m Remaining:  9m[0K[46G[?25h[?25l   |============>---------------------------|  34% Elapsed:  5m Remaining:  9m[0K[?25h[?25l   |=============>--------------------------|  34% Elapsed:  5m Remaining:  9m[0K[?25h[?25l   |=============>--------------------------|  35% Elapsed:  5m Remaining:  9m[0K[?25h[?25l   |=============>--------------------------|  36% Elapsed:  5m Remaining:  9m[0K[67G[?25h[?25l   |==============>-------------------------|  37% Elapsed:  5m Remaining:  8m[0K[?25h[?25l   |==============>-------------------------|  38% Elapsed:  5m Remaining:  8m[0K[?25h[?25l   |==============>-------------------------|  39% Elapsed:  5m Remaining:  8m[0K[?25h[?25l   |===============>------------------------|  39% Elapsed:  5m Remaining:  8m[0K[?25h[?25l   |===============>------------------------|  40% Elapsed:  5m Remaining:  8m[0K[?25h[?25l   |===============>------------------------|  41% Elapsed:  5m Remaining:  8m[0K[?25h[?25l   |================>-----------------------|  41% Elapsed:  5m Remaining:  8m[0K[?25h[?25l   |================>-----------------------|  42% Elapsed:  5m Remaining:  8m[0K[?25h[?25l   |================>-----------------------|  42% Elapsed:  6m Remaining:  8m[0K[?25h[?25l   |================>-----------------------|  43% Elapsed:  6m Remaining:  8m[0K[?25h[8G[?25l   |================>-----------------------|  44% Elapsed:  6m Remaining:  8m[0K[?25h[?25l   |=================>----------------------|  44% Elapsed:  6m Remaining:  8m[0K[?25h[?25l   |=================>----------------------|  45% Elapsed:  6m Remaining:  7m[0K[?25h[?25l   |=================>----------------------|  46% Elapsed:  6m Remaining:  7m[0K[?25h[?25l   |==================>---------------------|  46% Elapsed:  6m Remaining:  7m[0K[51G[?25h[79G[?25l   |==================>---------------------|  47% Elapsed:  6m Remaining:  7m[0K[45G[?25h[79G[?25l   |==================>---------------------|  48% Elapsed:  6m Remaining:  7m[0K[?25h[12G[?25l   |==================>---------------------|  49% Elapsed:  6m Remaining:  7m[0K[?25h[?25l   |===================>--------------------|  49% Elapsed:  6m Remaining:  7m[0K[75G[?25h[79G[?25l   |===================>--------------------|  49% Elapsed:  7m Remaining:  7m[0K[?25h[?25l   |===================>--------------------|  50% Elapsed:  7m Remaining:  7m[0K[?25h[7G[?25l   |===================>--------------------|  51% Elapsed:  7m Remaining:  7m[0K[?25h[41G[?25l   |===================>--------------------|  51% Elapsed:  7m Remaining:  6m[0K[?25h[?25l   |====================>-------------------|  51% Elapsed:  7m Remaining:  6m[0K[?25h[?25l   |====================>-------------------|  52% Elapsed:  7m Remaining:  6m[0K[?25h[?25l   |====================>-------------------|  53% Elapsed:  7m Remaining:  6m[0K[?25h[?25l   |====================>-------------------|  54% Elapsed:  7m Remaining:  6m[0K[?25h[13G[?25l   |=====================>------------------|  54% Elapsed:  7m Remaining:  6m[0K[?25h[?25l   |=====================>------------------|  55% Elapsed:  7m Remaining:  6m[0K[?25h[?25l   |=====================>------------------|  56% Elapsed:  7m Remaining:  6m[0K[?25h[?25l   |======================>-----------------|  56% Elapsed:  7m Remaining:  6m[0K[?25h[?25l   |======================>-----------------|  57% Elapsed:  8m Remaining:  6m[0K[?25h[?25l   |======================>-----------------|  58% Elapsed:  8m Remaining:  6m[0K[?25h[5G[?25l   |======================>-----------------|  59% Elapsed:  8m Remaining:  6m[0K[?25h[?25l   |=======================>----------------|  59% Elapsed:  8m Remaining:  6m[0K[?25h[?25l   |=======================>----------------|  59% Elapsed:  8m Remaining:  5m[0K[?25h[?25l   |=======================>----------------|  60% Elapsed:  8m Remaining:  5m[0K[?25h[?25l   |=======================>----------------|  61% Elapsed:  8m Remaining:  5m[0K[?25h[?25l   |========================>---------------|  61% Elapsed:  8m Remaining:  5m[0K[?25h[?25l   |========================>---------------|  62% Elapsed:  8m Remaining:  5m[0K[?25h[8G[?25l   |========================>---------------|  63% Elapsed:  8m Remaining:  5m[0K[?25h[12G[?25l   |========================>---------------|  63% Elapsed:  9m Remaining:  5m[0K[?25h[?25l   |=========================>--------------|  64% Elapsed:  9m Remaining:  5m[0K[78G[?25h[79G[?25l   |=========================>--------------|  65% Elapsed:  9m Remaining:  5m[0K[?25h[?25l   |=========================>--------------|  66% Elapsed:  9m Remaining:  5m[0K[13G[?25h[?25l   |==========================>-------------|  66% Elapsed:  9m Remaining:  4m[0K[?25h[?25l   |==========================>-------------|  67% Elapsed:  9m Remaining:  4m[0K[?25h[?25l   |==========================>-------------|  68% Elapsed:  9m Remaining:  4m[0K[?25h[?25l   |==========================>-------------|  69% Elapsed:  9m Remaining:  4m[0K[?25h[?25l   |===========================>------------|  69% Elapsed:  9m Remaining:  4m[0K[?25h[?25l   |===========================>------------|  70% Elapsed: 10m Remaining:  4m[0K[?25h[?25l   |===========================>------------|  71% Elapsed: 10m Remaining:  4m[0K[?25h[?25l   |============================>-----------|  71% Elapsed: 10m Remaining:  4m[0K[41G[?25h[?25l   |============================>-----------|  72% Elapsed: 10m Remaining:  4m[0K[?25h[38G[?25l   |============================>-----------|  73% Elapsed: 10m Remaining:  4m[0K[?25h[?25l   |=============================>----------|  74% Elapsed: 10m Remaining:  4m[0K[?25h[?25l   |=============================>----------|  75% Elapsed: 10m Remaining:  3m[0K[?25h[?25l   |=============================>----------|  76% Elapsed: 10m Remaining:  3m[0K[?25h[?25l   |==============================>---------|  76% Elapsed: 10m Remaining:  3m[0K[?25h[1G   |==============================>---------|  77% Elapsed: 10m Remaining:  3m[0K[?25l   |==============================>---------|  77% Elapsed: 11m Remaining:  3m[0K[34G[?25h[?25l   |==============================>---------|  78% Elapsed: 11m Remaining:  3m[0K[?25h[?25l   |==============================>---------|  79% Elapsed: 11m Remaining:  3m[0K[?25h[?25l   |===============================>--------|  79% Elapsed: 11m Remaining:  3m[0K[?25h[?25l   |===============================>--------|  80% Elapsed: 11m Remaining:  3m[0K[?25h[?25l   |===============================>--------|  81% Elapsed: 11m Remaining:  3m[0K[?25h[?25l   |================================>-------|  82% Elapsed: 11m Remaining:  3m[0K[58G[?25h[79G[4G[?25l   |================================>-------|  82% Elapsed: 11m Remaining:  2m[0K[?25h[?25l   |================================>-------|  83% Elapsed: 11m Remaining:  2m[0K[?25h[?25l   |=================================>------|  84% Elapsed: 11m Remaining:  2m[0K[73G[?25h[79G[?25l   |=================================>------|  85% Elapsed: 12m Remaining:  2m[0K[?25h[?25l   |=================================>------|  86% Elapsed: 12m Remaining:  2m[0K[?25h[?25l   |==================================>-----|  86% Elapsed: 12m Remaining:  2m[0K[?25h[?25l   |==================================>-----|  87% Elapsed: 12m Remaining:  2m[0K[?25h[?25l   |==================================>-----|  88% Elapsed: 12m Remaining:  2m[0K[?25h[?25l   |==================================>-----|  89% Elapsed: 12m Remaining:  2m[0K[?25h[?25l   |===================================>----|  89% Elapsed: 12m Remaining:  2m[0K[?25h[4G[?25l   |===================================>----|  89% Elapsed: 12m Remaining:  1m[0K[?25h[?25l   |===================================>----|  90% Elapsed: 12m Remaining:  1m[0K[?25h[4G[?25l   |===================================>----|  91% Elapsed: 12m Remaining:  1m[0K[?25h[?25l   |====================================>---|  92% Elapsed: 12m Remaining:  1m[0K[?25h[?25l   |====================================>---|  93% Elapsed: 12m Remaining:  1m[0K[?25h[4G[?25l   |====================================>---|  93% Elapsed: 13m Remaining:  1m[0K[?25h[8G[?25l   |====================================>---|  94% Elapsed: 13m Remaining:  1m[0K[?25h[?25l   |=====================================>--|  94% Elapsed: 13m Remaining: 48s[0K[?25h[?25l   |=====================================>--|  94% Elapsed: 13m Remaining: 45s[0K[?25h[?25l   |=====================================>--|  95% Elapsed: 13m Remaining: 42s[0K[?25h[?25l   |=====================================>--|  95% Elapsed: 13m Remaining: 39s[0K[?25h[?25l   |=====================================>--|  96% Elapsed: 13m Remaining: 36s[0K[15G[?25h[?25l   |=====================================>--|  96% Elapsed: 13m Remaining: 33s[0K[?25h[?25l   |======================================>-|  96% Elapsed: 13m Remaining: 33s[0K[47G[?25h[?25l   |======================================>-|  96% Elapsed: 13m Remaining: 30s[0K[?25h[?25l   |======================================>-|  97% Elapsed: 13m Remaining: 27s[0K[?25h[?25l   |======================================>-|  97% Elapsed: 13m Remaining: 24s[0K[?25h[?25l   |======================================>-|  97% Elapsed: 13m Remaining: 21s[0K[?25h[?25l   |======================================>-|  98% Elapsed: 13m Remaining: 18s[0K[?25h[?25l   |======================================>-|  98% Elapsed: 13m Remaining: 15s[0K[?25h[?25l   |======================================>-|  99% Elapsed: 14m Remaining: 12s[0K[78G[?25h[?25l   |=======================================>| 100% Elapsed: 14m Remaining:  3s[0K[?25h[?25l   |========================================| 100% Elapsed: 14m Remaining:  0s[0K
+[0K[?25h[2018-12-16 01:29:24] INFO: ***** Converting to JSON *****[0K[?25l
+[0K[?25h[2018-12-16 01:29:24] INFO: Converting table...[0K[?25l
+[0K[?25h[2018-12-16 01:29:24] INFO: Converting tools table...[0K[?25l
+[0K[?25h[2018-12-16 01:29:25] INFO: Writing 'tools-table.json'...[0K[?25l
+[0K[?25h[2018-12-16 01:29:37] INFO: Converting tools...[0K[?25l
+[0K[?25h[2018-12-16 01:29:37] INFO: Writing 'tools.json'...[0K[?25l
+[0K[?25h[2018-12-16 01:29:43] INFO: Converting categories...[0K[?25l
+[0K[?25h[2018-12-16 01:29:44] INFO: Writing 'categories.json'...[0K[?25l
+[0K[?25h[2018-12-16 01:29:46] INFO: Converting technologies...[0K[?25l
+[0K[?25h[2018-12-16 01:29:46] INFO: Writing 'technologies.json'...[0K[?25l
+[0K[?25h[2018-12-16 01:29:48] INFO: ***** Performing analysis *****[0K[?25l
+[0K[?25h[?25l[2018-12-16 01:2[0K[15G[?25h[?25l[2018-12-16 01:29:48] INFO: Plotting published tools across years...[0K
+[0K[?25h[2018-12-16 01:33:23] INFO: Plotting publication status...[0K[?25l
+[0K[?25h[2018-12-16 01:35:14] INFO: Plotting platforms...[0K[?25l
+[0K[?25h[2018-12-16 01:37:10] INFO: Plotting technologies...[0K[?25l
+[0K[?25h[?25l[2018-12-16 01:38:57] INFO: Plotting categories...[0K[48G[?25h[?25l
+[0K[?25h[2018-12-16 01:40:43] INFO: ****** All processing complete *****[0K[?25l
+[0K[?25h[?25l[2018-12-16 01:40:[0K[16G[?25h[?25l[2018-12-16 01:40:43] INFO: **** PROCESSING FINISHED *****[0K
+[0K[?25h]0; [?25l
 Z:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>[0K[?25h
