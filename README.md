@@ -19,9 +19,8 @@ to add something please make a pull request or open an issue.
 
 ## Citation
 
-If you find the long-read-tools database useful for your work please cite our database (e.g. 
+**The manuscript is currently under development.** However, if you find the long-read-tools database useful for your work you could still cite our database(e.g. 
 Walter and Eliza Hall Institute of Medical Research. (2018). <i> long-read-tools </i> [database]. Retrieved from http://www.long-read-tools.org). 
-The manuscript is under development.   
 
 ## Structure
 
@@ -83,7 +82,7 @@ and improve this resource for the community are greatly appreciated!
 The following people have made significant contributions to the scRNA-tools
 database or website:
 
-* [@QGouil](https://github.com/QGouil) - Added new tools and updated existing entries 
+* [@QGouil](https://github.com/QGouil) - Adds new tools and updates existing entries 
 * [@mritchieau](https://github.com/mritchie) - Concept of the database and 
 suggests new tools
 * [@scottgigante](https://github.com/scottgigante) - Modified plotting code

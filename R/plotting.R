@@ -19,15 +19,15 @@ plot_publication <- function(swsheet) {
                                       }),
                   HasPub = purrr::flatten_lgl(HasPub)) %>%
     dplyr::mutate(HasNot = !HasPub) %>%
-    dplyr::summarise(NotPublished = sum(HasNot),
+    dplyr::summarise(UnPublished = sum(HasNot),
                      Published = sum(HasPub)
     ) %>%
     tidyr::gather(key = Type, value = Count) %>%
     dplyr::mutate(Type = factor(Type,
                                 levels = c("Published",
-                                           "NotPublished"),
+                                           "UnPublished"),
                                 labels = c("Published",
-                                           "Not Published"))) %>%
+                                           "UnPublished"))) %>%
     dplyr::arrange(Type) %>%
     dplyr::mutate(Cumulative = cumsum(Count),
                   Midpoint = Cumulative - (Count / 2),
