@@ -44,7 +44,7 @@ add_to_titles_cache <- function(swsheet, titles_cache) {
         } else {
           crossref <- rcrossref::cr_works(doi)
           title <- crossref$data$title
-          date <- crossref$data$issue
+          date <- crossref$data$issued
           date <- as.character(date)
         }
         
