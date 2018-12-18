@@ -7,20 +7,28 @@
 
 # plot published tools on the database by the year
 
-plot_number <- function() {
-  titles         <- read.csv("docs/data/titles.csv")
-  titles$PubDate <- gsub("\\-.*","", titles$PubDate)
-  datecount      <- titles %>%
-                      dplyr::group_by(PubDate) %>% 
-                      dplyr::summarise(Count = n()) %>%
-                      tidyr::drop_na() %>%
-                      dplyr::mutate(Total=cumsum(Count))
+plot_number <- function(swsheet) {
   
-  plot <- ggplot2::ggplot(datecount, ggplot2::aes(x = PubDate, y = Count)) +
-    ggplot2::geom_bar(stat = "identity", fill = "#51c7b4") +
+  `%>%` <- magrittr::`%>%`
+
+  swsheet$PubDates <- as.Date.character(as.character(swsheet$PubDates))
+  swsheet          <- swsheet[!is.na(swsheet$PubDates),]
+  
+  # all tools over time
+  datecount <- swsheet %>%
+    dplyr::select(Date = PubDates) %>%
+    dplyr::group_by(Date = as.Date(Date)) %>%
+    dplyr::summarise(Count = n()) %>%
+    tidyr::complete(Date = tidyr::full_seq(Date, 1),
+                    fill = list(Count = 0)) %>%
+    dplyr::mutate(Total = cumsum(Count))
+  
+  plot <- ggplot2::ggplot(datecount, ggplot2::aes(x = Date, y = Total)) +
+    ggplot2::geom_line(size = 2, colour = "#329a89") +
     ggplot2::xlab("Date") +
     ggplot2::ylab("Number of tools") +
-    ggplot2::ggtitle("Number of published tools across time") +
+    ggplot2::scale_x_date(breaks = scales::pretty_breaks(10)) +
+    ggplot2::ggtitle("Number of tools over time") +
     cowplot::theme_cowplot() +
     ggplot2::theme(plot.title   = ggplot2::element_text(size = 20),
                    axis.title.x = ggplot2::element_blank(),
@@ -29,17 +37,58 @@ plot_number <- function() {
                                                         vjust = 0.5)
     )
   
-  htmlwidgets::saveWidget(plotly::ggplotly(plot), 
-             file.path(getwd(), "docs/plots/number.html"),
-             selfcontained = FALSE, 
-             libdir = "libraries")
-  
   plot <- plotly::ggplotly(plot, dynamicTicks = TRUE) %>%
     plotly::layout(margin = list(l = 70, r = 40, b = 90, t = 50))
   
   htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
                           file.path(getwd(), "docs/plots/number.html"),
                           selfcontained = FALSE, libdir = "libraries")
+  
+  
+  # tools for different technologies over time
+  
+  technologies <- colnames(swsheet[7:12])
+  
+  for (technology in technologies){
+
+    technology2 <- technology
+    technology2 <- ifelse(technology2  == "tenxGenomics", "10X Genomics", technology2)
+    technology2 <- ifelse(technology2 == "OxfordNanopore", "Oxford Nanopore", technology2)
+    technology2 <- ifelse(technology2 == "BionanoGenomics", "Bio-Nano Genomics", technology2)
+    technology2 <- ifelse(technology2 == "HiC", "Hi-C", technology2)
+
+    datecount_tech <- swsheet %>%
+      dplyr::select(Date = PubDates,
+                    technology = technology) %>%
+      dplyr::filter(technology == TRUE) %>%
+      dplyr::group_by(Date = as.Date(Date)) %>%
+      dplyr::summarise(Count = n()) %>%
+      tidyr::complete(Date = tidyr::full_seq(Date, 1),
+                      fill = list(Count = 0)) %>%
+      dplyr::mutate(Total = cumsum(Count))
+
+    plot <- ggplot2::ggplot(datecount_tech, ggplot2::aes(x = Date, y = Total)) +
+      ggplot2::geom_line(size = 2, colour = "#54b9a1") +
+      ggplot2::xlab("Date") +
+      ggplot2::ylab("Number of tools") +
+      ggplot2::ggtitle(paste(technology2," focused", sep ="")) +
+      ggplot2::scale_x_date(breaks = scales::pretty_breaks(10)) +
+      cowplot::theme_cowplot() +
+      ggplot2::theme(plot.title   = ggplot2::element_text(size = 12),
+                     axis.title.x = ggplot2::element_blank(),
+                     axis.text    = ggplot2::element_text(size = 12),
+                     axis.text.x  = ggplot2::element_text(angle = 60,
+                                                          vjust = 0.5)
+      )
+
+    plot <- plotly::ggplotly(plot, dynamicTicks = TRUE) %>%
+      plotly::layout(margin = list(l = 70, r = 40, b = 90, t = 50))
+
+    htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
+                            file.path(getwd(), paste("docs/plots/number_", technology,".html", sep="")),
+                            selfcontained = FALSE, libdir = "libraries")
+
+  }
 }
 
 # plot publication status
@@ -214,6 +263,7 @@ plot_categories <- function(swsheet) {
   
   `%>%` <- magrittr::`%>%`
   
+  # all categories
   catcounts <- swsheet %>%
     dplyr::summarise_at(13:38, sum) %>%
     tidyr::gather(key = Category, value = Count) %>%
@@ -228,7 +278,7 @@ plot_categories <- function(swsheet) {
                           ggplot2::aes(x = Category, weight = Prop,
                                        text = paste("Count:", Count, "\n",
                                                     "Percent:", Percent))) +
-    ggplot2::geom_bar(fill = "#9FC751") +
+    ggplot2::geom_bar(fill = "#597325") +
     ggplot2::scale_y_continuous(labels = scales::percent) +
     ggplot2::ylab("Percentage of tools") +
     ggplot2::ggtitle("Categories") +
@@ -250,4 +300,56 @@ plot_categories <- function(swsheet) {
   htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
                           file.path(getwd(), "docs/plots/categories.html"),
                           selfcontained = FALSE, libdir = "libraries")
+  
+  # categories in each technology
+  
+  technologies <- colnames(swsheet[7:12])
+  
+  for (technology in technologies){
+    
+    technology2 <- technology
+    technology2 <- ifelse(technology2  == "tenxGenomics", "10X Genomics", technology2)
+    technology2 <- ifelse(technology2 == "OxfordNanopore", "Oxford Nanopore", technology2)
+    technology2 <- ifelse(technology2 == "BionanoGenomics", "Bio-Nano Genomics", technology2)
+    technology2 <- ifelse(technology2 == "HiC", "Hi-C", technology2)
+    
+    swsheet2 <- swsheet[swsheet[technology] == TRUE,]
+    catcounts_tech <- swsheet2 %>% 
+      dplyr::summarise_at(13:38, sum) %>%
+      tidyr::gather(key = Category, value = Count) %>%
+      dplyr::arrange(-Count, Category) %>%
+      dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
+      dplyr::mutate(Category = ifelse(Category == "SNPAndVariantAnalysis", "SNP And Variant Analysis", gsub("([a-z])([A-Z])", "\\1 \\2", Category)))%>%
+      dplyr::mutate(Category = stringr::str_trim(Category)) %>%
+      dplyr::mutate(Category = factor(Category, levels = Category)) %>%
+      dplyr::mutate(Percent = round(Prop * 100, 1))
+    
+    plot <- ggplot2::ggplot(catcounts_tech,
+                            ggplot2::aes(x = Category, weight = Prop,
+                                         text = paste("Count:", Count, "\n",
+                                                      "Percent:", Percent))) +
+      ggplot2::geom_bar(fill = "#9FC751") +
+      ggplot2::scale_y_continuous(labels = scales::percent) +
+      ggplot2::ylab("Percentage of tools") +
+      ggplot2::ggtitle(paste(technology2," focused", sep ="")) +
+      cowplot::theme_cowplot() +
+      ggplot2::theme(axis.title.x = ggplot2::element_blank(),
+                     legend.position = "none",
+                     legend.title    = ggplot2::element_text(size = 12),
+                     legend.text     = ggplot2::element_text(size = 10),
+                     legend.key.size = ggplot2::unit(25, "points"),
+                     plot.title      = ggplot2::element_text(size = 12),
+                     axis.text       = ggplot2::element_text(size = 9),
+                     axis.text.x     = ggplot2::element_text(angle = 60, hjust = 1,
+                                                             vjust = 0.5)
+      )
+    
+    plot <- plotly::ggplotly(plot, dynamicTicks = TRUE) %>%
+      plotly::layout(margin = list(l = 70, r = 40, b = 90, t = 50))
+    
+    htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
+                            file.path(getwd(), paste("docs/plots/categories_", technology,".html", sep="")),
+                            selfcontained = FALSE, libdir = "libraries")
+    
+  }
 }

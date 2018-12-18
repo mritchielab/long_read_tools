@@ -47,6 +47,9 @@ process_csv <- function(skip_shields = FALSE, skip_cites = FALSE,
     flog.info("***** Loading data ******")
     # Load data
     swsheet <- get_swsheet()
+    
+    #flog.info("Plotting published tools over time...")
+    #plot_number(swsheet)
     if (!skip_packages) {
         pkgs <- get_pkgs()
     } else {
@@ -106,8 +109,8 @@ process_csv <- function(skip_shields = FALSE, skip_cites = FALSE,
     flog.info("***** Performing analysis *****")
     if (!skip_analysis) {
         # Make plots
-        flog.info("Plotting published tools across years...")
-        plot_number()
+        flog.info("Plotting published tools over time...")
+        plot_number(swsheet)
         flog.info("Plotting publication status...")
         plot_publication(swsheet)
         flog.info("Plotting platforms...")

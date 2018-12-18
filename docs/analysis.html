@@ -93,6 +93,24 @@
                 <div class="plot col-xs-12">
                     <div id="number"></div>
                 </div>
+                <div class="plot col-xs-12 col-md-4">
+                    <div id="nanopore"></div>
+                </div>
+                <div class="plot col-xs-12 col-md-4">
+                    <div id="pacbio"></div>
+                </div>
+                <div class="plot col-xs-12 col-md-4">
+                    <div id="tenx"></div>
+                </div>
+                <div class="plot col-xs-12 col-md-4">
+                    <div id="illumina"></div>
+                </div>
+                <div class="plot col-xs-12 col-md-4">
+                    <div id="bionano"></div>
+                </div>
+                <div class="plot col-xs-12 col-md-4">
+                    <div id="hic"></div>
+                </div>
                 <div class="plot col-xs-12 col-md-6">
                     <div id="publication"></div>
                 </div>
@@ -105,14 +123,44 @@
                 <div class="plot col-xs-12">
                     <div id="categories"></div>
                 </div>
+                <div class="plot col-xs-12 col-md-6">
+                    <div id="nanopore_cat"></div>
+                </div>
+                <div class="plot col-xs-12 col-md-6">
+                    <div id="pacbio_cat"></div>
+                </div>
+                <div class="plot col-xs-12 col-md-6">
+                    <div id="tenx_cat"></div>
+                </div>
+                <div class="plot col-xs-12 col-md-6">
+                    <div id="illumina_cat"></div>
+                </div>
+                <div class="plot col-xs-12 col-md-6">
+                    <div id="bionano_cat"></div>
+                </div>
+                <div class="plot col-xs-12 col-md-6">
+                    <div id="hic_cat"></div>
+                </div>
             </div>
 
             <script>
             var p1 = new pym.Parent('number', 'plots/number.html', {})
-            var p2 = new pym.Parent('publication', 'plots/publication.html', {})
-            var p3 = new pym.Parent('platforms', 'plots/platforms.html', {})
-            var p4 = new pym.Parent('technology', 'plots/technologies.html', {})
-            var p5 = new pym.Parent('categories', 'plots/categories.html', {})
+            var p2 = new pym.Parent('nanopore', 'plots/number_OxfordNanopore.html', {})
+            var p3 = new pym.Parent('pacbio', 'plots/number_PacBio.html', {})
+            var p4 = new pym.Parent('tenx', 'plots/number_tenxGenomics.html', {})
+            var p5 = new pym.Parent('illumina', 'plots/number_Illumina.html', {})
+            var p6 = new pym.Parent('bionano', 'plots/number_BionanoGenomics.html', {})
+            var p7 = new pym.Parent('hic', 'plots/number_HiC.html', {})
+            var p8 = new pym.Parent('publication', 'plots/publication.html', {})
+            var p9 = new pym.Parent('platforms', 'plots/platforms.html', {})
+            var p10 = new pym.Parent('technology', 'plots/technologies.html', {})
+            var p11 = new pym.Parent('categories', 'plots/categories.html', {})
+            var p12 = new pym.Parent('nanopore_cat', 'plots/categories_OxfordNanopore.html', {})
+            var p13 = new pym.Parent('pacbio_cat', 'plots/categories_PacBio.html', {})
+            var p14 = new pym.Parent('tenx_cat', 'plots/categories_tenxGenomics.html', {})
+            var p15 = new pym.Parent('illumina_cat', 'plots/categories_Illumina.html', {})
+            var p16 = new pym.Parent('bionano_cat', 'plots/categories_BionanoGenomics.html', {})
+            var p17 = new pym.Parent('hic_cat', 'plots/categories_HiC.html', {})
             </script>
 
         </div>
