@@ -76,12 +76,13 @@ categories are assigned based on whether the tool:
 
 ## Contributors
 
-Thank you to everyone who has contributed to scRNA-tools! Your efforts to build
+Thank you to everyone who has contributed to long-read-tools! Your efforts to build
 and improve this resource for the community are greatly appreciated!
 
-The following people have made significant contributions to the scRNA-tools
+The following people have made significant contributions to the long-read-tools
 database or website:
 
+* [@_lazappi_](https://github.com/lazappi) - scRNA-tools source (https://github.com/Oshlack/scRNA-tools) that was re-used for this repository
 * [@QGouil](https://github.com/QGouil) - Adds new tools and updates existing entries 
 * [@mritchieau](https://github.com/mritchie) - Concept of the database and 
 suggests new tools
