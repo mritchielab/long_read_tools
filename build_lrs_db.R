@@ -48,8 +48,6 @@ process_csv <- function(skip_shields = FALSE, skip_cites = FALSE,
     # Load data
     swsheet <- get_swsheet()
     
-    #flog.info("Plotting published tools over time...")
-    #plot_number(swsheet)
     if (!skip_packages) {
         pkgs <- get_pkgs()
     } else {
