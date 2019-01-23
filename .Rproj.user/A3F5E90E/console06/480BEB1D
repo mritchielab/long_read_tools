@@ -1,1019 +1,81 @@
-[0mMicrosoft Windows [Version 10.0.17134.523][0K[?25l
+[0m[0KMicrosoft Windows [Version 10.0.17134.523][0K[?25l
 (c) 2018 Microsoft Corporation. All rights reserved.[0K
 [0K
-Z:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>[0K[?25hp[0Ky[0Kt[0Kh[0Ko[0Kn[0K[71G[?25lZ:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>python d[0K[?25ho[0Kc[0Ks[0K/[0Kt[0Ke[0K[?25lZ:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>python docs/t[0K[?25h[?25lZ:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>python docs/[0K[?25h[?25lZ:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>python docs[0K[?25h\[0Kt[0Ke[0Ks[0Kt_server.py[0K]0;  - python  docs\test_server.py[?25l
-[0K[?25h * Serving Flask app "test_server" (lazy loading)[0K[?25l
- * Environment: production[0K
-   WARNING: Do not use the development server in a production environment.[0K
-   Use a production WSGI server instead.[0K
- * Debug mode: on[0K
-[0K[?25h * Restarting with stat[0K[?25l
-[0K[?25h * Debugger is active![0K[?25l
- * Debugger PIN: 264-273-944[0K
-[0K[?25h * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:56:49] "GET / HTTP/1.1" 404 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:56:49] "GET /favicon.ico HTTP/1.1" 404 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:56:54] "GET /index.html HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:56:54] "GET /css/layout.css HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:56:54] "GET /css/index.css HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:56:54] "GET /img/banner.svg HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:56:54] "GET /footer_content.html HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:56:54] "GET /data/tools-table.json?order=asc&offset=0&limit=10 HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:56:55] "GET /img/favicon/manifest.json HTTP/1.1" 404 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /tools.html HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /css/tools.css HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /js/jquery-tools.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /footer_content.html?_=1548208623170 HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /data/tools.json?_=1548208623169 HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/favicon/manifest.json HTTP/1.1" 404 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/bioreps_ABruijn_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/bioreps_ABruijn_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/nanoporetech_albacore_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/bioreps_ABruijn_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/nanoporetech_albacore_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/nanoporetech_albacore_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/AlignQC_version.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/AlignQC_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/jasonweirather_AlignQC_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/AlignQC_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/jasonweirather_AlignQC_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/jasonweirather_AlignQC_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/kuleshov_architect_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/kuleshov_architect_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/kuleshov_architect_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/bcgsc_arcs_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/bcgsc_arcs_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/bcgsc_arcs_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/PacificBiosciences_GenomicConsensus_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/PacificBiosciences_GenomicConsensus_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/UCSCNanopore_Data_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/UCSCNanopore_Data_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/PacificBiosciences_GenomicConsensus_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/UCSCNanopore_Data_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/rrwick_Basecallingcomparison_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/rrwick_Basecallingcomparison_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/rrwick_Basecallingcomparison_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/bnbowman_BaseModsTools_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/bnbowman_BaseModsTools_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/bnbowman_BaseModsTools_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/alexiswl_betaduck_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/alexiswl_betaduck_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/alexiswl_betaduck_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/Nucleomics-VIB_bionano-tools_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/Nucleomics-VIB_bionano-tools_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/Nucleomics-VIB_bionano-tools_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/PacificBiosciences_blasr_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/PacificBiosciences_blasr_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/methplotlib_version.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/methplotlib_python.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/al-mcintyre_mCaller_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/medaka_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/methplotlib_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/al-mcintyre_mCaller_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/medaka_python.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/al-mcintyre_mCaller_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/medaka_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/PacificBiosciences_blasr_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/ekfchan_BNG-FragileSiteRepair_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/ekfchan_BNG-FragileSiteRepair_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/ekfchan_BNG-FragileSiteRepair_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/LooseLab_bulkVis_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/LooseLab_bulkVis_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/LooseLab_bulkVis_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/rvolden_C3POa_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/rvolden_C3POa_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/rvolden_C3POa_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/marbl_canu_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/marbl_canu_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/marbl_canu_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/amojarro_carrierseq_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/amojarro_carrierseq_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/infphilo_centrifuge_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/amojarro_carrierseq_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/infphilo_centrifuge_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/infphilo_centrifuge_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/chiron_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/chiron_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/chiron_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/haotianteng_Chiron_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/haotianteng_Chiron_commit.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/circlator_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/haotianteng_Chiron_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/circlator_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/sangerpathogens_circlator_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/circlator_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/sangerpathogens_circlator_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/sangerpathogens_circlator_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/cogent_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/cogent_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/PyPI/cogent_status.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/Magdoll_Cogent_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/Magdoll_Cogent_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:03] "GET /img/shields/GitHub/Magdoll_Cogent_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/realbigws_cwDTW_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/realbigws_cwDTW_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/realbigws_cwDTW_commit.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/gt1_daccord_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/gt1_daccord_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/gt1_daccord_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/thegenemyers_DALIGNER_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/thegenemyers_DALIGNER_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/thegenemyers_DALIGNER_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/davidcoffey_MinION_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/davidcoffey_MinION_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/davidcoffey_MinION_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/rrwick_Deepbinner_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/rrwick_Deepbinner_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/rrwick_Deepbinner_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/WGLab_DeepMod_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/jeammimi_deepnano_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/WGLab_DeepMod_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/WGLab_DeepMod_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/jeammimi_deepnano_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/jeammimi_deepnano_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/etheleon_deepore_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/etheleon_deepore_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/etheleon_deepore_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/deepsignal_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/deepsignal_python.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/deepsignal_status.svg HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/lykaust15_DeepSimulator_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/lykaust15_DeepSimulator_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/lykaust15_DeepSimulator_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/mohanbolisetty_dscam_nanopore_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/mohanbolisetty_dscam_nanopore_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/mohanbolisetty_dscam_nanopore_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/jts_nanopore-paper-analysis_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/jts_nanopore-paper-analysis_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/jts_nanopore-paper-analysis_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/enovoa_EpiNano_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/enovoa_EpiNano_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/enovoa_EpiNano_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/hasindu2008_f5c_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/hasindu2008_f5c_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/PacificBiosciences_FALCON_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/hasindu2008_f5c_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/PacificBiosciences_FALCON_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/PacificBiosciences_FALCON_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/phasegenomics_FALCON-Phase_stars.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/phasegenomics_FALCON-Phase_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/phasegenomics_FALCON-Phase_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/adigenova_fast-sg_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/adigenova_fast-sg_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/adigenova_fast-sg_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/rrwick_filtlong_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/rrwick_filtlong_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/rrwick_filtlong_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/BrooksLabUCSC_flair_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/BrooksLabUCSC_flair_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/BrooksLabUCSC_flair_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/nanoporetech_flappie_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/nanoporetech_flappie_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/nanoporetech_flappie_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/fenderglass_Flye_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/fenderglass_Flye_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/fenderglass_Flye_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/holtjma_fmlrc_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/holtjma_fmlrc_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ekg_freebayes_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/holtjma_fmlrc_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ekg_freebayes_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ekg_freebayes_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/isovic_graphmap_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/isovic_graphmap_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/isovic_graphmap_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/lanl001_halc_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/lanl001_halc_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/lanl001_halc_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/vibansal_HapCUT2_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/vibansal_HapCUT2_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/vibansal_HapCUT2_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/scottgigante_haplotyped-methylome_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/scottgigante_haplotyped-methylome_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/scottgigante_haplotyped-methylome_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/NDBL_HECIL_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/NDBL_HECIL_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/NDBL_HECIL_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ben-lerch_HGAP-3.0_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ben-lerch_HGAP-3.0_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/HingeAssembler_HINGE_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/HingeAssembler_HINGE_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ben-lerch_HGAP-3.0_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/HingeAssembler_HINGE_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/DiltheyLab_HLA-PRG-LA_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/DiltheyLab_HLA-PRG-LA_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/opencb_hpg-pore_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/DiltheyLab_HLA-PRG-LA_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/opencb_hpg-pore_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/opencb_hpg-pore_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/CSB5_INCSeq_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/CSB5_INCSeq_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/CSB5_INCSeq_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/BioC/IONiseR_years.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/grimbough_IONiseR_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/BioC/IONiseR_downloads.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/grimbough_IONiseR_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/grimbough_IONiseR_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/IsoCon_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/IsoCon_python.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ksahlin_IsoCon_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/IsoCon_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ksahlin_IsoCon_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ksahlin_IsoCon_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/isONclust_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/isONclust_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/isONclust_status.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ksahlin_isONclust_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ksahlin_isONclust_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/PacificBiosciences_IsoSeq3_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ksahlin_isONclust_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/PacificBiosciences_IsoSeq3_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/PacificBiosciences_IsoSeq3_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/mdcao_japsa_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/mdcao_japsa_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/krocus_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/krocus_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/mdcao_japsa_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/andrewjpage_krocus_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/krocus_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/andrewjpage_krocus_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/andrewjpage_krocus_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/mcfrith_last-genotype_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/mcfrith_last-genotype_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/mcfrith_last-genotype_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/mcfrith_last-rna_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/mcfrith_last-rna_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/mcfrith_last-rna_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/luplatina_levelfind_poreseq_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/luplatina_levelfind_poreseq_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/luplatina_levelfind_poreseq_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/PacificBiosciences_barcoding_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/PacificBiosciences_barcoding_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/PacificBiosciences_barcoding_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/bcgsc_LINKS_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/bcgsc_LINKS_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/bcgsc_LINKS_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ahcm_longread_plots_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ahcm_longread_plots_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/ahcm_longread_plots_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/vpc-ccg_lordfast_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/vpc-ccg_lordfast_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/vpc-ccg_lordfast_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/lfaino_LoReAn_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/lfaino_LoReAn_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/lfaino_LoReAn_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/gt1_loresim_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/gt1_loresim_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/gt1_loresim_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/gt1_loresim2_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/gt1_loresim2_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/gt1_loresim2_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/yjx1217_LRSDAY_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/yjx1217_LRSDAY_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/yjx1217_LRSDAY_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/aquaskyline_LRSIM_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/aquaskyline_LRSIM_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/aquaskyline_LRSIM_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/CRAN/LSC_version.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/CRAN/LSC_downloads.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/rvolden_MandalorionEpisodeII_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/rvolden_MandalorionEpisodeII_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/GitHub/rvolden_MandalorionEpisodeII_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:04] "GET /img/shields/PyPI/marginAlign_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/marginAlign_python.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/marginAlign_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/benedictpaten_marginAlign_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/benedictpaten_marginAlign_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/benedictpaten_marginAlign_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/benedictpaten_marginPhase_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/benedictpaten_marginPhase_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/benedictpaten_marginPhase_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/schloi_MARVEL_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/schloi_MARVEL_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/schloi_MARVEL_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/marbl_mash_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/marbl_mash_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/marbl_mash_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/marbl_MashMap_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/marbl_MashMap_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/marbl_MashMap_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/alekseyzimin_masurca_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/alekseyzimin_masurca_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/alekseyzimin_masurca_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/xiaochuanle_MECAT_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/xiaochuanle_MECAT_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/xiaochuanle_MECAT_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/nanoporetech_medaka_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/nanoporetech_medaka_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/nanoporetech_medaka_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/DiltheyLab_MetaMaps_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/DiltheyLab_MetaMaps_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/DiltheyLab_MetaMaps_commit.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/bioinform_metasv_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/bioinform_metasv_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/bioinform_metasv_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_methplotlib_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_methplotlib_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_methplotlib_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/marbl_MHAP_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/marbl_MHAP_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/ocxtal_minialign_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/marbl_MHAP_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/ocxtal_minialign_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/ocxtal_minialign_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/lh3_miniasm_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/lh3_miniasm_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/lh3_miniasm_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/thackl_minidot_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/thackl_minidot_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/thackl_minidot_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/lh3_minimap2_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/lh3_minimap2_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/lh3_minimap2_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/roblanf_minion_multiQC_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/roblanf_minion_multiQC_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/roblanf_minion_multiQC_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/roblanf_minion_qc_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/roblanf_minion_qc_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/roblanf_minion_qc_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/PacificBiosciences_minorseq_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/PacificBiosciences_minorseq_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/PacificBiosciences_minorseq_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/minoTour_minoTour_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/minoTour_minoTour_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/multiqc_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/minoTour_minoTour_commit.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/multiqc_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/multiqc_status.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/iqbal-lab-org_Mykrobe_tb_workflow_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/iqbal-lab-org_Mykrobe_tb_workflow_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/iqbal-lab-org_Mykrobe_tb_workflow_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanosnakemake_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanosnakemake_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanosnakemake_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/umerijaz_nanopore_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/umerijaz_nanopore_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/umerijaz_nanopore_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/ruhulsbu_NanoBLASTer_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/ruhulsbu_NanoBLASTer_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/ruhulsbu_NanoBLASTer_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/mateidavid_nanocall_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/mateidavid_nanocall_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/mateidavid_nanocall_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanoComp_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanoComp_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanoComp_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanocomp_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanocomp_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanocomp_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/jgurtowski_nanocorr_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/jgurtowski_nanocorr_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/jgurtowski_nanocorr_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/jts_nanocorrect_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/jts_nanocorrect_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/jts_nanocorrect_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/a-slide_NanoCount_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/a-slide_NanoCount_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/a-slide_NanoCount_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanoFilt_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanoFilt_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanoFilt_status.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanofilt_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanofilt_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanofilt_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/zhaoc1_nanoflow_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/zhaoc1_nanoflow_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/zhaoc1_nanoflow_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/nanoget_version.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/nanoget_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/nanoget_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanoget_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanoget_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanoget_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/skoren_NanoGrid_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/skoren_NanoGrid_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/skoren_NanoGrid_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanolyse_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanolyse_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/scottgigante_nanomod_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanolyse_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/scottgigante_nanomod_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/scottgigante_nanomod_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/WGLab_NanoMod_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/WGLab_NanoMod_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/WGLab_NanoMod_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/ProgramFiles_nanonet_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/ProgramFiles_nanonet_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/TGAC_NanoOK_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/ProgramFiles_nanonet_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/TGAC_NanoOK_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/nanopack_version.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/TGAC_NanoOK_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/nanopack_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/nanopack_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanopack_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanopack_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/IOBMuenster_nanopipe2_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanopack_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/IOBMuenster_nanopipe2_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanoPlot_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/IOBMuenster_nanopipe2_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanoPlot_python.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanoPlot_status.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_NanoPlot_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_NanoPlot_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_NanoPlot_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/nanoplotter_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/nanoplotter_python.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/nanoplotter_status.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanoplotter_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanoplotter_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanoplotter_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/jts_nanopolish_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/jts_nanopolish_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/jts_nanopolish_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanopolishComp_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanopolishComp_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanopolishComp_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/aslide_NanopolishComp_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/aslide_NanopolishComp_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/aslide_NanopolishComp_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/mitenjain_nanopore_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/mitenjain_nanopore_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/mitenjain_nanopore_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanoQC_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanoQC_python.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/PyPI/NanoQC_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:05] "GET /img/shields/GitHub/wdecoster_nanoQC_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/wdecoster_nanoQC_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/wdecoster_nanoQC_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/davidebolo1993_NanoR_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/davidebolo1993_NanoR_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/davidebolo1993_NanoR_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/nanoraw_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/nanoraw_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/nanoraw_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/marcus1487_nanoraw_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/marcus1487_nanoraw_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/marcus1487_nanoraw_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/arnederoeck_NanoSatellite_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/arnederoeck_NanoSatellite_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/arnederoeck_NanoSatellite_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/arnederoeck_NanoSatelliteR_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/arnederoeck_NanoSatelliteR_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/arnederoeck_NanoSatelliteR_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/bcgsc_NanoSim_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/bcgsc_NanoSim_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/NanoSplit_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/bcgsc_NanoSim_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/NanoSplit_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/NanoSplit_status.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/wdecoster_nanosplit_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/wdecoster_nanosplit_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/wdecoster_nanosplit_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/NanoStat_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/NanoStat_python.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/wdecoster_nanostat_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/NanoStat_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/wdecoster_nanostat_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/wdecoster_nanostat_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/NanoSV_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/NanoSV_version.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/NanoSV_status.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/mroosmalen_nanosv_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/mroosmalen_nanosv_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/mroosmalen_nanosv_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/VilainLab_nanotatoR_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/VilainLab_nanotatoR_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/VilainLab_nanotatoR_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/wdecoster_nanotest_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/wdecoster_nanotest_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/institutdegenomique_NaS_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/wdecoster_nanotest_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/institutdegenomique_NaS_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/institutdegenomique_NaS_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/philres_ngmlr_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/philres_ngmlr_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/philres_ngmlr_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/mdcao_npAnalysis_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/mdcao_npAnalysis_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/mdcao_npAnalysis_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/hsnguyen_assembly_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/hsnguyen_assembly_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/hsnguyen_assembly_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/haojingshao_npInv_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/haojingshao_npInv_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/haojingshao_npInv_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/mdcao_npScarf_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/mdcao_npScarf_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/mdcao_npScarf_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/karel-brinda_ococo_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/karel-brinda_ococo_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/karel-brinda_ococo_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/onecodex_onecodex_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/onecodex_onecodex_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/onecodex_onecodex_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/nanoporetech_ont-assembly-polish_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/nanoporetech_ont-assembly-polish_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/nanoporetech_ont-assembly-polish_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/pauvre_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/pauvre_python.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/pauvre_status.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/conchoecia_pauvre_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/conchoecia_pauvre_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/conchoecia_pauvre_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pb-assembly_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pb-assembly_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pb-assembly_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbalign_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbalign_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbalign_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbbioconda_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbbioconda_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbbioconda_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbdagcon_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbdagcon_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbdagcon_commit.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/ethanagbaker_pblibsim_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/ethanagbaker_pblibsim_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/ethanagbaker_pblibsim_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbmm2_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbmm2_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbmm2_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/pfaucon_PBSIM-PacBio-Simulator_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/pfaucon_PBSIM-PacBio-Simulator_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/pfaucon_PBSIM-PacBio-Simulator_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbsmrtpipe_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbsmrtpipe_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbsmrtpipe_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/verheytb_pbssc_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/verheytb_pbssc_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/verheytb_pbssc_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbsv_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbsv_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/PacificBiosciences_pbsv_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/ylipacbio_pbsv_polish_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/ylipacbio_pbsv_polish_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/ylipacbio_pbsv_polish_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/TheJacksonLaboratory_Picky_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/TheJacksonLaboratory_Picky_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/TheJacksonLaboratory_Picky_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/broadinstitute_pilon_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/broadinstitute_pilon_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/broadinstitute_pilon_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/nanoporetech_pinfish_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/nanoporetech_pinfish_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/nanoporetech_pipelinepinfishanalysis_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/nanoporetech_pinfish_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/nanoporetech_pipelinepinfishanalysis_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/nanoporetech_pipelinepinfishanalysis_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/nanoporetech_pipeline-transcriptome-de_stars.svg HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/nanoporetech_pipeline-transcriptome-de_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/pistis_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/nanoporetech_pipeline-transcriptome-de_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/pistis_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/pistis_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/mbhall88_pistis_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/mbhall88_pistis_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/mbhall88_pistis_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/gilfunk_plotnanopolish_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/gilfunk_plotnanopolish_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/gilfunk_plotnanopolish_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/paultsw_polya_analysis_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/paultsw_polya_analysis_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/paultsw_polya_analysis_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/rrwick_Porechop_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/rrwick_Porechop_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/rrwick_Porechop_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/alexiswl_poreduck_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/alexiswl_poreduck_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/EvdH0_poreFUME_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/alexiswl_poreduck_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/EvdH0_poreFUME_forks.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/EvdH0_poreFUME_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/akloster_porekit-python_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/akloster_porekit-python_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/camillaip_poremap_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/akloster_porekit-python_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/camillaip_poremap_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/camillaip_poremap_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/JohnUrban_poreminion_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/JohnUrban_poreminion_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/poreplex_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/JohnUrban_poreminion_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/poreplex_python.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/poreplex_status.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/hyeshik_poreplex_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/hyeshik_poreplex_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/hyeshik_poreplex_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/carsweshau_POREquality_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/carsweshau_POREquality_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/carsweshau_POREquality_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/tszalay_poreseq_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/tszalay_poreseq_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/cvdelannoy_poreTally_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/tszalay_poreseq_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/cvdelannoy_poreTally_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/cvdelannoy_poreTally_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/poretools_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/poretools_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/PyPI/poretools_status.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:06] "GET /img/shields/GitHub/arq5x_poretools_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/arq5x_poretools_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/BioInf-Wuerzburg_proovread_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/arq5x_poretools_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/BioInf-Wuerzburg_proovread_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/BioInf-Wuerzburg_proovread_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/nanoporetech_pychopper_stars.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/nanoporetech_pychopper_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/nanoporetech_pychopper_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/pycoQC_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/pycoQC_python.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/pycoQC_status.svg HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/aslide_pycoQC_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/aslide_pycoQC_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/aslide_pycoQC_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/qcat_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/qcat_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/qcat_status.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/nanoporetech_qcat_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/nanoporetech_qcat_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/nanoporetech_qcat_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/quast_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/quast_python.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/quast_status.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/ablab_quast_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/ablab_quast_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/ablab_quast_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/mahulchak_quickmerge_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/mahulchak_quickmerge_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/mahulchak_quickmerge_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/rvaser_ra_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/rvaser_ra_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/rvaser_ra_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/isovic_racon_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/isovic_racon_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/isovic_racon_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/malonge_RaGOO_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/malonge_RaGOO_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/malonge_RaGOO_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/gringer_RichPoreTK_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/gringer_RichPoreTK_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/gringer_RichPoreTK_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/edawson_rkmh_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/edawson_rkmh_forks.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/edawson_rkmh_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/kkrizanovic_RNAseqEval_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/kkrizanovic_RNAseqEval_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/kkrizanovic_RNAseqEval_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/galantelab_sandy_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/galantelab_sandy_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/galantelab_sandy_commit.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/MarioniLab_sarlacc_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/MarioniLab_sarlacc_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/MarioniLab_sarlacc_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/scrappie_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/scrappie_version.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/scrappie_status.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/nanoporetech_scrappie_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/nanoporetech_scrappie_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/nanoporetech_scrappie_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/giesselmann_selectION_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/giesselmann_selectION_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/giesselmann_selectION_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/Nucleomics-VIB_Shiny-apps_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/Nucleomics-VIB_Shiny-apps_forks.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/Nucleomics-VIB_Shiny-apps_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/shishirreddy_nanoporepipeline_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/shishirreddy_nanoporepipeline_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/shishirreddy_nanoporepipeline_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/signalAlign_version.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/signalAlign_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/signalAlign_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/ArtRand_signalAlign_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/ArtRand_signalAlign_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/ArtRand_signalAlign_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/nanoporetech_sloika_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/nanoporetech_sloika_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/nanoporetech_sloika_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/ruanjue_smartdenovo_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/ruanjue_smartdenovo_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/ruanjue_smartdenovo_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/wtsi-hpag_smis_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/wtsi-hpag_smis_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/wtsi-hpag_smis_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/WenchaoLin_SMRT-Link_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/WenchaoLin_SMRT-Link_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/WenchaoLin_SMRT-Link_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/EichlerLab_pacbio_variant_caller_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/EichlerLab_pacbio_variant_caller_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/EichlerLab_pacbio_variant_caller_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/fritzsedlazeck_Sniffles_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/fritzsedlazeck_Sniffles_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/fritzsedlazeck_Sniffles_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/antrec_spectrassembler_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/antrec_spectrassembler_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/antrec_spectrassembler_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/Magdoll_SQANTI2_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/Magdoll_SQANTI2_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/Magdoll_SQANTI2_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/JohnUrban_squiggler_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/JohnUrban_squiggler_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/JohnUrban_squiggler_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/mbhall88_streamformatics_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/mbhall88_streamformatics_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/mbhall88_streamformatics_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/giesselmann_STRique_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/giesselmann_STRique_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/10XGenomics_supernova_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/giesselmann_STRique_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/10XGenomics_supernova_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/10XGenomics_supernova_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/fritzsedlazeck_SURVIVOR_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/fritzsedlazeck_SURVIVOR_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/fritzsedlazeck_SURVIVOR_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/svim_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/svim_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/svim_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/eldariont_svim_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/eldariont_svim_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/taeper_version.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/eldariont_svim_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/taeper_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/taeper_status.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/mbhall88_taeper_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/mbhall88_taeper_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/mbhall88_taeper_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/GenomeRIK_tama_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/GenomeRIK_tama_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/GenomeRIK_tama_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/mcfrith_tandem-genotypes_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/mcfrith_tandem-genotypes_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/GitHub/mcfrith_tandem-genotypes_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/tiptoft_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/tiptoft_version.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:07] "GET /img/shields/PyPI/tiptoft_status.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/andrewjpage_tiptoft_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/andrewjpage_tiptoft_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/PacificBiosciences_IsoSeq_SA3nUP_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/andrewjpage_tiptoft_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/PacificBiosciences_IsoSeq_SA3nUP_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/PacificBiosciences_IsoSeq_SA3nUP_commit.svg HTTP/1.1" 200 -[0K[1G[?25h[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/nanoporetech_tombo_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/nanoporetech_tombo_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/nanoporetech_tombo_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/PyPI/toulligqc_version.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/PyPI/toulligqc_python.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/PyPI/toulligqc_status.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/GenomicParisCentre_toulligQC_stars.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/GenomicParisCentre_toulligQC_forks.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/GenomicParisCentre_toulligQC_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/Generade-nl_TULIP_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/Generade-nl_TULIP_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/Generade-nl_TULIP_commit.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/PacificBiosciences_unanimity_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/PacificBiosciences_unanimity_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/PacificBiosciences_unanimity_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/rrwick_unicycler_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/rrwick_unicycler_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/rrwick_unicycler_commit.svg HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/ruanjue_wtdbg2_stars.svg HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/ruanjue_wtdbg2_forks.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/ruanjue_wtdbg2_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/nanoporetech_wub_stars.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/nanoporetech_wub_commit.svg HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 12:57:08] "GET /img/shields/GitHub/nanoporetech_wub_forks.svg HTTP/1.1" 200 -[0K
-[0K[?25h[?25l127.0.0.1 - - [23/Jan/2019 13:00:39] "GET /tools.html HTTP/1.1" 200 -[0K[2G[?25h[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:00:39] "GET /css/layout.css HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:00:39] "GET /css/tools.css HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:00:39] "GET /js/jquery-tools.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:00:39] "GET /img/banner.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:00:40] "GET /footer_content.html?_=1548208839983 HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:00:40] "GET /data/tools.json?_=1548208839982 HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:00:40] "GET /img/favicon/manifest.json HTTP/1.1" 404 -[0K[?25l
-[0K[?25h[?25l127.0.0.1 - - [23/Jan/2019 13:00:40] "GET /img/icon.png HTTP/1.1" 200 -[0K[1G[?25h[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /analysis.html HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /css/analysis.css HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/number_OxfordNanopore.html?initialWidth=391&childId=nanopore&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3[0KA[?25l
-5000%2Fanalysis.html HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/number_tenxGenomics.html?initialWidth=391&childId=tenx&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%[0K2[?25l
-Fanalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/number.html?initialWidth=1233&childId=number&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis[0K.
-html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/number_PacBio.html?initialWidth=391&childId=pacbio&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fan[0Ka
-lysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/number_BionanoGenomics.html?initialWidth=391&childId=bionano&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3[0KA
-5000%2Fanalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/number_HiC.html?initialWidth=391&childId=hic&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis[0K.
-html HTTP/1.1" 200 -[0K
-[0K[?25h[?25l127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/platforms.html?initialWidth=601&childId=platforms&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fana[0Kl[1G[?25h[?25l
-ysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/categories.html?initialWidth=1233&childId=categories&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2F[0Ka
-nalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/technologies.html?initialWidth=1233&childId=technology&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%[0K2
-Fanalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/publication.html?initialWidth=601&childId=publication&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2[0KF
-analysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/categories_OxfordNanopore.html?initialWidth=601&childId=nanopore_cat&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127[0K.
-0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/categories_PacBio.html?initialWidth=601&childId=pacbio_cat&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5[0K0
-00%2Fanalysis.html HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/categories_tenxGenomics.html?initialWidth=601&childId=tenx_cat&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1[0K%[?25l
-3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/categories_BionanoGenomics.html?initialWidth=601&childId=bionano_cat&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127[0K.
-0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:06] "GET /plots/categories_HiC.html?initialWidth=601&childId=hic_cat&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2F[0Ka
-nalysis.html HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:07] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:09] "GET /img/favicon/manifest.json HTTP/1.1" 404 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /analysis.html HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /css/layout.css HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /css/analysis.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /img/banner.svg HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/number.html?initialWidth=1233&childId=number&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis[0K.[?25l
-html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/number_OxfordNanopore.html?initialWidth=391&childId=nanopore&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3[0KA
-5000%2Fanalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/number_PacBio.html?initialWidth=391&childId=pacbio&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fan[0Ka
-lysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/number_tenxGenomics.html?initialWidth=391&childId=tenx&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%[0K2
-Fanalysis.html HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/number_BionanoGenomics.html?initialWidth=391&childId=bionano&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3[0KA[?25l
-5000%2Fanalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/number_HiC.html?initialWidth=391&childId=hic&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fanalysis[0K.
-html HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/publication.html?initialWidth=601&childId=publication&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2[0KF[?25l
-analysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/platforms.html?initialWidth=601&childId=platforms&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2Fana[0Kl
-ysis.html HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/categories.html?initialWidth=1233&childId=categories&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2F[0Ka[?25l
-nalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/technologies.html?initialWidth=1233&childId=technology&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%[0K2
-Fanalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/categories_OxfordNanopore.html?initialWidth=601&childId=nanopore_cat&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127[0K.
-0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/categories_PacBio.html?initialWidth=601&childId=pacbio_cat&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5[0K0
-00%2Fanalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/categories_tenxGenomics.html?initialWidth=601&childId=tenx_cat&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1[0K%
-3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/categories_BionanoGenomics.html?initialWidth=601&childId=bionano_cat&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127[0K.[?25l
-0.0.1%3A5000%2Fanalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/categories_HiC.html?initialWidth=601&childId=hic_cat&parentTitle=lrs-tools&parentUrl=http%3A%2F%2F127.0.0.1%3A5000%2F[0Ka
-nalysis.html HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /footer_content.html HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/crosstalk-1.0.0/css/crosstalk.css HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-htmlwidgets-css-1.39.2/plotly-htmlwidgets.css HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:21] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K[2G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K[?25l
-[0K[?25h[?25l127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:22] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:23] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:24] "GET /plots/libraries/htmlwidgets-1.3/htmlwidgets.js HTTP/1.1" 200 -[0K[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:24] "GET /plots/libraries/plotly-binding-4.8.0/plotly.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:24] "GET /plots/libraries/typedarray-0.1/typedarray.min.js HTTP/1.1" 200 -[0K[1G[?25h[?25l
-127.0.0.1 - - [23/Jan/2019 13:01:24] "GET /plots/libraries/pymjs-1.3.2/pym.v1.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:24] "GET /plots/libraries/jquery-1.11.3/jquery.min.js HTTP/1.1" 200 -[0K
-127.0.0.1 - - [23/Jan/2019 13:01:24] "GET /plots/libraries/crosstalk-1.0.0/js/crosstalk.min.js HTTP/1.1" 200 -[0K
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:24] "GET /plots/libraries/plotly-main-1.39.2/plotly-latest.min.js HTTP/1.1" 200 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:25] "GET /img/favicon/manifest.json HTTP/1.1" 404 -[0K[?25l
-[0K[?25h127.0.0.1 - - [23/Jan/2019 13:01:25] "GET /img/icon.png HTTP/1.1" 200 -[0K[?25l
+Z:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>[0K[?25hR[0Ks[0Kc[0Kr[0Ki[0Kp[0Kt[0K[72G[?25lZ:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>Rscript b[0K[?25hu[0Ki[0Kl[0Kd_lrs_db.R[0K]0;  - Rscript  build_lrs_db.R[?25l
+[0K[?25h[?25l
+                                        ###[0K
+                                      #     #[0K
+                                    #   @ @   #[0K
+                                  #   @ @ @ @   #[0K
+                                #   @ @ @ @ @ @   #[0K
+                              ##                   ##[0K
+                              ##  @ @ @ @ @ @ @ @  ##[0K
+[0K[10G[?25h[?25l                              ##      @ @ @ @    ##[0K
+                                  #     @ @     #[0K
+                                    #   @ @   #[0K
+                                      #  @  #[0K
+                                        ###[0K
+[0K
+[0K
+                  LLL     RRRRRR   SSSSSSS      DDDDDD    BBBBBB[0K
+                  LLL     RR   RR  SS           DD    D   BB    B[0K
+                  LLL     RRRRRR   SSSSSSS  ==  DD    DD  BBBBBB[0K
+                  LLL     RR  RRR       SS      DD    D   BB    B[0K
+                  LLLLLL  RR   RR  SSSSSSS      DDDDDD    BBBBBB[0K
+[0K
+[0K
+[0K[?25h[2019-01-23 16:21:33] INFO: ***** STARTING PROCESSING *****[0K[?25l
+[2019-01-23 16:21:33] INFO: ***** Loading data ******[0K
+[2019-[0K[4G[?25h[?25l[2019-01-23 16:21:33] INFO: Loading LRS database...[0K
+[0K[?25h[2019-01-23 16:21:33] INFO: Getting package repositories...[0K[?25l
+[2019-01-23 16:21:33] INFO: Getting Bioconductor package list...[0K
+[0K[?25h[2019-01-23 16:21:35] INFO: Getting CRAN package list...[0K[?25l
+[0K[?25h[?25l[2019-01-23 16:21:54] INFO: Getting PyPI package l[0K[46G[?25h[?25l[2019-01-23 16:21:54] INFO: Getting PyPI package list...[0K
+[0K[?25h[?25l[2019-01-23 16:21:58] INFO[0K[20G[?25h[?25l[2019-01-23 16:21:58] INFO: Getting Anaconda package list...[0K
+[0K[?25h   |[0K[46G[?25l   |                                                  | 0 % ~calculating[0K[75G[?25h[?25l   |==                                                | 3 % ~01m 20s[0K[75G[?25h[?25l   |====                                              | 6 % ~01m 16s[0K[75G[?25h[?25l   |=====                                             | 9 % ~01m 13s[0K[75G[?25h[?25l   |=======                                           | 12% ~01m 10s[0K[75G[?25h[?25l   |========                                          | 15% ~02m 31s[0K[75G[?25h[?25l   |==========                                        | 18% ~02m 13s[0K[75G[?25h[?25l   |===========                                       | 21% ~01m 59s[0K[75G[?25h[?25l   |=============                                     | 24% ~01m 48s[0K[75G[?25h[?25l   |==============                                    | 27% ~01m 38s[0K[75G[?25h[?25l   |================                                  | 30% ~01m 28s[0K[75G[?25h[?25l   |=================                                 | 30% ~01m 28s[0K[46G[?25h[?25l   |=================                                 | 33% ~01m 21s[0K[75G[?25h[?25l   |===================                               | 36% ~01m 15s[0K[75G[?25h[?25l   |====================                              | 39% ~01m 09s[0K[75G[?25h[?25l   |======================                            | 42% ~01m 03s[0K[75G[?25h[?25l   |=======================                           | 45% ~57s[0K[75G[?25h[?25l   |=========================                         | 48% ~54s[0K[75G[?25h[?25l   |==========================                        | 52% ~49s[0K[75G[?25h[?25l   |============================                      | 55% ~45s[0K[75G[?25h[?25l   |=============================                     | 58% ~42s[0K[75G[?25h[?25l   |===============================                   | 61% ~38s[0K[75G[?25h[?25l   |================================                  | 64% ~34s[0K[75G[?25h[?25l   |==================================                | 67% ~31s[0K[75G[?25h[?25l   |===================================               | 70% ~27s[0K[75G[?25h[?25l   |=====================================             | 73% ~25s[0K[75G[?25h[?25l   |======================================            | 76% ~22s[0K[75G[?25h[?25l   |========================================          | 79% ~19s[0K[75G[?25h[?25l   |=========================================         | 82% ~16s[0K[75G[?25h[?25l   |===========================================       | 85% ~13s[0K[75G[?25h[?25l   |============================================      | 88% ~11s[0K[75G[?25h[?25l   |==============================================    | 91% ~08s[0K[75G[?25h[?25l   |===============================================   | 94% ~05s[0K[75G[?25h[?25l   |================================================= | 97% ~03s[0K[75G[?25h[?25l   |==================================================| 100% elapsed = 01m 29s[0K
+[2019-01-23 16:23:35] INFO: Getting category descriptions...[0K
+[0K[?25h[2019-01-23 16:23:47] INFO: Getting cached titles...[0K[?25l
+[0K[?25h[2019-01-23 16:23:47] INFO: Adding new titles to cache...[0K[?25l
+[0K[?25h[2019-01-23 16:23:47] INFO: Added 0 new titles to cache[0K[?25l
+[0K[?25h[2019-01-23 16:23:47] INFO: Checking repositories...[0K[?25l
+[0K[?25h[2019-01-23 16:23:48] INFO: Added 0 new repositories[0K[?25l
+[2019-01-23 16:23:48] INFO: Ignored 0 repostories[0K
+[2019-01-23 16:23:48] INFO: ***** Processing table ******[0K
+[0K[?25h[?25l[2019-0[0K[6G[?25h[?25l[2019-01-23 16:23:48] INFO: Adding references...[0K
+[0K[?25h   |                                                  | 0 % ~calculating[0K[75G[?25l   |=                                                 | 1 % ~04m 34s[0K[75G[?25h[?25l   |==                                                | 2 % ~04m 15s[0K[75G[?25h[?25l   |==                                                | 3 % ~03m 56s[0K[75G[?25h[?25l   |===                                               | 3 % ~03m 56s[0K[25G[?25h[?25l   |===                                               | 5 % ~02m 30s[0K[75G[?25h[?25l   |====                                              | 7 % ~02m 12s[0K[75G[?25h[?25l   |====                                              | 8 % ~02m 34s[0K[75G[?25h[?25l   |=====                                             | 9 % ~02m 39s[0K[75G[?25h[?25l   |=====                                             | 10% ~02m 44s[0K[75G[?25h[?25l   |======                                            | 11% ~02m 41s[0K[75G[?25h[?25l   |=======                                           | 12% ~02m 50s[0K[75G[?25h[?25l   |=======                                           | 13% ~02m 56s[0K[75G[?25h[?25l   |========                                          | 14% ~02m 48s[0K[75G[?25h[?25l   |========                                          | 15% ~02m 45s[0K[75G[?25h[?25l   |=========                                         | 16% ~02m 45s[0K[75G[?25h[?25l   |=========                                         | 18% ~02m 40s[0K[75G[?25h[?25l   |==========                                        | 20% ~02m 21s[0K[75G[?25h[?25l   |===========                                       | 21% ~02m 17s[0K[75G[?25h[?25l   |===========                                       | 22% ~02m 16s[0K[75G[?25h[?25l   |============                                      | 23% ~02m 14s[0K[75G[?25h[?25l   |=============                                     | 24% ~02m 13s[0K[75G[?25h[?25l   |=============                                     | 25% ~02m 15s[0K[75G[?25h[?25l   |==============                                    | 26% ~02m 17s[0K[75G[?25h[?25l   |==============                                    | 27% ~02m 15s[0K[75G[?25h[?25l   |===============                                   | 29% ~02m 09s[0K[75G[?25h[?25l   |================                                  | 31% ~02m 04s[0K[75G[?25h[?25l   |================                                  | 32% ~02m 03s[0K[75G[?25h[?25l   |=================                                 | 33% ~02m 00s[0K[75G[?25h[?25l   |==================                                | 34% ~01m 58s[0K[75G[?25h[?25l   |==================                                | 35% ~01m 55s[0K[75G[?25h[?25l   |===================                               | 36% ~01m 56s[0K[75G[?25h[?25l   |===================                               | 37% ~01m 56s[0K[75G[?25h[?25l   |====================                              | 38% ~01m 55s[0K[75G[?25h[?25l   |====================                              | 40% ~01m 52s[0K[75G[?25h[?25l   |=====================                             | 41% ~01m 50s[0K[75G[?25h[18G[?25l   |=====================                             | 42% ~01m 49s[0K[75G[?25h[?25l   |======================                            | 43% ~01m 48s[0K[75G[?25h[?25l   |======================                            | 44% ~01m 46s[0K[75G[?25h[?25l   |=======================                           | 45% ~01m 43s[0K[75G[?25h[?25l   |========================                          | 46% ~01m 39s[0K[75G[?25h[?25l   |========================                          | 47% ~01m 37s[0K[75G[?25h[?25l   |=========================                         | 48% ~01m 36s[0K[75G[?25h[?25l   |==========================                        | 51% ~01m 30s[0K[75G[?25h[?25l   |==========================                        | 52% ~01m 27s[0K[75G[?25h[?25l   |===========================                       | 53% ~01m 26s[0K[75G[?25h[?25l   |===========================                       | 54% ~01m 23s[0K[75G[?25h[?25l   |============================                      | 55% ~01m 20s[0K[75G[?25h[?25l   |=============================                     | 56% ~01m 18s[0K[75G[?25h[?25l   |=============================                     | 57% ~01m 16s[0K[75G[?25h[?25l   |==============================                    | 58% ~01m 13s[0K[75G[?25h[?25l   |==============================                    | 59% ~01m 11s[0K[75G[?25h[?25l   |===============================                   | 60% ~01m 09s[0K[75G[?25h[?25l   |===============================                   | 62% ~01m 07s[0K[75G[?25h[?25l   |================================                  | 64% ~01m 02s[0K[75G[?25h[?25l   |=================================                 | 65% ~60s[0K[75G[?25h[?25l   |=================================                 | 66% ~59s[0K[75G[?25h[?25l   |==================================                | 67% ~56s[0K[75G[?25h[?25l   |===================================               | 68% ~54s[0K[75G[?25h[?25l   |===================================               | 69% ~52s[0K[75G[?25h[?25l   |====================================              | 71% ~47s[0K[75G[?25h[?25l   |=====================================             | 74% ~43s[0K[75G[?25h[?25l   |======================================            | 75% ~41s[0K[75G[?25h[?25l   |======================================            | 76% ~39s[0K[75G[?25h[?25l   |=======================================           | 77% ~38s[0K[75G[?25h[?25l   |========================================          | 79% ~34s[0K[75G[?25h[?25l   |=========================================         | 80% ~32s[0K[75G[?25h[?25l   |=========================================         | 81% ~31s[0K[75G[?25h[?25l   |==========================================        | 82% ~29s[0K[75G[?25h[?25l   |==========================================        | 84% ~27s[0K[75G[?25h[?25l   |============================================      | 87% ~21s[0K[75G[?25h[?25l   |============================================      | 88% ~19s[0K[75G[?25h[?25l   |=============================================     | 89% ~17s[0K[75G[?25h[?25l   |==============================================    | 90% ~16s[0K[75G[?25h[?25l   |==============================================    | 91% ~14s[0K[75G[?25h[?25l   |===============================================   | 92% ~12s[0K[75G[?25h[?25l   |================================================  | 95% ~09s[0K[75G[?25h[?25l   |================================================  | 96% ~07s[0K[75G[?25h[?25l   |================================================= | 97% ~05s[0K[75G[?25h[?25l   |================================================= | 98% ~03s[0K[75G[?25h[?25l   |==================================================| 100% elapsed = 02m 35s[0K
+[0K[?25h[2019-01-23 16:26:23] INFO: Adding Github...[0K[?25l
+[0K[?25h[2019-01-23 16:26:23] INFO: Adding package repositories...[0K[?25l
+[0K[?25h[2019-01-23 16:26:23] INFO: Tidying data for technologies...[0K[?25l
+[0K[?25h[2019-01-23 16:26:23] INFO: Adding technologies in focus to table...[0K[?25l
+[0K[?25h[2019-01-23 16:26:23] INFO: Tidying data for categories...[0K[?25l
+[2019-01-23 16:26:23] INFO: Adding categories to table...[0K
+[2019-01-23 16:26:23] INFO: ***** Downloading shields ******[0K
+[0K[?25h[2019-01-23 16:26:23] INFO: Getting shields...[0K[?25l
+[0K[?25h[2019-01-23 16:26:23] INFO: Downloading Bioconductor shields...[0K[?25l
+[0K[?25h[?25l   |============>---------------------------|  31% Elapsed:  1s Remaining:  2s[0K[27G[?25h[?25l   |=============>--------------------------|  34% Elapsed:  1s Remaining:  2s[0K[64G[?25h[?25l   |===============>------------------------|  39% Elapsed:  1s Remaining:  2s[0K[54G[?25h[?25l   |================>-----------------------|  43% Elapsed:  1s Remaining:  2s[0K[?25h[?25l   |==================>---------------------|  49% Elapsed:  1s Remaining:  1s[0K[?25h[?25l   |=====================>------------------|  54% Elapsed:  1s Remaining:  1s[0K[14G[?25h[?25l   |======================>-----------------|  57% Elapsed:  1s Remaining:  1s[0K[?25h[?25l   |=======================>----------------|  59% Elapsed:  1s Remaining:  1s[0K[15G[?25h[?25l   |========================>---------------|  63% Elapsed:  1s Remaining:  1s[0K[?25h[?25l   |==========================>-------------|  68% Elapsed:  1s Remaining:  1s[0K[21G[?25h[?25l   |============================>-----------|  72% Elapsed:  1s Remaining:  1s[0K[33G[?25h[?25l   |==============================>---------|  76% Elapsed:  1s Remaining:  0s[0K[66G[?25h[?25l   |===============================>--------|  80% Elapsed:  1s Remaining:  0s[0K[53G[?25h[?25l   |=================================>------|  83% Elapsed:  2s Remaining:  0s[0K[43G[?25h[?25l   |==================================>-----|  86% Elapsed:  2s Remaining:  0s[0K[5G[?25h[?25l   |===================================>----|  90% Elapsed:  2s Remaining:  0s[0K[?25h[?25l   |======================================>-|  96% Elapsed:  2s Remaining:  0s[0K[43G[?25h[?25l   |========================================| 100% Elapsed:  2s Remaining:  0s[0K
+[2019-01-23 16:26:25] INFO: Downloading CRAN shields...[0K
+[0K[?25h[?25l   |==============>-------------------------|  38% Elapsed: 10s Remaining: 16s[0K[75G[?25h[?25l   |================>-----------------------|  41% Elapsed: 10s Remaining: 14s[0K[73G[?25h[?25l   |==================>---------------------|  47% Elapsed: 10s Remaining: 11s[0K[5G[?25h[?25l   |====================>-------------------|  51% Elapsed: 10s Remaining: 10s[0K[57G[?25h[?25l   |=====================>------------------|  56% Elapsed: 10s Remaining:  8s[0K[19G[?25h[?25l   |======================>-----------------|  59% Elapsed: 10s Remaining:  7s[0K[72G[?25h[?25l   |========================>---------------|  63% Elapsed: 10s Remaining:  6s[0K[21G[?25h[?25l   |==========================>-------------|  66% Elapsed: 10s Remaining:  5s[0K[37G[?25h[?25l   |===========================>------------|  71% Elapsed: 10s Remaining:  4s[0K[5G[?25h[?25l   |=============================>----------|  75% Elapsed: 10s Remaining:  4s[0K[61G[?25h[?25l   |==============================>---------|  77% Elapsed: 10s Remaining:  3s[0K[?25h[?25l   |==============================>---------|  78% Elapsed: 10s Remaining:  3s[0K[?25h[?25l   |================================>-------|  83% Elapsed: 10s Remaining:  2s[0K[25G[?25h[?25l   |==================================>-----|  87% Elapsed: 10s Remaining:  2s[0K[?25h[?25l   |====================================>---|  92% Elapsed: 10s Remaining:  1s[0K[63G[?25h[?25l   |=====================================>--|  94% Elapsed: 10s Remaining:  1s[0K[37G[?25h[?25l   |======================================>-|  99% Elapsed: 11s Remaining:  0s[0K[30G[?25h[?25l   |========================================| 100% Elapsed: 11s Remaining:  0s[0K
+[2019-01-23 16:26:35] INFO: Downloading PyPI shields...[0K
+[0K[?25h[?25l   |>---------------------------------------|   3% Elapsed:  9s Remaining:  6m[0K[58G[?25h[?25l   |=>--------------------------------------|   4% Elapsed:  9s Remaining:  3m[0K[?25h[?25l   |==>-------------------------------------|   8% Elapsed:  9s Remaining:  2m[0K[75G[?25h[?25l   |===>------------------------------------|  10% Elapsed:  9s Remaining:  1m[0K[?25h[?25l   |===>------------------------------------|  11% Elapsed:  1m Remaining:  7m[0K[?25h[?25l   |====>-----------------------------------|  14% Elapsed:  1m Remaining:  6m[0K[60G[?25h[?25l   |=====>----------------------------------|  15% Elapsed:  1m Remaining:  5m[0K[?25h[?25l   |=====>----------------------------------|  16% Elapsed:  1m Remaining:  5m[0K[?25h[?25l   |=======>--------------------------------|  21% Elapsed:  1m Remaining:  4m[0K[68G[?25h[?25l   |=========>------------------------------|  25% Elapsed:  1m Remaining:  3m[0K[?25h[?25l   |==========>-----------------------------|  27% Elapsed:  1m Remaining:  3m[0K[?25h[?25l   |==========>-----------------------------|  28% Elapsed:  1m Remaining:  4m[0K[?25h[?25l   |===========>----------------------------|  30% Elapsed:  1m Remaining:  3m[0K[?25h[?25l   |============>---------------------------|  32% Elapsed:  2m Remaining:  3m[0K[?25h[?25l   |==============>-------------------------|  37% Elapsed:  2m Remaining:  3m[0K[58G[?25h[79G[?25l   |===============>------------------------|  39% Elapsed:  2m Remaining:  3m[0K[?25h[?25l   |===============>------------------------|  40% Elapsed:  2m Remaining:  3m[0K[?25h[?25l   |================>-----------------------|  42% Elapsed:  2m Remaining:  3m[0K[?25h[?25l   |=================>----------------------|  46% Elapsed:  2m Remaining:  2m[0K[?25h[?25l   |==================>---------------------|  48% Elapsed:  2m Remaining:  2m[0K[59G[?25h[79G[?25l   |==================>---------------------|  49% Elapsed:  2m Remaining:  2m[0K[56G[?25h[?25l   |===================>--------------------|  50% Elapsed:  3m Remaining:  3m[0K[?25h[?25l   |===================>--------------------|  51% Elapsed:  3m Remaining:  3m[0K[?25h[?25l   |====================>-------------------|  51% Elapsed:  3m Remaining:  3m[0K[61G[?25h[?25l   |====================>-------------------|  53% Elapsed:  3m Remaining:  3m[0K[?25h[?25l   |=====================>------------------|  54% Elapsed:  3m Remaining:  3m[0K[?25h[?25l   |=====================>------------------|  55% Elapsed:  3m Remaining:  3m[0K[?25h[?25l   |=====================>------------------|  56% Elapsed:  4m Remaining:  3m[0K[?25h[?25l   |======================>-----------------|  56% Elapsed:  4m Remaining:  3m[0K[?25h[?25l   |======================>-----------------|  58% Elapsed:  4m Remaining:  3m[0K[?25h[?25l   |======================>-----------------|  59% Elapsed:  5m Remaining:  3m[0K[?25h[?25l   |========================>---------------|  62% Elapsed:  5m Remaining:  3m[0K[21G[?25h[?25l   |=========================>--------------|  64% Elapsed:  5m Remaining:  3m[0K[?25h[11G[?25l   |==========================>-------------|  67% Elapsed:  5m Remaining:  3m[0K[?25h[?25l   |==========================>-------------|  68% Elapsed:  5m Remaining:  3m[0K[67G[?25h[?25l   |===========================>------------|  70% Elapsed:  5m Remaining:  2m[0K[?25h[?25l   |============================>-----------|  72% Elapsed:  5m Remaining:  2m[0K[?25h[26G[?25l   |=============================>----------|  76% Elapsed:  6m Remaining:  2m[0K[73G[?25h[79G[?25l   |==============================>---------|  76% Elapsed:  6m Remaining:  2m[0K[74G[?25h[?25l   |==============================>---------|  77% Elapsed:  6m Remaining:  2m[0K[?25h[?25l   |==============================>---------|  79% Elapsed:  6m Remaining:  2m[0K[?25h[?25l   |===============================>--------|  79% Elapsed:  6m Remaining:  2m[0K[?25h[?25l   |===============================>--------|  80% Elapsed:  7m Remaining:  2m[0K[?25h[?25l   |=================================>------|  84% Elapsed:  7m Remaining:  1m[0K[3G[?25h[?25l   |==================================>-----|  86% Elapsed:  7m Remaining:  1m[0K[?25h[?25l   |==================================>-----|  88% Elapsed:  7m Remaining:  1m[0K[?25h[?25l   |==================================>-----|  89% Elapsed:  7m Remaining:  1m[0K[?25h[?25l   |===================================>----|  89% Elapsed:  8m Remaining:  1m[0K[63G[?25h[?25l   |====================================>---|  92% Elapsed:  8m Remaining: 43s[0K[?25h[?25l   |=====================================>--|  94% Elapsed:  8m Remaining: 29s[0K[53G[?25h[?25l   |=====================================>--|  94% Elapsed:  8m Remaining: 27s[0K[?25h[?25l   |=====================================>--|  95% Elapsed:  8m Remaining: 26s[0K[?25h[?25l   |=====================================>--|  96% Elapsed:  8m Remaining: 22s[0K[35G[?25h[?25l   |======================================>-|  96% Elapsed:  8m Remaining: 18s[0K[?25h[?25l   |======================================>-|  97% Elapsed:  8m Remaining: 13s[0K[?25h[5G[?25l   |=======================================>|  99% Elapsed:  9m Remaining:  4s[0K[?25h[?25l   |========================================| 100% Elapsed:  9m Remaining:  0s[0K
+[2019-01-23 16:35:06] INFO: Downloading GitHub shields...[0K
+[0K[?25h   |----------------------------------------|   1% Elapsed: 13s Remaining: 29m[0K[?25l   |----------------------------------------|   1% Elapsed: 28s Remaining: 42m[0K[?25h[?25l   |>---------------------------------------|   2% Elapsed:  1m Remaining: 45m[0K[?25h[?25l   |>---------------------------------------|   2% Elapsed:  1m Remaining: 47m[0K[?25h[?25l   |>---------------------------------------|   3% Elapsed:  1m Remaining: 42m[0K[?25h[?25l   |>---------------------------------------|   3% Elapsed:  1m Remaining: 37m[0K[?25h[11G[?25l   |>---------------------------------------|   4% Elapsed:  2m Remaining: 41m[0K[?25h[?25l   |=>--------------------------------------|   4% Elapsed:  2m Remaining: 36m[0K[?25h[?25l   |=>--------------------------------------|   5% Elapsed:  2m Remaining: 35m[0K[?25h[?25l   |=>--------------------------------------|   6% Elapsed:  2m Remaining: 33m[0K[?25h[?25l   |=>--------------------------------------|   6% Elapsed:  2m Remaining: 34m[0K[?25h[?25l   |==>-------------------------------------|   7% Elapsed:  2m Remaining: 33m[0K[?25h[?25l   |==>-------------------------------------|   7% Elapsed:  3m Remaining: 33m[0K[?25h[?25l   |==>-------------------------------------|   7% Elapsed:  3m Remaining: 34m[0K[19G[?25h[?25l   |==>-------------------------------------|   8% Elapsed:  3m Remaining: 30m[0K[?25h[?25l   |==>-------------------------------------|   8% Elapsed:  3m Remaining: 32m[0K[?25h[?25l   |===>------------------------------------|   9% Elapsed:  3m Remaining: 32m[0K[?25h[?25l   |===>------------------------------------|   9% Elapsed:  3m Remaining: 33m[0K[?25h[?25l   |===>------------------------------------|  10% Elapsed:  4m Remaining: 35m[0K[53G[?25h[?25l   |===>------------------------------------|  10% Elapsed:  4m Remaining: 33m[0K[?25h[?25l   |===>------------------------------------|  10% Elapsed:  4m Remaining: 34m[0K[?25h[?25l   |===>------------------------------------|  11% Elapsed:  4m Remaining: 33m[0K[?25h[?25l   |====>-----------------------------------|  11% Elapsed:  4m Remaining: 35m[0K[14G[?25h[?25l   |====>-----------------------------------|  11% Elapsed:  4m Remaining: 34m[0K[?25h[?25l   |====>-----------------------------------|  12% Elapsed:  5m Remaining: 33m[0K[45G[?25h[?25l   |====>-----------------------------------|  13% Elapsed:  5m Remaining: 32m[0K[?25h[?25l   |====>-----------------------------------|  13% Elapsed:  5m Remaining: 33m[0K[?25h[?25l   |====>-----------------------------------|  13% Elapsed:  5m Remaining: 34m[0K[?25h[?25l   |====>-----------------------------------|  14% Elapsed:  5m Remaining: 34m[0K[?25h[?25l   |=====>----------------------------------|  14% Elapsed:  6m Remaining: 34m[0K[?25h[?25l   |=====>----------------------------------|  14% Elapsed:  6m Remaining: 35m[0K[?25h[?25l   |=====>----------------------------------|  15% Elapsed:  6m Remaining: 36m[0K[?25h[?25l   |=====>----------------------------------|  15% Elapsed:  7m Remaining: 36m[0K[?25h[18G[?25l   |=====>----------------------------------|  16% Elapsed:  7m Remaining: 37m[0K[?25h[?25l   |======>---------------------------------|  17% Elapsed:  7m Remaining: 35m[0K[?25h[?25l   |======>---------------------------------|  17% Elapsed:  8m Remaining: 36m[0K[?25h[6G[?25l   |======>---------------------------------|  18% Elapsed:  8m Remaining: 36m[0K[?25h[?25l   |======>---------------------------------|  18% Elapsed:  8m Remaining: 35m[0K[?25h[?25l   |======>---------------------------------|  18% Elapsed:  8m Remaining: 36m[0K[?25h[?25l   |=======>--------------------------------|  19% Elapsed:  8m Remaining: 37m[0K[?25h[?25l   |=======>--------------------------------|  20% Elapsed:  9m Remaining: 35m[0K[?25h[?25l   |=======>--------------------------------|  21% Elapsed:  9m Remaining: 36m[0K[?25h[?25l   |=======>--------------------------------|  21% Elapsed:  9m Remaining: 35m[0K[?25h[?25l   |========>-------------------------------|  21% Elapsed: 10m Remaining: 35m[0K[?25h[?25l   |========>-------------------------------|  22% Elapsed: 10m Remaining: 35m[0K[?25h[?25l   |========>-------------------------------|  23% Elapsed: 10m Remaining: 35m[0K[?25h[?25l   |========>-------------------------------|  23% Elapsed: 10m Remaining: 34m[0K[?25h[?25l   |========>-------------------------------|  24% Elapsed: 10m Remaining: 34m[0K[?25h[5G[?25l   |=========>------------------------------|  24% Elapsed: 11m Remaining: 34m[0K[?25h[?25l   |=========>------------------------------|  24% Elapsed: 11m Remaining: 33m[0K[?25h[?25l   |=========>------------------------------|  25% Elapsed: 11m Remaining: 34m[0K[?25h[?25l   |=========>------------------------------|  25% Elapsed: 12m Remaining: 34m[0K[?25h[?25l   |=========>------------------------------|  26% Elapsed: 12m Remaining: 34m[0K[?25h[?25l   |==========>-----------------------------|  27% Elapsed: 12m Remaining: 34m[0K[?25h[?25l   |==========>-----------------------------|  27% Elapsed: 12m Remaining: 33m[0K[?25h[?25l   |==========>-----------------------------|  28% Elapsed: 13m Remaining: 33m[0K[?25h[?25l   |==========>-----------------------------|  28% Elapsed: 13m Remaining: 34m[0K[?25h[?25l   |==========>-----------------------------|  28% Elapsed: 14m Remaining: 34m[0K[?25h[?25l   |===========>----------------------------|  29% Elapsed: 14m Remaining: 35m[0K[5G[?25h[?25l   |===========>----------------------------|  30% Elapsed: 14m Remaining: 34m[0K[?25h[?25l   |===========>----------------------------|  30% Elapsed: 14m Remaining: 33m[0K[?25h[?25l   |===========>----------------------------|  31% Elapsed: 14m Remaining: 32m[0K[?25h[?25l   |============>---------------------------|  31% Elapsed: 15m Remaining: 33m[0K[?25h[?25l   |============>---------------------------|  32% Elapsed: 15m Remaining: 32m[0K[?25h[?25l   |============>---------------------------|  33% Elapsed: 16m Remaining: 32m[0K[?25h[?25l   |============>---------------------------|  34% Elapsed: 16m Remaining: 32m[0K[?25h[?25l   |=============>--------------------------|  34% Elapsed: 16m Remaining: 32m[0K[?25h[?25l   |=============>--------------------------|  34% Elapsed: 16m Remaining: 31m[0K[?25h[?25l   |=============>--------------------------|  35% Elapsed: 17m Remaining: 32m[0K[?25h[?25l   |=============>--------------------------|  35% Elapsed: 17m Remaining: 31m[0K[?25h[?25l   |=============>--------------------------|  36% Elapsed: 17m Remaining: 31m[0K[35G[?25h[?25l   |==============>-------------------------|  37% Elapsed: 17m Remaining: 30m[0K[?25h[?25l   |==============>-------------------------|  37% Elapsed: 18m Remaining: 30m[0K[?25h[?25l   |==============>-------------------------|  38% Elapsed: 18m Remaining: 30m[0K[?25h[?25l   |==============>-------------------------|  38% Elapsed: 19m Remaining: 30m[0K[?25h[?25l   |==============>-------------------------|  39% Elapsed: 19m Remaining: 30m[0K[?25h[?25l   |===============>------------------------|  39% Elapsed: 19m Remaining: 30m[0K[?25h[?25l   |===============>------------------------|  39% Elapsed: 20m Remaining: 30m[0K[?25h[?25l   |===============>------------------------|  40% Elapsed: 20m Remaining: 30m[0K[78G[?25h[79G[43G[?25l   |===============>------------------------|  41% Elapsed: 20m Remaining: 29m[0K[?25h[?25l   |================>-----------------------|  41% Elapsed: 21m Remaining: 29m[0K[?25h[?25l   |================>-----------------------|  42% Elapsed: 21m Remaining: 29m[0K[?25h[?25l   |================>-----------------------|  43% Elapsed: 22m Remaining: 29m[0K[?25h[?25l   |================>-----------------------|  44% Elapsed: 22m Remaining: 29m[0K[?25h[?25l   |=================>----------------------|  44% Elapsed: 23m Remaining: 29m[0K[?25h[?25l   |=================>----------------------|  45% Elapsed: 23m Remaining: 29m[0K[?25h[?25l   |=================>----------------------|  45% Elapsed: 23m Remaining: 28m[0K[?25h[7G[?25l   |=================>----------------------|  46% Elapsed: 23m Remaining: 28m[0K[?25h[24G[?25l   |==================>---------------------|  46% Elapsed: 24m Remaining: 27m[0K[?25h[?25l   |==================>---------------------|  47% Elapsed: 24m Remaining: 27m[0K[?25h[?25l   |==================>---------------------|  48% Elapsed: 25m Remaining: 27m[0K[?25h[?25l   |==================>---------------------|  49% Elapsed: 25m Remaining: 27m[0K[?25h[?25l   |===================>--------------------|  49% Elapsed: 26m Remaining: 27m[0K[?25h[4G[?25l   |===================>--------------------|  49% Elapsed: 26m Remaining: 26m[0K[?25h[?25l   |===================>--------------------|  50% Elapsed: 26m Remaining: 26m[0K[?25h[?25l   |===================>--------------------|  50% Elapsed: 27m Remaining: 26m[0K[?25h[?25l   |===================>--------------------|  51% Elapsed: 27m Remaining: 26m[0K[?25h[?25l   |====================>-------------------|  51% Elapsed: 27m Remaining: 26m[0K[?25h[?25l   |====================>-------------------|  52% Elapsed: 27m Remaining: 26m[0K[?25h[?25l   |====================>-------------------|  52% Elapsed: 28m Remaining: 26m[0K[?25h[?25l   |====================>-------------------|  52% Elapsed: 28m Remaining: 25m[0K[?25h[?25l   |====================>-------------------|  53% Elapsed: 28m Remaining: 25m[0K[?25h[?25l   |====================>-------------------|  54% Elapsed: 29m Remaining: 25m[0K[?25h[?25l   |=====================>------------------|  54% Elapsed: 29m Remaining: 25m[0K[?25h[?25l   |=====================>------------------|  55% Elapsed: 29m Remaining: 24m[0K[?25h[2G[?25l   |=====================>------------------|  55% Elapsed: 30m Remaining: 25m[0K[?25h[?25l   |=====================>------------------|  55% Elapsed: 30m Remaining: 24m[0K[?25h[?25l   |=====================>------------------|  56% Elapsed: 31m Remaining: 24m[0K[?25h[?25l   |======================>-----------------|  56% Elapsed: 31m Remaining: 24m[0K[?25h[?25l   |======================>-----------------|  57% Elapsed: 32m Remaining: 24m[0K[?25h[?25l   |======================>-----------------|  58% Elapsed: 32m Remaining: 24m[0K[60G[?25h[79G[?25l   |======================>-----------------|  58% Elapsed: 33m Remaining: 24m[0K[?25h[?25l   |======================>-----------------|  58% Elapsed: 33m Remaining: 23m[0K[?25h[?25l   |======================>-----------------|  59% Elapsed: 33m Remaining: 23m[0K[?25h[?25l   |=======================>----------------|  59% Elapsed: 33m Remaining: 23m[0K[?25h[?25l   |=======================>----------------|  60% Elapsed: 33m Remaining: 22m[0K[?25h[?25l   |=======================>----------------|  60% Elapsed: 34m Remaining: 22m[0K[?25h[?25l   |=======================>----------------|  61% Elapsed: 34m Remaining: 22m[0K[?25h[?25l   |========================>---------------|  61% Elapsed: 34m Remaining: 21m[0K[?25h[?25l   |========================>---------------|  62% Elapsed: 34m Remaining: 21m[0K[?25h[?25l   |========================>---------------|  63% Elapsed: 35m Remaining: 21m[0K[?25h[?25l   |========================>---------------|  63% Elapsed: 35m Remaining: 20m[0K[?25h[?25l   |=========================>--------------|  64% Elapsed: 35m Remaining: 20m[0K[74G[?25h[79G[?25l   |=========================>--------------|  65% Elapsed: 35m Remaining: 19m[0K[?25h[3G[?25l   |=========================>--------------|  65% Elapsed: 36m Remaining: 19m[0K[?25h[?25l   |=========================>--------------|  66% Elapsed: 36m Remaining: 19m[0K[?25h[?25l   |==========================>-------------|  67% Elapsed: 36m Remaining: 18m[0K[73G[?25h[79G[?25l   |==========================>-------------|  68% Elapsed: 37m Remaining: 18m[0K[?25h[?25l   |==========================>-------------|  68% Elapsed: 37m Remaining: 17m[0K[?25h[?25l   |==========================>-------------|  69% Elapsed: 37m Remaining: 17m[0K[?25h[5G[?25l   |===========================>------------|  69% Elapsed: 37m Remaining: 17m[0K[?25h[?25l   |===========================>------------|  69% Elapsed: 38m Remaining: 17m[0K[?25h[?25l   |===========================>------------|  70% Elapsed: 38m Remaining: 17m[0K[?25h[?25l   |===========================>------------|  70% Elapsed: 38m Remaining: 16m[0K[?25h[?25l   |===========================>------------|  70% Elapsed: 39m Remaining: 16m[0K[?25h[?25l   |===========================>------------|  71% Elapsed: 39m Remaining: 16m[0K[?25h[?25l   |============================>-----------|  72% Elapsed: 39m Remaining: 16m[0K[?25h[?25l   |============================>-----------|  72% Elapsed: 39m Remaining: 15m[0K[?25h[?25l   |============================>-----------|  72% Elapsed: 40m Remaining: 15m[0K[?25h[?25l   |============================>-----------|  73% Elapsed: 40m Remaining: 15m[0K[?25h[?25l   |=============================>----------|  74% Elapsed: 41m Remaining: 14m[0K[?25h[?25l   |=============================>----------|  75% Elapsed: 41m Remaining: 14m[0K[?25h[?25l   |=============================>----------|  75% Elapsed: 42m Remaining: 14m[0K[?25h[?25l   |=============================>----------|  76% Elapsed: 42m Remaining: 13m[0K[?25h[?25l   |==============================>---------|  76% Elapsed: 42m Remaining: 13m[0K[?25h[?25l   |==============================>---------|  77% Elapsed: 43m Remaining: 13m[0K[?25h[?25l   |==============================>---------|  78% Elapsed: 43m Remaining: 12m[0K[?25h[?25l   |==============================>---------|  79% Elapsed: 43m Remaining: 12m[0K[?25h[3G[?25l   |===============================>--------|  79% Elapsed: 43m Remaining: 12m[0K[?25h[?25l   |===============================>--------|  79% Elapsed: 43m Remaining: 11m[0K[?25h[?25l   |===============================>--------|  80% Elapsed: 44m Remaining: 11m[0K[?25h[?25l   |===============================>--------|  81% Elapsed: 44m Remaining: 11m[0K[?25h[?25l   |===============================>--------|  81% Elapsed: 45m Remaining: 10m[0K[?25h[?25l   |================================>-------|  82% Elapsed: 45m Remaining: 10m[0K[?25h[?25l   |================================>-------|  83% Elapsed: 46m Remaining: 10m[0K[?25h[?25l   |================================>-------|  83% Elapsed: 46m Remaining:  9m[0K[?25h[?25l   |=================================>------|  84% Elapsed: 46m Remaining:  9m[0K[?25h[?25l   |=================================>------|  85% Elapsed: 46m Remaining:  9m[0K[?25h[?25l   |=================================>------|  85% Elapsed: 47m Remaining:  8m[0K[?25h[?25l   |=================================>------|  86% Elapsed: 47m Remaining:  8m[0K[?25h[?25l   |==================================>-----|  86% Elapsed: 48m Remaining:  8m[0K[?25h[?25l   |==================================>-----|  87% Elapsed: 48m Remaining:  7m[0K[?25h[?25l   |==================================>-----|  88% Elapsed: 49m Remaining:  7m[0K[?25h[?25l   |===================================>----|  89% Elapsed: 49m Remaining:  6m[0K[?25h[?25l   |===================================>----|  90% Elapsed: 50m Remaining:  6m[0K[?25h[?25l   |===================================>----|  90% Elapsed:  1h Remaining:  5m[0K[?25h[?25l   |===================================>----|  91% Elapsed:  1h Remaining:  5m[0K[?25h[?25l   |====================================>---|  92% Elapsed:  1h Remaining:  4m[0K[?25h[?25l   |====================================>---|  93% Elapsed:  1h Remaining:  4m[0K[?25h[?25l   |====================================>---|  94% Elapsed:  1h Remaining:  3m[0K[?25h[?25l   |=====================================>--|  94% Elapsed:  1h Remaining:  3m[0K[?25h[?25l   |=====================================>--|  95% Elapsed:  1h Remaining:  3m[0K[?25h[?25l   |=====================================>--|  96% Elapsed:  1h Remaining:  2m[0K[?25h[?25l   |======================================--|  96% Elapsed:  1h Remaining:  2m[0K[38G[?25h[?25l   |======================================>-|  96% Elapsed:  1h Remaining:  2m[0K[?25h[?25l   |======================================>-|  97% Elapsed:  1h Remaining:  2m[0K[?25h[?25l   |======================================>-|  97% Elapsed:  1h Remaining:  1m[0K[?25h[?25l   |======================================>-|  98% Elapsed:  1h Remaining:  1m[0K[?25h[?25l   |======================================>-|  99% Elapsed:  1h Remaining: 49s[0K[?25h[?25l   |=======================================>|  99% Elapsed:  1h Remaining: 25s[0K[17G[?25h[?25l   |=======================================>| 100% Elapsed:  1h Remaining: 12s[0K[?25h[?25l   |========================================| 100% Elapsed:  1h Remaining:  0s[0K
+[0K[?25h[?25l[2019-01-23 17:30:50] INFO[0K[21G[?25h[?25l[2019-01-23 17:30:50] INFO: ***** Converting to JSON *****[0K
+[2019-01-23 17:30:50] INFO: Converting table...[0K
+[2019-01-23 17:30:50] I[0K[22G[?25h[?25l[2019-01-23 17:30:50] INFO: Converting tools table...[0K
+[0K[?25h[2019-01-23 17:30:50] INFO: Writing 'tools-table.json'...[0K[?25l
+[0K[?25h[2019-01-23 17:30:50] INFO: Converting tools...[0K[?25l
+[0K[?25h[2019-01-23 17:30:51] INFO: Writing 'tools.json'...[0K[?25l
+[0K[?25h[2019-01-23 17:30:51] INFO: Converting categories...[0K[?25l
+[0K[?25h[?25l[2019-01-23 17:30:51] INFO: Writ[0K[31G[?25h[?25l[2019-01-23 17:30:51] INFO: Writing 'categories.json'...[0K
+[0K[?25h[2019-01-23 17:30:51] INFO: Converting technologies...[0K[?25l
+[2019-01-23 17:30:5[0K[18G[?25h[?25l[2019-01-23 17:30:51] INFO: Writing 'technologies.json'...[0K
+[2019-01-23 17:30:51] INFO: ***** Performing analysis *****[0K
+[0K[?25h[2019-01-23 17:30:51] INFO: Plotting published tools over time...[0K[?25l
+[0K[?25h[2019-01-23 17:31:23] INFO: Plotting publication status...[0K[?25l
+[0K[?25h[2019-01-23 17:31:43] INFO: Plotting platforms...[0K[?25l
+[0K[?25h[2019-01-23 17:31:44] INFO: Plotting technologies...[0K[?25l
+[0K[?25h[?25l[2019-01-2[0K[10G[?25h[?25l[2019-01-23 17:31:46] INFO: Plotting categories...[0K
+[0K[?25h[2019-01-23 17:32:23] INFO: ****** All processing complete *****[0K[?25l
+[2019-01-23 17:32:23] INFO: **** PROCESSING FINISHED *****[0K
 [0K[?25h]0; [?25l
 Z:\Shani\Nanopore\long-read-tool-db\lrs-tools-db-master\lrs_db>[0K[?25h

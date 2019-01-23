@@ -52,34 +52,6 @@
     "Categories": ["BaseCalling", "TestedOnHumanData", "TestedOnNonHumanData", "QualityTrimming"]
   },
   {
-    "Name": "Aligner_comparisons",
-    "DOIs": "10.1101/126656",
-    "Description": "Evaluates short-read alignment tools (i.e. STAR, Tophat2, Hisat2, bbmap, gmap) for long read alignment",
-    "OxfordNanopore": true,
-    "PacBio": false,
-    "tenxGenomics": false,
-    "BionanoGenomics": false,
-    "HiC": false,
-    "Refs": {
-      "Publications": [
-        {
-          "Title": "Evaluation of tools for long read RNA-seq splice-aware alignment",
-          "DOI": "10.1101/126656",
-          "PubDate": "2017-04-12",
-          "Preprint": false,
-          "Citations": 0
-        }
-      ],
-      "Preprints": []
-    },
-    "Citations": 0,
-    "Publications": 1,
-    "Preprints": 0,
-    "PubDates": ["2017-04-12"],
-    "Technologies": ["OxfordNanopore"],
-    "Categories": ["EvaluatingExisitingMethods"]
-  },
-  {
     "Name": "AlignQC",
     "DOIs": "10.12688/f1000research.10571.2",
     "Platform": "Python",
@@ -130,12 +102,12 @@
           "DOI": "10.1073/pnas.1017351108",
           "PubDate": "2010-12-28",
           "Preprint": false,
-          "Citations": 810
+          "Citations": 811
         }
       ],
       "Preprints": []
     },
-    "Citations": 810,
+    "Citations": 811,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2010-12-28"],
@@ -298,6 +270,7 @@
     "Name": "basecRAWller",
     "DOIs": "10.1101/133058",
     "Description": "DEPRECIATED:: Basecaller for Nanopore",
+    "Code": "Not Available",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
@@ -533,7 +506,7 @@
       "Publications": [],
       "Preprints": []
     },
-    "Citations": 3040,
+    "Citations": 3041,
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -824,6 +797,7 @@
     "Name": "D-NAscent",
     "DOIs": "10.1101/442814",
     "Description": "Detect BrdU incorporation in nanopore reads",
+    "Code": "Not Available",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
@@ -1040,7 +1014,8 @@
   {
     "Name": "DeepSignal",
     "DOIs": "10.1101/385849",
-    "Description": "5mC and 6mA detection from Nanopore reads",
+    "Description": "NOT MAINTAINED:: 5mC and 6mA detection from Nanopore reads",
+    "Code": "Not Available",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
@@ -1472,12 +1447,12 @@
           "DOI": "10.1093/bioinformatics/bti310",
           "PubDate": "2005-02-23",
           "Preprint": false,
-          "Citations": 649
+          "Citations": 650
         }
       ],
       "Preprints": []
     },
-    "Citations": 649,
+    "Citations": 650,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2005-02-23"],
@@ -1511,6 +1486,7 @@
   {
     "Name": "guppy",
     "Description": "GPU-enhanced basecaller from ONT",
+    "Code": "Not Publicly Available",
     "License": "ONT developer license agreement",
     "OxfordNanopore": true,
     "PacBio": false,
@@ -1645,12 +1621,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-03",
           "Preprint": false,
-          "Citations": 1427
+          "Citations": 1428
         }
       ],
       "Preprints": []
     },
-    "Citations": 1427,
+    "Citations": 1428,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-03"],
@@ -2359,7 +2335,8 @@
   {
     "Name": "LSCplus",
     "DOIs": "10.1186/s12859-016-1316-y",
-    "Description": "Hybrid read correction for PacBio",
+    "Description": "NOT MAINTAINED:: Hybrid read correction for PacBio",
+    "Code": "Not Available",
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
@@ -2663,6 +2640,7 @@
     "Name": "MEGAN-LR",
     "DOIs": "10.1186/s13062-018-0208-7",
     "Description": "Metagenomic analysis of long reads and contigs",
+    "Code": "Not Available",
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
@@ -3003,6 +2981,7 @@
   {
     "Name": "MinKNOW",
     "Description": "Data acquisition from ONT sequencers",
+    "Code": "Not Publicly Available",
     "License": "ONT developer license agreement",
     "OxfordNanopore": true,
     "PacBio": false,
@@ -4347,12 +4326,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-03",
           "Preprint": false,
-          "Citations": 1427
+          "Citations": 1428
         }
       ],
       "Preprints": []
     },
-    "Citations": 1427,
+    "Citations": 1428,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-03"],
@@ -5038,6 +5017,7 @@
   {
     "Name": "PRAPI",
     "DOIs": "10.1093/bioinformatics/btx830",
+    "Description": "Post-transcriptional regulation analysis pipeline for Iso-Seq",
     "Code": "http://www.bioinfor.org/bioinfor/tool/PRAPI/",
     "OxfordNanopore": false,
     "PacBio": true,
@@ -5181,12 +5161,12 @@
           "DOI": "10.1093/bioinformatics/btt086",
           "PubDate": "2013-02-20",
           "Preprint": false,
-          "Citations": 898
+          "Citations": 899
         }
       ],
       "Preprints": []
     },
-    "Citations": 898,
+    "Citations": 899,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-02-20"],
@@ -5376,6 +5356,7 @@
     "DOIs": "10.1101/426858",
     "Platform": "Python",
     "Description": "Detect BrdU incorporation in nanopore reads",
+    "Code": "Not Available",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
@@ -5654,12 +5635,12 @@
           "DOI": "10.1016/0022-2836(70)90057-4",
           "PubDate": "2005-02-10",
           "Preprint": false,
-          "Citations": 4533
+          "Citations": 4536
         }
       ],
       "Preprints": []
     },
-    "Citations": 4533,
+    "Citations": 4536,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2005-02-10"],
@@ -6238,12 +6219,12 @@
           "DOI": "10.1371/journal.pcbi.1005595",
           "PubDate": "2017-06-08",
           "Preprint": false,
-          "Citations": 125
+          "Citations": 126
         }
       ],
       "Preprints": []
     },
-    "Citations": 125,
+    "Citations": 126,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-06-08"],
@@ -6252,37 +6233,10 @@
     "Categories": ["DenovoAssembly", "TestedOnHumanData", "TestedOnNonHumanData"]
   },
   {
-    "Name": "VirION",
-    "DOIs": "10.1101/345041",
-    "Description": "Pipeline for metagenomic analysis of viruses with long read data",
-    "OxfordNanopore": true,
-    "PacBio": false,
-    "tenxGenomics": false,
-    "BionanoGenomics": false,
-    "HiC": false,
-    "Refs": {
-      "Publications": [
-        {
-          "Title": "Long-read viral metagenomics enables capture of abundant and microdiverse viral populations and their niche-defining genomic islands",
-          "DOI": "10.1101/345041",
-          "PubDate": "2018-06-12",
-          "Preprint": false,
-          "Citations": 0
-        }
-      ],
-      "Preprints": []
-    },
-    "Citations": 0,
-    "Publications": 1,
-    "Preprints": 0,
-    "PubDates": ["2018-06-12"],
-    "Technologies": ["OxfordNanopore"],
-    "Categories": ["TestedOnNonHumanData", "AnalysisPipelines", "Metagenomics"]
-  },
-  {
     "Name": "WaveNano",
     "DOIs": "10.1007/s40484-018-0155-4",
-    "Description": "Basecaller for Nanopore",
+    "Description": "NOT MAINTAINED:: Basecaller for Nanopore",
+    "Code": "Not Available",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
@@ -6310,7 +6264,8 @@
   {
     "Name": "WIMP",
     "DOIs": "10.1101/030742",
-    "Description": "What Is In My Pot: real-time species identification from metagenomic samples on the MinION.",
+    "Description": "Real-time species identification method from metagenomic samples on the MinION",
+    "Code": "Not Available",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
