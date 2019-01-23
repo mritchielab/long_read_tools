@@ -112,6 +112,6 @@ make_techs_json <- function(tidysw_tech, swsheet, descs) {
 write_footer <- function() {
     datetime <- Sys.time()
     attr(datetime, "tzone") <- "UTC"
-    asterik <- "(*) denotes that the tool is not updated or maintained as of the last long-read-tools database updated date"
-    writeLines(paste0('<p class="text-muted">',asterik,' of: ', datetime,' UTC</p>'),"docs/footer_content.html")
+    asterik <- "Last updated on: "
+    writeLines(paste0('<p class="text-muted">',asterik, datetime,' UTC</p>'),"docs/footer_content.html")
 }

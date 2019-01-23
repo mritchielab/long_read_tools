@@ -13,7 +13,7 @@ tidy_swsheet_tech <- function(swsheet) {
   
   tidyr::gather(swsheet, key = 'Technology', value = 'Val',
                 OxfordNanopore,	PacBio,	tenxGenomics,
-                Illumina,	BionanoGenomics,	HiC) %>%
+                BionanoGenomics,	HiC) %>%
     dplyr::filter(Val == TRUE) %>%
     dplyr::select(-Val) %>%
     dplyr::arrange(Name)

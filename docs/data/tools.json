@@ -9,7 +9,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -41,7 +40,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -60,7 +58,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -91,7 +88,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -101,12 +97,12 @@
           "DOI": "10.12688/f1000research.10571.2",
           "PubDate": "2017-06-19",
           "Preprint": false,
-          "Citations": 35
+          "Citations": 36
         }
       ],
       "Preprints": []
     },
-    "Citations": 35,
+    "Citations": 36,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-06-19"],
@@ -125,7 +121,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": true,
     "HiC": true,
     "Refs": {
@@ -135,16 +130,16 @@
           "DOI": "10.1073/pnas.1017351108",
           "PubDate": "2010-12-28",
           "Preprint": false,
-          "Citations": 807
+          "Citations": 810
         }
       ],
       "Preprints": []
     },
-    "Citations": 807,
+    "Citations": 810,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2010-12-28"],
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "BionanoGenomics", "HiC"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["DenovoAssembly"]
   },
   {
@@ -156,7 +151,6 @@
     "OxfordNanopore": false,
     "PacBio": false,
     "tenxGenomics": true,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -189,7 +183,6 @@
     "OxfordNanopore": false,
     "PacBio": false,
     "tenxGenomics": true,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -220,7 +213,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -239,7 +231,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -270,7 +261,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -293,7 +283,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -306,13 +295,12 @@
     "Categories": ["EvaluatingExisitingMethods"]
   },
   {
-    "Name": "basecRAWller*",
+    "Name": "basecRAWller",
     "DOIs": "10.1101/133058",
-    "Description": "Basecaller for Nanopore, now deprecated",
+    "Description": "DEPRECIATED:: Basecaller for Nanopore",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -342,7 +330,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -362,7 +349,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -381,7 +367,6 @@
     "OxfordNanopore": false,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": true,
     "HiC": false,
     "Refs": {
@@ -401,7 +386,6 @@
     "OxfordNanopore": false,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": true,
     "HiC": false,
     "Refs": {
@@ -422,7 +406,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -442,7 +425,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -472,7 +454,6 @@
     "OxfordNanopore": false,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": true,
     "HiC": false,
     "Refs": {
@@ -493,7 +474,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -524,7 +504,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -535,7 +514,7 @@
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["Visualisation", "TestedOnNonHumanData", "Metagenomics"]
   },
   {
@@ -548,18 +527,17 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
       "Publications": [],
       "Preprints": []
     },
-    "Citations": 3037,
+    "Citations": 3040,
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics"],
     "Categories": ["Alignment"]
   },
   {
@@ -570,7 +548,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -592,7 +569,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -602,12 +578,12 @@
           "DOI": "10.1101/gr.215087.116",
           "PubDate": "2017-03-16",
           "Preprint": false,
-          "Citations": 359
+          "Citations": 362
         }
       ],
       "Preprints": []
     },
-    "Citations": 359,
+    "Citations": 362,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-03-16"],
@@ -625,7 +601,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -650,7 +625,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -662,17 +636,16 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Github": "infphilo/centrifuge",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics"]
   },
   {
-    "Name": "Cerulean*",
-    "Description": "Hybrid assembler",
+    "Name": "Cerulean",
+    "Description": "DEPRECIATED::Hybrid assembler",
     "Code": "https://sourceforge.net/projects/ceruleanassembler",
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -680,7 +653,7 @@
       "Preprints": [null]
     },
     "PubDates": [null],
-    "Technologies": ["PacBio", "Illumina"],
+    "Technologies": ["PacBio"],
     "Categories": ["DenovoAssembly", "GeneratingConsensusSequence", "TestedOnNonHumanData"]
   },
   {
@@ -693,7 +666,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -727,7 +699,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": true,
     "HiC": true,
     "Refs": {
@@ -748,7 +719,7 @@
     "PubDates": ["2015-12-29"],
     "Github": "sangerpathogens/circlator",
     "PyPI": "circlator",
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "BionanoGenomics", "HiC"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["DenovoAssembly", "TestedOnHumanData", "TestedOnNonHumanData"]
   },
   {
@@ -760,7 +731,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -783,7 +753,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -807,7 +776,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -831,7 +799,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -860,7 +827,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -892,7 +858,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -924,7 +889,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -956,7 +920,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -989,7 +952,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1013,7 +975,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1035,7 +996,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1066,7 +1026,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1085,7 +1044,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1117,7 +1075,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1127,12 +1084,12 @@
           "DOI": "10.1093/bioinformatics/bty223",
           "PubDate": "2018-04-04",
           "Preprint": false,
-          "Citations": 2
+          "Citations": 3
         }
       ],
       "Preprints": []
     },
-    "Citations": 2,
+    "Citations": 3,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-04-04"],
@@ -1147,7 +1104,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1168,7 +1124,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1199,7 +1154,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1209,18 +1163,50 @@
           "DOI": "10.1038/nmeth.3444",
           "PubDate": "2015-06-15",
           "Preprint": false,
-          "Citations": 210
+          "Citations": 211
         }
       ],
       "Preprints": []
     },
-    "Citations": 210,
+    "Citations": 211,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-06-15"],
     "Github": "jts/nanopore-paper-analysis",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["AnalysisPipelines"]
+  },
+  {
+    "Name": "EpiNano",
+    "DOIs": "10.1101/525741",
+    "Platform": "Python",
+    "Description": "Detection of RNA modifications from Oxford Nanopore direct RNA sequencing reads",
+    "Code": "https://github.com/enovoa/EpiNano",
+    "License": "GNU General Public License v2.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Accurate detection of m6A RNA modifications in native RNA sequences",
+          "DOI": "10.1101/525741",
+          "PubDate": "2019-01-21",
+          "Preprint": false,
+          "Citations": 0
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 0,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2019-01-21"],
+    "Github": "enovoa/EpiNano",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseModificationDetection"]
   },
   {
     "Name": "F5c",
@@ -1230,7 +1216,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1252,7 +1237,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1262,12 +1246,12 @@
           "DOI": "10.1038/nmeth.4035",
           "PubDate": "2016-10-17",
           "Preprint": false,
-          "Citations": 157
+          "Citations": 159
         }
       ],
       "Preprints": []
     },
-    "Citations": 157,
+    "Citations": 159,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-10-17"],
@@ -1284,7 +1268,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": true,
     "Refs": {
@@ -1306,7 +1289,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1318,7 +1300,7 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Github": "adigenova/fast-sg",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["DenovoAssembly", "GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "TestedOnHumanData", "AvailablityOfTestData"]
   },
   {
@@ -1330,7 +1312,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": true,
     "HiC": true,
     "Refs": {
@@ -1338,7 +1319,7 @@
       "Preprints": [null]
     },
     "PubDates": [null],
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "BionanoGenomics", "HiC"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["QualityChecking", "ProvideSummaryStatistics"]
   },
   {
@@ -1349,7 +1330,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1369,7 +1349,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1378,7 +1357,7 @@
     },
     "PubDates": [null],
     "Github": "BrooksLabUCSC/flair",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "IsoformDetection", "TestedOnHumanData", "TestedOnNonHumanData", "AvailablityOfTestData", "GeneExpressionAnalysis"]
   },
   {
@@ -1389,7 +1368,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1411,7 +1389,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": true,
     "HiC": true,
     "Refs": {
@@ -1431,7 +1408,7 @@
     "Preprints": 0,
     "PubDates": ["2016-12-13"],
     "Github": "fenderglass/Flye",
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "BionanoGenomics", "HiC"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["DenovoAssembly", "ErrorCorrectionAndPolishing"]
   },
   {
@@ -1444,7 +1421,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1456,7 +1432,7 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Github": "holtjma/fmlrc",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["ErrorCorrectionAndPolishing"]
   },
   {
@@ -1468,7 +1444,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1477,7 +1452,7 @@
     },
     "PubDates": [null],
     "Github": "ekg/freebayes",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["SNPAndVariantAnalysis"]
   },
   {
@@ -1488,7 +1463,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1498,12 +1472,12 @@
           "DOI": "10.1093/bioinformatics/bti310",
           "PubDate": "2005-02-23",
           "Preprint": false,
-          "Citations": 647
+          "Citations": 649
         }
       ],
       "Preprints": []
     },
-    "Citations": 647,
+    "Citations": 649,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2005-02-23"],
@@ -1520,7 +1494,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1542,7 +1515,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1562,7 +1534,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1574,7 +1545,7 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Github": "lanl001/halc",
-    "Technologies": ["PacBio", "Illumina"],
+    "Technologies": ["PacBio"],
     "Categories": ["DenovoAssembly", "GeneratingConsensusSequence", "TestedOnNonHumanData", "AvailablityOfTestData"]
   },
   {
@@ -1587,7 +1558,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": true,
     "Refs": {
@@ -1599,7 +1569,7 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Github": "vibansal/HapCUT2",
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "HiC"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "HiC"],
     "Categories": ["SNPAndVariantAnalysis", "TestedOnHumanData", "AvailablityOfTestData"]
   },
   {
@@ -1612,7 +1582,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1644,7 +1613,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1656,7 +1624,7 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Github": "NDBL/HECIL",
-    "Technologies": ["PacBio", "Illumina"],
+    "Technologies": ["PacBio"],
     "Categories": ["ErrorCorrectionAndPolishing", "TestedOnNonHumanData", "AvailablityOfTestData"]
   },
   {
@@ -1668,7 +1636,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1678,12 +1645,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-03",
           "Preprint": false,
-          "Citations": 1425
+          "Citations": 1427
         }
       ],
       "Preprints": []
     },
-    "Citations": 1425,
+    "Citations": 1427,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-03"],
@@ -1701,7 +1668,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": true,
     "HiC": true,
     "Refs": {
@@ -1721,7 +1687,7 @@
     "Preprints": 0,
     "PubDates": ["2017-03-21"],
     "Github": "HingeAssembler/HINGE",
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "BionanoGenomics", "HiC"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["LongReadOverlapping", "DenovoAssembly", "GeneratingConsensusSequence"]
   },
   {
@@ -1734,7 +1700,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1746,7 +1711,7 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Github": "DiltheyLab/HLA-PRG-LA",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["SNPAndVariantAnalysis", "TestedOnHumanData", "AvailablityOfTestData", "AnalysisPipelines"]
   },
   {
@@ -1759,7 +1724,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1783,7 +1747,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1794,7 +1757,7 @@
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
-    "Technologies": ["PacBio", "Illumina"],
+    "Technologies": ["PacBio"],
     "Categories": ["ErrorCorrectionAndPolishing", "IsoformDetection", "TestedOnHumanData", "GeneExpressionAnalysis"]
   },
   {
@@ -1807,7 +1770,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1839,7 +1801,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1862,7 +1823,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1888,7 +1848,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1921,7 +1880,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1942,7 +1900,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1964,7 +1921,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -1975,7 +1931,7 @@
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics"]
   },
   {
@@ -1988,7 +1944,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": true,
     "Refs": {
@@ -1999,7 +1954,7 @@
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "HiC"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "HiC"],
     "Categories": ["TestedOnNonHumanData", "Metagenomics"]
   },
   {
@@ -2012,7 +1967,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2044,7 +1998,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2067,7 +2020,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2088,7 +2040,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2108,7 +2059,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2129,7 +2079,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2150,7 +2099,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2174,7 +2122,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2196,7 +2143,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2220,7 +2166,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2253,7 +2198,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2277,15 +2221,14 @@
     "Categories": ["TestedOnNonHumanData", "GeneExpressionAnalysis"]
   },
   {
-    "Name": "loresim*",
+    "Name": "loresim",
     "Platform": "C++",
-    "Description": "Long read simulator",
+    "Description": "NOT-MAINTAINED::Long read simulator",
     "Code": "https://github.com/gt1/loresim",
     "License": "GNU General Public License v3.0",
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2306,7 +2249,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2327,7 +2269,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2358,7 +2299,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2370,7 +2310,7 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Github": "yjx1217/LRSDAY",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["DenovoAssembly", "GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "SNPAndVariantAnalysis", "TestedOnNonHumanData", "AnalysisPipelines"]
   },
   {
@@ -2382,7 +2322,6 @@
     "OxfordNanopore": false,
     "PacBio": false,
     "tenxGenomics": true,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2403,7 +2342,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2425,7 +2363,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2448,7 +2385,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2481,7 +2417,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2491,12 +2426,12 @@
           "DOI": "10.1038/nmeth.3290",
           "PubDate": "2015-02-16",
           "Preprint": false,
-          "Citations": 221
+          "Citations": 222
         }
       ],
       "Preprints": []
     },
-    "Citations": 221,
+    "Citations": 222,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-02-16"],
@@ -2515,7 +2450,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2548,7 +2482,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2581,7 +2514,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2593,7 +2525,7 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Github": "marbl/mash",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["TestedOnNonHumanData", "Metagenomics"]
   },
   {
@@ -2605,7 +2537,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2630,19 +2561,18 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
       "Publications": [],
       "Preprints": []
     },
-    "Citations": 237,
+    "Citations": 238,
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
     "Github": "alekseyzimin/masurca",
-    "Technologies": ["OxfordNanopore", "Illumina"],
+    "Technologies": ["OxfordNanopore"],
     "Categories": ["DenovoAssembly"]
   },
   {
@@ -2650,11 +2580,10 @@
     "DOIs": "10.1101/127100",
     "Platform": "Python",
     "Description": "A binary classifier to improve bacterial base modification N6-methyladenine (m6a) classification by marking adenines as methylated or unmethylated based on differences between measured and expected current values as each adenine travels through the nanopore.",
-    "Code": "https://github.com/almcintyre/mCaller",
+    "Code": "https://github.com/al-mcintyre/mCaller",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2673,7 +2602,7 @@
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-04-14"],
-    "Github": "almcintyre/mCaller",
+    "Github": "al-mcintyre/mCaller",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["BaseModificationDetection"]
   },
@@ -2687,7 +2616,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2719,7 +2647,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2739,7 +2666,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2761,7 +2687,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2784,7 +2709,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2805,7 +2729,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2825,7 +2748,7 @@
     "Preprints": 0,
     "PubDates": ["2015-04-11"],
     "Github": "bioinform/metasv",
-    "Technologies": ["OxfordNanopore", "Illumina"],
+    "Technologies": ["OxfordNanopore"],
     "Categories": ["IsoformDetection"]
   },
   {
@@ -2837,7 +2760,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2859,7 +2781,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2869,12 +2790,12 @@
           "DOI": "10.1038/nbt.3238",
           "PubDate": "2015-05-25",
           "Preprint": false,
-          "Citations": 306
+          "Citations": 307
         }
       ],
       "Preprints": []
     },
-    "Citations": 306,
+    "Citations": 307,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-05-25"],
@@ -2891,7 +2812,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2913,7 +2833,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2945,7 +2864,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2978,7 +2896,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -2998,7 +2915,7 @@
     "Preprints": 0,
     "PubDates": ["2018-05-04"],
     "Github": "lh3/minimap2",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["LongReadOverlapping", "Alignment"]
   },
   {
@@ -3009,7 +2926,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3031,7 +2947,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3064,7 +2979,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3093,7 +3007,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3112,7 +3025,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3133,7 +3045,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3154,7 +3065,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3185,7 +3095,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3206,7 +3115,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3228,7 +3136,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3261,7 +3168,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3277,16 +3183,15 @@
     "Categories": ["Alignment", "TestedOnNonHumanData"]
   },
   {
-    "Name": "Nanocall*",
+    "Name": "Nanocall",
     "DOIs": "10.1093/bioinformatics/btw569",
     "Platform": "C++",
-    "Description": "Basecaller for Nanopore. Uses events rather than raw signal and less accurate on chemistries newer than R7.3",
+    "Description": "DEPRECIATED::Basecaller for Nanopore. Uses events rather than raw signal and less accurate on chemistries newer than R7.3",
     "Code": "https://github.com/mateidavid/nanocall",
     "License": "MIT",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3311,7 +3216,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3345,7 +3249,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3369,16 +3272,15 @@
     "Categories": ["ErrorCorrectionAndPolishing"]
   },
   {
-    "Name": "Nanocorrect*",
+    "Name": "Nanocorrect",
     "DOIs": "10.1038/nmeth.3444",
     "Platform": "Python",
-    "Description": "A simple error correction method inspired by pbdagcon. Quite slow and other methods have superseded the capability of this tool. Hence, it was deprecated.",
+    "Description": "DEPRECIATED::A simple error correction method inspired by pbdagcon. Quite slow and other methods have superseded the capability of this tool. Hence, it was deprecated.",
     "Code": "https://github.com/jts/nanocorrect",
     "License": "MIT",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3388,12 +3290,12 @@
           "DOI": "10.1038/nmeth.3444",
           "PubDate": "2015-06-15",
           "Preprint": false,
-          "Citations": 210
+          "Citations": 211
         }
       ],
       "Preprints": []
     },
-    "Citations": 210,
+    "Citations": 211,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-06-15"],
@@ -3410,7 +3312,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3432,7 +3333,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3464,7 +3364,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3485,7 +3384,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3506,7 +3404,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3527,7 +3424,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3540,6 +3436,26 @@
     "Categories": ["QualityFiltering"]
   },
   {
+    "Name": "nanomod",
+    "Platform": "Python",
+    "Description": "NOT-MAINTAINED::Detection of base modifications in ONT data",
+    "Code": "https://github.com/scottgigante/nanomod",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "scottgigante/nanomod",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseModificationDetection", "TestedOnNonHumanData"]
+  },
+  {
     "Name": "NanoMod",
     "DOIs": "10.1101/277178",
     "Platform": "Python",
@@ -3549,7 +3465,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3573,36 +3488,14 @@
     "Categories": ["BaseModificationDetection", "TestedOnNonHumanData"]
   },
   {
-    "Name": "nanomod*",
-    "Platform": "Python",
-    "Description": "Detection of base modifications in ONT data",
-    "Code": "https://github.com/scottgigante/nanomod",
-    "License": "GNU General Public License v3.0",
-    "OxfordNanopore": true,
-    "PacBio": false,
-    "tenxGenomics": false,
-    "Illumina": false,
-    "BionanoGenomics": false,
-    "HiC": false,
-    "Refs": {
-      "Publications": [null],
-      "Preprints": [null]
-    },
-    "PubDates": [null],
-    "Github": "scottgigante/nanomod",
-    "Technologies": ["OxfordNanopore"],
-    "Categories": ["BaseModificationDetection", "TestedOnNonHumanData"]
-  },
-  {
-    "Name": "Nanonet*",
+    "Name": "Nanonet",
     "Platform": "C++",
-    "Description": "first generation RNN basecaller from ONT",
+    "Description": "DEPRECIATED::first generation RNN basecaller from ONT",
     "Code": "https://github.com/ProgramFiles/nanonet",
     "License": "Mozilla Public License Version 2.0",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3624,7 +3517,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3656,7 +3548,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3688,7 +3579,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3709,7 +3599,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3742,7 +3631,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3776,7 +3664,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3808,7 +3695,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3829,7 +3715,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3850,7 +3735,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3873,7 +3757,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3897,16 +3780,15 @@
     "Categories": ["QualityChecking", "ProvideSummaryStatistics", "AvailablityOfTestData", "QualityFiltering"]
   },
   {
-    "Name": "nanoraw*",
+    "Name": "nanoraw",
     "DOIs": "10.1101/094672",
     "Platform": "Python",
-    "Description": "The first algorithm for the identification of modified nucleotides without the need for prior training data along with the open source software implementation. Now superseded by Tombo.",
+    "Description": "DEPRECIATED::The first algorithm for the identification of modified nucleotides without the need for prior training data along with the open source software implementation. Now superseded by Tombo.",
     "Code": "https://github.com/marcus1487/nanoraw",
     "License": "Copyright (c) 2016, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy).  All rights reserved.",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3926,6 +3808,7 @@
     "Preprints": 0,
     "PubDates": ["2016-12-16"],
     "Github": "marcus1487/nanoraw",
+    "PyPI": "nanoraw",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["BaseModificationDetection"]
   },
@@ -3939,7 +3822,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3971,7 +3853,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -3993,7 +3874,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4017,7 +3897,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4039,7 +3918,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4061,7 +3939,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4094,7 +3971,6 @@
     "OxfordNanopore": false,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": true,
     "HiC": false,
     "Refs": {
@@ -4114,7 +3990,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4136,7 +4011,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4169,7 +4043,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4192,7 +4065,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4216,7 +4088,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4236,7 +4107,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4257,7 +4127,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4289,7 +4158,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4298,7 +4166,7 @@
     },
     "PubDates": [null],
     "Github": "karel-brinda/ococo",
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics"],
     "Categories": ["GeneratingConsensusSequence", "SNPAndVariantAnalysis", "ProvideSummaryStatistics"]
   },
   {
@@ -4311,7 +4179,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4331,7 +4198,7 @@
     "Preprints": 0,
     "PubDates": ["2015-09-25"],
     "Github": "onecodex/onecodex",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics"]
   },
   {
@@ -4342,7 +4209,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4351,7 +4217,7 @@
     },
     "PubDates": [null],
     "Github": "nanoporetech/ont-assembly-polish",
-    "Technologies": ["OxfordNanopore", "Illumina"],
+    "Technologies": ["OxfordNanopore"],
     "Categories": ["LongReadOverlapping", "DenovoAssembly", "GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "TestedOnNonHumanData", "AnalysisPipelines"]
   },
   {
@@ -4362,7 +4228,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4384,7 +4249,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4405,7 +4269,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4424,7 +4287,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4437,15 +4299,14 @@
     "Categories": ["Alignment", "ErrorCorrectionAndPolishing", "IsoformDetection", "SNPAndVariantAnalysis"]
   },
   {
-    "Name": "PBcR*",
+    "Name": "PBcR",
     "DOIs": "10.1038/nbt.3238",
-    "Description": "A correction algorithm and assembly strategy that uses short, high-fidelity sequences to correct the error in single-molecule sequences.",
+    "Description": "NOT-MAINTAINED::A correction algorithm and assembly strategy that uses short, high-fidelity sequences to correct the error in single-molecule sequences.",
     "Code": "http://wgsassembler.sourceforge.net",
     "License": "GNU General Public License v2.0",
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4455,12 +4316,12 @@
           "DOI": "10.1038/nbt.3238",
           "PubDate": "2015-05-25",
           "Preprint": false,
-          "Citations": 306
+          "Citations": 307
         }
       ],
       "Preprints": []
     },
-    "Citations": 306,
+    "Citations": 307,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-05-25"],
@@ -4477,7 +4338,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4487,12 +4347,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-03",
           "Preprint": false,
-          "Citations": 1425
+          "Citations": 1427
         }
       ],
       "Preprints": []
     },
-    "Citations": 1425,
+    "Citations": 1427,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-03"],
@@ -4509,7 +4369,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4541,7 +4400,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4563,7 +4421,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4584,7 +4441,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4605,7 +4461,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4629,7 +4484,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4651,7 +4505,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4682,7 +4535,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4702,7 +4554,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4715,16 +4566,15 @@
     "Categories": ["SNPAndVariantAnalysis"]
   },
   {
-    "Name": "Picky*",
+    "Name": "Picky",
     "DOIs": "10.1038/s41592-018-0002-6",
     "Platform": "Perl",
-    "Description": "Structural variant pipeline for long reads",
+    "Description": "NOT-MAINTAINED::Structural variant pipeline for long reads",
     "Code": "https://github.com/TheJacksonLaboratory/Picky",
     "License": "Jackson Laboratory Non-Commercial License",
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4746,10 +4596,9 @@
     "Description": "Improving draft assemblies and find variants among strains",
     "Code": "https://github.com/broadinstitute/pilon",
     "License": "GNU General Public License v2.0",
-    "OxfordNanopore": false,
-    "PacBio": false,
+    "OxfordNanopore": true,
+    "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4759,17 +4608,17 @@
           "DOI": "10.1371/journal.pone.0112963",
           "PubDate": "2014-11-20",
           "Preprint": false,
-          "Citations": 552
+          "Citations": 554
         }
       ],
       "Preprints": []
     },
-    "Citations": 552,
+    "Citations": 554,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-11-20"],
     "Github": "broadinstitute/pilon",
-    "Technologies": ["Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["ErrorCorrectionAndPolishing", "SNPAndVariantAnalysis"]
   },
   {
@@ -4781,7 +4630,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4802,7 +4650,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4823,7 +4670,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4844,7 +4690,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4865,7 +4710,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4885,7 +4729,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4917,7 +4760,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4932,14 +4774,13 @@
     "Categories": ["QualityChecking", "Visualisation", "ProvideSummaryStatistics"]
   },
   {
-    "Name": "Porechop*",
+    "Name": "Porechop",
     "Platform": "C++",
-    "Description": "Remove adapters through alignments",
+    "Description": "NOT-MAINTAINED::Remove adapters through alignments",
     "Code": "https://github.com/rrwick/Porechop",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4959,7 +4800,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -4979,7 +4819,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5000,7 +4839,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5020,7 +4858,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5042,7 +4879,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5074,7 +4910,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5095,7 +4930,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5116,7 +4950,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5148,7 +4981,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5180,7 +5012,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5211,7 +5042,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5235,18 +5065,17 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": true,
     "Refs": {
       "Publications": [],
       "Preprints": []
     },
-    "Citations": 1365,
+    "Citations": 1366,
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "HiC"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "HiC"],
     "Categories": ["QualityChecking", "QualityTrimming"]
   },
   {
@@ -5258,7 +5087,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5270,7 +5098,7 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Github": "BioInf-Wuerzburg/proovread",
-    "Technologies": ["PacBio", "Illumina"],
+    "Technologies": ["PacBio"],
     "Categories": ["ErrorCorrectionAndPolishing"]
   },
   {
@@ -5282,7 +5110,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5303,7 +5130,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5325,7 +5151,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5347,7 +5172,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5380,7 +5204,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5412,7 +5235,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5432,7 +5254,7 @@
     "Preprints": 0,
     "PubDates": ["2016-07-25"],
     "Github": "mahulchak/quickmerge",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "TestedOnNonHumanData"]
   },
   {
@@ -5445,7 +5267,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5477,7 +5298,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5499,14 +5319,13 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
       "Publications": [],
       "Preprints": []
     },
-    "Citations": 57,
+    "Citations": 58,
     "Publications": 0,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -5523,7 +5342,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": true,
     "Refs": {
@@ -5532,18 +5350,17 @@
     },
     "PubDates": [null],
     "Github": "malonge/RaGOO",
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "HiC"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "HiC"],
     "Categories": ["DenovoAssembly"]
   },
   {
-    "Name": "ReadSim*",
+    "Name": "ReadSim",
     "Platform": "Python",
-    "Description": "Read simulator for PacBio and ONT",
+    "Description": "NOT-MAINTAINED::Read simulator for PacBio and ONT",
     "Code": "https://sourceforge.net/projects/readsim/",
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5562,7 +5379,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5593,7 +5409,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5614,7 +5429,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5623,7 +5437,7 @@
     },
     "PubDates": [null],
     "Github": "edawson/rkmh",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["Metagenomics"]
   },
   {
@@ -5635,7 +5449,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": true,
     "HiC": true,
     "Refs": {
@@ -5647,7 +5460,7 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Github": "kkrizanovic/RNAseqEval",
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "BionanoGenomics", "HiC"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["EvaluatingExisitingMethods", "QualityChecking", "ProvideSummaryStatistics"]
   },
   {
@@ -5659,7 +5472,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5668,7 +5480,7 @@
     },
     "PubDates": [null],
     "Github": "galantelab/sandy",
-    "Technologies": ["OxfordNanopore", "PacBio", "Illumina"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["QualityFiltering"]
   },
   {
@@ -5680,7 +5492,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5701,7 +5512,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5723,7 +5533,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5744,7 +5553,6 @@
     "OxfordNanopore": false,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": true,
     "HiC": false,
     "Refs": {
@@ -5764,7 +5572,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5786,7 +5593,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5796,12 +5602,12 @@
           "DOI": "10.1038/nmeth.4189",
           "PubDate": "2017-02-21",
           "Preprint": false,
-          "Citations": 57
+          "Citations": 58
         }
       ],
       "Preprints": []
     },
-    "Citations": 57,
+    "Citations": 58,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-02-21"],
@@ -5819,7 +5625,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5840,7 +5645,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": true,
     "HiC": true,
     "Refs": {
@@ -5850,17 +5654,17 @@
           "DOI": "10.1016/0022-2836(70)90057-4",
           "PubDate": "2005-02-10",
           "Preprint": false,
-          "Citations": 4518
+          "Citations": 4533
         }
       ],
       "Preprints": []
     },
-    "Citations": 4518,
+    "Citations": 4533,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2005-02-10"],
     "Github": "ruanjue/smartdenovo",
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "BionanoGenomics", "HiC"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["DenovoAssembly", "GeneratingConsensusSequence"]
   },
   {
@@ -5872,7 +5676,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5894,7 +5697,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5917,7 +5719,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5949,7 +5750,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -5982,7 +5782,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": true,
-    "Illumina": true,
     "BionanoGenomics": true,
     "HiC": true,
     "Refs": {
@@ -5992,16 +5791,16 @@
           "DOI": "10.1089/cmb.2012.0021",
           "PubDate": "2012-04-16",
           "Preprint": false,
-          "Citations": 3814
+          "Citations": 3817
         }
       ],
       "Preprints": []
     },
-    "Citations": 3814,
+    "Citations": 3817,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2012-04-16"],
-    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "Illumina", "BionanoGenomics", "HiC"],
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["DenovoAssembly", "SuitableForSingleCellExperiments"]
   },
   {
@@ -6014,7 +5813,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6039,7 +5837,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6055,15 +5852,14 @@
     "Categories": ["QualityChecking", "ProvideSummaryStatistics", "QualityTrimming", "GeneExpressionAnalysis", "QualityFiltering"]
   },
   {
-    "Name": "squiggler*",
+    "Name": "squiggler",
     "Platform": "Python",
-    "Description": "Analyse ONT MinION data in squiggle space. Superseded by other tools.",
+    "Description": "DEPRECIATED::Analyse ONT MinION data in squiggle space. Superseded by other tools.",
     "Code": "https://github.com/JohnUrban/squiggler",
     "License": "MIT",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6084,7 +5880,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6105,7 +5900,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6126,7 +5920,6 @@
     "OxfordNanopore": false,
     "PacBio": false,
     "tenxGenomics": true,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6146,7 +5939,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6166,7 +5958,7 @@
     "Preprints": 0,
     "PubDates": ["2017-01-24"],
     "Github": "fritzsedlazeck/SURVIVOR",
-    "Technologies": ["OxfordNanopore", "Illumina"],
+    "Technologies": ["OxfordNanopore"],
     "Categories": ["IsoformDetection"]
   },
   {
@@ -6178,7 +5970,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6200,7 +5991,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6222,7 +6012,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6244,7 +6033,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6276,7 +6064,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6307,7 +6094,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6328,7 +6114,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6359,7 +6144,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6380,7 +6164,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6402,7 +6185,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6426,7 +6208,6 @@
     "OxfordNanopore": false,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6448,7 +6229,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6468,7 +6248,7 @@
     "Preprints": 0,
     "PubDates": ["2017-06-08"],
     "Github": "rrwick/unicycler",
-    "Technologies": ["OxfordNanopore", "Illumina"],
+    "Technologies": ["OxfordNanopore"],
     "Categories": ["DenovoAssembly", "TestedOnHumanData", "TestedOnNonHumanData"]
   },
   {
@@ -6478,7 +6258,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": true,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6497,7 +6276,7 @@
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-06-12"],
-    "Technologies": ["OxfordNanopore", "Illumina"],
+    "Technologies": ["OxfordNanopore"],
     "Categories": ["TestedOnNonHumanData", "AnalysisPipelines", "Metagenomics"]
   },
   {
@@ -6507,7 +6286,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6536,7 +6314,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6567,7 +6344,6 @@
     "OxfordNanopore": true,
     "PacBio": true,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
@@ -6587,7 +6363,6 @@
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
-    "Illumina": false,
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {

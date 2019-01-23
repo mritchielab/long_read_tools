@@ -4,7 +4,7 @@
     "Tools": [
       {
         "Name": "ALLPATHS-LG",
-        "Citations": 807,
+        "Citations": 810,
         "Publications": 1
       },
       {
@@ -48,12 +48,12 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4518,
+        "Citations": 4533,
         "Publications": 1
       },
       {
         "Name": "SPAdes",
-        "Citations": 3814,
+        "Citations": 3817,
         "Publications": 1
       }
     ]
@@ -63,7 +63,7 @@
     "Tools": [
       {
         "Name": "ALLPATHS-LG",
-        "Citations": 807,
+        "Citations": 810,
         "Publications": 1
       },
       {
@@ -100,7 +100,7 @@
       },
       {
         "Name": "PRINSEQ",
-        "Citations": 1365,
+        "Citations": 1366,
         "Publications": 0
       },
       {
@@ -113,208 +113,12 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4518,
+        "Citations": 4533,
         "Publications": 1
       },
       {
         "Name": "SPAdes",
-        "Citations": 3814,
-        "Publications": 1
-      }
-    ]
-  },
-  {
-    "Technology": "Illumina",
-    "Tools": [
-      {
-        "Name": "ALLPATHS-LG",
-        "Citations": 807,
-        "Publications": 1
-      },
-      {
-        "Name": "BusyBee",
-        "Citations": 2,
-        "Publications": 0
-      },
-      {
-        "Name": "bwa-sw",
-        "Citations": 3037,
-        "Publications": 0
-      },
-      {
-        "Name": "Centrifuge",
-        "Citations": 67,
-        "Publications": 0
-      },
-      {
-        "Name": "Cerulean*"
-      },
-      {
-        "Name": "Circlator",
-        "Citations": 125,
-        "Publications": 1,
-        "PyPI": "circlator"
-      },
-      {
-        "Name": "Fast-SG",
-        "Citations": 1,
-        "Publications": 0
-      },
-      {
-        "Name": "FastQC"
-      },
-      {
-        "Name": "FASTQSim"
-      },
-      {
-        "Name": "FLAIR"
-      },
-      {
-        "Name": "Flye",
-        "Citations": 19,
-        "Publications": 1
-      },
-      {
-        "Name": "FMLRC",
-        "Citations": 0,
-        "Publications": 0
-      },
-      {
-        "Name": "FreeBayes"
-      },
-      {
-        "Name": "HALC",
-        "Citations": 6,
-        "Publications": 0
-      },
-      {
-        "Name": "HapCUT2",
-        "Citations": 22,
-        "Publications": 0
-      },
-      {
-        "Name": "HECIL",
-        "Citations": 0,
-        "Publications": 0
-      },
-      {
-        "Name": "Hinge",
-        "Citations": 14,
-        "Publications": 1
-      },
-      {
-        "Name": "HLA-PRG-LA",
-        "Citations": 16,
-        "Publications": 0
-      },
-      {
-        "Name": "IDP",
-        "Citations": 103,
-        "Publications": 0
-      },
-      {
-        "Name": "Kaiju",
-        "Citations": 99,
-        "Publications": 0
-      },
-      {
-        "Name": "Kraken",
-        "Citations": 616,
-        "Publications": 0
-      },
-      {
-        "Name": "LRSDAY",
-        "Citations": 0,
-        "Publications": 0
-      },
-      {
-        "Name": "Mash",
-        "Citations": 152,
-        "Publications": 0
-      },
-      {
-        "Name": "MaSuRCA",
-        "Citations": 237,
-        "Publications": 0
-      },
-      {
-        "Name": "MetaSV",
-        "Citations": 27,
-        "Publications": 1
-      },
-      {
-        "Name": "minimap2",
-        "Citations": 31,
-        "Publications": 1
-      },
-      {
-        "Name": "Ococo"
-      },
-      {
-        "Name": "One-Codex",
-        "Citations": 17,
-        "Publications": 1
-      },
-      {
-        "Name": "ont-assembly-polish"
-      },
-      {
-        "Name": "Pilon",
-        "Citations": 552,
-        "Publications": 1
-      },
-      {
-        "Name": "PRINSEQ",
-        "Citations": 1365,
-        "Publications": 0
-      },
-      {
-        "Name": "proovread",
-        "Citations": 103,
-        "Publications": 0
-      },
-      {
-        "Name": "quickmerge",
-        "Citations": 10,
-        "Publications": 1
-      },
-      {
-        "Name": "RaGOO"
-      },
-      {
-        "Name": "rkmh"
-      },
-      {
-        "Name": "RNAseqEval",
-        "Citations": 4,
-        "Publications": 0
-      },
-      {
-        "Name": "sandy"
-      },
-      {
-        "Name": "SMARTdenovo",
-        "Citations": 4518,
-        "Publications": 1
-      },
-      {
-        "Name": "SPAdes",
-        "Citations": 3814,
-        "Publications": 1
-      },
-      {
-        "Name": "SURVIVOR",
-        "Citations": 18,
-        "Publications": 1
-      },
-      {
-        "Name": "Unicycler",
-        "Citations": 125,
-        "Publications": 1
-      },
-      {
-        "Name": "VirION",
-        "Citations": 0,
+        "Citations": 3817,
         "Publications": 1
       }
     ]
@@ -337,13 +141,13 @@
       },
       {
         "Name": "AlignQC",
-        "Citations": 35,
+        "Citations": 36,
         "Publications": 1,
         "PyPI": "AlignQC"
       },
       {
         "Name": "ALLPATHS-LG",
-        "Citations": 807,
+        "Citations": 810,
         "Publications": 1
       },
       {
@@ -360,7 +164,7 @@
         "Name": "Basecaller_comparisons"
       },
       {
-        "Name": "basecRAWller*",
+        "Name": "basecRAWller",
         "Citations": 3,
         "Publications": 1
       },
@@ -384,7 +188,7 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 3037,
+        "Citations": 3040,
         "Publications": 0
       },
       {
@@ -392,7 +196,7 @@
       },
       {
         "Name": "Canu",
-        "Citations": 359,
+        "Citations": 362,
         "Publications": 1
       },
       {
@@ -476,7 +280,7 @@
       },
       {
         "Name": "DeepSimulator",
-        "Citations": 2,
+        "Citations": 3,
         "Publications": 1
       },
       {
@@ -489,7 +293,12 @@
       },
       {
         "Name": "Ecoli_assembly_pipeline",
-        "Citations": 210,
+        "Citations": 211,
+        "Publications": 1
+      },
+      {
+        "Name": "EpiNano",
+        "Citations": 0,
         "Publications": 1
       },
       {
@@ -533,7 +342,7 @@
       },
       {
         "Name": "Gmap",
-        "Citations": 647,
+        "Citations": 649,
         "Publications": 1
       },
       {
@@ -641,7 +450,7 @@
         "Publications": 1
       },
       {
-        "Name": "loresim*"
+        "Name": "loresim"
       },
       {
         "Name": "loresim2"
@@ -663,7 +472,7 @@
       },
       {
         "Name": "marginAlign",
-        "Citations": 221,
+        "Citations": 222,
         "Publications": 1,
         "PyPI": "marginAlign"
       },
@@ -684,7 +493,7 @@
       },
       {
         "Name": "MaSuRCA",
-        "Citations": 237,
+        "Citations": 238,
         "Publications": 0
       },
       {
@@ -725,7 +534,7 @@
       },
       {
         "Name": "MHAP",
-        "Citations": 306,
+        "Citations": 307,
         "Publications": 1
       },
       {
@@ -788,7 +597,7 @@
         "Publications": 0
       },
       {
-        "Name": "Nanocall*",
+        "Name": "Nanocall",
         "Citations": 28,
         "Publications": 0
       },
@@ -804,8 +613,8 @@
         "Publications": 1
       },
       {
-        "Name": "Nanocorrect*",
-        "Citations": 210,
+        "Name": "Nanocorrect",
+        "Citations": 211,
         "Publications": 1
       },
       {
@@ -831,15 +640,15 @@
         "Name": "NanoLyse"
       },
       {
+        "Name": "nanomod"
+      },
+      {
         "Name": "NanoMod",
         "Citations": 0,
         "Publications": 1
       },
       {
-        "Name": "nanomod*"
-      },
-      {
-        "Name": "Nanonet*"
+        "Name": "Nanonet"
       },
       {
         "Name": "NanoOK",
@@ -889,9 +698,10 @@
         "Publications": 1
       },
       {
-        "Name": "nanoraw*",
+        "Name": "nanoraw",
         "Citations": 12,
-        "Publications": 1
+        "Publications": 1,
+        "PyPI": "nanoraw"
       },
       {
         "Name": "NanoSatellite",
@@ -975,15 +785,15 @@
         "PyPI": "pauvre"
       },
       {
-        "Name": "PBcR*",
-        "Citations": 306,
+        "Name": "PBcR",
+        "Citations": 307,
         "Publications": 1
       },
       {
         "Name": "pblibsim"
       },
       {
-        "Name": "Picky*",
+        "Name": "Picky",
         "Citations": 2,
         "Publications": 0
       },
@@ -992,6 +802,11 @@
         "Citations": 1,
         "Publications": 1,
         "PyPI": "picopore"
+      },
+      {
+        "Name": "Pilon",
+        "Citations": 554,
+        "Publications": 1
       },
       {
         "Name": "pinfish"
@@ -1020,7 +835,7 @@
         "Publications": 0
       },
       {
-        "Name": "Porechop*"
+        "Name": "Porechop"
       },
       {
         "Name": "poredb"
@@ -1067,7 +882,7 @@
       },
       {
         "Name": "PRINSEQ",
-        "Citations": 1365,
+        "Citations": 1366,
         "Publications": 0
       },
       {
@@ -1111,7 +926,7 @@
       },
       {
         "Name": "Racon",
-        "Citations": 57,
+        "Citations": 58,
         "Publications": 0
       },
       {
@@ -1123,7 +938,7 @@
         "Publications": 0
       },
       {
-        "Name": "ReadSim*"
+        "Name": "ReadSim"
       },
       {
         "Name": "RepNano",
@@ -1164,7 +979,7 @@
       },
       {
         "Name": "SignalAlign",
-        "Citations": 57,
+        "Citations": 58,
         "Publications": 1,
         "PyPI": "signalAlign"
       },
@@ -1178,7 +993,7 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4518,
+        "Citations": 4533,
         "Publications": 1
       },
       {
@@ -1196,7 +1011,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 3814,
+        "Citations": 3817,
         "Publications": 1
       },
       {
@@ -1210,7 +1025,7 @@
         "Publications": 0
       },
       {
-        "Name": "squiggler*"
+        "Name": "squiggler"
       },
       {
         "Name": "streamformatics"
@@ -1290,13 +1105,13 @@
       },
       {
         "Name": "AlignQC",
-        "Citations": 35,
+        "Citations": 36,
         "Publications": 1,
         "PyPI": "AlignQC"
       },
       {
         "Name": "ALLPATHS-LG",
-        "Citations": 807,
+        "Citations": 810,
         "Publications": 1
       },
       {
@@ -1315,12 +1130,12 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 3037,
+        "Citations": 3040,
         "Publications": 0
       },
       {
         "Name": "Canu",
-        "Citations": 359,
+        "Citations": 362,
         "Publications": 1
       },
       {
@@ -1329,7 +1144,7 @@
         "Publications": 0
       },
       {
-        "Name": "Cerulean*"
+        "Name": "Cerulean"
       },
       {
         "Name": "Circlator",
@@ -1358,7 +1173,7 @@
       },
       {
         "Name": "Falcon",
-        "Citations": 157,
+        "Citations": 159,
         "Publications": 1
       },
       {
@@ -1396,7 +1211,7 @@
       },
       {
         "Name": "Gmap",
-        "Citations": 647,
+        "Citations": 649,
         "Publications": 1
       },
       {
@@ -1421,7 +1236,7 @@
       },
       {
         "Name": "HGAP",
-        "Citations": 1425,
+        "Citations": 1427,
         "Publications": 1
       },
       {
@@ -1510,7 +1325,7 @@
         "Publications": 1
       },
       {
-        "Name": "loresim*"
+        "Name": "loresim"
       },
       {
         "Name": "loresim2"
@@ -1576,7 +1391,7 @@
       },
       {
         "Name": "MHAP",
-        "Citations": 306,
+        "Citations": 307,
         "Publications": 1
       },
       {
@@ -1649,13 +1464,13 @@
         "Name": "pbbioconda"
       },
       {
-        "Name": "PBcR*",
-        "Citations": 306,
+        "Name": "PBcR",
+        "Citations": 307,
         "Publications": 1
       },
       {
         "Name": "pbdagcon",
-        "Citations": 1425,
+        "Citations": 1427,
         "Publications": 1
       },
       {
@@ -1694,9 +1509,14 @@
         "Name": "Pbsv_polish"
       },
       {
-        "Name": "Picky*",
+        "Name": "Picky",
         "Citations": 2,
         "Publications": 0
+      },
+      {
+        "Name": "Pilon",
+        "Citations": 554,
+        "Publications": 1
       },
       {
         "Name": "pipeline-transcriptome-de"
@@ -1712,7 +1532,7 @@
       },
       {
         "Name": "PRINSEQ",
-        "Citations": 1365,
+        "Citations": 1366,
         "Publications": 0
       },
       {
@@ -1741,7 +1561,7 @@
       },
       {
         "Name": "Racon",
-        "Citations": 57,
+        "Citations": 58,
         "Publications": 0
       },
       {
@@ -1751,7 +1571,7 @@
         "Name": "RandomReads"
       },
       {
-        "Name": "ReadSim*"
+        "Name": "ReadSim"
       },
       {
         "Name": "rkmh"
@@ -1780,7 +1600,7 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4518,
+        "Citations": 4533,
         "Publications": 1
       },
       {
@@ -1802,7 +1622,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 3814,
+        "Citations": 3817,
         "Publications": 1
       },
       {
@@ -1854,7 +1674,7 @@
     "Tools": [
       {
         "Name": "ALLPATHS-LG",
-        "Citations": 807,
+        "Citations": 810,
         "Publications": 1
       },
       {
@@ -1869,7 +1689,7 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 3037,
+        "Citations": 3040,
         "Publications": 0
       },
       {
@@ -1909,7 +1729,7 @@
       },
       {
         "Name": "PRINSEQ",
-        "Citations": 1365,
+        "Citations": 1366,
         "Publications": 0
       },
       {
@@ -1922,12 +1742,12 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4518,
+        "Citations": 4533,
         "Publications": 1
       },
       {
         "Name": "SPAdes",
-        "Citations": 3814,
+        "Citations": 3817,
         "Publications": 1
       },
       {
