@@ -9,7 +9,7 @@ Please describe your pull request below and fill out the check list:
 
 - [ ] Only (manually) edited `lrs_tools_master.csv`
 - [ ] Tool/pipeline names were added using only "[a-z],{a-}, [0-9], _, -" characters (e.g. no spaces, slashes or tabs)
-- [ ] Add 'NOT-MAINTAINED:" or "DEPRECIATED:" to the beginning of the description column of `lrs_tools_master.csv`
+- [ ] Add "NOT-MAINTAINED:: " or "DEPRECIATED:: " to the beginning of the description column of `lrs_tools_master.csv`
 - [ ] Completed all columns that needs logical values(i.e. TRUE, FALSE)
 - [ ] Add multiple `Programming_Language` separated by commas
 - [ ] Check the link of the `Source` you are noting points to the root of the repository only
