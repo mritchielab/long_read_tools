@@ -13,6 +13,5 @@ Please describe your pull request below and fill out the check list:
 - [ ] Completed all columns that needs logical values(i.e. TRUE, FALSE)
 - [ ] Add multiple `Programming_Language` separated by commas
 - [ ] Check the link of the `Source` you are noting points to the root of the repository only
-- [ ] Either have peer-reviewed journal DOI or preprint DOI. Left reference as blank for unpublished
-- [ ] Have only one relevant DOI for the tool (we are working on fixing this so you can add many publications seperated by a `;` symbol)
+- [ ] Either have peer-reviewed journal DOI or preprint DOI. Leave reference as blank for unpublished tools
 - [ ] Run `build_lrs_db.R` (optional)
