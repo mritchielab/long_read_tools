@@ -55,7 +55,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
         ref <- tibble::tibble(Title     = titles,
                               DOI       = dois,
                               PubDate   = dates,
-                              Preprint  = dates == "PREPRINT",
+                              Preprint  = stringr::str_detect(dois, paste("10.1101/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep="")),
                               Citations = cites)
     })
 
@@ -81,6 +81,5 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
         dplyr::mutate(Citations = purrr::flatten_dbl(Citations),
                       Publications = purrr::flatten_int(Publications),
                       Preprints = purrr::flatten_int(Preprints))
-
-    return(swsheet)
+	return(swsheet)
 }

@@ -40,7 +40,7 @@ add_to_titles_cache <- function(swsheet, titles_cache) {
         if (stringr::str_detect(doi, "arxiv")) {
           id <- stringr::str_remove(doi, "arxiv/")
           title <- aRxiv::arxiv_search(id_list = id)$title
-          date <- NA
+          date <- aRxiv::arxiv_search(id_list = id)$submitted
         } else {
           crossref <- rcrossref::cr_works(doi)
           title <- crossref$data$title

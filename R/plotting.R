@@ -107,16 +107,26 @@ plot_publication <- function(swsheet) {
                                         ifelse(length(x) == 0, FALSE, x)
                                       }),
                   HasPub = purrr::flatten_lgl(HasPub)) %>%
-    dplyr::mutate(HasNot = !HasPub) %>%
-    dplyr::summarise(Unpublished = sum(HasNot),
-                     Published = sum(HasPub)
-    ) %>%
-    tidyr::gather(key = Type, value = Count) %>%
-    dplyr::mutate(Type = factor(Type,
-                                levels = c("Published",
-                                           "Unpublished"),
-                                labels = c("Published",
-                                           "Unpublished"))) %>%
+    dplyr::mutate(HasPre = purrr::map(.$Refs,
+                                          function(x) {
+                                              nrow(x$Preprints) > 0
+                                          })) %>%
+        dplyr::mutate(HasPre = purrr::map(.$HasPre,
+                                          function(x) {
+                                              ifelse(length(x) == 0, FALSE, x)
+                                          }),
+                      HasPre = purrr::flatten_lgl(HasPre),
+                      HasPre = HasPre & !HasPub) %>%
+        dplyr::mutate(HasNot = !HasPub & !HasPre) %>%
+        dplyr::summarise(NotPublished = sum(HasNot),
+                         Published = sum(HasPub),
+                         Preprint = sum(HasPre)) %>%
+        tidyr::gather(key = Type, value = Count) %>%
+        dplyr::mutate(Type = factor(Type,
+                                    levels = c("Published", "Preprint",
+                                               "NotPublished"),
+                                    labels = c("Published", "Preprint",
+                                               "Not Published"))) %>%
     dplyr::arrange(Type) %>%
     dplyr::mutate(Cumulative = cumsum(Count),
                   Midpoint = Cumulative - (Count / 2),
