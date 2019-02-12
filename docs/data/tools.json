@@ -143,7 +143,7 @@
     "PubDates": ["2016-06-15"],
     "Github": "kuleshov/architect",
     "Technologies": ["tenxGenomics"],
-    "Categories": ["DenovoAssembly"]
+    "Categories": ["DenovoAssembly", "Scaffolding"]
   },
   {
     "Name": "ARCS",
@@ -175,7 +175,7 @@
     "PubDates": ["2017-10-23"],
     "Github": "bcgsc/arcs",
     "Technologies": ["tenxGenomics"],
-    "Categories": ["DenovoAssembly", "GapFilling"]
+    "Categories": ["DenovoAssembly", "Scaffolding", "GapFilling"]
   },
   {
     "Name": "Arrow",
@@ -195,6 +195,68 @@
     "Github": "PacificBiosciences/GenomicConsensus",
     "Technologies": ["PacBio"],
     "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "SNPAndVariantAnalysis"]
+  },
+  {
+    "Name": "AsmVar",
+    "DOIs": "10.1186/s13742-015-0103-4",
+    "Platform": "Python",
+    "Description": "A software for discovery, genotyping and characterization of structural variants",
+    "Code": "https://github.com/bioinformatics-centre/AsmVar",
+    "License": "MIT",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Discovery, genotyping and characterization of structural variation and novel sequence at single nucleotide resolution from de novo genome assemblies on a population scale",
+          "DOI": "10.1186/s13742-015-0103-4",
+          "Preprint": false,
+          "Citations": 4
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 4,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["NA"],
+    "Github": "bioinformatics-centre/AsmVar",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["SNPAndVariantAnalysis"]
+  },
+  {
+    "Name": "Assemblytics",
+    "DOIs": "10.1093/bioinformatics/btw369",
+    "Platform": "Python",
+    "Description": "Software to identify structural variations based on contigs with uniquely aligned regions to a reference sequence",
+    "Code": "https://github.com/marianattestad/assemblytics",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Assemblytics: a web analytics tool for the detection of variants from an assembly",
+          "DOI": "10.1093/bioinformatics/btw369",
+          "PubDate": "2016-06-17",
+          "Preprint": false,
+          "Citations": 26
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 26,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2016-06-17"],
+    "Github": "marianattestad/assemblytics",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["SNPAndVariantAnalysis"]
   },
   {
     "Name": "Automation",
@@ -372,7 +434,7 @@
     },
     "PubDates": [null],
     "Technologies": ["BionanoGenomics"],
-    "Categories": ["QualityChecking", "SNPAndVariantAnalysis", "Visualisation", "QualityTrimming", "QualityFiltering"]
+    "Categories": ["Scaffolding", "QualityChecking", "SNPAndVariantAnalysis", "Visualisation", "QualityTrimming", "QualityFiltering"]
   },
   {
     "Name": "bionano-tools",
@@ -431,12 +493,12 @@
           "DOI": "10.1101/gr.229202",
           "PubDate": "2002-03-20",
           "Preprint": false,
-          "Citations": 1415
+          "Citations": 1420
         }
       ],
       "Preprints": []
     },
-    "Citations": 1415,
+    "Citations": 1420,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2002-03-20"],
@@ -541,12 +603,12 @@
           "DOI": "10.1093/bioinformatics/btp698",
           "PubDate": "2010-01-15",
           "Preprint": false,
-          "Citations": 3084
+          "Citations": 3088
         }
       ],
       "Preprints": []
     },
-    "Citations": 3084,
+    "Citations": 3088,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2010-01-15"],
@@ -751,6 +813,38 @@
     "Categories": ["DenovoAssembly", "TestedOnHumanData", "TestedOnNonHumanData"]
   },
   {
+    "Name": "Cobbler",
+    "DOIs": "10.21105/joss.00116",
+    "Platform": "Perl",
+    "Description": "Gap-filling with long sequences",
+    "Code": "https://github.com/bcgsc/RAILS",
+    "License": "GNU General Public License v3.1",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "RAILS and Cobbler: Scaffolding and automated finishing of draft genomes using long DNA sequences",
+          "DOI": "10.21105/joss.00116",
+          "PubDate": "2016-11-17",
+          "Preprint": false,
+          "Citations": 4
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 4,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2016-11-17"],
+    "Github": "bcgsc/RAILS",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["GapFilling"]
+  },
+  {
     "Name": "Cogent",
     "Platform": "Python",
     "Description": "Reconstruct the coding genome using high-quality full-length transcriptome sequences",
@@ -770,6 +864,34 @@
     "PyPI": "cogent",
     "Technologies": ["PacBio"],
     "Categories": ["DenovoAssembly", "Alignment", "GeneratingConsensusSequence", "IsoformDetection", "TestedOnNonHumanData", "GeneExpressionAnalysis"]
+  },
+  {
+    "Name": "CONSENT",
+    "DOIs": "10.1101/546630",
+    "Platform": "Python",
+    "Description": "sCalable self-cOrrectioN of long reads with multiple SEquence alignmeNT",
+    "Code": "https://github.com/morispi/CONSENT",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [],
+      "Preprints": [
+        {
+          "DOI": "10.1101/546630",
+          "PubDate": [],
+          "Preprint": true
+        }
+      ]
+    },
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["character(0)"],
+    "Github": "morispi/CONSENT",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["ErrorCorrectionAndPolishing", "TestedOnHumanData"]
   },
   {
     "Name": "CRuMPIT",
@@ -895,7 +1017,7 @@
   },
   {
     "Name": "daccord",
-    "DOIs": "10.1101/106252",
+    "DOIs": "10.1101/106252; 10.1101/145474",
     "Platform": "C++",
     "Description": "Non hybrid error correction for long reads",
     "Code": "https://github.com/gt1/daccord",
@@ -914,13 +1036,18 @@
           "PubDate": "2017-02-06",
           "Preprint": true,
           "Citations": 0
+        },
+        {
+          "Title": "Haplotype And Repeat Separation In Long Reads",
+          "DOI": " 10.1101/145474",
+          "PubDate": "2017-06-02",
+          "Preprint": true
         }
       ]
     },
-    "Citations": 0,
     "Publications": 0,
-    "Preprints": 1,
-    "PubDates": ["2017-02-06"],
+    "Preprints": 2,
+    "PubDates": ["2017-02-06", "2017-06-02"],
     "Github": "gt1/daccord",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["ErrorCorrectionAndPolishing"]
@@ -1441,6 +1568,26 @@
     "Categories": ["BaseCalling"]
   },
   {
+    "Name": "FLAS",
+    "Platform": "Python",
+    "Description": "Self-correction for PacBio long reads, formely known as HALS",
+    "Code": "https://github.com/baoe/flas",
+    "License": "Copyrighted material",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "baoe/flas",
+    "Technologies": ["PacBio"],
+    "Categories": ["ErrorCorrectionAndPolishing"]
+  },
+  {
     "Name": "Flye",
     "DOIs": "10.1073/pnas.1604560113",
     "Platform": "Python",
@@ -1503,6 +1650,23 @@
     "Github": "holtjma/fmlrc",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["ErrorCorrectionAndPolishing"]
+  },
+  {
+    "Name": "fragScaff",
+    "Platform": "Perl",
+    "Code": "https://sourceforge.net/projects/fragscaff",
+    "OxfordNanopore": false,
+    "PacBio": false,
+    "tenxGenomics": true,
+    "BionanoGenomics": false,
+    "HiC": true,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Technologies": ["tenxGenomics", "HiC"],
+    "Categories": ["Scaffolding"]
   },
   {
     "Name": "FreeBayes",
@@ -1747,12 +1911,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-05",
           "Preprint": false,
-          "Citations": 1454
+          "Citations": 1455
         }
       ],
       "Preprints": []
     },
-    "Citations": 1454,
+    "Citations": 1455,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-05"],
@@ -2064,12 +2228,12 @@
           "DOI": "10.1038/ncomms11257",
           "PubDate": "2016-04-13",
           "Preprint": false,
-          "Citations": 107
+          "Citations": 108
         }
       ],
       "Preprints": []
     },
-    "Citations": 107,
+    "Citations": 108,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-04-13"],
@@ -2094,12 +2258,12 @@
           "Title": "Kraken: ultrafast metagenomic sequence classification using exact alignments",
           "DOI": "10.1186/gb-2014-15-3-r46",
           "Preprint": false,
-          "Citations": 636
+          "Citations": 637
         }
       ],
       "Preprints": []
     },
-    "Citations": 636,
+    "Citations": 637,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -2276,7 +2440,7 @@
     "PubDates": ["2015-08-04"],
     "Github": "bcgsc/LINKS",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["DenovoAssembly", "TestedOnNonHumanData"]
+    "Categories": ["DenovoAssembly", "Scaffolding", "TestedOnNonHumanData"]
   },
   {
     "Name": "longread_plots",
@@ -3344,12 +3508,12 @@
           "DOI": "10.1093/bioinformatics/btw354",
           "PubDate": "2016-06-16",
           "Preprint": false,
-          "Citations": 129
+          "Citations": 130
         }
       ],
       "Preprints": []
     },
-    "Citations": 129,
+    "Citations": 130,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-06-16"],
@@ -4036,7 +4200,7 @@
     "Name": "NanoR",
     "DOIs": "10.1101/514232",
     "Platform": "R",
-    "Description": "Provides multiple QC and comparison tools for data generated by different Nanopore devices (e.g. MinION, GridION)",
+    "Description": "QC and filtering of nanopore data in R",
     "Code": "https://github.com/davidebolo1993/NanoR",
     "License": "GNU Lesser General Public License v3.0",
     "OxfordNanopore": true,
@@ -4062,7 +4226,7 @@
     "PubDates": ["2019-01-09"],
     "Github": "davidebolo1993/NanoR",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["QualityChecking", "ProvideSummaryStatistics", "AvailablityOfTestData", "QualityFiltering"]
+    "Categories": ["QualityChecking", "ProvideSummaryStatistics", "QualityFiltering"]
   },
   {
     "Name": "nanoraw",
@@ -4456,7 +4620,7 @@
     "PubDates": ["2017-02-20"],
     "Github": "mdcao/npScarf",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["DenovoAssembly", "TestedOnNonHumanData", "AvailablityOfTestData"]
+    "Categories": ["DenovoAssembly", "Scaffolding", "TestedOnNonHumanData", "AvailablityOfTestData"]
   },
   {
     "Name": "Ococo",
@@ -4656,12 +4820,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-05",
           "Preprint": false,
-          "Citations": 1454
+          "Citations": 1455
         }
       ],
       "Preprints": []
     },
-    "Citations": 1454,
+    "Citations": 1455,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-05"],
@@ -4941,12 +5105,12 @@
           "DOI": "10.1371/journal.pone.0112963",
           "PubDate": "2014-11-19",
           "Preprint": false,
-          "Citations": 570
+          "Citations": 571
         }
       ],
       "Preprints": []
     },
-    "Citations": 570,
+    "Citations": 571,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-11-19"],
@@ -5424,12 +5588,12 @@
           "DOI": "10.1093/bioinformatics/btr026",
           "PubDate": "2011-01-28",
           "Preprint": false,
-          "Citations": 1387
+          "Citations": 1388
         }
       ],
       "Preprints": []
     },
-    "Citations": 1387,
+    "Citations": 1388,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2011-01-28"],
@@ -5547,12 +5711,12 @@
           "DOI": "10.1093/bioinformatics/btt086",
           "PubDate": "2013-02-19",
           "Preprint": false,
-          "Citations": 918
+          "Citations": 920
         }
       ],
       "Preprints": []
     },
-    "Citations": 918,
+    "Citations": 920,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-02-19"],
@@ -5728,6 +5892,38 @@
     "Categories": ["DenovoAssembly"]
   },
   {
+    "Name": "RAILS",
+    "DOIs": "10.21105/joss.00116",
+    "Platform": "Perl",
+    "Description": "Radial Assembly Improvement by Long Sequence Scaffolding",
+    "Code": "https://github.com/bcgsc/RAILS",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "RAILS and Cobbler: Scaffolding and automated finishing of draft genomes using long DNA sequences",
+          "DOI": "10.21105/joss.00116",
+          "PubDate": "2016-11-17",
+          "Preprint": false,
+          "Citations": 4
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 4,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2016-11-17"],
+    "Github": "bcgsc/RAILS",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Scaffolding"]
+  },
+  {
     "Name": "ReadSim",
     "Platform": "Python",
     "Description": "NOT-MAINTAINED::Read simulator for PacBio and ONT",
@@ -5877,6 +6073,38 @@
     "Github": "kkrizanovic/RNAseqEval",
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["EvaluatingExisitingMethods", "QualityChecking", "ProvideSummaryStatistics"]
+  },
+  {
+    "Name": "SALSA",
+    "DOIs": "10.1186/s12864-017-3879-z",
+    "Platform": "Python",
+    "Description": "A tool to scaffold long read assemblies with Hi-C data",
+    "Code": "https://github.com/machinegun/SALSA",
+    "License": "MIT",
+    "OxfordNanopore": false,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": true,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Scaffolding of long read assemblies using long range contact information",
+          "DOI": "10.1186/s12864-017-3879-z",
+          "PubDate": "2017-07-12",
+          "Preprint": false,
+          "Citations": 4
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 4,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2017-07-12"],
+    "Github": "machinegun/SALSA",
+    "Technologies": ["HiC"],
+    "Categories": ["Scaffolding"]
   },
   {
     "Name": "sandy",
@@ -6099,12 +6327,12 @@
           "Title": "A general method applicable to the search for similarities in the amino acid sequence of two proteins",
           "DOI": "10.1016/0022-2836(70)90057-4",
           "Preprint": false,
-          "Citations": 4615
+          "Citations": 4616
         }
       ],
       "Preprints": []
     },
-    "Citations": 4615,
+    "Citations": 4616,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -6274,12 +6502,12 @@
           "Title": "SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing",
           "DOI": "10.1089/cmb.2012.0021",
           "Preprint": false,
-          "Citations": 3928
+          "Citations": 3936
         }
       ],
       "Preprints": []
     },
-    "Citations": 3928,
+    "Citations": 3936,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -6494,6 +6722,35 @@
     "Categories": ["SNPAndVariantAnalysis"]
   },
   {
+    "Name": "SyRI",
+    "DOIs": "10.1101/546622",
+    "Platform": "Python",
+    "Description": "Synteny and Rearrangement Identifier",
+    "Code": "https://github.com/schneebergerlab/syri",
+    "License": "MIT",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [],
+      "Preprints": [
+        {
+          "DOI": "10.1101/546622",
+          "PubDate": [],
+          "Preprint": true
+        }
+      ]
+    },
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["character(0)"],
+    "Github": "schneebergerlab/syri",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["SNPAndVariantAnalysis"]
+  },
+  {
     "Name": "taeper",
     "Platform": "Python",
     "Description": "A small python program to simulate a real-time Nanopore sequencing run based on previous experiment.",
@@ -6595,6 +6852,39 @@
     "PubDates": ["2016-06-24"],
     "Technologies": ["PacBio"],
     "Categories": ["IsoformDetection"]
+  },
+  {
+    "Name": "tigmint",
+    "DOIs": "10.1186/s12859-018-2425-6",
+    "Platform": "Python",
+    "Description": "Correct misassemblies using linked reads",
+    "Code": "https://github.com/bcgsc/tigmint",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": true,
+    "BionanoGenomics": true,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Tigmint: correcting assembly errors using linked reads from large molecules",
+          "DOI": "10.1186/s12859-018-2425-6",
+          "PubDate": "2018-10-26",
+          "Preprint": false,
+          "Citations": 1
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 1,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2018-10-26"],
+    "Github": "bcgsc/tigmint",
+    "PyPI": "tigmint",
+    "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics"],
+    "Categories": ["DenovoAssembly", "Scaffolding", "ErrorCorrectionAndPolishing", "TestedOnHumanData"]
   },
   {
     "Name": "Tiptoft",

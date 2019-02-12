@@ -48,13 +48,19 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4615,
+        "Citations": 4616,
         "Publications": 1
       },
       {
         "Name": "SPAdes",
-        "Citations": 3928,
+        "Citations": 3936,
         "Publications": 1
+      },
+      {
+        "Name": "tigmint",
+        "Citations": 1,
+        "Publications": 1,
+        "PyPI": "tigmint"
       }
     ]
   },
@@ -84,6 +90,9 @@
         "Publications": 1
       },
       {
+        "Name": "fragScaff"
+      },
+      {
         "Name": "HapCUT2",
         "Citations": 23,
         "Publications": 1
@@ -95,12 +104,12 @@
       },
       {
         "Name": "Kraken",
-        "Citations": 636,
+        "Citations": 637,
         "Publications": 1
       },
       {
         "Name": "PRINSEQ",
-        "Citations": 1387,
+        "Citations": 1388,
         "Publications": 1
       },
       {
@@ -112,13 +121,18 @@
         "Publications": 1
       },
       {
+        "Name": "SALSA",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
         "Name": "SMARTdenovo",
-        "Citations": 4615,
+        "Citations": 4616,
         "Publications": 1
       },
       {
         "Name": "SPAdes",
-        "Citations": 3928,
+        "Citations": 3936,
         "Publications": 1
       }
     ]
@@ -146,6 +160,16 @@
         "Publications": 1
       },
       {
+        "Name": "AsmVar",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "Assemblytics",
+        "Citations": 26,
+        "Publications": 1
+      },
+      {
         "Name": "Automation",
         "Citations": 6,
         "Publications": 1
@@ -165,7 +189,7 @@
       },
       {
         "Name": "BLAT",
-        "Citations": 1415,
+        "Citations": 1420,
         "Publications": 1
       },
       {
@@ -180,7 +204,7 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 3084,
+        "Citations": 3088,
         "Publications": 1
       },
       {
@@ -214,6 +238,15 @@
         "PyPI": "circlator"
       },
       {
+        "Name": "Cobbler",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "CONSENT",
+        "Publications": 0
+      },
+      {
         "Name": "CRuMPIT",
         "Citations": 1,
         "Publications": 1
@@ -235,7 +268,6 @@
       },
       {
         "Name": "daccord",
-        "Citations": 0,
         "Publications": 0
       },
       {
@@ -390,12 +422,12 @@
       },
       {
         "Name": "Kaiju",
-        "Citations": 107,
+        "Citations": 108,
         "Publications": 1
       },
       {
         "Name": "Kraken",
-        "Citations": 636,
+        "Citations": 637,
         "Publications": 1
       },
       {
@@ -568,7 +600,7 @@
       },
       {
         "Name": "MultiQC",
-        "Citations": 129,
+        "Citations": 130,
         "Publications": 1,
         "PyPI": "multiqc"
       },
@@ -797,7 +829,7 @@
       },
       {
         "Name": "Pilon",
-        "Citations": 570,
+        "Citations": 571,
         "Publications": 1
       },
       {
@@ -874,7 +906,7 @@
       },
       {
         "Name": "PRINSEQ",
-        "Citations": 1387,
+        "Citations": 1388,
         "Publications": 1
       },
       {
@@ -894,7 +926,7 @@
       },
       {
         "Name": "QUAST",
-        "Citations": 918,
+        "Citations": 920,
         "Publications": 1,
         "PyPI": "quast"
       },
@@ -923,6 +955,11 @@
       },
       {
         "Name": "RaGOO"
+      },
+      {
+        "Name": "RAILS",
+        "Citations": 4,
+        "Publications": 1
       },
       {
         "Name": "Read-Until",
@@ -990,7 +1027,7 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4615,
+        "Citations": 4616,
         "Publications": 1
       },
       {
@@ -1013,7 +1050,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 3928,
+        "Citations": 3936,
         "Publications": 1
       },
       {
@@ -1047,6 +1084,10 @@
         "PyPI": "svim"
       },
       {
+        "Name": "SyRI",
+        "Publications": 0
+      },
+      {
         "Name": "taeper",
         "PyPI": "taeper"
       },
@@ -1054,6 +1095,12 @@
         "Name": "tandem-genotypes",
         "Citations": 0,
         "Publications": 0
+      },
+      {
+        "Name": "tigmint",
+        "Citations": 1,
+        "Publications": 1,
+        "PyPI": "tigmint"
       },
       {
         "Name": "Tiptoft",
@@ -1117,6 +1164,16 @@
         "Name": "Arrow"
       },
       {
+        "Name": "AsmVar",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "Assemblytics",
+        "Citations": 26,
+        "Publications": 1
+      },
+      {
         "Name": "BaseModsTools"
       },
       {
@@ -1134,7 +1191,7 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 3084,
+        "Citations": 3088,
         "Publications": 1
       },
       {
@@ -1157,8 +1214,17 @@
         "PyPI": "circlator"
       },
       {
+        "Name": "Cobbler",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
         "Name": "Cogent",
         "PyPI": "cogent"
+      },
+      {
+        "Name": "CONSENT",
+        "Publications": 0
       },
       {
         "Name": "D-GENIES",
@@ -1167,7 +1233,6 @@
       },
       {
         "Name": "daccord",
-        "Citations": 0,
         "Publications": 0
       },
       {
@@ -1199,6 +1264,9 @@
       },
       {
         "Name": "FLAIR"
+      },
+      {
+        "Name": "FLAS"
       },
       {
         "Name": "Flye",
@@ -1240,7 +1308,7 @@
       },
       {
         "Name": "HGAP",
-        "Citations": 1454,
+        "Citations": 1455,
         "Publications": 1
       },
       {
@@ -1275,12 +1343,12 @@
       },
       {
         "Name": "Kaiju",
-        "Citations": 107,
+        "Citations": 108,
         "Publications": 1
       },
       {
         "Name": "Kraken",
-        "Citations": 636,
+        "Citations": 637,
         "Publications": 1
       },
       {
@@ -1421,7 +1489,7 @@
       },
       {
         "Name": "MultiQC",
-        "Citations": 129,
+        "Citations": 130,
         "Publications": 1,
         "PyPI": "multiqc"
       },
@@ -1479,7 +1547,7 @@
       },
       {
         "Name": "pbdagcon",
-        "Citations": 1454,
+        "Citations": 1455,
         "Publications": 1
       },
       {
@@ -1524,7 +1592,7 @@
       },
       {
         "Name": "Pilon",
-        "Citations": 570,
+        "Citations": 571,
         "Publications": 1
       },
       {
@@ -1541,7 +1609,7 @@
       },
       {
         "Name": "PRINSEQ",
-        "Citations": 1387,
+        "Citations": 1388,
         "Publications": 1
       },
       {
@@ -1551,7 +1619,7 @@
       },
       {
         "Name": "QUAST",
-        "Citations": 918,
+        "Citations": 920,
         "Publications": 1,
         "PyPI": "quast"
       },
@@ -1575,6 +1643,11 @@
       },
       {
         "Name": "RaGOO"
+      },
+      {
+        "Name": "RAILS",
+        "Citations": 4,
+        "Publications": 1
       },
       {
         "Name": "RandomReads"
@@ -1614,7 +1687,7 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4615,
+        "Citations": 4616,
         "Publications": 1
       },
       {
@@ -1641,7 +1714,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 3928,
+        "Citations": 3936,
         "Publications": 1
       },
       {
@@ -1661,6 +1734,10 @@
         "PyPI": "svim"
       },
       {
+        "Name": "SyRI",
+        "Publications": 0
+      },
+      {
         "Name": "Tama"
       },
       {
@@ -1672,6 +1749,12 @@
         "Name": "TAPIS",
         "Citations": 69,
         "Publications": 1
+      },
+      {
+        "Name": "tigmint",
+        "Citations": 1,
+        "Publications": 1,
+        "PyPI": "tigmint"
       },
       {
         "Name": "Tiptoft",
@@ -1715,7 +1798,7 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 3084,
+        "Citations": 3088,
         "Publications": 1
       },
       {
@@ -1733,6 +1816,9 @@
         "Publications": 1
       },
       {
+        "Name": "fragScaff"
+      },
+      {
         "Name": "HapCUT2",
         "Citations": 23,
         "Publications": 1
@@ -1744,7 +1830,7 @@
       },
       {
         "Name": "Kraken",
-        "Citations": 636,
+        "Citations": 637,
         "Publications": 1
       },
       {
@@ -1755,7 +1841,7 @@
       },
       {
         "Name": "PRINSEQ",
-        "Citations": 1387,
+        "Citations": 1388,
         "Publications": 1
       },
       {
@@ -1768,16 +1854,22 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 4615,
+        "Citations": 4616,
         "Publications": 1
       },
       {
         "Name": "SPAdes",
-        "Citations": 3928,
+        "Citations": 3936,
         "Publications": 1
       },
       {
         "Name": "SuperNova"
+      },
+      {
+        "Name": "tigmint",
+        "Citations": 1,
+        "Publications": 1,
+        "PyPI": "tigmint"
       }
     ]
   }

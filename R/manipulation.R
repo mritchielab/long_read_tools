@@ -53,7 +53,7 @@ tidy_swsheet_cat <- function(swsheet) {
     futile.logger::flog.info("Tidying data for categories...")
 
     tidyr::gather(swsheet, key = 'Category', value = 'Val',
-                  BaseCalling, LongReadOverlapping, DenovoAssembly,Alignment,
+                  BaseCalling, LongReadOverlapping, DenovoAssembly,Alignment, Scaffolding,
                   GeneratingConsensusSequence,ErrorCorrectionAndPolishing,EvaluatingExisitingMethods,
                   IsoformDetection,	BaseModificationDetection,	QualityChecking,SNPAndVariantAnalysis,
                   Visualisation,	ReadQuantification,	SuitableForSingleCellExperiments,

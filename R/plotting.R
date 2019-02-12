@@ -275,7 +275,7 @@ plot_categories <- function(swsheet) {
   
   # all categories
   catcounts <- swsheet %>%
-    dplyr::summarise_at(12:38, sum) %>%
+    dplyr::summarise_at(12:39, sum) %>%
     tidyr::gather(key = Category, value = Count) %>%
     dplyr::arrange(-Count, Category) %>%
     dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
@@ -325,7 +325,7 @@ plot_categories <- function(swsheet) {
     
     swsheet2 <- swsheet[swsheet[technology] == TRUE,]
     catcounts_tech <- swsheet2 %>% 
-      dplyr::summarise_at(12:38, sum) %>%
+      dplyr::summarise_at(12:39, sum) %>%
       tidyr::gather(key = Category, value = Count) %>%
       dplyr::arrange(-Count, Category) %>%
       dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
