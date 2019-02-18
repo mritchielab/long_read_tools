@@ -116,7 +116,8 @@
   },
   {
     "Name": "Apollo",
-    "DOIs": "arXiv:1902.04341",
+    "DOIs": "arxiv/1902.04341",
+    "Platform": "C++",
     "Description": "A profile hidden Markov model-based universal assembly polishing algorithm",
     "Code": "https://github.com/CMU-SAFARI/Apollo",
     "License": "GNU General Public License v3.0",
@@ -126,21 +127,22 @@
     "BionanoGenomics": true,
     "HiC": true,
     "Refs": {
-      "Publications": [
+      "Publications": [],
+      "Preprints": [
         {
           "Title": "Apollo: A Sequencing-Technology-Independent, Scalable, and Accurate\n  Assembly Polishing Algorithm",
-          "DOI": "arXiv:1902.04341",
-          "Preprint": false
+          "DOI": "arxiv/1902.04341",
+          "PubDate": "2019-02-12",
+          "Preprint": true
         }
-      ],
-      "Preprints": []
+      ]
     },
-    "Publications": 1,
-    "Preprints": 0,
-    "PubDates": ["NA"],
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["2019-02-12"],
     "Github": "CMU-SAFARI/Apollo",
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
-    "Categories": ["ErrorCorrectionAndPolishing", "TestedOnHumanData", "TestedOnNonHumanData"]
+    "Categories": ["ErrorCorrectionAndPolishing", "SuitableForSingleCellExperiments", "TestedOnHumanData", "TestedOnNonHumanData"]
   },
   {
     "Name": "Architect",
@@ -6525,6 +6527,38 @@
     "PyPI": "scrappie",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["BaseCalling"]
+  },
+  {
+    "Name": "SDA",
+    "DOIs": "10.1038/s41592-018-0236-3",
+    "Platform": "Python",
+    "Description": "A Segmental Duplication Assembler for long reads",
+    "Code": "https://github.com/mvollger/SDA",
+    "License": "MIT",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Long-read sequence and assembly of segmental duplications",
+          "DOI": "10.1038/s41592-018-0236-3",
+          "PubDate": "2018-12-17",
+          "Preprint": false,
+          "Citations": 1
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 1,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2018-12-17"],
+    "Github": "mvollger/SDA",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["DenovoAssembly", "SNPAndVariantAnalysis"]
   },
   {
     "Name": "selectION",
