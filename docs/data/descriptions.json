@@ -106,5 +106,9 @@
   {
     "Category": "Visualisation",
     "Description": "Functions for visualising some aspect of long read data or analysis"
+  },
+  {
+    "Category": "fast5FileProcessing",
+    "Description": "Extracting fast5 files for reads of interest for downstream processing and reducing the weight on the search time and space"
   }
 ]

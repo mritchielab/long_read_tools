@@ -244,5 +244,14 @@
   },
   "SALSA": {
     "Ignored": ["PyPI/salsa"]
+  },
+  "Apollo": {
+    "Ignored": ["CRAN/apollo", "PyPI/apollo"]
+  },
+  "Rattle": {
+    "Ignored": ["CRAN/rattle", "PyPI/rattle"]
+  },
+  "ReorientExpress": {
+    "PyPI": ["reorientexpress"]
   }
 }
