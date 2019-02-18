@@ -273,8 +273,8 @@
     "Refs": {
       "Publications": [
         {
+          "Title": "Apollo: A Sequencing-Technology-Independent, Scalable, and Accurate\n  Assembly Polishing Algorithm",
           "DOI": "arXiv:1902.04341",
-          "PubDate": [],
           "Preprint": false
         }
       ],
@@ -282,7 +282,7 @@
     },
     "Publications": 1,
     "Preprints": 0,
-    "PubDates": ["character(0)"],
+    "PubDates": ["NA"],
     "Github": "CMU-SAFARI/Apollo",
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["ErrorCorrectionAndPolishing", "TestedOnHumanData", "TestedOnNonHumanData"]
@@ -3248,7 +3248,7 @@
     "GeneExpressionAnalysis": false,
     "GapFilling": false,
     "AnalysisPipelines": false,
-    "Simulators": false,
+    "Simulators": true,
     "QualityFiltering": false,
     "Demultiplexing": false,
     "Metagenomics": false,
@@ -3258,7 +3258,7 @@
     },
     "PubDates": [null],
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": {}
+    "Categories": ["Simulators"]
   },
   {
     "Name": "Filtlong",
@@ -5244,7 +5244,7 @@
     "GeneExpressionAnalysis": false,
     "GapFilling": false,
     "AnalysisPipelines": false,
-    "Simulators": false,
+    "Simulators": true,
     "QualityFiltering": false,
     "Demultiplexing": false,
     "Metagenomics": false,
@@ -5266,7 +5266,7 @@
     "PubDates": ["2016-09-25"],
     "Github": "bioinform/longislnd",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": {}
+    "Categories": ["Simulators"]
   },
   {
     "Name": "longread_plots",
@@ -9678,7 +9678,7 @@
     "AnalysisPipelines": false,
     "Simulators": false,
     "QualityFiltering": false,
-    "Demultiplexing": false,
+    "Demultiplexing": true,
     "Metagenomics": false,
     "Refs": {
       "Publications": [
@@ -9698,7 +9698,7 @@
     "PubDates": ["2017-08-24"],
     "Github": "mdcao/japsa",
     "Technologies": ["OxfordNanopore"],
-    "Categories": {}
+    "Categories": ["Demultiplexing"]
   },
   {
     "Name": "npGraph",
@@ -9800,7 +9800,7 @@
   {
     "Name": "npReader",
     "DOIs": "10.1093/bioinformatics/btv658",
-    "Description": "tool to facilitate real-time conversion and analysis of Nanopore sequencing data.",
+    "Description": "A tool to facilitate real-time conversion and analysis of Nanopore sequencing data.",
     "Code": "https://github.com/mdcao/japsa",
     "License": "Copyright, all rights reserved",
     "OxfordNanopore": true,
@@ -9808,7 +9808,7 @@
     "tenxGenomics": false,
     "BionanoGenomics": false,
     "HiC": false,
-    "fast5FileProcessing": false,
+    "fast5FileProcessing": true,
     "BaseCalling": false,
     "LongReadOverlapping": false,
     "DenovoAssembly": false,
@@ -9855,7 +9855,7 @@
     "PubDates": ["2015-11-10"],
     "Github": "mdcao/japsa",
     "Technologies": ["OxfordNanopore"],
-    "Categories": {}
+    "Categories": ["fast5FileProcessing"]
   },
   {
     "Name": "npScarf",
@@ -10944,7 +10944,7 @@
     "tenxGenomics": false,
     "BionanoGenomics": false,
     "HiC": false,
-    "fast5FileProcessing": false,
+    "fast5FileProcessing": true,
     "BaseCalling": false,
     "LongReadOverlapping": false,
     "DenovoAssembly": false,
@@ -10992,7 +10992,7 @@
     "Github": "scottgigante/picopore",
     "PyPI": "picopore",
     "Technologies": ["OxfordNanopore"],
-    "Categories": {}
+    "Categories": ["fast5FileProcessing"]
   },
   {
     "Name": "Pilon",
@@ -11476,7 +11476,7 @@
     "tenxGenomics": false,
     "BionanoGenomics": false,
     "HiC": false,
-    "fast5FileProcessing": false,
+    "fast5FileProcessing": true,
     "BaseCalling": false,
     "LongReadOverlapping": false,
     "DenovoAssembly": false,
@@ -11512,7 +11512,7 @@
     "PubDates": [null],
     "Github": "nickloman/poredb",
     "Technologies": ["OxfordNanopore"],
-    "Categories": {}
+    "Categories": ["fast5FileProcessing"]
   },
   {
     "Name": "poreduck",
@@ -12335,7 +12335,7 @@
     "tenxGenomics": false,
     "BionanoGenomics": false,
     "HiC": false,
-    "fast5FileProcessing": false,
+    "fast5FileProcessing": true,
     "BaseCalling": false,
     "LongReadOverlapping": false,
     "DenovoAssembly": false,
@@ -12372,7 +12372,7 @@
     "Github": "jmschrei/PyPore",
     "PyPI": "pypore",
     "Technologies": ["OxfordNanopore"],
-    "Categories": {}
+    "Categories": ["fast5FileProcessing"]
   },
   {
     "Name": "qcat",
@@ -12921,7 +12921,7 @@
     "GeneExpressionAnalysis": false,
     "GapFilling": false,
     "AnalysisPipelines": false,
-    "Simulators": false,
+    "Simulators": true,
     "QualityFiltering": false,
     "Demultiplexing": false,
     "Metagenomics": false,
@@ -12932,7 +12932,7 @@
     "PubDates": [null],
     "Github": "BioInfoTools/BBMap",
     "Technologies": ["PacBio"],
-    "Categories": {}
+    "Categories": ["Simulators"]
   },
   {
     "Name": "Rattle",
@@ -12996,7 +12996,7 @@
     "BionanoGenomics": false,
     "HiC": false,
     "fast5FileProcessing": false,
-    "BaseCalling": false,
+    "BaseCalling": true,
     "LongReadOverlapping": false,
     "DenovoAssembly": false,
     "Alignment": false,
@@ -13042,7 +13042,7 @@
     "PubDates": ["2016-07-25"],
     "Github": "mattloose/RUscripts",
     "Technologies": ["OxfordNanopore"],
-    "Categories": {}
+    "Categories": ["BaseCalling"]
   },
   {
     "Name": "ReadSim",
@@ -13432,10 +13432,10 @@
     "BionanoGenomics": false,
     "HiC": false,
     "fast5FileProcessing": false,
-    "BaseCalling": false,
+    "BaseCalling": true,
     "LongReadOverlapping": false,
     "DenovoAssembly": false,
-    "Alignment": false,
+    "Alignment": true,
     "Scaffolding": false,
     "GeneratingConsensusSequence": false,
     "ErrorCorrectionAndPolishing": false,
@@ -13478,7 +13478,7 @@
     "PubDates": ["2018-11-02"],
     "Github": "harrisonedwards/RUBRIC",
     "Technologies": ["OxfordNanopore"],
-    "Categories": {}
+    "Categories": ["BaseCalling", "Alignment"]
   },
   {
     "Name": "SALSA",
@@ -13934,7 +13934,7 @@
     "GeneExpressionAnalysis": false,
     "GapFilling": false,
     "AnalysisPipelines": false,
-    "Simulators": false,
+    "Simulators": true,
     "QualityFiltering": false,
     "Demultiplexing": false,
     "Metagenomics": false,
@@ -13956,7 +13956,7 @@
     "PubDates": ["2016-09-22"],
     "Github": "ethanagbaker/SiLiCO",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": {}
+    "Categories": ["Simulators"]
   },
   {
     "Name": "SimLoRD",
@@ -14113,12 +14113,12 @@
           "Title": "A general method applicable to the search for similarities in the amino acid sequence of two proteins",
           "DOI": "10.1016/0022-2836(70)90057-4",
           "Preprint": false,
-          "Citations": 4634
+          "Citations": 4635
         }
       ],
       "Preprints": []
     },
-    "Citations": 4634,
+    "Citations": 4635,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -14329,7 +14329,7 @@
     "GeneExpressionAnalysis": false,
     "GapFilling": false,
     "AnalysisPipelines": false,
-    "Simulators": false,
+    "Simulators": true,
     "QualityFiltering": false,
     "Demultiplexing": false,
     "Metagenomics": false,
@@ -14350,7 +14350,7 @@
     "Preprints": 1,
     "PubDates": ["2017-05-22"],
     "Technologies": ["OxfordNanopore"],
-    "Categories": {}
+    "Categories": ["Simulators"]
   },
   {
     "Name": "Sniffles",
@@ -14677,9 +14677,24 @@
     "EvaluatingExisitingMethods": true,
     "IsoformDetection": true,
     "BaseModificationDetection": false,
+    "QualityChecking": false,
     "SNPAndVariantAnalysis": true,
     "Visualisation": true,
+    "ReadQuantification": false,
+    "SuitableForSingleCellExperiments": false,
+    "TestedOnHumanData": false,
+    "TestedOnNonHumanData": false,
+    "Normalisation": false,
     "ProvideSummaryStatistics": true,
+    "QualityTrimming": false,
+    "AvailablityOfTestData": false,
+    "GeneExpressionAnalysis": false,
+    "GapFilling": false,
+    "AnalysisPipelines": false,
+    "Simulators": false,
+    "QualityFiltering": false,
+    "Demultiplexing": false,
+    "Metagenomics": false,
     "Refs": {
       "Publications": [],
       "Preprints": [

@@ -37,8 +37,8 @@ add_to_titles_cache <- function(swsheet, titles_cache) {
     for (doi in stringr::str_split(dois, ";")[[1]]) {
       if (!is.na(doi) & !(doi %in% titles_cache$DOI)) {
         
-        if (stringr::str_detect(doi, "arxiv")) {
-          id <- stringr::str_remove(doi, "arxiv/")
+        if (stringr::str_detect(doi, "arXiv")) {
+          id <- stringr::str_remove(doi, "arXiv:")
           title <- aRxiv::arxiv_search(id_list = id)$title
           date <- aRxiv::arxiv_search(id_list = id)$submitted
         } else {

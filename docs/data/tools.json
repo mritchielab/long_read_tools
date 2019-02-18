@@ -128,8 +128,8 @@
     "Refs": {
       "Publications": [
         {
+          "Title": "Apollo: A Sequencing-Technology-Independent, Scalable, and Accurate\n  Assembly Polishing Algorithm",
           "DOI": "arXiv:1902.04341",
-          "PubDate": [],
           "Preprint": false
         }
       ],
@@ -137,7 +137,7 @@
     },
     "Publications": 1,
     "Preprints": 0,
-    "PubDates": ["character(0)"],
+    "PubDates": ["NA"],
     "Github": "CMU-SAFARI/Apollo",
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["ErrorCorrectionAndPolishing", "TestedOnHumanData", "TestedOnNonHumanData"]
@@ -1562,6 +1562,23 @@
     "Categories": ["QualityChecking", "ProvideSummaryStatistics"]
   },
   {
+    "Name": "FASTQSim",
+    "Description": "Read simulator from any platform",
+    "Code": "https://sourceforge.net/projects/fastqsim/",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Simulators"]
+  },
+  {
     "Name": "Filtlong",
     "Platform": "C++",
     "Description": "Filter long read data by quality and create a subset of smaller but  better  in quality based on read length and read identity",
@@ -2492,6 +2509,38 @@
     "Github": "bcgsc/LINKS",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["DenovoAssembly", "Scaffolding", "TestedOnNonHumanData"]
+  },
+  {
+    "Name": "LongISLND",
+    "DOIs": "10.1093/bioinformatics/btw602",
+    "Platform": "Java",
+    "Description": "Long read simulatior for ONT and PacBio",
+    "Code": "https://github.com/bioinform/longislnd",
+    "License": "CC-BY-NC-SA 4.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "LongISLND:in silicosequencing of lengthy and noisy datatypes",
+          "DOI": "10.1093/bioinformatics/btw602",
+          "PubDate": "2016-09-25",
+          "Preprint": false,
+          "Citations": 1
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 1,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2016-09-25"],
+    "Github": "bioinform/longislnd",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Simulators"]
   },
   {
     "Name": "longread_plots",
@@ -4604,6 +4653,37 @@
     "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData"]
   },
   {
+    "Name": "npBarcode",
+    "DOIs": "10.1093/bioinformatics/btx537",
+    "Description": "Real-time demultiplexing Nanopore barcoded sequencing data",
+    "Code": "https://github.com/mdcao/japsa",
+    "License": "Copyright, all rights reserved",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Real-time demultiplexing Nanopore barcoded sequencing data with npBarcode",
+          "DOI": "10.1093/bioinformatics/btx537",
+          "PubDate": "2017-08-24",
+          "Preprint": false,
+          "Citations": 1
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 1,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2017-08-24"],
+    "Github": "mdcao/japsa",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["Demultiplexing"]
+  },
+  {
     "Name": "npGraph",
     "Platform": "Java",
     "Description": "Streaming assembly for MinION data",
@@ -4641,6 +4721,37 @@
     "Github": "haojingshao/npInv",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["SNPAndVariantAnalysis"]
+  },
+  {
+    "Name": "npReader",
+    "DOIs": "10.1093/bioinformatics/btv658",
+    "Description": "A tool to facilitate real-time conversion and analysis of Nanopore sequencing data.",
+    "Code": "https://github.com/mdcao/japsa",
+    "License": "Copyright, all rights reserved",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Realtime analysis and visualization of MinION sequencing data with npReader",
+          "DOI": "10.1093/bioinformatics/btv658",
+          "PubDate": "2015-11-10",
+          "Preprint": false,
+          "Citations": 12
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 12,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2015-11-10"],
+    "Github": "mdcao/japsa",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["fast5FileProcessing"]
   },
   {
     "Name": "npScarf",
@@ -5138,6 +5249,39 @@
     "Categories": ["Alignment", "SNPAndVariantAnalysis", "TestedOnHumanData", "AnalysisPipelines"]
   },
   {
+    "Name": "picopore",
+    "DOIs": "10.12688/f1000research.11022.3",
+    "Platform": "Python",
+    "Description": "Reduce the storage size of ONT datasets",
+    "Code": "https://github.com/scottgigante/picopore",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Picopore: A tool for reducing the storage size of Oxford Nanopore Technologies datasets without loss of functionality",
+          "DOI": "10.12688/f1000research.11022.3",
+          "PubDate": "2017-09-28",
+          "Preprint": false,
+          "Citations": 1
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 1,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2017-09-28"],
+    "Github": "scottgigante/picopore",
+    "PyPI": "picopore",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["fast5FileProcessing"]
+  },
+  {
     "Name": "Pilon",
     "DOIs": "10.1371/journal.pone.0112963",
     "Platform": "Scala",
@@ -5347,6 +5491,25 @@
     "Github": "rrwick/Porechop",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["ErrorCorrectionAndPolishing"]
+  },
+  {
+    "Name": "poredb",
+    "Platform": "Python",
+    "Description": "Manage large Oxford Nanopore datasets",
+    "Code": "https://github.com/nickloman/poredb",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "nickloman/poredb",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["fast5FileProcessing"]
   },
   {
     "Name": "poreduck",
@@ -5724,6 +5887,27 @@
     "Categories": ["Visualisation"]
   },
   {
+    "Name": "PyPore",
+    "Platform": "Python",
+    "Description": "Tools to analyse Nanopore signal data",
+    "Code": "https://github.com/jmschrei/PyPore",
+    "License": "MIT",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "jmschrei/PyPore",
+    "PyPI": "pypore",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["fast5FileProcessing"]
+  },
+  {
     "Name": "qcat",
     "Platform": "Python",
     "Description": "Demultiplexing Oxford Nanopore reads from FASTQ files",
@@ -5975,6 +6159,25 @@
     "Categories": ["Scaffolding"]
   },
   {
+    "Name": "RandomReads",
+    "Platform": "Java",
+    "Description": "Read simulator for PacBio, part of the BBTools package",
+    "Code": "https://github.com/BioInfoTools/BBMap",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "BioInfoTools/BBMap",
+    "Technologies": ["PacBio"],
+    "Categories": ["Simulators"]
+  },
+  {
     "Name": "Rattle",
     "Platform": "C++",
     "Description": "Reference-free reconstruction and error correction of transcriptomes from Nanopore long-read sequencing",
@@ -5993,6 +6196,38 @@
     "Github": "comprna/RATTLE",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["ErrorCorrectionAndPolishing", "ReadQuantification"]
+  },
+  {
+    "Name": "Read-Until",
+    "DOIs": "10.1038/nmeth.3930",
+    "Platform": "Python",
+    "Description": "Real-time selective sequencing using ONT",
+    "Code": "https://github.com/mattloose/RUscripts",
+    "License": "Mozilla Public License Version 2.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Real-time selective sequencing using nanopore technology",
+          "DOI": "10.1038/nmeth.3930",
+          "PubDate": "2016-07-25",
+          "Preprint": false,
+          "Citations": 42
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 42,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2016-07-25"],
+    "Github": "mattloose/RUscripts",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseCalling"]
   },
   {
     "Name": "ReadSim",
@@ -6165,6 +6400,38 @@
     "Github": "kkrizanovic/RNAseqEval",
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["EvaluatingExisitingMethods", "QualityChecking", "ProvideSummaryStatistics"]
+  },
+  {
+    "Name": "RUBRIC",
+    "DOIs": "10.1101/460014",
+    "Platform": "Python",
+    "Description": "Selective sequencing on the ONT minION: Read Until with Basecall and Reference-Informed Criteria",
+    "Code": "https://github.com/harrisonedwards/RUBRIC",
+    "License": "Copyright (c) 2018: National Technology & Engineering Solutions of Sandia, LLC (NTESS)",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [],
+      "Preprints": [
+        {
+          "Title": "Real-Time Selective Sequencing with RUBRIC: Read Until with Basecall and Reference-Informed Criteria",
+          "DOI": "10.1101/460014",
+          "PubDate": "2018-11-02",
+          "Preprint": true,
+          "Citations": 0
+        }
+      ]
+    },
+    "Citations": 0,
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["2018-11-02"],
+    "Github": "harrisonedwards/RUBRIC",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseCalling", "Alignment"]
   },
   {
     "Name": "SALSA",
@@ -6352,6 +6619,38 @@
     "Categories": ["BaseModificationDetection"]
   },
   {
+    "Name": "SiLiCO",
+    "DOIs": "10.1101/076901",
+    "Platform": "Python",
+    "Description": "Read simulator for PacBio and ONT",
+    "Code": "https://github.com/ethanagbaker/SiLiCO",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [],
+      "Preprints": [
+        {
+          "Title": "SiLiCO: A Simulator of Long Read Sequencing in PacBio and Oxford Nanopore",
+          "DOI": "10.1101/076901",
+          "PubDate": "2016-09-22",
+          "Preprint": true,
+          "Citations": 1
+        }
+      ]
+    },
+    "Citations": 1,
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["2016-09-22"],
+    "Github": "ethanagbaker/SiLiCO",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Simulators"]
+  },
+  {
     "Name": "SimLoRD",
     "DOIs": "10.1093/bioinformatics/btw286",
     "Platform": "Python",
@@ -6419,12 +6718,12 @@
           "Title": "A general method applicable to the search for similarities in the amino acid sequence of two proteins",
           "DOI": "10.1016/0022-2836(70)90057-4",
           "Preprint": false,
-          "Citations": 4634
+          "Citations": 4635
         }
       ],
       "Preprints": []
     },
-    "Citations": 4634,
+    "Citations": 4635,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -6512,6 +6811,35 @@
     "Github": "EichlerLab/pacbio_variant_caller",
     "Technologies": ["PacBio"],
     "Categories": ["SNPAndVariantAnalysis"]
+  },
+  {
+    "Name": "SNaReSim",
+    "DOIs": "10.1101/133652",
+    "Description": "Oxford Nanopore read simulator",
+    "Code": "Not Available",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [],
+      "Preprints": [
+        {
+          "Title": "SNaReSim: Synthetic Nanopore Read Simulator",
+          "DOI": "10.1101/133652",
+          "PubDate": "2017-05-22",
+          "Preprint": true,
+          "Citations": 0
+        }
+      ]
+    },
+    "Citations": 0,
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["2017-05-22"],
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["Simulators"]
   },
   {
     "Name": "Sniffles",

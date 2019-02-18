@@ -49,6 +49,8 @@ $(document).ready(function () {
           cat_str = "SNP And Variant Analysis"
         } else if (category == "DenovoAssembly") {
           cat_str = "<i>De novo</i> Assembly"
+        } else if (category == "fast5FileProcessing") {
+          cat_str = "fast5 File Processing"
         } else {
           cat_str = category.replace(/([a-z])([A-Z])/g, '$1 $2')
         }
