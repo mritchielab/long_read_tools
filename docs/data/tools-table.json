@@ -1329,12 +1329,12 @@
           "DOI": "10.1093/bioinformatics/btp698",
           "PubDate": "2010-01-15",
           "Preprint": false,
-          "Citations": 3104
+          "Citations": 3106
         }
       ],
       "Preprints": []
     },
-    "Citations": 3104,
+    "Citations": 3106,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2010-01-15"],
@@ -2840,6 +2840,116 @@
     "Categories": ["AnalysisPipelines"]
   },
   {
+    "Name": "ectools",
+    "Platform": "Python",
+    "Description": "Set of tools for error correction and working with long read data",
+    "Code": "https://github.com/jgurtowski/ectools",
+    "License": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "fast5FileProcessing": false,
+    "BaseCalling": false,
+    "LongReadOverlapping": false,
+    "DenovoAssembly": false,
+    "Alignment": false,
+    "Scaffolding": false,
+    "GeneratingConsensusSequence": false,
+    "ErrorCorrectionAndPolishing": true,
+    "EvaluatingExisitingMethods": false,
+    "IsoformDetection": false,
+    "BaseModificationDetection": false,
+    "QualityChecking": false,
+    "SNPAndVariantAnalysis": false,
+    "Visualisation": false,
+    "ReadQuantification": false,
+    "SuitableForSingleCellExperiments": false,
+    "TestedOnHumanData": false,
+    "TestedOnNonHumanData": false,
+    "Normalisation": false,
+    "ProvideSummaryStatistics": true,
+    "QualityTrimming": false,
+    "AvailablityOfTestData": false,
+    "GeneExpressionAnalysis": false,
+    "GapFilling": false,
+    "AnalysisPipelines": false,
+    "Simulators": true,
+    "QualityFiltering": false,
+    "Demultiplexing": false,
+    "Metagenomics": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "jgurtowski/ectools",
+    "Technologies": ["PacBio"],
+    "Categories": ["ErrorCorrectionAndPolishing", "ProvideSummaryStatistics", "Simulators"]
+  },
+  {
+    "Name": "ELECTOR",
+    "DOIs": "10.1101/512889",
+    "Platform": "C",
+    "Description": "EvaLuator of Error Correction Tools for lOng Reads",
+    "Code": "https://github.com/kamimrcht/ELECTOR",
+    "License": "GNU Affero General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "fast5FileProcessing": false,
+    "BaseCalling": false,
+    "LongReadOverlapping": false,
+    "DenovoAssembly": false,
+    "Alignment": false,
+    "Scaffolding": false,
+    "GeneratingConsensusSequence": false,
+    "ErrorCorrectionAndPolishing": false,
+    "EvaluatingExisitingMethods": true,
+    "IsoformDetection": false,
+    "BaseModificationDetection": false,
+    "QualityChecking": false,
+    "SNPAndVariantAnalysis": false,
+    "Visualisation": false,
+    "ReadQuantification": false,
+    "SuitableForSingleCellExperiments": false,
+    "TestedOnHumanData": false,
+    "TestedOnNonHumanData": false,
+    "Normalisation": false,
+    "ProvideSummaryStatistics": true,
+    "QualityTrimming": false,
+    "AvailablityOfTestData": false,
+    "GeneExpressionAnalysis": false,
+    "GapFilling": false,
+    "AnalysisPipelines": false,
+    "Simulators": false,
+    "QualityFiltering": false,
+    "Demultiplexing": false,
+    "Metagenomics": false,
+    "Refs": {
+      "Publications": [],
+      "Preprints": [
+        {
+          "Title": "ELECTOR: Evaluator for long reads correction methods",
+          "DOI": "10.1101/512889",
+          "PubDate": "2019-01-07",
+          "Preprint": true,
+          "Citations": 0
+        }
+      ]
+    },
+    "Citations": 0,
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["2019-01-07"],
+    "Github": "kamimrcht/ELECTOR",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["EvaluatingExisitingMethods", "ProvideSummaryStatistics"]
+  },
+  {
     "Name": "EpiNano",
     "DOIs": "10.1101/525741",
     "Platform": "Python",
@@ -3729,6 +3839,65 @@
     "PubDates": ["2005-02-22"],
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["IsoformDetection"]
+  },
+  {
+    "Name": "Gmcloser",
+    "DOIs": "10.1093/bioinformatics/btv465",
+    "Platform": "Perl",
+    "Description": "Closing the gaps in scaffolds with preassembled contigs",
+    "Code": "https://sourceforge.net/projects/gmcloser/",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "fast5FileProcessing": false,
+    "BaseCalling": false,
+    "LongReadOverlapping": false,
+    "DenovoAssembly": false,
+    "Alignment": false,
+    "Scaffolding": false,
+    "GeneratingConsensusSequence": false,
+    "ErrorCorrectionAndPolishing": false,
+    "EvaluatingExisitingMethods": false,
+    "IsoformDetection": false,
+    "BaseModificationDetection": false,
+    "QualityChecking": false,
+    "SNPAndVariantAnalysis": false,
+    "Visualisation": false,
+    "ReadQuantification": false,
+    "SuitableForSingleCellExperiments": false,
+    "TestedOnHumanData": false,
+    "TestedOnNonHumanData": false,
+    "Normalisation": false,
+    "ProvideSummaryStatistics": false,
+    "QualityTrimming": false,
+    "AvailablityOfTestData": false,
+    "GeneExpressionAnalysis": false,
+    "GapFilling": true,
+    "AnalysisPipelines": false,
+    "Simulators": false,
+    "QualityFiltering": false,
+    "Demultiplexing": false,
+    "Metagenomics": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "GMcloser: closing gaps in assemblies accurately with a likelihood-based selection of contig or long-read alignments",
+          "DOI": "10.1093/bioinformatics/btv465",
+          "PubDate": "2015-08-10",
+          "Preprint": false,
+          "Citations": 9
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 9,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2015-08-10"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["GapFilling"]
   },
   {
     "Name": "GraphMap",
@@ -6237,12 +6406,12 @@
           "DOI": "10.1186/s13059-016-0997-x",
           "PubDate": "2016-06-20",
           "Preprint": false,
-          "Citations": 162
+          "Citations": 163
         }
       ],
       "Preprints": []
     },
-    "Citations": 162,
+    "Citations": 163,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-06-20"],
@@ -6863,12 +7032,12 @@
           "DOI": "10.1038/nbt.3238",
           "PubDate": "2015-05-25",
           "Preprint": false,
-          "Citations": 311
+          "Citations": 312
         }
       ],
       "Preprints": []
     },
-    "Citations": 311,
+    "Citations": 312,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-05-25"],
@@ -7467,12 +7636,12 @@
           "DOI": "10.1093/bioinformatics/btw354",
           "PubDate": "2016-06-16",
           "Preprint": false,
-          "Citations": 132
+          "Citations": 133
         }
       ],
       "Preprints": []
     },
-    "Citations": 132,
+    "Citations": 133,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-06-16"],
@@ -10017,11 +10186,11 @@
           "DOI": "10.1101/027607",
           "PubDate": "2015-09-25",
           "Preprint": true,
-          "Citations": 17
+          "Citations": 18
         }
       ]
     },
-    "Citations": 17,
+    "Citations": 18,
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2015-09-25"],
@@ -10318,12 +10487,12 @@
           "DOI": "10.1038/nbt.3238",
           "PubDate": "2015-05-25",
           "Preprint": false,
-          "Citations": 311
+          "Citations": 312
         }
       ],
       "Preprints": []
     },
-    "Citations": 311,
+    "Citations": 312,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-05-25"],
@@ -11044,12 +11213,12 @@
           "DOI": "10.1371/journal.pone.0112963",
           "PubDate": "2014-11-19",
           "Preprint": false,
-          "Citations": 579
+          "Citations": 581
         }
       ],
       "Preprints": []
     },
-    "Citations": 579,
+    "Citations": 581,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-11-19"],
@@ -12155,12 +12324,12 @@
           "DOI": "10.1093/bioinformatics/btr026",
           "PubDate": "2011-01-28",
           "Preprint": false,
-          "Citations": 1396
+          "Citations": 1397
         }
       ],
       "Preprints": []
     },
-    "Citations": 1396,
+    "Citations": 1397,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2011-01-28"],
@@ -12473,12 +12642,12 @@
           "DOI": "10.1093/bioinformatics/btt086",
           "PubDate": "2013-02-19",
           "Preprint": false,
-          "Citations": 928
+          "Citations": 929
         }
       ],
       "Preprints": []
     },
-    "Citations": 928,
+    "Citations": 929,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-02-19"],
@@ -13095,6 +13264,7 @@
   },
   {
     "Name": "ReorientExpress",
+    "DOIs": "10.1101/553321",
     "Platform": "Python",
     "Description": "Transcriptome long-read orientation with Deep Learning",
     "Code": "https://github.com/comprna/reorientexpress",
@@ -13134,10 +13304,18 @@
     "Demultiplexing": false,
     "Metagenomics": false,
     "Refs": {
-      "Publications": [null],
-      "Preprints": [null]
+      "Publications": [],
+      "Preprints": [
+        {
+          "DOI": "10.1101/553321",
+          "PubDate": [],
+          "Preprint": true
+        }
+      ]
     },
-    "PubDates": [null],
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["character(0)"],
     "Github": "comprna/reorientexpress",
     "PyPI": "reorientexpress",
     "Technologies": ["OxfordNanopore", "PacBio"],
@@ -14583,12 +14761,12 @@
           "Title": "SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing",
           "DOI": "10.1089/cmb.2012.0021",
           "Preprint": false,
-          "Citations": 3961
+          "Citations": 3966
         }
       ],
       "Preprints": []
     },
-    "Citations": 3961,
+    "Citations": 3966,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -15861,12 +16039,12 @@
           "DOI": "10.1371/journal.pcbi.1005595",
           "PubDate": "2017-06-08",
           "Preprint": false,
-          "Citations": 137
+          "Citations": 138
         }
       ],
       "Preprints": []
     },
-    "Citations": 137,
+    "Citations": 138,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-06-08"],
