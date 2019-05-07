@@ -2,11 +2,17 @@ DOI,Title,PubDate
 10.1073/pnas.1604560113,Assembly of long error-prone reads using de Bruijn graphs,2016-12-12
 10.12688/f1000research.10571.2,Comprehensive comparison of Pacific Biosciences and Oxford Nanopore Technologies and their applications to transcriptome analysis,2017-06-19
 10.1073/pnas.1017351108,High-quality draft assemblies of mammalian genomes from massively parallel sequence data,2010-12-27
+arxiv/1902.04341,"Apollo: A Sequencing-Technology-Independent, Scalable, and Accurate
+  Assembly Polishing Algorithm",2019-02-12
 10.1093/bioinformatics/btw267,Genome assembly from synthetic long read clouds,2016-06-15
 10.1093/bioinformatics/btx675,ARCS: scaffolding genome drafts with linked reads,2017-10-23
+10.1186/s13742-015-0103-4,"Discovery, genotyping and characterization of structural variation and novel sequence at single nucleotide resolution from de novo genome assemblies on a population scale",NA
+10.1093/bioinformatics/btw369,Assemblytics: a web analytics tool for the detection of variants from an assembly,2016-06-17
 10.1093/bioinformatics/btv046,Analysis of nanopore data using hidden Markov models,2015-02-03
 10.1101/543439,Performance of neural network basecalling tools for Oxford Nanopore sequencing,2019-02-07
 10.1101/133058,BasecRAWller: Streaming Nanopore Basecalling Directly from Raw Signal,2017-05-01
+10.1111/2041-210X.13095,"BASTA
+            – Taxonomic classification of sequences and sequence bins using last common ancestor estimations",2018-10-10
 10.1101/464420,BELLA: Berkeley Efficient Long-Read to Long-Read Aligner and Overlapper,2018-11-07
 10.1101/gr.229202,BLAT---The BLAST-Like Alignment Tool,2002-03-20
 10.1093/bioinformatics/bty841,BulkVis: a graphical viewer for Oxford nanopore bulk FAST5 files,2018-11-20
@@ -17,24 +23,33 @@ DOI,Title,PubDate
 10.1101/gr.210641.116,Centrifuge: rapid and sensitive classification of metagenomic sequences,2016-10-17
 10.1093/gigascience/giy037,Chiron: translating nanopore raw signal directly into nucleotide sequence using deep learning,2018-04-10
 10.1186/s13059-015-0849-0,Circlator: automated circularization of genome assemblies using long sequencing reads,NA
+10.1101/310458,Clairvoyante: a multi-task convolutional deep neural network for variant calling in Single Molecule Sequencing,2018-04-28
+10.21105/joss.00116,RAILS and Cobbler: Scaffolding and automated finishing of draft genomes using long DNA sequences,2016-11-17
+10.1101/546630,CONSENT: Scalable self-correction of long reads with multiple sequence alignment,2019-02-11
 10.1186/s12864-018-5094-y,Real-time analysis of nanopore-based metagenomic sequencing from infected orthopaedic devices,2018-09-27
 10.1093/bioinformatics/bty555,An accurate and rapid continuous wavelet dynamic time warping algorithm for end-to-end mapping in ultra-long nanopore sequencing,2018-09-01
 10.7717/peerj.4958,"D-GENIES: dot plot large genomes in an interactive, efficient and simple way",2018-06-04
 10.1101/442814,Capturing the dynamics of genome replication on individual ultra-long nanopore sequence reads,2018-10-16
 10.1101/106252,Non Hybrid Long Read Consensus Using Local De Bruijn Graph Assembly,2017-02-06
+10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
 10.1007/978-3-662-44753-6_5,Efficient Local Alignment Discovery amongst Noisy Long Reads,NA
 10.1038/s41467-017-01343-4,Mapping and phasing of structural variation in patient genomes using nanopore sequencing,2017-11-06
+10.1038/srep31900,DBG2OLC: Efficient Assembly of Large Genomes Using Long Erroneous Reads of the Third Generation Sequencing Technologies,2016-08-30
 10.1371/journal.pcbi.1006583,Deepbinner: Demultiplexing barcoded Oxford Nanopore reads with deep convolutional neural networks,2018-11-20
 10.1371/journal.pone.0178751,DeepNano: Deep recurrent neural networks for base calling in MinION nanopore reads,2017-06-05
 10.1101/385849,DeepSignal: detecting DNA methylation state from Nanopore sequencing reads using deep-learning,2018-08-06
 10.1093/bioinformatics/bty223,DeepSimulator: a deep simulator for Nanopore sequencing,2018-04-06
 10.1093/bioinformatics/bty663,A framework and an algorithm to detect low-abundance DNA by a handy sequencer and a palm-sized computer,2018-07-26
 10.1038/nmeth.3444,A complete bacterial genome assembled de novo using only nanopore sequencing data,2015-06-15
+10.1101/512889,ELECTOR: Evaluator for long reads correction methods,2019-01-07
 10.1101/525741,Accurate detection of m6A RNA modifications in native RNA sequences,2019-01-21
 10.1038/nmeth.4035,Phased diploid genome assembly with single-molecule real-time sequencing,2016-10-17
 10.1093/gigascience/giy048,Fast-SG: an alignment-free algorithm for hybrid assembly,2018-05-01
+10.1101/247148,Assembly of Long Error-Prone Reads Using Repeat Graphs,2018-01-12
 10.1186/s12859-018-2051-3,FMLRC: Hybrid long read error correction using an FM-index,2018-02-09
 10.1093/bioinformatics/bti310,GMAP: a genomic mapping and alignment program for mRNA and EST sequences,2005-02-22
+10.1093/bioinformatics/btv465,GMcloser: closing gaps in assemblies accurately with a likelihood-based selection of contig or long-read alignments,2015-08-10
+10.1371/journal.pone.0174744,"GOTHiC, a probabilistic model to resolve complex biases and to identify real interactions in Hi-C data",2017-04-05
 10.1038/ncomms11307,Fast and sensitive mapping of nanopore sequencing reads with GraphMap,2016-04-15
 10.1186/s12859-017-1610-3,HALC: High throughput algorithm for long read error correction,2017-04-05
 10.1101/gr.213462.116,HapCUT2: robust and accurate haplotype assembly for diverse sequencing technologies,2016-12-09
@@ -58,6 +73,8 @@ DOI,Title,PubDate
 10.1093/bioinformatics/bty544,lordFAST: sensitive and Fast Alignment Search Tool for LOng noisy Read sequencing Data,2018-07-02
 10.1104/pp.18.00848,Long-Read Annotation: Automated Eukaryotic Genome Annotation Based on Long-Read cDNA Sequencing,2018-11-06
 10.1093/bioinformatics/btw321,Accurate self-correction of errors in long reads using de Bruijn graphs,2016-06-06
+10.1186/s13100-017-0088-x,LoRTE: Detecting transposon-induced genomic variants using low coverage PacBio long read sequences,2017-04-08
+10.1093/bioinformatics/btx489,"LRCstats, a tool for evaluating long reads correction methods",2017-08-02
 10.1038/nprot.2018.025,Long-read sequencing data analysis for yeasts,2018-05-03
 10.1371/journal.pone.0046679,Improving PacBio Long Read Accuracy by Short Read Alignment,2012-10-04
 10.1186/s12859-016-1316-y,LSCplus: a fast solution for improving long read accuracy by short read alignment,2016-11-09
@@ -72,6 +89,7 @@ DOI,Title,PubDate
 10.1038/nmeth.4432,"MECAT: fast mapping, error correction, and de novo assembly for single-molecule sequencing reads",2017-09-18
 10.1186/s13062-018-0208-7,MEGAN-LR: new algorithms allow accurate binning and easy interactive exploration of metagenomic long reads and contigs,NA
 10.1186/s12859-017-1518-y,Meta-aligner: long-read alignment based on genome statistics,2017-02-23
+10.1186/s13073-015-0220-9,Rapid metagenomic identification of viral pathogens in clinical samples by real-time nanopore sequencing analysis,2015-09-29
 10.1093/bioinformatics/btv204,MetaSV: an accurate and integrative structural-variant caller for next generation sequencing,2015-04-10
 10.1038/nbt.3238,Assembling large genomes with single-molecule sequencing and locality-sensitive hashing,2015-05-25
 10.1093/bioinformatics/btw152,Minimap and miniasm: fast mapping and de novo assembly for noisy long sequences,2016-03-19
@@ -83,11 +101,12 @@ DOI,Title,PubDate
 10.1093/bioinformatics/btw569,Nanocall: an open source basecaller for Oxford Nanopore sequencing data,2016-09-10
 10.1093/bioinformatics/bty149,NanoPack: visualizing and processing long-read sequencing data,2018-03-14
 10.1101/gr.191395.115,"Oxford Nanopore sequencing, hybrid error correction, and de novo assembly of a eukaryotic genome",2015-10-07
+10.1101/586842,NanoDJ: A Dockerized Jupyter Notebook for Interactive Oxford Nanopore MinION Sequence Manipulation and Genome Assembly,2019-03-28
 10.1101/277178,NanoMod: a computational tool to detect DNA modifications using Nanopore long-read sequencing data,2018-03-05
 10.1093/bioinformatics/btv540,"NanoOK: multi-reference alignment analysis of nanopore sequencing data, quality and error profiles",2015-09-17
 10.1093/bioinformatics/bty150,Design tools for MPRA experiments,2018-03-21
 10.1038/nmeth.4184,Detecting DNA cytosine methylation using nanopore sequencing,2017-02-20
-10.1101/514232,NanoR: An user-friendly R package to analyze and compare nanopore sequencing data,2019-01-09
+10.1101/514232,NanoR: a user-friendly R package to analyze and compare nanopore sequencing data,2019-01-09
 10.1101/094672,De novo Identification of DNA Modifications Enabled by Genome-Guided Nanopore Signal Processing,2016-12-15
 10.1101/439026,Accurate characterization of expanded tandem repeat length and sequence through whole genome long-read sequencing on PromethION.,2018-10-09
 10.1093/gigascience/gix010,"NanoSim: nanopore sequence read simulator based on statistical
@@ -107,7 +126,6 @@ DOI,Title,PubDate
 10.12688/f1000research.11022.3,Picopore: A tool for reducing the storage size of Oxford Nanopore Technologies datasets without loss of functionality,2017-09-28
 10.1371/journal.pone.0112963,Pilon: An Integrated Tool for Comprehensive Microbial Variant Detection and Genome Assembly Improvement,2014-11-19
 10.1101/459529,Nanopore native RNA sequencing of a human poly(A) transcriptome,2018-11-09
-10.1093/bioinformatics/btu590,poRe: an R package for the visualization and analysis of nanopore sequencing data,2014-08-29
 10.1101/019281,Sequencing ultra-long DNA molecules with the Oxford Nanopore MinION,2015-05-13
 10.1038/nbt.3360,De novo sequencing and variant calling with nanopores using PoreSeq,2015-09-09
 10.1101/424184,poreTally: run and publish de novo Nanopore assembler benchmarks,2018-09-23
@@ -118,18 +136,23 @@ DOI,Title,PubDate
 10.1093/bioinformatics/btt086,QUAST: quality assessment tool for genome assemblies,2013-02-19
 10.1093/bioinformatics/bty266,Versatile genome assembly evaluation with QUAST-LG,2018-06-27
 10.1093/nar/gkw654,Contiguous and accuratede novoassembly of metazoan genomes with modest long read coverage,2016-07-25
+10.1093/bioinformatics/btu590,poRe: an R package for the visualization and analysis of nanopore sequencing data,2014-08-29
 10.1073/pnas.1806447115,Improving nanopore read accuracy with the R2C2 method enables the sequencing of highly multiplexed full-length single-cell cDNA,2018-09-10
 10.1101/gr.214270.116,Fast and accurate de novo genome assembly from long uncorrected reads,2017-01-18
 10.1038/nmeth.3930,Real-time selective sequencing using nanopore technology,2016-07-25
+10.1101/553321,ReorientExpress: reference-free orientation of nanopore cDNA reads with deep learning,2019-02-18
 10.1101/426858,Mapping DNA replication with nanopore sequencing,2018-09-26
 10.1101/082123,Ribbon: Visualizing complex genome alignments and structural variation,2016-10-20
 10.1093/bioinformatics/btx668,Evaluation of tools for long read RNA-seq splice-aware alignment,2017-10-23
 10.1101/460014,Real-Time Selective Sequencing with RUBRIC: Read Until with Basecall and Reference-Informed Criteria,2018-11-02
+10.1186/s12864-017-3879-z,Scaffolding of long read assemblies using long range contact information,2017-07-12
+10.1038/s41592-018-0236-3,Long-read sequence and assembly of segmental duplications,2018-12-17
 10.1038/nmeth.4189,Mapping DNA methylation with high-throughput nanopore sequencing,2017-02-20
 10.1101/076901,SiLiCO: A Simulator of Long Read Sequencing in PacBio and Oxford Nanopore,2016-09-22
 10.1093/bioinformatics/btw286,SimLoRD: Simulation of Long Read Data,2016-05-10
 10.1016/0022-2836(70)90057-4,A general method applicable to the search for similarities in the amino acid sequence of two proteins,NA
-doi.org/10.1093/nar/gkr1146,"Characterization of DNA methyltransferase specificities using single-molecule, real-time DNA sequencing",2011-12-07
+10.1126/science.aar6343,High-resolution comparative analysis of great ape genomes,2018-06-07
+10.1093/nar/gkr1146,"Characterization of DNA methyltransferase specificities using single-molecule, real-time DNA sequencing",2011-12-07
 10.1038/nature13907,Resolving the complexity of the human genome using single-molecule sequencing,2014-11-10
 10.1101/133652,SNaReSim: Synthetic Nanopore Read Simulator,2017-05-22
 10.1101/169557,Accurate detection of complex structural variations using single molecule sequencing,2017-07-28
@@ -137,46 +160,17 @@ doi.org/10.1093/nar/gkr1146,"Characterization of DNA methyltransferase specifici
 10.1089/cmb.2012.0021,SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing,NA
 10.1093/bioinformatics/btx370,A spectral algorithm for fast de novo layout of uncorrected long nanopore reads,2017-06-10
 10.1101/gr.222976.117,SQANTI: extensive characterization of long-read transcript sequences for quality control in full-length transcriptome identification and quantification,2018-02-09
+10.1101/549741,SquiggleKit: A toolkit for manipulating nanopore signal data,2019-02-16
 10.1038/ncomms14061,Transient structural variations have strong effects on quantitative traits and reproductive isolation in fission yeast,2017-01-24
 10.1093/bioinformatics/btz041,SVIM: structural variant identification using mapped long reads,2019-01-21
+10.1101/546622,SyRI: identification of syntenic and rearranged regions from whole-genome assemblies,2019-02-11
+10.1101/588343,tailfindr: Alignment-free poly(A) length measurement for Oxford Nanopore RNA and DNA sequencing,2019-03-25
 10.1101/356931,Robust detection of tandem repeat expansions from long DNA reads,2018-06-27
 10.1038/ncomms11706,A survey of the sorghum transcriptome using single-molecule long reads,2016-06-24
+10.1186/s12859-018-2425-6,Tigmint: correcting assembly errors using linked reads from large molecules,2018-10-26
 10.1038/nbt.3242,Comprehensive transcriptome analysis using synthetic long-read sequencing reveals molecular co-association of distant splicing events,2015-05-18
 10.1101/474445,TSD: A computational tool to study the complex structural variants using PacBio targeted sequencing data,2018-11-20
 10.1038/s41598-017-07650-6,Rapid de novo assembly of the European eel genome from nanopore sequencing reads,2017-08-03
 10.1371/journal.pcbi.1005595,Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads,2017-06-08
 10.1007/s40484-018-0155-4,WaveNano: a signal-level nanopore base-caller via simultaneous prediction of nucleotide labels and move labels through bi-directional WaveNets,2018-11-24
 10.1101/030742,What's in my pot? Real-time species identification on the MinION,2015-11-06
-10.1186/s13100-017-0088-x,LoRTE: Detecting transposon-induced genomic variants using low coverage PacBio long read sequences,2017-04-08
-10.21105/joss.00116,RAILS and Cobbler: Scaffolding and automated finishing of draft genomes using long DNA sequences,2016-11-17
-10.1186/s12859-018-2425-6,Tigmint: correcting assembly errors using linked reads from large molecules,2018-10-26
-10.1186/s12864-017-3879-z,Scaffolding of long read assemblies using long range contact information,2017-07-12
-10.1186/s13742-015-0103-4,"Discovery, genotyping and characterization of structural variation and novel sequence at single nucleotide resolution from de novo genome assemblies on a population scale",NA
-10.1093/bioinformatics/btw369,Assemblytics: a web analytics tool for the detection of variants from an assembly,2016-06-17
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
-10.1101/546630,CONSENT: Scalable self-correction of long reads with multiple sequence alignment,2019-02-11
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
-10.1101/549741,SquiggleKit: A toolkit for manipulating nanopore signal data,2019-02-16
-10.1101/546622,SyRI: identification of syntenic and rearranged regions from whole-genome assemblies,2019-02-11
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
-arXiv:1902.04341,"Apollo: A Sequencing-Technology-Independent, Scalable, and Accurate
-  Assembly Polishing Algorithm",NA
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
-arxiv/1902.04341,"Apollo: A Sequencing-Technology-Independent, Scalable, and Accurate
-  Assembly Polishing Algorithm",2019-02-12
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
-10.1038/s41592-018-0236-3,Long-read sequence and assembly of segmental duplications,2018-12-17
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
-10.1093/bioinformatics/btv465,GMcloser: closing gaps in assemblies accurately with a likelihood-based selection of contig or long-read alignments,2015-08-10
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
-10.1101/512889,ELECTOR: Evaluator for long reads correction methods,2019-01-07
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
-10.1038/srep31900,DBG2OLC: Efficient Assembly of Large Genomes Using Long Erroneous Reads of the Third Generation Sequencing Technologies,2016-08-30
-10.1101/553321,ReorientExpress: reference-free orientation of nanopore cDNA reads with deep learning,2019-02-18
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
-10.1371/journal.pone.0174744,"GOTHiC, a probabilistic model to resolve complex biases and to identify real interactions in Hi-C data",2017-04-05
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
-10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02
- 10.1101/145474,Haplotype And Repeat Separation In Long Reads,2017-06-02

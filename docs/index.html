@@ -168,6 +168,7 @@
                         <th data-field="LongReadOverlapping" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Long Read Overlapping</th>
                         <th data-field="Metagenomics" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Metagenomics</th>
                         <th data-field="Normalisation" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Normalisation</th>
+                        <th data-field="polyALengthEstimation" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">polyA Length Estimation</th>
                         <th data-field="ProvideSummaryStatistics" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Provide Summary Statistics</th>
                         <th data-field="QualityChecking" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Quality Checking</th>
                         <th data-field="QualityFiltering" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Quality Filtering</th>
@@ -177,6 +178,7 @@
                         <th data-field="Simulators" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Simulators</th>
                         <th data-field="SNPAndVariantAnalysis" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">SNP and Variant Analysis</th>
                         <th data-field="SuitableForSingleCellExperiments" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Suitable for Single-cell Experiments</th>
+                        <th data-field="TaxonomicClassification" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Taxonomic Classification</th>
                         <th data-field="TestedOnHumanData" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Tested on Human Data</th>
                         <th data-field="TestedOnNonHumanData" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Tested on Non-Human Data</th>
                         <th data-field="Visualisation" data-sortable="true" data-visible="false" data-formatter="logicalFormatter" data-filter-control="select">Visualisation</th>
@@ -251,6 +253,12 @@
             } else if (cat == "DenovoAssembly") {
               formatted.push('<a href="categories.html#' + cat + '">' +
                     '<i>' + "De novo" + '</i>' + " Assembly" + '</a>')        
+            } else if (cat == "fast5FileProcessing") {
+              formatted.push('<a href="categories.html#' + cat + '">' +
+                    "fast5 File Processing" + '</a>')        
+            } else if (cat == "polyALengthEstimation") {
+              formatted.push('<a href="categories.html#' + cat + '">' +
+                    "polyA Length Estimation" + '</a>')        
             } else {
               formatted.push('<a href="categories.html#' + cat + '">' +
                     cat.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')

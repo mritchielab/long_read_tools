@@ -59,7 +59,8 @@ tidy_swsheet_cat <- function(swsheet) {
                   Visualisation,	ReadQuantification,	SuitableForSingleCellExperiments,
                   TestedOnHumanData,TestedOnNonHumanData,Normalisation,ProvideSummaryStatistics,
                   QualityTrimming,AvailablityOfTestData,GeneExpressionAnalysis,GapFilling,
-                  AnalysisPipelines, QualityFiltering, Metagenomics, Simulators, Demultiplexing) %>%
+                  AnalysisPipelines, QualityFiltering, Metagenomics, Simulators, Demultiplexing, 
+                  TaxonomicClassification, polyALengthEstimation) %>%
         dplyr::filter(Val == TRUE) %>%
         dplyr::select(-Val) %>%
         dplyr::arrange(Name)

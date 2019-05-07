@@ -51,6 +51,8 @@ $(document).ready(function () {
           cat_str = "<i>De novo</i> Assembly"
         } else if (category == "fast5FileProcessing") {
           cat_str = "fast5 File Processing"
+        } else if (category == "polyALengthEstimation") {
+          cat_str = "polyA Length Estimation"
         } else {
           cat_str = category.replace(/([a-z])([A-Z])/g, '$1 $2')
         }
