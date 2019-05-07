@@ -645,7 +645,7 @@
     "Preprints": 0,
     "PubDates": ["2017-05-02"],
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["Visualisation", "TestedOnNonHumanData", "Metagenomics"]
+    "Categories": ["Visualisation", "TestedOnNonHumanData", "Metagenomics", "TaxonomicClassification"]
   },
   {
     "Name": "bwa-sw",
@@ -791,7 +791,7 @@
     "PubDates": ["2016-10-17"],
     "Github": "infphilo/centrifuge",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics"]
+    "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics", "TaxonomicClassification"]
   },
   {
     "Name": "Cerulean",
@@ -2308,12 +2308,12 @@
           "DOI": "10.1186/s12859-016-0966-0",
           "PubDate": "2016-02-27",
           "Preprint": false,
-          "Citations": [3]
+          "Citations": [4]
         }
       ],
       "Preprints": []
     },
-    "Citations": 3,
+    "Citations": 4,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-02-27"],
@@ -2539,7 +2539,7 @@
     "Preprints": 0,
     "PubDates": ["2016-04-13"],
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics"]
+    "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics", "TaxonomicClassification"]
   },
   {
     "Name": "Kraken",
@@ -2569,7 +2569,7 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "HiC"],
-    "Categories": ["TestedOnNonHumanData", "Metagenomics"]
+    "Categories": ["TestedOnNonHumanData", "Metagenomics", "TaxonomicClassification"]
   },
   {
     "Name": "Krocus",
@@ -3487,7 +3487,7 @@
     "Preprints": 0,
     "PubDates": ["NA"],
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics"]
+    "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics", "TaxonomicClassification"]
   },
   {
     "Name": "Meta-aligner",
@@ -3536,7 +3536,7 @@
     "PubDates": [null],
     "Github": "DiltheyLab/MetaMaps",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["Metagenomics"]
+    "Categories": ["Metagenomics", "TaxonomicClassification"]
   },
   {
     "Name": "MetaPORE",
@@ -4007,7 +4007,7 @@
     "PubDates": ["2018-11-23"],
     "Github": "umerijaz/nanopore",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics"]
+    "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics", "TaxonomicClassification"]
   },
   {
     "Name": "NanoBLASTer",
@@ -5184,7 +5184,7 @@
     "PubDates": ["2015-09-25"],
     "Github": "onecodex/onecodex",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics"]
+    "Categories": ["TestedOnNonHumanData", "AvailablityOfTestData", "Metagenomics", "TaxonomicClassification"]
   },
   {
     "Name": "ont-assembly-polish",
@@ -5867,7 +5867,7 @@
     "PubDates": [null],
     "Github": "EvdH0/poreFUME",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["AnalysisPipelines", "Metagenomics"]
+    "Categories": ["AnalysisPipelines", "Metagenomics", "TaxonomicClassification"]
   },
   {
     "Name": "PoreKit",
@@ -6360,12 +6360,12 @@
           "DOI": "10.1093/bioinformatics/btu590",
           "PubDate": "2014-08-29",
           "Preprint": false,
-          "Citations": [50]
+          "Citations": [49]
         }
       ],
       "Preprints": []
     },
-    "Citations": 50,
+    "Citations": 49,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-08-29"],
@@ -6730,7 +6730,7 @@
     "PubDates": [null],
     "Github": "edawson/rkmh",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["Metagenomics"]
+    "Categories": ["Metagenomics", "TaxonomicClassification"]
   },
   {
     "Name": "RNAseqEval",
@@ -7494,7 +7494,7 @@
     "PubDates": [null],
     "Github": "mbhall88/streamformatics",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["Visualisation", "Metagenomics"]
+    "Categories": ["Visualisation", "Metagenomics", "TaxonomicClassification"]
   },
   {
     "Name": "STRique",
@@ -7653,7 +7653,7 @@
     "Categories": ["Simulators"]
   },
   {
-    "Name": "tailfinder",
+    "Name": "tailfindr",
     "DOIs": "10.1101/588343",
     "Platform": "R",
     "Description": "Estimates poly(A) tail lengths in Oxford Nanopore RNA and DNA reads",
@@ -8060,7 +8060,7 @@
     "Preprints": 1,
     "PubDates": ["2015-11-06"],
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["Visualisation", "TestedOnNonHumanData", "ProvideSummaryStatistics", "Metagenomics"]
+    "Categories": ["Visualisation", "TestedOnNonHumanData", "ProvideSummaryStatistics", "Metagenomics", "TaxonomicClassification"]
   },
   {
     "Name": "wtdbg2",
