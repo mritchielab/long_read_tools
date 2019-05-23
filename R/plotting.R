@@ -279,9 +279,9 @@ plot_categories <- function(swsheet) {
     tidyr::gather(key = Category, value = Count) %>%
     dplyr::arrange(-Count, Category) %>%
     dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
-    dplyr::mutate(Category = ifelse(Category == "SNPAndVariantAnalysis", "SNP And Variant Analysis", gsub("([a-z])([A-Z])", "\\1 \\2", Category)))%>%
-    dplyr::mutate(Category = ifelse(Category == "fast5FileProcessing", "fast5 File Processing", gsub("([a-z])([A-Z])", "\\1 \\2", Category)))%>%
-    dplyr::mutate(Category = ifelse(Category == "polyALengthEstimation", "polyA Length Estimation", gsub("([a-z])([A-Z])", "\\1 \\2", Category)))%>%
+    dplyr::mutate(Category = ifelse(Category == "SNPAndVariantAnalysis", "SNP And Variant Analysis",
+                                    ifelse(Category == "polyALengthEstimation", "polyA Length Estimation",
+                                           ifelse(Category == "fast5FileProcessing", "fast5 File Processing", gsub("([a-z])([A-Z])", "\\1 \\2", Category)))))%>%
     dplyr::mutate(Category = stringr::str_trim(Category)) %>%
     dplyr::mutate(Category = factor(Category, levels = Category)) %>%
     dplyr::mutate(Percent = round(Prop * 100, 1))
@@ -331,9 +331,9 @@ plot_categories <- function(swsheet) {
       tidyr::gather(key = Category, value = Count) %>%
       dplyr::arrange(-Count, Category) %>%
       dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
-      dplyr::mutate(Category = ifelse(Category == "SNPAndVariantAnalysis", "SNP And Variant Analysis", gsub("([a-z])([A-Z])", "\\1 \\2", Category)))%>%
-      dplyr::mutate(Category = ifelse(Category == "fast5FileProcessing", "fast5 File Processing", gsub("([a-z])([A-Z])", "\\1 \\2", Category)))%>%
-      dplyr::mutate(Category = ifelse(Category == "polyALengthEstimation", "polyA Length Estimation", gsub("([a-z])([A-Z])", "\\1 \\2", Category)))%>%
+      dplyr::mutate(Category = ifelse(Category == "SNPAndVariantAnalysis", "SNP And Variant Analysis",
+                                      ifelse(Category == "polyALengthEstimation", "polyA Length Estimation",
+                                             ifelse(Category == "fast5FileProcessing", "fast5 File Processing", gsub("([a-z])([A-Z])", "\\1 \\2", Category)))))%>%
       dplyr::mutate(Category = stringr::str_trim(Category)) %>%
       dplyr::mutate(Category = factor(Category, levels = Category)) %>%
       dplyr::mutate(Percent = round(Prop * 100, 1))
