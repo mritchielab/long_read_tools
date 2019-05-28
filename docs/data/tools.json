@@ -556,12 +556,12 @@
           "DOI": "10.1101/gr.229202",
           "PubDate": "2002-03-20",
           "Preprint": false,
-          "Citations": [1872]
+          "Citations": [1873]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1872,
+    "Citations": 1873,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2002-03-20"],
@@ -5587,12 +5587,12 @@
           "DOI": "10.1111/mmi.13873",
           "PubDate": "2017-11-17",
           "Preprint": false,
-          "Citations": [6]
+          "Citations": [5]
         }
       ],
       "Preprints": []
     },
-    "Citations": 6,
+    "Citations": 5,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-11-17"],
@@ -7204,12 +7204,12 @@
           "Title": "A general method applicable to the search for similarities in the amino acid sequence of two proteins",
           "DOI": "10.1016/0022-2836(70)90057-4",
           "Preprint": false,
-          "Citations": [5090]
+          "Citations": [5118]
         }
       ],
       "Preprints": []
     },
-    "Citations": 5090,
+    "Citations": 5118,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -8133,12 +8133,12 @@
           "DOI": "10.1371/journal.pcbi.1005595",
           "PubDate": "2017-06-08",
           "Preprint": false,
-          "Citations": [235]
+          "Citations": [236]
         }
       ],
       "Preprints": []
     },
-    "Citations": 235,
+    "Citations": 236,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-06-08"],
@@ -8206,6 +8206,7 @@
   },
   {
     "Name": "wtdbg2",
+    "DOIs": "10.1101/530972",
     "Platform": "C++",
     "Description": "A fuzzy Bruijn graph approach to long noisy reads assembly",
     "Code": "https://github.com/ruanjue/wtdbg2",
@@ -8216,10 +8217,21 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [null],
-      "Preprints": [null]
+      "Publications": [],
+      "Preprints": [
+        {
+          "Title": "Fast and accurate long-read assembly with wtdbg2",
+          "DOI": "10.1101/530972",
+          "PubDate": "2019-01-27",
+          "Preprint": true,
+          "Citations": [3]
+        }
+      ]
     },
-    "PubDates": [null],
+    "Citations": 3,
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["2019-01-27"],
     "Github": "ruanjue/wtdbg2",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["DenovoAssembly", "ErrorCorrectionAndPolishing"]
