@@ -226,12 +226,12 @@
           "DOI": "10.1073/pnas.1017351108",
           "PubDate": "2010-12-27",
           "Preprint": false,
-          "Citations": [884]
+          "Citations": [886]
         }
       ],
       "Preprints": []
     },
-    "Citations": 884,
+    "Citations": 886,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2010-12-27"],
@@ -586,12 +586,12 @@
           "DOI": "10.1093/bioinformatics/btw369",
           "PubDate": "2016-06-17",
           "Preprint": false,
-          "Citations": [30]
+          "Citations": [31]
         }
       ],
       "Preprints": []
     },
-    "Citations": 30,
+    "Citations": 31,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-06-17"],
@@ -1207,12 +1207,12 @@
           "DOI": "10.1101/gr.229202",
           "PubDate": "2002-03-20",
           "Preprint": false,
-          "Citations": [1871]
+          "Citations": [1872]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1871,
+    "Citations": 1872,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2002-03-20"],
@@ -1441,12 +1441,12 @@
           "DOI": "10.1093/bioinformatics/btp698",
           "PubDate": "2010-01-15",
           "Preprint": false,
-          "Citations": [3432]
+          "Citations": [3438]
         }
       ],
       "Preprints": []
     },
-    "Citations": 3432,
+    "Citations": 3438,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2010-01-15"],
@@ -1553,12 +1553,12 @@
           "DOI": "10.1101/gr.215087.116",
           "PubDate": "2017-03-15",
           "Preprint": false,
-          "Citations": [552]
+          "Citations": [555]
         }
       ],
       "Preprints": []
     },
-    "Citations": 552,
+    "Citations": 555,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-03-15"],
@@ -3458,12 +3458,12 @@
           "DOI": "10.1038/nmeth.4035",
           "PubDate": "2016-10-17",
           "Preprint": false,
-          "Citations": [227]
+          "Citations": [229]
         }
       ],
       "Preprints": []
     },
-    "Citations": 227,
+    "Citations": 229,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-10-17"],
@@ -4567,12 +4567,12 @@
           "DOI": "10.1101/gr.213462.116",
           "PubDate": "2016-12-09",
           "Preprint": false,
-          "Citations": [36]
+          "Citations": [37]
         }
       ],
       "Preprints": []
     },
-    "Citations": 36,
+    "Citations": 37,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-12-09"],
@@ -4805,12 +4805,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-05",
           "Preprint": false,
-          "Citations": [1597]
+          "Citations": [1601]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1597,
+    "Citations": 1601,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-05"],
@@ -8491,12 +8491,12 @@
           "DOI": "10.1093/bioinformatics/btw354",
           "PubDate": "2016-06-16",
           "Preprint": false,
-          "Citations": [200]
+          "Citations": [201]
         }
       ],
       "Preprints": []
     },
-    "Citations": 200,
+    "Citations": 201,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-06-16"],
@@ -11096,6 +11096,69 @@
     "Categories": ["DenovoAssembly", "Scaffolding", "TestedOnNonHumanData", "AvailablityOfTestData"]
   },
   {
+    "Name": "ntEdit",
+    "DOIs": "10.1093/bioinformatics/btz400",
+    "Platform": "C++",
+    "Description": "A scalable genome assembly polishing tool",
+    "Code": "https://github.com/bcgsc/ntedit",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "fast5FileProcessing": false,
+    "BaseCalling": false,
+    "LongReadOverlapping": false,
+    "DenovoAssembly": false,
+    "Alignment": false,
+    "Scaffolding": false,
+    "GeneratingConsensusSequence": false,
+    "ErrorCorrectionAndPolishing": true,
+    "EvaluatingExisitingMethods": false,
+    "IsoformDetection": false,
+    "BaseModificationDetection": false,
+    "QualityChecking": false,
+    "SNPAndVariantAnalysis": false,
+    "Visualisation": false,
+    "ReadQuantification": false,
+    "SuitableForSingleCellExperiments": false,
+    "TestedOnHumanData": false,
+    "TestedOnNonHumanData": false,
+    "Normalisation": false,
+    "ProvideSummaryStatistics": false,
+    "QualityTrimming": false,
+    "AvailablityOfTestData": false,
+    "GeneExpressionAnalysis": false,
+    "GapFilling": false,
+    "AnalysisPipelines": false,
+    "Simulators": false,
+    "QualityFiltering": false,
+    "Demultiplexing": false,
+    "Metagenomics": false,
+    "TaxonomicClassification": false,
+    "polyALengthEstimation": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "ntEdit: scalable genome sequence polishing",
+          "DOI": "10.1093/bioinformatics/btz400",
+          "PubDate": "2019-05-16",
+          "Preprint": false,
+          "Citations": [0]
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 0,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2019-05-16"],
+    "Github": "bcgsc/ntedit",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["ErrorCorrectionAndPolishing"]
+  },
+  {
     "Name": "Ococo",
     "Platform": "C++",
     "Description": "Ococo is capable of inferring variants in a real-time, as read alignments are fed in",
@@ -11572,12 +11635,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-05",
           "Preprint": false,
-          "Citations": [1597]
+          "Citations": [1601]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1597,
+    "Citations": 1601,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-05"],
@@ -11972,12 +12035,12 @@
           "DOI": "10.1111/mmi.13873",
           "PubDate": "2017-11-17",
           "Preprint": false,
-          "Citations": [5]
+          "Citations": [6]
         }
       ],
       "Preprints": []
     },
-    "Citations": 5,
+    "Citations": 6,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-11-17"],
@@ -13354,12 +13417,12 @@
           "DOI": "10.1093/bioinformatics/btr026",
           "PubDate": "2011-01-28",
           "Preprint": false,
-          "Citations": [1549]
+          "Citations": [1550]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1549,
+    "Citations": 1550,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2011-01-28"],
@@ -13684,12 +13747,12 @@
           "DOI": "10.1093/bioinformatics/btt086",
           "PubDate": "2013-02-19",
           "Preprint": false,
-          "Citations": [1096]
+          "Citations": [1098]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1096,
+    "Citations": 1098,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-02-19"],
@@ -15573,12 +15636,12 @@
           "Title": "A general method applicable to the search for similarities in the amino acid sequence of two proteins",
           "DOI": "10.1016/0022-2836(70)90057-4",
           "Preprint": false,
-          "Citations": [5080]
+          "Citations": [5090]
         }
       ],
       "Preprints": []
     },
-    "Citations": 5080,
+    "Citations": 5090,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -16058,12 +16121,12 @@
           "Title": "SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing",
           "DOI": "10.1089/cmb.2012.0021",
           "Preprint": false,
-          "Citations": [4572]
+          "Citations": [4577]
         }
       ],
       "Preprints": []
     },
-    "Citations": 4572,
+    "Citations": 4577,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -16132,6 +16195,67 @@
     "Github": "antrec/spectrassembler",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["DenovoAssembly", "GeneratingConsensusSequence", "TestedOnNonHumanData", "AvailablityOfTestData"]
+  },
+  {
+    "Name": "Sprai",
+    "DOIs": "10.1186/1471-2164-15-699",
+    "Platform": "Python",
+    "Description": "A tool to correct sequencing errors in single-pass reads for de novo assembly",
+    "Code": "http://zombie.cb.k.u-tokyo.ac.jp/sprai/README.html#introduction",
+    "License": "MIT",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "fast5FileProcessing": false,
+    "BaseCalling": false,
+    "LongReadOverlapping": false,
+    "DenovoAssembly": false,
+    "Alignment": false,
+    "Scaffolding": false,
+    "GeneratingConsensusSequence": false,
+    "ErrorCorrectionAndPolishing": true,
+    "EvaluatingExisitingMethods": false,
+    "IsoformDetection": false,
+    "BaseModificationDetection": false,
+    "QualityChecking": false,
+    "SNPAndVariantAnalysis": false,
+    "Visualisation": false,
+    "ReadQuantification": false,
+    "SuitableForSingleCellExperiments": false,
+    "TestedOnHumanData": false,
+    "TestedOnNonHumanData": false,
+    "Normalisation": false,
+    "ProvideSummaryStatistics": false,
+    "QualityTrimming": false,
+    "AvailablityOfTestData": false,
+    "GeneExpressionAnalysis": false,
+    "GapFilling": false,
+    "AnalysisPipelines": false,
+    "Simulators": false,
+    "QualityFiltering": false,
+    "Demultiplexing": false,
+    "Metagenomics": false,
+    "TaxonomicClassification": false,
+    "polyALengthEstimation": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Performance comparison of second- and third-generation sequencers using a bacterial genome with two chromosomes",
+          "DOI": "10.1186/1471-2164-15-699",
+          "Preprint": false,
+          "Citations": [40]
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 40,
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["NA"],
+    "Technologies": ["PacBio"],
+    "Categories": ["ErrorCorrectionAndPolishing"]
   },
   {
     "Name": "SQANTI",
@@ -16777,7 +16901,7 @@
     "BionanoGenomics": false,
     "HiC": false,
     "fast5FileProcessing": false,
-    "BaseCalling": false,
+    "BaseCalling": true,
     "LongReadOverlapping": false,
     "DenovoAssembly": false,
     "Alignment": false,
@@ -16786,7 +16910,7 @@
     "ErrorCorrectionAndPolishing": false,
     "EvaluatingExisitingMethods": true,
     "IsoformDetection": false,
-    "BaseModificationDetection": false,
+    "BaseModificationDetection": true,
     "QualityChecking": false,
     "SNPAndVariantAnalysis": false,
     "Visualisation": false,
@@ -16814,7 +16938,7 @@
     "PubDates": [null],
     "Github": "nanoporetech/taiyaki",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["EvaluatingExisitingMethods"]
+    "Categories": ["BaseCalling", "EvaluatingExisitingMethods", "BaseModificationDetection"]
   },
   {
     "Name": "Tama",
