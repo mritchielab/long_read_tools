@@ -13,7 +13,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
 
     futile.logger::flog.info("Adding references...")
 
-    if (skip_cites) {
+    if (skip_cites=="TRUE") {
         msg <- "Skipping downloading of citations from Crossref!"
         futile.logger::flog.warn(msg)
     }
@@ -30,7 +30,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
             return(NA)
         }
 
-        if (!skip_cites) {
+        if (skip_cites=="FALSE") {
             cites <- sapply(dois, function(doi) {
                 cite <- tryCatch({
                     rcrossref::cr_citation_count(doi)
@@ -56,7 +56,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
                               DOI       = dois,
                               PubDate   = dates,
                               Preprint  = stringr::str_detect(dois, paste(c(paste("10.1101/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),"arxiv"), collapse ="|")),
-                              Citations = cites[2,1])
+                              Citations = cites[[2]])
     })
 
     pre_list <- purrr::map_if(ref_list, !is.na(ref_list),
@@ -71,7 +71,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
                                                   Preprints = y)
                                              })) %>%
         dplyr::mutate(Citations = purrr::map_if(ref_list, !is.na(ref_list),
-                                                function(x) {sum(x$Citations[[1]])}),
+                                                function(x) {sum(x$Citations)}),
                       Publications = purrr::map_if(pub_list, !is.na(pub_list),
                                                    nrow),
                       Preprints = purrr::map_if(pre_list, !is.na(pre_list),

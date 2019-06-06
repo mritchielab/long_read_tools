@@ -11,31 +11,107 @@ plot_number <- function(swsheet) {
   
   `%>%` <- magrittr::`%>%`
 
-  swsheet$PubDates <- as.Date.character(as.character(swsheet$PubDates))
+  
+  swsheet$PubDates <- as.Date.character(swsheet$PubDates, format = "%Y-%m-%d")
   swsheet          <- swsheet[!is.na(swsheet$PubDates),]
   
-  # all tools over time
-  datecount <- swsheet %>%
-    dplyr::select(Date = PubDates) %>%
+  #nanopore
+  datecount_nanopore <- swsheet %>%
+    dplyr::select(Date = PubDates,
+                  technology = "OxfordNanopore") %>%
+    dplyr::filter(technology == TRUE) %>%
     dplyr::group_by(Date = as.Date(Date)) %>%
     dplyr::summarise(Count = dplyr::n()) %>%
     tidyr::complete(Date = tidyr::full_seq(Date, 1),
                     fill = list(Count = 0)) %>%
-    dplyr::mutate(Total = cumsum(Count))
+    dplyr::mutate(Total_nanopore = cumsum(Count))
   
-  plot <- ggplot2::ggplot(datecount, ggplot2::aes(x = Date, y = Total)) +
-    ggplot2::geom_line(size = 2, colour = "#329a89") +
-    ggplot2::xlab("Date") +
-    ggplot2::ylab("Number of tools") +
-    ggplot2::scale_x_date(breaks = scales::pretty_breaks(10)) +
-    ggplot2::ggtitle("Number of tools over time") +
+  #pacbio
+  datecount_pacbio <- swsheet %>%
+    dplyr::select(Date = PubDates,
+                  technology = "PacBio") %>%
+    dplyr::filter(technology == TRUE) %>%
+    dplyr::group_by(Date = as.Date(Date)) %>%
+    #dplyr::mutate(binary_tech = if_else(technology =="TRUE", 1 , 0)) %>%
+    dplyr::summarise(Count = dplyr::n()) %>%
+    tidyr::complete(Date = tidyr::full_seq(Date, 1),
+                    fill = list(Count = 0)) %>%
+    dplyr::mutate(Total_pacbio = cumsum(Count))
+  
+  #10X
+  datecount_tenx <- swsheet %>%
+    dplyr::select(Date = PubDates,
+                  technology = "tenxGenomics") %>%
+    dplyr::filter(technology == TRUE) %>%
+    dplyr::group_by(Date = as.Date(Date)) %>%
+    dplyr::summarise(Count = dplyr::n()) %>%
+    tidyr::complete(Date = tidyr::full_seq(Date, 1),
+                    fill = list(Count = 0)) %>%
+    dplyr::mutate(Total_tenx = cumsum(Count))
+  
+  #bionano
+  datecount_bionano <- swsheet %>%
+    dplyr::select(Date = PubDates,
+                  technology = "BionanoGenomics") %>%
+    dplyr::filter(technology == TRUE) %>%
+    dplyr::group_by(Date = as.Date(Date)) %>%
+    dplyr::summarise(Count = dplyr::n()) %>%
+    tidyr::complete(Date = tidyr::full_seq(Date, 1),
+                    fill = list(Count = 0)) %>%
+    dplyr::mutate(Total_bionano = cumsum(Count))
+  
+  #Hi-C
+  datecount_hic <- swsheet %>%
+    dplyr::select(Date = PubDates,
+                  technology = "HiC") %>%
+    dplyr::filter(technology == TRUE) %>%
+    dplyr::group_by(Date = as.Date(Date)) %>%
+    dplyr::summarise(Count = dplyr::n()) %>%
+    tidyr::complete(Date = tidyr::full_seq(Date, 1),
+                    fill = list(Count = 0)) %>%
+    dplyr::mutate(Total_hic = cumsum(Count))
+  
+  #dplyr::bind_cols() for binding all the above tibbles together
+  datecount_tech <- plyr::rbind.fill(datecount_nanopore, datecount_pacbio, datecount_tenx, datecount_bionano, datecount_hic)
+  
+  #replace 'NA"s with zeros
+  datecount_tech[is.na(datecount_tech)] <- 0
+  
+  # a bit of fiddling around and subsetting the tibble to get the desired long tibble to melt
+  datecount_tech <- datecount_tech[,c("Date", "Total_nanopore", "Total_pacbio", "Total_tenx", "Total_bionano", "Total_hic")]
+
+  #melting and changing some aesthetics to create downstream plot
+  datecount_tech_long <- reshape2::melt(datecount_tech, id.vars = "Date")
+  datecount_tech_long$variable <- stringr::str_replace(datecount_tech_long$variable, "Total_nanopore", "Oxford Nanopore")
+  datecount_tech_long$variable <- stringr::str_replace(datecount_tech_long$variable, "Total_pacbio", "PacBio")
+  datecount_tech_long$variable <- stringr::str_replace(datecount_tech_long$variable, "Total_tenx", "10X Genomics")
+  datecount_tech_long$variable <- stringr::str_replace(datecount_tech_long$variable, "Total_bionano", "Bionano Genomics")
+  datecount_tech_long$variable <- stringr::str_replace(datecount_tech_long$variable, "Total_hic", "Hi-C")
+  datecount_tech_long$variable <- as.factor(datecount_tech_long$variable)
+  datecount_tech_long$variable <- factor(datecount_tech_long$variable, levels=c("Oxford Nanopore", "PacBio", "10X Genomics", "Bionano Genomics", "Hi-C"))
+  
+  # Trying with stacked barplot
+  library(ggplot2)
+  plot <- ggplot(data = datecount_tech_long,
+                 aes(y = value, x = Date, fill = variable)) + 
+    geom_bar(stat="identity") +
+    ggplot2::ggtitle("Tools Across Time") +
+    labs (x="", y="Number of Tools", color="Long Read \nSequencing Technologies") +
     cowplot::theme_cowplot() +
-    ggplot2::theme(plot.title   = ggplot2::element_text(size = 20),
-                   axis.title.x = ggplot2::element_blank(),
+    ggplot2::theme(plot.title   = ggplot2::element_text(size = 20,
+                                               face = "bold"),
+                   axis.title.x = ggplot2::element_text(size=14),
+                   axis.title.y = ggplot2::element_text(size=14),
                    axis.text    = ggplot2::element_text(size = 12),
                    axis.text.x  = ggplot2::element_text(angle = 60,
-                                                        vjust = 0.5)
-    )
+                                                        vjust = 0.5),
+                   legend.text = element_text(size=12),
+                   legend.title = element_blank(),
+                   legend.position="bottom",
+                   legend.key=element_rect(fill=NA)
+    )+
+    scale_fill_brewer(palette="Set2") +
+    ggplot2::scale_x_date(breaks = scales::pretty_breaks(10))
   
   plot <- plotly::ggplotly(plot, dynamicTicks = TRUE) %>%
     plotly::layout(margin = list(l = 70, r = 40, b = 90, t = 50))
@@ -43,52 +119,6 @@ plot_number <- function(swsheet) {
   htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
                           file.path(getwd(), "docs/plots/number.html"),
                           selfcontained = FALSE, libdir = "libraries")
-  
-  
-  # tools for different technologies over time
-  
-  technologies <- colnames(swsheet[7:11])
-  
-  for (technology in technologies){
-
-    technology2 <- technology
-    technology2 <- ifelse(technology2  == "tenxGenomics", "10X Genomics", technology2)
-    technology2 <- ifelse(technology2 == "OxfordNanopore", "Oxford Nanopore", technology2)
-    technology2 <- ifelse(technology2 == "BionanoGenomics", "Bio-Nano Genomics", technology2)
-    technology2 <- ifelse(technology2 == "HiC", "Hi-C", technology2)
-
-    datecount_tech <- swsheet %>%
-      dplyr::select(Date = PubDates,
-                    technology = technology) %>%
-      dplyr::filter(technology == TRUE) %>%
-      dplyr::group_by(Date = as.Date(Date)) %>%
-      dplyr::summarise(Count = dplyr::n()) %>%
-      tidyr::complete(Date = tidyr::full_seq(Date, 1),
-                      fill = list(Count = 0)) %>%
-      dplyr::mutate(Total = cumsum(Count))
-
-    plot <- ggplot2::ggplot(datecount_tech, ggplot2::aes(x = Date, y = Total)) +
-      ggplot2::geom_line(size = 2, colour = "#54b9a1") +
-      ggplot2::xlab("Date") +
-      ggplot2::ylab("Number of tools") +
-      ggplot2::ggtitle(paste(technology2," focused", sep ="")) +
-      ggplot2::scale_x_date(breaks = scales::pretty_breaks(10)) +
-      cowplot::theme_cowplot() +
-      ggplot2::theme(plot.title   = ggplot2::element_text(size = 12),
-                     axis.title.x = ggplot2::element_blank(),
-                     axis.text    = ggplot2::element_text(size = 12),
-                     axis.text.x  = ggplot2::element_text(angle = 60,
-                                                          vjust = 0.5)
-      )
-
-    plot <- plotly::ggplotly(plot, dynamicTicks = TRUE) %>%
-      plotly::layout(margin = list(l = 70, r = 40, b = 90, t = 50))
-
-    htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
-                            file.path(getwd(), paste("docs/plots/number_", technology,".html", sep="")),
-                            selfcontained = FALSE, libdir = "libraries")
-
-  }
 }
 
 # plot publication status

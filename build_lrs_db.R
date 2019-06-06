@@ -22,6 +22,7 @@ suppressPackageStartupMessages({
     library(magrittr)
     library(futile.logger)
     library(aRxiv)
+    library(anytime)
 })
 
 #### SOURCE ####
