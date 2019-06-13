@@ -102,12 +102,12 @@
           "DOI": "10.1073/pnas.1017351108",
           "PubDate": "2010-12-27",
           "Preprint": false,
-          "Citations": 899
+          "Citations": 901
         }
       ],
       "Preprints": []
     },
-    "Citations": 899,
+    "Citations": 901,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2010-12-27"],
@@ -224,7 +224,7 @@
     "PubDates": [null],
     "Github": "PacificBiosciences/GenomicConsensus",
     "Technologies": ["PacBio"],
-    "Categories": ["Basecalling", "GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "SNPAndVariantAnalysis"]
+    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "SNPAndVariantAnalysis"]
   },
   {
     "Name": "AsmVar",
@@ -555,17 +555,17 @@
           "DOI": "10.1101/gr.229202",
           "PubDate": "2002-03-20",
           "Preprint": false,
-          "Citations": 1895
+          "Citations": 1897
         }
       ],
       "Preprints": []
     },
-    "Citations": 1895,
+    "Citations": 1897,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2002-03-20"],
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["IsoformDetection"]
+    "Categories": ["IsoformDetection", "Transcriptomics"]
   },
   {
     "Name": "BNG-FlagSiteRepair",
@@ -665,12 +665,12 @@
           "DOI": "10.1093/bioinformatics/btp698",
           "PubDate": "2010-01-15",
           "Preprint": false,
-          "Citations": 3489
+          "Citations": 3495
         }
       ],
       "Preprints": []
     },
-    "Citations": 3489,
+    "Citations": 3495,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2010-01-15"],
@@ -715,12 +715,12 @@
           "DOI": "10.1101/gr.215087.116",
           "PubDate": "2017-03-15",
           "Preprint": false,
-          "Citations": 576
+          "Citations": 579
         }
       ],
       "Preprints": []
     },
-    "Citations": 576,
+    "Citations": 579,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-03-15"],
@@ -778,7 +778,7 @@
     "PubDates": [null],
     "Github": "Magdoll/cDNA_Cupcake",
     "Technologies": ["PacBio"],
-    "Categories": ["IsoformDetection", "GeneExpressionAnalysis"]
+    "Categories": ["IsoformDetection", "Transcriptomics"]
   },
   {
     "Name": "Centrifuge",
@@ -799,12 +799,12 @@
           "DOI": "10.1101/gr.210641.116",
           "PubDate": "2016-10-17",
           "Preprint": false,
-          "Citations": 99
+          "Citations": 100
         }
       ],
       "Preprints": []
     },
-    "Citations": 99,
+    "Citations": 100,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-10-17"],
@@ -997,7 +997,7 @@
     "Github": "Magdoll/Cogent",
     "PyPI": "cogent",
     "Technologies": ["PacBio"],
-    "Categories": ["DenovoAssembly", "Alignment", "GeneratingConsensusSequence", "IsoformDetection", "TestedOnNonHumanData", "GeneExpressionAnalysis"]
+    "Categories": ["DenovoAssembly", "Alignment", "GeneratingConsensusSequence", "IsoformDetection", "TestedOnNonHumanData", "Transcriptomics"]
   },
   {
     "Name": "CONSENT",
@@ -1805,7 +1805,7 @@
     "PubDates": [null],
     "Github": "BrooksLabUCSC/flair",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "IsoformDetection", "TestedOnHumanData", "TestedOnNonHumanData", "AvailablityOfTestData", "GeneExpressionAnalysis"]
+    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "IsoformDetection", "TestedOnHumanData", "TestedOnNonHumanData", "AvailablityOfTestData", "Transcriptomics"]
   },
   {
     "Name": "flappie",
@@ -1974,7 +1974,7 @@
     "Preprints": 0,
     "PubDates": ["2005-02-22"],
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["IsoformDetection"]
+    "Categories": ["IsoformDetection", "Transcriptomics"]
   },
   {
     "Name": "Gmcloser",
@@ -2035,7 +2035,7 @@
     "PubDates": ["2017-04-05"],
     "BioC": "GOTHiC",
     "Technologies": ["HiC"],
-    "Categories": ["TestedOnNonHumanData", "GeneExpressionAnalysis"]
+    "Categories": ["TestedOnNonHumanData", "Transcriptomics"]
   },
   {
     "Name": "GraphMap",
@@ -2251,12 +2251,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-05",
           "Preprint": false,
-          "Citations": 1622
+          "Citations": 1624
         }
       ],
       "Preprints": []
     },
-    "Citations": 1622,
+    "Citations": 1624,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-05"],
@@ -2388,7 +2388,7 @@
     "Preprints": 0,
     "PubDates": ["2013-11-26"],
     "Technologies": ["PacBio"],
-    "Categories": ["ErrorCorrectionAndPolishing", "IsoformDetection", "TestedOnHumanData", "GeneExpressionAnalysis"]
+    "Categories": ["ErrorCorrectionAndPolishing", "IsoformDetection", "TestedOnHumanData", "Transcriptomics"]
   },
   {
     "Name": "INC-Seq",
@@ -2409,12 +2409,12 @@
           "DOI": "10.1093/bioinformatics/bty191",
           "PubDate": "2018-05-10",
           "Preprint": false,
-          "Citations": 135
+          "Citations": 136
         }
       ],
       "Preprints": []
     },
-    "Citations": 135,
+    "Citations": 136,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-05-10"],
@@ -2474,7 +2474,7 @@
     "Github": "ksahlin/IsoCon",
     "PyPI": "IsoCon",
     "Technologies": ["PacBio"],
-    "Categories": ["IsoformDetection", "TestedOnHumanData", "AvailablityOfTestData"]
+    "Categories": ["IsoformDetection", "TestedOnHumanData", "AvailablityOfTestData", "Transcriptomics"]
   },
   {
     "Name": "isONclust",
@@ -2507,7 +2507,7 @@
     "Github": "ksahlin/isONclust",
     "PyPI": "isONclust",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["GeneExpressionAnalysis"]
+    "Categories": ["Transcriptomics"]
   },
   {
     "Name": "IsoSeq4",
@@ -2527,7 +2527,7 @@
     "PubDates": [null],
     "Github": "PacificBiosciences/IsoSeq3",
     "Technologies": ["PacBio"],
-    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "IsoformDetection", "AnalysisPipelines", "QualityFiltering"]
+    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "IsoformDetection", "Transcriptomics", "AnalysisPipelines", "QualityFiltering"]
   },
   {
     "Name": "Japsa",
@@ -2710,7 +2710,7 @@
     "PubDates": [null],
     "Github": "mcfrith/last-rna",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["Alignment", "IsoformDetection", "GeneExpressionAnalysis"]
+    "Categories": ["Alignment", "IsoformDetection", "Transcriptomics"]
   },
   {
     "Name": "levelfind_poreseq",
@@ -2853,12 +2853,12 @@
           "DOI": "10.1093/bioinformatics/btu538",
           "PubDate": "2014-08-26",
           "Preprint": false,
-          "Citations": 121
+          "Citations": 122
         }
       ],
       "Preprints": []
     },
-    "Citations": 121,
+    "Citations": 122,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-08-26"],
@@ -2927,7 +2927,7 @@
     "PubDates": ["2018-11-06"],
     "Github": "lfaino/LoReAn",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["TestedOnNonHumanData", "GeneExpressionAnalysis"]
+    "Categories": ["TestedOnNonHumanData", "Transcriptomics"]
   },
   {
     "Name": "loresim",
@@ -3222,7 +3222,7 @@
     "PubDates": ["2017-07-19"],
     "Github": "rvolden/MandalorionEpisodeII",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["IsoformDetection", "ReadQuantification", "TestedOnHumanData", "Normalisation", "GeneExpressionAnalysis"]
+    "Categories": ["IsoformDetection", "ReadQuantification", "TestedOnHumanData", "Normalisation", "Transcriptomics"]
   },
   {
     "Name": "marginAlign",
@@ -3423,12 +3423,12 @@
           "DOI": "10.1093/bioinformatics/btt476",
           "PubDate": "2013-08-29",
           "Preprint": false,
-          "Citations": 288
+          "Citations": 289
         }
       ],
       "Preprints": []
     },
-    "Citations": 288,
+    "Citations": 289,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-08-29"],
@@ -3616,12 +3616,12 @@
           "DOI": "10.1186/s13073-015-0220-9",
           "PubDate": "2015-09-29",
           "Preprint": false,
-          "Citations": 146
+          "Citations": 147
         }
       ],
       "Preprints": []
     },
-    "Citations": 146,
+    "Citations": 147,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-09-29"],
@@ -3658,7 +3658,7 @@
     "PubDates": ["2015-04-10"],
     "Github": "bioinform/metasv",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["IsoformDetection"]
+    "Categories": ["IsoformDetection", "Transcriptomics"]
   },
   {
     "Name": "methplotlib",
@@ -3751,12 +3751,12 @@
           "DOI": "10.1093/bioinformatics/bty191",
           "PubDate": "2018-05-10",
           "Preprint": false,
-          "Citations": 135
+          "Citations": 136
         }
       ],
       "Preprints": []
     },
-    "Citations": 135,
+    "Citations": 136,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-05-10"],
@@ -3782,12 +3782,12 @@
           "DOI": "10.1093/bioinformatics/btw152",
           "PubDate": "2016-03-19",
           "Preprint": false,
-          "Citations": 157
+          "Citations": 158
         }
       ],
       "Preprints": []
     },
-    "Citations": 157,
+    "Citations": 158,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-03-19"],
@@ -3814,12 +3814,12 @@
           "DOI": "10.1093/bioinformatics/bty191",
           "PubDate": "2018-05-10",
           "Preprint": false,
-          "Citations": 135
+          "Citations": 136
         }
       ],
       "Preprints": []
     },
-    "Citations": 135,
+    "Citations": 136,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-05-10"],
@@ -3984,12 +3984,12 @@
           "DOI": "10.1093/bioinformatics/btw354",
           "PubDate": "2016-06-16",
           "Preprint": false,
-          "Citations": 216
+          "Citations": 218
         }
       ],
       "Preprints": []
     },
-    "Citations": 216,
+    "Citations": 218,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-06-16"],
@@ -4096,7 +4096,7 @@
     "Preprints": 0,
     "PubDates": ["2017-12-21"],
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["Alignment", "IsoformDetection", "TestedOnHumanData", "TestedOnNonHumanData", "ProvideSummaryStatistics", "QualityTrimming", "AvailablityOfTestData", "GeneExpressionAnalysis", "AnalysisPipelines"]
+    "Categories": ["Alignment", "IsoformDetection", "TestedOnHumanData", "TestedOnNonHumanData", "ProvideSummaryStatistics", "QualityTrimming", "AvailablityOfTestData", "Transcriptomics", "AnalysisPipelines"]
   },
   {
     "Name": "NanoBLASTer",
@@ -4276,7 +4276,7 @@
     "PubDates": [null],
     "Github": "a-slide/NanoCount",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["GeneExpressionAnalysis"]
+    "Categories": ["Transcriptomics"]
   },
   {
     "Name": "NanoDJ",
@@ -4671,7 +4671,7 @@
     "PubDates": ["2017-02-20"],
     "Github": "jts/nanopolish",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "BaseModificationDetection", "SNPAndVariantAnalysis", "polyALengthEstimation"]
+    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "BaseModificationDetection", "SNPAndVariantAnalysis", "Transcriptomics", "polyALengthEstimation"]
   },
   {
     "Name": "NanopolishComp",
@@ -5078,12 +5078,12 @@
           "DOI": "10.1186/s13742-016-0137-2",
           "PubDate": "2016-07-26",
           "Preprint": false,
-          "Citations": 28
+          "Citations": 29
         }
       ],
       "Preprints": []
     },
-    "Citations": 28,
+    "Citations": 29,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-07-26"],
@@ -5433,7 +5433,7 @@
     "PubDates": [null],
     "Github": "PacificBiosciences/pbbioconda",
     "Technologies": ["PacBio"],
-    "Categories": ["Alignment", "ErrorCorrectionAndPolishing", "IsoformDetection", "SNPAndVariantAnalysis"]
+    "Categories": ["Alignment", "ErrorCorrectionAndPolishing", "IsoformDetection", "SNPAndVariantAnalysis", "Transcriptomics"]
   },
   {
     "Name": "PBcR",
@@ -5484,12 +5484,12 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-05",
           "Preprint": false,
-          "Citations": 1622
+          "Citations": 1624
         }
       ],
       "Preprints": []
     },
-    "Citations": 1622,
+    "Citations": 1624,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-05-05"],
@@ -5802,12 +5802,12 @@
           "DOI": "10.1371/journal.pone.0112963",
           "PubDate": "2014-11-19",
           "Preprint": false,
-          "Citations": 788
+          "Citations": 791
         }
       ],
       "Preprints": []
     },
-    "Citations": 788,
+    "Citations": 791,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-11-19"],
@@ -5833,7 +5833,7 @@
     "PubDates": [null],
     "Github": "nanoporetech/pinfish",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "IsoformDetection", "Visualisation"]
+    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "IsoformDetection", "Visualisation", "Transcriptomics"]
   },
   {
     "Name": "pipeline-pinfish-analysis",
@@ -5853,7 +5853,7 @@
     "PubDates": [null],
     "Github": "nanoporetech/pipelinepinfishanalysis",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["DenovoAssembly", "GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "IsoformDetection", "Visualisation", "AnalysisPipelines"]
+    "Categories": ["DenovoAssembly", "GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "IsoformDetection", "Visualisation", "Transcriptomics", "AnalysisPipelines"]
   },
   {
     "Name": "pipeline-transcriptome-de",
@@ -5873,7 +5873,7 @@
     "PubDates": [null],
     "Github": "nanoporetech/pipeline-transcriptome-de",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["Alignment", "IsoformDetection", "ReadQuantification", "Normalisation", "ProvideSummaryStatistics", "GeneExpressionAnalysis", "AnalysisPipelines"]
+    "Categories": ["Alignment", "IsoformDetection", "ReadQuantification", "Normalisation", "ProvideSummaryStatistics", "Transcriptomics", "AnalysisPipelines"]
   },
   {
     "Name": "pistis",
@@ -5943,7 +5943,7 @@
     "PubDates": ["2018-11-09"],
     "Github": "paultsw/polya_analysis",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["TestedOnHumanData", "GeneExpressionAnalysis"]
+    "Categories": ["TestedOnHumanData", "Transcriptomics"]
   },
   {
     "Name": "Porechop",
@@ -6253,7 +6253,7 @@
     "Preprints": 0,
     "PubDates": ["2017-12-21"],
     "Technologies": ["PacBio"],
-    "Categories": ["ErrorCorrectionAndPolishing", "IsoformDetection", "Visualisation", "QualityFiltering"]
+    "Categories": ["ErrorCorrectionAndPolishing", "IsoformDetection", "Visualisation", "Transcriptomics", "QualityFiltering"]
   },
   {
     "Name": "PRINSEQ",
@@ -6274,12 +6274,12 @@
           "DOI": "10.1093/bioinformatics/btr026",
           "PubDate": "2011-01-28",
           "Preprint": false,
-          "Citations": 1565
+          "Citations": 1566
         }
       ],
       "Preprints": []
     },
-    "Citations": 1565,
+    "Citations": 1566,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2011-01-28"],
@@ -6418,12 +6418,12 @@
           "DOI": "10.1093/bioinformatics/btt086",
           "PubDate": "2013-02-19",
           "Preprint": false,
-          "Citations": 1125
+          "Citations": 1127
         }
       ],
       "Preprints": []
     },
-    "Citations": 1125,
+    "Citations": 1127,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2013-02-19"],
@@ -6450,12 +6450,12 @@
           "DOI": "10.1093/bioinformatics/bty266",
           "PubDate": "2018-06-27",
           "Preprint": false,
-          "Citations": 20
+          "Citations": 22
         }
       ],
       "Preprints": []
     },
-    "Citations": 20,
+    "Citations": 22,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-06-27"],
@@ -6607,12 +6607,12 @@
           "DOI": "10.1101/gr.214270.116",
           "PubDate": "2017-01-18",
           "Preprint": false,
-          "Citations": 113
+          "Citations": 114
         }
       ],
       "Preprints": []
     },
-    "Citations": 113,
+    "Citations": 114,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-01-18"],
@@ -6709,7 +6709,7 @@
     "PubDates": [null],
     "Github": "comprna/RATTLE",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["ErrorCorrectionAndPolishing", "ReadQuantification"]
+    "Categories": ["ErrorCorrectionAndPolishing", "ReadQuantification", "Transcriptomics"]
   },
   {
     "Name": "Read-Until",
@@ -7029,7 +7029,7 @@
     "PubDates": [null],
     "Github": "MarioniLab/sarlacc",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "ReadQuantification", "SuitableForSingleCellExperiments", "QualityTrimming", "GeneExpressionAnalysis"]
+    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "ReadQuantification", "SuitableForSingleCellExperiments", "QualityTrimming", "Transcriptomics"]
   },
   {
     "Name": "scrappie",
@@ -7296,12 +7296,12 @@
           "Title": "A general method applicable to the search for similarities in the amino acid sequence of two proteins",
           "DOI": "10.1016/0022-2836(70)90057-4",
           "Preprint": false,
-          "Citations": 5160
+          "Citations": 5161
         }
       ],
       "Preprints": []
     },
-    "Citations": 5160,
+    "Citations": 5161,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -7533,12 +7533,12 @@
           "Title": "SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing",
           "DOI": "10.1089/cmb.2012.0021",
           "Preprint": false,
-          "Citations": 4671
+          "Citations": 4680
         }
       ],
       "Preprints": []
     },
-    "Citations": 4671,
+    "Citations": 4680,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["NA"],
@@ -7636,7 +7636,7 @@
     "Preprints": 0,
     "PubDates": ["2018-02-09"],
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["IsoformDetection", "QualityChecking", "ProvideSummaryStatistics", "QualityFiltering"]
+    "Categories": ["IsoformDetection", "QualityChecking", "ProvideSummaryStatistics", "Transcriptomics", "QualityFiltering"]
   },
   {
     "Name": "SquiggleKit",
@@ -7668,7 +7668,7 @@
     "PubDates": ["2019-02-16"],
     "Github": "Psy-Fer/SquiggleKit",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["fast5FileProcessing", "ErrorCorrectionAndPolishing", "EvaluatingExisitingMethods", "IsoformDetection", "SNPAndVariantAnalysis", "Visualisation", "ProvideSummaryStatistics"]
+    "Categories": ["fast5FileProcessing", "ErrorCorrectionAndPolishing", "EvaluatingExisitingMethods", "IsoformDetection", "SNPAndVariantAnalysis", "Visualisation", "ProvideSummaryStatistics", "Transcriptomics"]
   },
   {
     "Name": "squiggler",
@@ -7778,7 +7778,7 @@
     "PubDates": ["2017-01-24"],
     "Github": "fritzsedlazeck/SURVIVOR",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["IsoformDetection"]
+    "Categories": ["IsoformDetection", "Transcriptomics"]
   },
   {
     "Name": "SVIM",
@@ -7896,7 +7896,7 @@
     "PubDates": ["2019-03-25"],
     "Github": "adnaniazi/tailfindr",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["polyALengthEstimation"]
+    "Categories": ["Transcriptomics", "polyALengthEstimation"]
   },
   {
     "Name": "taiyaki",
@@ -7998,7 +7998,7 @@
     "Preprints": 0,
     "PubDates": ["2016-06-24"],
     "Technologies": ["PacBio"],
-    "Categories": ["IsoformDetection"]
+    "Categories": ["IsoformDetection", "Transcriptomics"]
   },
   {
     "Name": "tigmint",
@@ -8082,7 +8082,7 @@
     "PubDates": ["2015-05-18"],
     "Github": "PacificBiosciences/IsoSeq_SA3nUP",
     "Technologies": ["PacBio"],
-    "Categories": ["IsoformDetection"]
+    "Categories": ["IsoformDetection", "Transcriptomics"]
   },
   {
     "Name": "Tombo",
@@ -8154,7 +8154,7 @@
     "PubDates": ["2018-06-13"],
     "Github": "dewyman/TranscriptClean",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["ErrorCorrectionAndPolishing", "IsoformDetection", "GeneExpressionAnalysis"]
+    "Categories": ["ErrorCorrectionAndPolishing", "IsoformDetection", "Transcriptomics"]
   },
   {
     "Name": "TSD",
@@ -8257,12 +8257,12 @@
           "DOI": "10.1371/journal.pcbi.1005595",
           "PubDate": "2017-06-08",
           "Preprint": false,
-          "Citations": 250
+          "Citations": 255
         }
       ],
       "Preprints": []
     },
-    "Citations": 250,
+    "Citations": 255,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-06-08"],

@@ -14,7 +14,7 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 3489,
+        "Citations": 3495,
         "Publications": 1
       },
       {
@@ -72,7 +72,7 @@
       },
       {
         "Name": "MetaPORE",
-        "Citations": 146,
+        "Citations": 147,
         "Publications": 1
       },
       {
@@ -80,7 +80,7 @@
       },
       {
         "Name": "minimap2",
-        "Citations": 135,
+        "Citations": 136,
         "Publications": 1
       },
       {
@@ -227,7 +227,7 @@
       },
       {
         "Name": "MetaPORE",
-        "Citations": 146,
+        "Citations": 147,
         "Publications": 1
       },
       {
@@ -307,7 +307,7 @@
       },
       {
         "Name": "Centrifuge",
-        "Citations": 99,
+        "Citations": 100,
         "Publications": 1
       },
       {
@@ -422,7 +422,7 @@
       },
       {
         "Name": "npAnalysis",
-        "Citations": 28,
+        "Citations": 29,
         "Publications": 1
       },
       {
@@ -472,9 +472,6 @@
         "Name": "Albacore"
       },
       {
-        "Name": "Arrow"
-      },
-      {
         "Name": "basecRAWller",
         "Citations": 4,
         "Publications": 0
@@ -522,7 +519,7 @@
       },
       {
         "Name": "pbdagcon",
-        "Citations": 1622,
+        "Citations": 1624,
         "Publications": 1
       },
       {
@@ -681,7 +678,7 @@
       },
       {
         "Name": "ALLPATHS-LG",
-        "Citations": 899,
+        "Citations": 901,
         "Publications": 1
       },
       {
@@ -702,7 +699,7 @@
       },
       {
         "Name": "Canu",
-        "Citations": 576,
+        "Citations": 579,
         "Publications": 1
       },
       {
@@ -753,7 +750,7 @@
       },
       {
         "Name": "HGAP",
-        "Citations": 1622,
+        "Citations": 1624,
         "Publications": 1
       },
       {
@@ -778,7 +775,7 @@
       },
       {
         "Name": "MaSuRCA",
-        "Citations": 288,
+        "Citations": 289,
         "Publications": 1
       },
       {
@@ -793,7 +790,7 @@
       },
       {
         "Name": "miniasm",
-        "Citations": 135,
+        "Citations": 136,
         "Publications": 1
       },
       {
@@ -864,7 +861,7 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 5160,
+        "Citations": 5161,
         "Publications": 1
       },
       {
@@ -872,7 +869,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 4671,
+        "Citations": 4680,
         "Publications": 1
       },
       {
@@ -896,7 +893,7 @@
       },
       {
         "Name": "Unicycler",
-        "Citations": 250,
+        "Citations": 255,
         "Publications": 1
       },
       {
@@ -969,7 +966,7 @@
       },
       {
         "Name": "HGAP",
-        "Citations": 1622,
+        "Citations": 1624,
         "Publications": 1
       },
       {
@@ -979,7 +976,7 @@
       },
       {
         "Name": "INC-Seq",
-        "Citations": 135,
+        "Citations": 136,
         "Publications": 1
       },
       {
@@ -990,7 +987,7 @@
       },
       {
         "Name": "LoRDEC",
-        "Citations": 121,
+        "Citations": 122,
         "Publications": 1
       },
       {
@@ -1080,7 +1077,7 @@
       },
       {
         "Name": "Pilon",
-        "Citations": 788,
+        "Citations": 791,
         "Publications": 1
       },
       {
@@ -1114,7 +1111,7 @@
       },
       {
         "Name": "Racon",
-        "Citations": 113,
+        "Citations": 114,
         "Publications": 1
       },
       {
@@ -1273,76 +1270,6 @@
     "Description": "Localised alignment and assembly to improve and existing assembly"
   },
   {
-    "Category": "GeneExpressionAnalysis",
-    "Tools": [
-      {
-        "Name": "cDNA_Cupcake"
-      },
-      {
-        "Name": "Cogent",
-        "PyPI": "cogent"
-      },
-      {
-        "Name": "FLAIR"
-      },
-      {
-        "Name": "GOTHiC",
-        "Citations": 18,
-        "Publications": 1,
-        "BioC": "GOTHiC"
-      },
-      {
-        "Name": "IDP",
-        "Citations": 121,
-        "Publications": 1
-      },
-      {
-        "Name": "isONclust",
-        "Citations": 1,
-        "Publications": 0,
-        "PyPI": "isONclust"
-      },
-      {
-        "Name": "last-rna"
-      },
-      {
-        "Name": "LoReAn",
-        "Citations": 5,
-        "Publications": 1
-      },
-      {
-        "Name": "Mandalorion-Episode-II",
-        "Citations": 56,
-        "Publications": 1
-      },
-      {
-        "Name": "NanoASPipe",
-        "Citations": 0,
-        "Publications": 1
-      },
-      {
-        "Name": "NanoCount"
-      },
-      {
-        "Name": "pipeline-transcriptome-de"
-      },
-      {
-        "Name": "polya_analysis",
-        "Citations": 9,
-        "Publications": 0
-      },
-      {
-        "Name": "sarlacc"
-      },
-      {
-        "Name": "TranscriptClean",
-        "Citations": 0,
-        "Publications": 1
-      }
-    ],
-    "Description": "Testing of differential expression across samples"
-  },
-  {
     "Category": "GeneratingConsensusSequence",
     "Tools": [
       {
@@ -1355,7 +1282,7 @@
       },
       {
         "Name": "Canu",
-        "Citations": 576,
+        "Citations": 579,
         "Publications": 1
       },
       {
@@ -1385,7 +1312,7 @@
       },
       {
         "Name": "HGAP",
-        "Citations": 1622,
+        "Citations": 1624,
         "Publications": 1
       },
       {
@@ -1417,7 +1344,7 @@
       },
       {
         "Name": "pbdagcon",
-        "Citations": 1622,
+        "Citations": 1624,
         "Publications": 1
       },
       {
@@ -1452,7 +1379,7 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 5160,
+        "Citations": 5161,
         "Publications": 1
       },
       {
@@ -1476,7 +1403,7 @@
     "Tools": [
       {
         "Name": "BLAT",
-        "Citations": 1895,
+        "Citations": 1897,
         "Publications": 1
       },
       {
@@ -1619,7 +1546,7 @@
       },
       {
         "Name": "minimap2",
-        "Citations": 135,
+        "Citations": 136,
         "Publications": 1
       },
       {
@@ -1638,7 +1565,7 @@
       },
       {
         "Name": "Centrifuge",
-        "Citations": 99,
+        "Citations": 100,
         "Publications": 1
       },
       {
@@ -1672,7 +1599,7 @@
       },
       {
         "Name": "MetaPORE",
-        "Citations": 146,
+        "Citations": 147,
         "Publications": 1
       },
       {
@@ -1926,7 +1853,7 @@
       },
       {
         "Name": "MultiQC",
-        "Citations": 216,
+        "Citations": 218,
         "Publications": 1,
         "PyPI": "multiqc"
       },
@@ -1987,18 +1914,18 @@
       },
       {
         "Name": "PRINSEQ",
-        "Citations": 1565,
+        "Citations": 1566,
         "Publications": 1
       },
       {
         "Name": "QUAST",
-        "Citations": 1125,
+        "Citations": 1127,
         "Publications": 1,
         "PyPI": "quast"
       },
       {
         "Name": "QUAST-LG",
-        "Citations": 20,
+        "Citations": 22,
         "Publications": 1
       },
       {
@@ -2091,7 +2018,7 @@
       },
       {
         "Name": "Canu",
-        "Citations": 576,
+        "Citations": 579,
         "Publications": 1
       },
       {
@@ -2130,7 +2057,7 @@
       },
       {
         "Name": "PRINSEQ",
-        "Citations": 1565,
+        "Citations": 1566,
         "Publications": 1
       },
       {
@@ -2426,7 +2353,7 @@
       },
       {
         "Name": "Pilon",
-        "Citations": 788,
+        "Citations": 791,
         "Publications": 1
       },
       {
@@ -2504,7 +2431,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 4671,
+        "Citations": 4680,
         "Publications": 1
       }
     ],
@@ -2525,7 +2452,7 @@
       },
       {
         "Name": "Centrifuge",
-        "Citations": 99,
+        "Citations": 100,
         "Publications": 1
       },
       {
@@ -2548,7 +2475,7 @@
       },
       {
         "Name": "MetaPORE",
-        "Citations": 146,
+        "Citations": 147,
         "Publications": 1
       },
       {
@@ -2696,7 +2623,7 @@
       },
       {
         "Name": "Racon",
-        "Citations": 113,
+        "Citations": 114,
         "Publications": 1
       },
       {
@@ -2712,7 +2639,7 @@
       },
       {
         "Name": "Unicycler",
-        "Citations": 250,
+        "Citations": 255,
         "Publications": 1
       }
     ],
@@ -2750,7 +2677,7 @@
       },
       {
         "Name": "Centrifuge",
-        "Citations": 99,
+        "Citations": 100,
         "Publications": 1
       },
       {
@@ -2865,7 +2792,7 @@
       },
       {
         "Name": "miniasm",
-        "Citations": 135,
+        "Citations": 136,
         "Publications": 1
       },
       {
@@ -2909,7 +2836,7 @@
       },
       {
         "Name": "npAnalysis",
-        "Citations": 28,
+        "Citations": 29,
         "Publications": 1
       },
       {
@@ -2936,7 +2863,7 @@
       },
       {
         "Name": "Racon",
-        "Citations": 113,
+        "Citations": 114,
         "Publications": 1
       },
       {
@@ -2965,7 +2892,7 @@
       },
       {
         "Name": "Unicycler",
-        "Citations": 250,
+        "Citations": 255,
         "Publications": 1
       },
       {
@@ -2975,6 +2902,151 @@
       }
     ],
     "Description": "Evidence in publications to have been successfully employed to analyse non-human data"
+  },
+  {
+    "Category": "Transcriptomics",
+    "Tools": [
+      {
+        "Name": "BLAT",
+        "Citations": 1897,
+        "Publications": 1
+      },
+      {
+        "Name": "cDNA_Cupcake"
+      },
+      {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
+      {
+        "Name": "FLAIR"
+      },
+      {
+        "Name": "Gmap",
+        "Citations": 761,
+        "Publications": 1
+      },
+      {
+        "Name": "GOTHiC",
+        "Citations": 18,
+        "Publications": 1,
+        "BioC": "GOTHiC"
+      },
+      {
+        "Name": "IDP",
+        "Citations": 121,
+        "Publications": 1
+      },
+      {
+        "Name": "IsoCon",
+        "Citations": 3,
+        "Publications": 1,
+        "PyPI": "IsoCon"
+      },
+      {
+        "Name": "isONclust",
+        "Citations": 1,
+        "Publications": 0,
+        "PyPI": "isONclust"
+      },
+      {
+        "Name": "IsoSeq4"
+      },
+      {
+        "Name": "last-rna"
+      },
+      {
+        "Name": "LoReAn",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "Mandalorion-Episode-II",
+        "Citations": 56,
+        "Publications": 1
+      },
+      {
+        "Name": "MetaSV",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoASPipe",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoCount"
+      },
+      {
+        "Name": "nanopolish",
+        "Citations": 106,
+        "Publications": 1
+      },
+      {
+        "Name": "pbbioconda"
+      },
+      {
+        "Name": "pinfish"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
+      },
+      {
+        "Name": "polya_analysis",
+        "Citations": 9,
+        "Publications": 0
+      },
+      {
+        "Name": "PRAPI",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "Rattle"
+      },
+      {
+        "Name": "sarlacc"
+      },
+      {
+        "Name": "SQANTI",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "SquiggleKit",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "SURVIVOR",
+        "Citations": 33,
+        "Publications": 1
+      },
+      {
+        "Name": "tailfindr",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "TAPIS",
+        "Citations": 91,
+        "Publications": 1
+      },
+      {
+        "Name": "ToFU",
+        "Citations": 63,
+        "Publications": 1
+      },
+      {
+        "Name": "TranscriptClean",
+        "Citations": 0,
+        "Publications": 1
+      }
+    ]
   },
   {
     "Category": "Visualisation",
@@ -3031,7 +3103,7 @@
       },
       {
         "Name": "MetaPORE",
-        "Citations": 146,
+        "Citations": 147,
         "Publications": 1
       },
       {
@@ -3040,7 +3112,7 @@
       },
       {
         "Name": "Minidot",
-        "Citations": 157,
+        "Citations": 158,
         "Publications": 1
       },
       {
