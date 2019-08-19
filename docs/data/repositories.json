@@ -24,7 +24,7 @@
     "PyPI": ["circlator"]
   },
   "Arrow": {
-    "Ignored": ["PyPI/arrow", "Conda/arrow"]
+    "Ignored": ["PyPI/arrow", "Conda/arrow", "CRAN/arrow"]
   },
   "ToFU": {
     "Ignored": ["PyPI/tofu"]
@@ -141,7 +141,7 @@
     "Ignored": ["PyPI/last"]
   },
   "LSC": {
-    "CRAN": ["LSC"]
+    "Ignored": ["LSC", "CRAN/LSC"]
   },
   "Mash": {
     "Ignored": ["PyPI/mash"]

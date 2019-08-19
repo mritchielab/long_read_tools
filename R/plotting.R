@@ -21,7 +21,12 @@ plot_number <- function(swsheet) {
                   technology = "OxfordNanopore") %>%
     dplyr::filter(technology == TRUE) %>%
     dplyr::group_by(Date = as.Date(Date)) %>%
-    dplyr::summarise(Count = dplyr::n()) %>%
+    dplyr::summarise(Count = dplyr::n())
+  
+  if (datecount_nanopore$Date[nrow(datecount_nanopore)] != Sys.Date()) {
+    datecount_nanopore <- rbind(datecount_nanopore, data.frame(Date = Sys.Date(), Count = 0))
+  }
+  datecount_nanopore <- datecount_nanopore %>%
     tidyr::complete(Date = tidyr::full_seq(Date, 1),
                     fill = list(Count = 0)) %>%
     dplyr::mutate(Total_nanopore = cumsum(Count))
@@ -32,8 +37,12 @@ plot_number <- function(swsheet) {
                   technology = "PacBio") %>%
     dplyr::filter(technology == TRUE) %>%
     dplyr::group_by(Date = as.Date(Date)) %>%
-    #dplyr::mutate(binary_tech = if_else(technology =="TRUE", 1 , 0)) %>%
-    dplyr::summarise(Count = dplyr::n()) %>%
+    dplyr::summarise(Count = dplyr::n()) 
+  
+  if (datecount_pacbio$Date[nrow(datecount_pacbio)] != Sys.Date()) {
+    datecount_pacbio <- rbind(datecount_pacbio, data.frame(Date = Sys.Date(), Count = 0))
+  }
+  datecount_pacbio <- datecount_pacbio %>%
     tidyr::complete(Date = tidyr::full_seq(Date, 1),
                     fill = list(Count = 0)) %>%
     dplyr::mutate(Total_pacbio = cumsum(Count))
@@ -44,7 +53,12 @@ plot_number <- function(swsheet) {
                   technology = "tenxGenomics") %>%
     dplyr::filter(technology == TRUE) %>%
     dplyr::group_by(Date = as.Date(Date)) %>%
-    dplyr::summarise(Count = dplyr::n()) %>%
+    dplyr::summarise(Count = dplyr::n()) 
+  
+  if (datecount_tenx$Date[nrow(datecount_tenx)] != Sys.Date()) {
+    datecount_tenx <- rbind(datecount_tenx, data.frame(Date = Sys.Date(), Count = 0))
+  }
+  datecount_tenx <- datecount_tenx %>%
     tidyr::complete(Date = tidyr::full_seq(Date, 1),
                     fill = list(Count = 0)) %>%
     dplyr::mutate(Total_tenx = cumsum(Count))
@@ -55,7 +69,11 @@ plot_number <- function(swsheet) {
                   technology = "BionanoGenomics") %>%
     dplyr::filter(technology == TRUE) %>%
     dplyr::group_by(Date = as.Date(Date)) %>%
-    dplyr::summarise(Count = dplyr::n()) %>%
+    dplyr::summarise(Count = dplyr::n())
+  if (datecount_bionano$Date[nrow(datecount_bionano)] != Sys.Date()) {
+    datecount_bionano <- rbind(datecount_bionano, data.frame(Date = Sys.Date(), Count = 0))
+  }
+  datecount_bionano <- datecount_bionano %>%
     tidyr::complete(Date = tidyr::full_seq(Date, 1),
                     fill = list(Count = 0)) %>%
     dplyr::mutate(Total_bionano = cumsum(Count))
@@ -66,12 +84,17 @@ plot_number <- function(swsheet) {
                   technology = "HiC") %>%
     dplyr::filter(technology == TRUE) %>%
     dplyr::group_by(Date = as.Date(Date)) %>%
-    dplyr::summarise(Count = dplyr::n()) %>%
+    dplyr::summarise(Count = dplyr::n())
+  
+  if (datecount_hic$Date[nrow(datecount_hic)] != Sys.Date()) {
+    datecount_hic <- rbind(datecount_hic, data.frame(Date = Sys.Date(), Count = 0))
+  }
+  datecount_hic <- datecount_hic %>%
     tidyr::complete(Date = tidyr::full_seq(Date, 1),
                     fill = list(Count = 0)) %>%
     dplyr::mutate(Total_hic = cumsum(Count))
   
-  #dplyr::bind_cols() for binding all the above tibbles together
+  #plyr::rbind_fill() for binding all the above tibbles together across rows
   datecount_tech <- plyr::rbind.fill(datecount_nanopore, datecount_pacbio, datecount_tenx, datecount_bionano, datecount_hic)
   
   #replace 'NA"s with zeros
