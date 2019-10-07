@@ -56,7 +56,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
                               DOI       = dois,
                               PubDate   = dates,
                               Preprint  = stringr::str_detect(dois, paste(c(paste("10.1101/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),"arxiv"), collapse ="|")),
-                              Citations = cites[[2]])
+                              Citations = cites)
     })
 
     pre_list <- purrr::map_if(ref_list, !is.na(ref_list),
