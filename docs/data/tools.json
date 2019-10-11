@@ -561,6 +561,26 @@
     "Categories": ["GapFilling"]
   },
   {
+    "Name": "BoostNano",
+    "Platform": "Python",
+    "Description": "A segmentation toolkit for segment the Nanopore RNA signal",
+    "Code": "https://github.com/haotianteng/BoostNano",
+    "License": "Mozilla Public License 2.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "haotianteng/BoostNano",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["QualityTrimming", "polyALengthEstimation"]
+  },
+  {
     "Name": "BulkVis",
     "DOIs": "10.1093/bioinformatics/bty841",
     "Platform": "Python",
@@ -1588,6 +1608,23 @@
     "Github": "kamimrcht/ELECTOR",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["EvaluatingExisitingMethods", "ProvideSummaryStatistics"]
+  },
+  {
+    "Name": "Epi2me ",
+    "Platform": "Various",
+    "Description": "A cloud-based data analysis platform",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["QualityChecking", "AnalysisPipelines"]
   },
   {
     "Name": "EpiNano",
@@ -7397,6 +7434,26 @@
     "Categories": ["Simulators"]
   },
   {
+    "Name": "sketchy",
+    "Platform": "Python",
+    "Description": "Real-time lineage matching and genotyping from uncorrected nanopore reads",
+    "Code": "https://github.com/esteinig/sketchy",
+    "License": "MIT",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "esteinig/sketchy",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["Metagenomics"]
+  },
+  {
     "Name": "sloika",
     "Platform": "Python",
     "Description": "ONT software for training network models for basecalling",
@@ -8523,6 +8580,25 @@
     "PubDates": ["2018-11-24"],
     "Technologies": ["OxfordNanopore"],
     "Categories": ["Basecalling"]
+  },
+  {
+    "Name": "WHdenovo",
+    "Platform": "Python",
+    "Description": "A cost-effective approach to diploid assembly for single samples and trios",
+    "Code": "https://github.com/shilpagarg/WHdenovo",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "shilpagarg/WHdenovo",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Alignment"]
   },
   {
     "Name": "WIMP",

@@ -144,6 +144,9 @@
       },
       {
         "Name": "UNCALLED"
+      },
+      {
+        "Name": "WHdenovo"
       }
     ],
     "Description": "Alignment of long reads to a reference"
@@ -173,6 +176,9 @@
       {
         "Name": "Ecoli_assembly_pipeline",
         "Publications": 1
+      },
+      {
+        "Name": "Epi2me "
       },
       {
         "Name": "F5c"
@@ -1544,6 +1550,9 @@
         "Name": "rkmh"
       },
       {
+        "Name": "sketchy"
+      },
+      {
         "Name": "streamformatics"
       },
       {
@@ -1569,6 +1578,9 @@
   {
     "Category": "polyALengthEstimation",
     "Tools": [
+      {
+        "Name": "BoostNano"
+      },
       {
         "Name": "nanopolish",
         "Publications": 1
@@ -1724,6 +1736,9 @@
       },
       {
         "Name": "bionano-tools"
+      },
+      {
+        "Name": "Epi2me "
       },
       {
         "Name": "FastQC"
@@ -1902,6 +1917,9 @@
       },
       {
         "Name": "bionano-tools"
+      },
+      {
+        "Name": "BoostNano"
       },
       {
         "Name": "Canu",
