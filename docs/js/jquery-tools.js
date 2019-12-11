@@ -146,6 +146,10 @@ $(document).ready(function () {
         var nPubs = value.Publications
         var nPres = value.Preprints
         var totalRefs = nPubs + nPres
+        var algo = value.Underlying_algorithms
+        var assump = value.Underlying_assumptions
+        var sandw = value.Strengths_weaknesses
+        var perform =  value.Overall_performance
 
         var entry = ''
         entry += '<div class="panel-heading">' +
@@ -253,7 +257,15 @@ $(document).ready(function () {
 
         entry += '<li class="list-group-item"><strong>Categories: </strong> ' + linkCats(cats) + '</li>'
                  
-        entry += '<li class="list-group-item"><strong>Technologies: </strong> ' + linkTechs(techs) + '</li>' +
+        entry += '<li class="list-group-item"><strong>Technologies: </strong> ' + linkTechs(techs) + '</li>'
+        
+        entry += '<li class="list-group-item"><strong>Underlying algorithm: </strong> ' + algo + '</li>'
+        
+        entry += '<li class="list-group-item"><strong>Underlying assumption: </strong> ' + assump + '</li>'
+        
+        entry += '<li class="list-group-item"><strong>Strengths and weaknesses: </strong> ' + sandw + '</li>'
+        
+        entry += '<li class="list-group-item"><strong>Overall performance: </strong> ' + perform + '</li>' +
                  //'<li class="list-group-item">' +
                  //'<strong>Added: </strong> ' + added +
                  //', <strong>Updated: </strong>' + updated +

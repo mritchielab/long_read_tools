@@ -56,7 +56,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
                               DOI       = dois,
                               PubDate   = dates,
                               Preprint  = stringr::str_detect(dois, paste(c(paste("10.1101/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),"arxiv"), collapse ="|")),
-                              Citations = cites)
+                              Citations = cites[2,])
     })
 
     pre_list <- purrr::map_if(ref_list, !is.na(ref_list),
@@ -69,9 +69,9 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
                                          function(x, y) {
                                              list(Publications = x,
                                                   Preprints = y)
-                                             })) %>%
+                                         })) %>%
         dplyr::mutate(Citations = purrr::map_if(ref_list, !is.na(ref_list),
-                                                function(x) {sum(x$Citations)}),
+                                                function(x) {sum(as.integer(x$Citations))}),
                       Publications = purrr::map_if(pub_list, !is.na(pub_list),
                                                    nrow),
                       Preprints = purrr::map_if(pre_list, !is.na(pre_list),

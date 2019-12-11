@@ -275,7 +275,7 @@ plot_technologies <- function(swsheet) {
   `%>%` <- magrittr::`%>%`
   
   techcounts <- swsheet %>%
-    dplyr::summarise_at(7:11, sum) %>%
+    dplyr::summarise_at(11:15, sum) %>%
     tidyr::gather(key = Technology, value = Count) %>%
     dplyr::arrange(-Count, Technology) %>%
     dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
@@ -328,7 +328,7 @@ plot_categories <- function(swsheet) {
   
   # all categories
   catcounts <- swsheet %>%
-    dplyr::summarise_at(12:42, sum) %>%
+    dplyr::summarise_at(16:46, sum) %>%
     tidyr::gather(key = Category, value = Count) %>%
     dplyr::arrange(-Count, Category) %>%
     dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
@@ -368,7 +368,7 @@ plot_categories <- function(swsheet) {
   
   # categories in each technology
   
-  technologies <- colnames(swsheet[7:11])
+  technologies <- colnames(swsheet[11:15])
   
   for (technology in technologies){
     
@@ -380,7 +380,7 @@ plot_categories <- function(swsheet) {
     
     swsheet2 <- swsheet[swsheet[technology] == TRUE,]
     catcounts_tech <- swsheet2 %>% 
-      dplyr::summarise_at(12:42, sum) %>%
+      dplyr::summarise_at(16:46, sum) %>%
       tidyr::gather(key = Category, value = Count) %>%
       dplyr::arrange(-Count, Category) %>%
       dplyr::mutate(Prop = Count / nrow(swsheet)) %>%

@@ -55,7 +55,7 @@ process_csv <- function(skip_shields = FALSE, skip_cites = FALSE,
     } else {
         msg <- "Skipping downloading of package lists, they may be out of date!"
         flog.warn(msg)
-        pkgs <- list(BioC  = "DUMMMY",
+        pkgs <- list(BioC  = "DUMMY",
                      CRAN  = "DUMMY",
                      PyPI  = "DUMMY",
                      Conda = "DUMMY")
@@ -138,27 +138,16 @@ process_csv <- function(skip_shields = FALSE, skip_cites = FALSE,
 #### MAIN CODE ####
 
 logo <- "
-                                        ###
-                                      #     #
-                                    #   @ @   #                            
-                                  #   @ @ @ @   #  
-                                #   @ @ @ @ @ @   #
-                              ##                   ##
-                              ##  @ @ @ @ @ @ @ @  ##
-                              ##      @ @ @ @    ## 
-                                  #     @ @     #
-                                    #   @ @   #  
-                                      #  @  #
-                                        ###
- 
 
-                  LLL     RRRRRR   SSSSSSS      DDDDDD    BBBBBB  
-                  LLL     RR   RR  SS           DD    D   BB    B
-                  LLL     RRRRRR   SSSSSSS  ==  DD    DD  BBBBBB
-                  LLL     RR  RRR       SS      DD    D   BB    B
-                  LLLLLL  RR   RR  SSSSSSS      DDDDDD    BBBBBB
-              
 
+
+            LL   RRRR  TTTTTT    OOO  RRRR   GGGG                
+            LL   RR  R   TT     O   O RR  R G
+            LL   RR R    TT  OO O   O RR R  G  GGG
+            LLLL RR  R   TT      OOO  RR  R  GGGGG
+            
+            
+            
 "
 
 cat(logo)

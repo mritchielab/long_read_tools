@@ -5,7 +5,7 @@
 #' @return Tibble containing table
 get_swsheet <- function() {
   
-  futile.logger::flog.info("Loading LRS database...")
+  futile.logger::flog.info("Loading long-read-tools.org...")
   swsheet <- readr::read_csv("lrs_tools_master.csv",
                              col_types = readr::cols(
                                Tool = readr::col_character(),
@@ -14,6 +14,10 @@ get_swsheet <- function() {
                                Details = readr::col_character(),
                                Source = readr::col_character(),
                                License = readr::col_character(),
+                               Underlying_algorithms = readr::col_character(),
+                               Underlying_assumptions = readr::col_character(),
+                               Strengths_weaknesses = readr::col_character(),
+                               Overall_performance = readr::col_character(),
                                .default = readr::col_logical()
                              )) %>%
     dplyr::rename(Name = Tool,
