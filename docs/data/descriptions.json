@@ -4,7 +4,11 @@
     "Description": "Alignment of long reads to a reference"
   },
   {
-    "Category": "BaseCalling",
+    "Category": "AvailablityOfTestData",
+    "Description": "If any datasets were made available with the tool or through the pulblication"
+  },
+  {
+    "Category": "Basecalling",
     "Description": "Detection of change of electrical current produced by ONT sequencers and translate it to a DNA sequence"
   },
   {
@@ -44,7 +48,7 @@
     "Description": "Identification of multiple isoforms encoded by a single gene due to alternative splicing"
   },
   {
-    "Category": "BaseModicifactionDetection",
+    "Category": "BaseModificationDetection",
     "Description": "Identification of modifications to individual bases like 5-methylcytosine, 5-hydroxymethylcytosine, and N6-methyladenine in DNA sequences"
   },
   {
@@ -77,11 +81,11 @@
   },
   {
     "Category": "Normalisation",
-    "Description": "Removal of unwanted variation that may affect results"
+    "Description": "Removing unwanted variation that may affect results"
   },
   {
     "Category": "QualityTrimming",
-    "Description": "Removal of low-quality reads"
+    "Description": "Removing low-quality reads"
   },
   {
     "Category": "ReadQuantification",
@@ -102,6 +106,10 @@
   {
     "Category": "TestedOnNonHumanData",
     "Description": "Evidence in publications to have been successfully employed to analyse non-human data"
+  },
+  {
+    "Category": "Transcriptomics",
+    "Description": "Tools that enable isoform identification, quantification and differntial expression studies"
   },
   {
     "Category": "Scaffolding",

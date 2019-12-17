@@ -289,5 +289,20 @@
   },
   "NanoVar": {
     "PyPI": ["nanovar"]
+  },
+  "MotifFinder": {
+    "Ignored": ["PyPI/motiffinder"]
+  },
+  "Nanocompore": {
+    "PyPI": ["nanocompore"]
+  },
+  "Alpaca": {
+    "Ignored": ["CRAN/alpaca", "PyPI/alpaca"]
+  },
+  "Bonito": {
+    "Ignored": ["PyPI/bonito"]
+  },
+  "Guppy": {
+    "Ignored": ["PyPI/guppy"]
   }
 }

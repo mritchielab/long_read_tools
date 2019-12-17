@@ -40,7 +40,7 @@ source("R/titles.R")
 
 #' Process CSV
 #'
-#' Process `lrs_tools_master.csv` and create the various output files
+#' Process `long_read_tools_master.csv` and create the various output files
 process_csv <- function(skip_shields = FALSE, skip_cites = FALSE,
                         skip_packages = FALSE, skip_analysis = FALSE) {
 

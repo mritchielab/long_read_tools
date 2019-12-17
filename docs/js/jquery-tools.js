@@ -59,7 +59,7 @@ $(document).ready(function () {
                       "Hi-C" + '</a>')
               } else if (tech == "BionanoGenomics") {
                 linked.push('<a href="technologies.html#' + tech + '">' +
-                      "Bio-Nano Genomics" + '</a>')
+                      "Bionano Genomics" + '</a>')
               } else if (tech == "tenxGenomics") {
                 linked.push('<a href="technologies.html#' + tech + '">' +
                       "10X Genomics" + '</a>')        

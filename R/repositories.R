@@ -156,13 +156,15 @@ get_shields <- function(swsheet) {
       
       repo_clean = clean_repo(repo)
       
+      if(file.exists(years_url)){
       download.file(years_url,
                     paste0("docs/img/shields/BioC/", repo_clean, "_years.svg"),
-                    quiet = TRUE)
+                    quiet = TRUE) }
+      if(file.exists(down_url)){
       download.file(down_url,
                     paste0("docs/img/shields/BioC/", repo_clean,
                            "_downloads.svg"),
-                    quiet = TRUE)
+                    quiet = TRUE) }
     }
   }
   
@@ -181,13 +183,15 @@ get_shields <- function(swsheet) {
       
       repo_clean = clean_repo(repo)
       
+      if(file.exists(version_url)){
       download.file(version_url,
                     paste0("docs/img/shields/CRAN/", repo_clean, "_version.svg"),
-                    quiet = TRUE)
+                    quiet = TRUE) }
+      if(file.exists(down_url)){
       download.file(down_url,
                     paste0("docs/img/shields/CRAN/", repo_clean,
                            "_downloads.svg"),
-                    quiet = TRUE)
+                    quiet = TRUE) }
     }
   }
   
@@ -207,18 +211,21 @@ get_shields <- function(swsheet) {
       
       repo_clean <- clean_repo(repo)
       
+      if(file.exists(version_url)){
       download.file(version_url,
                     paste0("docs/img/shields/PyPI/", repo_clean,
                            "_version.svg"),
-                    quiet = TRUE)
+                    quiet = TRUE) }
+      if(file.exists(python_url)){
       download.file(python_url,
                     paste0("docs/img/shields/PyPI/", repo_clean,
                            "_python.svg"),
-                    quiet = TRUE)
+                    quiet = TRUE) }
+      if(file.exists(status_url)){
       download.file(status_url,
                     paste0("docs/img/shields/PyPI/", repo_clean,
                            "_status.svg"),
-                    quiet = TRUE)
+                    quiet = TRUE) }
     }
   }
   
@@ -238,18 +245,21 @@ get_shields <- function(swsheet) {
       
       repo_clean <- clean_repo(repo)
       
+      if(file.exists(stars_url)){
       download.file(stars_url,
                     paste0("docs/img/shields/GitHub/", repo_clean,
                            "_stars.svg"),
-                    quiet = TRUE)
+                    quiet = TRUE) }
+      if(file.exists(forks_url)){
       download.file(forks_url,
                     paste0("docs/img/shields/GitHub/", repo_clean,
                            "_forks.svg"),
-                    quiet = TRUE)
+                    quiet = TRUE) }
+      if(file.exists(commit_url)){
       download.file(commit_url,
                     paste0("docs/img/shields/GitHub/", repo_clean,
                            "_commit.svg"),
-                    quiet = TRUE)
+                    quiet = TRUE) }
     }
   }
 }

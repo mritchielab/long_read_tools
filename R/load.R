@@ -1,12 +1,12 @@
 #' Get software sheet
 #'
-#' Read `lrs_tools_master.csv`
+#' Read `long_read_tools_master.csv`
 #'
 #' @return Tibble containing table
 get_swsheet <- function() {
   
   futile.logger::flog.info("Loading long-read-tools.org...")
-  swsheet <- readr::read_csv("lrs_tools_master.csv",
+  swsheet <- readr::read_csv("long_read_tools_master.csv",
                              col_types = readr::cols(
                                Tool = readr::col_character(),
                                DOI = readr::col_character(),

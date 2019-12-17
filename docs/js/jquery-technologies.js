@@ -48,7 +48,7 @@ $(document).ready(function () {
         if (tech == "PacBio") {
           tech_str = tech
         } else if (tech == "BionanoGenomics") {
-          tech_str = "Bio-Nano Genomics"
+          tech_str = "Bionano Genomics"
         } else if (tech == "tenxGenomics") {
           tech_str = "10X Genomics"  
         } else if (tech == "HiC"){

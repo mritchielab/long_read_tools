@@ -282,7 +282,7 @@ plot_technologies <- function(swsheet) {
     dplyr::mutate(Technology = ifelse(Technology == "tenxGenomics", "10X Genomics", Technology)) %>% 
     dplyr::mutate(Technology = ifelse(Technology == "OxfordNanopore", "Oxford Nanopore", Technology)) %>% 
     dplyr::mutate(Technology = ifelse(Technology == "AllLongReads", "All Long Reads", Technology)) %>% 
-    dplyr::mutate(Technology = ifelse(Technology == "BionanoGenomics", "Bio-Nano Genomics", Technology)) %>% 
+    dplyr::mutate(Technology = ifelse(Technology == "BionanoGenomics", "Bionano Genomics", Technology)) %>% 
     dplyr::mutate(Technology = ifelse(Technology == "HiC", "Hi-C", Technology )) %>%
     dplyr::mutate(Technology = factor(Technology, levels = Technology)) %>%
     dplyr::mutate(Percent = round(Prop * 100, 1))
@@ -375,7 +375,7 @@ plot_categories <- function(swsheet) {
     technology2 <- technology
     technology2 <- ifelse(technology2  == "tenxGenomics", "10X Genomics", technology2)
     technology2 <- ifelse(technology2 == "OxfordNanopore", "Oxford Nanopore", technology2)
-    technology2 <- ifelse(technology2 == "BionanoGenomics", "Bio-Nano Genomics", technology2)
+    technology2 <- ifelse(technology2 == "BionanoGenomics", "Bionano Genomics", technology2)
     technology2 <- ifelse(technology2 == "HiC", "Hi-C", technology2)
     
     swsheet2 <- swsheet[swsheet[technology] == TRUE,]
