@@ -16250,6 +16250,7 @@
   },
   {
     "Name": "Rattle",
+    "DOIs": "10.1101/2020.02.08.939942",
     "Platform": "C++",
     "Description": "Reference-free reconstruction and error correction of transcriptomes from Nanopore long-read sequencing",
     "Code": "https://github.com/comprna/RATTLE",
@@ -16291,10 +16292,19 @@
     "TaxonomicClassification": false,
     "polyALengthEstimation": false,
     "Refs": {
-      "Publications": [null],
-      "Preprints": [null]
+      "Publications": [
+        {
+          "DOI": "10.1101/2020.02.08.939942",
+          "PubDate": [],
+          "Preprint": false,
+          "Citations": ["NA"]
+        }
+      ],
+      "Preprints": []
     },
-    "PubDates": [null],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
     "Github": "comprna/RATTLE",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["ErrorCorrectionAndPolishing", "ReadQuantification", "Transcriptomics"]
