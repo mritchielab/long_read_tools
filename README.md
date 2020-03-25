@@ -1,6 +1,6 @@
 ![scRNA-tools](docs/img/banner.png)
 
-# long-read-tools
+# long-read-tools.org
 
 [![Project Status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 [![Lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
@@ -19,8 +19,9 @@ to add something please make a pull request or open an issue.
 
 ## Citation
 
-**The manuscript is currently under development.** However, if you find the long-read-tools database useful for your work you could still cite our database(e.g. 
-Walter and Eliza Hall Institute of Medical Research. (2018). <i> long-read-tools </i> [database]. Retrieved from http://www.long-read-tools.org). 
+If you find the database useful, please consider citing our [publication](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-1935-5) in your work:
+
+*Amarasinghe, S.L., Su, S., Dong, X. et al. Opportunities and challenges in long-read sequencing data analysis. Genome Biol 21, 30 (2020). https://doi.org/10.1186/s13059-020-1935-5*
 
 ## Structure
 
