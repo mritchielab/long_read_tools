@@ -55,7 +55,10 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
         ref <- tibble::tibble(Title     = titles,
                               DOI       = dois,
                               PubDate   = dates,
-                              Preprint  = stringr::str_detect(dois, paste(c(paste("10.1101/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),"arxiv"), collapse ="|")),
+                              Preprint  = stringr::str_detect(dois, paste(c(paste("10.1101/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),
+                                                                            paste("10.7287/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),
+                                                                            paste("10.21203/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),
+                                                                            "arxiv"), collapse ="|")),
                               Citations = cites[2,])
     })
 
