@@ -6,6 +6,148 @@ $(document).ready(function () {
 
   /* --Functions------------------------------------------------------------- */
 
+	function panelInteractions(){
+
+		function prettyGitDate(date_time){
+
+			months = ["January", "February", "March", "April",
+					  "May", "June", "July", "August",
+					  "September", "October", "November", "December"];
+
+			date = date_time.split("T")[0];
+			date_elements = date.split("-");
+
+			year = parseInt(date_elements[0]);
+			month = parseInt(date_elements[1]);
+
+			current_year = new Date().getFullYear();
+
+			// Can make this more fancy if required, i.e. "last week, today!"
+			if(current_year !== year){
+				return(String(months[month-1]) + " " + String(year))
+			} else {
+				return(String(months[month-1]))
+			}
+
+		}
+
+		function githubShields(panel, url){
+
+			// split by forward slash, get username and package name
+
+			url_split = url.split("/");
+			username = url_split.slice(-2)[0];
+			package_name = url_split.slice(-1)[0];
+
+			json_location = "https://api.github.com/search/repositories?q=repo:" + username + "/" + package_name;
+
+			// Fetch Lassy, then update the required fields
+
+			console.log(json_location)
+
+			$.getJSON(json_location).done(function(json) {
+				forks = json.items[0].forks;
+				stargazers = json.items[0].stargazers_count;
+				last_commit = prettyGitDate(json.items[0].pushed_at);
+
+				// Update panel to reflect requested information
+				panel.find(".stars span.blue").text(stargazers)
+				panel.find(".forks span.blue").text(forks)
+				panel.find(".commits span.green").text(last_commit)
+
+			}).fail(function( jqxhr, textStatus, error ) {
+				var err = textStatus + ", " + error;
+				console.log( "Request Failed: " + err );
+			})
+
+		}
+
+		$(".tool").click(function(){
+
+			package_name = $(this).find("h4").attr("id");
+
+			panel_name = package_name + "_c";
+			panel = $("#" + panel_name);
+			package_last_commit = panel.find(".commits span.green");
+
+			// Check to see whether this has been populated already... otherwise ping Github
+			if(package_last_commit.text() == "Unknown"){
+				codebase = panel.find(".codebase_url").text();
+				githubShields(panel, codebase)
+			}
+
+			letterPositions();
+		})
+
+	}
+
+  function checkFixed(from_top){
+
+		current_fixed = toolsContainer.hasClass("fixed_state");
+
+		if(from_top > 200 && current_fixed != true){
+
+			$("#manipulators").addClass("fixed");
+			if($("#selectsort").val() == "name"){
+				$("#name-bookmarks").addClass("fixed");
+			}
+			toolsContainer.addClass("fixed_state");
+
+			// Now, find the current letter position
+
+		} else if(from_top < 200 &&  current_fixed != false) {
+			$("#manipulators").removeClass("fixed");
+			$("#name-bookmarks").removeClass("fixed");
+			toolsContainer.removeClass("fixed_state");
+		}
+
+	}
+
+	function letterPositions(){
+
+		alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+		window.alpha_positions = {}
+
+		$.each(alphabet, function(index, letter){
+			if($('#anchor' + letter).length > 0){
+				window.alpha_positions[letter] = $('#anchor' + letter).offset().top;
+			}
+		})
+
+	}
+
+	function trackLetters(from_top){
+
+		if(from_top + 10 < fixed_height){
+			$("#name-bookmarks li").removeClass("active");
+
+		} else {
+
+			current_letter = false;
+
+			$.each(window.alpha_positions, function(letter, position){
+				if(from_top + 10 > position){
+					current_letter = letter;
+				}
+			})
+
+			$("#name-bookmarks li").removeClass("active");
+			$(".letter-menu"+current_letter).addClass("active");
+
+		}
+	}
+
+	$(window).scroll(function(){
+
+		from_top = $(window).scrollTop();
+		checkFixed(from_top);
+
+		if($("#selectsort").val() == "name"){
+			trackLetters(from_top);
+		}
+
+	})
+
   function expandLinked () {
     var url = document.location.toString()
     var hash = url.split('#')[1]
@@ -27,17 +169,36 @@ $(document).ready(function () {
       location.href = title
     }
   }
+  
+	// Setup tools columns ----------------
+
+		tool_index = 1
+		sort_method = $("#selectsort").val();
+
+		if(sort_method == "name"){
+
+			current_letter = false;
+			$("#name-bookmarks").show();
+			toolsContainer.addClass("name-sort");
+
+		} else {
+			$("#name-bookmarks").hide();
+			toolsContainer.append('<div class="first-tools col-lg-6 col-md-12 col-sm-12 col-xs-12"></div>');
+			toolsContainer.append('<div class="second-tools col-lg-6 col-md-12 col-sm-12 col-xs-12"></div>');
+		}
+			
 
   function linkCats (cats) {
     var linked = []
 
     for (var i = 0; i < cats.length; i++) {
       var cat = cats[i]
+	
       if (cat == "SNPAndVariantAnalysis") {
-              linked.push('<a href="categories.html#' + cat + '">' +
+              linked.push('<a href="tools.html?cats=' + cat + '">' +
                     "SNP And Variant Analysis" + '</a>')        
             } else {
-              linked.push('<a href="categories.html#' + cat + '">' +
+              linked.push('<a href="tools.html?cats=' + cat + '">' +
                     cat.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')
             }
       }
@@ -52,19 +213,19 @@ $(document).ready(function () {
       var tech = techs[i]
      
        if (tech == "PacBio") {
-                linked.push('<a href="technologies.html#' + tech + '">' +
+                linked.push('<a href="tools.html?techs=' + tech + '">' +
                       tech + '</a>')
               } else if (tech == "HiC") {
-                linked.push('<a href="technologies.html#' + tech + '">' +
+                linked.push('<a href=""tools.html?techs=' + tech + '">' +
                       "Hi-C" + '</a>')
               } else if (tech == "BionanoGenomics") {
-                linked.push('<a href="technologies.html#' + tech + '">' +
+                linked.push('<a href="tools.html?techs=' + tech + '">' +
                       "Bionano Genomics" + '</a>')
               } else if (tech == "tenxGenomics") {
-                linked.push('<a href="technologies.html#' + tech + '">' +
+                linked.push('<a href="tools.html?techs=' + tech + '">' +
                       "10X Genomics" + '</a>')        
               } else {
-                linked.push('<a href="technologies.html#' + tech + '">' +
+                linked.push('<a href="tools.html?techs=' + tech + '">' +
                       tech.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')
               }
      
@@ -83,44 +244,42 @@ $(document).ready(function () {
     $.getJSON(jsonPath, function (data) {
 
       /* -- Sort data -- */
+      
       if (urlParams.has('sort')) {
-        switch(urlParams.get('sort')) {
-          case 'cites':
-            data.sort(function(obj1, obj2) {
-              return obj2.Citations - obj1.Citations
-            })
-            break
-          case 'refs':
-            data.sort(function(obj1, obj2) {
-              return (obj2.Publications + obj2.Preprints) - (obj1.Publications + obj1.Preprints)
-            })
-            break
-          case 'pubs':
-            data.sort(function(obj1, obj2) {
-              return obj2.Publications - obj1.Publications
-            })
-            break
-          case 'pres':
-            data.sort(function(obj1, obj2) {
-              return obj2.Preprints - obj1.Preprints
-            })
-            break
-          case 'added':
-            data.sort(function(obj1, obj2) {
-              var x = new Date(obj1.Added);
-              var y = new Date(obj2.Added);
-              return (y > x) - (y < x)
-            })
-            break
-          case 'updated':
-            data.sort(function(obj1, obj2) {
-              var x = new Date(obj1.Updated);
-              var y = new Date(obj2.Updated);
-              return (y > x) - (y < x)
-            })
-            break
-        }
-      }
+            	paramName = urlParams.get('sort');
+                switch (urlParams.get('sort')) {
+                    case 'cites':
+                        data.sort(function(obj1, obj2) {
+                            return obj2.Citations - obj1.Citations
+                        })
+                        break
+                    case 'refs':
+                        data.sort(function(obj1, obj2) {
+                            return (obj2.Publications + obj2.Preprints) - (obj1.Publications + obj1.Preprints)
+                        })
+                        break
+                    case 'pubs':
+                        data.sort(function(obj1, obj2) {
+                            return obj2.Publications - obj1.Publications
+                        })
+                        break
+                    case 'pres':
+                        data.sort(function(obj1, obj2) {
+                            return obj2.Preprints - obj1.Preprints
+                        })
+                        break
+                    case 'Name':
+                        data.sort(function(obj1, obj2) {
+                            return ((obj1['Name'].toUpperCase() > obj2['Name'].toUpperCase()) ? 1 : ((obj1['Name'].toUpperCase() < obj2['Name'].toUpperCase()) ? -1 : 0))
+                        })
+                        break
+                }
+            } else {
+            	paramName = "Name";
+                data.sort(function(obj1, obj2) {
+                    return ((obj1['Name'].toUpperCase() > obj2['Name'].toUpperCase()) ? 1 : ((obj1['Name'].toUpperCase() < obj2['Name'].toUpperCase()) ? -1 : 0))
+                })
+            }
 
       $.each(data, function (key, value) {
         /* -- Assign returned data -- */
@@ -274,10 +433,74 @@ $(document).ready(function () {
                  '</div>'
 
         /* -- Add it to the list! -- */
-        toolsContainer.append(entry)
-      })
+        //toolsContainer.append(entry)
+      //})
+      
+      
+      keep = false;
 
-      expandLinked()
+				selected_categories = $("[name=category_filter]").val();
+				selected_technologies = $("[name=tech_filter]").val();
+
+				if($("[name=category_filter]").val().length > 0){
+					$.each(selected_categories, function(index, cat){
+						if(value.Categories.indexOf(cat) > -1){
+							keep = true;
+							return false;
+						}
+					})
+
+					if(!keep){
+						return;
+					}
+				}
+				
+				// Add it to the list
+
+				if(sort_method == "name"){
+
+					first_letter = name[0].toUpperCase()
+					if(first_letter != current_letter){
+						toolsContainer.append('<h3 id="anchor' + first_letter + '" class="tools-list">'+first_letter+'</h3>')
+						toolsContainer.append('<div id="alpha' + first_letter + '-left" class="first-tools col-lg-6"></div>');
+						toolsContainer.append('<div id="alpha' + first_letter + '-right" class="second-tools col-lg-6"></div>');
+
+						current_letter = first_letter;
+						tool_index = 1;
+					}
+
+					if(tool_index%2 == 0) {
+						$('#alpha' + first_letter + '-right').append(entry)
+					} else {
+						$('#alpha' + first_letter + '-left').append(entry)
+					}
+				} else {
+					if(tool_index%2 == 0) {
+						$('.second-tools').append(entry);
+					} else {
+						$('.first-tools').append(entry)
+					}
+				}
+
+				tool_index = tool_index + 1
+
+			})
+
+			if(sort_method == "name"){
+				// Tool headings
+
+				headings = $(".tools-list");
+				//alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+				$.each(headings, function (index, heading) {
+					letter = $(heading).html();
+					$("#name-bookmarks").append('<li class="letter-menu' + letter + '"><a href="#anchor' + letter + '">' + letter + '</a></li>');
+				})
+
+			}
+
+      expandLinked();
+      panelInteractions();
+			letterPositions();
     })
   }
 
@@ -285,37 +508,110 @@ $(document).ready(function () {
 
   var urlParams = new URLSearchParams(window.location.search);
 
-  if (urlParams.has('sort')) {
-    $("[name=selectsort]").val(urlParams.get('sort')).change()
-  }
+	if (urlParams.has('sort')) {
+		$("[name=selectsort]").val(urlParams.get('sort')).change()
+	}
 
-  $(function(){
-    $("[name=selectsort]").change(function(){
-        var val = $(this).val()
-        var sorter
-        if (typeof val !== 'undefined') {
-            sorter = val
-        }
+	if (urlParams.has('cats')){
 
-        var url = document.location.toString()
+		cat_url = urlParams.get('cats').split(",");
+		cats = [];
 
-        var hash
-        if (url.includes('#')) {
-          hash = url.split('#')[1]
-          url = url.split('#')[0]
-        }
+		$.each(cat_url, function(index, cat){
+			cats.push(cat);
+		})
 
-        url = url.split('?')[0]
+		$("[name=category_filter]").val(cats);
+	}
+	
+	if (urlParams.has('techs')){
 
-        if (hash !== undefined) {
-          window.location.href = url + '?sort=' + sorter + '#' + hash
-        } else {
-          window.location.href = url + '?sort=' + sorter
-        }
+		techs_url = urlParams.get('techs').split(",");
+		techs = [];
 
-        return true
-    })
-  })
+		$.each(techs_url, function(index, tech){
+			techs.push(tech);
+		})
 
-  printList(urlParams)
+		$("[name=tech_filter]").val(techs);
+	}
+
+	// Refresh page on change on select or filter button
+
+	function pushURL(){
+
+		select_item = $("[name=selectsort]");
+
+		// Sort Select
+		var val = select_item.val()
+		var sorter
+
+		if (typeof val !== 'undefined') {
+			sorter = val
+		}
+
+		// Check for cats
+		selected_cats = $("[name=category_filter]").val();
+		selected_cats = selected_cats.toString();
+		
+		// Check for techs
+		selected_techs = $("[name=tech_filter]").val();
+		selected_techs = selected_techs.toString();		
+
+		// Check for anchors
+		var url = document.location.toString();
+
+		var hash
+		if (url.includes('#')) {
+			hash = url.split('#')[1]
+			url = url.split('#')[0]
+		}
+
+		url = url.split('?')[0];
+
+		if (hash !== undefined) {
+			if(selected_cats.length > 0 && selected_techs.length > 0){
+				window.location.href = url + '?sort=' + sorter + "&cats=" + selected_cats + "&techs=" + selected_techs + '#' + hash
+				} else if(selected_cats.length > 0) {
+				    window.location.href = url + '?sort=' + sorter + "&cats=" + selected_cats + '#' + hash
+				} else if(selected_techs.length > 0){
+				    window.location.href = url + '?sort=' + sorter + "&techs=" + selected_techs + '#' + hash
+				} else {
+				window.location.href = url + '?sort=' + sorter + '#' + hash
+			}
+		} else {
+			if(selected_cats.length > 0 && selected_techs.length > 0){
+				window.location.href = url + '?sort=' + sorter + "&cats=" + selected_cats + "&techs=" + selected_techs
+				} else if(selected_cats.length > 0) {
+				    window.location.href = url + '?sort=' + sorter + "&cats=" + selected_cats
+				} else if(selected_techs.length > 0){
+				    window.location.href = url + '?sort=' + sorter + "&techs=" + selected_techs
+				} else {
+				window.location.href = url + '?sort=' + sorter
+	    	}
+		}
+
+		return true;
+	}
+
+	$(function(){
+		$("[name=selectsort]").change(function(){
+			$("[name=category_filter]").val("");
+			$("[name=tech_filter]").val("");
+			pushURL();
+		})
+		$("#submit").click(function(){
+			pushURL();
+		});
+		$("#reset").click(function(){
+			$("[name=category_filter]").val("");
+			$("[name=tech_filter]").val("");
+			pushURL();
+		});
+	})
+
+	// Refresh
+
+	printList(urlParams)
+
 })
