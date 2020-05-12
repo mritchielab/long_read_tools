@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+          });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M94D2L6');
+      </script>
+      <!-- End Google Tag Manager -->
+    
+      <!--// Metadata ---------------------------------------------------- -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Long Read Tools</title>
+      <meta name="description" content="A catalogue of long read analysis tools" />
+      <meta name="author" content="">
+    
+      <!-- Open Graph data -->
+      <meta property="og:title" content="long-read-tools" />
+      <meta property="og:url" content="https://long-read-tools.org/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:description" content="A catalogue of long read analysis tools" />
+      <meta property="og:image" content="https://github.com/shaniAmare/long_read_tools/blob/master/docs/img/icon.png" />
+    
+      <!-- Twitter Card -->
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@long_read_tools" />
+      <meta name="twitter:title" content="A catalogue of long read analysis tools" />
+      <meta name="twitter:description"
+        content="Long read sequencing technologies have gained rapid popularity due to their strengths over short read sequencing technologies.  Here we present a catalogue of available long read sequence analysis tools, which can be sorted and filtered by technology or their functions." />
+      <meta name="twitter:image" content="" />
+    
+      <!-- Google Verification -->
+      <meta name="google-site-verification" content="BK2sZjBnvxJFb4w42KjJcYUBF4d1-WwjjJGle6fnP3E" />
+    
+      <script>
+        (function (i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+        ga('create', 'UA-130126727-1', 'auto');
+        ga('send', 'pageview')
+        </script>
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./img/fav.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/fav.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/fav.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/akottr/dragtable/e9162640/dragtable.css">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/filter-control/bootstrap-table-filter-control.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+     <!-- Google Tag Manager (noscript) -->
+   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M94D2L6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Navigation
+    ============== ============================-->
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+
+    </nav>
+    <!-- Header -->
+
+    <!-- Features Section -->
+    <div id="features" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12  section-title letf-align">
+                    <h2>A catalogue of long read sequencing data analysis tools</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <table class="table" data-toggle="table" data-pagination="true"
+                                data-show-pagination-switch="true" data-search="true" data-show-toggle="true"
+                                data-show-columns="true" data-striped="true" data-reorderable-columns="true"
+                                data-filter-show-clear="true" data-show-export="true" data-export-data-type="all"
+                                data-id-table="tools-table" data-filter-control="true" data-page-size="25"
+                                data-url="data/tools-table.json">
+                                <thead>
+                                    <tr>
+                                        <th data-field="Name" data-sortable="true" data-switchable="false"
+                                            data-formatter="nameFormatter">Name</th>
+                                        <th data-field="Platform" data-sortable="true" data-filter-control="select">
+                                            Platform
+                                        </th>
+                                        <th data-field="DOIs" data-sortable="true" data-visible="true"
+                                            data-formatter="doiFormatter">DOIs</th>
+                                        <th data-field="PubDates" data-sortable="true" data-visible="false">Pub Dates
+                                        </th>
+                                        <th data-field="Citations" data-sortable="true" data-visible="true">Citations
+                                        </th>
+                                        <th data-field="Code" data-sortable="true" data-visible="false">Source</th>
+                                        <th data-field="Description" data-sortable="true" data-visible="false">
+                                            Description</th>
+                                        <th data-field="License" data-sortable="true" data-visible="true">License</th>
+                                        <th data-field="Technologies" data-sortable="true" data-visible="true"
+                                            data-formatter="techsFormatter">Technologies in Focus</th>
+                                        <th data-field="Underlying_algorithms" data-sortable="true"
+                                            data-visible="false">
+                                            Underlying Algorithms</th>
+                                        <th data-field="Underlying_assumptions" data-sortable="true"
+                                            data-visible="false">
+                                            Underlying Assumptions</th>
+                                        <th data-field="Strengths_weaknesses" data-sortable="true" data-visible="false">
+                                            Strengths and Weaknesses</th>
+                                        <th data-field="Overall_performance" data-sortable="true" data-visible="false">
+                                            Overall
+                                            Performance</th>
+                                        <th data-field="Categories" data-sortable="true" data-visible="true"
+                                            data-formatter="catsFormatter">Categories</th>
+                                        <th data-field="Alignment" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Alignment
+                                        </th>
+                                        <th data-field="AnalysisPipelines" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Analysis
+                                            Pipelines
+                                        </th>
+                                        <th data-field="AvailablityOfTestData" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Availablity
+                                            of Test
+                                            Data</th>
+                                        <th data-field="BaseCalling" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Base Calling
+                                        </th>
+                                        <th data-field="BaseModificationDetection" data-sortable="true"
+                                            data-visible="false" data-formatter="logicalFormatter"
+                                            data-filter-control="select">Base Modification
+                                            Detection</th>
+                                        <th data-field="Demultiplexing" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">
+                                            Demultiplexing</th>
+                                        <th data-field="DenovoAssembly" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">
+                                            <i>De-novo</i>
+                                            Assembly</th>
+                                        <th data-field="ErrorCorrectionAndPolishing" data-sortable="true"
+                                            data-visible="false" data-formatter="logicalFormatter"
+                                            data-filter-control="select">Error Correction and
+                                            Polishing</th>
+                                        <th data-field="EvaluatingExisitingMethods" data-sortable="true"
+                                            data-visible="false" data-formatter="logicalFormatter"
+                                            data-filter-control="select">Evaluating Exisiting
+                                            Methods</th>
+                                        <th data-field="fast5FileProcessing" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">fast5 File
+                                            Management
+                                            and Processing</th>
+                                        <th data-field="GeneExpressionAnalysis" data-sortable="true"
+                                            data-visible="false" data-formatter="logicalFormatter"
+                                            data-filter-control="select">Expression Analysis
+                                        </th>
+                                        <th data-field="GapFilling" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Gap Filling
+                                        </th>
+                                        <th data-field="GeneratingConsensusSequence" data-sortable="true"
+                                            data-visible="false" data-formatter="logicalFormatter"
+                                            data-filter-control="select">Generating Consensus
+                                            Sequence</th>
+                                        <th data-field="IsoformDetection" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Isoform
+                                            Detection
+                                        </th>
+                                        <th data-field="LongReadOverlapping" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Long Read
+                                            Overlapping
+                                        </th>
+                                        <th data-field="Metagenomics" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Metagenomics
+                                        </th>
+                                        <th data-field="Normalisation" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Normalisation
+                                        </th>
+                                        <th data-field="polyALengthEstimation" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">polyA Length
+                                            Estimation</th>
+                                        <th data-field="ProvideSummaryStatistics" data-sortable="true"
+                                            data-visible="false" data-formatter="logicalFormatter"
+                                            data-filter-control="select">Provide Summary
+                                            Statistics</th>
+                                        <th data-field="QualityChecking" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Quality
+                                            Checking</th>
+                                        <th data-field="QualityFiltering" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Quality
+                                            Filtering
+                                        </th>
+                                        <th data-field="QualityTrimming" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Quality
+                                            Trimming</th>
+                                        <th data-field="ReadQuantification" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Read
+                                            Quantification
+                                        </th>
+                                        <th data-field="Scaffolding" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Simulators
+                                        </th>
+                                        <th data-field="Simulators" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Simulators
+                                        </th>
+                                        <th data-field="SNPAndVariantAnalysis" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">SNP and
+                                            Variant
+                                            Analysis</th>
+                                        <th data-field="SuitableForSingleCellExperiments" data-sortable="true"
+                                            data-visible="false" data-formatter="logicalFormatter"
+                                            data-filter-control="select">
+                                            Suitable for Single-cell Experiments</th>
+                                        <th data-field="TaxonomicClassification" data-sortable="true"
+                                            data-visible="false" data-formatter="logicalFormatter"
+                                            data-filter-control="select">Taxonomic
+                                            Classification</th>
+                                        <th data-field="TestedOnHumanData" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Tested on
+                                            Human Data
+                                        </th>
+                                        <th data-field="TestedOnNonHumanData" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Tested on
+                                            Non-Human
+                                            Data</th>
+                                        <th data-field="Visualisation" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">Visualisation
+                                        </th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="padding-top-10">
+        <div class="container">
+            <div class="col-md-12" id="footer">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://cdn.rawgit.com/akottr/dragtable/e9162640/jquery.dragtable.js"></script>
+    <script
+        src="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/reorder-columns/bootstrap-table-reorder-columns.js">
+    </script>
+    <script
+        src="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/filter-control/bootstrap-table-filter-control.js">
+    </script>
+    <script
+        src="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/export/bootstrap-table-export.js">
+    </script>
+    <script src="https://cdn.rawgit.com/hhurz/tableExport.jquery.plugin/475fb511/tableExport.min.js"></script>
+    <script>
+        function logicalFormatter(value) {
+            var colour = '#ff9999'
+            if (value) {
+                colour = '#009933'
+            }
+            return '<span  style="color: ' + colour + '">' + value + '</div>'
+        }
+
+        function logicalFormatter2(value) {
+            var colour = '#ff9999'
+            if (value) {
+                colour = '#009933'
+            }
+            return '<span  style="color: ' + colour + '">' + value + '</div>'
+        }
+
+        function nameFormatter(value) {
+            return '<a href="tools.html#' + value + '">' + value + '</a>'
+        }
+
+        function doiFormatter(value) {
+            doihtml = ""
+            if (typeof value !== "undefined") {
+                if (value.split(";")) {
+                    valueArray = value.split(";")
+                    for (let index = 0; index < valueArray.length; index++) {
+                        doihtml += '<a target="_blank" href="https://doi.org/' + valueArray[
+                            index] + '">' + valueArray[index] + '</a> ';
+                    }
+                } else {
+                    doihtml = '<a target="_blank" href="https://doi.org/' + valueArray[index] +
+                        '">' + valueArray[index] + '</a>'
+                }
+            }
+            return doihtml
+        }
+
+        function techsFormatter(value) {
+            var values = value.toString().split(',')
+            var formatted = []
+
+            for (var i = 0; i < values.length; i++) {
+                var tech = values[i]
+                if (tech == "PacBio") {
+                    formatted.push('<a href="tools.html?tec=' + tech + '">' +
+                        tech + '</a>')
+                } else if (tech == "HiC") {
+                    formatted.push('<a href="tools.html?tec=' + tech + '">' +
+                        "Hi-C" + '</a>')
+                } else if (tech == "BionanoGenomics") {
+                    formatted.push('<a href="tools.html?tec=' + tech + '">' +
+                        "Bionano Genomics" + '</a>')
+                } else if (tech == "tenxGenomics") {
+                    formatted.push('<a href="tools.html?tec=' + tech + '">' +
+                        "10X Genomics" + '</a>')
+                } else {
+                    formatted.push('<a href="tools.html?tec=' + tech + '">' +
+                        tech.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')
+                }
+            }
+
+            return formatted.join(', ')
+        }
+
+        function catsFormatter(value) {
+            var values = value.toString().split(',')
+            var formatted = []
+
+            for (var i = 0; i < values.length; i++) {
+                var cat = values[i]
+                if (cat == "SNPAndVariantAnalysis") {
+                    formatted.push('<a href="tools.html?cat=' + cat + '">' +
+                        "SNP And Variant Analysis" + '</a>')
+                } else if (cat == "DenovoAssembly") {
+                    formatted.push('<a href="tools.html?cat=' + cat + '">' +
+                        '<i>' + "De novo" + '</i>' + " Assembly" + '</a>')
+                } else if (cat == "fast5FileProcessing") {
+                    formatted.push('<a href="tools.html?cat=' + cat + '">' +
+                        "fast5 File Processing" + '</a>')
+                } else if (cat == "polyALengthEstimation") {
+                    formatted.push('<a href="tools.html?cat=' + cat + '">' +
+                        "polyA Length Estimation" + '</a>')
+                } else {
+                    formatted.push('<a href="tools.html?cat=' + cat + '">' +
+                        cat.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')
+                }
+            }
+
+            return formatted.join(', ')
+        }
+    </script>
+</body>
+
+</html>

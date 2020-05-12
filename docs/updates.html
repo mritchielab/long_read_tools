@@ -1,119 +1,159 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <!-- Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-M94D2L6');</script>
-		<!-- End Google Tag Manager -->
-		
-		<!--// Metadata ---------------------------------------------------- -->
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/png" sizes="16x16" href="img/icon.png" />
-        <link rel="manifest" href="img/favicon/manifest.json" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png" />
-        <meta name="theme-color" content="#ffffff" />
+<head>
+     <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-M94D2L6');
+  </script>
+  <!-- End Google Tag Manager -->
 
-        <!-- Open Graph data -->
-        <meta property="og:title" content="long-read-tools" />
-        <meta property="og:url" content="https://long-read-tools.org/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:description" content="A catalogue of long read analysis tools" />
-        <meta property="og:image" content="https://github.com/shaniAmare/long_read_tools/blob/master/docs/img/icon.png" />
-		
-		<!-- Twitter Card -->
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@long_read_tools" />
-        <meta name="twitter:title" content="A catalogue of long read analysis tools" />
-        <meta name="twitter:description" content="Long read sequencing technologies have gained rapid popularity due to their strengths over short read sequencing technologies.  Here we present a catalogue of available long read sequence analysis tools, which can be sorted and filtered by technology or their functions." />
-        <meta name="twitter:image" content="" />
+  <!--// Metadata ---------------------------------------------------- -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Long Read Tools</title>
+  <meta name="description" content="A catalogue of long read analysis tools" />
+  <meta name="author" content="">
 
-        <meta name="description" content="A catalogue of long read analysis tools" />
-    	  <title>long-read-tools</title>
+  <!-- Open Graph data -->
+  <meta property="og:title" content="long-read-tools" />
+  <meta property="og:url" content="https://long-read-tools.org/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="A catalogue of long read analysis tools" />
+  <meta property="og:image" content="https://github.com/shaniAmare/long_read_tools/blob/master/docs/img/icon.png" />
 
-        <!--// Styles ------------------------------------------------------ -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="css/layout.css"/>
-        <link rel="stylesheet" type="text/css" href="css/updates.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@long_read_tools" />
+  <meta name="twitter:title" content="A catalogue of long read analysis tools" />
+  <meta name="twitter:description"
+    content="Long read sequencing technologies have gained rapid popularity due to their strengths over short read sequencing technologies.  Here we present a catalogue of available long read sequence analysis tools, which can be sorted and filtered by technology or their functions." />
+  <meta name="twitter:image" content="" />
 
-        <!--// Scripts ----------------------------------------------------- -->
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Google Verification -->
+  <meta name="google-site-verification" content="BK2sZjBnvxJFb4w42KjJcYUBF4d1-WwjjJGle6fnP3E" />
 
-        <script>
-        (function (i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <script>
+    (function (i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-130126727-1', 'auto');
-        ga('send', 'pageview')
-        </script>
+    ga('create', 'UA-130126727-1', 'auto');
+    ga('send', 'pageview')
+    </script>
 
-        <script>
-        $(function(){
-          $("#footerContent").load("footer_content.html")
-        })
-        </script>
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./img/fav.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/fav.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/fav.png">
 
-    </head>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/akottr/dragtable/e9162640/dragtable.css">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/filter-control/bootstrap-table-filter-control.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <body>
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
 
-        <!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M94D2L6"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<!-- End Google Tag Manager (noscript) -->
-		
-		<!--// NavBar ------------------------------------------------------ -->
+</head>
 
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
-                        <img id="logo-image" alt="lrs-DB" src="img/banner.svg" />
-                    </a>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+     <!-- Google Tag Manager (noscript) -->
+   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M94D2L6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Navigation
+    ==========================================-->
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+
+    </nav>
+    <!-- Header -->
+
+    <!-- Features Section -->
+    <div id="features" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12  section-title letf-align">
+                    <h2>Updates</h2>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Table</a></li>
-                    <li><a href="tools.html">Tools</a></li>
-                    <li><a href="categories.html">Categories</a></li>
-                    <li><a href="technologies.html">Technologies</a></li>
-                    <li><a href="analysis.html">Analysis</a></li>
-                    <li class="active"><a href="#">Updates</a></li>
-                    <li><a href="submit.html">Submit</a></li>
-                    <li><a href="faqs.html">FAQs</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="https://twitter.com/long_read_tools"><i class="fa fa-twitter" style="font-size:28px"></i></a></li>
-                    <li><a href="https://github.com/shaniAmare/long_read_tools"><i class="fa fa-github" style="font-size:28px"></i></a></li>
-                </ul>
             </div>
-        </nav>
-
-        <div class="container-fluid">
-
-            <!--// Intro --------------------------------------------------- -->
-
-            <div class="page-header">
-                <h1>Updates</h1>
+            <div class="row">
+                <div class="col-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!--// JSON Table ---------------------------------------------- -->
+                                    <a class="twitter-timeline" data-link-color="#984ea3"
+                                        href="https://twitter.com/long_read_tools">Tweets by long-read-tools</a>
+                                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <!--// JSON Table ---------------------------------------------- -->
-             <a class="twitter-timeline" data-link-color="#984ea3" href="https://twitter.com/long_read_tools">Tweets by long-read-tools</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-            
         </div>
+    </div>
 
-        <footer class="footer">
-            <div id="footerContent" class="container"></div>
-        </footer>
+    <div id="contact" class="padding-top-10">
+        <div class="container">
+            <div class="col-md-12" id="footer">
 
-    </body>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://cdn.rawgit.com/akottr/dragtable/e9162640/jquery.dragtable.js"></script>
+    <script
+        src="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/reorder-columns/bootstrap-table-reorder-columns.js">
+    </script>
+    <script
+        src="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/filter-control/bootstrap-table-filter-control.js">
+    </script>
+    <script
+        src="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/export/bootstrap-table-export.js">
+    </script>
+
+</body>
+
 </html>

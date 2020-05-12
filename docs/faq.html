@@ -64,7 +64,6 @@
     <link rel="apple-touch-icon" sizes="72x72" href="./img/fav.png">
     <link rel="apple-touch-icon" sizes="114x114" href="./img/fav.png">
 
-    <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
@@ -82,6 +81,9 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.8.1/css/bootstrap-select.css">
 
 </head>
 
@@ -102,85 +104,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12  section-title letf-align">
-                    <h2>Analysis</h2>
+                    <h2>FAQ<span>s</span></h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="plot col-xs-12">
-                                    <div id="number"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="publication"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="platforms"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12">
-                                    <div id="technology"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12">
-                                    <div id="categories"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="nanopore_cat"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="pacbio_cat"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="tenx_cat"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="bionano_cat"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="hic_cat"></div>
-                                </div>
-                            </div>
+                    <div class="container ">
+                        <div class="panel-group" id="faqAccordion">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
 
     <div id="contact" class="padding-top-10">
         <div class="container">
             <div class="col-md-12" id="footer">
-
             </div>
         </div>
     </div>
-
-
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/nivo-lightbox.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/function/faq.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
     </script>
@@ -197,19 +146,8 @@
         src="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/export/bootstrap-table-export.js">
     </script>
     <script src="https://cdn.rawgit.com/hhurz/tableExport.jquery.plugin/475fb511/tableExport.min.js"></script>
-    <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
-    <script>
-        var p1 = new pym.Parent('number', 'plots/number.html', {})
-        var p2 = new pym.Parent('publication', 'plots/publication.html', {})
-        var p3 = new pym.Parent('platforms', 'plots/platforms.html', {})
-        var p4 = new pym.Parent('technology', 'plots/technologies.html', {})
-        var p5 = new pym.Parent('categories', 'plots/categories.html', {})
-        var p6 = new pym.Parent('nanopore_cat', 'plots/categories_OxfordNanopore.html', {})
-        var p7 = new pym.Parent('pacbio_cat', 'plots/categories_PacBio.html', {})
-        var p8 = new pym.Parent('tenx_cat', 'plots/categories_tenxGenomics.html', {})
-        var p9 = new pym.Parent('bionano_cat', 'plots/categories_BionanoGenomics.html', {})
-        var p10 = new pym.Parent('hic_cat', 'plots/categories_HiC.html', {})
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.8.1/js/bootstrap-select.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
