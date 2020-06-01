@@ -174,7 +174,7 @@
     "Ignored": ["PyPI/tulip", "CRAN/TULIP"]
   },
   "FLAIR": {
-    "Ignored": ["PyPI/flair"]
+    "Ignored": ["PyPI/flair", "CRAN/flair"]
   },
   "IsoCon": {
     "PyPI": ["IsoCon"]
@@ -240,7 +240,7 @@
     "PyPI": ["tigmint"]
   },
   "Cobbler": {
-    "Ignored": ["PyPI/Cobbler"]
+    "Ignored": ["PyPI/Cobbler", "PyPI/cobbler"]
   },
   "SALSA": {
     "Ignored": ["PyPI/salsa"]
@@ -313,5 +313,35 @@
   },
   "Megalodon": {
     "PyPI": ["megalodon"]
+  },
+  "CoLoRMap": {
+    "Ignored": ["CRAN/colormap", "PyPI/colormap"]
+  },
+  "GALA": {
+    "Ignored": ["PyPI/gala"]
+  },
+  "Gmap": {
+    "Ignored": ["PyPI/gmap"]
+  },
+  "isONcorrect": {
+    "Ignored": ["PyPI/isONcorrect"]
+  },
+  "MUFFIN": {
+    "Ignored": ["PyPI/muffin"]
+  },
+  "Nanonet": {
+    "Ignored": ["PyPI/nanonet"]
+  },
+  "PALMER": {
+    "Ignored": ["PyPI/palmer"]
+  },
+  "pycoMeth": {
+    "Ignored": ["PyPI/pycoMeth"]
+  },
+  "Reticulatus": {
+    "Ignored": ["PyPI/reticulatus"]
+  },
+  "rMETL": {
+    "Ignored": ["PyPI/rMETL"]
   }
 }
