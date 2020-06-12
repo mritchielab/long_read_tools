@@ -1,4 +1,4 @@
-![long-read-tools.org](docs/img/logo.png)
+![long-read-tools.org](docs/img/Logo.png)
 
 # long-read-tools.org
 
