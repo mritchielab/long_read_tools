@@ -1,4 +1,4 @@
-![scRNA-tools](docs/img/banner.png)
+![long-read-tools.org](docs/img/banner.png)
 
 # long-read-tools.org
 
