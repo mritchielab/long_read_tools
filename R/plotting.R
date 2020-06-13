@@ -1,11 +1,12 @@
-#' Plot publication status
+#' Plot published tools over time
 #'
 #' Produces a HTML page with an interactive plot of the publication status of
 #' tools in the database
+#' 
+#' Also produces a JSON plot through plotly
 #'
 #' @param swsheet Tibble containing software table
-
-# plot published tools on the database by the year
+#' 
 
 plot_number <- function(swsheet) {
   
@@ -113,7 +114,7 @@ plot_number <- function(swsheet) {
   datecount_tech_long$variable <- as.factor(datecount_tech_long$variable)
   datecount_tech_long$variable <- factor(datecount_tech_long$variable, levels=c("Oxford Nanopore", "PacBio", "10X Genomics", "Bionano Genomics", "Hi-C"))
   
-  # Trying with stacked barplot
+  # stacked barplot
   library(ggplot2)
   plot <- ggplot(data = datecount_tech_long,
                  aes(y = value, x = Date, fill = variable)) + 
@@ -142,9 +143,21 @@ plot_number <- function(swsheet) {
   htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
                           file.path(getwd(), "docs/plots/number.html"),
                           selfcontained = FALSE, libdir = "libraries")
+  
+  json <- plotly::plotly_json(plot, jsonedit = FALSE)
+  
+  readr::write_lines(json, fs::path(getwd(), "docs/plots/number.json"))
 }
 
-# plot publication status
+#' Plot publication status
+#'
+#' Produces a HTML page with an interactive plot of the publication status of
+#' tools in the database
+#' 
+#' Also produces a JSON plot through plotly
+#'
+#' @param swsheet Tibble containing software table
+#' 
 
 plot_publication <- function(swsheet) {
   
@@ -196,8 +209,8 @@ plot_publication <- function(swsheet) {
     ggplot2::scale_colour_manual(values = c("#00cccc", "#006699",
                                             "#8DC63F")) +
     ggplot2::ggtitle("Publication status") +
-    cowplot::theme_nothing() +
-    ggplot2::theme(plot.title = ggplot2::element_text(size = 20,
+    cowplot::theme_cowplot() +
+    ggplot2::theme(plot.title = ggplot2::element_text(size = 10,
                                                       face = "bold"),
                    legend.position = "none"
     )
@@ -208,14 +221,22 @@ plot_publication <- function(swsheet) {
   htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
                           file.path(getwd(), "docs/plots/publication.html"),
                           selfcontained = FALSE, libdir = "libraries")
+  
+  json <- plotly::plotly_json(plot, jsonedit = FALSE)
+  
+  readr::write_lines(json, fs::path(getwd(), "docs/plots/publication.json"))
 }
 
 #' Plot platforms
 #'
 #' Produces a HTML page with an interactive plot of the platforms used by tools
 #' in the database
+#' 
+#' Also a JSON file of the plot thgouh plotly
 #'
 #' @param swsheet Tibble containing software table
+#' 
+
 plot_platforms <- function(swsheet) {
   
   plot <- swsheet %>%
@@ -250,8 +271,8 @@ plot_platforms <- function(swsheet) {
                                     label = Label, colour = "#c77951"),
                        size = 5) +
     ggplot2::ggtitle("Platforms") +
-    cowplot::theme_nothing() +
-    ggplot2::theme(plot.title = ggplot2::element_text(size = 20,
+    cowplot::theme_cowplot() +
+    ggplot2::theme(plot.title = ggplot2::element_text(size = 10,
                                                       face = "bold"),
                    legend.position = "none"
     )
@@ -262,6 +283,10 @@ plot_platforms <- function(swsheet) {
   htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
                           file.path(getwd(), "docs/plots/platforms.html"),
                           selfcontained = FALSE, libdir = "libraries")
+  
+  json <- plotly::plotly_json(plot, jsonedit = FALSE)
+  
+  readr::write_lines(json, fs::path(getwd(), "docs/plots/platforms.json"))
 }
 
 #' Plot technologies
@@ -270,6 +295,8 @@ plot_platforms <- function(swsheet) {
 #' in each technology
 #'
 #' @param swsheet Tibble containing software table
+#' 
+
 plot_technologies <- function(swsheet) {
   
   `%>%` <- magrittr::`%>%`
@@ -302,7 +329,7 @@ plot_technologies <- function(swsheet) {
                    legend.text     = ggplot2::element_text(size = 12),
                    legend.key.size = ggplot2::unit(25, "points"),
                    plot.title      = ggplot2::element_text(size = 20),
-                   axis.text       = ggplot2::element_text(size = 12),
+                   axis.text       = ggplot2::element_text(size = 10),
                    axis.text.x     = ggplot2::element_text(angle = 60, hjust = 1,
                                                            vjust = 0.5)
     )
@@ -313,6 +340,10 @@ plot_technologies <- function(swsheet) {
   htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
                           file.path(getwd(), "docs/plots/technologies.html"),
                           selfcontained = FALSE, libdir = "libraries")
+  
+  json <- plotly::plotly_json(plot, jsonedit = FALSE)
+  
+  readr::write_lines(json, fs::path(getwd(), "docs/plots/technologies.json"))
 }
 
 
@@ -320,8 +351,12 @@ plot_technologies <- function(swsheet) {
 #'
 #' Produces a HTML page with an interactive plot showing the percentage of tools
 #' in each category
+#' 
+#' Also saves plots in JSON through plotly
 #'
 #' @param swsheet Tibble containing software table
+#' 
+
 plot_categories <- function(swsheet) {
   
   `%>%` <- magrittr::`%>%`
@@ -354,7 +389,7 @@ plot_categories <- function(swsheet) {
                    legend.text     = ggplot2::element_text(size = 12),
                    legend.key.size = ggplot2::unit(25, "points"),
                    plot.title      = ggplot2::element_text(size = 20),
-                   axis.text       = ggplot2::element_text(size = 12),
+                   axis.text       = ggplot2::element_text(size = 10),
                    axis.text.x     = ggplot2::element_text(angle = 60, hjust = 1,
                                                            vjust = 0.5)
     )
@@ -365,6 +400,10 @@ plot_categories <- function(swsheet) {
   htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
                           file.path(getwd(), "docs/plots/categories.html"),
                           selfcontained = FALSE, libdir = "libraries")
+  
+  json <- plotly::plotly_json(plot, jsonedit = FALSE)
+  
+  readr::write_lines(json, fs::path(getwd(), "docs/plots/categories.json"))
   
   # categories in each technology
   
@@ -417,6 +456,10 @@ plot_categories <- function(swsheet) {
     htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
                             file.path(getwd(), paste("docs/plots/categories_", technology,".html", sep="")),
                             selfcontained = FALSE, libdir = "libraries")
+    
+    json <- plotly::plotly_json(plot, jsonedit = FALSE)
+    
+    readr::write_lines(json, fs::path(getwd(), paste("docs/plots/categories_", technology,".json", sep="")))
     
   }
 }

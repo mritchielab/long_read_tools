@@ -102,70 +102,70 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12  section-title letf-align">
-                    <h2>Analysis</h2>
+                    <h2>Statistics</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="plot col-xs-12">
-                                    <div id="number"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="publication"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="platforms"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12">
-                                    <div id="technology"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12">
-                                    <div id="categories"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="nanopore_cat"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="pacbio_cat"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="tenx_cat"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="bionano_cat"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="plot col-xs-12 col-md-12">
-                                    <div id="hic_cat"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              <div class="row">
+                  <div class="col-12">
+                      <div class="panel panel-default">
+                          <div class="panel-body">
+                              <div class="row">
+                                  <div class="plot col-xs-12 col-md-12">
+                                    <div class="plot-module">
+                                      <div id="number"></div>
+                                     </div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="plot col-xs-12 col-md-4">
+                                    <div class="plot-module">
+                                      <div id="publication"></div>
+                                    </div>
+                                  </div>
+                                  <div class="plot col-xs-12 col-md-4">
+                                      <div class="plot-module">
+                                        <div id="platforms"></div>
+                                      </div>
+                                  </div>
+                                  <div class="plot col-xs-12 col-md-4">
+                                    <div class="plot-module">
+                                      <div id="technology"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="plot col-xs-12 col-md-12">
+                                      <div id="categories"></div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="plot col-xs-12 col-md-6">
+                                      <div id="nanopore_cat"></div>
+                                  </div>
+                                  <div class="plot col-xs-12 col-md-6">
+                                      <div id="pacbio_cat"></div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="plot col-xs-12 col-md-6">
+                                      <div id="tenx_cat"></div>
+                                  </div>
+                                  <div class="plot col-xs-12 col-md-6">
+                                      <div id="bionano_cat"></div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="plot col-xs-12 col-md-12">
+                                      <div id="hic_cat"></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+  </div>
+
 
     <div id="contact" class="padding-top-10">
         <div class="container">
@@ -198,7 +198,44 @@
     </script>
     <script src="https://cdn.rawgit.com/hhurz/tableExport.jquery.plugin/475fb511/tableExport.min.js"></script>
     <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
-    <script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    
+      <script>
+          jQuery.getJSON('plots/number.json', function(data) {
+              Plotly.newPlot('number', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/publication.json', function(data) {
+              Plotly.newPlot('publication', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/platforms.json', function(data) {
+              Plotly.newPlot('platforms', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/technologies.json', function(data) {
+              Plotly.newPlot('technology', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/categories.json', function(data) {
+              Plotly.newPlot('categories', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/categories_OxfordNanopore.json', function(data) {
+              Plotly.newPlot('nanopore_cat', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/categories_PacBio.json', function(data) {
+              Plotly.newPlot('pacbio_cat', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/categories_tenxGenomics.json', function(data) {
+              Plotly.newPlot('tenx_cat', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/categories_BionanoGenomics.json', function(data) {
+              Plotly.newPlot('bionano_cat', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/categories_HiC.json', function(data) {
+              Plotly.newPlot('hic_cat', data.data, data.layout, data.config)
+          })
+    </script>
+    
+
+    <!--<script>
         var p1 = new pym.Parent('number', 'plots/number.html', {})
         var p2 = new pym.Parent('publication', 'plots/publication.html', {})
         var p3 = new pym.Parent('platforms', 'plots/platforms.html', {})
@@ -209,7 +246,7 @@
         var p8 = new pym.Parent('tenx_cat', 'plots/categories_tenxGenomics.html', {})
         var p9 = new pym.Parent('bionano_cat', 'plots/categories_BionanoGenomics.html', {})
         var p10 = new pym.Parent('hic_cat', 'plots/categories_HiC.html', {})
-    </script>
+    </script> -->
 </body>
 
 </html>
