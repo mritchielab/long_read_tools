@@ -53,10 +53,7 @@
         "Name": "last-rna"
       },
       {
-        "Name": "LongReadSelfCorrect"
-      },
-      {
-        "Name": "LongReadSelfCorrect"
+        "Name": "longread-UMI-pipeline"
       },
       {
         "Name": "lordFAST",
@@ -68,7 +65,7 @@
       },
       {
         "Name": "Magic-BLAST",
-        "Citations": 17,
+        "Citations": 18,
         "Publications": 1
       },
       {
@@ -268,10 +265,7 @@
         "PyPI": "krocus"
       },
       {
-        "Name": "LongReadSelfCorrect"
-      },
-      {
-        "Name": "LongReadSelfCorrect"
+        "Name": "longread-UMI-pipeline"
       },
       {
         "Name": "LRCstats",
@@ -295,8 +289,7 @@
       },
       {
         "Name": "MasterOfPores",
-        "Citations": 0,
-        "Publications": 0
+        "Publications": 1
       },
       {
         "Name": "MetaPORE",
@@ -388,7 +381,8 @@
         "PyPI": "poretools"
       },
       {
-        "Name": "pycoMeth"
+        "Name": "pycoMeth",
+        "Publications": 1
       },
       {
         "Name": "Reticulatus"
@@ -461,7 +455,7 @@
       },
       {
         "Name": "DeepVariant",
-        "Citations": 100,
+        "Citations": 101,
         "Publications": 1
       },
       {
@@ -844,7 +838,8 @@
         "Name": "NanoSnake"
       },
       {
-        "Name": "pycoMeth"
+        "Name": "pycoMeth",
+        "Publications": 1
       },
       {
         "Name": "R-kinetics"
@@ -896,10 +891,7 @@
         "Name": "lima"
       },
       {
-        "Name": "LongReadSelfCorrect"
-      },
-      {
-        "Name": "LongReadSelfCorrect"
+        "Name": "longread-UMI-pipeline"
       },
       {
         "Name": "Minibar",
@@ -1069,9 +1061,6 @@
         "Name": "LongReadSelfCorrect"
       },
       {
-        "Name": "LongReadSelfCorrect"
-      },
-      {
         "Name": "LRSDAY",
         "Citations": 13,
         "Publications": 1
@@ -1220,7 +1209,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 7724,
+        "Citations": 7727,
         "Publications": 1
       },
       {
@@ -1254,7 +1243,7 @@
       },
       {
         "Name": "Unicycler",
-        "Citations": 824,
+        "Citations": 825,
         "Publications": 1
       },
       {
@@ -1397,7 +1386,7 @@
         "Name": "levelfind_poreseq"
       },
       {
-        "Name": "LongReadSelfCorrect"
+        "Name": "longread-UMI-pipeline"
       },
       {
         "Name": "LongReadSelfCorrect"
@@ -1537,7 +1526,7 @@
       },
       {
         "Name": "proovread",
-        "Citations": 239,
+        "Citations": 240,
         "Publications": 1
       },
       {
@@ -1611,8 +1600,7 @@
       },
       {
         "Name": "TAMA",
-        "Citations": 4,
-        "Publications": 0
+        "Publications": 1
       },
       {
         "Name": "tigmint",
@@ -1679,8 +1667,7 @@
       },
       {
         "Name": "TAMA",
-        "Citations": 4,
-        "Publications": 0
+        "Publications": 1
       }
     ],
     "Description": "Benchmarking and evaluating functionality of existing tools and/or generating synthetic long read datasets"
@@ -1695,10 +1682,7 @@
         "Name": "fast5_fetcher"
       },
       {
-        "Name": "LongReadSelfCorrect"
-      },
-      {
-        "Name": "LongReadSelfCorrect"
+        "Name": "longread-UMI-pipeline"
       },
       {
         "Name": "Nanopype"
@@ -1858,10 +1842,7 @@
         "Name": "Katuali"
       },
       {
-        "Name": "LongReadSelfCorrect"
-      },
-      {
-        "Name": "LongReadSelfCorrect"
+        "Name": "longread-UMI-pipeline"
       },
       {
         "Name": "LRSDAY",
@@ -1961,7 +1942,7 @@
     "Tools": [
       {
         "Name": "BLAT",
-        "Citations": 2301,
+        "Citations": 2303,
         "Publications": 1
       },
       {
@@ -1981,7 +1962,7 @@
       },
       {
         "Name": "Gmap",
-        "Citations": 1073,
+        "Citations": 1074,
         "Publications": 1
       },
       {
@@ -2073,8 +2054,7 @@
       },
       {
         "Name": "TAMA",
-        "Citations": 4,
-        "Publications": 0
+        "Publications": 1
       },
       {
         "Name": "TAPIS",
@@ -2083,7 +2063,7 @@
       },
       {
         "Name": "ToFU",
-        "Citations": 93,
+        "Citations": 94,
         "Publications": 1
       },
       {
@@ -2547,7 +2527,7 @@
       },
       {
         "Name": "MultiQC",
-        "Citations": 640,
+        "Citations": 641,
         "Publications": 1,
         "PyPI": "multiqc"
       },
@@ -2621,7 +2601,7 @@
       },
       {
         "Name": "PRINSEQ",
-        "Citations": 2142,
+        "Citations": 2144,
         "Publications": 1
       },
       {
@@ -2632,7 +2612,7 @@
       },
       {
         "Name": "QUAST",
-        "Citations": 1977,
+        "Citations": 1979,
         "Publications": 1,
         "PyPI": "quast"
       },
@@ -2690,10 +2670,7 @@
         "Name": "IsoSeq4"
       },
       {
-        "Name": "LongReadSelfCorrect"
-      },
-      {
-        "Name": "LongReadSelfCorrect"
+        "Name": "longread-UMI-pipeline"
       },
       {
         "Name": "MiniScrub",
@@ -2775,10 +2752,7 @@
         "Name": "lima"
       },
       {
-        "Name": "LongReadSelfCorrect"
-      },
-      {
-        "Name": "LongReadSelfCorrect"
+        "Name": "longread-UMI-pipeline"
       },
       {
         "Name": "NanoASPipe",
@@ -2813,7 +2787,7 @@
       },
       {
         "Name": "PRINSEQ",
-        "Citations": 2142,
+        "Citations": 2144,
         "Publications": 1
       },
       {
@@ -2875,8 +2849,7 @@
       },
       {
         "Name": "TAMA",
-        "Citations": 4,
-        "Publications": 0
+        "Publications": 1
       }
     ],
     "Description": "Quantification of expression from reads"
@@ -3083,7 +3056,7 @@
       },
       {
         "Name": "DeepVariant",
-        "Citations": 100,
+        "Citations": 101,
         "Publications": 1
       },
       {
@@ -3112,10 +3085,7 @@
         "Name": "last-genotype"
       },
       {
-        "Name": "LongReadSelfCorrect"
-      },
-      {
-        "Name": "LongReadSelfCorrect"
+        "Name": "longread-UMI-pipeline"
       },
       {
         "Name": "Longshot",
@@ -3315,8 +3285,7 @@
       },
       {
         "Name": "TAMA",
-        "Citations": 4,
-        "Publications": 0
+        "Publications": 1
       },
       {
         "Name": "tandem-genotypes",
@@ -3358,7 +3327,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 7724,
+        "Citations": 7727,
         "Publications": 1
       }
     ],
@@ -3493,7 +3462,7 @@
       },
       {
         "Name": "DeepVariant",
-        "Citations": 100,
+        "Citations": 101,
         "Publications": 1
       },
       {
@@ -3616,8 +3585,7 @@
       },
       {
         "Name": "TAMA",
-        "Citations": 4,
-        "Publications": 0
+        "Publications": 1
       },
       {
         "Name": "tandem-genotypes",
@@ -3637,7 +3605,7 @@
       },
       {
         "Name": "Unicycler",
-        "Citations": 824,
+        "Citations": 825,
         "Publications": 1
       }
     ],
@@ -3933,8 +3901,7 @@
       },
       {
         "Name": "TAMA",
-        "Citations": 4,
-        "Publications": 0
+        "Publications": 1
       },
       {
         "Name": "tandem-genotypes",
@@ -3954,7 +3921,7 @@
       },
       {
         "Name": "Unicycler",
-        "Citations": 824,
+        "Citations": 825,
         "Publications": 1
       },
       {
@@ -3970,7 +3937,7 @@
     "Tools": [
       {
         "Name": "BLAT",
-        "Citations": 2301,
+        "Citations": 2303,
         "Publications": 1
       },
       {
@@ -3990,7 +3957,7 @@
       },
       {
         "Name": "Gmap",
-        "Citations": 1073,
+        "Citations": 1074,
         "Publications": 1
       },
       {
@@ -4155,8 +4122,7 @@
       },
       {
         "Name": "TAMA",
-        "Citations": 4,
-        "Publications": 0
+        "Publications": 1
       },
       {
         "Name": "TAPIS",
@@ -4165,7 +4131,7 @@
       },
       {
         "Name": "ToFU",
-        "Citations": 93,
+        "Citations": 94,
         "Publications": 1
       },
       {
@@ -4329,7 +4295,8 @@
         "Publications": 1
       },
       {
-        "Name": "pycoMeth"
+        "Name": "pycoMeth",
+        "Publications": 1
       },
       {
         "Name": "pycoQC",

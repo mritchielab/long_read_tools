@@ -203,15 +203,17 @@ plot_publication <- function(swsheet) {
                                  text = paste("Percent:", Percent))) +
     ggplot2::geom_bar(width = 1, position = "stack") +
     ggplot2::geom_text(ggplot2::aes(x = 1, y = Midpoint, label = Label),
-                       size = 6, colour = "white") +
+                       size = 3, colour = "white") +
     ggplot2::scale_fill_manual(values = c("#00cccc", "#006699",
                                           "#8DC63F")) +
     ggplot2::scale_colour_manual(values = c("#00cccc", "#006699",
                                             "#8DC63F")) +
     ggplot2::ggtitle("Publication status") +
-    cowplot::theme_cowplot() +
-    ggplot2::theme(plot.title = ggplot2::element_text(size = 10,
-                                                      face = "bold"),
+    cowplot::theme_nothing() +
+    ggplot2::theme(plot.title = ggplot2::element_text(size = 20,
+                                                      face = "bold",
+                                                      hjust = -0.45, 
+                                                      vjust=2.12),
                    legend.position = "none"
     )
   
@@ -261,19 +263,21 @@ plot_platforms <- function(swsheet) {
                                     labels = c("Python", "R", "C",
                                                "C++", "Other", "Unknown")),
                   Percent = round(Count / sum(Count) * 100, 1),
-                  Label = paste0(Platform, "\n", Percent, "%")) %>%
+                  Label = paste0(Percent, "%")) %>%
     ggplot2::ggplot(ggplot2::aes(x = Platform, weight = Count,
                                  fill = Platform,
                                  text = paste("Percent:", Percent))) +
     ggplot2::geom_bar(width = 0.95, position = "dodge", fill = "#c77951") +
     ggplot2::geom_text(ggplot2::aes(x = Platform,
                                     y = Count + nrow(swsheet) * 0.05,
-                                    label = Label, colour = "#c77951"),
-                       size = 5) +
+                                    label = Label, 
+                                    colour = "#c77951"),
+                       size = 4) +
     ggplot2::ggtitle("Platforms") +
     cowplot::theme_cowplot() +
-    ggplot2::theme(plot.title = ggplot2::element_text(size = 10,
-                                                      face = "bold"),
+    ggplot2::theme(axis.title.x    = ggplot2::element_blank(),
+                   plot.title      = ggplot2::element_text(size = 20,face = "bold"),
+                   axis.text.x     = element_text(angle=60, hjust=1, vjust = 0.5),
                    legend.position = "none"
     )
   
@@ -390,8 +394,10 @@ plot_categories <- function(swsheet) {
                    legend.key.size = ggplot2::unit(25, "points"),
                    plot.title      = ggplot2::element_text(size = 20),
                    axis.text       = ggplot2::element_text(size = 10),
-                   axis.text.x     = ggplot2::element_text(angle = 60, hjust = 1,
-                                                           vjust = 0.5)
+                   axis.text.x     = ggplot2::element_text(angle = 60, 
+                                                           hjust = 1,
+                                                           vjust = 0.5,
+                                                           size = 8)
     )
   
   plot <- plotly::ggplotly(plot, tooltip = c("x", "text")) %>%
