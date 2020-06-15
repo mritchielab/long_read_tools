@@ -1,4 +1,4 @@
-![long-read-tools.org](docs/img/banner.png)
+![long-read-tools.org](docs/img/Logo.png)
 
 # long-read-tools.org
 
@@ -83,10 +83,12 @@ and improve this resource for the community are greatly appreciated!
 The following people have made significant contributions to the long-read-tools
 database or website:
 
-* [@_lazappi_](https://github.com/lazappi) - scRNA-tools source (https://github.com/Oshlack/scRNA-tools) that was re-used for this repository
-* [@QGouil](https://github.com/QGouil) - Adds new tools and updates existing entries 
 * [@mritchieau](https://github.com/mritchie) - Concept of the database and 
 suggests new tools
+* [@QGouil](https://github.com/QGouil) - Adds new tools and updates existing entries 
+* [@EllenConti](https://www.ellenconti.com/about) - For creating a fabulous logo to match our crazy ideas
+* [@TamaraJBeck](https://twitter.com/TamaraJBeck?s=20) - Fixed up the super logo
+* [@_lazappi_](https://github.com/lazappi) - scRNA-tools source (https://github.com/Oshlack/scRNA-tools) that was re-used for this repository
 * [@scottgigante](https://github.com/scottgigante) - Modified plotting code
 * [@Lexisomes](https://github.com/alexiswl) - Switch to preferred
   resolver for date to character format

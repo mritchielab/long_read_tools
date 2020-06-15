@@ -308,12 +308,6 @@
   "BusyBee": {
     "Ignored": ["PyPI/busybee"]
   },
-  "HELEN": {
-    "PyPI": ["helen"]
-  },
-  "Megalodon": {
-    "PyPI": ["megalodon"]
-  },
   "CoLoRMap": {
     "Ignored": ["CRAN/colormap", "PyPI/colormap"]
   },
@@ -322,9 +316,6 @@
   },
   "Gmap": {
     "Ignored": ["PyPI/gmap"]
-  },
-  "isONcorrect": {
-    "Ignored": ["PyPI/isONcorrect"]
   },
   "MUFFIN": {
     "Ignored": ["PyPI/muffin"]
@@ -335,14 +326,8 @@
   "PALMER": {
     "Ignored": ["PyPI/palmer"]
   },
-  "pycoMeth": {
-    "Ignored": ["PyPI/pycoMeth"]
-  },
   "Reticulatus": {
     "Ignored": ["PyPI/reticulatus"]
-  },
-  "rMETL": {
-    "Ignored": ["PyPI/rMETL"]
   },
   "IPA": {
     "Ignored": ["CRAN/ipa", "PyPI/ipa"]
@@ -352,5 +337,41 @@
   },
   "Minibar": {
     "Ignored": ["PyPI/minibar"]
+  },
+  "TLDR": {
+    "Ignored": ["PyPI/tldr"]
+  },
+  "darwin": {
+    "Ignored": ["PyPI/darwin"]
+  },
+  "HELEN": {
+    "Ignored": ["PyPI/helen"]
+  },
+  "Hercules": {
+    "Ignored": ["PyPI/hercules"]
+  },
+  "HyPo": {
+    "Ignored": ["PyPI/hypo"]
+  },
+  "isONcorrect": {
+    "Ignored": ["PyPI/isONcorrect"]
+  },
+  "Megalodon": {
+    "Ignored": ["PyPI/megalodon"]
+  },
+  "pandora": {
+    "Ignored": ["PyPI/pandora"]
+  },
+  "pycoMeth": {
+    "Ignored": ["PyPI/pycoMeth"]
+  },
+  "Raven": {
+    "Ignored": ["PyPI/raven"]
+  },
+  "rMETL": {
+    "Ignored": ["PyPI/rMETL"]
+  },
+  "Swan": {
+    "Ignored": ["PyPI/swan"]
   }
 }
