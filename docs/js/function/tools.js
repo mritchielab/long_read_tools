@@ -427,7 +427,7 @@ function genarateCollapsheading(obje, key) {
       '<div class="panel panel-default">' +
       '<div class="panel-heading"><strong>Code</strong></div>' +
       '<div class="panel-body">' +
-      code +
+      '<a target="_blank" href="' + code + '"> ' + code + ' </a>' +
       "</div>" +
       " </div>") :
     null;
