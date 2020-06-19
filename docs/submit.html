@@ -125,25 +125,26 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
+                                            <label for="doi">DOI(s):</label>
+                                            <input type="text" class="form-control" id="doi" name="doi"
+                                                placeholder="DOIs for associated publications/preprints">
+                                        </div>
+                                    </div>                                    
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
                                             <label for="platform">Platform(s):</label>
                                             <input type="text" class="form-control" id="platform" name="platform"
                                                 placeholder="Available platforms (eg. R/Python)">
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-12">
                                         <div class="form-group">
-                                            <label for="doi">DOI(s):</label>
-                                            <input type="text" class="form-control" id="doi" name="doi"
-                                                placeholder="DOIs for associated publications/preprints">
+                                            <label for="description">Description:</label>
+                                            <textarea type="text" class="form-control" id="description"
+                                                name="description"
+                                                placeholder="Short description of the tool and what it does"></textarea>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="Technology">Technology(ies):</label>
-                                            <input type="text" class="form-control" id="technology" name="technology"
-                                                placeholder="Targeted technologies (e.g. Oxford Nanopore, PacBio) ">
-                                        </div>
-                                    </div>
+                                    </div> 
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="code">Code:</label>
@@ -157,15 +158,7 @@
                                             <input type="text" class="form-control" id="license" name="license"
                                                 placeholder="Associated software license">
                                         </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="description">Description:</label>
-                                            <textarea type="text" class="form-control" id="description"
-                                                name="description"
-                                                placeholder="Short description of the tool and what it does"></textarea>
-                                        </div>
-                                    </div>
+                                    </div>   
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label for="Underlying_algorithms">Underlying algorithms:</label>
@@ -197,7 +190,48 @@
                                                 name="Overall_performance"
                                                 placeholder="Any information known on the overall performance of the tool (e.g. from a benchmark done for a paper/submission)"></textarea>
                                         </div>
-                                        <span>Categories:</span>
+                                     <span>Technology{ies):</span>  
+                                       <div id="technology">
+                                              <div class="row">
+                                                  <div class="col-lg-4">
+                                                      <div class="checkbox">
+                                                          <label for="OxfordNanopore"> <input type="checkbox" value="OxfordNanopore"
+                                                                  id="technology" name="technology">
+                                                              Oxford Nanopore</label>
+                                                      </div>
+                                                      <div class="checkbox">
+                                                          <label for="PacBio"> <input type="checkbox" value="PacBio"
+                                                                  id="technology" name="technology">
+                                                              PacBio</label>
+                                                      </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                      <div class="checkbox">
+                                                          <label for="Bionano"> <input type="checkbox" value="Bionano"
+                                                                  id="technology" name="technology">
+                                                              Bionano Genomics</label>
+                                                      </div>
+                                                      <div class="checkbox">
+                                                          <label for="tenxgenomics"> <input type="checkbox" value="tenxgenomics"
+                                                                  id="technology" name="technology">
+                                                              10X Genomics</label>
+                                                      </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                      <div class="checkbox">
+                                                          <label for="hic"> <input type="checkbox" value="hic"
+                                                                  id="technology" name="technology">
+                                                              Hi-C</label>
+                                                      </div>
+                                                      <div class="checkbox">
+                                                          <label for="other"> <input type="checkbox" value="Other"
+                                                                  id="technology" name="technology">
+                                                              Other</label>
+                                                      </div>
+                                                  </div>
+                                            </div>
+                                        </div>
+                              <span>Categories:</span>
                                         <div id="categories">
                                             <div class="row">
                                                 <div class="col-lg-4">
@@ -338,6 +372,13 @@
                                                             Read
                                                             Quantification</label>
                                                     </div>
+                                                    <div class="checkbox">
+                                                        <label for="RNAStructure">
+                                                            <input type="checkbox" value="RNAStructure"
+                                                                id="RNAStructure" name="categories">
+                                                            RNA
+                                                            Structure</label>
+                                                    </div>                                                    
                                                 </div>
                                                 <div class="col-lg-4">
                                                     <div class="checkbox">
@@ -411,7 +452,7 @@
                                         <div class="form-group">
                                             <label for="notes">Notes:</label>
                                             <textarea type="text" class="form-control" id="notes" name="notes"
-                                                placeholder="Anything else you would like to tell us about the tool?, e.g. what other category(ies) etc."></textarea>
+                                                placeholder="Anything else you would like to tell us about the tool?, e.g. what other technology(ies) or category(ies) etc."></textarea>
                                         </div>
                                         <div class="form-group">
                                             <label for="email">Email:</label>

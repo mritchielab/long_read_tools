@@ -367,13 +367,14 @@ plot_categories <- function(swsheet) {
   
   # all categories
   catcounts <- swsheet %>%
-    dplyr::summarise_at(16:46, sum) %>%
+    dplyr::summarise_at(16:47, sum) %>%
     tidyr::gather(key = Category, value = Count) %>%
     dplyr::arrange(-Count, Category) %>%
     dplyr::mutate(Prop = Count / nrow(swsheet)) %>%
     dplyr::mutate(Category = ifelse(Category == "SNPAndVariantAnalysis", "SNP And Variant Analysis",
                                     ifelse(Category == "polyALengthEstimation", "polyA Length Estimation",
-                                           ifelse(Category == "fast5FileProcessing", "fast5 File Processing", gsub("([a-z])([A-Z])", "\\1 \\2", Category)))))%>%
+                                           ifelse(Category == "RNA Structure", "RNA Structure",
+                                                  ifelse(Category == "fast5FileProcessing", "fast5 File Processing", gsub("([a-z])([A-Z])", "\\1 \\2", Category))))))%>%
     dplyr::mutate(Category = stringr::str_trim(Category)) %>%
     dplyr::mutate(Category = factor(Category, levels = Category)) %>%
     dplyr::mutate(Percent = round(Prop * 100, 1))

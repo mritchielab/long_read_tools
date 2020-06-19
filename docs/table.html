@@ -236,6 +236,10 @@
                                             data-formatter="logicalFormatter" data-filter-control="select">Read
                                             Quantification
                                         </th>
+                                        <th data-field="RNAStructure" data-sortable="true" data-visible="false"
+                                            data-formatter="logicalFormatter" data-filter-control="select">RNA
+                                            Structure
+                                        </th>                                        
                                         <th data-field="Scaffolding" data-sortable="true" data-visible="false"
                                             data-formatter="logicalFormatter" data-filter-control="select">Simulators
                                         </th>
@@ -391,6 +395,9 @@
                 } else if (cat == "polyALengthEstimation") {
                     formatted.push('<a href="tools.html?cat=' + cat + '">' +
                         "polyA Length Estimation" + '</a>')
+                } else if (cat == "RNAStructure") {
+                    formatted.push('<a href="tools.html?cat=' + cat + '">' +
+                        "RNA Structure" + '</a>')
                 } else {
                     formatted.push('<a href="tools.html?cat=' + cat + '">' +
                         cat.replace(/([a-z])([A-Z])/g, '$1 $2') + '</a>')

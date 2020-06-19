@@ -56,7 +56,7 @@ tidy_swsheet_cat <- function(swsheet) {
                   fast5FileProcessing, Basecalling, LongReadOverlapping, DenovoAssembly,Alignment, Scaffolding,
                   GeneratingConsensusSequence,ErrorCorrectionAndPolishing,EvaluatingExisitingMethods,
                   IsoformDetection,	BaseModificationDetection,	QualityChecking,SNPAndVariantAnalysis,
-                  Visualisation,	ReadQuantification,	SuitableForSingleCellExperiments,
+                  Visualisation,	ReadQuantification,	RNAStructure, SuitableForSingleCellExperiments,
                   TestedOnHumanData,TestedOnNonHumanData,Normalisation,ProvideSummaryStatistics,
                   QualityTrimming,AvailablityOfTestData,Transcriptomics,GapFilling,
                   AnalysisPipelines, QualityFiltering, Metagenomics, Simulators, Demultiplexing, 
