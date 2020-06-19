@@ -106,6 +106,9 @@
         "Name": "minoTour"
       },
       {
+        "Name": "minoTour"
+      },
+      {
         "Name": "NanoASPipe",
         "Citations": 0,
         "Publications": 1
@@ -240,6 +243,9 @@
         "Name": "F5c"
       },
       {
+        "Name": "FLAMES"
+      },
+      {
         "Name": "haplotyped-methylome",
         "Citations": 6,
         "Publications": 0
@@ -268,6 +274,9 @@
         "Name": "longread-UMI-pipeline"
       },
       {
+        "Name": "LoRTIA"
+      },
+      {
         "Name": "LRCstats",
         "Citations": 7,
         "Publications": 1
@@ -289,12 +298,19 @@
       },
       {
         "Name": "MasterOfPores",
-        "Publications": 1
+        "Citations": 0,
+        "Publications": 0
       },
       {
         "Name": "MetaPORE",
         "Citations": 247,
         "Publications": 1
+      },
+      {
+        "Name": "minoTour"
+      },
+      {
+        "Name": "minoTour"
       },
       {
         "Name": "MUFFIN",
@@ -802,6 +818,8 @@
       },
       {
         "Name": "Nanocompore",
+        "Citations": 7,
+        "Publications": 0,
         "PyPI": "nanocompore"
       },
       {
@@ -838,6 +856,11 @@
         "Name": "NanoSnake"
       },
       {
+        "Name": "NP-SMLR",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
         "Name": "pycoMeth",
         "Publications": 1
       },
@@ -870,6 +893,9 @@
       },
       {
         "Name": "Tombo"
+      },
+      {
+        "Name": "xPore"
       }
     ],
     "Description": "Identification of modifications to individual bases like 5-methylcytosine, 5-hydroxymethylcytosine, and N6-methyladenine in DNA sequences"
@@ -992,6 +1018,9 @@
         "Name": "DBG2OLC",
         "Citations": 115,
         "Publications": 1
+      },
+      {
+        "Name": "DR2S"
       },
       {
         "Name": "Falcon",
@@ -1209,7 +1238,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 7778,
+        "Citations": 7780,
         "Publications": 1
       },
       {
@@ -1600,7 +1629,8 @@
       },
       {
         "Name": "TAMA",
-        "Publications": 1
+        "Citations": 4,
+        "Publications": 0
       },
       {
         "Name": "tigmint",
@@ -1667,7 +1697,8 @@
       },
       {
         "Name": "TAMA",
-        "Publications": 1
+        "Citations": 4,
+        "Publications": 0
       }
     ],
     "Description": "Benchmarking and evaluating functionality of existing tools and/or generating synthetic long read datasets"
@@ -1941,6 +1972,9 @@
     "Category": "IsoformDetection",
     "Tools": [
       {
+        "Name": "bambu"
+      },
+      {
         "Name": "BLAT",
         "Citations": 2305,
         "Publications": 1
@@ -1959,6 +1993,9 @@
       },
       {
         "Name": "FLAIR"
+      },
+      {
+        "Name": "FLAMES"
       },
       {
         "Name": "Gmap",
@@ -1981,6 +2018,9 @@
       },
       {
         "Name": "last-rna"
+      },
+      {
+        "Name": "LoRTIA"
       },
       {
         "Name": "Mandalorion-Episode-II",
@@ -2054,7 +2094,8 @@
       },
       {
         "Name": "TAMA",
-        "Publications": 1
+        "Citations": 4,
+        "Publications": 0
       },
       {
         "Name": "TAPIS",
@@ -2184,6 +2225,12 @@
         "Publications": 1
       },
       {
+        "Name": "minoTour"
+      },
+      {
+        "Name": "minoTour"
+      },
+      {
         "Name": "MUFFIN",
         "Citations": 0,
         "Publications": 1
@@ -2235,7 +2282,7 @@
       },
       {
         "Name": "WIMP",
-        "Citations": 34,
+        "Citations": 35,
         "Publications": 0
       }
     ],
@@ -2320,11 +2367,14 @@
       },
       {
         "Name": "MinIONQC",
-        "Citations": 24,
+        "Citations": 25,
         "Publications": 1
       },
       {
         "Name": "MinKNOW"
+      },
+      {
+        "Name": "minoTour"
       },
       {
         "Name": "minoTour"
@@ -2451,7 +2501,7 @@
       },
       {
         "Name": "WIMP",
-        "Citations": 34,
+        "Citations": 35,
         "Publications": 0
       }
     ],
@@ -2509,13 +2559,16 @@
       },
       {
         "Name": "MinIONQC",
-        "Citations": 24,
+        "Citations": 25,
         "Publications": 1
       },
       {
         "Name": "MiniScrub",
         "Citations": 1,
         "Publications": 0
+      },
+      {
+        "Name": "minoTour"
       },
       {
         "Name": "minoTour"
@@ -2612,7 +2665,7 @@
       },
       {
         "Name": "QUAST",
-        "Citations": 1996,
+        "Citations": 1997,
         "Publications": 1,
         "PyPI": "quast"
       },
@@ -2808,6 +2861,9 @@
     "Category": "ReadQuantification",
     "Tools": [
       {
+        "Name": "bambu"
+      },
+      {
         "Name": "CARNAC-LR",
         "Citations": 10,
         "Publications": 1
@@ -2849,10 +2905,23 @@
       },
       {
         "Name": "TAMA",
-        "Publications": 1
+        "Citations": 4,
+        "Publications": 0
       }
     ],
     "Description": "Quantification of expression from reads"
+  },
+  {
+    "Category": "RNAStructure",
+    "Tools": [
+      {
+        "Name": "PORE-cupine"
+      },
+      {
+        "Name": "rRNA_nanoSHAPE"
+      }
+    ],
+    "Description": "Using raw current signal from nanopore sequencing to detect the presence of RNA modifications"
   },
   {
     "Category": "Scaffolding",
@@ -3123,6 +3192,9 @@
         "Name": "minoTour"
       },
       {
+        "Name": "minoTour"
+      },
+      {
         "Name": "Mykrobe_tb_workflow"
       },
       {
@@ -3285,7 +3357,8 @@
       },
       {
         "Name": "TAMA",
-        "Publications": 1
+        "Citations": 4,
+        "Publications": 0
       },
       {
         "Name": "tandem-genotypes",
@@ -3327,7 +3400,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 7778,
+        "Citations": 7780,
         "Publications": 1
       }
     ],
@@ -3405,7 +3478,7 @@
       },
       {
         "Name": "WIMP",
-        "Citations": 34,
+        "Citations": 35,
         "Publications": 0
       }
     ],
@@ -3585,7 +3658,8 @@
       },
       {
         "Name": "TAMA",
-        "Publications": 1
+        "Citations": 4,
+        "Publications": 0
       },
       {
         "Name": "tandem-genotypes",
@@ -3607,6 +3681,9 @@
         "Name": "Unicycler",
         "Citations": 838,
         "Publications": 1
+      },
+      {
+        "Name": "xPore"
       }
     ],
     "Description": "Evidence in publications to have been successfully employed to analyse human data"
@@ -3901,7 +3978,8 @@
       },
       {
         "Name": "TAMA",
-        "Publications": 1
+        "Citations": 4,
+        "Publications": 0
       },
       {
         "Name": "tandem-genotypes",
@@ -3926,7 +4004,7 @@
       },
       {
         "Name": "WIMP",
-        "Citations": 34,
+        "Citations": 35,
         "Publications": 0
       }
     ],
@@ -3935,6 +4013,9 @@
   {
     "Category": "Transcriptomics",
     "Tools": [
+      {
+        "Name": "bambu"
+      },
       {
         "Name": "BLAT",
         "Citations": 2305,
@@ -3954,6 +4035,9 @@
       },
       {
         "Name": "FLAIR"
+      },
+      {
+        "Name": "FLAMES"
       },
       {
         "Name": "Gmap",
@@ -4000,6 +4084,9 @@
         "Publications": 1
       },
       {
+        "Name": "LoRTIA"
+      },
+      {
         "Name": "lr2rmats"
       },
       {
@@ -4026,6 +4113,12 @@
         "Name": "NanoASPipe",
         "Citations": 0,
         "Publications": 1
+      },
+      {
+        "Name": "Nanocompore",
+        "Citations": 7,
+        "Publications": 0,
+        "PyPI": "nanocompore"
       },
       {
         "Name": "NanoCount",
@@ -4122,7 +4215,8 @@
       },
       {
         "Name": "TAMA",
-        "Publications": 1
+        "Citations": 4,
+        "Publications": 0
       },
       {
         "Name": "TAPIS",
@@ -4143,6 +4237,9 @@
         "Name": "Traphlor",
         "Citations": 4,
         "Publications": 1
+      },
+      {
+        "Name": "xPore"
       }
     ],
     "Description": "Tools that enable isoform identification, quantification and differntial expression studies"
@@ -4229,11 +4326,14 @@
       },
       {
         "Name": "MinIONQC",
-        "Citations": 24,
+        "Citations": 25,
         "Publications": 1
       },
       {
         "Name": "MinKNOW"
+      },
+      {
+        "Name": "minoTour"
       },
       {
         "Name": "minoTour"
@@ -4342,7 +4442,7 @@
       },
       {
         "Name": "WIMP",
-        "Citations": 34,
+        "Citations": 35,
         "Publications": 0
       }
     ],

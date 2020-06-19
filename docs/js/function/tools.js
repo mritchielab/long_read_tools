@@ -524,6 +524,14 @@ function linkCats(cats) {
         "polyA Length Estimation" +
         "</a>"
       );
+    }else if (cat == "RNAStructure") {
+      linked.push(
+        '<a href="tools.html?cats=' +
+        cat +
+        '">' +
+        "RNA Structure" +
+        "</a>"
+      );
     } else {
       linked.push(
         '<a href="tools.html?cats=' +
