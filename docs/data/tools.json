@@ -864,12 +864,12 @@
           "DOI": "10.1093/bioinformatics/btp698",
           "PubDate": "2010-01-16",
           "Preprint": false,
-          "Citations": [4873]
+          "Citations": [4874]
         }
       ],
       "Preprints": []
     },
-    "Citations": 4873,
+    "Citations": 4874,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2010-01-16"],
@@ -1973,12 +1973,12 @@
           "DOI": "10.1038/nbt.4235",
           "PubDate": "2018-09-24",
           "Preprint": false,
-          "Citations": [103]
+          "Citations": [104]
         }
       ],
       "Preprints": []
     },
-    "Citations": 103,
+    "Citations": 104,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-09-24"],
@@ -2292,12 +2292,12 @@
           "DOI": "10.1038/nmeth.4035",
           "PubDate": "2016-10-17",
           "Preprint": false,
-          "Citations": [577]
+          "Citations": [578]
         }
       ],
       "Preprints": []
     },
-    "Citations": 577,
+    "Citations": 578,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-10-17"],
@@ -6571,6 +6571,26 @@
     "Categories": ["Visualisation", "ProvideSummaryStatistics"]
   },
   {
+    "Name": "nanoSHAPE",
+    "Platform": "Python",
+    "Description": "Direct detection of RNA modifications and structure using single molecule nanopore sequencing",
+    "Code": "https://github.com/physnano/rRNA_nanoSHAPE",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "PubDates": [null],
+    "Github": "physnano/rRNA_nanoSHAPE",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["RNAStructure"]
+  },
+  {
     "Name": "NanoSim",
     "DOIs": "10.1093/gigascience/gix010",
     "Platform": "Python",
@@ -7597,12 +7617,12 @@
           "DOI": "10.1371/journal.pone.0047768",
           "PubDate": "2012-11-21",
           "Preprint": false,
-          "Citations": [534]
+          "Citations": [535]
         }
       ],
       "Preprints": []
     },
-    "Citations": 534,
+    "Citations": 535,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2012-11-21"],
@@ -7885,12 +7905,12 @@
           "DOI": "10.1371/journal.pone.0112963",
           "PubDate": "2014-11-20",
           "Preprint": false,
-          "Citations": [1766]
+          "Citations": [1767]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1766,
+    "Citations": 1767,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-11-20"],
@@ -8554,7 +8574,6 @@
   },
   {
     "Name": "pycoMeth",
-    "DOIs": "10.5281/zenodo.3629254",
     "Platform": "Python",
     "Description": "DNA methylation analysis downstream of Nanopolish for Oxford Nanopore DNA sequencing datasets",
     "Code": "https://github.com/a-slide/pycoMeth",
@@ -8565,19 +8584,10 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [
-        {
-          "DOI": "10.5281/zenodo.3629254",
-          "PubDate": [],
-          "Preprint": false,
-          "Citations": ["NA"]
-        }
-      ],
-      "Preprints": []
+      "Publications": [null],
+      "Preprints": [null]
     },
-    "Publications": 1,
-    "Preprints": 0,
-    "PubDates": ["character(0)"],
+    "PubDates": [null],
     "Github": "a-slide/pycoMeth",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["BaseModificationDetection", "Visualisation", "AnalysisPipelines"]
@@ -9334,26 +9344,6 @@
     "Github": "kkrizanovic/RNAseqEval",
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["EvaluatingExisitingMethods", "QualityChecking", "ProvideSummaryStatistics"]
-  },
-  {
-    "Name": "rRNA_nanoSHAPE",
-    "Platform": "Python",
-    "Description": "Direct detection of RNA modifications and structure using single molecule nanopore sequencing",
-    "Code": "https://github.com/physnano/rRNA_nanoSHAPE",
-    "License": "GNU General Public License v3.0",
-    "OxfordNanopore": true,
-    "PacBio": false,
-    "tenxGenomics": false,
-    "BionanoGenomics": false,
-    "HiC": false,
-    "Refs": {
-      "Publications": [null],
-      "Preprints": [null]
-    },
-    "PubDates": [null],
-    "Github": "physnano/rRNA_nanoSHAPE",
-    "Technologies": ["OxfordNanopore"],
-    "Categories": ["RNAStructure"]
   },
   {
     "Name": "RUBRIC",

@@ -601,6 +601,14 @@ function gearateOptionVals(data, type, callback) {
           "polyA Length Estimation" +
           "</option>"
         );
+      } else if (option == "RNAStructure") {
+        options.push(
+          '<option value="' +
+          option +
+          '">' +
+          "RNA Structure" +
+          "</option>"
+        );
       } else {
         options.push(
           '<option value="' +
