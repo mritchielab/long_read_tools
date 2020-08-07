@@ -44,7 +44,7 @@ source("R/titles.R")
 process_csv <- function(skip_shields = FALSE, skip_cites = FALSE,
                         skip_packages = FALSE, skip_analysis = FALSE) {
 
-    flog.info("***** STARTING PROCESSING *****")
+    flog.info("***** START DATABASE GENERATION *****")
 
     flog.info("***** Loading data ******")
     # Load data
