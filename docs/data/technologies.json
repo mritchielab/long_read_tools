@@ -64,12 +64,12 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 5682,
+        "Citations": 5689,
         "Publications": 1
       },
       {
         "Name": "SPAdes",
-        "Citations": 8183,
+        "Citations": 8199,
         "Publications": 1
       },
       {
@@ -111,7 +111,7 @@
       },
       {
         "Name": "fragScaff",
-        "Citations": 78,
+        "Citations": 79,
         "Publications": 1
       },
       {
@@ -140,7 +140,7 @@
       },
       {
         "Name": "Kraken",
-        "Citations": 1527,
+        "Citations": 1529,
         "Publications": 1
       },
       {
@@ -161,17 +161,17 @@
       },
       {
         "Name": "SALSA",
-        "Citations": 46,
+        "Citations": 47,
         "Publications": 1
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 5682,
+        "Citations": 5689,
         "Publications": 1
       },
       {
         "Name": "SPAdes",
-        "Citations": 8183,
+        "Citations": 8199,
         "Publications": 1
       }
     ]
@@ -179,6 +179,16 @@
   {
     "Technology": "OxfordNanopore",
     "Tools": [
+      {
+        "Name": "2passtools",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "abPOA",
+        "Citations": 0,
+        "Publications": 1
+      },
       {
         "Name": "ABruijn",
         "Citations": 73,
@@ -274,7 +284,7 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 5048,
+        "Citations": 5057,
         "Publications": 1
       },
       {
@@ -282,7 +292,7 @@
       },
       {
         "Name": "Canu",
-        "Citations": 1615,
+        "Citations": 1620,
         "Publications": 1
       },
       {
@@ -302,7 +312,7 @@
       },
       {
         "Name": "Centrifuge",
-        "Citations": 298,
+        "Citations": 299,
         "Publications": 1
       },
       {
@@ -337,7 +347,7 @@
       },
       {
         "Name": "CoLoRMap",
-        "Citations": 28,
+        "Citations": 29,
         "Publications": 1
       },
       {
@@ -357,7 +367,7 @@
       },
       {
         "Name": "D-GENIES",
-        "Citations": 68,
+        "Citations": 69,
         "Publications": 1
       },
       {
@@ -387,7 +397,7 @@
       },
       {
         "Name": "DBG2OLC",
-        "Citations": 120,
+        "Citations": 121,
         "Publications": 1
       },
       {
@@ -450,7 +460,7 @@
       },
       {
         "Name": "Ecoli_assembly_pipeline",
-        "Citations": 527,
+        "Citations": 528,
         "Publications": 1
       },
       {
@@ -512,7 +522,7 @@
       },
       {
         "Name": "FMLRC",
-        "Citations": 21,
+        "Citations": 22,
         "Publications": 1
       },
       {
@@ -525,7 +535,7 @@
       },
       {
         "Name": "Gmap",
-        "Citations": 1096,
+        "Citations": 1097,
         "Publications": 1
       },
       {
@@ -590,7 +600,7 @@
       },
       {
         "Name": "INC-Seq",
-        "Citations": 949,
+        "Citations": 953,
         "Publications": 1
       },
       {
@@ -613,7 +623,7 @@
       },
       {
         "Name": "Kaiju",
-        "Citations": 331,
+        "Citations": 332,
         "Publications": 1
       },
       {
@@ -621,7 +631,7 @@
       },
       {
         "Name": "Kraken",
-        "Citations": 1527,
+        "Citations": 1529,
         "Publications": 1
       },
       {
@@ -632,7 +642,7 @@
       },
       {
         "Name": "LAST",
-        "Citations": 583,
+        "Citations": 585,
         "Publications": 1
       },
       {
@@ -678,7 +688,7 @@
       },
       {
         "Name": "lordFAST",
-        "Citations": 4,
+        "Citations": 5,
         "Publications": 1
       },
       {
@@ -731,7 +741,7 @@
       },
       {
         "Name": "Mandalorion-Episode-II",
-        "Citations": 137,
+        "Citations": 138,
         "Publications": 1
       },
       {
@@ -750,7 +760,7 @@
       },
       {
         "Name": "Mash",
-        "Citations": 592,
+        "Citations": 593,
         "Publications": 1
       },
       {
@@ -834,7 +844,7 @@
       },
       {
         "Name": "miniasm",
-        "Citations": 949,
+        "Citations": 953,
         "Publications": 1
       },
       {
@@ -844,12 +854,12 @@
       },
       {
         "Name": "Minidot",
-        "Citations": 402,
+        "Citations": 403,
         "Publications": 1
       },
       {
         "Name": "minimap2",
-        "Citations": 949,
+        "Citations": 953,
         "Publications": 1
       },
       {
@@ -881,7 +891,7 @@
       },
       {
         "Name": "MultiQC",
-        "Citations": 715,
+        "Citations": 719,
         "Publications": 1,
         "PyPI": "multiqc"
       },
@@ -940,7 +950,7 @@
       },
       {
         "Name": "Nanocorrect",
-        "Citations": 527,
+        "Citations": 528,
         "Publications": 1
       },
       {
@@ -1040,6 +1050,9 @@
         "Name": "nanopore-sv-evaluation",
         "Citations": 1,
         "Publications": 1
+      },
+      {
+        "Name": "Nanopore_methylation_utilities"
       },
       {
         "Name": "Nanopype"
@@ -1217,7 +1230,7 @@
       },
       {
         "Name": "Pilon",
-        "Citations": 1905,
+        "Citations": 1908,
         "Publications": 1
       },
       {
@@ -1338,13 +1351,13 @@
       },
       {
         "Name": "QUAST",
-        "Citations": 2122,
+        "Citations": 2124,
         "Publications": 1,
         "PyPI": "quast"
       },
       {
         "Name": "QUAST-LG",
-        "Citations": 104,
+        "Citations": 107,
         "Publications": 1
       },
       {
@@ -1369,7 +1382,7 @@
       },
       {
         "Name": "Racon",
-        "Citations": 394,
+        "Citations": 397,
         "Publications": 1
       },
       {
@@ -1386,7 +1399,12 @@
         "Publications": 1
       },
       {
-        "Name": "Raven"
+        "Name": "Raven",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "RawMap"
       },
       {
         "Name": "Read-Until",
@@ -1457,7 +1475,7 @@
       },
       {
         "Name": "SDA",
-        "Citations": 39,
+        "Citations": 40,
         "Publications": 1
       },
       {
@@ -1495,12 +1513,12 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 5682,
+        "Citations": 5689,
         "Publications": 1
       },
       {
         "Name": "smartie-sv",
-        "Citations": 102,
+        "Citations": 105,
         "Publications": 1
       },
       {
@@ -1523,7 +1541,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 8183,
+        "Citations": 8199,
         "Publications": 1
       },
       {
@@ -1631,6 +1649,10 @@
         "Publications": 1
       },
       {
+        "Name": "TideHunter",
+        "Publications": 1
+      },
+      {
         "Name": "tigmint",
         "Citations": 13,
         "Publications": 1,
@@ -1665,6 +1687,9 @@
         "Publications": 1
       },
       {
+        "Name": "Trycycler"
+      },
+      {
         "Name": "TULIP",
         "Citations": 58,
         "Publications": 1
@@ -1676,7 +1701,7 @@
       },
       {
         "Name": "Unicycler",
-        "Citations": 933,
+        "Citations": 936,
         "Publications": 1
       },
       {
@@ -1715,6 +1740,16 @@
   {
     "Technology": "PacBio",
     "Tools": [
+      {
+        "Name": "2passtools",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "abPOA",
+        "Citations": 0,
+        "Publications": 1
+      },
       {
         "Name": "ABruijn",
         "Citations": 73,
@@ -1790,7 +1825,7 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 5048,
+        "Citations": 5057,
         "Publications": 1
       },
       {
@@ -1800,7 +1835,7 @@
       },
       {
         "Name": "Canu",
-        "Citations": 1615,
+        "Citations": 1620,
         "Publications": 1
       },
       {
@@ -1808,7 +1843,7 @@
       },
       {
         "Name": "Centrifuge",
-        "Citations": 298,
+        "Citations": 299,
         "Publications": 1
       },
       {
@@ -1839,7 +1874,7 @@
       },
       {
         "Name": "CoLoRMap",
-        "Citations": 28,
+        "Citations": 29,
         "Publications": 1
       },
       {
@@ -1849,7 +1884,7 @@
       },
       {
         "Name": "D-GENIES",
-        "Citations": 68,
+        "Citations": 69,
         "Publications": 1
       },
       {
@@ -1875,7 +1910,7 @@
       },
       {
         "Name": "DBG2OLC",
-        "Citations": 120,
+        "Citations": 121,
         "Publications": 1
       },
       {
@@ -1906,7 +1941,7 @@
       },
       {
         "Name": "Falcon",
-        "Citations": 613,
+        "Citations": 615,
         "Publications": 1
       },
       {
@@ -1947,7 +1982,7 @@
       },
       {
         "Name": "FMLRC",
-        "Citations": 21,
+        "Citations": 22,
         "Publications": 1
       },
       {
@@ -1960,7 +1995,7 @@
       },
       {
         "Name": "Gmap",
-        "Citations": 1096,
+        "Citations": 1097,
         "Publications": 1
       },
       {
@@ -1998,7 +2033,7 @@
       },
       {
         "Name": "HGAP",
-        "Citations": 2331,
+        "Citations": 2335,
         "Publications": 1
       },
       {
@@ -2047,7 +2082,7 @@
       },
       {
         "Name": "Kaiju",
-        "Citations": 331,
+        "Citations": 332,
         "Publications": 1
       },
       {
@@ -2055,7 +2090,7 @@
       },
       {
         "Name": "Kraken",
-        "Citations": 1527,
+        "Citations": 1529,
         "Publications": 1
       },
       {
@@ -2066,7 +2101,7 @@
       },
       {
         "Name": "LAST",
-        "Citations": 583,
+        "Citations": 585,
         "Publications": 1
       },
       {
@@ -2101,12 +2136,12 @@
       },
       {
         "Name": "LoRDEC",
-        "Citations": 240,
+        "Citations": 241,
         "Publications": 1
       },
       {
         "Name": "lordFAST",
-        "Citations": 4,
+        "Citations": 5,
         "Publications": 1
       },
       {
@@ -2179,12 +2214,12 @@
       },
       {
         "Name": "MARVEL",
-        "Citations": 176,
+        "Citations": 177,
         "Publications": 1
       },
       {
         "Name": "Mash",
-        "Citations": 592,
+        "Citations": 593,
         "Publications": 1
       },
       {
@@ -2225,12 +2260,12 @@
       },
       {
         "Name": "miniasm",
-        "Citations": 949,
+        "Citations": 953,
         "Publications": 1
       },
       {
         "Name": "minimap2",
-        "Citations": 949,
+        "Citations": 953,
         "Publications": 1
       },
       {
@@ -2249,7 +2284,7 @@
       },
       {
         "Name": "MultiQC",
-        "Citations": 715,
+        "Citations": 719,
         "Publications": 1,
         "PyPI": "multiqc"
       },
@@ -2340,7 +2375,7 @@
       },
       {
         "Name": "pbdagcon",
-        "Citations": 2331,
+        "Citations": 2335,
         "Publications": 1
       },
       {
@@ -2350,7 +2385,7 @@
       },
       {
         "Name": "PBJelly",
-        "Citations": 551,
+        "Citations": 552,
         "Publications": 1
       },
       {
@@ -2361,7 +2396,7 @@
       },
       {
         "Name": "PBSIM",
-        "Citations": 144,
+        "Citations": 145,
         "Publications": 1
       },
       {
@@ -2390,7 +2425,7 @@
       },
       {
         "Name": "Pilon",
-        "Citations": 1905,
+        "Citations": 1908,
         "Publications": 1
       },
       {
@@ -2417,13 +2452,13 @@
       },
       {
         "Name": "QUAST",
-        "Citations": 2122,
+        "Citations": 2124,
         "Publications": 1,
         "PyPI": "quast"
       },
       {
         "Name": "QUAST-LG",
-        "Citations": 104,
+        "Citations": 107,
         "Publications": 1
       },
       {
@@ -2441,7 +2476,7 @@
       },
       {
         "Name": "Racon",
-        "Citations": 394,
+        "Citations": 397,
         "Publications": 1
       },
       {
@@ -2461,7 +2496,9 @@
         "Publications": 1
       },
       {
-        "Name": "Raven"
+        "Name": "Raven",
+        "Citations": 0,
+        "Publications": 1
       },
       {
         "Name": "ReadSim"
@@ -2506,7 +2543,7 @@
       },
       {
         "Name": "SDA",
-        "Citations": 39,
+        "Citations": 40,
         "Publications": 1
       },
       {
@@ -2540,12 +2577,12 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 5682,
+        "Citations": 5689,
         "Publications": 1
       },
       {
         "Name": "smartie-sv",
-        "Citations": 102,
+        "Citations": 105,
         "Publications": 1
       },
       {
@@ -2573,7 +2610,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 8183,
+        "Citations": 8199,
         "Publications": 1
       },
       {
@@ -2651,12 +2688,16 @@
       },
       {
         "Name": "TAPIS",
-        "Citations": 180,
+        "Citations": 181,
         "Publications": 1
       },
       {
         "Name": "tappAS",
         "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "TideHunter",
         "Publications": 1
       },
       {
@@ -2690,6 +2731,9 @@
         "Name": "Traphlor",
         "Citations": 4,
         "Publications": 1
+      },
+      {
+        "Name": "Trycycler"
       },
       {
         "Name": "TSD",
@@ -2743,7 +2787,7 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 5048,
+        "Citations": 5057,
         "Publications": 1
       },
       {
@@ -2767,7 +2811,7 @@
       },
       {
         "Name": "fragScaff",
-        "Citations": 78,
+        "Citations": 79,
         "Publications": 1
       },
       {
@@ -2785,7 +2829,7 @@
       },
       {
         "Name": "Kraken",
-        "Citations": 1527,
+        "Citations": 1529,
         "Publications": 1
       },
       {
@@ -2817,12 +2861,12 @@
       },
       {
         "Name": "SMARTdenovo",
-        "Citations": 5682,
+        "Citations": 5689,
         "Publications": 1
       },
       {
         "Name": "SPAdes",
-        "Citations": 8183,
+        "Citations": 8199,
         "Publications": 1
       },
       {
