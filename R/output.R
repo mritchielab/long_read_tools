@@ -106,6 +106,40 @@ make_techs_json <- function(tidysw_tech, swsheet, descs) {
 }
 
 
+#' Make benchmarks JSON
+#'
+#' Create benchmarks JSON
+#'
+#' @param benchmark .csv file containing containing benchmark information
+
+make_benchmark_json <- function(){
+  futile.logger::flog.info("Creating benchmarks page info...")
+  
+  bmsheet <- readr::read_csv("benchmark_studies.csv",
+                             col_types = readr::cols(
+                               Title     = readr::col_character(),
+                               Authors   = readr::col_character(),
+                               Year      = readr::col_character(),
+                               Journal   = readr::col_character(),
+                               Issue     = readr::col_character(),
+                               Volume    = readr::col_character(),
+                               Abstract  = readr::col_character(),
+                               doi       = readr::col_character(),
+                               Technology = readr::col_character(),
+                               Categories = readr::col_character(),
+                               ToolsCompared = readr::col_character(),
+                               BenchmarkData = readr::col_character(),
+                               Recommendations = readr::col_character() 
+                               ))
+  
+  table <- jsonlite::toJSON(bmsheet, pretty = TRUE)
+  
+  futile.logger::flog.info("Writing 'benchmarks.json'...")
+  
+  
+  readr::write_lines(table, "docs/data/benchmarks.json")
+}
+
 #' Write footer
 #'
 #' Write a HTML footer to use on website pages
