@@ -69,7 +69,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 8733,
+        "Citations": 8743,
         "Publications": 1
       },
       {
@@ -176,7 +176,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 8733,
+        "Citations": 8743,
         "Publications": 1
       }
     ]
@@ -268,7 +268,7 @@
       },
       {
         "Name": "BLAT",
-        "Citations": 2461,
+        "Citations": 2462,
         "Publications": 1
       },
       {
@@ -279,7 +279,7 @@
       },
       {
         "Name": "BulkVis",
-        "Citations": 47,
+        "Citations": 48,
         "Publications": 1
       },
       {
@@ -289,7 +289,7 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 5266,
+        "Citations": 5267,
         "Publications": 1
       },
       {
@@ -297,7 +297,7 @@
       },
       {
         "Name": "Canu",
-        "Citations": 1800,
+        "Citations": 1805,
         "Publications": 1
       },
       {
@@ -317,8 +317,13 @@
       },
       {
         "Name": "Centrifuge",
-        "Citations": 334,
+        "Citations": 337,
         "Publications": 1
+      },
+      {
+        "Name": "centroFlye",
+        "Citations": 5,
+        "Publications": 0
       },
       {
         "Name": "centroFlye",
@@ -403,7 +408,7 @@
       },
       {
         "Name": "davidcoffey-MinION",
-        "Citations": 114,
+        "Citations": 116,
         "Publications": 1
       },
       {
@@ -564,6 +569,10 @@
         "Publications": 1
       },
       {
+        "Name": "GraphAligner",
+        "Publications": 0
+      },
+      {
         "Name": "GraphMap",
         "Citations": 201,
         "Publications": 1
@@ -625,7 +634,7 @@
       },
       {
         "Name": "INC-Seq",
-        "Citations": 1163,
+        "Citations": 1167,
         "Publications": 1
       },
       {
@@ -649,16 +658,11 @@
         "Publications": 1
       },
       {
-        "Name": "IsoSplitter",
-        "Citations": 0,
-        "Publications": 1
-      },
-      {
         "Name": "Japsa"
       },
       {
         "Name": "Kaiju",
-        "Citations": 379,
+        "Citations": 381,
         "Publications": 1
       },
       {
@@ -803,7 +807,7 @@
       },
       {
         "Name": "Mash",
-        "Citations": 650,
+        "Citations": 651,
         "Publications": 1
       },
       {
@@ -892,7 +896,7 @@
       },
       {
         "Name": "miniasm",
-        "Citations": 1163,
+        "Citations": 1167,
         "Publications": 1
       },
       {
@@ -902,12 +906,12 @@
       },
       {
         "Name": "Minidot",
-        "Citations": 445,
+        "Citations": 446,
         "Publications": 1
       },
       {
         "Name": "minimap2",
-        "Citations": 1163,
+        "Citations": 1167,
         "Publications": 1
       },
       {
@@ -935,6 +939,11 @@
       {
         "Name": "MiRCA",
         "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "mosaicFlye",
+        "Citations": 1,
         "Publications": 1
       },
       {
@@ -986,7 +995,7 @@
       },
       {
         "Name": "NanoComp",
-        "Citations": 243,
+        "Citations": 244,
         "Publications": 1,
         "PyPI": "NanoComp"
       },
@@ -1027,7 +1036,7 @@
       },
       {
         "Name": "NanoFilt",
-        "Citations": 243,
+        "Citations": 244,
         "Publications": 1,
         "PyPI": "NanoFilt"
       },
@@ -1070,7 +1079,7 @@
       },
       {
         "Name": "NanoPack",
-        "Citations": 243,
+        "Citations": 244,
         "Publications": 1,
         "PyPI": "nanopack"
       },
@@ -1079,7 +1088,7 @@
       },
       {
         "Name": "NanoPlot",
-        "Citations": 243,
+        "Citations": 244,
         "Publications": 1,
         "PyPI": "NanoPlot"
       },
@@ -1106,7 +1115,7 @@
       },
       {
         "Name": "nanopore-sv-evaluation",
-        "Citations": 3,
+        "Citations": 4,
         "Publications": 1
       },
       {
@@ -1167,7 +1176,7 @@
       },
       {
         "Name": "NanoSV",
-        "Citations": 114,
+        "Citations": 116,
         "Publications": 1,
         "PyPI": "NanoSV"
       },
@@ -1176,7 +1185,7 @@
       },
       {
         "Name": "NanoVar",
-        "Citations": 1,
+        "Citations": 2,
         "Publications": 1,
         "PyPI": "nanovar"
       },
@@ -1205,7 +1214,7 @@
       },
       {
         "Name": "npAnalysis",
-        "Citations": 48,
+        "Citations": 49,
         "Publications": 1
       },
       {
@@ -1293,7 +1302,7 @@
       },
       {
         "Name": "Pilon",
-        "Citations": 2104,
+        "Citations": 2109,
         "Publications": 1
       },
       {
@@ -1322,7 +1331,7 @@
       },
       {
         "Name": "poRe",
-        "Citations": 67,
+        "Citations": 68,
         "Publications": 1
       },
       {
@@ -1414,7 +1423,7 @@
       },
       {
         "Name": "QUAST",
-        "Citations": 2313,
+        "Citations": 2317,
         "Publications": 1,
         "PyPI": "quast"
       },
@@ -1430,7 +1439,7 @@
       },
       {
         "Name": "R_poRe",
-        "Citations": 67,
+        "Citations": 68,
         "Publications": 1
       },
       {
@@ -1450,7 +1459,7 @@
       },
       {
         "Name": "Racon",
-        "Citations": 458,
+        "Citations": 459,
         "Publications": 1
       },
       {
@@ -1481,7 +1490,7 @@
       },
       {
         "Name": "Read-Until",
-        "Citations": 98,
+        "Citations": 99,
         "Publications": 1
       },
       {
@@ -1617,7 +1626,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 8733,
+        "Citations": 8743,
         "Publications": 1
       },
       {
@@ -1670,7 +1679,7 @@
       },
       {
         "Name": "SVIM",
-        "Citations": 24,
+        "Citations": 25,
         "Publications": 1,
         "PyPI": "svim"
       },
@@ -1723,6 +1732,11 @@
         "Name": "tandem-genotypes",
         "Citations": 1,
         "Publications": 0
+      },
+      {
+        "Name": "TandemTools",
+        "Citations": 4,
+        "Publications": 1
       },
       {
         "Name": "tappAS",
@@ -1803,7 +1817,7 @@
       },
       {
         "Name": "Unicycler",
-        "Citations": 1077,
+        "Citations": 1082,
         "Publications": 1
       },
       {
@@ -1826,12 +1840,17 @@
       },
       {
         "Name": "WIMP",
-        "Citations": 43,
+        "Citations": 44,
         "Publications": 0
       },
       {
+        "Name": "Winnowmap",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
         "Name": "wtdbg2",
-        "Citations": 154,
+        "Citations": 155,
         "Publications": 1
       },
       {
@@ -1930,7 +1949,7 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 5266,
+        "Citations": 5267,
         "Publications": 1
       },
       {
@@ -1940,7 +1959,7 @@
       },
       {
         "Name": "Canu",
-        "Citations": 1800,
+        "Citations": 1805,
         "Publications": 1
       },
       {
@@ -1948,8 +1967,18 @@
       },
       {
         "Name": "Centrifuge",
-        "Citations": 334,
+        "Citations": 337,
         "Publications": 1
+      },
+      {
+        "Name": "centroFlye",
+        "Citations": 5,
+        "Publications": 0
+      },
+      {
+        "Name": "centroFlye",
+        "Citations": 5,
+        "Publications": 0
       },
       {
         "Name": "Cerulean"
@@ -2055,7 +2084,7 @@
       },
       {
         "Name": "Falcon",
-        "Citations": 662,
+        "Citations": 663,
         "Publications": 1
       },
       {
@@ -2063,7 +2092,7 @@
       },
       {
         "Name": "FALCON-sense",
-        "Citations": 662,
+        "Citations": 663,
         "Publications": 1
       },
       {
@@ -2125,6 +2154,10 @@
         "Publications": 1
       },
       {
+        "Name": "GraphAligner",
+        "Publications": 0
+      },
+      {
         "Name": "GraphMap",
         "Citations": 201,
         "Publications": 1
@@ -2164,7 +2197,7 @@
       },
       {
         "Name": "HGAP",
-        "Citations": 2421,
+        "Citations": 2423,
         "Publications": 1
       },
       {
@@ -2221,18 +2254,13 @@
         "Publications": 1
       },
       {
-        "Name": "IsoSplitter",
-        "Citations": 0,
-        "Publications": 1
-      },
-      {
         "Name": "Jabba",
         "Citations": 39,
         "Publications": 1
       },
       {
         "Name": "Kaiju",
-        "Citations": 379,
+        "Citations": 381,
         "Publications": 1
       },
       {
@@ -2374,7 +2402,7 @@
       },
       {
         "Name": "Mash",
-        "Citations": 650,
+        "Citations": 651,
         "Publications": 1
       },
       {
@@ -2415,16 +2443,21 @@
       },
       {
         "Name": "miniasm",
-        "Citations": 1163,
+        "Citations": 1167,
         "Publications": 1
       },
       {
         "Name": "minimap2",
-        "Citations": 1163,
+        "Citations": 1167,
         "Publications": 1
       },
       {
         "Name": "minorseq"
+      },
+      {
+        "Name": "mosaicFlye",
+        "Citations": 1,
+        "Publications": 1
       },
       {
         "Name": "MotifFinder"
@@ -2445,19 +2478,19 @@
       },
       {
         "Name": "NanoPack",
-        "Citations": 243,
+        "Citations": 244,
         "Publications": 1,
         "PyPI": "nanopack"
       },
       {
         "Name": "NanoPlot",
-        "Citations": 243,
+        "Citations": 244,
         "Publications": 1,
         "PyPI": "NanoPlot"
       },
       {
         "Name": "NanoSV",
-        "Citations": 114,
+        "Citations": 116,
         "Publications": 1,
         "PyPI": "NanoSV"
       },
@@ -2535,17 +2568,17 @@
       },
       {
         "Name": "pbdagcon",
-        "Citations": 2421,
+        "Citations": 2423,
         "Publications": 1
       },
       {
         "Name": "PBHoney",
-        "Citations": 81,
+        "Citations": 82,
         "Publications": 1
       },
       {
         "Name": "PBJelly",
-        "Citations": 569,
+        "Citations": 570,
         "Publications": 1
       },
       {
@@ -2585,7 +2618,7 @@
       },
       {
         "Name": "Pilon",
-        "Citations": 2104,
+        "Citations": 2109,
         "Publications": 1
       },
       {
@@ -2612,7 +2645,7 @@
       },
       {
         "Name": "QUAST",
-        "Citations": 2313,
+        "Citations": 2317,
         "Publications": 1,
         "PyPI": "quast"
       },
@@ -2641,7 +2674,7 @@
       },
       {
         "Name": "Racon",
-        "Citations": 458,
+        "Citations": 459,
         "Publications": 1
       },
       {
@@ -2775,7 +2808,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 8733,
+        "Citations": 8743,
         "Publications": 1
       },
       {
@@ -2814,7 +2847,7 @@
       },
       {
         "Name": "SVIM",
-        "Citations": 24,
+        "Citations": 25,
         "Publications": 1,
         "PyPI": "svim"
       },
@@ -2855,6 +2888,11 @@
         "Name": "tandem-genotypes",
         "Citations": 1,
         "Publications": 0
+      },
+      {
+        "Name": "TandemTools",
+        "Citations": 4,
+        "Publications": 1
       },
       {
         "Name": "TAPIS",
@@ -2902,7 +2940,7 @@
       },
       {
         "Name": "ToFU",
-        "Citations": 107,
+        "Citations": 108,
         "Publications": 1
       },
       {
@@ -2943,8 +2981,13 @@
         "Name": "WHdenovo"
       },
       {
+        "Name": "Winnowmap",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
         "Name": "wtdbg2",
-        "Citations": 154,
+        "Citations": 155,
         "Publications": 1
       }
     ]
@@ -2973,7 +3016,7 @@
       },
       {
         "Name": "bwa-sw",
-        "Citations": 5266,
+        "Citations": 5267,
         "Publications": 1
       },
       {
@@ -3057,7 +3100,7 @@
       },
       {
         "Name": "SPAdes",
-        "Citations": 8733,
+        "Citations": 8743,
         "Publications": 1
       },
       {
