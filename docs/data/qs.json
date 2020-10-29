@@ -12,10 +12,8 @@
 				],
 				ref:[
                        {
-                            refName: "",
-                            ...,
-                            ...,
-                            ...
+                            refName: https://github.com/jts/nanopolish,
+                            https://nanopolish.readthedocs.io/en/latest/
                         },
                         {
                             ...,
@@ -43,53 +41,6 @@
                     }
                 ]
             },
-            {
-                wfName:"dd",
-                description: "dsff",
-                ref:[
-                        {
-                            refName: "",
-                            ...,
-                            ...,
-                            ...
-                        },
-                        {
-                            ...,
-                            ...,
-                            ...
-                        }
-                ],
-
-                categories: [
-                    {
-                        category: "cat 1",
-                        best_tool: "tool 1"
-                    },
-                    {
-                        category: "cat 2",
-                        best_tool: "tool 5"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        technology:"tec 2",
-        categories: [
-            {
-                category: "cat 1",
-                best_tool: "tool 1"
-            }
-        ]
-    },
-    {
-        technology:"tec 3",
-        categories: [
-            {
-                category: "cat 1",
-                best_tool: "tool 1"
-               
-            }
         ]
     }
 ]

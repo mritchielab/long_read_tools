@@ -1,7 +1,7 @@
 [
   {
     "Title": "Assembly methods for nanopore-based metagenomic sequencing: a comparative study",
-    "Authors": "Adriel Latorre-P?rez, Pascual Villalba-Bermell, Javier Pascual, Cristina Vilanova",
+    "Authors": "Adriel Latorre-Prez, Pascual Villalba-Bermell, Javier Pascual, Cristina Vilanova",
     "Year": "2020",
     "Journal": "Scientific Reports",
     "Issue": "10",
@@ -21,13 +21,13 @@
     "Journal": "f1000Research",
     "Issue": "8",
     "Volume": "2138",
-    "Abstract": "Background: Data sets from long-read sequencing platforms (Oxford Nanopore Technologies and Pacific Biosciences) allow for most prokaryote genomes to be completely assembled – one contig per chromosome or plasmid. However, the high per-read error rate of long-read sequencing necessitates different approaches to assembly than those used for short-read sequencing. Multiple assembly tools (assemblers) exist, which use a variety of algorithms for long-read assembly. Methods: We used 500 simulated read sets and 120 real read sets to assess the performance of eight long-read assemblers (Canu, Flye, Miniasm/Minipolish, NECAT, NextDenovo/NextPolish, Raven, Redbean and Shasta) across a wide variety of genomes and read parameters. Assemblies were assessed on their structural accuracy/completeness, sequence identity, contig circularisation and computational resources used. Results: Canu v2.0 produced reliable assemblies and was good with plasmids, but it performed poorly with circularisation and had the longest runtimes of all assemblers tested. Flye v2.8 was also reliable and made the smallest sequence errors, though it used the most RAM. Miniasm/Minipolish v0.3/v0.1.3 was the most likely to produce clean contig circularisation. NECAT v20200119 was reliable and good at circularisation but tended to make larger sequence errors. NextDenovo/NextPolish v2.3.0/v1.2.4 was reliable with chromosome assembly but bad with plasmid assembly. Raven v1.1.10 was the most reliable for chromosome assembly, though it did not perform well on small plasmids and had circularisation issues. Redbean v2.5 and Shasta v0.5.1 were computationally efficient but more likely to produce incomplete assemblies. Conclusions: Of the assemblers tested, Flye, Miniasm/Minipolish and Raven performed best overall. However, no single tool performed well on all metrics, highlighting the need for continued development on long-read assembly algorithms.",
+    "Abstract": "Background: Data sets from long-read sequencing platforms (Oxford Nanopore Technologies and Pacific Biosciences) allow for most prokaryote genomes to be completely assembled - one contig per chromosome or plasmid. However, the high per-read error rate of long-read sequencing necessitates different approaches to assembly than those used for short-read sequencing. Multiple assembly tools (assemblers) exist, which use a variety of algorithms for long-read assembly. Methods: We used 500 simulated read sets and 120 real read sets to assess the performance of eight long-read assemblers (Canu, Flye, Miniasm/Minipolish, NECAT, NextDenovo/NextPolish, Raven, Redbean and Shasta) across a wide variety of genomes and read parameters. Assemblies were assessed on their structural accuracy/completeness, sequence identity, contig circularisation and computational resources used. Results: Canu v2.0 produced reliable assemblies and was good with plasmids, but it performed poorly with circularisation and had the longest runtimes of all assemblers tested. Flye v2.8 was also reliable and made the smallest sequence errors, though it used the most RAM. Miniasm/Minipolish v0.3/v0.1.3 was the most likely to produce clean contig circularisation. NECAT v20200119 was reliable and good at circularisation but tended to make larger sequence errors. NextDenovo/NextPolish v2.3.0/v1.2.4 was reliable with chromosome assembly but bad with plasmid assembly. Raven v1.1.10 was the most reliable for chromosome assembly, though it did not perform well on small plasmids and had circularisation issues. Redbean v2.5 and Shasta v0.5.1 were computationally efficient but more likely to produce incomplete assemblies. Conclusions: Of the assemblers tested, Flye, Miniasm/Minipolish and Raven performed best overall. However, no single tool performed well on all metrics, highlighting the need for continued development on long-read assembly algorithms.",
     "doi": "https://doi.org/10.12688/f1000research.21782.3",
     "Technology": "Oxford Nanopore, Pacific Biosciences",
     "Categories": "DenovoAssembly",
     "ToolsCompared": "Canu, Flye, MiniasmMinipolish, NECAT, NextDenovo/NextPolish, Raven, Redbean and Shasta",
-    "BenchmarkData": "500 simulated read sets and 120 real read sets of microbial genomes",
-    "Recommendations": " Flye, Miniasm/Minipolish and Raven performed best overall. Yet there was no individual tool that could perform well on all metrics. Therefore, continued development on long-read assembly algorithms is still needed."
+    "BenchmarkData": "500 simulated read sets and 120 real read sets of microbial genomes",
+    "Recommendations": "Flye, Miniasm/Minipolish and Raven performed best overall. Yet there was no individual tool that could perform well on all metrics. Therefore, continued development on long-read assembly algorithms is still needed."
   },
   {
     "Title": "Benchmarking variant callers in next-generation and third-generation sequencing analysis",
@@ -56,5 +56,18 @@
     "ToolsCompared": "Nanopolish, Tombo, DeepSignal, Megalodon, Guppy, DeepMod",
     "BenchmarkData": "Nanopore sequencing fast5 files of individual reads, controlled methylation mixtures, Cas9-targeted sequencing, and whole genome bisulfite sequencing",
     "Recommendations": "In general, the tested tools present a trade-off between true positives and false positives, and a high dispersion in the prediction of methylation frequencies. We propose various strategies to improve detection accuracy, including a novel consensus method, METEORE (https://github.com/comprna/METEORE), that combines the outputs from two or more tools"
+  },
+  {
+    "Title": "Benchmarking small variant detection with ONT reveals high performance in challenging regions",
+    "Authors": "Peter L. Møller , Guillaume Holley , Doruk Beyter , Mette Nyegaard, Bjarni V. Halldórsson",
+    "Year": "2020",
+    "Journal": "bioRxiv",
+    "Abstract": "Background: The development of long read sequencing (LRS) has led to greater access to the human genome. LRS produces long read lengths at the cost of high error rates and has shown to be more useful in calling structural variants than short read sequencing (SRS) data. In this paper we evaluate how to use LRS data from Oxford Nanopore Technologies (ONT) to call small variants in regions in- and outside the reach of SRS. Results: Calling single nucleotide polymorphisms (SNPs) with ONT data has comparable accuracy to Illumina when evaluating against the Genome in a Bottle truth set v4.2. In the major histocompatibility complex (MHC) and regions where mapping short reads is difficult, the F-measure of ONT calls exceeds those of short reads by 2-4% when sequence coverage is 20X or greater. We develop recommendations for how to perform small variant calling with LRS data and improve current approaches to the difficult regions by re-genotyping variants to increase the F-measure from 97.24% to 98.78%. Furthermore, we show how LRS can call variants in genomic regions inaccessible to SRS, including medically relevant genes such as STRC and CFC1B. Conclusions: Although small variant calling in LRS data is still immature, current methods are clearly useful in difficult and inaccessible regions of the genome, enabling variant calling in medically relevant genes not accessible to SRS.",
+    "doi": "https://doi.org/10.1101/2020.10.22.350009",
+    "Technology": "Oxford Nanopore, Illumina",
+    "Categories": "SNPAndVariantAnalysis",
+    "ToolsCompared": "Clair, Medaka, PEPPER",
+    "BenchmarkData": "GRCh38 aligned Illumina BAM files from the Ashkenazim trio (HG002, HG003, HG004), ONT and PacBio HiFi FASTQ files were downloaded and aligned to GRCh38",
+    "Recommendations": "In the challenging regions of the genome, ONT outperforms short read sequensing in SNP calling such as the MHC. P.E.P.P.E.R is identified as the best caller."
   }
 ]

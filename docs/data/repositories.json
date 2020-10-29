@@ -375,7 +375,8 @@
     "Ignored": ["PyPI/swan"]
   },
   "bambu": {
-    "Ignored": ["PyPI/bambu"]
+    "Ignored": ["PyPI/bambu"],
+    "BioC": ["bambu"]
   },
   "FLAMES": {
     "Ignored": ["PyPI/flames"]
@@ -406,5 +407,8 @@
   },
   "Read-Until": {
     "Ignored": ["PyPI/read-until"]
+  },
+  "NanoMethViz": {
+    "BioC": ["NanoMethViz"]
   }
 }
