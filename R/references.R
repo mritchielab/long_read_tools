@@ -7,6 +7,12 @@
 #' @param skip_cites Logical. Whether to skip getting citations from Crossref.
 #'
 #' @return swsheet with additional columns
+get_recent_cite <- function(doi){
+  cites <- citecorp::oc_coci_cites(doi)
+  yearcite <- stringr::str_extract(cites$timespan, 'P.Y') %>% stringr::str_remove_all('[PY]') %>% as.numeric()
+  sum(yearcite <=5)
+}
+
 add_refs <- function(swsheet, titles_cache, skip_cites) {
 
     `%>%` <- magrittr::`%>%`
@@ -42,8 +48,10 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
 
                 return(cite)
             })
+            recent_cites <- sapply(dois, get_recent_cite)
         } else {
             cites <- rep(NA, length(dois))
+            recent_cites <- rep(NA, length(dois))
         }
 
         dates <- sapply(dois, function(doi) {
