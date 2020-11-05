@@ -7,10 +7,12 @@
 #' @param skip_cites Logical. Whether to skip getting citations from Crossref.
 #'
 #' @return swsheet with additional columns
+#
+#function to get number of citations in the past year.
 get_recent_cite <- function(doi){
   cites <- citecorp::oc_coci_cites(doi)
   yearcite <- stringr::str_extract(cites$timespan, 'P.Y') %>% stringr::str_remove_all('[PY]') %>% as.numeric()
-  sum(yearcite <=5)
+  sum(yearcite <=1)
 }
 
 add_refs <- function(swsheet, titles_cache, skip_cites) {
@@ -48,7 +50,13 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
 
                 return(cite)
             })
-            recent_cites <- sapply(dois, get_recent_cite)
+            #now get citation counts from the last year only, from citecorp
+            recent_cites <- sapply(dois, function(doi){
+              recent_cite <- tryCatch({get_recent_cite(doi)}, error = function(e){NA})
+              Sys.sleep(sample(seq(0, 1, 0.1), 1))
+              return(recent_cite)
+            })
+
         } else {
             cites <- rep(NA, length(dois))
             recent_cites <- rep(NA, length(dois))
@@ -67,7 +75,8 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
                                                                             paste("10.7287/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),
                                                                             paste("10.21203/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),
                                                                             "arxiv"), collapse ="|")),
-                              Citations = cites[2,])
+                              Citations = cites[2,],
+                              Recent_Citations = recent_cites[2,])
     })
 
     pre_list <- purrr::map_if(ref_list, !is.na(ref_list),
