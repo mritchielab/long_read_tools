@@ -6,6 +6,29 @@
 #' @param pkgs List of available packages
 #'
 #' @return list with repo information
+
+#function to get language from GitHub
+get_language <- function(repo){
+  languages <- gh(paste0('GET /repos/',repo,'/languages'))
+  lang_df <- tibble(language = names(languages), codecount = unlist(languages))
+  lang_df$pct <- lang_df$codecount/sum(lang_df$codecount)
+  lang_df <- arrange(lang_df, desc(pct)) #order by most important
+  #report languages over 10%
+  languages_to_report <- paste(subset(lang_df, pct >=0.1)$language,  collapse =', ')
+  #remove TeX when it's in the languages
+  languages_to_report <- str_replace(languages_to_report, 'TeX, ', '')
+  #main_language <- arrange(lang_df, desc(pct))$language[1]
+
+  return(languages_to_report)
+}
+
+#try to get the license automatically from GitHub repo
+get_license <- function(repo){
+  license <- gh(paste0('GET /repos/',repo,'/license'))[['license']]$name
+  return(license)
+}
+
+
 check_repos <- function(names, pkgs) {
   
   futile.logger::flog.info("Checking repositories...")
@@ -82,12 +105,22 @@ add_github <- function(swsheet) {
   
   futile.logger::flog.info("Adding Github...")
   
-  swsheet %>%
+  swsheet <- swsheet %>%
     dplyr::mutate(Github = ifelse(stringr::str_detect(Code, "github"),
                                   stringr::str_replace(Code,
                                                        "https://github.com/",
                                                        ""),
                                   NA))
+  #add languages and license, if from GitHub
+  #first try the autoretrieval
+  swsheet <- swsheet %>% 
+    dplyr::mutate(Platform_auto = ifelse(!is.na(Github), get_language(Github),NA),
+      License_auto = ifelse(!is.na(Github),get_license(Github), NA))
+  #then compare with what was submitted. If the auto gives values, replace. Grab indices for which there is auto data
+  idx_p <- !is.na(swsheet$Platform_auto)
+  swsheet$Platform[idx_p] <- swsheet$Platform_auto[idx_p]
+  idx_l <- !(swsheet$License_auto %in% c(NA, 'Other'))
+  swsheet$License[idx_l] <- swsheet$License_auto[idx_l]
 }
 
 
