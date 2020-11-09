@@ -8,26 +8,38 @@
 #' @return list with repo information
 
 #function to get language from GitHub
-get_language <- function(repo){
-  languages <- gh(paste0('GET /repos/',repo,'/languages'))
-  lang_df <- tibble(language = names(languages), codecount = unlist(languages))
-  lang_df$pct <- lang_df$codecount/sum(lang_df$codecount)
-  lang_df <- arrange(lang_df, desc(pct)) #order by most important
-  #report languages over 10%
-  languages_to_report <- paste(subset(lang_df, pct >=0.1)$language,  collapse =', ')
-  #remove TeX when it's in the languages
-  languages_to_report <- str_replace(languages_to_report, 'TeX, ', '')
-  #main_language <- arrange(lang_df, desc(pct))$language[1]
 
-  return(languages_to_report)
+#I need to generate a personal token to get sufficient API requests
+token <-  '9a5dd566923b6baa2387a17dd07aed98f74c269a'
+
+get_language <- function(repo){
+  if (!is.na(repo)){
+    languages <- gh(paste0('GET /repos/',repo,'/languages'), .token = token)
+      lang_df <- tibble(language = names(languages), codecount = unlist(languages))
+      #remove Tex, HTML when it's in the languages. Change Jupyter Notebook to Python. 
+      lang_df <- subset(lang_df, !language %in% c('TeX','HTML','Makefile','Roff','Dockerfile'))
+      #If Jupyter Notebook, change to Python.
+      lang_df[lang_df$language=='Python','codecount'] <- sum(subset(lang_df, language %in% c('Python','Jupyter Notebook'))$codecount)
+      lang_df <- subset(lang_df, !language %in% c('Jupyter Notebook'))
+      #now calculate percentages
+      lang_df$pct <- lang_df$codecount/sum(lang_df$codecount)
+      lang_df <- arrange(lang_df, desc(pct)) #order by most important
+      #report languages over 10%
+      languages_to_report <- paste(subset(lang_df, pct >=0.1)$language,  collapse =', ')
+    }
+    else languages_to_report <- NA
+
+      return(languages_to_report)
 }
 
 #try to get the license automatically from GitHub repo
 get_license <- function(repo){
-  license <- gh(paste0('GET /repos/',repo,'/license'))[['license']]$name
+  if (!is.na(repo)){
+    license <- gh(paste0('GET /repos/',repo,'/license'), .token = token)[['license']]$name
+  }
+  else license <- NA
   return(license)
 }
-
 
 check_repos <- function(names, pkgs) {
   
@@ -113,9 +125,9 @@ add_github <- function(swsheet) {
                                   NA))
   #add languages and license, if from GitHub
   #first try the autoretrieval
-  swsheet <- swsheet %>% 
-    dplyr::mutate(Platform_auto = ifelse(!is.na(Github), get_language(Github),NA),
-      License_auto = ifelse(!is.na(Github),get_license(Github), NA))
+  swsheet$Platform_auto <- sapply(swsheet$Github, function(repo){tryCatch(get_language(repo), error = function(e){NA})})
+  swsheet$License_auto <- sapply(swsheet$Github, function(repo){tryCatch(get_license(repo), error = function(e){NA})})
+
   #then compare with what was submitted. If the auto gives values, replace. Grab indices for which there is auto data
   idx_p <- !is.na(swsheet$Platform_auto)
   swsheet$Platform[idx_p] <- swsheet$Platform_auto[idx_p]
