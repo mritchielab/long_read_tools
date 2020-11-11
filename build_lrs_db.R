@@ -108,6 +108,9 @@ process_csv <- function(skip_shields = FALSE, skip_cites = FALSE,
     
     # generate benchmark tab JSON
     make_benchmark_json()
+    
+    # geerating the quick-start workflow JSON
+    make_qs_json()
 
     flog.info("***** Performing analysis *****")
     if (!skip_analysis) {

@@ -92,7 +92,7 @@ hr {
 	font-weight: 400;
 	padding: 8px 2px;
 	border-radius: 0;
-	margin: 9px 20px 0 20px;
+	margin: 9px 5px 0 5px;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
@@ -745,4 +745,24 @@ table thead {
     font-size: 60px;
     padding: 25px 0px 26px 0px;
 }
+}
+
+
+
+.view-more{
+	cursor: pointer;
+}
+
+.fix-height{
+	height: 40px;
+	overflow: hidden;
+	transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}
+.height-auto {
+    height: auto;
+}
+.subtitlte-note {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-style: italic;
 }

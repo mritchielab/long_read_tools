@@ -140,6 +140,22 @@ make_benchmark_json <- function(){
   readr::write_lines(table, "docs/data/benchmarks.json")
 }
 
+#' Make quick-start JSON
+#'
+#' Create qs JSON
+#'
+#' @param qs .csv file containing containing workflow information
+
+make_qs_json <- function(){
+  futile.logger::flog.info("Creating quick-start workflow page info...")
+  
+  # currently the JSON file is manually created.
+  # this function is NULL untill it is automated
+  
+  futile.logger::flog.info("Writing 'quick-start.json'...")
+}
+
+
 #' Write footer
 #'
 #' Write a HTML footer to use on website pages

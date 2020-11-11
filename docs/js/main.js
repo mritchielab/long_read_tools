@@ -46,13 +46,13 @@ function main() {
 }
 main();
 $(document).ready(function () {
-  
+
   // $(document).ready(function() {
- 
-    // $(".owl-carousel").owlCarousel();
-   
+
+  // $(".owl-carousel").owlCarousel();
+
   // });
-  
+
   $("#menu").load("menubar.html")
   $("#footer").load("footer.html")
 
@@ -64,3 +64,57 @@ $(document).ready(function () {
     $(this).siblings('.panel-heading').removeClass('active');
   });
 });
+
+function genareteUserFriendlyNames(name) {
+  if (name == "SNPAndVariantAnalysis") {
+    return "SNP And Variant Analysis"
+  }
+  else if (name == "polyALengthEstimation") {
+    return "polyA Length Estimation"
+  }
+  else if (name == "HiC") {
+    return "Hi-C"
+  }
+  else if (name == "BionanoGenomics") {
+    return "Bionano Genomics"
+  }
+  else if (name == "tenxGenomics") {
+    return "10X Genomics"
+  }
+  else {
+    return name.replace(/([a-z])([A-Z])/g, "$1 $2")
+  }
+}
+
+
+function checkUndefine(value) {
+  if (typeof value == 'undefined'  || value=="") {
+    return "";
+  } else {
+    return value
+  }
+}
+
+
+function getTitleByValue(title,value) {
+  if (typeof value == 'undefined' || value=="") {
+    return "";
+  } else {
+    return title
+  }
+}
+
+function createSortString(string) {
+  return string.toLowerCase().replace(/-/g, "").replace(/_/g, "").replace(/[^a-z0-9\s]/gi, '')
+}
+
+function changeLinktext(id, from, to) {
+  var s = $(id);
+  if (s.text().trim() == from.trim()) {
+    $(id).html(to)
+  } else {
+    $(id).html(from)
+  }
+  return false;
+}
+

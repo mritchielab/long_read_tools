@@ -6,7 +6,7 @@ let fliterdthings;
 $(document).ready(function () {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
-
+// alert(window.location.hash)
   $.getJSON("data/categories.json", function (data) {
     masterCatData = data;
     gearateOptionVals(masterCatData, "cat", function (optionHTML) {
@@ -214,8 +214,9 @@ function createBody(data, body) {
   let count = 1;
   let bodyleft = "";
   let bodyRight = "";
+  cval=1
   $.each(data, function (key, val) {
-    if (count++ <= oneSideCount) {
+    if (count++% 2 != 0 ) {
       bodyleft += genarateCollapsheading(
         val,
         (val["Name"] + key).replace(/\s/g, "")
@@ -226,6 +227,7 @@ function createBody(data, body) {
         (val["Name"] + key).replace(/\s/g, "")
       );
     }
+    cval++
   });
   $("#accordion").append('<div class="col-lg-6">' + bodyleft + "</div>");
   $("#accordion").append('<div class="col-lg-6">' + bodyRight + "</div>");
@@ -235,16 +237,18 @@ function createBody(data, body) {
 function sortByProperty(property) {
   return function (a, b) {
     if (property !== "Citations") {
-      if (a[property] > b[property]) return 1;
-      else if (a[property] < b[property]) return -1;
-    } else {
-      if (a[property] > b[property]) return -1;
-      else if (a[property] < b[property]) return 1;
-    }
 
+      if (createSortString(a[property]) > createSortString(b[property])) return 1;
+      else if (createSortString(a[property]) < createSortString(b[property])) return -1;
+    } else {
+      if (createSortString(a[property]) > createSortString(b[property])) return -1;
+      else if (createSortString(a[property]) < createSortString(b[property])) return 1;
+    }
     return 0;
   };
 }
+
+
 
 function createURL() {
   let catData = $("#cat").val();
@@ -302,7 +306,7 @@ function genarateCollapsheading(obje, key) {
   blockHtml = "";
   blockHtml +=
 
-    '<span class="anc" id="' + name + '" data-id="' + key + '"></span><div class="panel panel-default">' +
+    '<span class="anc" id="' + name.trim().toLowerCase().replace(/\s/g, '') + '" data-id="' + key + '"></span><div class="panel panel-default">' +
     '<div class="collapsedhead panel-heading" role="tab" id="heading' +
     key +
     '">' +
@@ -510,7 +514,7 @@ function linkCats(cats) {
 
     if (cat == "SNPAndVariantAnalysis") {
       linked.push(
-        '<a href="tools.html?cats=' +
+        '<a href="tools.html?cat=' +
         cat +
         '">' +
         "SNP And Variant Analysis" +
@@ -518,15 +522,15 @@ function linkCats(cats) {
       );
     } else if (cat == "polyALengthEstimation") {
       linked.push(
-        '<a href="tools.html?cats=' +
+        '<a href="tools.html?cat=' +
         cat +
         '">' +
         "polyA Length Estimation" +
         "</a>"
       );
-    }else if (cat == "RNAStructure") {
+    } else if (cat == "RNAStructure") {
       linked.push(
-        '<a href="tools.html?cats=' +
+        '<a href="tools.html?cat=' +
         cat +
         '">' +
         "RNA Structure" +
@@ -534,7 +538,7 @@ function linkCats(cats) {
       );
     } else {
       linked.push(
-        '<a href="tools.html?cats=' +
+        '<a href="tools.html?cat=' +
         cat +
         '">' +
         cat.replace(/([a-z])([A-Z])/g, "$1 $2") +

@@ -28,11 +28,11 @@ $(document).ready(function () {
 function sortByProperty(property) {
     return function (a, b) {
       if (property !== "Citations") {
-        if (a[property] > b[property]) return 1;
-        else if (a[property] < b[property]) return -1;
+        if (createSortString(a[property]) > createSortString(b[property])) return 1;
+        else if (createSortString(a[property]) < createSortString(b[property])) return -1;
       } else {
-        if (a[property] > b[property]) return -1;
-        else if (a[property] < b[property]) return 1;
+        if (createSortString(a[property]) > createSortString(b[property])) return -1;
+        else if (createSortString(a[property]) < createSortString(b[property])) return 1;
       }
   
       return 0;
