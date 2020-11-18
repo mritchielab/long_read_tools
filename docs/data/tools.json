@@ -1185,12 +1185,12 @@
           "DOI": "10.1101/gr.210641.116",
           "PubDate": "2016-10-18",
           "Preprint": false,
-          "Citations": [352]
+          "Citations": [353]
         }
       ],
       "Preprints": []
     },
-    "Citations": 352,
+    "Citations": 353,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-10-18"],
@@ -1544,7 +1544,6 @@
     "Preprints": 0,
     "PubDates": ["2020-08-03"],
     "Github": "tjiangHIT/cuteSV",
-    "PyPI": "cuteSV",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["LongReadOverlapping", "SNPAndVariantAnalysis", "TestedOnHumanData"]
   },
@@ -5634,12 +5633,12 @@
           "DOI": "10.1093/bioinformatics/bty191",
           "PubDate": "2018-05-04",
           "Preprint": false,
-          "Citations": [1260]
+          "Citations": [1261]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1260,
+    "Citations": 1261,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-05-04"],
@@ -5729,12 +5728,12 @@
           "DOI": "10.1093/bioinformatics/bty191",
           "PubDate": "2018-05-04",
           "Preprint": false,
-          "Citations": [1260]
+          "Citations": [1261]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1260,
+    "Citations": 1261,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-05-04"],
@@ -9745,12 +9744,12 @@
           "DOI": "10.1101/gr.214270.116",
           "PubDate": "2017-01-19",
           "Preprint": false,
-          "Citations": [481]
+          "Citations": [482]
         }
       ],
       "Preprints": []
     },
-    "Citations": 481,
+    "Citations": 482,
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-01-19"],
@@ -11215,7 +11214,7 @@
     "Name": "SQANTI",
     "DOIs": "10.1101/gr.222976.117",
     "Platform": "Python",
-    "Description": "Structural characterization and quality control of novel transcript isoforms. SQANTI provides a wide range of descriptors of transcript quality and generates a graphical report to aid in the interpretation of the sequencing results.",
+    "Description": "DEPRECATED::Structural characterization and quality control of novel transcript isoforms. SQANTI provides a wide range of descriptors of transcript quality and generates a graphical report to aid in the interpretation of the sequencing results.",
     "Code": "https://bitbucket.org/ConesaLab/sqanti",
     "License": "BSD 3 Clause Clear License",
     "OxfordNanopore": true,
@@ -11245,7 +11244,7 @@
   {
     "Name": "SQANTI2",
     "Platform": "Python",
-    "Description": "Upgraded version of SQANTI1",
+    "Description": "DEPRECATED::Upgraded version of SQANTI1",
     "Code": "https://github.com/Magdoll/SQANTI2",
     "License": "Copyright (c) 2018, Pacific Biosciences of California, Inc.",
     "OxfordNanopore": true,
@@ -11265,7 +11264,7 @@
   {
     "Name": "SQANTI3",
     "Platform": "Python",
-    "Description": "A tool for quality control of long-read defined rranscriptomes",
+    "Description": "A tool for quality control of long-read defined transcriptomes",
     "Code": "https://github.com/ConesaLab/SQANTI3",
     "License": "GNU General Public License v3.0",
     "OxfordNanopore": true,
@@ -11280,7 +11279,7 @@
     "PubDates": [null],
     "Github": "ConesaLab/SQANTI3",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["QualityChecking", "ProvideSummaryStatistics", "QualityTrimming", "QualityFiltering"]
+    "Categories": ["QualityChecking", "ProvideSummaryStatistics", "QualityTrimming", "Transcriptomics", "QualityFiltering"]
   },
   {
     "Name": "SquiggleKit",
