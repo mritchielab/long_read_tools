@@ -400,7 +400,7 @@
     "Ignored": ["PyPI/jabba"]
   },
   "cuteSV": {
-    "PyPI": ["cuteSV"]
+    "Ignored": ["PyPI/cuteSV"]
   },
   "Fast5Mod": {
     "PyPI": ["fast5mod"]
@@ -413,5 +413,8 @@
   },
   "Halcyon": {
     "Ignored": ["PyPI/halcyon"]
+  },
+  "pomoxis": {
+    "PyPI": ["pomoxis"]
   }
 }
