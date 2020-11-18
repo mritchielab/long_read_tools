@@ -5,8 +5,8 @@
       "width": [0.9, 0.9, 0.9, 0.9, 0.9],
       "base": [0, 0, 0, 0, 0],
       "x": [1, 2, 3, 4, 5],
-      "y": [0.826552462526767, 0.541755888650964, 0.0578158458244111, 0.0449678800856531, 0.0385438972162741],
-      "text": ["Technology: Oxford Nanopore<br />Count: 386 <br /> Percent: 82.7", "Technology: PacBio<br />Count: 253 <br /> Percent: 54.2", "Technology: 10X Genomics<br />Count: 27 <br /> Percent: 5.8", "Technology: Hi-C<br />Count: 21 <br /> Percent: 4.5", "Technology: Bionano Genomics<br />Count: 18 <br /> Percent: 3.9"],
+      "y": [0.826923076923077, 0.538461538461538, 0.0576923076923077, 0.0448717948717949, 0.0384615384615385],
+      "text": ["Technology: Oxford Nanopore<br />Count: 387 <br /> Percent: 82.7", "Technology: PacBio<br />Count: 252 <br /> Percent: 53.8", "Technology: 10X Genomics<br />Count: 27 <br /> Percent: 5.8", "Technology: Hi-C<br />Count: 21 <br /> Percent: 4.5", "Technology: Bionano Genomics<br />Count: 18 <br /> Percent: 3.8"],
       "type": "bar",
       "marker": {
         "autocolorscale": false,
@@ -91,7 +91,7 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-0.0413276231263383, 0.867880085653105],
+      "range": [-0.0413461538461538, 0.868269230769231],
       "tickmode": "array",
       "ticktext": ["0%", "20%", "40%", "60%", "80%"],
       "tickvals": [0, 0.2, 0.4, 0.6, 0.8],
@@ -164,16 +164,16 @@
   },
   "source": "A",
   "attrs": {
-    "763c3ba1229a": {
+    "3f582bd6663e": {
       "x": {},
       "weight": {},
       "text": {},
       "type": "bar"
     }
   },
-  "cur_data": "763c3ba1229a",
+  "cur_data": "3f582bd6663e",
   "visdat": {
-    "763c3ba1229a": ["function (y) ", "x"]
+    "3f582bd6663e": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",

@@ -138,7 +138,8 @@ function bindWorkflow(value, callback) {
         '<h3>Workflow References</h3>' +
         '<ul>';
     $.each(workflowData.ref, function (index, refList) {
-        HTML += '<li>' + refList.refName + '</li>'
+        HTML += '<li><a target="_blank" href="' + refList.refName + '"> '
+        + refList.refName +'</a></li>'
     })
 
     HTML += '</ul>' +

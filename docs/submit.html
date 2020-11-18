@@ -71,11 +71,12 @@
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/akottr/dragtable/e9162640/dragtable.css">
+   
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/filter-control/bootstrap-table-filter-control.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
         integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+    
     <!-- Stylesheet
     ================================================== -->
     <link rel="stylesheet" type="text/css" href="css/style.css?v1.0001">
@@ -84,6 +85,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 </head>
 
@@ -106,14 +108,18 @@
                     <h2>Submit</h2>
                 </div>
             </div>
+
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 ">
                     <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <h4>Submit a long-read analysis tool</h4>
-                                </div>
+                        <div class="collapsedhead panel-heading" role="tab" id="headingtool">
+                            <h4 class="panel-title tool"><a class="" role="button" data-toggle="collapse"
+                                    data-parent="#accordion" href="#collapsetool" aria-expanded="true"
+                                    aria-controls="collapsetool"> Submit a long-read analysis tool</a></h4>
+                        </div>
+                        <div id="collapsetool" class="panel-collapse collapse " role="tabpanel"
+                            aria-labelledby="headingAlbacore0" aria-expanded="true" style="">
+                            <div class="panel-body">
                                 <form action="https://formspree.io/lrs.database@gmail.com" method="POST">
                                     <div class="col-lg-6">
                                         <div class="form-group">
@@ -468,18 +474,21 @@
                         </div>
                     </div>
                 </div>
+
             </div>
+
+
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 ">
                     <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <h4>Submit a benchmark-style article</h4>
-                                    <div class="subtitlte-note"><small> Note that special characters may lead to
-                                            incorrect display therefore, recommended to be avoided</small>
-                                    </div>
-                                </div>
+                        <div class="collapsedhead panel-heading" role="tab" id="headingbenchmark">
+                            <h4 class="panel-title benchmark"><a class="" role="button" data-toggle="collapse"
+                                    data-parent="#accordion" href="#collapsebenchmark" aria-expanded="true"
+                                    aria-controls="collapsebenchmark"> Submit a benchmark-style article</a></h4>
+                        </div>
+                        <div id="collapsebenchmark" class="panel-collapse collapse " role="tabpanel"
+                            aria-labelledby="headingbenchmark" aria-expanded="true" style="">
+                            <div class="panel-body">
                                 <form action="https://formspree.io/lrs.database@gmail.com" method="POST">
                                     <div class="col-lg-12">
                                         <div class="form-group">
@@ -589,24 +598,26 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
 
-                            <div class="row">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="panel panel-default">
+                        <div class="collapsedhead panel-heading" role="tab" id="headingworkflow">
+                            <h4 class="panel-title workflow"><a class="" role="button" data-toggle="collapse"
+                                    data-parent="#accordion" href="#collapseworkflow" aria-expanded="true"
+                                    aria-controls="collapseworkflow"> Submit a quick-start workflow</a></h4>
+                        </div>
+                        <div id="collapseworkflow" class="panel-collapse collapse " role="tabpanel"
+                            aria-labelledby="headingworkflow" aria-expanded="true" style="">
+                            <div class="panel-body">
                                 <form action="https://formspree.io/lrs.database@gmail.com" method="POST">
-                                    <div class="col-lg-12">
-                                        <h4>Submit a quick-start workflow</h4>
-                                        
-                                    </div>
+
 
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label for="Workflow_Name">Workflow Name:</label>
                                             <input type="text" class="form-control" id="Workflow_Name"
-                                                name="Workflow_Name"
-                                                placeholder="Workflow title">
+                                                name="Workflow_Name" placeholder="Workflow title">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
@@ -663,12 +674,14 @@
                                         <div class="form-group text-center">
                                             <button type="submit" class="btn btn-default">Submit</button>
                                         </div>
+                                    </div>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
