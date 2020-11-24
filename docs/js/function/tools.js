@@ -287,6 +287,7 @@ function genarateCollapsheading(obje, key) {
   var name = obje.Name;
   var description = obje.Description;
   var citations = obje.Citations;
+  var recentcitations = obje.Recent_citations;
   var refs = obje.Refs;
   var platform = obje.Platform;
   var code = obje.Code;
@@ -344,7 +345,7 @@ function genarateCollapsheading(obje, key) {
     '<div class="panel-body">';
   blockHtml += "<p>" + description + "</p>";
 
-  if (totalRefs > 0) {
+  if (totalRefs > 0 || recentcitations > 0) {
     blockHtml +=
       '<div class="panel-group">' +
       '<div class="panel panel-default">' +
@@ -352,12 +353,14 @@ function genarateCollapsheading(obje, key) {
       '<h4 class="panel-title">' +
       '<a data-toggle="collapse" href="#collapsePublications' +
       key +
-      '">Publications: ' +
+      '">Publications:' +
       nPubs +
       ", Preprints:" +
       nPres +
-      ",Total citations: " +
+      ", Total citations:" +
       citations +
+      ", Recent Citations:" +
+      recentcitations +
       "</a>" +
       "</h4>" +
       "</div>" +
@@ -376,12 +379,12 @@ function genarateCollapsheading(obje, key) {
         blockHtml +=
           '<li> <p>"' +
           publication.Title +
-          ' "</p>' +
-          ' <p><strong> DOI</strong>: <a target="_blank" href="https://doi.org/' + publication.DOI + '">' +
+          '"</p>' +
+          ' <p><strong> DOI</strong>:<a target="_blank" href="https://doi.org/' + publication.DOI + '">' +
           publication.DOI +
-          '  <a/><strong>, Published</strong>: ' +
+          '  <a/><strong>, Published</strong>:' +
           publication.PubDate +
-          ', <strong>Citations</strong>:  <a target="_blank" href="https://scholar.google.com/scholar?&q=' + publication.DOI + '">' +
+          ', <strong>Citations</strong>:<a target="_blank" href="https://scholar.google.com/scholar?&q=' + publication.DOI + '">' +
           publication.Citations +
           '</a></p>' +
           '</li>';

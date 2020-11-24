@@ -23,6 +23,8 @@ suppressPackageStartupMessages({
     library(futile.logger)
     library(aRxiv)
     library(anytime)
+    library(citecorp)
+    library(stringr)
 })
 
 #### SOURCE ####

@@ -7,6 +7,17 @@
 #' @param skip_cites Logical. Whether to skip getting citations from Crossref.
 #'
 #' @return swsheet with additional columns
+#' 
+
+# new function to get recent citations for the previous year; developed by Quentin Gouil
+get_recent_cite <- function(doi){
+    cites <- citecorp::oc_coci_cites(doi)
+    yearcite <- stringr::str_extract(cites$timespan, 'P.Y') %>% 
+        stringr::str_remove_all('[PY]') %>% 
+        as.numeric()
+    sum(yearcite <=1) %>% as.numeric()
+}
+
 add_refs <- function(swsheet, titles_cache, skip_cites) {
 
     `%>%` <- magrittr::`%>%`
@@ -42,6 +53,19 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
 
                 return(cite)
             })
+            
+            recent_cites <- sapply(dois, function(doi){
+                recent_cite <- tryCatch({
+                    get_recent_cite(doi)
+                }, error = function(e){
+                    NA
+                })
+                
+                Sys.sleep(sample(seq(0, 1, 0.1), 1))
+                
+                return(recent_cite)
+            })
+            
         } else {
             cites <- rep(NA, length(dois))
         }
@@ -59,7 +83,8 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
                                                                             paste("10.7287/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),
                                                                             paste("10.21203/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),
                                                                             "arxiv"), collapse ="|")),
-                              Citations = cites[2,])
+                              Citations = cites[2,],
+                              Recent_citations = recent_cites)
     })
 
     pre_list <- purrr::map_if(ref_list, !is.na(ref_list),
@@ -75,6 +100,8 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
                                          })) %>%
         dplyr::mutate(Citations = purrr::map_if(ref_list, !is.na(ref_list),
                                                 function(x) {sum(as.integer(x$Citations))}),
+                      Recent_citations = purrr::map_if(ref_list, !is.na(ref_list),
+                                                       function(x) {as.integer(x$Recent_citations)}),
                       Publications = purrr::map_if(pub_list, !is.na(pub_list),
                                                    nrow),
                       Preprints = purrr::map_if(pre_list, !is.na(pre_list),
