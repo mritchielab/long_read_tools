@@ -2,8 +2,8 @@
 
 "Usage: process_csv [options]
 
-This utility script converts the 'lrs_tools_master.csv' spreadsheet to a set
-of files in 'docs/data' required for the lrs-tools.org website including:
+This utility script converts the 'long_read_tools_master.csv' spreadsheet to a set
+of files in 'docs/data' required for the long-read-tools.org website.
 
 Options:
 -s --no-shields    Skip downloading of shields
@@ -25,6 +25,9 @@ suppressPackageStartupMessages({
     library(anytime)
     library(citecorp)
     library(stringr)
+    library(tidyverse)
+    library(gh)
+    library(here)
 })
 
 #### SOURCE ####
