@@ -57,32 +57,78 @@
                     },
 					{
 						"category": "QualityChecking",
-						"best_tool": "FastQC",
-						"best_tool": "PycoQC",
-						"best_tool": "MinIONQC"
+						"best_tool": ["FastQC", "PycoQC", "MinIONQC"]
 					},
                     {
-                        "category": "QualityFiltering",
-						"category": "QualityTrimming",
-                        "best_tool": "Porechop",
-						"best_tool": "NanoFilt"
+                        "category": ["QualityFiltering", "QualityTrimming"]
+                        "best_tool": ["Porechop", "NanoFilt" ]
                     },
 					{
                         "category": "DenovoAssembly",
-                        "best_tool": "Minimap2",
-						"best_tool": "Flye",
-						"best_tool": "Shasta"
+                        "best_tool": ["Minimap2", "Flye","Shasta"]
                     },
 					{
                         "category": "ErrorCorrectionAndPolishing",
-                        "best_tool": "Racon",
-						"best_tool": "Minipolish",
-						"best_tool": "Medaka",
-						"best_tool": "Pilon"
+                        "best_tool": ["Racon", "Minipolish", "Medaka", "Pilon"]
                     },
                     {
                         "category": "SNPAndVariantAnalysis",
                         "best_tool": "nanopolish"
+                    }
+                ]
+            },
+			{
+                "wfName": "Introduction to Nanopore Sequencing",
+                "description": "The tutorial will assemble the E. coli genome using a mix of long, error-prone reads from the MinION (Oxford Nanopore) and short reads from a HiSeq instrument (Illumina)",
+                "links": [
+                    [
+                        {
+                            "link": "https://www.hadriengourle.com/tutorials/nanopore/"
+                        }
+                    ]
+                ],
+                "categories": [
+                    {
+                        "category": "Basecalling",
+                        "best_tool": "Guppy"
+                    },
+					{
+						"category": "DenovoAssembly",
+						"best_tool": "wtdbg2"
+					},
+                    {
+                        "category": "ErrorCorrectionAndPolishing",
+                        "best_tool": "wtdbg2"
+                    }
+                ]
+            },
+			{
+                "wfName": "Nanopore long-read RNA-seq differential expression analysis with short-read tools",
+                "description": "Application of Oxford Nanopore Technologies' long-read sequencing platform to transcriptomic analysis is increasing in popularity. We used limma-voom to perform differential gene expression analysis, and the FLAMES pipeline to perform isoform identification and quantification, followed by DRIMSeq and limma-diffSplice (with stageR) to perform differential transcript usage analysis.",
+                "links": [
+                    [
+                        {
+                            "link": "https://github.com/XueyiDong/LongReadRNA"
+                        }
+                    ]
+                ],
+				"ref": [
+					{
+						"refName": "https://doi.org/10.1101/2020.06.28.176727"
+					}
+				]
+                "categories": [
+                    {
+                        "category": "Basecalling",
+                        "best_tool": "Guppy"
+                    },
+					{
+						"category": "DenovoAssembly",
+						"best_tool": "wtdbg2"
+					},
+                    {
+                        "category": "ErrorCorrectionAndPolishing",
+                        "best_tool": "wtdbg2"
                     }
                 ]
             }
