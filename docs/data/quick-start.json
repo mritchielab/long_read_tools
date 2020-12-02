@@ -39,9 +39,53 @@
                         "best_tool": "nanopore-methylation-utilities"
                     }
                 ]
+            },
+			{
+                "wfName": "Long-Read, long reach Bioinformatics Tutorials",
+                "description": "Workflows and tutorials for LongRead analysis with specific focus on Oxford Nanopore data",
+                "links": [
+                    [
+                        {
+                            "link": "https://timkahlke.github.io/LongRead_tutorials/"
+                        }
+                    ]
+                ],
+                "categories": [
+                    {
+                        "category": "Basecalling",
+                        "best_tool": "Guppy"
+                    },
+					{
+						"category": "QualityChecking",
+						"best_tool": "FastQC",
+						"best_tool": "PycoQC",
+						"best_tool": "MinIONQC"
+					},
+                    {
+                        "category": "QualityFiltering",
+						"category": "QualityTrimming",
+                        "best_tool": "Porechop",
+						"best_tool": "NanoFilt"
+                    },
+					{
+                        "category": "DenovoAssembly",
+                        "best_tool": "Minimap2",
+						"best_tool": "Flye",
+						"best_tool": "Shasta"
+                    },
+					{
+                        "category": "ErrorCorrectionAndPolishing",
+                        "best_tool": "Racon",
+						"best_tool": "Minipolish",
+						"best_tool": "Medaka",
+						"best_tool": "Pilon"
+                    },
+                    {
+                        "category": "SNPAndVariantAnalysis",
+                        "best_tool": "nanopolish"
+                    }
+                ]
             }
-            
         ]
     }
-    
 ]
