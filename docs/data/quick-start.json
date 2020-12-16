@@ -60,8 +60,8 @@
 						"best_tool": ["FastQC", "PycoQC", "MinIONQC"]
 					},
                     {
-                        "category": ["QualityFiltering", "QualityTrimming"]
-                        "best_tool": ["Porechop", "NanoFilt" ]
+                        "category": ["QualityFiltering"],
+                        "best_tool": ["Porechop", "NanoFilt"]
                     },
 					{
                         "category": "DenovoAssembly",
@@ -116,7 +116,7 @@
 					{
 						"refName": "https://doi.org/10.1101/2020.06.28.176727"
 					}
-				]
+				],
                 "categories": [
                     {
                         "category": "Basecalling",
