@@ -112,7 +112,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
                       Publications = purrr::flatten_int(Publications),
                       Preprints = purrr::flatten_int(Preprints))
     
-    saveRDS(swsheet, fs::path(getwd(), "docs/test_new_csv.rds"))
+    #saveRDS(swsheet, fs::path(getwd(), "docs/test_new_csv.rds"))
     
     return(swsheet)
 
