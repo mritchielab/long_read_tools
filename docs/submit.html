@@ -71,12 +71,12 @@
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/akottr/dragtable/e9162640/dragtable.css">
-   
+
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/filter-control/bootstrap-table-filter-control.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
         integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    
+
     <!-- Stylesheet
     ================================================== -->
     <link rel="stylesheet" type="text/css" href="css/style.css?v1.0001">
@@ -492,9 +492,6 @@
                                 <form action="https://formspree.io/lrs.database@gmail.com" method="POST">
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <div class="subtitlte-note"><small> Note that special characters may lead to
-                                            incorrect display therefore, recommended to be avoided</small>
-                                            </div>
                                             <label for="title">Title:</label>
                                             <input type="text" class="form-control" id="title" name="title"
                                                 placeholder="Benchmark article title">
@@ -552,9 +549,325 @@
 
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <label for="Technolog">Technology/ies(comma separated):</label>
+                                            <span>Technology{ies):</span>
+                                            <div id="technology-bm">
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <div class="checkbox">
+                                                            <label for="OxfordNanopore"> <input type="checkbox"
+                                                                    value="OxfordNanopore" id="technology-bm"
+                                                                    name="technology-bm">
+                                                                Oxford Nanopore</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="PacBio"> <input type="checkbox" value="PacBio"
+                                                                    id="technology-bm" name="technology-bm">
+                                                                PacBio</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="checkbox">
+                                                            <label for="Bionano"> <input type="checkbox" value="Bionano"
+                                                                    id="technology-bm" name="technology-bm">
+                                                                Bionano Genomics</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="tenxgenomics"> <input type="checkbox"
+                                                                    value="tenxgenomics" id="technology-bm"
+                                                                    name="technology-bm">
+                                                                10X Genomics</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="checkbox">
+                                                            <label for="hic"> <input type="checkbox" value="hic"
+                                                                    id="technology-bm" name="technology-bm">
+                                                                Hi-C</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="other"> <input type="checkbox" value="Other"
+                                                                    id="technology-bm" name="technology-bm">
+                                                                Other</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <span>Technology(ies):</span>
+                                            <div id="technology-bm">
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <div class="checkbox">
+                                                            <label for="OxfordNanopore"> <input type="checkbox"
+                                                                    value="OxfordNanopore" id="technology-bm"
+                                                                    name="technology-bm">
+                                                                Oxford Nanopore</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="PacBio"> <input type="checkbox" value="PacBio"
+                                                                    id="technology-bm" name="technology-bm">
+                                                                PacBio</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="checkbox">
+                                                            <label for="Bionano"> <input type="checkbox" value="Bionano"
+                                                                    id="technology-bm" name="technology-bm">
+                                                                Bionano Genomics</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="tenxgenomics"> <input type="checkbox"
+                                                                    value="tenxgenomics" id="technology-bm"
+                                                                    name="technology-bm">
+                                                                10X Genomics</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="checkbox">
+                                                            <label for="hic"> <input type="checkbox" value="hic"
+                                                                    id="technology-bm" name="technology-bm">
+                                                                Hi-C</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="other"> <input type="checkbox" value="Other"
+                                                                    id="technology-bm" name="technology-bm">
+                                                                Other</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span>Categories:</span>
+                                            <div id="categories-bm">
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <div class="checkbox">
+                                                            <label for="alignment"> <input type="checkbox"
+                                                                    value="Alignment" id="bm-alignment"
+                                                                    name="categories">
+                                                                Alignment</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="AnalysisPipelines">
+                                                                <input type="checkbox" value="Analysis Pipelines"
+                                                                    id="bm-AnalysisPipelines" name="categories">
+                                                                Analysis
+                                                                Pipelines</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="BaseCalling">
+                                                                <input type="checkbox" value="BaseCalling"
+                                                                    id="bm-BaseCalling" name="categories">
+                                                                Base
+                                                                Calling</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="BaseModificationDetection">
+                                                                <input type="checkbox" value="BaseModificationDetection"
+                                                                    id="bm-BaseModificationDetection" name="categories">
+                                                                Base
+                                                                Modification Detection</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="Demultiplexing">
+                                                                <input type="checkbox" value="Demultiplexing"
+                                                                    id="bm-Demultiplexing" name="categories">
+                                                                Demultiplexing</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="DenovoAssembly">
+                                                                <input type="checkbox" value="DenovoAssembly"
+                                                                    id="bm-DenovoAssembly" name="categories">
+
+                                                                <i>De novo</i> Assembly</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="ErrorCorrectionAndPolishing">
+                                                                <input type="checkbox"
+                                                                    value="ErrorCorrectionAndPolishing"
+                                                                    id="bm-ErrorCorrectionAndPolishing"
+                                                                    name="categories">
+                                                                Error Correction And/Or
+                                                                Polishing</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="EvaluatingExisitingMethods">
+                                                                <input type="checkbox"
+                                                                    value="EvaluatingExisitingMethods"
+                                                                    id="bm-EvaluatingExisitingMethods"
+                                                                    name="categories">
+                                                                Evaluating Exisiting
+                                                                Methods</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="GapFilling">
+                                                                <input type="checkbox" value="GapFilling"
+                                                                    id="bm-GapFilling" name="categories">
+                                                                Gap Filling in
+                                                                Assemblies</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="GeneratingConsensusSequence">
+                                                                <input type="checkbox"
+                                                                    value="GeneratingConsensusSequence"
+                                                                    id="bm-GeneratingConsensusSequence"
+                                                                    name="categories">
+                                                                Generating Consensus
+                                                                Sequence</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="checkbox">
+                                                            <label for="IsoformDetection">
+                                                                <input type="checkbox" value="IsoformDetection"
+                                                                    id="bm-IsoformDetection" name="categories">
+                                                                Isoform
+                                                                Detection</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="LongReadOverlapping">
+                                                                <input type="checkbox" value="LongReadOverlapping"
+                                                                    id="bm-LongReadOverlapping" name="categories">
+                                                                Long-Read
+                                                                Overlapping</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="Metagenomics">
+                                                                <input type="checkbox" value="Metagenomics"
+                                                                    id="bm-Metagenomics" name="categories">
+                                                                Metagenomics</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="Normalisation">
+                                                                <input type="checkbox" value="Normalisation"
+                                                                    id="bm-Normalisation" name="categories">
+                                                                Normalisation</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="polyALengthEstimation">
+                                                                <input type="checkbox" value="polyALengthEstimation"
+                                                                    id="bm-polyALengthEstimation" name="categories">
+                                                                polyA
+                                                                Length Estimation</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="ProvideSummaryStatistics">
+                                                                <input type="checkbox" value="ProvideSummaryStatistics"
+                                                                    id="bm-ProvideSummaryStatistics" name="categories">
+                                                                Provide Summary
+                                                                Statistics</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="QualityChecking">
+                                                                <input type="checkbox" value="QualityChecking"
+                                                                    id="bm-QualityChecking" name="categories">
+                                                                Quality
+                                                                Checking</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="QualityFiltering">
+                                                                <input type="checkbox" value="QualityFiltering"
+                                                                    id="bm-QualityFiltering" name="categories">
+                                                                Quality
+                                                                Filtering</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="QualityTrimming">
+                                                                <input type="checkbox" value="QualityTrimming"
+                                                                    id="bm-QualityTrimming" name="categories">
+                                                                Quality
+                                                                Trimming</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="ReadQuantification">
+                                                                <input type="checkbox" value="ReadQuantification"
+                                                                    id="bm-ReadQuantification" name="categories">
+                                                                Read
+                                                                Quantification</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="RNAStructure">
+                                                                <input type="checkbox" value="RNAStructure"
+                                                                    id="bm-RNAStructure" name="categories">
+                                                                RNA
+                                                                Structure</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="checkbox">
+                                                            <label for="Scaffolding">
+                                                                <input type="checkbox" value="Scaffolding"
+                                                                    id="bm-Scaffolding" name="categories">
+                                                                Scaffolding</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="Simulators">
+                                                                <input type="checkbox" value="Simulators"
+                                                                    id="bm-Simulators" name="categories">
+                                                                Simulators</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="SNPAndVariantAnalysis">
+                                                                <input type="checkbox" value="SNPAndVariantAnalysis"
+                                                                    id="bm-SNPAndVariantAnalysis" name="categories">
+                                                                SNP
+                                                                And/Or Variant Analysis</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="SuitableForSingleCellExperiments">
+                                                                <input type="checkbox"
+                                                                    value="SuitableForSingleCellExperiments"
+                                                                    id="bm-SuitableForSingleCellExperiments"
+                                                                    name="categories">
+                                                                Suited For Single-Cell
+                                                                Experiments</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="TaxonomicClassification">
+                                                                <input type="checkbox" value="TaxonomicClassification"
+                                                                    id="bm-TaxonomicClassification" name="categories">
+                                                                Taxonomic Classification</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="TestedOnHumanData">
+                                                                <input type="checkbox" value="TestedOnHumanData"
+                                                                    id="bm-TestedOnHumanData" name="categories">
+                                                                Tested On
+                                                                Human Data</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="TestedOnNonHumanData">
+                                                                <input type="checkbox" value="TestedOnNonHumanData"
+                                                                    id="bm-TestedOnNonHumanData" name="categories">
+                                                                Tested On
+                                                                Non-Human Data</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="Transcriptomics">
+                                                                <input type="checkbox" value="Transcriptomics"
+                                                                    id="bm-Transcriptomics" name="categories">
+                                                                Transcriptomics</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="Visualisation">
+                                                                <input type="checkbox" value="Visualisation"
+                                                                    id="bm-Visualisation" name="categories">
+                                                                Visualisation</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="Other">
+                                                                <input type="checkbox" value="Other" id="bm-other"
+                                                                    name="categories">
+                                                                Other</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- <label for="Technolog">Technology/ies(comma separated):</label>
                                             <input type="text" class="form-control" id="Technology" name="Technology"
-                                                placeholder="">
+                                                placeholder=""> -->
                                         </div>
                                     </div>
 
@@ -576,7 +889,7 @@
 
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <label for="Recommendation_summary">Recommendation summaru:</label>
+                                            <label for="Recommendation_summary">Recommendation summary:</label>
                                             <input type="text" class="form-control" id="Recommendation_summary"
                                                 name="Recommendation_summary">
                                         </div>
@@ -646,21 +959,370 @@
                                                 placeholder="">
                                         </div>
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="form-group">
-                                            <label for="Technology">Technology:</label>
-                                            <input type="text" class="form-control" id="Technology" name="Technology"
-                                                placeholder="">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="Categories">Categories:</label>
-                                            <input type="text" class="form-control" id="Categories" name="Categories"
-                                                placeholder="">
-                                        </div>
-                                    </div>
+                                    <div class="col-lg-12">
 
+
+                                        <div class="form-group">
+                                            <span>Technology{ies):</span>
+                                            <div id="technology-wf">
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <div class="checkbox">
+                                                            <label for="OxfordNanopore"> <input type="checkbox"
+                                                                    value="OxfordNanopore" id="technology"
+                                                                    name="technology">
+                                                                Oxford Nanopore</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="PacBio"> <input type="checkbox" value="PacBio"
+                                                                    id="technology" name="technology">
+                                                                PacBio</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="checkbox">
+                                                            <label for="Bionano"> <input type="checkbox" value="Bionano"
+                                                                    id="technology" name="technology">
+                                                                Bionano Genomics</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="tenxgenomics"> <input type="checkbox"
+                                                                    value="tenxgenomics" id="technology"
+                                                                    name="technology">
+                                                                10X Genomics</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="checkbox">
+                                                            <label for="hic"> <input type="checkbox" value="hic"
+                                                                    id="technology" name="technology">
+                                                                Hi-C</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label for="other"> <input type="checkbox" value="Other"
+                                                                    id="technology" name="technology">
+                                                                Other</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- <label for="Technology">Technology:</label>
+                                            <input type="text" class="form-control" id="Technology" name="Technology"
+                                                placeholder=""> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="row">
+
+                                            <div id="wfblock" class="col-lg-12 ">
+                                                <div id="wf1" class="row block ">
+                                                    <div class="col-lg-12">
+                                                        <h3>Workflow step 1</h3>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group">
+                                                            <span>Categories:</span>
+                                                            <div id="categories-wf">
+                                                                <div class="row">
+                                                                    <div class="col-lg-4">
+                                                                        <div class="checkbox">
+                                                                            <label for="alignment"> <input
+                                                                                    type="checkbox" value="Alignment"
+                                                                                    id="wf1-alignment"
+                                                                                    name="categories-wf1">
+                                                                                Alignment</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="AnalysisPipelines">
+                                                                                <input type="checkbox"
+                                                                                    value="Analysis Pipelines"
+                                                                                    id="wf1-AnalysisPipelines"
+                                                                                    name="categories-wf1">
+                                                                                Analysis
+                                                                                Pipelines</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="BaseCalling">
+                                                                                <input type="checkbox"
+                                                                                    value="BaseCalling"
+                                                                                    id="wf1-BaseCalling"
+                                                                                    name="categories-wf1">
+                                                                                Base
+                                                                                Calling</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="BaseModificationDetection">
+                                                                                <input type="checkbox"
+                                                                                    value="BaseModificationDetection"
+                                                                                    id="wf1-BaseModificationDetection"
+                                                                                    name="categories-wf1">
+                                                                                Base
+                                                                                Modification Detection</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="Demultiplexing">
+                                                                                <input type="checkbox"
+                                                                                    value="Demultiplexing"
+                                                                                    id="wf1-Demultiplexing"
+                                                                                    name="categories-wf1">
+                                                                                Demultiplexing</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="DenovoAssembly">
+                                                                                <input type="checkbox"
+                                                                                    value="DenovoAssembly"
+                                                                                    id="wf1-DenovoAssembly"
+                                                                                    name="categories-wf1">
+
+                                                                                <i>De novo</i> Assembly</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="ErrorCorrectionAndPolishing">
+                                                                                <input type="checkbox"
+                                                                                    value="ErrorCorrectionAndPolishing"
+                                                                                    id="wf1-ErrorCorrectionAndPolishing"
+                                                                                    name="categories-wf1">
+                                                                                Error Correction And/Or
+                                                                                Polishing</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="EvaluatingExisitingMethods">
+                                                                                <input type="checkbox"
+                                                                                    value="EvaluatingExisitingMethods"
+                                                                                    id="wf1-EvaluatingExisitingMethods"
+                                                                                    name="categories-wf1">
+                                                                                Evaluating Exisiting
+                                                                                Methods</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="GapFilling">
+                                                                                <input type="checkbox"
+                                                                                    value="GapFilling"
+                                                                                    id="wf1-GapFilling"
+                                                                                    name="categories-wf1">
+                                                                                Gap Filling in
+                                                                                Assemblies</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="GeneratingConsensusSequence">
+                                                                                <input type="checkbox"
+                                                                                    value="GeneratingConsensusSequence"
+                                                                                    id="wf1-GeneratingConsensusSequence"
+                                                                                    name="categories-wf1">
+                                                                                Generating Consensus
+                                                                                Sequence</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-4">
+                                                                        <div class="checkbox">
+                                                                            <label for="IsoformDetection">
+                                                                                <input type="checkbox"
+                                                                                    value="IsoformDetection"
+                                                                                    id="wf1-IsoformDetection"
+                                                                                    name="categories-wf1">
+                                                                                Isoform
+                                                                                Detection</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="LongReadOverlapping">
+                                                                                <input type="checkbox"
+                                                                                    value="LongReadOverlapping"
+                                                                                    id="wf1-LongReadOverlapping"
+                                                                                    name="categories-wf1">
+                                                                                Long-Read
+                                                                                Overlapping</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="Metagenomics">
+                                                                                <input type="checkbox"
+                                                                                    value="Metagenomics"
+                                                                                    id="wf1-Metagenomics"
+                                                                                    name="categories-wf1">
+                                                                                Metagenomics</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="Normalisation">
+                                                                                <input type="checkbox"
+                                                                                    value="Normalisation"
+                                                                                    id="wf1-Normalisation"
+                                                                                    name="categories-wf1">
+                                                                                Normalisation</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="polyALengthEstimation">
+                                                                                <input type="checkbox"
+                                                                                    value="polyALengthEstimation"
+                                                                                    id="wf1-polyALengthEstimation"
+                                                                                    name="categories-wf1">
+                                                                                polyA
+                                                                                Length Estimation</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="ProvideSummaryStatistics">
+                                                                                <input type="checkbox"
+                                                                                    value="ProvideSummaryStatistics"
+                                                                                    id="wf1-ProvideSummaryStatistics"
+                                                                                    name="categories-wf1">
+                                                                                Provide Summary
+                                                                                Statistics</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="QualityChecking">
+                                                                                <input type="checkbox"
+                                                                                    value="QualityChecking"
+                                                                                    id="wf1-QualityChecking"
+                                                                                    name="categories-wf1">
+                                                                                Quality
+                                                                                Checking</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="QualityFiltering">
+                                                                                <input type="checkbox"
+                                                                                    value="QualityFiltering"
+                                                                                    id="wf1-QualityFiltering"
+                                                                                    name="categories-wf1">
+                                                                                Quality
+                                                                                Filtering</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="QualityTrimming">
+                                                                                <input type="checkbox"
+                                                                                    value="QualityTrimming"
+                                                                                    id="wf1-QualityTrimming"
+                                                                                    name="categories-wf1">
+                                                                                Quality
+                                                                                Trimming</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="ReadQuantification">
+                                                                                <input type="checkbox"
+                                                                                    value="ReadQuantification"
+                                                                                    id="wf1-ReadQuantification"
+                                                                                    name="categories-wf1">
+                                                                                Read
+                                                                                Quantification</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="RNAStructure">
+                                                                                <input type="checkbox"
+                                                                                    value="RNAStructure"
+                                                                                    id="wf1-RNAStructure"
+                                                                                    name="categories-wf1">
+                                                                                RNA
+                                                                                Structure</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-4">
+                                                                        <div class="checkbox">
+                                                                            <label for="Scaffolding">
+                                                                                <input type="checkbox"
+                                                                                    value="Scaffolding"
+                                                                                    id="wf1-Scaffolding"
+                                                                                    name="categories-wf1">
+                                                                                Scaffolding</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="Simulators">
+                                                                                <input type="checkbox"
+                                                                                    value="Simulators"
+                                                                                    id="wf1-Simulators"
+                                                                                    name="categories-wf1">
+                                                                                Simulators</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="SNPAndVariantAnalysis">
+                                                                                <input type="checkbox"
+                                                                                    value="SNPAndVariantAnalysis"
+                                                                                    id="wf1-SNPAndVariantAnalysis"
+                                                                                    name="categories-wf1">
+                                                                                SNP
+                                                                                And/Or Variant Analysis</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label
+                                                                                for="SuitableForSingleCellExperiments">
+                                                                                <input type="checkbox"
+                                                                                    value="SuitableForSingleCellExperiments"
+                                                                                    id="wf1-SuitableForSingleCellExperiments"
+                                                                                    name="categories-wf1">
+                                                                                Suited For Single-Cell
+                                                                                Experiments</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="TaxonomicClassification">
+                                                                                <input type="checkbox"
+                                                                                    value="TaxonomicClassification"
+                                                                                    id="wf1-TaxonomicClassification"
+                                                                                    name="categories-wf1">
+                                                                                Taxonomic Classification</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="TestedOnHumanData">
+                                                                                <input type="checkbox"
+                                                                                    value="TestedOnHumanData"
+                                                                                    id="wf1-TestedOnHumanData"
+                                                                                    name="categories-wf1">
+                                                                                Tested On
+                                                                                Human Data</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="TestedOnNonHumanData">
+                                                                                <input type="checkbox"
+                                                                                    value="TestedOnNonHumanData"
+                                                                                    id="wf1-TestedOnNonHumanData"
+                                                                                    name="categories-wf1">
+                                                                                Tested On
+                                                                                Non-Human Data</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="Transcriptomics">
+                                                                                <input type="checkbox"
+                                                                                    value="Transcriptomics"
+                                                                                    id="wf1-Transcriptomics"
+                                                                                    name="categories-wf1">
+                                                                                Transcriptomics</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="Visualisation">
+                                                                                <input type="checkbox"
+                                                                                    value="Visualisation"
+                                                                                    id="wf1-Visualisation"
+                                                                                    name="categories-wf1">
+                                                                                Visualisation</label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label for="Other">
+                                                                                <input type="checkbox" value="Other"
+                                                                                    id="wf1-other"
+                                                                                    name="categories-wf1">
+                                                                                Other</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group">
+                                                            <label for="Technology">Suggested tool/s (if multiple tools,
+                                                                separate by comma):</label>
+                                                            <input type="text" class="form-control"
+                                                                id="wf1-Suggested-tool" name="Suggested-tool-wf1"
+                                                                placeholder="">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="hidden" value="2" id="counter" />
+                                            <button type="button" class="btn btn-default" onclick="appendWorkflow()">Add
+                                                New Step</button>
+                                                <button type="button" class="btn btn-default" onclick="restwfForm()">
+                                                    Reset Steps</button>
+
+                                        </div>
+                                    </div>
 
                                     <div class="col-lg-12">
 
@@ -702,6 +1364,8 @@
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+    <script type="text/javascript" src="js/main.js?v1.0001"></script>
+
     <script type="text/javascript" src="js/main.js?v1.0001"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
