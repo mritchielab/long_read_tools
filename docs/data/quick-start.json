@@ -24,19 +24,19 @@
                 "categories": [
                     {
                         "category": "Basecalling",
-                        "best_tool": "Guppy"
+                        "best_tool": ["Guppy"]
                     },
                     {
                         "category": "Alignment",
-                        "best_tool": "Minimap2"
+                        "best_tool": ["Minimap2"]
                     },
                     {
                         "category": "BaseModificationDetention",
-                        "best_tool": "nanopolish"
+                        "best_tool": ["nanopolish"]
                     },
                     {
                         "category": "Visualisation",
-                        "best_tool": "nanopore-methylation-utilities"
+                        "best_tool": ["nanopore-methylation-utilities"]
                     }
                 ]
             },
@@ -53,14 +53,14 @@
                 "categories": [
                     {
                         "category": "Basecalling",
-                        "best_tool": "Guppy"
+                        "best_tool": ["Guppy"]
                     },
 					{
 						"category": "QualityChecking",
 						"best_tool": ["FastQC", "PycoQC", "MinIONQC"]
 					},
                     {
-                        "category": ["QualityFiltering"],
+                        "category": "QualityFiltering",
                         "best_tool": ["Porechop", "NanoFilt"]
                     },
 					{
@@ -73,7 +73,7 @@
                     },
                     {
                         "category": "SNPAndVariantAnalysis",
-                        "best_tool": "nanopolish"
+                        "best_tool": ["nanopolish"]
                     }
                 ]
             },
@@ -90,15 +90,15 @@
                 "categories": [
                     {
                         "category": "Basecalling",
-                        "best_tool": "Guppy"
+                        "best_tool": ["Guppy"]
                     },
 					{
 						"category": "DenovoAssembly",
-						"best_tool": "wtdbg2"
+						"best_tool": ["wtdbg2"]
 					},
                     {
                         "category": "ErrorCorrectionAndPolishing",
-                        "best_tool": "wtdbg2"
+                        "best_tool": ["wtdbg2"]
                     }
                 ]
             },
@@ -120,15 +120,15 @@
                 "categories": [
                     {
                         "category": "Basecalling",
-                        "best_tool": "Guppy"
+                        "best_tool": ["Guppy"]
                     },
 					{
 						"category": "DenovoAssembly",
-						"best_tool": "wtdbg2"
+						"best_tool": ["wtdbg2"]
 					},
                     {
                         "category": "ErrorCorrectionAndPolishing",
-                        "best_tool": "wtdbg2"
+                        "best_tool": ["wtdbg2"]
                     }
                 ]
             }
