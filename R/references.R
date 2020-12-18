@@ -79,9 +79,9 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
         ref <- tibble::tibble(Title     = titles,
                               DOI       = dois,
                               PubDate   = dates,
-                              Preprint  = stringr::str_detect(dois, paste(c(paste("10.1101/", stringr::regex(".*$", ignore_case = TRUE), sep=""),
-                                                                            paste("10.7287/", stringr::regex(".*$", ignore_case = TRUE), sep=""),
-                                                                            paste("10.21203/", stringr::regex(".*$", ignore_case = TRUE), sep=""),
+                              Preprint  = stringr::str_detect(dois, paste(c(paste("10.1101/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),
+                                                                            paste("10.7287/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),
+                                                                            paste("10.21203/", stringr::regex("[0-9]{1,6}$", ignore_case = TRUE), sep=""),
                                                                             "arxiv"), collapse ="|")),
                               Citations = cites[2,],
                               Recent_citations = recent_cites)
@@ -111,9 +111,5 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
         dplyr::mutate(Citations = purrr::flatten_dbl(Citations),
                       Publications = purrr::flatten_int(Publications),
                       Preprints = purrr::flatten_int(Preprints))
-    
-    saveRDS(swsheet, fs::path(getwd(), "docs/test_new_csv.rds"))
-    
-    return(swsheet)
-
+	return(swsheet)
 }

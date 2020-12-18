@@ -160,9 +160,9 @@ plot_number <- function(swsheet) {
 #' 
 
 plot_publication <- function(swsheet) {
-
+  
   `%>%` <- magrittr::`%>%`
-
+  
   plot <- swsheet %>%
     dplyr::mutate(HasPub = purrr::map(.$Refs,
                                       function(x) {
@@ -212,20 +212,20 @@ plot_publication <- function(swsheet) {
     cowplot::theme_nothing() +
     ggplot2::theme(plot.title = ggplot2::element_text(size = 20,
                                                       face = "bold",
-                                                      hjust = -0.45,
+                                                      hjust = -0.45, 
                                                       vjust=2.12),
                    legend.position = "none"
     )
-
+  
   plot <- plotly::ggplotly(plot, tooltip = c("fill", "weight", "text")) %>%
     plotly::layout(margin = list(l = 100, r = 100, b = 20, t = 50))
-
+  
   htmlwidgets::saveWidget(widgetframe::frameableWidget(plot),
                           file.path(getwd(), "docs/plots/publication.html"),
                           selfcontained = FALSE, libdir = "libraries")
-
+  
   json <- plotly::plotly_json(plot, jsonedit = FALSE)
-
+  
   readr::write_lines(json, fs::path(getwd(), "docs/plots/publication.json"))
 }
 
