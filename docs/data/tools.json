@@ -1103,12 +1103,12 @@
           "DOI": "10.1101/gr.215087.116",
           "PubDate": "2017-03-16",
           "Preprint": true,
-          "Citations": [1938],
+          "Citations": [1939],
           "Recent_citations": 523
         }
       ]
     },
-    "Citations": 1938,
+    "Citations": 1939,
     "Recent_citations": [523],
     "Publications": 0,
     "Preprints": 1,
@@ -1184,6 +1184,42 @@
     "Github": "amojarro/carrierseq",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["TestedOnNonHumanData", "AnalysisPipelines"]
+  },
+  {
+    "Name": "CATCaller",
+    "DOIs": "10.1101/2020.11.09.374165",
+    "Platform": "Python, Cuda",
+    "Description": "An end2end ONT Basecaller using Convolution-augmented Transformer",
+    "Code": "https://github.com/biomed-AI/CATCaller",
+    "Underlying_algorithms": "Long-Short Range Attention and flattened FFN layer",
+    "Strengths_weaknesses": "Faster than SACall, only trained on bacterial genomes",
+    "Overall_performance": "Generally more accurate than SACall and older Guppy v3.2.2 on specific datasets",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [],
+      "Preprints": [
+        {
+          "Title": "An End-to-end Oxford Nanopore Basecaller Using Convolution-augmented Transformer",
+          "DOI": "10.1101/2020.11.09.374165",
+          "PubDate": "2020-11-10",
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
+        }
+      ]
+    },
+    "Citations": 0,
+    "Recent_citations": [0],
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["2020-11-10"],
+    "Github": "biomed-AI/CATCaller",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["Basecalling", "TestedOnHumanData"]
   },
   {
     "Name": "Causalcall",
@@ -3437,6 +3473,40 @@
     "Github": "scottgigante/haplotyped-methylome",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["BaseModificationDetection", "Visualisation", "TestedOnNonHumanData", "AvailablityOfTestData", "AnalysisPipelines"]
+  },
+  {
+    "Name": "Hapo-G",
+    "DOIs": "10.1101/2020.12.14.422624",
+    "Platform": "C, Python",
+    "Description": "Haplotype-Aware Polishing Of Genomes, a new algorithm capable of incorporating phasing information from short reads to polish genome assemblies and in particular assemblies of diploid and heterozygous genomes",
+    "Code": "https://github.com/institut-de-genomique/HAPO-G",
+    "License": "CeCILL FREE SOFTWARE LICENSE",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [],
+      "Preprints": [
+        {
+          "Title": "Hapo-G, Haplotype-Aware Polishing Of Genome Assemblies",
+          "DOI": "10.1101/2020.12.14.422624",
+          "PubDate": "2020-12-16",
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
+        }
+      ]
+    },
+    "Citations": 0,
+    "Recent_citations": [0],
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["2020-12-16"],
+    "Github": "institut-de-genomique/HAPO-G",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["ErrorCorrectionAndPolishing"]
   },
   {
     "Name": "HASLR",
@@ -7179,6 +7249,28 @@
     "Categories": ["QualityFiltering"]
   },
   {
+    "Name": "NanoMethPhase",
+    "Platform": "Python",
+    "Description": "Phase long reads and CpG methylations from Oxford Nanopore Technologies",
+    "Code": "https://github.com/vahidAK/NanoMethPhase",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [null],
+      "Preprints": [null]
+    },
+    "Recent_citations": [null],
+    "PubDates": [null],
+    "Github": "vahidAK/NanoMethPhase",
+    "PyPI": "nanomethphase",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseModificationDetection"]
+  },
+  {
     "Name": "NanoMethViz",
     "Platform": "R, C++",
     "Description": "A toolkit for visualising methylation data from Oxford Nanopore sequencing",
@@ -8788,13 +8880,13 @@
           "DOI": "10.1093/nar/gkz1173",
           "PubDate": "2019-12-05",
           "Preprint": false,
-          "Citations": [15],
+          "Citations": [14],
           "Recent_citations": 9
         }
       ],
       "Preprints": []
     },
-    "Citations": 15,
+    "Citations": 14,
     "Recent_citations": [9],
     "Publications": 1,
     "Preprints": 0,
@@ -10304,13 +10396,13 @@
           "DOI": "10.1093/bioinformatics/btt086",
           "PubDate": "2013-02-20",
           "Preprint": false,
-          "Citations": [2444],
+          "Citations": [2446],
           "Recent_citations": 48
         }
       ],
       "Preprints": []
     },
-    "Citations": 2444,
+    "Citations": 2446,
     "Recent_citations": [48],
     "Publications": 1,
     "Preprints": 0,
@@ -10809,6 +10901,42 @@
     "Categories": ["Basecalling"]
   },
   {
+    "Name": "ReadFish",
+    "DOIs": "10.1038/s41587-020-00746-x",
+    "Platform": "Python",
+    "Description": "Real-time selective sequencing using ONT with GPU basecalling",
+    "Code": "https://github.com/looselab/readfish",
+    "Underlying_algorithms": "Package integrates with the Read Until API. However, a slightly modified version of Read Until API V2, is used.",
+    "Strengths_weaknesses": "Graphical processing unit (GPU) base-calling is used to avoid requirement of substantial computational resources; Able to scale to gigabase sized references",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Readfish enables targeted nanopore sequencing of gigabase-sized genomes",
+          "DOI": "10.1038/s41587-020-00746-x",
+          "PubDate": "2020-11-30",
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 0,
+    "Recent_citations": [0],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2020-11-30"],
+    "Github": "looselab/readfish",
+    "PyPI": "readfish",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["Basecalling"]
+  },
+  {
     "Name": "ReadSim",
     "Platform": "Python",
     "Description": "NOT MAINTAINED:: Read simulator for PacBio and ONT",
@@ -11184,6 +11312,42 @@
     "Github": "nanoporetech/flappie/blob/master/RUNNIE.md",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["fast5FileProcessing", "Basecalling"]
+  },
+  {
+    "Name": "SACall",
+    "DOIs": "10.1109/TCBB.2020.3039244",
+    "Platform": "Python, Sheel",
+    "Description": "Basecaller for Oxford Nanopore sequencing data based on self-attention mechanism",
+    "Code": "https://github.com/huangnengCSU/SACall-basecaller",
+    "Underlying_algorithms": "Based on convolution layers, transformer self-attention layers and a CTC decoder",
+    "Strengths_weaknesses": "New network architecture for an ONT basecaller. No model for modified bases and limited training set.",
+    "Overall_performance": "Outperformed Guppy v2.3.8 on microbial genomes, on par with Guppy trained on the same dataset as SACall.",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "SACall: a neural network basecaller for Oxford Nanopore sequencing data based on self-attention mechanism",
+          "DOI": "10.1109/TCBB.2020.3039244",
+          "PubDate": "2020-11-20",
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 0,
+    "Recent_citations": [0],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2020-11-20"],
+    "Github": "huangnengCSU/SACall-basecaller",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["Basecalling", "TestedOnHumanData"]
   },
   {
     "Name": "SALSA",
@@ -12001,13 +12165,13 @@
           "DOI": "10.1089/cmb.2012.0021",
           "PubDate": "2012-04-16",
           "Preprint": false,
-          "Citations": [9196],
+          "Citations": [9197],
           "Recent_citations": 54
         }
       ],
       "Preprints": []
     },
-    "Citations": 9196,
+    "Citations": 9197,
     "Recent_citations": [54],
     "Publications": 1,
     "Preprints": 0,
@@ -12147,7 +12311,7 @@
     "Preprints": 1,
     "PubDates": ["2018-02-09"],
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["IsoformDetection", "QualityChecking", "ProvideSummaryStatistics", "Transcriptomics", "QualityFiltering"]
+    "Categories": ["ErrorCorrectionAndPolishing", "IsoformDetection", "QualityChecking", "ProvideSummaryStatistics", "Transcriptomics", "QualityFiltering"]
   },
   {
     "Name": "SQANTI2",
@@ -12181,7 +12345,7 @@
     "PubDates": ["2018-02-09"],
     "Github": "Magdoll/SQANTI2",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["ErrorCorrectionAndPolishing", "QualityChecking", "ProvideSummaryStatistics", "Transcriptomics", "QualityFiltering"]
+    "Categories": ["ErrorCorrectionAndPolishing", "IsoformDetection", "QualityChecking", "ProvideSummaryStatistics", "Transcriptomics", "QualityFiltering"]
   },
   {
     "Name": "SQANTI3",
@@ -12215,7 +12379,7 @@
     "PubDates": ["2018-02-09"],
     "Github": "ConesaLab/SQANTI3",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["QualityChecking", "ProvideSummaryStatistics", "QualityTrimming", "Transcriptomics", "QualityFiltering"]
+    "Categories": ["ErrorCorrectionAndPolishing", "IsoformDetection", "QualityChecking", "ProvideSummaryStatistics", "QualityTrimming", "Transcriptomics", "QualityFiltering"]
   },
   {
     "Name": "SquiggleKit",
@@ -13730,13 +13894,13 @@
           "DOI": "10.1038/s41592-019-0669-3",
           "PubDate": "2019-12-09",
           "Preprint": false,
-          "Citations": [106],
+          "Citations": [107],
           "Recent_citations": 78
         }
       ],
       "Preprints": []
     },
-    "Citations": 106,
+    "Citations": 107,
     "Recent_citations": [78],
     "Publications": 1,
     "Preprints": 0,
