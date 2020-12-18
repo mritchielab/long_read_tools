@@ -83,7 +83,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
                                                                             paste("10.7287/", stringr::regex(".*$", ignore_case = TRUE), sep=""),
                                                                             paste("10.21203/", stringr::regex(".*$", ignore_case = TRUE), sep=""),
                                                                             "arxiv"), collapse ="|")),
-                              Citations = cites,
+                              Citations = cites[2,],
                               Recent_citations = recent_cites)
     })
 

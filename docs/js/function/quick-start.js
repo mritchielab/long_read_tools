@@ -160,26 +160,24 @@ function bindWorkflow(value, callback) {
 
     $.each(workflowData.categories, function (index, category) {
         countCat++;
+        let catName = genareteUserFriendlyNames(category.category)
 
         HTML += '<div class=" category-box">' +
-            '<div>';
+            '<div>' +
+            '<p class="cat-name">' + catName + '</p>' +
 
-        var linkedCat = [];
-        $.each(category.category, function (index, cat) {
-            linkedCat.push(genareteUserFriendlyNames(cat))
-        })
-        
-        HTML += '<p class="cat-name">' + linkedCat.join(", ") + '</p>';
-        HTML += '</div>' +
+            '</div>' +
             '<div class="tool-description-block' + index + '" style="display: block;">';
+        // if (typeof getTool(category.best_tool) !== "undefined") {
         $.each(category.best_tool, function (index, tool) {
             console.log(getTool(tool));
             if (typeof getTool(tool) !== "undefined") {
                 HTML += generateToolSection(getTool(tool), tool)
             }
         })
+        // }
 
-        HTML += '<p class="tool-description"><a target="_blank"  href="tools.html?sort=Name&cat=' + category.category + '&tec=" >More tools in these categories</a></p>' +
+        HTML += '<p class="tool-description"><a target="_blank"  href="tools.html?sort=Name&cat=' + category.category + '&tec=" >More tools in this category</a></p>' +
             '</div>' +
             '</div>';
         if (catLength != countCat) {
