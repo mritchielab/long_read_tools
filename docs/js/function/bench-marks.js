@@ -210,10 +210,6 @@ function createbodyMain(data, sortby) {
         '<div class="row">' +
         '<div class="col-lg-12 col-md-12">' + getTitleByValue('Year: ', val.Year) + ' ' + checkUndefine(val.Year) + '</div > ' +
         '</div>' +
-        //'<div class="row">' +
-        //'<div class="col-lg-6 col-md-6">' + getTitleByValue("Issue: ", val.Issue) + ' ' + checkUndefine(val.Issue) + '</div>' +
-        //'<div class="col-lg-6 col-md-6">' + getTitleByValue("Volume: ", val.Volume) + ' ' + checkUndefine(val.Volume) + '</div>' +
-        //'</div>' +
         '</div>' +
         ' </div>' +
         '<div class="row">' +

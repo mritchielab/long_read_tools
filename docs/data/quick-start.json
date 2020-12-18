@@ -23,20 +23,20 @@
                 ],
                 "categories": [
                     {
-                        "category": "Basecalling",
-                        "best_tool": "Guppy"
+                        "category": ["Basecalling"],
+                        "best_tool": ["Guppy"]
                     },
                     {
-                        "category": "Alignment",
-                        "best_tool": "Minimap2"
+                        "category": ["Alignment"],
+                        "best_tool": ["Minimap2"]
                     },
                     {
-                        "category": "BaseModificationDetention",
-                        "best_tool": "nanopolish"
+                        "category": ["BaseModificationDetention"],
+                        "best_tool": ["nanopolish"]
                     },
                     {
-                        "category": "Visualisation",
-                        "best_tool": "nanopore-methylation-utilities"
+                        "category": ["Visualisation"],
+                        "best_tool": ["nanopore-methylation-utilities"]
                     }
                 ]
             },
@@ -52,33 +52,33 @@
                 ],
                 "categories": [
                     {
-                        "category": "Basecalling",
-                        "best_tool": "Guppy"
+                        "category": ["Basecalling"],
+                        "best_tool": ["Guppy"]
                     },
 					{
-						"category": "QualityChecking",
+						"category": ["QualityChecking"],
 						"best_tool": ["FastQC", "PycoQC", "MinIONQC"]
 					},
                     {
-                        "category": ["QualityFiltering", "QualityTrimming"]
-                        "best_tool": ["Porechop", "NanoFilt" ]
+                        "category": ["QualityFiltering", "QualityTrimming"],
+                        "best_tool": ["Porechop", "NanoFilt"]
                     },
 					{
-                        "category": "DenovoAssembly",
+                        "category": ["DenovoAssembly"],
                         "best_tool": ["Minimap2", "Flye","Shasta"]
                     },
 					{
-                        "category": "ErrorCorrectionAndPolishing",
+                        "category": ["ErrorCorrectionAndPolishing"],
                         "best_tool": ["Racon", "Minipolish", "Medaka", "Pilon"]
                     },
                     {
-                        "category": "SNPAndVariantAnalysis",
-                        "best_tool": "nanopolish"
+                        "category": ["SNPAndVariantAnalysis"],
+                        "best_tool": ["nanopolish"]
                     }
                 ]
             },
 			{
-                "wfName": "Introduction to Nanopore Sequencing",
+                "wfName": "Bacterial genome hybrid assembly",
                 "description": "The tutorial will assemble the E. coli genome using a mix of long, error-prone reads from the MinION (Oxford Nanopore) and short reads from a HiSeq instrument (Illumina)",
                 "links": [
                     [
@@ -89,16 +89,16 @@
                 ],
                 "categories": [
                     {
-                        "category": "Basecalling",
-                        "best_tool": "Guppy"
+                        "category": ["Basecalling"],
+                        "best_tool": ["Guppy"]
                     },
 					{
-						"category": "DenovoAssembly",
-						"best_tool": "wtdbg2"
+						"category": ["DenovoAssembly"],
+						"best_tool": ["wtdbg2"]
 					},
                     {
-                        "category": "ErrorCorrectionAndPolishing",
-                        "best_tool": "wtdbg2"
+                        "category": ["ErrorCorrectionAndPolishing"],
+                        "best_tool": ["wtdbg2"]
                     }
                 ]
             },
@@ -116,19 +116,19 @@
 					{
 						"refName": "https://doi.org/10.1101/2020.06.28.176727"
 					}
-				]
+				],
                 "categories": [
                     {
-                        "category": "Basecalling",
-                        "best_tool": "Guppy"
+                        "category": ["Basecalling"],
+                        "best_tool": ["Guppy"]
                     },
 					{
-						"category": "DenovoAssembly",
-						"best_tool": "wtdbg2"
+						"category": ["DenovoAssembly"],
+						"best_tool": ["wtdbg2"]
 					},
                     {
-                        "category": "ErrorCorrectionAndPolishing",
-                        "best_tool": "wtdbg2"
+                        "category": ["ErrorCorrectionAndPolishing"],
+                        "best_tool": ["wtdbg2"]
                     }
                 ]
             }
