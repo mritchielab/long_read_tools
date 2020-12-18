@@ -36,7 +36,7 @@ $(document).ready(function () {
             toolMap[tool.Name.toLowerCase().replace(/-/g, '').replace(/_/g, '')] = tool;
 
         });
-        console.log({ toolMap });
+        console.log({toolMap});
     });
 
 
@@ -134,14 +134,12 @@ function bindWorkflow(value, callback) {
         '<div class="row">' +
         '<div class="col-lg-12">' +
 
-        '<p>' + workflowData.description + '</p>';
-    if (workflowData.ref && workflowData.ref.length !== 0) {
-        HTML += '<h3>Workflow References</h3>' +
-            '<ul>';
-    }
-
+        '<p>' + workflowData.description + '</p>' +
+        '<h3>Workflow References</h3>' +
+        '<ul>';
     $.each(workflowData.ref, function (index, refList) {
-        HTML += '<li>' + refList.refName + '</li>'
+        HTML += '<li><a target="_blank" href="' + refList.refName + '"> '
+        + refList.refName +'</a></li>'
     })
 
     HTML += '</ul>' +
@@ -168,14 +166,9 @@ function bindWorkflow(value, callback) {
 
             '</div>' +
             '<div class="tool-description-block' + index + '" style="display: block;">';
-        // if (typeof getTool(category.best_tool) !== "undefined") {
-        $.each(category.best_tool, function (index, tool) {
-            console.log(getTool(tool));
-            if (typeof getTool(tool) !== "undefined") {
-                HTML += generateToolSection(getTool(tool), tool)
-            }
-        })
-        // }
+        if (typeof getTool(category.best_tool) !== "undefined") {
+            HTML += generateToolSection(getTool(category.best_tool), category.best_tool)
+        }
 
         HTML += '<p class="tool-description"><a target="_blank"  href="tools.html?sort=Name&cat=' + category.category + '&tec=" >More tools in this category</a></p>' +
             '</div>' +
