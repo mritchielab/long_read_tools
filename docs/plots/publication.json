@@ -3,10 +3,10 @@
     {
       "orientation": "v",
       "width": 1,
-      "base": 228,
+      "base": 212,
       "x": [1],
-      "y": [250],
-      "text": "Type: Published<br />Count: 250<br />Percent: 52.3",
+      "y": [266],
+      "text": "Type: Published<br />Count: 266<br />Percent: 55.6",
       "type": "bar",
       "marker": {
         "autocolorscale": false,
@@ -29,8 +29,8 @@
       "width": 1,
       "base": 171,
       "x": [1],
-      "y": [57],
-      "text": "Type: Preprint<br />Count:  57<br />Percent: 11.9",
+      "y": [41],
+      "text": "Type: Preprint<br />Count:  41<br />Percent: 8.6",
       "type": "bar",
       "marker": {
         "autocolorscale": false,
@@ -74,9 +74,9 @@
     },
     {
       "x": [1],
-      "y": [353],
-      "text": "Published 52.3%",
-      "hovertext": "Type: Published<br />Count: 250<br />Percent: 52.3",
+      "y": [345],
+      "text": "Published 55.6%",
+      "hovertext": "Type: Published<br />Count: 266<br />Percent: 55.6",
       "textfont": {
         "size": 11.3385826771654,
         "color": "rgba(255,255,255,1)"
@@ -94,9 +94,9 @@
     },
     {
       "x": [1],
-      "y": [199.5],
-      "text": "Preprint 11.9%",
-      "hovertext": "Type: Preprint<br />Count:  57<br />Percent: 11.9",
+      "y": [191.5],
+      "text": "Preprint 8.6%",
+      "hovertext": "Type: Preprint<br />Count:  41<br />Percent: 8.6",
       "textfont": {
         "size": 11.3385826771654,
         "color": "rgba(255,255,255,1)"
@@ -274,14 +274,14 @@
   },
   "source": "A",
   "attrs": {
-    "7d80df144c7": {
+    "97941e137ca": {
       "x": {},
       "fill": {},
       "weight": {},
       "text": {},
       "type": "bar"
     },
-    "7d801f932c28": {
+    "979419e73f0c": {
       "x": {},
       "y": {},
       "label": {},
@@ -291,10 +291,10 @@
       "text": {}
     }
   },
-  "cur_data": "7d80df144c7",
+  "cur_data": "97941e137ca",
   "visdat": {
-    "7d80df144c7": ["function (y) ", "x"],
-    "7d801f932c28": ["function (y) ", "x"]
+    "97941e137ca": ["function (y) ", "x"],
+    "979419e73f0c": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",

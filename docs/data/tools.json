@@ -849,21 +849,21 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "BLAT---The BLAST-Like Alignment Tool",
           "DOI": "10.1101/gr.229202",
           "PubDate": "2008-07-19",
-          "Preprint": true,
-          "Citations": [2535]
+          "Preprint": false,
+          "Citations": [2536]
         }
-      ]
+      ],
+      "Preprints": []
     },
-    "Citations": 2535,
+    "Citations": 2536,
     "Recent_citations": ["NA"],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2008-07-19"],
     "Technologies": ["OxfordNanopore"],
     "Categories": ["IsoformDetection", "Transcriptomics"]
@@ -1096,22 +1096,22 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "Canu: scalable and accurate long-read assembly via adaptivek-mer weighting and repeat separation",
           "DOI": "10.1101/gr.215087.116",
           "PubDate": "2017-03-16",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [1939],
           "Recent_citations": 523
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 1939,
     "Recent_citations": [523],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2017-03-16"],
     "Github": "marbl/canu",
     "Technologies": ["OxfordNanopore", "PacBio"],
@@ -1136,13 +1136,11 @@
           "DOI": "10.1093/nar/gky834",
           "PubDate": "2018-09-11",
           "Preprint": false,
-          "Citations": [12],
           "Recent_citations": 10
         }
       ],
       "Preprints": []
     },
-    "Citations": 12,
     "Recent_citations": [10],
     "Publications": 1,
     "Preprints": 0,
@@ -1170,13 +1168,11 @@
           "DOI": "10.1186/s12859-018-2124-3",
           "PubDate": "2018-04-04",
           "Preprint": false,
-          "Citations": [9],
           "Recent_citations": 5
         }
       ],
       "Preprints": []
     },
-    "Citations": 9,
     "Recent_citations": [5],
     "Publications": 1,
     "Preprints": 0,
@@ -1289,22 +1285,22 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "Centrifuge: rapid and sensitive classification of metagenomic sequences",
           "DOI": "10.1101/gr.210641.116",
           "PubDate": "2016-10-18",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [366],
           "Recent_citations": 70
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 366,
     "Recent_citations": [70],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2016-10-18"],
     "Github": "infphilo/centrifuge",
     "Technologies": ["OxfordNanopore", "PacBio"],
@@ -1778,13 +1774,11 @@
           "DOI": "10.1038/s41592-019-0394-y",
           "PubDate": "2019-04-22",
           "Preprint": false,
-          "Citations": [22],
           "Recent_citations": 16
         }
       ],
       "Preprints": []
     },
-    "Citations": 22,
     "Recent_citations": [16],
     "Publications": 1,
     "Preprints": 0,
@@ -1820,12 +1814,12 @@
           "DOI": "10.1101/145474",
           "PubDate": "2017-06-03",
           "Preprint": true,
-          "Citations": [2],
+          "Citations": [9],
           "Recent_citations": 1
         }
       ]
     },
-    "Citations": 11,
+    "Citations": 18,
     "Recent_citations": [2, 1],
     "Publications": 0,
     "Preprints": 2,
@@ -2057,22 +2051,22 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "Molecular barcoding of native RNAs using nanopore sequencing and deep learning",
           "DOI": "10.1101/gr.260836.120",
           "PubDate": "2020-09-09",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [2],
           "Recent_citations": 1
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 2,
     "Recent_citations": [1],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2020-09-09"],
     "Github": "Psy-Fer/deeplexicon",
     "Technologies": ["OxfordNanopore"],
@@ -2609,13 +2603,11 @@
           "DOI": "10.1038/s41467-019-11713-9",
           "PubDate": "2019-09-09",
           "Preprint": false,
-          "Citations": [56],
           "Recent_citations": 40
         }
       ],
       "Preprints": []
     },
-    "Citations": 56,
     "Recent_citations": [40],
     "Publications": 1,
     "Preprints": 0,
@@ -3080,22 +3072,22 @@
     "BionanoGenomics": false,
     "HiC": true,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "In vitro, long-range sequence information for de novo genome assembly via transposase contiguity",
           "DOI": "10.1101/gr.178319.114",
           "PubDate": "2014-10-20",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [86],
           "Recent_citations": 13
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 86,
     "Recent_citations": [13],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2014-10-20"],
     "Technologies": ["tenxGenomics", "HiC"],
     "Categories": ["Scaffolding"]
@@ -3419,22 +3411,22 @@
     "BionanoGenomics": false,
     "HiC": true,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "HapCUT2: robust and accurate haplotype assembly for diverse sequencing technologies",
           "DOI": "10.1101/gr.213462.116",
           "PubDate": "2016-12-10",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [121],
           "Recent_citations": 32
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 121,
     "Recent_citations": [32],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2016-12-10"],
     "Github": "vibansal/HapCUT2",
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "HiC"],
@@ -3459,13 +3451,11 @@
           "DOI": "10.1093/nar/gkz107",
           "PubDate": "2019-02-18",
           "Preprint": false,
-          "Citations": [26],
           "Recent_citations": 16
         }
       ],
       "Preprints": []
     },
-    "Citations": 26,
     "Recent_citations": [16],
     "Publications": 1,
     "Preprints": 0,
@@ -3734,22 +3724,22 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "HiCanu: accurate assembly of segmental duplications, satellites, and allelic variants from high-fidelity long reads",
           "DOI": "10.1101/gr.263566.120",
           "PubDate": "2020-08-14",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [9],
           "Recent_citations": 2
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 9,
     "Recent_citations": [2],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2020-08-14"],
     "Github": "marbl/canu",
     "Technologies": ["OxfordNanopore", "PacBio"],
@@ -3800,22 +3790,22 @@
     "BionanoGenomics": true,
     "HiC": true,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "HINGE: long-read assembly achieves optimal repeat resolution",
           "DOI": "10.1101/gr.216465.116",
           "PubDate": "2017-03-21",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [55],
           "Recent_citations": 19
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 55,
     "Recent_citations": [19],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2017-03-21"],
     "Github": "HingeAssembler/HINGE",
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
@@ -3983,13 +3973,11 @@
           "DOI": "10.1186/s13742-016-0140-7",
           "PubDate": "2016-08-02",
           "Preprint": false,
-          "Citations": [73],
           "Recent_citations": 23
         }
       ],
       "Preprints": []
     },
-    "Citations": 73,
     "Recent_citations": [23],
     "Publications": 1,
     "Preprints": 0,
@@ -4241,13 +4229,11 @@
           "DOI": "10.1186/s13015-016-0075-7",
           "PubDate": "2016-05-03",
           "Preprint": false,
-          "Citations": [40],
           "Recent_citations": 7
         }
       ],
       "Preprints": []
     },
-    "Citations": 40,
     "Recent_citations": [7],
     "Publications": 1,
     "Preprints": 0,
@@ -4452,22 +4438,22 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "Adaptive seeds tame genomic sequence comparison",
           "DOI": "10.1101/gr.113985.110",
           "PubDate": "2011-01-06",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [643],
           "Recent_citations": 18
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 643,
     "Recent_citations": [18],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2011-01-06"],
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["Alignment"]
@@ -6090,7 +6076,7 @@
   },
   {
     "Name": "miniasm",
-    "DOIs": "10.1093/bioinformatics/bty191",
+    "DOIs": "10.1093/bioinformatics/btw152",
     "Platform": "C",
     "Description": "Takes all-vs-all read self-mappings (typically by minimap) as input and outputs an assembly graph in the GFA format. Different from mainstream assemblers, miniasm does not have a consensus step. It simply concatenates pieces of read sequences to generate the final contig sequences. Thus, the per-base error rate is similar to the raw input reads.",
     "Code": "https://github.com/lh3/miniasm",
@@ -6103,21 +6089,21 @@
     "Refs": {
       "Publications": [
         {
-          "Title": "Minimap2: pairwise alignment for nucleotide sequences",
-          "DOI": "10.1093/bioinformatics/bty191",
-          "PubDate": "2018-05-04",
+          "Title": "Minimap and miniasm: fast mapping and de novo assembly for noisy long sequences",
+          "DOI": "10.1093/bioinformatics/btw152",
+          "PubDate": "2016-03-20",
           "Preprint": false,
-          "Citations": [1351],
-          "Recent_citations": 690
+          "Citations": [475],
+          "Recent_citations": 82
         }
       ],
       "Preprints": []
     },
-    "Citations": 1351,
-    "Recent_citations": [690],
+    "Citations": 475,
+    "Recent_citations": [82],
     "Publications": 1,
     "Preprints": 0,
-    "PubDates": ["2018-05-04"],
+    "PubDates": ["2016-03-20"],
     "Github": "lh3/miniasm",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["DenovoAssembly", "TestedOnNonHumanData"]
@@ -6209,13 +6195,13 @@
           "DOI": "10.1093/bioinformatics/bty191",
           "PubDate": "2018-05-04",
           "Preprint": false,
-          "Citations": [1351],
+          "Citations": [1352],
           "Recent_citations": 690
         }
       ],
       "Preprints": []
     },
-    "Citations": 1351,
+    "Citations": 1352,
     "Recent_citations": [690],
     "Publications": 1,
     "Preprints": 0,
@@ -6599,22 +6585,22 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "Structural variants identified by Oxford Nanopore PromethION sequencing of the human genome",
           "DOI": "10.1101/gr.244939.118",
           "PubDate": "2019-06-11",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [44],
           "Recent_citations": 36
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 44,
     "Recent_citations": [36],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2019-06-11"],
     "Github": "wdecoster/nano-snakemake",
     "Technologies": ["OxfordNanopore"],
@@ -6905,22 +6891,20 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "Oxford Nanopore sequencing, hybrid error correction, and de novo assembly of a eukaryotic genome",
           "DOI": "10.1101/gr.191395.115",
           "PubDate": "2015-10-08",
-          "Preprint": true,
-          "Citations": [221],
+          "Preprint": false,
           "Recent_citations": 78
         }
-      ]
+      ],
+      "Preprints": []
     },
-    "Citations": 221,
     "Recent_citations": [78],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2015-10-08"],
     "Github": "jgurtowski/nanocorr",
     "Technologies": ["OxfordNanopore"],
@@ -7825,13 +7809,11 @@
           "DOI": "10.1371/journal.pone.0216471",
           "PubDate": "2019-05-09",
           "Preprint": false,
-          "Citations": [3],
           "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Citations": 3,
     "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
@@ -7996,12 +7978,10 @@
           "DOI": "10.1101/2020.05.31.126763",
           "PubDate": "2020-06-01",
           "Preprint": true,
-          "Citations": [3],
           "Recent_citations": 2
         }
       ]
     },
-    "Citations": 3,
     "Recent_citations": [2],
     "Publications": 0,
     "Preprints": 1,
@@ -8029,13 +8009,11 @@
           "DOI": "10.1093/gigascience/gix010",
           "PubDate": "2017-02-25",
           "Preprint": false,
-          "Citations": [35],
           "Recent_citations": 11
         }
       ],
       "Preprints": []
     },
-    "Citations": 35,
     "Recent_citations": [11],
     "Publications": 1,
     "Preprints": 0,
@@ -8388,22 +8366,22 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "Single-molecule long-read sequencing reveals the chromatin basis of gene expression",
           "DOI": "10.1101/gr.251116.119",
           "PubDate": "2019-06-14",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [7],
           "Recent_citations": 5
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 7,
     "Recent_citations": [5],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2019-06-14"],
     "Github": "Au-Lab/NP-SMLR",
     "Technologies": ["OxfordNanopore"],
@@ -10396,13 +10374,13 @@
           "DOI": "10.1093/bioinformatics/btt086",
           "PubDate": "2013-02-20",
           "Preprint": false,
-          "Citations": [2446],
+          "Citations": [2447],
           "Recent_citations": 48
         }
       ],
       "Preprints": []
     },
-    "Citations": 2446,
+    "Citations": 2447,
     "Recent_citations": [48],
     "Publications": 1,
     "Preprints": 0,
@@ -10647,22 +10625,22 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "Fast and accurate de novo genome assembly from long uncorrected reads",
           "DOI": "10.1101/gr.214270.116",
           "PubDate": "2017-01-19",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [508],
           "Recent_citations": 85
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 508,
     "Recent_citations": [85],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2017-01-19"],
     "Github": "isovic/racon",
     "Technologies": ["OxfordNanopore", "PacBio"],
@@ -12165,13 +12143,13 @@
           "DOI": "10.1089/cmb.2012.0021",
           "PubDate": "2012-04-16",
           "Preprint": false,
-          "Citations": [9197],
+          "Citations": [9200],
           "Recent_citations": 54
         }
       ],
       "Preprints": []
     },
-    "Citations": 9197,
+    "Citations": 9200,
     "Recent_citations": [54],
     "Publications": 1,
     "Preprints": 0,
@@ -12293,22 +12271,22 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "SQANTI: extensive characterization of long-read transcript sequences for quality control in full-length transcriptome identification and quantification",
           "DOI": "10.1101/gr.222976.117",
           "PubDate": "2018-02-09",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [64],
           "Recent_citations": 40
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 64,
     "Recent_citations": [40],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2018-02-09"],
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["ErrorCorrectionAndPolishing", "IsoformDetection", "QualityChecking", "ProvideSummaryStatistics", "Transcriptomics", "QualityFiltering"]
@@ -12326,22 +12304,22 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "SQANTI: extensive characterization of long-read transcript sequences for quality control in full-length transcriptome identification and quantification",
           "DOI": "10.1101/gr.222976.117",
           "PubDate": "2018-02-09",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [64],
           "Recent_citations": 40
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 64,
     "Recent_citations": [40],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2018-02-09"],
     "Github": "Magdoll/SQANTI2",
     "Technologies": ["OxfordNanopore", "PacBio"],
@@ -12360,22 +12338,22 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
-      "Preprints": [
+      "Publications": [
         {
           "Title": "SQANTI: extensive characterization of long-read transcript sequences for quality control in full-length transcriptome identification and quantification",
           "DOI": "10.1101/gr.222976.117",
           "PubDate": "2018-02-09",
-          "Preprint": true,
+          "Preprint": false,
           "Citations": [64],
           "Recent_citations": 40
         }
-      ]
+      ],
+      "Preprints": []
     },
     "Citations": 64,
     "Recent_citations": [40],
-    "Publications": 0,
-    "Preprints": 1,
+    "Publications": 1,
+    "Preprints": 0,
     "PubDates": ["2018-02-09"],
     "Github": "ConesaLab/SQANTI3",
     "Technologies": ["OxfordNanopore", "PacBio"],
@@ -13215,13 +13193,11 @@
           "DOI": "10.21105/joss.01021",
           "PubDate": "2019-03-01",
           "Preprint": false,
-          "Citations": [0],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 0,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
