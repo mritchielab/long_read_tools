@@ -141,7 +141,16 @@ function bindWorkflow(value, callback) {
     }
 
     $.each(workflowData.ref, function (index, refList) {
-        HTML += '<li>' + refList.refName + '</li>'
+        HTML += '<li><a target="_blank" href="' + refList.refName + '">' + refList.refName + ' </a></li>'
+    })
+
+    if (workflowData.links && workflowData.links.length !== 0) {
+        HTML += '<h3>Workflow Source</h3>' +
+            '<ul>';
+    }
+
+    $.each(workflowData.links, function (index, linksList) {
+        HTML += '<li><a target="_blank" href="' + linksList.link + '">' + linksList.link + ' </a></li>'
     })
 
     HTML += '</ul>' +

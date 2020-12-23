@@ -56,7 +56,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
             
             recent_cites <- sapply(dois, function(doi){
                 recent_cite <- tryCatch({
-                    get_recent_cite(doi)
+                    suppressWarnings(get_recent_cite(doi))
                 }, error = function(e){
                     NA
                 })

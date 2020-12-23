@@ -6,7 +6,7 @@ let fliterdthings;
 $(document).ready(function () {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
-// alert(window.location.hash)
+  // alert(window.location.hash)
   $.getJSON("data/categories.json", function (data) {
     masterCatData = data;
     gearateOptionVals(masterCatData, "cat", function (optionHTML) {
@@ -41,7 +41,6 @@ $(document).ready(function () {
     }
     //  sortby!='null' ? $("#toolsortby").val(sortby):($("#toolsortby").val("Name"))
     sortTools(datalist, function (sortdata) {
-
       if ($("#cat").val() != "" || $("#tec").val() != "") {
         filterTools(sortdata, function (fliterdthings) {
           createbodyMain(fliterdthings, sortby);
@@ -162,6 +161,7 @@ function createbodyMain(data, sortby) {
       $("#alfalist").show();
       let letterHTML = ' <ul id="name-bookmarks" class="display-inline ui-alfa">';
       let letterArray = genCharArray("A", "Z");
+      letterArray.push("1", "2", "3", "4", "5", "6", "7", "8", "9", "0")
       // let i=0
       for (let index = 0; index < letterArray.length; index++) {
         var found_names = $.grep(data, function (v) {
@@ -214,9 +214,9 @@ function createBody(data, body) {
   let count = 1;
   let bodyleft = "";
   let bodyRight = "";
-  cval=1
+  cval = 1
   $.each(data, function (key, val) {
-    if (count++% 2 != 0 ) {
+    if (count++ % 2 != 0) {
       bodyleft += genarateCollapsheading(
         val,
         (val["Name"] + key).replace(/\s/g, "")
@@ -236,13 +236,18 @@ function createBody(data, body) {
 //sort json data
 function sortByProperty(property) {
   return function (a, b) {
-    if (property !== "Citations") {
+    if (property == "Name") {
 
       if (createSortString(a[property]) > createSortString(b[property])) return 1;
       else if (createSortString(a[property]) < createSortString(b[property])) return -1;
-    } else {
-      if (createSortString(a[property]) > createSortString(b[property])) return -1;
-      else if (createSortString(a[property]) < createSortString(b[property])) return 1;
+
+    } else if (property == "Technologies") {
+      if (a[property].length > b[property].length) return 1;
+      else if (a[property].length < b[property].length) return -1;
+
+    } else if (property == "Citations") {
+      if (a[property] > b[property]) return -1;
+      else if (a[property] < b[property]) return 1;
     }
     return 0;
   };
@@ -345,7 +350,7 @@ function genarateCollapsheading(obje, key) {
     '<div class="panel-body">';
   blockHtml += "<p>" + description + "</p>";
 
-  if (totalRefs > 0 || recentcitations > 0) {
+  if (totalRefs > 0) {
     blockHtml +=
       '<div class="panel-group">' +
       '<div class="panel panel-default">' +
@@ -353,13 +358,14 @@ function genarateCollapsheading(obje, key) {
       '<h4 class="panel-title">' +
       '<a data-toggle="collapse" href="#collapsePublications' +
       key +
-      '">Publications:' +
+      '">Publications: ' +
       nPubs +
       ", Preprints:" +
       nPres +
-      ", Total citations:" +
+      ",Total citations: " +
       citations +
-      ", Recent Citations:" +
+      ", Recent Citations: " +
+
       recentcitations +
       "</a>" +
       "</h4>" +
@@ -379,12 +385,12 @@ function genarateCollapsheading(obje, key) {
         blockHtml +=
           '<li> <p>"' +
           publication.Title +
-          '"</p>' +
-          ' <p><strong> DOI</strong>:<a target="_blank" href="https://doi.org/' + publication.DOI + '">' +
+          ' "</p>' +
+          ' <p><strong> DOI</strong>: <a target="_blank" href="https://doi.org/' + publication.DOI + '">' +
           publication.DOI +
-          '  <a/><strong>, Published</strong>:' +
+          '  <a/><strong>, Published</strong>: ' +
           publication.PubDate +
-          ', <strong>Citations</strong>:<a target="_blank" href="https://scholar.google.com/scholar?&q=' + publication.DOI + '">' +
+          ', <strong>Citations</strong>:  <a target="_blank" href="https://scholar.google.com/scholar?&q=' + publication.DOI + '">' +
           publication.Citations +
           '</a></p>' +
           '</li>';

@@ -6,11 +6,9 @@
                 "wfName": "Calling and visualising CpG methylation from nanopore data",
                 "description": "Native DNA sequencing with nanopore allows the detection of certain base modifications in the electric signal. Nanopolish performs well on CpG methylation. Raw fast5s are basecalled with Guppy and mapped to a reference with Minimap2. Nanopolish uses the raw signal in the fast5 files along with the read mappings to produce a tsv file containing methylation calls at individual sites for individual reads, which can be further analysed or used to create a bisulfite-like bam file with nanopore-methylation-utilities for data exploration in IGV. Alternatively, a second nanopolish output file (the per-position summary of methylation) can be slightly rearranged to resemble a Bismark Coverage summary and loaded into Seqmonk for data exploration and analysis",
                 "links": [
-                    [
                         {
                             "link": "https://nanopolish.readthedocs.io/en/latest/quickstart_call_methylation.html"
                         }
-                    ]
                 ],
                 "ref": [
                     {
@@ -44,11 +42,9 @@
                 "wfName": "Long-Read, long reach Bioinformatics Tutorials",
                 "description": "Workflows and tutorials for LongRead analysis with specific focus on Oxford Nanopore data",
                 "links": [
-                    [
                         {
                             "link": "https://timkahlke.github.io/LongRead_tutorials/"
                         }
-                    ]
                 ],
                 "categories": [
                     {
@@ -81,11 +77,9 @@
                 "wfName": "Bacterial genome hybrid assembly",
                 "description": "The tutorial will assemble the E. coli genome using a mix of long, error-prone reads from the MinION (Oxford Nanopore) and short reads from a HiSeq instrument (Illumina)",
                 "links": [
-                    [
                         {
                             "link": "https://www.hadriengourle.com/tutorials/nanopore/"
                         }
-                    ]
                 ],
                 "categories": [
                     {
@@ -106,11 +100,9 @@
                 "wfName": "Nanopore long-read RNA-seq differential expression analysis with short-read tools",
                 "description": "Application of Oxford Nanopore Technologies' long-read sequencing platform to transcriptomic analysis is increasing in popularity. We used limma-voom to perform differential gene expression analysis, and the FLAMES pipeline to perform isoform identification and quantification, followed by DRIMSeq and limma-diffSplice (with stageR) to perform differential transcript usage analysis.",
                 "links": [
-                    [
                         {
                             "link": "https://github.com/XueyiDong/LongReadRNA"
                         }
-                    ]
                 ],
 				"ref": [
 					{
