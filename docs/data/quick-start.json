@@ -97,8 +97,8 @@
                 ]
             },
 			{
-                "wfName": "Nanopore long-read RNA-seq differential expression analysis with short-read tools",
-                "description": "Application of Oxford Nanopore Technologies' long-read sequencing platform to transcriptomic analysis is increasing in popularity. We used limma-voom to perform differential gene expression analysis, and the FLAMES pipeline to perform isoform identification and quantification, followed by DRIMSeq and limma-diffSplice (with stageR) to perform differential transcript usage analysis.",
+                "wfName": "Nanopore long-read RNA-seq differential gene expression analysis",
+                "description": "Application of Oxford Nanopore Technologies' long-read sequencing platform to transcriptomic analysis is increasing in popularity. Here, we report an analysis pipeline that performs differential gene expression analysis. Raw fast5s are basecalled, trimmed and demultiplexed with Guppy. Reads are mapped to a reference genome with minimap2. Gene-level counts are calculated with featureCounts from the Subread package, and limma-voom pipeline were used to perform differential expression analysis.",
                 "links": [
                         {
                             "link": "https://github.com/XueyiDong/LongReadRNA"
@@ -111,16 +111,20 @@
 				],
                 "categories": [
                     {
-                        "category": ["Basecalling"],
+                        "category": ["Basecalling", "Demultiplexing"],
                         "best_tool": ["Guppy"]
                     },
-					{
-						"category": ["DenovoAssembly"],
-						"best_tool": ["wtdbg2"]
-					},
+		    {
+			"category": ["Alignment"],
+			"best_tool": ["Minimap2"]
+		    },
                     {
-                        "category": ["ErrorCorrectionAndPolishing"],
-                        "best_tool": ["wtdbg2"]
+                        "category": ["ReadQuantification"],
+                        "best_tool": ["Subread"]
+                    }
+		    {
+                        "category": ["Transcriptomics"],
+                        "best_tool": ["limma"]
                     }
                 ]
             }
