@@ -12,10 +12,16 @@
 # new function to get recent citations for the previous year; developed by Quentin Gouil
 get_recent_cite <- function(doi){
     cites <- citecorp::oc_coci_cites(doi)
-    yearcite <- stringr::str_extract(cites$timespan, 'P.Y') %>% 
+    if (is.null(cites) & length(cites) == 0){
+        return(as.numeric(0))
+    }
+    else{
+        yearcite <- stringr::str_extract(cites$timespan, 'P.Y') %>% 
         stringr::str_remove_all('[PY]') %>% 
         as.numeric()
-    sum(yearcite <=1) %>% as.numeric()
+        sum(yearcite <=1) %>% as.numeric()
+    }
+    
 }
 
 add_refs <- function(swsheet, titles_cache, skip_cites) {
@@ -82,6 +88,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
                               Preprint  = stringr::str_detect(dois, paste(c(paste("10.1101/", stringr::regex("([^'gr\\.'].+$)", ignore_case = TRUE), sep=""),
                                                                             paste("10.7287/", stringr::regex("([^/]+$)", ignore_case = TRUE), sep=""),
                                                                             paste("10.21203/", stringr::regex("([^/]+$)", ignore_case = TRUE), sep=""),
+                                                                            paste("10.20944/", stringr::regex("([^/]+$)", ignore_case = TRUE), sep=""),
                                                                             "arxiv"), collapse ="|")),
                               Citations = cites[2],
                               Recent_citations = recent_cites)
