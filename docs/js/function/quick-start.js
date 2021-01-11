@@ -141,9 +141,7 @@ function bindWorkflow(value, callback) {
     }
 
     $.each(workflowData.ref, function (index, refList) {
-        console.log("SDAS"+workflowData.ref);
-        console.log(workflowData.ref);
-        HTML += '<li><a target="_blank" href="' + refList.refName + '">' + refList.refName + ' </a></li>'
+        HTML += '<li class="link"><a target="_blank" title="' + refList.refName + '" href="' + refList.refName + '">' + refList.refName + ' </a></li>'
     })
 
     if (workflowData.links && workflowData.links.length !== 0) {
@@ -152,9 +150,7 @@ function bindWorkflow(value, callback) {
     }
 
     $.each(workflowData.links, function (index, linksList) {
-        console.log("SDAS"+workflowData.links);
-        console.log(workflowData.links);
-        HTML += '<li><a target="_blank" href="' + linksList.link + '">' + linksList.link + ' </a></li>'
+        HTML += '<li class="link"><a target="_blank" title="' + linksList.link + '" href="' + linksList.link + '">' + linksList.link + ' </a></li>'
     })
 
     HTML += '</ul>' +
