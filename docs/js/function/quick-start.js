@@ -150,6 +150,8 @@ function bindWorkflow(value, callback) {
     }
 
     $.each(workflowData.links, function (index, linksList) {
+        console.log("SDAS"+workflowData.links);
+        console.log(workflowData.links);
         HTML += '<li><a target="_blank" href="' + linksList.link + '">' + linksList.link + ' </a></li>'
     })
 
