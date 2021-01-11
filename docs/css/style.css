@@ -771,3 +771,11 @@ table thead {
     border: 1px solid;
     margin: 10px;
 }
+
+
+.link {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+  }
