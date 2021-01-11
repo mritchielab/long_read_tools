@@ -141,6 +141,8 @@ function bindWorkflow(value, callback) {
     }
 
     $.each(workflowData.ref, function (index, refList) {
+        console.log("SDAS"+workflowData.ref);
+        console.log(workflowData.ref);
         HTML += '<li><a target="_blank" href="' + refList.refName + '">' + refList.refName + ' </a></li>'
     })
 
