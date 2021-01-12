@@ -86,10 +86,10 @@
                         "category": ["Basecalling"],
                         "best_tool": ["Guppy"]
                     },
-					{
-						"category": ["DenovoAssembly"],
-						"best_tool": ["wtdbg2"]
-					},
+		    {
+			"category": ["DenovoAssembly"],
+			"best_tool": ["wtdbg2"]
+		    },
                     {
                         "category": ["ErrorCorrectionAndPolishing"],
                         "best_tool": ["wtdbg2"]
@@ -121,7 +121,7 @@
                     {
                         "category": ["ReadQuantification"],
                         "best_tool": ["Subread"]
-                    }
+                    },
 		    {
                         "category": ["Transcriptomics"],
                         "best_tool": ["limma"]
