@@ -185,10 +185,13 @@ function bindWorkflow(value, callback) {
             console.log(getTool(tool));
             if (typeof getTool(tool) !== "undefined") {
                 HTML += generateToolSection(getTool(tool), tool)
+            } else {
+                HTML += '<div class="panel panel-default"><div class="collapsedhead panel-heading" role="tab" id="heading'+tool.replace(/ /g, '-')+'"><h4 class="panel-title FastQC"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" title="We do not have this tool in our database" href="#collapse'+tool.replace(/ /g, '-')+'" aria-expanded="false" aria-controls="collapse'+tool.replace(/ /g, '-')+'"> '+tool.replace(/-/g, ' ').replace(/_/g, ' ')+'</a></h4></div></div>'
             }
         })
 
-        HTML += '<p class="tool-description"><a target="_blank"  href="tools.html?sort=Name&cat=' + category.category + '&tec=" >More tools in these categories</a></p>' +
+        let linkDes = category.category.length > 1 ? 'More tools in these categories' : 'More tools in this category'
+        HTML += '<p class="tool-description"><a target="_blank"  href="tools.html?sort=Name&cat=' + category.category + '&tec=" >' + linkDes + '</a></p>' +
             '</div>' +
             '</div>';
         if (catLength != countCat) {
