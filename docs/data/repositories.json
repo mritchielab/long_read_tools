@@ -75,7 +75,7 @@
     "Ignored": ["PyPI/nanotest"]
   },
   "MARVEL": {
-    "Ignored": ["PyPI/marvel"]
+    "Ignored": ["PyPI/marvel", "CRAN/MARVEL"]
   },
   "Architect": {
     "Ignored": ["PyPI/architect"]
@@ -443,5 +443,14 @@
   },
   "Freddie": {
     "Ignored": ["PyPI/freddie"]
+  },
+  "DeepSignal-plant": {
+    "PyPI": ["deepsignal-plant"]
+  },
+  "FLAS": {
+    "Ignored": ["PyPI/Flas"]
+  },
+  "MicroPIPE": {
+    "PyPI": ["MicroPipe"]
   }
 }
