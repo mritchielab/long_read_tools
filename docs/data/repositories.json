@@ -30,7 +30,8 @@
     "Ignored": ["PyPI/tofu"]
   },
   "SURVIVOR": {
-    "Ignored": ["PyPI/survivor"]
+    "Ignored": ["PyPI/survivor"],
+    "CRAN": ["survivoR"]
   },
   "SignalAlign": {
     "PyPI": ["signalAlign"]
