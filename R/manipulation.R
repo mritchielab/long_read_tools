@@ -60,7 +60,8 @@ tidy_swsheet_cat <- function(swsheet) {
                   TestedOnHumanData,TestedOnNonHumanData,Normalisation,ProvideSummaryStatistics,
                   QualityTrimming,AvailablityOfTestData,Transcriptomics,GapFilling,
                   AnalysisPipelines, QualityFiltering, Metagenomics, Simulators, Demultiplexing, 
-                  TaxonomicClassification, polyALengthEstimation) %>%
+                  TaxonomicClassification, polyALengthEstimation, FusionDetection,
+                  CoexpressionAnalysis,	AlternativeSplicingDetection) %>%
         dplyr::filter(Val == TRUE) %>%
         dplyr::select(-Val) %>%
         dplyr::arrange(Name)

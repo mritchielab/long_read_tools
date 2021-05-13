@@ -92,13 +92,13 @@
           "DOI": "10.1073/pnas.1604560113",
           "PubDate": "2016-12-13",
           "Preprint": false,
-          "Citations": [99],
+          "Citations": [101],
           "Recent_citations": 26
         }
       ],
       "Preprints": []
     },
-    "Citations": 99,
+    "Citations": 101,
     "Recent_citations": [26],
     "Publications": 1,
     "Preprints": 0,
@@ -106,6 +106,74 @@
     "Github": "bioreps/ABruijn",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["DenovoAssembly", "GeneratingConsensusSequence", "Visualisation", "TestedOnNonHumanData", "AvailablityOfTestData"]
+  },
+  {
+    "Name": "Acorde",
+    "DOIs": "10.1101/2021.05.07.441841",
+    "Platform": "R",
+    "Description": "A pipeline that leverages bulk long reads and single-cell data to detect alternative isoform co-expression relationships",
+    "Code": "https://github.com/ConesaLab/acorde",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": false,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [],
+      "Preprints": [
+        {
+          "Title": "Acorde: unraveling functionally-interpretable networks of isoform co-usage from single cell data",
+          "DOI": "10.1101/2021.05.07.441841",
+          "PubDate": "2021-05-10",
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
+        }
+      ]
+    },
+    "Citations": 0,
+    "Recent_citations": [0],
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["2021-05-10"],
+    "Github": "ConesaLab/acorde",
+    "Technologies": ["PacBio"],
+    "Categories": ["Transcriptomics", "CoexpressionAnalysis", "AlternativeSplicingDetection"]
+  },
+  {
+    "Name": "AERON",
+    "DOIs": "10.1101/2020.01.27.921338",
+    "Platform": "Python",
+    "Description": "Tool for transcript quantification and gene-fusion detection using long reads",
+    "Code": "https://github.com/SchulzLab/Aeron",
+    "License": "MIT License",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [],
+      "Preprints": [
+        {
+          "Title": "AERON: Transcript quantification and gene-fusion detection using long reads",
+          "DOI": "10.1101/2020.01.27.921338",
+          "PubDate": "2020-01-28",
+          "Preprint": true,
+          "Citations": [3],
+          "Recent_citations": 1
+        }
+      ]
+    },
+    "Citations": 3,
+    "Recent_citations": [1],
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["2020-01-28"],
+    "Github": "SchulzLab/Aeron",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["ReadQuantification", "Transcriptomics", "FusionDetection"]
   },
   {
     "Name": "Albacore",
@@ -167,13 +235,13 @@
           "DOI": "10.12688/f1000research.10571.2",
           "PubDate": "2017-06-19",
           "Preprint": false,
-          "Citations": [176],
+          "Citations": [184],
           "Recent_citations": 58
         }
       ],
       "Preprints": []
     },
-    "Citations": 176,
+    "Citations": 184,
     "Recent_citations": [58],
     "Publications": 1,
     "Preprints": 0,
@@ -202,12 +270,12 @@
           "DOI": "10.1073/pnas.1017351108",
           "PubDate": "2010-12-28",
           "Preprint": false,
-          "Citations": [1168]
+          "Citations": [1180]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1168,
+    "Citations": 1180,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -234,13 +302,13 @@
           "DOI": "10.1186/s12864-017-3927-8",
           "PubDate": "2017-07-19",
           "Preprint": false,
-          "Citations": [27],
+          "Citations": [28],
           "Recent_citations": 12
         }
       ],
       "Preprints": []
     },
-    "Citations": 27,
+    "Citations": 28,
     "Recent_citations": [12],
     "Publications": 1,
     "Preprints": 0,
@@ -268,13 +336,13 @@
           "DOI": "10.1093/bioinformatics/btaa179",
           "PubDate": "2020-03-11",
           "Preprint": false,
-          "Citations": [4],
+          "Citations": [5],
           "Recent_citations": 1
         }
       ],
       "Preprints": []
     },
-    "Citations": 4,
+    "Citations": 5,
     "Recent_citations": [1],
     "Publications": 1,
     "Preprints": 0,
@@ -335,13 +403,13 @@
           "DOI": "10.1093/bioinformatics/btx675",
           "PubDate": "2017-10-20",
           "Preprint": false,
-          "Citations": [60],
+          "Citations": [66],
           "Recent_citations": 25
         }
       ],
       "Preprints": []
     },
-    "Citations": 60,
+    "Citations": 66,
     "Recent_citations": [25],
     "Publications": 1,
     "Preprints": 0,
@@ -458,13 +526,13 @@
           "DOI": "10.1093/bioinformatics/btw369",
           "PubDate": "2016-06-19",
           "Preprint": false,
-          "Citations": [118],
+          "Citations": [125],
           "Recent_citations": 22
         }
       ],
       "Preprints": []
     },
-    "Citations": 118,
+    "Citations": 125,
     "Recent_citations": [22],
     "Publications": 1,
     "Preprints": 0,
@@ -526,13 +594,13 @@
           "DOI": "10.1093/bioinformatics/btv046",
           "PubDate": "2015-02-04",
           "Preprint": false,
-          "Citations": [20],
+          "Citations": [21],
           "Recent_citations": 6
         }
       ],
       "Preprints": []
     },
-    "Citations": 20,
+    "Citations": 21,
     "Recent_citations": [6],
     "Publications": 1,
     "Preprints": 0,
@@ -560,13 +628,13 @@
           "DOI": "10.21105/joss.01316",
           "PubDate": "2019-04-04",
           "Preprint": false,
-          "Citations": [17],
+          "Citations": [19],
           "Recent_citations": 8
         }
       ],
       "Preprints": []
     },
-    "Citations": 17,
+    "Citations": 19,
     "Recent_citations": [8],
     "Publications": 1,
     "Preprints": 0,
@@ -637,13 +705,13 @@
           "DOI": "10.1186/s13059-019-1727-y",
           "PubDate": "2019-06-24",
           "Preprint": false,
-          "Citations": [385],
+          "Citations": [439],
           "Recent_citations": 199
         }
       ],
       "Preprints": []
     },
-    "Citations": 385,
+    "Citations": 439,
     "Recent_citations": [199],
     "Publications": 1,
     "Preprints": 0,
@@ -738,17 +806,17 @@
     "Refs": {
       "Publications": [
         {
-          "Title": "BASTA\r\n            – Taxonomic classification of sequences and sequence bins using last common ancestor estimations",
+          "Title": "BASTA\n            – Taxonomic classification of sequences and sequence bins using last common ancestor estimations",
           "DOI": "10.1111/2041-210X.13095",
           "PubDate": "2018-09-16",
           "Preprint": false,
-          "Citations": [16],
+          "Citations": [18],
           "Recent_citations": 9
         }
       ],
       "Preprints": []
     },
-    "Citations": 16,
+    "Citations": 18,
     "Recent_citations": [9],
     "Publications": 1,
     "Preprints": 0,
@@ -889,12 +957,12 @@
           "DOI": "10.1101/gr.229202",
           "PubDate": "2008-07-19",
           "Preprint": false,
-          "Citations": [2704]
+          "Citations": [2838]
         }
       ],
       "Preprints": []
     },
-    "Citations": 2704,
+    "Citations": 2838,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -988,12 +1056,12 @@
           "DOI": "10.1101/2020.10.08.329920",
           "PubDate": "2020-10-10",
           "Preprint": true,
-          "Citations": [1],
+          "Citations": [0],
           "Recent_citations": 0
         }
       ]
     },
-    "Citations": 1,
+    "Citations": 0,
     "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
@@ -1020,13 +1088,13 @@
           "DOI": "10.1093/bioinformatics/bty841",
           "PubDate": "2018-10-12",
           "Preprint": false,
-          "Citations": [70],
+          "Citations": [73],
           "Recent_citations": 40
         }
       ],
       "Preprints": []
     },
-    "Citations": 70,
+    "Citations": 73,
     "Recent_citations": [40],
     "Publications": 1,
     "Preprints": 0,
@@ -1052,13 +1120,13 @@
           "DOI": "10.1093/nar/gkx348",
           "PubDate": "2017-04-24",
           "Preprint": false,
-          "Citations": [34],
+          "Citations": [36],
           "Recent_citations": 10
         }
       ],
       "Preprints": []
     },
-    "Citations": 34,
+    "Citations": 36,
     "Recent_citations": [10],
     "Publications": 1,
     "Preprints": 0,
@@ -1085,12 +1153,12 @@
           "DOI": "10.1093/bioinformatics/btp698",
           "PubDate": "2010-01-16",
           "Preprint": false,
-          "Citations": [5843]
+          "Citations": [5970]
         }
       ],
       "Preprints": []
     },
-    "Citations": 5843,
+    "Citations": 5970,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -1172,13 +1240,13 @@
           "DOI": "10.1101/gr.215087.116",
           "PubDate": "2017-03-16",
           "Preprint": false,
-          "Citations": [2258],
+          "Citations": [2378],
           "Recent_citations": 523
         }
       ],
       "Preprints": []
     },
-    "Citations": 2258,
+    "Citations": 2378,
     "Recent_citations": [523],
     "Publications": 1,
     "Preprints": 0,
@@ -1310,13 +1378,13 @@
           "DOI": "10.3389/fgene.2019.01332",
           "PubDate": "2020-01-20",
           "Preprint": false,
-          "Citations": [7],
+          "Citations": [9],
           "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Citations": 7,
+    "Citations": 9,
     "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
@@ -1365,13 +1433,13 @@
           "DOI": "10.1101/gr.210641.116",
           "PubDate": "2016-10-18",
           "Preprint": false,
-          "Citations": [414],
+          "Citations": [436],
           "Recent_citations": 70
         }
       ],
       "Preprints": []
     },
-    "Citations": 414,
+    "Citations": 436,
     "Recent_citations": [70],
     "Publications": 1,
     "Preprints": 0,
@@ -1486,13 +1554,13 @@
           "DOI": "10.1186/s13059-015-0849-0",
           "PubDate": "2015-12-29",
           "Preprint": false,
-          "Citations": [388],
+          "Citations": [407],
           "Recent_citations": 63
         }
       ],
       "Preprints": []
     },
-    "Citations": 388,
+    "Citations": 407,
     "Recent_citations": [63],
     "Publications": 1,
     "Preprints": 0,
@@ -1521,13 +1589,13 @@
           "DOI": "10.1038/s42256-020-0167-4",
           "PubDate": "2020-04-06",
           "Preprint": false,
-          "Citations": [18],
+          "Citations": [22],
           "Recent_citations": 8
         }
       ],
       "Preprints": []
     },
-    "Citations": 18,
+    "Citations": 22,
     "Recent_citations": [8],
     "Publications": 1,
     "Preprints": 0,
@@ -1758,13 +1826,13 @@
           "DOI": "10.1186/s13059-020-02107-y",
           "PubDate": "2020-08-03",
           "Preprint": false,
-          "Citations": [2],
+          "Citations": [3],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 2,
+    "Citations": 3,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -1792,13 +1860,13 @@
           "DOI": "10.1093/bioinformatics/bty555",
           "PubDate": "2018-07-06",
           "Preprint": false,
-          "Citations": [6],
+          "Citations": [7],
           "Recent_citations": 4
         }
       ],
       "Preprints": []
     },
-    "Citations": 6,
+    "Citations": 7,
     "Recent_citations": [4],
     "Publications": 1,
     "Preprints": 0,
@@ -1825,13 +1893,13 @@
           "DOI": "10.7717/peerj.4958",
           "PubDate": "2018-06-04",
           "Preprint": false,
-          "Citations": [103],
+          "Citations": [112],
           "Recent_citations": 54
         }
       ],
       "Preprints": []
     },
-    "Citations": 103,
+    "Citations": 112,
     "Recent_citations": [54],
     "Publications": 1,
     "Preprints": 0,
@@ -1857,13 +1925,13 @@
           "DOI": "10.1038/s41592-019-0394-y",
           "PubDate": "2019-04-22",
           "Preprint": false,
-          "Citations": [24],
+          "Citations": [26],
           "Recent_citations": 16
         }
       ],
       "Preprints": []
     },
-    "Citations": 24,
+    "Citations": 26,
     "Recent_citations": [16],
     "Publications": 1,
     "Preprints": 0,
@@ -1986,13 +2054,13 @@
           "DOI": "10.1145/3173162.3173193",
           "PubDate": "2018-03-22",
           "Preprint": false,
-          "Citations": [22],
+          "Citations": [25],
           "Recent_citations": 6
         }
       ],
       "Preprints": []
     },
-    "Citations": 22,
+    "Citations": 25,
     "Recent_citations": [6],
     "Publications": 1,
     "Preprints": 0,
@@ -2040,13 +2108,13 @@
           "DOI": "10.1038/s41467-017-01343-4",
           "PubDate": "2017-10-31",
           "Preprint": false,
-          "Citations": [142],
+          "Citations": [145],
           "Recent_citations": 53
         }
       ],
       "Preprints": []
     },
-    "Citations": 142,
+    "Citations": 145,
     "Recent_citations": [53],
     "Publications": 1,
     "Preprints": 0,
@@ -2074,13 +2142,13 @@
           "DOI": "10.1038/srep31900",
           "PubDate": "2016-08-30",
           "Preprint": false,
-          "Citations": [141],
+          "Citations": [147],
           "Recent_citations": 43
         }
       ],
       "Preprints": []
     },
-    "Citations": 141,
+    "Citations": 147,
     "Recent_citations": [43],
     "Publications": 1,
     "Preprints": 0,
@@ -2108,13 +2176,13 @@
           "DOI": "10.1371/journal.pcbi.1006583",
           "PubDate": "2018-11-20",
           "Preprint": false,
-          "Citations": [59],
+          "Citations": [61],
           "Recent_citations": 39
         }
       ],
       "Preprints": []
     },
-    "Citations": 59,
+    "Citations": 61,
     "Recent_citations": [39],
     "Publications": 1,
     "Preprints": 0,
@@ -2198,13 +2266,13 @@
           "DOI": "10.1371/journal.pone.0178751",
           "PubDate": "2017-06-05",
           "Preprint": false,
-          "Citations": [99],
+          "Citations": [100],
           "Recent_citations": 43
         }
       ],
       "Preprints": []
     },
-    "Citations": 99,
+    "Citations": 100,
     "Recent_citations": [43],
     "Publications": 1,
     "Preprints": 0,
@@ -2289,13 +2357,13 @@
           "DOI": "10.1093/bioinformatics/btz276",
           "PubDate": "2019-04-11",
           "Preprint": false,
-          "Citations": [50],
+          "Citations": [51],
           "Recent_citations": 25
         }
       ],
       "Preprints": []
     },
-    "Citations": 50,
+    "Citations": 51,
     "Recent_citations": [25],
     "Publications": 1,
     "Preprints": 0,
@@ -2359,13 +2427,13 @@
           "DOI": "10.1093/bioinformatics/bty223",
           "PubDate": "2018-04-04",
           "Preprint": false,
-          "Citations": [35],
+          "Citations": [37],
           "Recent_citations": 18
         }
       ],
       "Preprints": []
     },
-    "Citations": 35,
+    "Citations": 37,
     "Recent_citations": [18],
     "Publications": 1,
     "Preprints": 0,
@@ -2396,13 +2464,13 @@
           "DOI": "10.1038/nbt.4235",
           "PubDate": "2018-09-24",
           "Preprint": false,
-          "Citations": [214],
+          "Citations": [227],
           "Recent_citations": 104
         }
       ],
       "Preprints": []
     },
-    "Citations": 214,
+    "Citations": 227,
     "Recent_citations": [104],
     "Publications": 1,
     "Preprints": 0,
@@ -2430,13 +2498,13 @@
           "DOI": "10.1186/s13059-019-1895-9",
           "PubDate": "2019-12-16",
           "Preprint": false,
-          "Citations": [7],
+          "Citations": [9],
           "Recent_citations": 5
         }
       ],
       "Preprints": []
     },
-    "Citations": 7,
+    "Citations": 9,
     "Recent_citations": [5],
     "Publications": 1,
     "Preprints": 0,
@@ -2561,13 +2629,13 @@
           "DOI": "10.1093/bioinformatics/bty663",
           "PubDate": "2018-07-23",
           "Preprint": false,
-          "Citations": [5],
+          "Citations": [6],
           "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Citations": 5,
+    "Citations": 6,
     "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
@@ -2593,13 +2661,13 @@
           "DOI": "10.1038/nmeth.3444",
           "PubDate": "2015-06-15",
           "Preprint": false,
-          "Citations": [651],
+          "Citations": [669],
           "Recent_citations": 118
         }
       ],
       "Preprints": []
     },
-    "Citations": 651,
+    "Citations": 669,
     "Recent_citations": [118],
     "Publications": 1,
     "Preprints": 0,
@@ -2759,13 +2827,13 @@
           "DOI": "10.1038/s41467-019-11713-9",
           "PubDate": "2019-09-09",
           "Preprint": false,
-          "Citations": [76],
+          "Citations": [80],
           "Recent_citations": 40
         }
       ],
       "Preprints": []
     },
-    "Citations": 76,
+    "Citations": 80,
     "Recent_citations": [40],
     "Publications": 1,
     "Preprints": 0,
@@ -2814,13 +2882,13 @@
           "DOI": "10.1038/nmeth.4035",
           "PubDate": "2016-10-17",
           "Preprint": false,
-          "Citations": [785],
+          "Citations": [821],
           "Recent_citations": 177
         }
       ],
       "Preprints": []
     },
-    "Citations": 785,
+    "Citations": 821,
     "Recent_citations": [177],
     "Publications": 1,
     "Preprints": 0,
@@ -2869,13 +2937,13 @@
           "DOI": "10.1038/nmeth.4035",
           "PubDate": "2016-10-17",
           "Preprint": false,
-          "Citations": [785],
+          "Citations": [821],
           "Recent_citations": 177
         }
       ],
       "Preprints": []
     },
-    "Citations": 785,
+    "Citations": 821,
     "Recent_citations": [177],
     "Publications": 1,
     "Preprints": 0,
@@ -3040,13 +3108,13 @@
           "DOI": "10.1093/bioinformatics/btv280",
           "PubDate": "2015-06-04",
           "Preprint": false,
-          "Citations": [63],
+          "Citations": [65],
           "Recent_citations": 12
         }
       ],
       "Preprints": []
     },
-    "Citations": 63,
+    "Citations": 65,
     "Recent_citations": [12],
     "Publications": 1,
     "Preprints": 0,
@@ -3095,12 +3163,12 @@
           "DOI": "10.1101/2020.08.10.243543",
           "PubDate": "2020-08-11",
           "Preprint": true,
-          "Citations": [2],
+          "Citations": [4],
           "Recent_citations": 0
         }
       ]
     },
-    "Citations": 2,
+    "Citations": 4,
     "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
@@ -3169,13 +3237,13 @@
           "DOI": "10.1038/s41587-019-0072-8",
           "PubDate": "2019-04-01",
           "Preprint": false,
-          "Citations": [438],
+          "Citations": [484],
           "Recent_citations": 230
         }
       ],
       "Preprints": []
     },
-    "Citations": 438,
+    "Citations": 484,
     "Recent_citations": [230],
     "Publications": 1,
     "Preprints": 0,
@@ -3203,13 +3271,13 @@
           "DOI": "10.1186/s12859-018-2051-3",
           "PubDate": "2018-02-09",
           "Preprint": false,
-          "Citations": [35],
+          "Citations": [37],
           "Recent_citations": 12
         }
       ],
       "Preprints": []
     },
-    "Citations": 35,
+    "Citations": 37,
     "Recent_citations": [12],
     "Publications": 1,
     "Preprints": 0,
@@ -3236,13 +3304,13 @@
           "DOI": "10.1101/gr.178319.114",
           "PubDate": "2014-10-20",
           "Preprint": false,
-          "Citations": [94],
+          "Citations": [98],
           "Recent_citations": 13
         }
       ],
       "Preprints": []
     },
-    "Citations": 94,
+    "Citations": 98,
     "Recent_citations": [13],
     "Publications": 1,
     "Preprints": 0,
@@ -3357,12 +3425,12 @@
           "DOI": "10.1093/bioinformatics/bti310",
           "PubDate": "2005-02-23",
           "Preprint": false,
-          "Citations": [1244]
+          "Citations": [1274]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1244,
+    "Citations": 1274,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -3420,13 +3488,13 @@
           "DOI": "10.1371/journal.pone.0174744",
           "PubDate": "2017-04-05",
           "Preprint": false,
-          "Citations": [33],
+          "Citations": [35],
           "Recent_citations": 14
         }
       ],
       "Preprints": []
     },
-    "Citations": 33,
+    "Citations": 35,
     "Recent_citations": [14],
     "Publications": 1,
     "Preprints": 0,
@@ -3486,13 +3554,13 @@
           "DOI": "10.1038/ncomms11307",
           "PubDate": "2016-04-15",
           "Preprint": false,
-          "Citations": [214],
+          "Citations": [217],
           "Recent_citations": 73
         }
       ],
       "Preprints": []
     },
-    "Citations": 214,
+    "Citations": 217,
     "Recent_citations": [73],
     "Publications": 1,
     "Preprints": 0,
@@ -3540,13 +3608,13 @@
           "DOI": "10.1186/s12859-017-1610-3",
           "PubDate": "2017-04-05",
           "Preprint": false,
-          "Citations": [38],
+          "Citations": [39],
           "Recent_citations": 15
         }
       ],
       "Preprints": []
     },
-    "Citations": 38,
+    "Citations": 39,
     "Recent_citations": [15],
     "Publications": 1,
     "Preprints": 0,
@@ -3570,7 +3638,7 @@
     "Refs": {
       "Publications": [
         {
-          "Title": "Halcyon: An Accurate Basecaller Exploiting An Encoder-Decoder Model With Monotonic Attention",
+          "Title": "Halcyon: an accurate basecaller exploiting an encoder–decoder model with monotonic attention",
           "DOI": "10.1093/bioinformatics/btaa953",
           "PubDate": "2020-10-30",
           "Preprint": false,
@@ -3644,13 +3712,13 @@
           "DOI": "10.1101/gr.213462.116",
           "PubDate": "2016-12-10",
           "Preprint": false,
-          "Citations": [135],
+          "Citations": [144],
           "Recent_citations": 32
         }
       ],
       "Preprints": []
     },
-    "Citations": 135,
+    "Citations": 144,
     "Recent_citations": [32],
     "Publications": 1,
     "Preprints": 0,
@@ -3678,13 +3746,13 @@
           "DOI": "10.1093/nar/gkz107",
           "PubDate": "2019-02-18",
           "Preprint": false,
-          "Citations": [33],
+          "Citations": [34],
           "Recent_citations": 16
         }
       ],
       "Preprints": []
     },
-    "Citations": 33,
+    "Citations": 34,
     "Recent_citations": [16],
     "Publications": 1,
     "Preprints": 0,
@@ -3713,12 +3781,12 @@
           "DOI": "10.1101/2020.12.14.422624",
           "PubDate": "2020-12-16",
           "Preprint": true,
-          "Citations": [0],
+          "Citations": [2],
           "Recent_citations": 0
         }
       ]
     },
-    "Citations": 0,
+    "Citations": 2,
     "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
@@ -3747,13 +3815,13 @@
           "DOI": "10.1016/j.isci.2020.101389",
           "PubDate": "2020-07-25",
           "Preprint": false,
-          "Citations": [1],
+          "Citations": [2],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 1,
+    "Citations": 2,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -3925,13 +3993,13 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-03",
           "Preprint": false,
-          "Citations": [2624],
+          "Citations": [2665],
           "Recent_citations": 148
         }
       ],
       "Preprints": []
     },
-    "Citations": 2624,
+    "Citations": 2665,
     "Recent_citations": [148],
     "Publications": 1,
     "Preprints": 0,
@@ -3959,13 +4027,13 @@
           "DOI": "10.1101/gr.263566.120",
           "PubDate": "2020-08-14",
           "Preprint": false,
-          "Citations": [27],
+          "Citations": [32],
           "Recent_citations": 2
         }
       ],
       "Preprints": []
     },
-    "Citations": 27,
+    "Citations": 32,
     "Recent_citations": [2],
     "Publications": 1,
     "Preprints": 0,
@@ -4080,13 +4148,13 @@
           "DOI": "10.1371/journal.pcbi.1005151",
           "PubDate": "2016-10-28",
           "Preprint": false,
-          "Citations": [56],
+          "Citations": [57],
           "Recent_citations": 22
         }
       ],
       "Preprints": []
     },
-    "Citations": 56,
+    "Citations": 57,
     "Recent_citations": [22],
     "Publications": 1,
     "Preprints": 0,
@@ -4127,8 +4195,8 @@
     "Preprints": 0,
     "PubDates": ["2021-03-31"],
     "Github": "ythuang0522/homopolish",
-    "Technologies": ["OxfordNanopore"],
-    "Categories": ["ErrorCorrectionAndPolishing", "TestedOnHumanData"]
+    "Technologies": ["OxfordNanopore", "OxfordNanopore"],
+    "Categories": ["ErrorCorrectionAndPolishing", "ErrorCorrectionAndPolishing", "TestedOnHumanData", "TestedOnNonHumanData"]
   },
   {
     "Name": "HPG-Pore",
@@ -4147,7 +4215,7 @@
         {
           "Title": "HPG pore: an efficient and scalable framework for nanopore sequencing data",
           "DOI": "10.1186/s12859-016-0966-0",
-          "PubDate": "2016-02-26",
+          "PubDate": "2016-02-27",
           "Preprint": false,
           "Citations": [5],
           "Recent_citations": 2
@@ -4159,7 +4227,7 @@
     "Recent_citations": [2],
     "Publications": 1,
     "Preprints": 0,
-    "PubDates": ["2016-02-26"],
+    "PubDates": ["2016-02-27"],
     "Github": "opencb/hpg-pore",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["QualityChecking"]
@@ -4225,13 +4293,13 @@
           "DOI": "10.1073/pnas.1320101110",
           "PubDate": "2013-11-27",
           "Preprint": false,
-          "Citations": [201],
+          "Citations": [203],
           "Recent_citations": 20
         }
       ],
       "Preprints": []
     },
-    "Citations": 201,
+    "Citations": 203,
     "Recent_citations": [20],
     "Publications": 1,
     "Preprints": 0,
@@ -4258,13 +4326,13 @@
           "DOI": "10.1186/s13742-016-0140-7",
           "PubDate": "2016-08-02",
           "Preprint": false,
-          "Citations": [77],
+          "Citations": [83],
           "Recent_citations": 23
         }
       ],
       "Preprints": []
     },
-    "Citations": 77,
+    "Citations": 83,
     "Recent_citations": [23],
     "Publications": 1,
     "Preprints": 0,
@@ -4332,13 +4400,13 @@
           "DOI": "10.1038/s41467-020-20459-8",
           "PubDate": "2021-01-12",
           "Preprint": false,
-          "Citations": [4],
+          "Citations": [5],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 4,
+    "Citations": 5,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -4367,13 +4435,13 @@
           "DOI": "10.1038/s41467-018-06910-x",
           "PubDate": "2018-10-29",
           "Preprint": false,
-          "Citations": [23],
+          "Citations": [24],
           "Recent_citations": 20
         }
       ],
       "Preprints": []
     },
-    "Citations": 23,
+    "Citations": 24,
     "Recent_citations": [20],
     "Publications": 1,
     "Preprints": 0,
@@ -4402,13 +4470,13 @@
           "DOI": "10.1089/cmb.2019.0299",
           "PubDate": "2020-03-17",
           "Preprint": false,
-          "Citations": [5],
+          "Citations": [6],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 5,
+    "Citations": 6,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -4441,12 +4509,12 @@
           "DOI": "10.1101/2020.01.07.897512",
           "PubDate": "2020-01-09",
           "Preprint": true,
-          "Citations": [3],
+          "Citations": [2],
           "Recent_citations": 3
         }
       ]
     },
-    "Citations": 3,
+    "Citations": 2,
     "Recent_citations": [3],
     "Publications": 0,
     "Preprints": 1,
@@ -4580,6 +4648,7 @@
   },
   {
     "Name": "JAFFAL",
+    "DOIs": "10.1101/2021.04.26.441398v1.full.pdf",
     "Description": "JAFFAL detects fusion genes in long read transcriptome sequencing",
     "Code": "https://github.com/Oshlack/JAFFA",
     "Underlying_algorithms": "JAFFAL is a pipeline that detects fusions by aligning reads to a reference transcriptome and genome and identifying reads which align to multiple genes (consistent with a fusion transcript). Further filtering, ranking and realignment of breakpoints is performed prior to reporting the positions and associated information of each fusion breakpoint",
@@ -4590,14 +4659,24 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [null],
-      "Preprints": [null]
+      "Publications": [],
+      "Preprints": [
+        {
+          "DOI": "10.1101/2021.04.26.441398v1.full.pdf",
+          "PubDate": [],
+          "Preprint": true,
+          "Citations": ["NA"],
+          "Recent_citations": 0
+        }
+      ]
     },
-    "Recent_citations": [null],
-    "PubDates": [null],
+    "Recent_citations": [0],
+    "Publications": 0,
+    "Preprints": 1,
+    "PubDates": ["character(0)"],
     "Github": "Oshlack/JAFFA",
     "Technologies": ["OxfordNanopore", "PacBio"],
-    "Categories": ["Transcriptomics"]
+    "Categories": ["SuitableForSingleCellExperiments", "Transcriptomics"]
   },
   {
     "Name": "Japsa",
@@ -4639,13 +4718,13 @@
           "DOI": "10.1038/ncomms11257",
           "PubDate": "2016-04-13",
           "Preprint": false,
-          "Citations": [491],
+          "Citations": [516],
           "Recent_citations": 55
         }
       ],
       "Preprints": []
     },
-    "Citations": 491,
+    "Citations": 516,
     "Recent_citations": [55],
     "Publications": 1,
     "Preprints": 0,
@@ -4655,7 +4734,7 @@
   },
   {
     "Name": "kass",
-    "DOIs": "https://doi.org/10.3389/fimmu.2020.582927",
+    "DOIs": "10.3389/fimmu.2020.582927",
     "Platform": "Java, Groovy",
     "Description": "Haplotype assembly for killer cell immunoglobulin-like receptors (KIR)",
     "Code": "https://github.com/droeatumn/kass",
@@ -4669,15 +4748,17 @@
       "Publications": [
         {
           "Title": "Efficient Sequencing, Assembly, and Annotation of Human KIR Haplotypes",
-          "DOI": "https://doi.org/10.3389/fimmu.2020.582927",
+          "DOI": "10.3389/fimmu.2020.582927",
           "PubDate": "2020-10-09",
           "Preprint": false,
-          "Citations": ["NA"]
+          "Citations": [2],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-10-09"],
@@ -4746,13 +4827,13 @@
           "DOI": "10.1186/gb-2014-15-3-r46",
           "PubDate": "2014-03-03",
           "Preprint": false,
-          "Citations": [1849],
+          "Citations": [1909],
           "Recent_citations": 72
         }
       ],
       "Preprints": []
     },
-    "Citations": 1849,
+    "Citations": 1909,
     "Recent_citations": [72],
     "Publications": 1,
     "Preprints": 0,
@@ -4779,13 +4860,13 @@
           "DOI": "10.7717/peerj.5233",
           "PubDate": "2018-07-31",
           "Preprint": false,
-          "Citations": [7],
+          "Citations": [8],
           "Recent_citations": 5
         }
       ],
       "Preprints": []
     },
-    "Citations": 7,
+    "Citations": 8,
     "Recent_citations": [5],
     "Publications": 1,
     "Preprints": 0,
@@ -4815,13 +4896,13 @@
           "DOI": "10.1093/bioinformatics/btw594",
           "PubDate": "2016-09-26",
           "Preprint": false,
-          "Citations": [8],
+          "Citations": [9],
           "Recent_citations": 4
         }
       ],
       "Preprints": []
     },
-    "Citations": 8,
+    "Citations": 9,
     "Recent_citations": [4],
     "Publications": 1,
     "Preprints": 0,
@@ -4847,13 +4928,13 @@
           "DOI": "10.1101/gr.113985.110",
           "PubDate": "2011-01-06",
           "Preprint": false,
-          "Citations": [681],
+          "Citations": [695],
           "Recent_citations": 18
         }
       ],
       "Preprints": []
     },
-    "Citations": 681,
+    "Citations": 695,
     "Recent_citations": [18],
     "Publications": 1,
     "Preprints": 0,
@@ -4984,13 +5065,13 @@
           "DOI": "10.1186/s13742-015-0076-3",
           "PubDate": "2015-08-03",
           "Preprint": false,
-          "Citations": [101],
+          "Citations": [103],
           "Recent_citations": 17
         }
       ],
       "Preprints": []
     },
-    "Citations": 101,
+    "Citations": 103,
     "Recent_citations": [17],
     "Publications": 1,
     "Preprints": 0,
@@ -5032,6 +5113,40 @@
     "PyPI": "liqa",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["Transcriptomics"]
+  },
+  {
+    "Name": "LongGF",
+    "DOIs": "10.1186/s12864-020-07207-4",
+    "Platform": "C, C++",
+    "Description": "A computational algorithm and software tool for fast and accurate detection of gene fusion by long-read transcriptome sequencing",
+    "Code": "https://github.com/WGLab/LongGF",
+    "License": "GNU General Public License v3.0",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "LongGF: computational algorithm and software tool for fast and accurate detection of gene fusions by long-read transcriptome sequencing",
+          "DOI": "10.1186/s12864-020-07207-4",
+          "PubDate": "2020-12-29",
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 0
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 1,
+    "Recent_citations": [0],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2020-12-29"],
+    "Github": "WGLab/LongGF",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Transcriptomics", "FusionDetection"]
   },
   {
     "Name": "LongISLND",
@@ -5086,13 +5201,13 @@
           "DOI": "10.1534/g3.119.400864",
           "PubDate": "2020-02-11",
           "Preprint": false,
-          "Citations": [2],
+          "Citations": [3],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 2,
+    "Citations": 3,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -5183,13 +5298,13 @@
           "DOI": "10.1038/s41467-019-12493-y",
           "PubDate": "2019-10-11",
           "Preprint": false,
-          "Citations": [31],
+          "Citations": [35],
           "Recent_citations": 17
         }
       ],
       "Preprints": []
     },
-    "Citations": 31,
+    "Citations": 35,
     "Recent_citations": [17],
     "Publications": 1,
     "Preprints": 0,
@@ -5282,13 +5397,13 @@
           "DOI": "10.1093/bioinformatics/btu538",
           "PubDate": "2014-08-28",
           "Preprint": false,
-          "Citations": [302],
+          "Citations": [316],
           "Recent_citations": 25
         }
       ],
       "Preprints": []
     },
-    "Citations": 302,
+    "Citations": 316,
     "Recent_citations": [25],
     "Publications": 1,
     "Preprints": 0,
@@ -5424,13 +5539,13 @@
           "DOI": "10.1093/bioinformatics/btw321",
           "PubDate": "2016-06-07",
           "Preprint": false,
-          "Citations": [26],
+          "Citations": [27],
           "Recent_citations": 6
         }
       ],
       "Preprints": []
     },
-    "Citations": 26,
+    "Citations": 27,
     "Recent_citations": [6],
     "Publications": 1,
     "Preprints": 0,
@@ -5694,13 +5809,13 @@
           "DOI": "10.1371/journal.pone.0046679",
           "PubDate": "2012-10-04",
           "Preprint": false,
-          "Citations": [208],
+          "Citations": [212],
           "Recent_citations": 14
         }
       ],
       "Preprints": []
     },
-    "Citations": 208,
+    "Citations": 212,
     "Recent_citations": [14],
     "Publications": 1,
     "Preprints": 0,
@@ -5725,13 +5840,13 @@
           "DOI": "10.1186/s12859-016-1316-y",
           "PubDate": "2016-11-09",
           "Preprint": false,
-          "Citations": [12],
+          "Citations": [14],
           "Recent_citations": 1
         }
       ],
       "Preprints": []
     },
-    "Citations": 12,
+    "Citations": 14,
     "Recent_citations": [1],
     "Publications": 1,
     "Preprints": 0,
@@ -5777,13 +5892,13 @@
           "DOI": "10.1186/s12859-019-2996-x",
           "PubDate": "2019-07-25",
           "Preprint": false,
-          "Citations": [51],
+          "Citations": [56],
           "Recent_citations": 32
         }
       ],
       "Preprints": []
     },
-    "Citations": 51,
+    "Citations": 56,
     "Recent_citations": [32],
     "Publications": 1,
     "Preprints": 0,
@@ -5810,20 +5925,20 @@
           "DOI": "10.1038/ncomms16027",
           "PubDate": "2017-07-19",
           "Preprint": false,
-          "Citations": [168],
+          "Citations": [177],
           "Recent_citations": 63
         }
       ],
       "Preprints": []
     },
-    "Citations": 168,
+    "Citations": 177,
     "Recent_citations": [63],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-07-19"],
     "Github": "rvolden/Mandalorion",
     "Technologies": ["OxfordNanopore"],
-    "Categories": ["IsoformDetection", "ReadQuantification", "TestedOnHumanData", "Normalisation", "Transcriptomics"]
+    "Categories": ["IsoformDetection", "ReadQuantification", "SuitableForSingleCellExperiments", "TestedOnHumanData", "Normalisation", "Transcriptomics"]
   },
   {
     "Name": "marginAlign",
@@ -5844,13 +5959,13 @@
           "DOI": "10.1038/nmeth.3290",
           "PubDate": "2015-02-16",
           "Preprint": false,
-          "Citations": [386],
+          "Citations": [393],
           "Recent_citations": 105
         }
       ],
       "Preprints": []
     },
-    "Citations": 386,
+    "Citations": 393,
     "Recent_citations": [105],
     "Publications": 1,
     "Preprints": 0,
@@ -5934,13 +6049,13 @@
           "DOI": "10.1038/nature25458",
           "PubDate": "2018-01-30",
           "Preprint": false,
-          "Citations": [224],
+          "Citations": [228],
           "Recent_citations": 108
         }
       ],
       "Preprints": []
     },
-    "Citations": 224,
+    "Citations": 228,
     "Recent_citations": [108],
     "Publications": 1,
     "Preprints": 0,
@@ -5968,13 +6083,13 @@
           "DOI": "10.1186/s13059-016-0997-x",
           "PubDate": "2016-06-20",
           "Preprint": false,
-          "Citations": [826],
+          "Citations": [869],
           "Recent_citations": 114
         }
       ],
       "Preprints": []
     },
-    "Citations": 826,
+    "Citations": 869,
     "Recent_citations": [114],
     "Publications": 1,
     "Preprints": 0,
@@ -6036,13 +6151,13 @@
           "DOI": "10.3389/fgene.2020.00211",
           "PubDate": "2020-03-17",
           "Preprint": false,
-          "Citations": [4],
+          "Citations": [5],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 4,
+    "Citations": 5,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -6070,13 +6185,13 @@
           "DOI": "10.1093/bioinformatics/btt476",
           "PubDate": "2013-08-30",
           "Preprint": false,
-          "Citations": [598],
+          "Citations": [613],
           "Recent_citations": 44
         }
       ],
       "Preprints": []
     },
-    "Citations": 598,
+    "Citations": 613,
     "Recent_citations": [44],
     "Publications": 1,
     "Preprints": 0,
@@ -6105,13 +6220,13 @@
           "DOI": "10.1038/s41467-019-08289-9",
           "PubDate": "2019-02-04",
           "Preprint": false,
-          "Citations": [46],
+          "Citations": [48],
           "Recent_citations": 29
         }
       ],
       "Preprints": []
     },
-    "Citations": 46,
+    "Citations": 48,
     "Recent_citations": [29],
     "Publications": 1,
     "Preprints": 0,
@@ -6139,13 +6254,13 @@
           "DOI": "10.1038/nmeth.4432",
           "PubDate": "2017-09-18",
           "Preprint": false,
-          "Citations": [125],
+          "Citations": [130],
           "Recent_citations": 44
         }
       ],
       "Preprints": []
     },
-    "Citations": 125,
+    "Citations": 130,
     "Recent_citations": [44],
     "Publications": 1,
     "Preprints": 0,
@@ -6248,13 +6363,13 @@
           "DOI": "10.1186/s13062-018-0208-7",
           "PubDate": "2018-04-20",
           "Preprint": false,
-          "Citations": [65],
+          "Citations": [67],
           "Recent_citations": 20
         }
       ],
       "Preprints": []
     },
-    "Citations": 65,
+    "Citations": 67,
     "Recent_citations": [20],
     "Publications": 1,
     "Preprints": 0,
@@ -6333,13 +6448,13 @@
           "DOI": "10.1186/s13073-015-0220-9",
           "PubDate": "2015-09-24",
           "Preprint": false,
-          "Citations": [288],
+          "Citations": [292],
           "Recent_citations": 59
         }
       ],
       "Preprints": []
     },
-    "Citations": 288,
+    "Citations": 292,
     "Recent_citations": [59],
     "Publications": 1,
     "Preprints": 0,
@@ -6367,13 +6482,13 @@
           "DOI": "10.1093/bioinformatics/btv204",
           "PubDate": "2015-04-11",
           "Preprint": false,
-          "Citations": [84],
+          "Citations": [87],
           "Recent_citations": 12
         }
       ],
       "Preprints": []
     },
-    "Citations": 84,
+    "Citations": 87,
     "Recent_citations": [12],
     "Publications": 1,
     "Preprints": 0,
@@ -6404,12 +6519,12 @@
           "DOI": "10.1101/2020.10.14.340315",
           "PubDate": "2020-10-15",
           "Preprint": true,
-          "Citations": [3],
+          "Citations": [6],
           "Recent_citations": 0
         }
       ]
     },
-    "Citations": 3,
+    "Citations": 6,
     "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
@@ -6472,13 +6587,13 @@
           "DOI": "10.1038/nbt.3238",
           "PubDate": "2015-05-25",
           "Preprint": false,
-          "Citations": [585],
+          "Citations": [592],
           "Recent_citations": 157
         }
       ],
       "Preprints": []
     },
-    "Citations": 585,
+    "Citations": 592,
     "Recent_citations": [157],
     "Publications": 1,
     "Preprints": 0,
@@ -6543,13 +6658,13 @@
           "DOI": "10.1261/rna.072785.119",
           "PubDate": "2019-10-17",
           "Preprint": false,
-          "Citations": [28],
+          "Citations": [31],
           "Recent_citations": 11
         }
       ],
       "Preprints": []
     },
-    "Citations": 28,
+    "Citations": 31,
     "Recent_citations": [11],
     "Publications": 1,
     "Preprints": 0,
@@ -6598,13 +6713,13 @@
           "DOI": "10.1093/bioinformatics/btw152",
           "PubDate": "2016-03-20",
           "Preprint": false,
-          "Citations": [546],
+          "Citations": [565],
           "Recent_citations": 82
         }
       ],
       "Preprints": []
     },
-    "Citations": 546,
+    "Citations": 565,
     "Recent_citations": [82],
     "Publications": 1,
     "Preprints": 0,
@@ -6632,13 +6747,13 @@
           "DOI": "10.1093/gigascience/giz006",
           "PubDate": "2019-03-02",
           "Preprint": false,
-          "Citations": [41],
+          "Citations": [44],
           "Recent_citations": 28
         }
       ],
       "Preprints": []
     },
-    "Citations": 41,
+    "Citations": 44,
     "Recent_citations": [28],
     "Publications": 1,
     "Preprints": 0,
@@ -6666,13 +6781,13 @@
           "DOI": "10.1093/bioinformatics/btw152",
           "PubDate": "2016-03-20",
           "Preprint": false,
-          "Citations": [546],
+          "Citations": [565],
           "Recent_citations": 82
         }
       ],
       "Preprints": []
     },
-    "Citations": 546,
+    "Citations": 565,
     "Recent_citations": [82],
     "Publications": 1,
     "Preprints": 0,
@@ -6700,13 +6815,13 @@
           "DOI": "10.1093/bioinformatics/bty191",
           "PubDate": "2018-05-04",
           "Preprint": false,
-          "Citations": [1769],
+          "Citations": [1936],
           "Recent_citations": 690
         }
       ],
       "Preprints": []
     },
-    "Citations": 1769,
+    "Citations": 1936,
     "Recent_citations": [690],
     "Publications": 1,
     "Preprints": 0,
@@ -6754,13 +6869,13 @@
           "DOI": "10.1093/bioinformatics/bty654",
           "PubDate": "2018-07-20",
           "Preprint": false,
-          "Citations": [44],
+          "Citations": [47],
           "Recent_citations": 24
         }
       ],
       "Preprints": []
     },
-    "Citations": 44,
+    "Citations": 47,
     "Recent_citations": [24],
     "Publications": 1,
     "Preprints": 0,
@@ -6788,13 +6903,13 @@
           "DOI": "10.1186/s12859-019-3103-z",
           "PubDate": "2019-11-06",
           "Preprint": false,
-          "Citations": [4],
+          "Citations": [5],
           "Recent_citations": 1
         }
       ],
       "Preprints": []
     },
-    "Citations": 4,
+    "Citations": 5,
     "Recent_citations": [1],
     "Publications": 1,
     "Preprints": 0,
@@ -7008,7 +7123,7 @@
         {
           "Title": "Metagenomics workflow for hybrid assembly, differential coverage binning, transcriptomics and pathway analysis (MUFFIN)",
           "DOI": "10.1101/2020.02.08.939843",
-          "PubDate": "2020-02-08",
+          "PubDate": "2020-02-09",
           "Preprint": true,
           "Citations": [1],
           "Recent_citations": 0
@@ -7019,7 +7134,7 @@
     "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
-    "PubDates": ["2020-02-08"],
+    "PubDates": ["2020-02-09"],
     "Github": "RVanDamme/MUFFIN",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["DenovoAssembly", "ErrorCorrectionAndPolishing", "IsoformDetection", "QualityChecking", "ReadQuantification", "Transcriptomics", "AnalysisPipelines", "QualityFiltering", "Metagenomics", "TaxonomicClassification"]
@@ -7041,7 +7156,7 @@
     "Refs": {
       "Publications": [
         {
-          "Title": "MultiNanopolish: Refined grouping method for reducing redundant calculations in nanopolish",
+          "Title": "MultiNanopolish: refined grouping method for reducing redundant calculations in Nanopolish",
           "DOI": "10.1093/bioinformatics/btab078",
           "PubDate": "2021-01-29",
           "Preprint": false,
@@ -7076,7 +7191,7 @@
     "Refs": {
       "Publications": [
         {
-          "Title": "MultiNanopolish: Refined grouping method for reducing redundant calculations in nanopolish",
+          "Title": "MultiNanopolish: refined grouping method for reducing redundant calculations in Nanopolish",
           "DOI": "10.1093/bioinformatics/btab078",
           "PubDate": "2021-01-29",
           "Preprint": false,
@@ -7113,13 +7228,13 @@
           "DOI": "10.1093/bioinformatics/btw354",
           "PubDate": "2016-06-17",
           "Preprint": false,
-          "Citations": [1141],
+          "Citations": [1220],
           "Recent_citations": 92
         }
       ],
       "Preprints": []
     },
-    "Citations": 1141,
+    "Citations": 1220,
     "Recent_citations": [92],
     "Publications": 1,
     "Preprints": 0,
@@ -7167,13 +7282,13 @@
           "DOI": "10.1101/gr.244939.118",
           "PubDate": "2019-06-11",
           "Preprint": false,
-          "Citations": [52],
+          "Citations": [54],
           "Recent_citations": 36
         }
       ],
       "Preprints": []
     },
-    "Citations": 52,
+    "Citations": 54,
     "Recent_citations": [36],
     "Publications": 1,
     "Preprints": 0,
@@ -7201,13 +7316,13 @@
           "DOI": "10.1093/gigascience/giy140",
           "PubDate": "2018-11-23",
           "Preprint": false,
-          "Citations": [41],
+          "Citations": [42],
           "Recent_citations": 28
         }
       ],
       "Preprints": []
     },
-    "Citations": 41,
+    "Citations": 42,
     "Recent_citations": [28],
     "Publications": 1,
     "Preprints": 0,
@@ -7233,13 +7348,13 @@
           "DOI": "10.1186/s40168-019-0703-9",
           "PubDate": "2019-06-19",
           "Preprint": false,
-          "Citations": [14],
+          "Citations": [16],
           "Recent_citations": 4
         }
       ],
       "Preprints": []
     },
-    "Citations": 14,
+    "Citations": 16,
     "Recent_citations": [4],
     "Publications": 1,
     "Preprints": 0,
@@ -7368,13 +7483,13 @@
           "DOI": "10.1093/bioinformatics/btaa900",
           "PubDate": "2020-10-05",
           "Preprint": false,
-          "Citations": [2],
+          "Citations": [3],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 2,
+    "Citations": 3,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -7402,13 +7517,13 @@
           "DOI": "10.1093/bioinformatics/bty149",
           "PubDate": "2018-03-12",
           "Preprint": false,
-          "Citations": [347],
+          "Citations": [391],
           "Recent_citations": 116
         }
       ],
       "Preprints": []
     },
-    "Citations": 347,
+    "Citations": 391,
     "Recent_citations": [116],
     "Publications": 1,
     "Preprints": 0,
@@ -7439,12 +7554,12 @@
           "DOI": "10.1101/843136",
           "PubDate": "2019-11-16",
           "Preprint": true,
-          "Citations": [17],
+          "Citations": [18],
           "Recent_citations": 10
         }
       ]
     },
-    "Citations": 17,
+    "Citations": 18,
     "Recent_citations": [10],
     "Publications": 0,
     "Preprints": 1,
@@ -7473,13 +7588,13 @@
           "DOI": "10.1101/gr.191395.115",
           "PubDate": "2015-10-08",
           "Preprint": false,
-          "Citations": [232],
+          "Citations": [234],
           "Recent_citations": 78
         }
       ],
       "Preprints": []
     },
-    "Citations": 232,
+    "Citations": 234,
     "Recent_citations": [78],
     "Publications": 1,
     "Preprints": 0,
@@ -7507,13 +7622,13 @@
           "DOI": "10.1038/nmeth.3444",
           "PubDate": "2015-06-15",
           "Preprint": false,
-          "Citations": [651],
+          "Citations": [669],
           "Recent_citations": 118
         }
       ],
       "Preprints": []
     },
-    "Citations": 651,
+    "Citations": 669,
     "Recent_citations": [118],
     "Publications": 1,
     "Preprints": 0,
@@ -7577,12 +7692,12 @@
           "DOI": "10.1101/2020.02.18.954636",
           "PubDate": "2020-02-20",
           "Preprint": true,
-          "Citations": [3],
+          "Citations": [4],
           "Recent_citations": 0
         }
       ]
     },
-    "Citations": 3,
+    "Citations": 4,
     "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
@@ -7679,13 +7794,13 @@
           "DOI": "10.1093/bioinformatics/bty149",
           "PubDate": "2018-03-12",
           "Preprint": false,
-          "Citations": [347],
+          "Citations": [391],
           "Recent_citations": 116
         }
       ],
       "Preprints": []
     },
-    "Citations": 347,
+    "Citations": 391,
     "Recent_citations": [116],
     "Publications": 1,
     "Preprints": 0,
@@ -7964,13 +8079,13 @@
           "DOI": "10.1186/s12864-018-5372-8",
           "PubDate": "2019-02-03",
           "Preprint": false,
-          "Citations": [20],
+          "Citations": [19],
           "Recent_citations": 13
         }
       ],
       "Preprints": []
     },
-    "Citations": 20,
+    "Citations": 19,
     "Recent_citations": [13],
     "Publications": 1,
     "Preprints": 0,
@@ -8053,13 +8168,13 @@
           "DOI": "10.1093/bioinformatics/bty149",
           "PubDate": "2018-03-12",
           "Preprint": false,
-          "Citations": [347],
+          "Citations": [391],
           "Recent_citations": 116
         }
       ],
       "Preprints": []
     },
-    "Citations": 347,
+    "Citations": 391,
     "Recent_citations": [116],
     "Publications": 1,
     "Preprints": 0,
@@ -8140,13 +8255,13 @@
           "DOI": "10.1093/bioinformatics/bty149",
           "PubDate": "2018-03-12",
           "Preprint": false,
-          "Citations": [347],
+          "Citations": [391],
           "Recent_citations": 116
         }
       ],
       "Preprints": []
     },
-    "Citations": 347,
+    "Citations": 391,
     "Recent_citations": [116],
     "Publications": 1,
     "Preprints": 0,
@@ -8175,13 +8290,13 @@
           "DOI": "10.1093/bioinformatics/bty150",
           "PubDate": "2018-03-20",
           "Preprint": false,
-          "Citations": [4],
+          "Citations": [5],
           "Recent_citations": 2
         }
       ],
       "Preprints": []
     },
-    "Citations": 4,
+    "Citations": 5,
     "Recent_citations": [2],
     "Publications": 1,
     "Preprints": 0,
@@ -8213,13 +8328,13 @@
           "DOI": "10.1038/nmeth.4184",
           "PubDate": "2017-02-21",
           "Preprint": false,
-          "Citations": [344],
+          "Citations": [357],
           "Recent_citations": 92
         }
       ],
       "Preprints": []
     },
-    "Citations": 344,
+    "Citations": 357,
     "Recent_citations": [92],
     "Publications": 1,
     "Preprints": 0,
@@ -8387,13 +8502,13 @@
           "DOI": "10.1093/bioinformatics/bty149",
           "PubDate": "2018-03-12",
           "Preprint": false,
-          "Citations": [347],
+          "Citations": [391],
           "Recent_citations": 116
         }
       ],
       "Preprints": []
     },
-    "Citations": 347,
+    "Citations": 391,
     "Recent_citations": [116],
     "Publications": 1,
     "Preprints": 0,
@@ -8453,16 +8568,16 @@
       "Publications": [],
       "Preprints": [
         {
-          "Title": "De novo Identification of DNA Modifications Enabled by Genome-Guided Nanopore Signal Processing",
+          "Title": "De novoIdentification of DNA Modifications Enabled by Genome-Guided Nanopore Signal Processing",
           "DOI": "10.1101/094672",
           "PubDate": "2016-12-16",
           "Preprint": true,
-          "Citations": [81],
+          "Citations": [86],
           "Recent_citations": 23
         }
       ]
     },
-    "Citations": 81,
+    "Citations": 86,
     "Recent_citations": [23],
     "Publications": 0,
     "Preprints": 1,
@@ -8524,13 +8639,13 @@
           "DOI": "10.1186/s13059-019-1856-3",
           "PubDate": "2019-11-14",
           "Preprint": false,
-          "Citations": [14],
+          "Citations": [17],
           "Recent_citations": 7
         }
       ],
       "Preprints": []
     },
-    "Citations": 14,
+    "Citations": 17,
     "Recent_citations": [7],
     "Publications": 1,
     "Preprints": 0,
@@ -8558,13 +8673,13 @@
           "DOI": "10.1186/s13059-019-1856-3",
           "PubDate": "2019-11-14",
           "Preprint": false,
-          "Citations": [14],
+          "Citations": [17],
           "Recent_citations": 7
         }
       ],
       "Preprints": []
     },
-    "Citations": 14,
+    "Citations": 17,
     "Recent_citations": [7],
     "Publications": 1,
     "Preprints": 0,
@@ -8593,12 +8708,12 @@
           "DOI": "10.1101/2020.05.31.126763",
           "PubDate": "2020-06-01",
           "Preprint": true,
-          "Citations": [3],
+          "Citations": [4],
           "Recent_citations": 2
         }
       ]
     },
-    "Citations": 3,
+    "Citations": 4,
     "Recent_citations": [2],
     "Publications": 0,
     "Preprints": 1,
@@ -8626,13 +8741,13 @@
           "DOI": "10.1093/gigascience/gix010",
           "PubDate": "2017-02-25",
           "Preprint": false,
-          "Citations": [40],
+          "Citations": [41],
           "Recent_citations": 11
         }
       ],
       "Preprints": []
     },
-    "Citations": 40,
+    "Citations": 41,
     "Recent_citations": [11],
     "Publications": 1,
     "Preprints": 0,
@@ -8659,13 +8774,13 @@
           "DOI": "10.1093/nar/gkaa413",
           "PubDate": "2020-05-12",
           "Preprint": false,
-          "Citations": [3],
+          "Citations": [4],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 3,
+    "Citations": 4,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -8756,13 +8871,13 @@
           "DOI": "10.1038/s41467-017-01343-4",
           "PubDate": "2017-10-31",
           "Preprint": false,
-          "Citations": [142],
+          "Citations": [145],
           "Recent_citations": 53
         }
       ],
       "Preprints": []
     },
-    "Citations": 142,
+    "Citations": 145,
     "Recent_citations": [53],
     "Publications": 1,
     "Preprints": 0,
@@ -8834,13 +8949,13 @@
           "DOI": "10.1186/s13059-020-01968-7",
           "PubDate": "2020-03-03",
           "Preprint": false,
-          "Citations": [6],
+          "Citations": [7],
           "Recent_citations": 1
         }
       ],
       "Preprints": []
     },
-    "Citations": 6,
+    "Citations": 7,
     "Recent_citations": [1],
     "Publications": 1,
     "Preprints": 0,
@@ -8869,13 +8984,13 @@
           "DOI": "10.1186/s12864-015-1519-z",
           "PubDate": "2015-04-18",
           "Preprint": false,
-          "Citations": [129],
+          "Citations": [132],
           "Recent_citations": 37
         }
       ],
       "Preprints": []
     },
-    "Citations": 129,
+    "Citations": 132,
     "Recent_citations": [37],
     "Publications": 1,
     "Preprints": 0,
@@ -8922,13 +9037,13 @@
           "DOI": "10.1093/bioinformatics/btz891",
           "PubDate": "2019-11-26",
           "Preprint": false,
-          "Citations": [30],
+          "Citations": [37],
           "Recent_citations": 8
         }
       ],
       "Preprints": []
     },
-    "Citations": 30,
+    "Citations": 37,
     "Recent_citations": [8],
     "Publications": 1,
     "Preprints": 0,
@@ -8956,13 +9071,13 @@
           "DOI": "10.1038/s41592-018-0001-7",
           "PubDate": "2018-04-27",
           "Preprint": false,
-          "Citations": [410],
+          "Citations": [433],
           "Recent_citations": 208
         }
       ],
       "Preprints": []
     },
-    "Citations": 410,
+    "Citations": 433,
     "Recent_citations": [208],
     "Publications": 1,
     "Preprints": 0,
@@ -8991,13 +9106,13 @@
           "DOI": "10.1093/bioinformatics/btz484",
           "PubDate": "2019-07-09",
           "Preprint": false,
-          "Citations": [8],
+          "Citations": [9],
           "Recent_citations": 7
         }
       ],
       "Preprints": []
     },
-    "Citations": 8,
+    "Citations": 9,
     "Recent_citations": [7],
     "Publications": 1,
     "Preprints": 0,
@@ -9214,13 +9329,13 @@
           "DOI": "10.1038/ncomms14515",
           "PubDate": "2017-02-20",
           "Preprint": false,
-          "Citations": [63],
+          "Citations": [66],
           "Recent_citations": 26
         }
       ],
       "Preprints": []
     },
-    "Citations": 63,
+    "Citations": 66,
     "Recent_citations": [26],
     "Publications": 1,
     "Preprints": 0,
@@ -9248,13 +9363,13 @@
           "DOI": "10.1093/bioinformatics/btz400",
           "PubDate": "2019-05-07",
           "Preprint": false,
-          "Citations": [14],
+          "Citations": [15],
           "Recent_citations": 6
         }
       ],
       "Preprints": []
     },
-    "Citations": 14,
+    "Citations": 15,
     "Recent_citations": [6],
     "Publications": 1,
     "Preprints": 0,
@@ -9304,12 +9419,12 @@
           "DOI": "10.1101/027607",
           "PubDate": "2015-09-26",
           "Preprint": true,
-          "Citations": [53],
+          "Citations": [55],
           "Recent_citations": 12
         }
       ]
     },
-    "Citations": 53,
+    "Citations": 55,
     "Recent_citations": [12],
     "Publications": 0,
     "Preprints": 1,
@@ -9357,13 +9472,13 @@
           "DOI": "10.3390/genes10060468",
           "PubDate": "2019-06-20",
           "Preprint": false,
-          "Citations": [27],
+          "Citations": [28],
           "Recent_citations": 18
         }
       ],
       "Preprints": []
     },
-    "Citations": 27,
+    "Citations": 28,
     "Recent_citations": [18],
     "Publications": 1,
     "Preprints": 0,
@@ -9390,13 +9505,13 @@
           "DOI": "10.1038/s41587-019-0191-2",
           "PubDate": "2019-07-29",
           "Preprint": false,
-          "Citations": [57],
+          "Citations": [64],
           "Recent_citations": 27
         }
       ],
       "Preprints": []
     },
-    "Citations": 57,
+    "Citations": 64,
     "Recent_citations": [27],
     "Publications": 1,
     "Preprints": 0,
@@ -9423,13 +9538,13 @@
           "DOI": "10.1186/s12864-016-3412-9",
           "PubDate": "2017-01-07",
           "Preprint": false,
-          "Citations": [34],
+          "Citations": [36],
           "Recent_citations": 8
         }
       ],
       "Preprints": []
     },
-    "Citations": 34,
+    "Citations": 36,
     "Recent_citations": [8],
     "Publications": 1,
     "Preprints": 0,
@@ -9512,13 +9627,13 @@
           "DOI": "10.1093/nar/gkz1173",
           "PubDate": "2019-12-05",
           "Preprint": false,
-          "Citations": [26],
+          "Citations": [28],
           "Recent_citations": 9
         }
       ],
       "Preprints": []
     },
-    "Citations": 26,
+    "Citations": 28,
     "Recent_citations": [9],
     "Publications": 1,
     "Preprints": 0,
@@ -9683,13 +9798,13 @@
           "DOI": "10.1038/nbt.3238",
           "PubDate": "2015-05-25",
           "Preprint": false,
-          "Citations": [585],
+          "Citations": [592],
           "Recent_citations": 157
         }
       ],
       "Preprints": []
     },
-    "Citations": 585,
+    "Citations": 592,
     "Recent_citations": [157],
     "Publications": 1,
     "Preprints": 0,
@@ -9716,13 +9831,13 @@
           "DOI": "10.1038/nmeth.2474",
           "PubDate": "2013-05-03",
           "Preprint": false,
-          "Citations": [2624],
+          "Citations": [2665],
           "Recent_citations": 148
         }
       ],
       "Preprints": []
     },
-    "Citations": 2624,
+    "Citations": 2665,
     "Recent_citations": [148],
     "Publications": 1,
     "Preprints": 0,
@@ -9749,13 +9864,13 @@
           "DOI": "10.1186/1471-2105-15-180",
           "PubDate": "2014-06-10",
           "Preprint": false,
-          "Citations": [89],
+          "Citations": [90],
           "Recent_citations": 7
         }
       ],
       "Preprints": []
     },
-    "Citations": 89,
+    "Citations": 90,
     "Recent_citations": [7],
     "Publications": 1,
     "Preprints": 0,
@@ -9782,13 +9897,13 @@
           "DOI": "10.1371/journal.pone.0047768",
           "PubDate": "2012-11-21",
           "Preprint": false,
-          "Citations": [622],
+          "Citations": [633],
           "Recent_citations": 31
         }
       ],
       "Preprints": []
     },
-    "Citations": 622,
+    "Citations": 633,
     "Recent_citations": [31],
     "Publications": 1,
     "Preprints": 0,
@@ -9856,13 +9971,13 @@
           "DOI": "10.1093/bioinformatics/bts649",
           "PubDate": "2012-11-06",
           "Preprint": false,
-          "Citations": [171],
+          "Citations": [175],
           "Recent_citations": 8
         }
       ],
       "Preprints": []
     },
-    "Citations": 171,
+    "Citations": 175,
     "Recent_citations": [8],
     "Publications": 1,
     "Preprints": 0,
@@ -10008,12 +10123,12 @@
           "DOI": "10.1101/705616",
           "PubDate": "2019-07-17",
           "Preprint": true,
-          "Citations": [25],
+          "Citations": [28],
           "Recent_citations": 15
         }
       ]
     },
-    "Citations": 25,
+    "Citations": 28,
     "Recent_citations": [15],
     "Publications": 0,
     "Preprints": 1,
@@ -10075,13 +10190,13 @@
           "DOI": "10.1038/s41592-018-0002-6",
           "PubDate": "2018-04-27",
           "Preprint": false,
-          "Citations": [38],
+          "Citations": [39],
           "Recent_citations": 20
         }
       ],
       "Preprints": []
     },
-    "Citations": 38,
+    "Citations": 39,
     "Recent_citations": [20],
     "Publications": 1,
     "Preprints": 0,
@@ -10144,13 +10259,13 @@
           "DOI": "10.1371/journal.pone.0112963",
           "PubDate": "2014-11-20",
           "Preprint": false,
-          "Citations": [2599],
+          "Citations": [2732],
           "Recent_citations": 80
         }
       ],
       "Preprints": []
     },
-    "Citations": 2599,
+    "Citations": 2732,
     "Recent_citations": [80],
     "Publications": 1,
     "Preprints": 0,
@@ -10285,13 +10400,13 @@
           "DOI": "10.1038/s41467-019-09575-2",
           "PubDate": "2019-04-12",
           "Preprint": false,
-          "Citations": [19],
+          "Citations": [26],
           "Recent_citations": 12
         }
       ],
       "Preprints": []
     },
-    "Citations": 19,
+    "Citations": 26,
     "Recent_citations": [12],
     "Publications": 1,
     "Preprints": 0,
@@ -10337,13 +10452,13 @@
           "DOI": "10.1038/s41592-019-0617-2",
           "PubDate": "2019-11-18",
           "Preprint": false,
-          "Citations": [94],
+          "Citations": [108],
           "Recent_citations": 56
         }
       ],
       "Preprints": []
     },
-    "Citations": 94,
+    "Citations": 108,
     "Recent_citations": [56],
     "Publications": 1,
     "Preprints": 0,
@@ -10655,7 +10770,7 @@
         {
           "Title": "Pair consensus decoding improves accuracy of neural network basecallers for nanopore sequencing",
           "DOI": "10.1101/2020.02.25.956771",
-          "PubDate": "2020-02-25",
+          "PubDate": "2020-02-26",
           "Preprint": true,
           "Citations": [3],
           "Recent_citations": 1
@@ -10666,7 +10781,7 @@
     "Recent_citations": [1],
     "Publications": 0,
     "Preprints": 1,
-    "PubDates": ["2020-02-25"],
+    "PubDates": ["2020-02-26"],
     "Github": "jordisr/poreover",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["Basecalling"]
@@ -10732,13 +10847,13 @@
           "DOI": "10.1038/nbt.3360",
           "PubDate": "2015-09-09",
           "Preprint": false,
-          "Citations": [65],
+          "Citations": [68],
           "Recent_citations": 30
         }
       ],
       "Preprints": []
     },
-    "Citations": 65,
+    "Citations": 68,
     "Recent_citations": [30],
     "Publications": 1,
     "Preprints": 0,
@@ -10800,13 +10915,13 @@
           "DOI": "10.1093/bioinformatics/btu555",
           "PubDate": "2014-08-21",
           "Preprint": false,
-          "Citations": [299],
+          "Citations": [304],
           "Recent_citations": 37
         }
       ],
       "Preprints": []
     },
-    "Citations": 299,
+    "Citations": 304,
     "Recent_citations": [37],
     "Publications": 1,
     "Preprints": 0,
@@ -10833,13 +10948,13 @@
           "DOI": "10.1093/bioinformatics/btx830",
           "PubDate": "2017-12-20",
           "Preprint": false,
-          "Citations": [11],
+          "Citations": [13],
           "Recent_citations": 4
         }
       ],
       "Preprints": []
     },
-    "Citations": 11,
+    "Citations": 13,
     "Recent_citations": [4],
     "Publications": 1,
     "Preprints": 0,
@@ -10866,13 +10981,13 @@
           "DOI": "10.1093/bioinformatics/btr026",
           "PubDate": "2011-01-29",
           "Preprint": false,
-          "Citations": [2584],
+          "Citations": [2633],
           "Recent_citations": 26
         }
       ],
       "Preprints": []
     },
-    "Citations": 2584,
+    "Citations": 2633,
     "Recent_citations": [26],
     "Publications": 1,
     "Preprints": 0,
@@ -10899,13 +11014,13 @@
           "DOI": "10.1093/bioinformatics/btu392",
           "PubDate": "2014-07-12",
           "Preprint": false,
-          "Citations": [295],
+          "Citations": [303],
           "Recent_citations": 24
         }
       ],
       "Preprints": []
     },
-    "Citations": 295,
+    "Citations": 303,
     "Recent_citations": [24],
     "Publications": 1,
     "Preprints": 0,
@@ -10986,13 +11101,13 @@
           "DOI": "10.21105/joss.01236",
           "PubDate": "2019-02-28",
           "Preprint": false,
-          "Citations": [16],
+          "Citations": [20],
           "Recent_citations": 8
         }
       ],
       "Preprints": []
     },
-    "Citations": 16,
+    "Citations": 20,
     "Recent_citations": [8],
     "Publications": 1,
     "Preprints": 0,
@@ -11096,13 +11211,13 @@
           "DOI": "10.1093/bioinformatics/btt086",
           "PubDate": "2013-02-20",
           "Preprint": false,
-          "Citations": [2773],
+          "Citations": [2881],
           "Recent_citations": 48
         }
       ],
       "Preprints": []
     },
-    "Citations": 2773,
+    "Citations": 2881,
     "Recent_citations": [48],
     "Publications": 1,
     "Preprints": 0,
@@ -11130,13 +11245,13 @@
           "DOI": "10.1093/bioinformatics/bty266",
           "PubDate": "2018-04-12",
           "Preprint": false,
-          "Citations": [178],
+          "Citations": [190],
           "Recent_citations": 92
         }
       ],
       "Preprints": []
     },
-    "Citations": 178,
+    "Citations": 190,
     "Recent_citations": [92],
     "Publications": 1,
     "Preprints": 0,
@@ -11163,13 +11278,13 @@
           "DOI": "10.1093/nar/gkw654",
           "PubDate": "2016-07-26",
           "Preprint": false,
-          "Citations": [75],
+          "Citations": [74],
           "Recent_citations": 17
         }
       ],
       "Preprints": []
     },
-    "Citations": 75,
+    "Citations": 74,
     "Recent_citations": [17],
     "Publications": 1,
     "Preprints": 0,
@@ -11249,13 +11364,13 @@
           "DOI": "10.1073/pnas.1806447115",
           "PubDate": "2018-09-10",
           "Preprint": false,
-          "Citations": [74],
+          "Citations": [77],
           "Recent_citations": 43
         }
       ],
       "Preprints": []
     },
-    "Citations": 74,
+    "Citations": 77,
     "Recent_citations": [43],
     "Publications": 1,
     "Preprints": 0,
@@ -11315,7 +11430,7 @@
     "Refs": {
       "Publications": [
         {
-          "Title": "RabbitQC: High-speed scalable quality control for sequencing data",
+          "Title": "RabbitQC: high-speed scalable quality control for sequencing data",
           "DOI": "10.1093/bioinformatics/btaa719",
           "PubDate": "2020-08-08",
           "Preprint": false,
@@ -11353,13 +11468,13 @@
           "DOI": "10.1101/gr.214270.116",
           "PubDate": "2017-01-19",
           "Preprint": false,
-          "Citations": [629],
+          "Citations": [684],
           "Recent_citations": 85
         }
       ],
       "Preprints": []
     },
-    "Citations": 629,
+    "Citations": 684,
     "Recent_citations": [85],
     "Publications": 1,
     "Preprints": 0,
@@ -11408,13 +11523,13 @@
           "DOI": "10.1186/s13059-019-1829-6",
           "PubDate": "2019-10-28",
           "Preprint": false,
-          "Citations": [82],
+          "Citations": [91],
           "Recent_citations": 38
         }
       ],
       "Preprints": []
     },
-    "Citations": 82,
+    "Citations": 91,
     "Recent_citations": [38],
     "Publications": 1,
     "Preprints": 0,
@@ -11528,7 +11643,7 @@
       "Publications": [],
       "Preprints": [
         {
-          "Title": "Reference-free reconstruction and quantification of transcriptomes from long-read sequencing",
+          "Title": "Reference-free reconstruction and quantification of transcriptomes from Nanopore long-read sequencing",
           "DOI": "10.1101/2020.02.08.939942",
           "PubDate": "2020-02-11",
           "Preprint": true,
@@ -11566,12 +11681,12 @@
           "DOI": "10.1101/2020.08.07.242461",
           "PubDate": "2020-08-10",
           "Preprint": true,
-          "Citations": [7],
+          "Citations": [9],
           "Recent_citations": 0
         }
       ]
     },
-    "Citations": 7,
+    "Citations": 9,
     "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
@@ -11620,13 +11735,13 @@
           "DOI": "10.1038/nmeth.3930",
           "PubDate": "2016-07-25",
           "Preprint": false,
-          "Citations": [117],
+          "Citations": [120],
           "Recent_citations": 40
         }
       ],
       "Preprints": []
     },
-    "Citations": 117,
+    "Citations": 120,
     "Recent_citations": [40],
     "Publications": 1,
     "Preprints": 0,
@@ -11655,13 +11770,13 @@
           "DOI": "10.1038/s41587-020-00746-x",
           "PubDate": "2020-11-30",
           "Preprint": false,
-          "Citations": [8],
+          "Citations": [10],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 8,
+    "Citations": 10,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -11788,13 +11903,13 @@
           "DOI": "10.1186/s13059-020-02013-3",
           "PubDate": "2020-05-26",
           "Preprint": false,
-          "Citations": [6],
+          "Citations": [7],
           "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Citations": 6,
+    "Citations": 7,
     "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
@@ -11867,13 +11982,13 @@
           "DOI": "10.1093/bioinformatics/btaa680",
           "PubDate": "2020-08-04",
           "Preprint": false,
-          "Citations": [6],
+          "Citations": [7],
           "Recent_citations": 1
         }
       ],
       "Preprints": []
     },
-    "Citations": 6,
+    "Citations": 7,
     "Recent_citations": [1],
     "Publications": 1,
     "Preprints": 0,
@@ -11978,13 +12093,13 @@
           "DOI": "10.1093/bioinformatics/btx668",
           "PubDate": "2017-10-18",
           "Preprint": false,
-          "Citations": [37],
+          "Citations": [39],
           "Recent_citations": 18
         }
       ],
       "Preprints": []
     },
-    "Citations": 37,
+    "Citations": 39,
     "Recent_citations": [18],
     "Publications": 1,
     "Preprints": 0,
@@ -12012,13 +12127,13 @@
           "DOI": "10.1038/s41598-019-47857-3",
           "PubDate": "2019-08-07",
           "Preprint": false,
-          "Citations": [10],
+          "Citations": [11],
           "Recent_citations": 4
         }
       ],
       "Preprints": []
     },
-    "Citations": 10,
+    "Citations": 11,
     "Recent_citations": [4],
     "Publications": 1,
     "Preprints": 0,
@@ -12103,13 +12218,13 @@
           "DOI": "10.1186/s12864-017-3879-z",
           "PubDate": "2017-07-12",
           "Preprint": false,
-          "Citations": [67],
+          "Citations": [71],
           "Recent_citations": 18
         }
       ],
       "Preprints": []
     },
-    "Citations": 67,
+    "Citations": 71,
     "Recent_citations": [18],
     "Publications": 1,
     "Preprints": 0,
@@ -12269,13 +12384,13 @@
           "DOI": "10.1038/s41592-018-0236-3",
           "PubDate": "2018-12-07",
           "Preprint": false,
-          "Citations": [61],
+          "Citations": [67],
           "Recent_citations": 38
         }
       ],
       "Preprints": []
     },
-    "Citations": 61,
+    "Citations": 67,
     "Recent_citations": [38],
     "Publications": 1,
     "Preprints": 0,
@@ -12324,13 +12439,13 @@
           "DOI": "10.1038/s41587-020-0503-6",
           "PubDate": "2020-05-04",
           "Preprint": false,
-          "Citations": [56],
+          "Citations": [64],
           "Recent_citations": 15
         }
       ],
       "Preprints": []
     },
-    "Citations": 56,
+    "Citations": 64,
     "Recent_citations": [15],
     "Publications": 1,
     "Preprints": 0,
@@ -12400,13 +12515,13 @@
           "DOI": "10.1038/s41467-020-17800-6",
           "PubDate": "2020-08-12",
           "Preprint": false,
-          "Citations": [14],
+          "Citations": [18],
           "Recent_citations": 4
         }
       ],
       "Preprints": []
     },
-    "Citations": 14,
+    "Citations": 18,
     "Recent_citations": [4],
     "Publications": 1,
     "Preprints": 0,
@@ -12435,13 +12550,13 @@
           "DOI": "10.1038/nmeth.4189",
           "PubDate": "2017-02-21",
           "Preprint": false,
-          "Citations": [207],
+          "Citations": [214],
           "Recent_citations": 67
         }
       ],
       "Preprints": []
     },
-    "Citations": 207,
+    "Citations": 214,
     "Recent_citations": [67],
     "Publications": 1,
     "Preprints": 0,
@@ -12503,13 +12618,13 @@
           "DOI": "10.1093/bioinformatics/btw286",
           "PubDate": "2016-05-11",
           "Preprint": false,
-          "Citations": [46],
+          "Citations": [49],
           "Recent_citations": 2
         }
       ],
       "Preprints": []
     },
-    "Citations": 46,
+    "Citations": 49,
     "Recent_citations": [2],
     "Publications": 1,
     "Preprints": 0,
@@ -12578,18 +12693,18 @@
         {
           "Title": "SLR-superscaffolder: a de novo scaffolding tool for synthetic long reads using a top-to-bottom scheme",
           "DOI": "10.1101/762385",
-          "PubDate": "2019-09-08",
+          "PubDate": "2019-09-09",
           "Preprint": true,
-          "Citations": [3],
+          "Citations": [4],
           "Recent_citations": 3
         }
       ]
     },
-    "Citations": 3,
+    "Citations": 4,
     "Recent_citations": [3],
     "Publications": 0,
     "Preprints": 1,
-    "PubDates": ["2019-09-08"],
+    "PubDates": ["2019-09-09"],
     "Github": "BGI-Qingdao/SLR-superscaffolder",
     "Technologies": ["tenxGenomics"],
     "Categories": ["Scaffolding", "TestedOnHumanData"]
@@ -12613,13 +12728,13 @@
           "DOI": "10.1038/ncomms8438",
           "PubDate": "2015-06-15",
           "Preprint": false,
-          "Citations": [56],
+          "Citations": [57],
           "Recent_citations": 11
         }
       ],
       "Preprints": []
     },
-    "Citations": 56,
+    "Citations": 57,
     "Recent_citations": [11],
     "Publications": 1,
     "Preprints": 0,
@@ -12688,13 +12803,13 @@
           "DOI": "10.1126/science.aar6343",
           "PubDate": "2018-06-07",
           "Preprint": false,
-          "Citations": [138],
+          "Citations": [145],
           "Recent_citations": 73
         }
       ],
       "Preprints": []
     },
-    "Citations": 138,
+    "Citations": 145,
     "Recent_citations": [73],
     "Publications": 1,
     "Preprints": 0,
@@ -12743,13 +12858,13 @@
           "DOI": "10.1093/nar/gkr1146",
           "PubDate": "2011-12-08",
           "Preprint": false,
-          "Citations": [197],
+          "Citations": [203],
           "Recent_citations": 20
         }
       ],
       "Preprints": []
     },
-    "Citations": 197,
+    "Citations": 203,
     "Recent_citations": [20],
     "Publications": 1,
     "Preprints": 0,
@@ -12777,13 +12892,13 @@
           "DOI": "10.1038/nature13907",
           "PubDate": "2014-11-10",
           "Preprint": false,
-          "Citations": [489],
+          "Citations": [496],
           "Recent_citations": 110
         }
       ],
       "Preprints": []
     },
-    "Citations": 489,
+    "Citations": 496,
     "Recent_citations": [110],
     "Publications": 1,
     "Preprints": 0,
@@ -12878,13 +12993,13 @@
           "DOI": "10.1038/s41592-018-0001-7",
           "PubDate": "2018-04-27",
           "Preprint": false,
-          "Citations": [410],
+          "Citations": [433],
           "Recent_citations": 208
         }
       ],
       "Preprints": []
     },
-    "Citations": 410,
+    "Citations": 433,
     "Recent_citations": [208],
     "Publications": 1,
     "Preprints": 0,
@@ -12969,13 +13084,13 @@
           "DOI": "10.1089/cmb.2012.0021",
           "PubDate": "2012-04-16",
           "Preprint": false,
-          "Citations": [10170],
+          "Citations": [10444],
           "Recent_citations": 54
         }
       ],
       "Preprints": []
     },
-    "Citations": 10170,
+    "Citations": 10444,
     "Recent_citations": [54],
     "Publications": 1,
     "Preprints": 0,
@@ -13002,13 +13117,13 @@
           "DOI": "10.7717/peerj.2016",
           "PubDate": "2016-06-08",
           "Preprint": false,
-          "Citations": [18],
+          "Citations": [19],
           "Recent_citations": 5
         }
       ],
       "Preprints": []
     },
-    "Citations": 18,
+    "Citations": 19,
     "Recent_citations": [5],
     "Publications": 1,
     "Preprints": 0,
@@ -13070,13 +13185,13 @@
           "DOI": "10.1186/1471-2164-15-699",
           "PubDate": "2014-08-21",
           "Preprint": false,
-          "Citations": [57],
+          "Citations": [58],
           "Recent_citations": 4
         }
       ],
       "Preprints": []
     },
-    "Citations": 57,
+    "Citations": 58,
     "Recent_citations": [4],
     "Publications": 1,
     "Preprints": 0,
@@ -13103,13 +13218,13 @@
           "DOI": "10.1101/gr.222976.117",
           "PubDate": "2018-02-09",
           "Preprint": false,
-          "Citations": [78],
+          "Citations": [86],
           "Recent_citations": 40
         }
       ],
       "Preprints": []
     },
-    "Citations": 78,
+    "Citations": 86,
     "Recent_citations": [40],
     "Publications": 1,
     "Preprints": 0,
@@ -13136,13 +13251,13 @@
           "DOI": "10.1101/gr.222976.117",
           "PubDate": "2018-02-09",
           "Preprint": false,
-          "Citations": [78],
+          "Citations": [86],
           "Recent_citations": 40
         }
       ],
       "Preprints": []
     },
-    "Citations": 78,
+    "Citations": 86,
     "Recent_citations": [40],
     "Publications": 1,
     "Preprints": 0,
@@ -13170,13 +13285,13 @@
           "DOI": "10.1101/gr.222976.117",
           "PubDate": "2018-02-09",
           "Preprint": false,
-          "Citations": [78],
+          "Citations": [86],
           "Recent_citations": 40
         }
       ],
       "Preprints": []
     },
-    "Citations": 78,
+    "Citations": 86,
     "Recent_citations": [40],
     "Publications": 1,
     "Preprints": 0,
@@ -13280,13 +13395,13 @@
           "DOI": "10.1186/s13059-019-1910-1",
           "PubDate": "2019-12-16",
           "Preprint": false,
-          "Citations": [79],
+          "Citations": [96],
           "Recent_citations": 28
         }
       ],
       "Preprints": []
     },
-    "Citations": 79,
+    "Citations": 96,
     "Recent_citations": [28],
     "Publications": 1,
     "Preprints": 0,
@@ -13314,13 +13429,13 @@
           "DOI": "10.1038/s41587-019-0293-x",
           "PubDate": "2019-11-18",
           "Preprint": false,
-          "Citations": [27],
+          "Citations": [30],
           "Recent_citations": 13
         }
       ],
       "Preprints": []
     },
-    "Citations": 27,
+    "Citations": 30,
     "Recent_citations": [13],
     "Publications": 1,
     "Preprints": 0,
@@ -13391,13 +13506,13 @@
           "DOI": "10.1038/ncomms14061",
           "PubDate": "2017-01-24",
           "Preprint": false,
-          "Citations": [146],
+          "Citations": [155],
           "Recent_citations": 38
         }
       ],
       "Preprints": []
     },
-    "Citations": 146,
+    "Citations": 155,
     "Recent_citations": [38],
     "Publications": 1,
     "Preprints": 0,
@@ -13479,7 +13594,7 @@
     "Refs": {
       "Publications": [
         {
-          "Title": "SVJedi: Genotyping structural variations with long reads",
+          "Title": "SVJedi: genotyping structural variations with long reads",
           "DOI": "10.1093/bioinformatics/btaa527",
           "PubDate": "2020-05-18",
           "Preprint": false,
@@ -13519,13 +13634,13 @@
           "DOI": "10.1093/bioinformatics/btaa836",
           "PubDate": "2020-09-16",
           "Preprint": false,
-          "Citations": [0],
+          "Citations": [1],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 0,
+    "Citations": 1,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -13553,13 +13668,13 @@
           "DOI": "10.1186/s13059-019-1911-0",
           "PubDate": "2019-12-16",
           "Preprint": false,
-          "Citations": [15],
+          "Citations": [19],
           "Recent_citations": 11
         }
       ],
       "Preprints": []
     },
-    "Citations": 15,
+    "Citations": 19,
     "Recent_citations": [11],
     "Publications": 1,
     "Preprints": 0,
@@ -13609,13 +13724,13 @@
           "DOI": "10.1261/rna.071332.119",
           "PubDate": "2019-07-02",
           "Preprint": false,
-          "Citations": [13],
+          "Citations": [16],
           "Recent_citations": 8
         }
       ],
       "Preprints": []
     },
-    "Citations": 13,
+    "Citations": 16,
     "Recent_citations": [8],
     "Publications": 1,
     "Preprints": 0,
@@ -13719,12 +13834,12 @@
           "DOI": "10.1101/672931",
           "PubDate": "2019-06-18",
           "Preprint": true,
-          "Citations": [19],
+          "Citations": [25],
           "Recent_citations": 14
         }
       ]
     },
-    "Citations": 19,
+    "Citations": 25,
     "Recent_citations": [14],
     "Publications": 0,
     "Preprints": 1,
@@ -13753,12 +13868,12 @@
           "DOI": "10.1101/780015",
           "PubDate": "2019-09-25",
           "Preprint": true,
-          "Citations": [10],
+          "Citations": [9],
           "Recent_citations": 10
         }
       ]
     },
-    "Citations": 10,
+    "Citations": 9,
     "Recent_citations": [10],
     "Publications": 0,
     "Preprints": 1,
@@ -13786,13 +13901,13 @@
           "DOI": "10.1186/s13059-019-1667-6",
           "PubDate": "2019-10-15",
           "Preprint": false,
-          "Citations": [30],
+          "Citations": [34],
           "Recent_citations": 21
         }
       ],
       "Preprints": []
     },
-    "Citations": 30,
+    "Citations": 34,
     "Recent_citations": [21],
     "Publications": 1,
     "Preprints": 0,
@@ -13820,13 +13935,13 @@
           "DOI": "10.1093/bioinformatics/btaa440",
           "PubDate": "2020-05-04",
           "Preprint": false,
-          "Citations": [5],
+          "Citations": [7],
           "Recent_citations": 4
         }
       ],
       "Preprints": []
     },
-    "Citations": 5,
+    "Citations": 7,
     "Recent_citations": [4],
     "Publications": 1,
     "Preprints": 0,
@@ -13853,13 +13968,13 @@
           "DOI": "10.1038/ncomms11706",
           "PubDate": "2016-06-24",
           "Preprint": false,
-          "Citations": [220],
+          "Citations": [223],
           "Recent_citations": 45
         }
       ],
       "Preprints": []
     },
-    "Citations": 220,
+    "Citations": 223,
     "Recent_citations": [45],
     "Publications": 1,
     "Preprints": 0,
@@ -13885,13 +14000,13 @@
           "DOI": "10.1186/s13059-020-02028-w",
           "PubDate": "2020-05-18",
           "Preprint": false,
-          "Citations": [2],
+          "Citations": [4],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 2,
+    "Citations": 4,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -13938,13 +14053,13 @@
           "DOI": "10.1093/gigascience/giaa094",
           "PubDate": "2020-09-07",
           "Preprint": false,
-          "Citations": [7],
+          "Citations": [8],
           "Recent_citations": 2
         }
       ],
       "Preprints": []
     },
-    "Citations": 7,
+    "Citations": 8,
     "Recent_citations": [2],
     "Publications": 1,
     "Preprints": 0,
@@ -14006,13 +14121,13 @@
           "DOI": "10.1186/s12859-018-2425-6",
           "PubDate": "2018-10-26",
           "Preprint": false,
-          "Citations": [22],
+          "Citations": [24],
           "Recent_citations": 15
         }
       ],
       "Preprints": []
     },
-    "Citations": 22,
+    "Citations": 24,
     "Recent_citations": [15],
     "Publications": 1,
     "Preprints": 0,
@@ -14076,13 +14191,13 @@
           "DOI": "10.1016/j.molcel.2020.10.024",
           "PubDate": "2020-11-12",
           "Preprint": false,
-          "Citations": [4],
+          "Citations": [6],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 4,
+    "Citations": 6,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -14108,13 +14223,13 @@
           "DOI": "10.1038/nbt.3242",
           "PubDate": "2015-05-18",
           "Preprint": false,
-          "Citations": [115],
+          "Citations": [118],
           "Recent_citations": 19
         }
       ],
       "Preprints": []
     },
-    "Citations": 115,
+    "Citations": 118,
     "Recent_citations": [19],
     "Publications": 1,
     "Preprints": 0,
@@ -14218,13 +14333,13 @@
           "DOI": "10.1093/bioinformatics/bty483",
           "PubDate": "2018-06-13",
           "Preprint": false,
-          "Citations": [16],
+          "Citations": [18],
           "Recent_citations": 10
         }
       ],
       "Preprints": []
     },
-    "Citations": 16,
+    "Citations": 18,
     "Recent_citations": [10],
     "Publications": 1,
     "Preprints": 0,
@@ -14287,13 +14402,13 @@
           "DOI": "10.1093/gigascience/giaa101",
           "PubDate": "2020-10-07",
           "Preprint": false,
-          "Citations": [1],
+          "Citations": [2],
           "Recent_citations": 1
         }
       ],
       "Preprints": []
     },
-    "Citations": 1,
+    "Citations": 2,
     "Recent_citations": [1],
     "Publications": 1,
     "Preprints": 0,
@@ -14341,13 +14456,13 @@
           "DOI": "10.1534/g3.118.200900",
           "PubDate": "2019-03-09",
           "Preprint": false,
-          "Citations": [1],
+          "Citations": [3],
           "Recent_citations": 1
         }
       ],
       "Preprints": []
     },
-    "Citations": 1,
+    "Citations": 3,
     "Recent_citations": [1],
     "Publications": 1,
     "Preprints": 0,
@@ -14374,13 +14489,13 @@
           "DOI": "10.1038/s41598-017-07650-6",
           "PubDate": "2017-07-28",
           "Preprint": false,
-          "Citations": [62],
+          "Citations": [64],
           "Recent_citations": 35
         }
       ],
       "Preprints": []
     },
-    "Citations": 62,
+    "Citations": 64,
     "Recent_citations": [35],
     "Publications": 1,
     "Preprints": 0,
@@ -14451,13 +14566,13 @@
           "DOI": "10.1038/s41587-020-0731-9",
           "PubDate": "2020-11-30",
           "Preprint": false,
-          "Citations": [11],
+          "Citations": [12],
           "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Citations": 11,
+    "Citations": 12,
     "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
@@ -14485,13 +14600,13 @@
           "DOI": "10.1371/journal.pcbi.1005595",
           "PubDate": "2017-06-08",
           "Preprint": false,
-          "Citations": [1487],
+          "Citations": [1588],
           "Recent_citations": 297
         }
       ],
       "Preprints": []
     },
-    "Citations": 1487,
+    "Citations": 1588,
     "Recent_citations": [297],
     "Publications": 1,
     "Preprints": 0,
@@ -14656,13 +14771,13 @@
           "DOI": "10.1093/bioinformatics/btz942",
           "PubDate": "2019-12-18",
           "Preprint": false,
-          "Citations": [5],
+          "Citations": [7],
           "Recent_citations": 2
         }
       ],
       "Preprints": []
     },
-    "Citations": 5,
+    "Citations": 7,
     "Recent_citations": [2],
     "Publications": 1,
     "Preprints": 0,
@@ -14689,12 +14804,12 @@
           "DOI": "10.1101/030742",
           "PubDate": "2015-11-07",
           "Preprint": true,
-          "Citations": [45],
+          "Citations": [49],
           "Recent_citations": 8
         }
       ]
     },
-    "Citations": 45,
+    "Citations": 49,
     "Recent_citations": [8],
     "Publications": 0,
     "Preprints": 1,
@@ -14721,13 +14836,13 @@
           "DOI": "10.1093/bioinformatics/btaa435",
           "PubDate": "2020-05-04",
           "Preprint": false,
-          "Citations": [12],
+          "Citations": [13],
           "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Citations": 12,
+    "Citations": 13,
     "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
@@ -14755,13 +14870,13 @@
           "DOI": "10.1038/s41592-019-0669-3",
           "PubDate": "2019-12-09",
           "Preprint": false,
-          "Citations": [172],
+          "Citations": [197],
           "Recent_citations": 78
         }
       ],
       "Preprints": []
     },
-    "Citations": 172,
+    "Citations": 197,
     "Recent_citations": [78],
     "Publications": 1,
     "Preprints": 0,
@@ -14810,12 +14925,12 @@
           "DOI": "10.1101/2020.06.18.160010",
           "PubDate": "2020-06-20",
           "Preprint": true,
-          "Citations": [3],
+          "Citations": [4],
           "Recent_citations": 1
         }
       ]
     },
-    "Citations": 3,
+    "Citations": 4,
     "Recent_citations": [1],
     "Publications": 0,
     "Preprints": 1,

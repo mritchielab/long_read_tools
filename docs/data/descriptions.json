@@ -4,6 +4,10 @@
     "Description": "Alignment of long reads to a reference"
   },
   {
+    "Category": "AlternativeSplicingDetection",
+    "Description": "Detecting the ability of genes to generate different mature mRNA splice isoform transcripts, resulting in multiple protein isoforms"
+  },
+  {
     "Category": "AvailablityOfTestData",
     "Description": "If any datasets were made available with the tool or through the pulblication"
   },
@@ -22,6 +26,14 @@
   {
     "Category": "GeneratingConsensusSequence",
     "Description": "Generating a consensus sequence from the assembled reads"
+  },
+  {
+    "Category": "FusionDetection",
+    "Description": "Detection of two or more distinct genes being fused into a single gene"
+  },
+  {
+     "Category": "CoexpressionAnalysis",
+     "Description": "Co expression of multiple genes or isoforms in a biologically important network"
   },
   {
     "Category": "AnalysisPipelines",

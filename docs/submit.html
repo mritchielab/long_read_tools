@@ -123,7 +123,7 @@
                                 <form action="https://formspree.io/f/moqprdgl" method="POST">
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label for="name">Name:</label>
+                                            <label for="name">Tool Name:</label>
                                             <input type="text" class="form-control" id="name" name="name"
                                                 placeholder="Tool name">
                                         </div>
@@ -132,12 +132,12 @@
                                         <div class="form-group">
                                             <label for="doi">DOI(s):</label>
                                             <input type="text" class="form-control" id="doi" name="doi"
-                                                placeholder="DOIs for associated publications/preprints">
+                                                placeholder="DOIs for associated publications/preprints seperated by ;">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <label for="platform">Platform(s):</label>
+                                            <label for="platform">Programming Platform(s):</label>
                                             <input type="text" class="form-control" id="platform" name="platform"
                                                 placeholder="Available platforms (eg. R/Python)">
                                         </div>
@@ -247,6 +247,12 @@
                                                             Alignment</label>
                                                     </div>
                                                     <div class="checkbox">
+                                                        <label for="AlternativeSplicingDetection">
+                                                            <input type="checkbox" value="AlternativeSplicingDetection"
+                                                                id="AlternativeSplicingDetection" name="categories">
+                                                            Alternative Splicing Detection</label>
+                                                    </div>
+                                                    <div class="checkbox">
                                                         <label for="AnalysisPipelines">
                                                             <input type="checkbox" value="Analysis Pipelines"
                                                                 id="AnalysisPipelines" name="categories">
@@ -266,6 +272,12 @@
                                                                 id="BaseModificationDetection" name="categories">
                                                             Base
                                                             Modification Detection</label>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <label for="CoexpressionAnalysis">
+                                                            <input type="checkbox" value="CoexpressionAnalysis"
+                                                                id="CoexpressionAnalysis" name="categories">
+                                                            Coexpression Analysis</label>
                                                     </div>
                                                     <div class="checkbox">
                                                         <label for="Demultiplexing">
@@ -293,6 +305,12 @@
                                                                 id="EvaluatingExisitingMethods" name="categories">
                                                             Evaluating Exisiting
                                                             Methods</label>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <label for="FusionDetection">
+                                                            <input type="checkbox" value="FusionDetection"
+                                                                id="FusionDetection" name="categories">
+                                                            Fusion Detection</label>
                                                     </div>
                                                     <div class="checkbox">
                                                         <label for="GapFilling">
