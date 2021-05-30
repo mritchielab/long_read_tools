@@ -3,10 +3,10 @@
     {
       "orientation": "v",
       "width": 1,
-      "base": 222,
+      "base": 228,
       "x": [1],
-      "y": [285],
-      "text": "Type: Published<br />Count: 285<br />Percent: 56.2",
+      "y": [291],
+      "text": "Type: Published<br />Count: 291<br />Percent: 56.1",
       "type": "bar",
       "marker": {
         "autocolorscale": false,
@@ -27,10 +27,10 @@
     {
       "orientation": "v",
       "width": 1,
-      "base": 172,
+      "base": 176,
       "x": [1],
-      "y": [50],
-      "text": "Type: Preprint<br />Count:  50<br />Percent: 9.9",
+      "y": [52],
+      "text": "Type: Preprint<br />Count:  52<br />Percent: 10",
       "type": "bar",
       "marker": {
         "autocolorscale": false,
@@ -53,8 +53,8 @@
       "width": 1,
       "base": 0,
       "x": [1],
-      "y": [172],
-      "text": "Type: Not Published<br />Count: 172<br />Percent: 33.9",
+      "y": [176],
+      "text": "Type: Not Published<br />Count: 176<br />Percent: 33.9",
       "type": "bar",
       "marker": {
         "autocolorscale": false,
@@ -74,9 +74,9 @@
     },
     {
       "x": [1],
-      "y": [364.5],
-      "text": "Published 56.2%",
-      "hovertext": "Type: Published<br />Count: 285<br />Percent: 56.2",
+      "y": [373.5],
+      "text": "Published 56.1%",
+      "hovertext": "Type: Published<br />Count: 291<br />Percent: 56.1",
       "textfont": {
         "size": 11.3385826771654,
         "color": "rgba(255,255,255,1)"
@@ -94,9 +94,9 @@
     },
     {
       "x": [1],
-      "y": [197],
-      "text": "Preprint 9.9%",
-      "hovertext": "Type: Preprint<br />Count:  50<br />Percent: 9.9",
+      "y": [202],
+      "text": "Preprint 10%",
+      "hovertext": "Type: Preprint<br />Count:  52<br />Percent: 10",
       "textfont": {
         "size": 11.3385826771654,
         "color": "rgba(255,255,255,1)"
@@ -114,9 +114,9 @@
     },
     {
       "x": [1],
-      "y": [86],
+      "y": [88],
       "text": "Not Published 33.9%",
-      "hovertext": "Type: Not Published<br />Count: 172<br />Percent: 33.9",
+      "hovertext": "Type: Not Published<br />Count: 176<br />Percent: 33.9",
       "textfont": {
         "size": 11.3385826771654,
         "color": "rgba(255,255,255,1)"
@@ -201,10 +201,10 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-25.35, 532.35],
+      "range": [-25.95, 544.95],
       "tickmode": "array",
       "ticktext": ["0", "100", "200", "300", "400", "500"],
-      "tickvals": [0, 100, 200, 300, 400, 500],
+      "tickvals": [-3.5527136788005e-015, 100, 200, 300, 400, 500],
       "categoryorder": "array",
       "categoryarray": ["0", "100", "200", "300", "400", "500"],
       "nticks": null,
@@ -274,14 +274,14 @@
   },
   "source": "A",
   "attrs": {
-    "555019094fb7": {
+    "73705ee31578": {
       "x": {},
       "fill": {},
       "weight": {},
       "text": {},
       "type": "bar"
     },
-    "555065bd3eb4": {
+    "73707bcf75e3": {
       "x": {},
       "y": {},
       "label": {},
@@ -291,10 +291,10 @@
       "text": {}
     }
   },
-  "cur_data": "555019094fb7",
+  "cur_data": "73705ee31578",
   "visdat": {
-    "555019094fb7": ["function (y) ", "x"],
-    "555065bd3eb4": ["function (y) ", "x"]
+    "73705ee31578": ["function (y) ", "x"],
+    "73707bcf75e3": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",

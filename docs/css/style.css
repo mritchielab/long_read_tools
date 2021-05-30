@@ -233,7 +233,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-	padding: 100px 0;
+	padding: 130px 0;
 	background: #f6f6f6;
 }
 #features i.fa {
@@ -702,9 +702,21 @@ table thead {
     padding: 5px 5px;
 }
 
+.logo-img{
+	margin-top: 5px;
+    position: absolute;
+    top: -30px;
+	width: 210px;
+}
+
+.tool-block {
+    
+    height: 36px;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) and  (max-width: 600px) {
 	.intro h1 {
     font-size: 30px;
     padding: 25px 0px 26px 0px;
@@ -713,13 +725,37 @@ table thead {
     font-size: 25px;
     /* padding: 25px 0px 26px 0px; */
 }
+.logo-img{
+	margin-top: 5px;
+    position: absolute;
+	top: 0px;
+    width: 130px;
+}
+.mobile-show{
+	display: block !important;
+}
+.mobile-hide{
+	display: none !important;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 	.intro h1 {
     font-size: 60px;
     padding: 25px 0px 26px 0px;
+}
+.logo-img{
+	margin-top: 5px;
+    position: absolute;
+	top: 0px;
+    width: 130px;
+}
+.mobile-show{
+	display: block !important;
+}
+.mobile-hide{
+	display: none !important;
 }
 }
 
@@ -729,6 +765,18 @@ table thead {
     font-size: 60px;
     padding: 25px 0px 26px 0px;
 }
+.logo-img{
+	margin-top: 5px;
+    position: absolute;
+	top: 0px;
+    width: 130px;
+}
+.mobile-hide{
+	display: block !important;
+}
+.mobile-show{
+	display: none !important;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -737,6 +785,18 @@ table thead {
     font-size: 60px;
     padding: 25px 0px 26px 0px;
 }
+.logo-img{
+	margin-top: 5px;
+    position: absolute;
+	top: 0px;
+    width: 130px;
+}
+.mobile-hide{
+	display: block !important;
+}
+.mobile-show{
+	display: none !important;
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -744,6 +804,18 @@ table thead {
 	.intro h1 {
     font-size: 60px;
     padding: 25px 0px 26px 0px;
+}
+.logo-img{
+	margin-top: 5px;
+    position: absolute;
+    top: -35px;
+    width: 210px;
+}
+.mobile-hide{
+	display: block !important;
+}
+.mobile-show{
+	display: none !important;
 }
 }
 
@@ -779,3 +851,27 @@ table thead {
 	overflow: hidden;
 	text-overflow: ellipsis;
   }
+  .search-box-wrapper {
+    padding: 10px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
+    border-top: 1px solid;
+}
+
+.float-right {
+    float: right;
+}
+
+.social-links >a {
+	color: black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.social-links.float-right {
+    padding-top: 3px;
+}
+.serch-box >div > input{
+	border-radius: 50px 0px 0px 50px !important;
+}
+.serch-box >div >div> button{
+	border-radius: 0px 50px 50px 0px;
+}
