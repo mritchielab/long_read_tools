@@ -48,7 +48,7 @@ function makeSearchBody(filteredArray, callback) {
                 '<div class=" panel-heading" role="tab" id="">' +
                 '<div class="row">' +
                 '<div class="col-lg-12">' +
-                '<a href="tools.html?sort=Name&cat=&tec=#' + tool.Name + '"> <h4 class=" ABruijn0"><strong>' + tool.Name + '</strong> </h4></a>' +
+                '<a href="tools.html?sort=Name&cat=&tec=#' +  tool.Name.toLowerCase() + '"> <h4 class=" ABruijn0"><strong>' + tool.Name + '</strong> </h4></a>' +
                 '</div>' +
                 ' </div>' +
                 '</div>' +
