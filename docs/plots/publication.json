@@ -3,10 +3,10 @@
     {
       "orientation": "v",
       "width": 1,
-      "base": 228,
+      "base": 227,
       "x": [1],
-      "y": [291],
-      "text": "Type: Published<br />Count: 291<br />Percent: 56.1",
+      "y": [292],
+      "text": "Type: Published<br />Count: 292<br />Percent: 56.3",
       "type": "bar",
       "marker": {
         "autocolorscale": false,
@@ -27,7 +27,7 @@
     {
       "orientation": "v",
       "width": 1,
-      "base": 176,
+      "base": 175,
       "x": [1],
       "y": [52],
       "text": "Type: Preprint<br />Count:  52<br />Percent: 10",
@@ -53,8 +53,8 @@
       "width": 1,
       "base": 0,
       "x": [1],
-      "y": [176],
-      "text": "Type: Not Published<br />Count: 176<br />Percent: 33.9",
+      "y": [175],
+      "text": "Type: Not Published<br />Count: 175<br />Percent: 33.7",
       "type": "bar",
       "marker": {
         "autocolorscale": false,
@@ -74,9 +74,9 @@
     },
     {
       "x": [1],
-      "y": [373.5],
-      "text": "Published 56.1%",
-      "hovertext": "Type: Published<br />Count: 291<br />Percent: 56.1",
+      "y": [373],
+      "text": "Published 56.3%",
+      "hovertext": "Type: Published<br />Count: 292<br />Percent: 56.3",
       "textfont": {
         "size": 11.3385826771654,
         "color": "rgba(255,255,255,1)"
@@ -94,7 +94,7 @@
     },
     {
       "x": [1],
-      "y": [202],
+      "y": [201],
       "text": "Preprint 10%",
       "hovertext": "Type: Preprint<br />Count:  52<br />Percent: 10",
       "textfont": {
@@ -114,9 +114,9 @@
     },
     {
       "x": [1],
-      "y": [88],
-      "text": "Not Published 33.9%",
-      "hovertext": "Type: Not Published<br />Count: 176<br />Percent: 33.9",
+      "y": [87.5],
+      "text": "Not Published 33.7%",
+      "hovertext": "Type: Not Published<br />Count: 175<br />Percent: 33.7",
       "textfont": {
         "size": 11.3385826771654,
         "color": "rgba(255,255,255,1)"
@@ -274,14 +274,14 @@
   },
   "source": "A",
   "attrs": {
-    "73705ee31578": {
+    "84782c6f59ae": {
       "x": {},
       "fill": {},
       "weight": {},
       "text": {},
       "type": "bar"
     },
-    "73707bcf75e3": {
+    "8478693142aa": {
       "x": {},
       "y": {},
       "label": {},
@@ -291,10 +291,10 @@
       "text": {}
     }
   },
-  "cur_data": "73705ee31578",
+  "cur_data": "84782c6f59ae",
   "visdat": {
-    "73705ee31578": ["function (y) ", "x"],
-    "73707bcf75e3": ["function (y) ", "x"]
+    "84782c6f59ae": ["function (y) ", "x"],
+    "8478693142aa": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",

@@ -67,7 +67,7 @@ function quickStartTecDropDown(data, callback) {
     let tecDropDownHTML = "";
     $.each(data, function (index, tec) {
         tecDropDownHTML += '<li class="option-li">' +
-            '<a href="#" id=' + tec.id + '>' +
+            '<a href="#" id=' + removeSpecialChar(tec.id) + '>' +
             '<div>' +
             '<h4>' + tec.tecName + '</h4>' +
             '<span class="value">' + tec.id + '</span>' +
@@ -92,10 +92,10 @@ function quickStartWfDropDown(data, callback) {
         //     '</a>' +
         //     '</li>'
         wfDropDownHTML += '<div class="col-lg-12 "><div class="panel panel-default">' +
-            '<div class="collapsedhead panel-heading" role="tab" id="heading' + wf.id + '">' +
-            '<h4 class="panel-title ' + wf.id + '"><a class="" data-id="' + wf.id + '" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + wf.id + '" aria-expanded="true" aria-controls="collapse' + wf.id + '"> ' + wf.wfName + '</a></h4>' +
+            '<div class="collapsedhead panel-heading" role="tab" id="heading' + removeSpecialChar(wf.id) + '">' +
+            '<h4 class="panel-title ' + wf.id + '"><a class="" data-id="' + removeSpecialChar(wf.id) + '" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' + removeSpecialChar(wf.id) + '" aria-expanded="true" aria-controls="collapse' + removeSpecialChar(wf.id) + '"> ' + wf.wfName + '</a></h4>' +
             '</div>' +
-            '<div id="collapse' + wf.id + '" class="panel-collapse collapse " role="tabpanel"' +
+            '<div id="collapse' + removeSpecialChar(wf.id) + '" class="panel-collapse collapse " role="tabpanel"' +
             'aria-labelledby="heading' + wf.id + '" aria-expanded="true" style="">' +
             '<div class="panel-body">' +
 
@@ -172,7 +172,7 @@ function bindWorkflow(value, callback) {
         $.each(category.category, function (index, cat) {
             linkedCat.push(genareteUserFriendlyNames(cat))
         })
-        
+
         HTML += '<p class="cat-name">' + linkedCat.join(", ") + '</p>';
         HTML += '</div>' +
             '<div class="tool-description-block' + index + '" style="display: block;">';
@@ -180,7 +180,7 @@ function bindWorkflow(value, callback) {
             if (typeof getTool(tool) !== "undefined") {
                 HTML += generateToolSection(getTool(tool), tool)
             } else {
-                HTML += '<div class="panel panel-default"><div class="collapsedhead panel-heading" role="tab" id="heading'+tool.replace(/ /g, '-')+'"><h4 class="panel-title FastQC"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" title="We do not have this tool in our database" href="#collapse'+tool.replace(/ /g, '-')+'" aria-expanded="false" aria-controls="collapse'+tool.replace(/ /g, '-')+'"> '+tool.replace(/-/g, ' ').replace(/_/g, ' ')+'</a></h4></div></div>'
+                HTML += '<div class="panel panel-default"><div class="collapsedhead panel-heading" role="tab" id="heading' + removeSpecialChar(tool) + '"><h4 class="panel-title FastQC"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" title="We do not have this tool in our database" href="#collapse' + removeSpecialChar(tool) + '" aria-expanded="false" aria-controls="collapse' + removeSpecialChar(tool) + '"> ' + tool.replace(/-/g, ' ').replace(/_/g, ' ') + '</a></h4></div></div>'
             }
         })
 
@@ -232,15 +232,15 @@ function generateToolSection(obje, key) {
     let blockHtml = "";
     blockHtml +=
 
-        '<span class="anc" id="' + name + '" data-id="' + key + '"></span><div class="panel panel-default">' +
+        '<span class="anc" id="' + removeSpecialChar(name) + '" data-id="' + removeSpecialChar(key) + '"></span><div class="panel panel-default">' +
         '<div class="collapsedhead panel-heading" role="tab" id="heading' +
-        key +
+        removeSpecialChar(key) +
         '">' +
         '<h4 class="panel-title ' + key + '" >' +
         '<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' +
-        key +
+        removeSpecialChar(key) +
         '" aria-expanded="false" aria-controls="collapse' +
-        key +
+        removeSpecialChar(key) +
         '"> ' +
         name.replace(/-/g, ' ').replace(/_/g, ' ')
 
@@ -263,9 +263,9 @@ function generateToolSection(obje, key) {
         "</h4>" +
         "</div>" +
         '<div id="collapse' +
-        key +
+        removeSpecialChar(key) +
         '" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading' +
-        key +
+        removeSpecialChar(key) +
         '">' +
         '<div class="panel-body left-align">';
     blockHtml += "<p>" + description + "</p>";
@@ -277,7 +277,7 @@ function generateToolSection(obje, key) {
             '<div class="panel-heading">' +
             '<h4 class="panel-title">' +
             '<a data-toggle="collapse" href="#collapsePublications' +
-            key +
+            removeSpecialChar(key) +
             '">Publications: ' +
             nPubs +
             ", Preprints:" +
@@ -288,7 +288,7 @@ function generateToolSection(obje, key) {
             "</h4>" +
             "</div>" +
             '<div id="collapsePublications' +
-            key +
+            removeSpecialChar(key) +
             '" class="panel-collapse collapse">' +
             '<div class="panel-body">';
         if (nPubs > 0) {
@@ -478,8 +478,8 @@ $("#btnReset").click(function () {
 $("body").delegate(".collapsedhead h4 a", "click", function () {
     var id = $(this).attr("data-id")
     bindWorkflow(id, function (HTML) {
-        $("#collapse" + id).html("")
-        $("#collapse" + id).append(HTML)
+        $("#collapse" + removeSpecialChar(id)).html("")
+        $("#collapse" + removeSpecialChar(id)).append(HTML)
     })
 });
 

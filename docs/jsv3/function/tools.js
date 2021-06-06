@@ -176,14 +176,14 @@ function createbodyMain(data, sortby) {
         if (found_names.length > 0) {
           letterHTML +=
             '<li class="letter-menuA"><a href="#anchor' +
-            letterArray[index] +
+            removeSpecialChar(letterArray[index]) +
             '">' +
             letterArray[index] +
             "</a></li>";
 
           $("#accordion").append(
             '<div class="col-lg-12 "> <span class="anc"  id="anchor' +
-            letterArray[index] +
+            removeSpecialChar(letterArray[index]) +
             '"></span><h6 class="anchor">' +
             letterArray[index] +
             "</h6></div>"
@@ -217,10 +217,10 @@ function createBody(data, body) {
   let bodyRight = "";
   cval = 1
   $.each(data, function (key, val) {
-    bodyleftFull += '<div class="col-lg-6">' +genarateCollapsheading(
+    bodyleftFull += '<div class="col-lg-6">' + genarateCollapsheading(
       val,
       (val["Name"] + key).replace(/\s/g, "")
-    )+ "</div>";
+    ) + "</div>";
 
     if (count++ % 2 != 0) {
       bodyleft += genarateCollapsheading(
@@ -237,7 +237,7 @@ function createBody(data, body) {
   });
   // $("#accordion").append('<div class="col-lg-6">' + bodyleft + "</div>");
   // $("#accordion").append('<div class="col-lg-6">' + bodyRight + "</div>");
-  $("#accordion").append(bodyleftFull );
+  $("#accordion").append(bodyleftFull);
 }
 
 //sort json data
@@ -319,15 +319,15 @@ function genarateCollapsheading(obje, key) {
   blockHtml = "";
   blockHtml +=
 
-    '<span class="anc" id="' + name.trim().toLowerCase().replace(/\s/g, '') + '" data-id="' + key + '"></span><div class="panel panel-default">' +
+    '<span class="anc" id="' + removeSpecialChar(name) + '" data-id="' + removeSpecialChar(key) + '"></span><div class="panel panel-default">' +
     '<div class="collapsedhead panel-heading tool-block" role="tab" id="heading' +
-    key +
+    removeSpecialChar(key) +
     '">' +
-    '<h4 class="panel-title ' + key + '" >' +
+    '<h4 class="panel-title ' + removeSpecialChar(key) + '" >' +
     '<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' +
-    key +
+    removeSpecialChar(key) +
     '" aria-expanded="false" aria-controls="collapse' +
-    key +
+    removeSpecialChar(key) +
     '"> ' +
     name
 
@@ -350,9 +350,9 @@ function genarateCollapsheading(obje, key) {
     "</h4>" +
     "</div>" +
     '<div id="collapse' +
-    key +
+    removeSpecialChar(key) +
     '" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading' +
-    key +
+    removeSpecialChar(key) +
     '">' +
     '<div class="panel-body">';
   blockHtml += "<p>" + description + "</p>";
@@ -364,7 +364,7 @@ function genarateCollapsheading(obje, key) {
       '<div class="panel-heading">' +
       '<h4 class="panel-title">' +
       '<a data-toggle="collapse" href="#collapsePublications' +
-      key +
+      removeSpecialChar(key) +
       '">Publications: ' +
       nPubs +
       ", Preprints:" +
@@ -378,7 +378,7 @@ function genarateCollapsheading(obje, key) {
       "</h4>" +
       "</div>" +
       '<div id="collapsePublications' +
-      key +
+      removeSpecialChar(key) +
       '" class="panel-collapse collapse">' +
       '<div class="panel-body">';
     if (nPubs > 0) {

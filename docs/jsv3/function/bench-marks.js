@@ -197,10 +197,10 @@ function createbodyMain(data, sortby) {
       $("#benchmarkRow").append(
         '<div class="col-lg-12 col-md-12">' +
         '<div class="panel panel-default">' +
-        '<div class="collapsedhead panel-heading" role="tab" id="heading' + key + '">' +
+        '<div class="collapsedhead panel-heading" role="tab" id="heading' + removeSpecialChar(key) + '">' +
         '<div class="row">' +
         '<div class="col-lg-8 col-md-8">' +
-        '<h4 class=" ' + key + '"><strong>' + val.Title + '</strong> </h4>' +
+        '<h4 class=" ' + removeSpecialChar(key) + '"><strong>' + val.Title + '</strong> </h4>' +
         '<p>' + getTitleByValue("DOI : ", val.doi) + '<a href="' + val.doi + '">' + val.doi + '</a> </p>' +
         '</div>' +
         '<div class="col-lg-4 col-md-4">' +
@@ -214,17 +214,17 @@ function createbodyMain(data, sortby) {
         '<p>' + getTitleByValue("Authors : ", val.Authors) + ' ' + val.Authors + '</p>' +
         '</div>' +
         '</div>' +
-        '<a class="collapsed" role="button" data-toggle="collapse"   data-parent="#accordion" href="#collapse' + key + '" aria-expanded="false" aria-controls="collapse' + key + '" onclick="changeLinktext(this, \'View More\', \'View less\')">View More</a>' +
+        '<a class="collapsed" role="button" data-toggle="collapse"   data-parent="#accordion" href="#collapse' + removeSpecialChar(key) + '" aria-expanded="false" aria-controls="collapse' + removeSpecialChar(key) + '" onclick="changeLinktext(this, \'View More\', \'View less\')">View More</a>' +
 
         '</div>' +
-        '<div id="collapse' + key + '" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading' + key + '" aria-expanded="false" style="height: 0px;">' +
+        '<div id="collapse' + removeSpecialChar(key) + '" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading' + key + '" aria-expanded="false" style="height: 0px;">' +
         '<div class="panel-body">' +
 
         '<div class="panel-group">' +
         '<div class="panel panel-default">' +
         '<div class="panel-heading"><strong> Benchmark data</strong>' +
         '</div>' +
-        '<div class="panel-body">  <div class="BenchmarkData' + key + ' fix-height">' + val.BenchmarkData + '</div> <a id="BenchmarkData' + key + '" class="view-more"  onclick="abstractviewmore(this, \'View More\', \'View less\');">View More</a> </div>' +
+        '<div class="panel-body">  <div class="BenchmarkData' + key + ' fix-height">' + val.BenchmarkData + '</div> <a id="BenchmarkData' + removeSpecialChar(key) + '" class="view-more"  onclick="abstractviewmore(this, \'View More\', \'View less\');">View More</a> </div>' +
         '</div>' +
         '<div class="panel panel-default">' +
         '<div class="panel-heading">' +
@@ -235,7 +235,7 @@ function createbodyMain(data, sortby) {
         '<div class="panel panel-default">' +
         '<div class="panel-heading"><strong>Abstract</strong>' +
         '</div>' +
-        '<div class="panel-body">  <div class="Abstract' + key + ' fix-height">' + val.Abstract + '</div> <a id="Abstract' + key + '" class="view-more"  onclick="abstractviewmore(this, \'View More\', \'View less\');">View More</a> </div>' +
+        '<div class="panel-body">  <div class="Abstract' + key + ' fix-height">' + val.Abstract + '</div> <a id="Abstract' + removeSpecialChar(key) + '" class="view-more"  onclick="abstractviewmore(this, \'View More\', \'View less\');">View More</a> </div>' +
         '</div>' +
         '</div>' +
         '<div class="panel panel-default">' +
@@ -323,7 +323,7 @@ function linkTools(tool) {
   for (var i = 0; i < tool.length; i++) {
     var cat = tool[i];
     linked.push(
-      '<a target="_blank" href="tools.html#'+cat.trim().toLowerCase().replace(/\s/g, '')+'">' +
+      '<a target="_blank" href="tools.html#' + removeSpecialChar(cat) + '">' +
       genareteUserFriendlyNames(cat) +
       "</a>"
     );

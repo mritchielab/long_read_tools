@@ -64,7 +64,7 @@ $(document).ready(function () {
     $(this).siblings('.panel-heading').removeClass('active');
   });
 
-  $('.search-field').keyup(function() {
+  $('.search-field').keyup(function () {
     alert('Handler for .keyup() called.');
   });
 });
@@ -112,6 +112,10 @@ function createSortString(string) {
   return string.toLowerCase().replace(/-/g, "").replace(/_/g, "").replace(/[^a-z0-9\s]/gi, '')
 }
 
+function removeSpecialChar(string) {
+  return string.toLowerCase().replace(/-/g, "").replace(/_/g, "").replace(/[^a-z0-9\s]/gi, '').replace(/ /g, "")
+}
+
 function changeLinktext(id, from, to) {
   var s = $(id);
   if (s.text().trim() == from.trim()) {
@@ -126,128 +130,128 @@ function changeLinktext(id, from, to) {
 
 
 function appendWorkflow() {
-  let index =$("#counter").val();
-  $("#counter").val( parseInt(index)+1);
-  wf = '<div id="wf'+index+'"  class=" row block">' +
+  let index = removeSpecialChar($("#counter").val());
+  $("#counter").val(parseInt(index) + 1);
+  wf = '<div id="wf' + index + '"  class=" row block">' +
     '<div class="col-lg-12">' +
-    '<h3>Workflow step '+index+'</h3>' +
+    '<h3>Workflow step ' + index + '</h3>' +
     '</div>' +
     '<div class="col-lg-12">' +
     '<div class="form-group">' +
     '<span>Categories:</span>' +
-    '<div id="categories-wf'+index+'">' +
+    '<div id="categories-wf' + index + '">' +
     '<div class="row">' +
     '<div class="col-lg-4">' +
     '<div class="checkbox">' +
-    '<label for="alignment"> <input type="checkbox" value="Alignment" id="wf'+index+'-alignment" name="categories-wf'+index+'">Alignment</label>' +
+    '<label for="alignment"> <input type="checkbox" value="Alignment" id="wf' + index + '-alignment" name="categories-wf' + index + '">Alignment</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="AnalysisPipelines">' +
-    '<input type="checkbox" value="Analysis Pipelines" id="wf'+index+'-AnalysisPipelines" name="categories-wf'+index+'">Analysis Pipelines</label>' +
+    '<input type="checkbox" value="Analysis Pipelines" id="wf' + index + '-AnalysisPipelines" name="categories-wf' + index + '">Analysis Pipelines</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="BaseCalling">' +
-    '<input type="checkbox" value="BaseCalling" id="wf'+index+'-BaseCalling" name="categories-wf'+index+'"> Base Calling</label>' +
+    '<input type="checkbox" value="BaseCalling" id="wf' + index + '-BaseCalling" name="categories-wf' + index + '"> Base Calling</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="BaseModificationDetection">' +
-    '<input type="checkbox" value="BaseModificationDetection" id="wf'+index+'-BaseModificationDetection" name="categories-wf'+index+'"> Base Modification Detection</label>' +
+    '<input type="checkbox" value="BaseModificationDetection" id="wf' + index + '-BaseModificationDetection" name="categories-wf' + index + '"> Base Modification Detection</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="Demultiplexing">' +
-    '<input type="checkbox" value="Demultiplexing"  id="wf'+index+'-Demultiplexing" name="categories-wf'+index+'">  Demultiplexing</label>' +
+    '<input type="checkbox" value="Demultiplexing"  id="wf' + index + '-Demultiplexing" name="categories-wf' + index + '">  Demultiplexing</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="DenovoAssembly">' +
-    '<input type="checkbox" value="DenovoAssembly" id="wf'+index+'-DenovoAssembly" name="categories-wf'+index+'"> <i>De novo</i> Assembly</label>' +
+    '<input type="checkbox" value="DenovoAssembly" id="wf' + index + '-DenovoAssembly" name="categories-wf' + index + '"> <i>De novo</i> Assembly</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="ErrorCorrectionAndPolishing">' +
-    '<input type="checkbox" value="ErrorCorrectionAndPolishing" id="wf'+index+'-ErrorCorrectionAndPolishing" name="categories-wf'+index+'"> Error Correction And/Or Polishing</label>' +
+    '<input type="checkbox" value="ErrorCorrectionAndPolishing" id="wf' + index + '-ErrorCorrectionAndPolishing" name="categories-wf' + index + '"> Error Correction And/Or Polishing</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="EvaluatingExisitingMethods">' +
-    '<input type="checkbox" value="EvaluatingExisitingMethods" id="wf'+index+'-EvaluatingExisitingMethods" name="categories-wf'+index+'"> Evaluating Existing Methods</label>' +
+    '<input type="checkbox" value="EvaluatingExisitingMethods" id="wf' + index + '-EvaluatingExisitingMethods" name="categories-wf' + index + '"> Evaluating Existing Methods</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="GapFilling">' +
-    '<input type="checkbox" value="GapFilling" id="wf'+index+'-GapFilling" name="categories-wf'+index+'"> Gap Filling in Assemblies</label>' +
+    '<input type="checkbox" value="GapFilling" id="wf' + index + '-GapFilling" name="categories-wf' + index + '"> Gap Filling in Assemblies</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="GeneratingConsensusSequence">' +
-    '<input type="checkbox" value="GeneratingConsensusSequence" id="wf'+index+'-GeneratingConsensusSequence" name="categories-wf'+index+'"> Generating Consensus Sequence</label>' +
+    '<input type="checkbox" value="GeneratingConsensusSequence" id="wf' + index + '-GeneratingConsensusSequence" name="categories-wf' + index + '"> Generating Consensus Sequence</label>' +
     '</div>' +
     '</div>' +
     '<div class="col-lg-4">' +
     '<div class="checkbox">' +
-    '<label for="IsoformDetection">'+
-  '<input type="checkbox" value="IsoformDetection" id="wf'+index+'-IsoformDetection" name="categories-wf'+index+'"> Isoform Detection</label>' +
+    '<label for="IsoformDetection">' +
+    '<input type="checkbox" value="IsoformDetection" id="wf' + index + '-IsoformDetection" name="categories-wf' + index + '"> Isoform Detection</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="LongReadOverlapping">' +
-    '<input type="checkbox" value="LongReadOverlapping" id="wf'+index+'-LongReadOverlapping" name="categories-wf'+index+'"> Long-Read Overlapping</label>' +
+    '<input type="checkbox" value="LongReadOverlapping" id="wf' + index + '-LongReadOverlapping" name="categories-wf' + index + '"> Long-Read Overlapping</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="Metagenomics">' +
-    '<input type="checkbox" value="Metagenomics" id="wf'+index+'-Metagenomics" name="categories-wf'+index+'"> Metagenomics</label>' +
+    '<input type="checkbox" value="Metagenomics" id="wf' + index + '-Metagenomics" name="categories-wf' + index + '"> Metagenomics</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="Normalisation">' +
-    '<input type="checkbox" value="Normalisation" id="wf'+index+'-Normalisation" name="categories-wf'+index+'"> Normalisation</label>' +
+    '<input type="checkbox" value="Normalisation" id="wf' + index + '-Normalisation" name="categories-wf' + index + '"> Normalisation</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="polyALengthEstimation">' +
-    '<input type="checkbox" value="polyALengthEstimation" id="wf'+index+'-polyALengthEstimation" name="categories-wf'+index+'"> polyA Length Estimation</label>' +
+    '<input type="checkbox" value="polyALengthEstimation" id="wf' + index + '-polyALengthEstimation" name="categories-wf' + index + '"> polyA Length Estimation</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="ProvideSummaryStatistics">' +
-    '<input type="checkbox" value="ProvideSummaryStatistics" id="wf'+index+'-ProvideSummaryStatistics" name="categories-wf'+index+'"> Provide Summary Statistics</label>' +
+    '<input type="checkbox" value="ProvideSummaryStatistics" id="wf' + index + '-ProvideSummaryStatistics" name="categories-wf' + index + '"> Provide Summary Statistics</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="QualityChecking"><input type="checkbox" value="QualityChecking" id="wf'+index+'-QualityChecking" name="categories-wf'+index+'"> Quality Checking</label>' +
+    '<label for="QualityChecking"><input type="checkbox" value="QualityChecking" id="wf' + index + '-QualityChecking" name="categories-wf' + index + '"> Quality Checking</label>' +
     '</div>' +
-    '<div class="checkbox"><label for="QualityFiltering"><input type="checkbox" value="QualityFiltering" id="wf'+index+'-QualityFiltering" name="categories-wf'+index+'"> Quality Filtering</label>' +
-    '</div>' +
-    '<div class="checkbox">' +
-    '<label for="QualityTrimming"><input type="checkbox" value="QualityTrimming" id="wf'+index+'-QualityTrimming" name="categories-wf'+index+'"> Quality Trimming</label>' +
+    '<div class="checkbox"><label for="QualityFiltering"><input type="checkbox" value="QualityFiltering" id="wf' + index + '-QualityFiltering" name="categories-wf' + index + '"> Quality Filtering</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="ReadQuantification"><input type="checkbox" value="ReadQuantification" id="wf'+index+'-ReadQuantification" name="categories-wf'+index+'"> Read Quantification</label>' +
+    '<label for="QualityTrimming"><input type="checkbox" value="QualityTrimming" id="wf' + index + '-QualityTrimming" name="categories-wf' + index + '"> Quality Trimming</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="RNAStructure"><input type="checkbox" value="RNAStructure" id="wf'+index+'-RNAStructure" name="categories-wf'+index+'"> RNA Structure</label>' +
+    '<label for="ReadQuantification"><input type="checkbox" value="ReadQuantification" id="wf' + index + '-ReadQuantification" name="categories-wf' + index + '"> Read Quantification</label>' +
+    '</div>' +
+    '<div class="checkbox">' +
+    '<label for="RNAStructure"><input type="checkbox" value="RNAStructure" id="wf' + index + '-RNAStructure" name="categories-wf' + index + '"> RNA Structure</label>' +
     '</div>' +
     '</div>' +
     '<div class="col-lg-4">' +
     '<div class="checkbox">' +
-    '<label for="Scaffolding"><input type="checkbox" value="Scaffolding" id="wf'+index+'-Scaffolding" name="categories-wf'+index+'"> Scaffolding</label>' +
+    '<label for="Scaffolding"><input type="checkbox" value="Scaffolding" id="wf' + index + '-Scaffolding" name="categories-wf' + index + '"> Scaffolding</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="Simulators"><input type="checkbox" value="Simulators" id="wf'+index+'-Simulators" name="categories-wf'+index+'"> Simulators</label>' +
+    '<label for="Simulators"><input type="checkbox" value="Simulators" id="wf' + index + '-Simulators" name="categories-wf' + index + '"> Simulators</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="SNPAndVariantAnalysis"><input type="checkbox" value="SNPAndVariantAnalysis" id="wf'+index+'-SNPAndVariantAnalysis" name="categories-wf'+index+'"> SNP And/Or Variant Analysis</label>' +
+    '<label for="SNPAndVariantAnalysis"><input type="checkbox" value="SNPAndVariantAnalysis" id="wf' + index + '-SNPAndVariantAnalysis" name="categories-wf' + index + '"> SNP And/Or Variant Analysis</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="SuitableForSingleCellExperiments"><input type="checkbox" value="SuitableForSingleCellExperiments" id="wf'+index+'-SuitableForSingleCellExperiments" name="categories-wf'+index+'"> Suited For Single-Cell Experiments</label>' +
+    '<label for="SuitableForSingleCellExperiments"><input type="checkbox" value="SuitableForSingleCellExperiments" id="wf' + index + '-SuitableForSingleCellExperiments" name="categories-wf' + index + '"> Suited For Single-Cell Experiments</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="TaxonomicClassification"><input type="checkbox" value="TaxonomicClassification"  id="wf'+index+'-TaxonomicClassification" name="categories-wf'+index+'"> Taxonomic Classification</label>' +
+    '<label for="TaxonomicClassification"><input type="checkbox" value="TaxonomicClassification"  id="wf' + index + '-TaxonomicClassification" name="categories-wf' + index + '"> Taxonomic Classification</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="TestedOnHumanData"><input type="checkbox" value="TestedOnHumanData"  id="wf'+index+'-TestedOnHumanData" name="categories-wf'+index+'"> Tested On Human Data</label>' +
+    '<label for="TestedOnHumanData"><input type="checkbox" value="TestedOnHumanData"  id="wf' + index + '-TestedOnHumanData" name="categories-wf' + index + '"> Tested On Human Data</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="TestedOnNonHumanData"><input type="checkbox" value="TestedOnNonHumanData"  id="wf'+index+'-TestedOnNonHumanData" name="categories-wf'+index+'">  Tested On  Non-Human Data</label>' +
+    '<label for="TestedOnNonHumanData"><input type="checkbox" value="TestedOnNonHumanData"  id="wf' + index + '-TestedOnNonHumanData" name="categories-wf' + index + '">  Tested On  Non-Human Data</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="Transcriptomics"><input type="checkbox" value="Transcriptomics" id="wf'+index+'-Transcriptomics" name="categories-wf'+index+'">  Transcriptomics</label>' +
+    '<label for="Transcriptomics"><input type="checkbox" value="Transcriptomics" id="wf' + index + '-Transcriptomics" name="categories-wf' + index + '">  Transcriptomics</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="Visualisation"><input type="checkbox" value="Visualisation" id="wf'+index+'-Visualisation" name="categories-wf'+index+'">  Visualisation</label>' +
+    '<label for="Visualisation"><input type="checkbox" value="Visualisation" id="wf' + index + '-Visualisation" name="categories-wf' + index + '">  Visualisation</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="Other"><input type="checkbox" value="Other" id="wf'+index+'-other" name="categories-wf'+index+'">  Other</label>' +
+    '<label for="Other"><input type="checkbox" value="Other" id="wf' + index + '-other" name="categories-wf' + index + '">  Other</label>' +
     '</div>' +
     '</div>' +
     '</div>' +
@@ -257,15 +261,15 @@ function appendWorkflow() {
     '<div class="col-lg-12">' +
     '<div class="form-group">' +
     '<label for="Technology">Suggested tool/s (if multiple tools, separate by comma) :</label>' +
-    '<input type="text" class="form-control" id="wf'+index+'-Suggested-tool" name="Suggested-tool-wf'+index+'" placeholder="">' +
+    '<input type="text" class="form-control" id="wf' + index + '-Suggested-tool" name="Suggested-tool-wf' + index + '" placeholder="">' +
     '</div>' +
     '</div>' +
     '</div>';
 
-    $("#wfblock").append(wf);
+  $("#wfblock").append(wf);
 }
 
-function restwfForm(){
+function restwfForm() {
   $("#wfblock").html("");
   $("#counter").val(1);
   appendWorkflow()
@@ -274,15 +278,15 @@ function restwfForm(){
 }
 
 
-function searchFunction(id){
+function searchFunction(id) {
 
-  console.log($("#"+id).val());
-  window.location.href = "search.html?key="+id;
+  console.log($("#" + id).val());
+  window.location.href = "search.html?key=" + id;
 
 }
 
-function validateKey(e,value){
-    if ( e.keyCode === 13 ) { // 13 is enter key
-      searchFunction(value)
+function validateKey(e, value) {
+  if (e.keyCode === 13) { // 13 is enter key
+    searchFunction(value)
   }
 }
