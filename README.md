@@ -17,9 +17,13 @@ analysis software, it is unlikely to be 100% complete or accurate but will be
 updated as new software becomes available. If you notice a problem or would like
 to add something please make a pull request or open an issue.
 
-## Citation
+## Citation/s
 
-If you find the database useful, please consider citing our [publication](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-1935-5) in your work:
+If you find the database useful, please consider citing our [publication](https://doi.org/10.1093/gigascience/giab003) in your work:
+
+*Amarasinghe, S.L., Ritchie, M.E., & Gouil, Q. long-read-tools.org: an interactive catalogue of analysis methods for long-read sequencing data (2020). https://doi.org/10.1093/gigascience/giab003*
+
+A review on long read analysing tools:
 
 *Amarasinghe, S.L., Su, S., Dong, X. et al. Opportunities and challenges in long-read sequencing data analysis. Genome Biol 21, 30 (2020). https://doi.org/10.1186/s13059-020-1935-5*
 
