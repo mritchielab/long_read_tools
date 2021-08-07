@@ -4,16 +4,16 @@
     "Description": "Alignment of long reads to a reference"
   },
   {
-    "Category": "AlternativeSplicingDetection",
-    "Description": "Detecting the ability of genes to generate different mature mRNA splice isoform transcripts, resulting in multiple protein isoforms"
-  },
-  {
     "Category": "AvailablityOfTestData",
     "Description": "If any datasets were made available with the tool or through the pulblication"
   },
   {
     "Category": "Basecalling",
     "Description": "Detection of change of electrical current produced by ONT sequencers and translate it to a DNA sequence"
+  },
+  {
+    "Category": "DataStructures",
+    "Description": "Providing alternative data structures for ONT native FAST5 format"
   },
   {
     "Category": "LongReadOverlapping",

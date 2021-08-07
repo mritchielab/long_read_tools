@@ -340,7 +340,7 @@
     "Ignored": ["PyPI/minibar"]
   },
   "TLDR": {
-    "Ignored": ["PyPI/tldr"]
+    "Ignored": ["PyPI/tldr", "CRAN/tldr"]
   },
   "darwin": {
     "Ignored": ["PyPI/darwin"]
@@ -483,5 +483,14 @@
   },
   "EpiNano": {
     "PyPI": ["Epinano"]
+  },
+  "CoLoRd": {
+    "Ignored": ["PyPI/colord"]
+  },
+  "FLAME": {
+    "Ignored": ["CRAN/FLAME", "PyPI/flame"]
+  },
+  "IsoTools": {
+    "PyPI": ["isotools"]
   }
 }
