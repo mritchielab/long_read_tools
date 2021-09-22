@@ -109,10 +109,16 @@ function getTitleByValue(title, value) {
 }
 
 function createSortString(string) {
+  if (!isNaN(string)) {
+    return string
+  }
   return string.toLowerCase().replace(/-/g, "").replace(/_/g, "").replace(/[^a-z0-9\s]/gi, '')
 }
 
 function removeSpecialChar(string) {
+  if (!isNaN(string)) {
+    return string
+  }
   return string.toLowerCase().replace(/-/g, "").replace(/_/g, "").replace(/[^a-z0-9\s]/gi, '').replace(/ /g, "")
 }
 
