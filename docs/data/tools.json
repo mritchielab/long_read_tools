@@ -1050,12 +1050,12 @@
           "DOI": "10.1101/gr.229202",
           "PubDate": "2008-07-19",
           "Preprint": false,
-          "Citations": [3090]
+          "Citations": [3091]
         }
       ],
       "Preprints": []
     },
-    "Citations": 3090,
+    "Citations": 3091,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -2469,7 +2469,7 @@
   },
   {
     "Name": "DeepMP",
-    "DOIs": "10.1101/2021.06.28.450135",
+    "DOIs": "10.1093/bioinformatics/btab745; 10.1101/2021.06.28.450135",
     "Platform": "Python",
     "Description": "DNA base modifications on Nanopore sequencing data",
     "Code": "https://github.com/pepebonet/DeepMP",
@@ -2481,23 +2481,31 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
+      "Publications": [
+        {
+          "Title": "DeepMP: a deep learning tool to detect DNA base modifications on Nanopore sequencing data",
+          "DOI": "10.1093/bioinformatics/btab745",
+          "PubDate": "2021-10-25",
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
+        }
+      ],
       "Preprints": [
         {
           "Title": "DeepMP: a deep learning tool to detect DNA base modifications on Nanopore sequencing data",
-          "DOI": "10.1101/2021.06.28.450135",
+          "DOI": " 10.1101/2021.06.28.450135",
           "PubDate": "2021-06-28",
           "Preprint": true,
-          "Citations": [0],
-          "Recent_citations": 0
+          "Citations": [0]
         }
       ]
     },
     "Citations": 0,
-    "Recent_citations": [0],
-    "Publications": 0,
+    "Recent_citations": [0, "NA"],
+    "Publications": 1,
     "Preprints": 1,
-    "PubDates": ["2021-06-28"],
+    "PubDates": ["2021-10-25", "2021-06-28"],
     "Github": "pepebonet/DeepMP",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["BaseModificationDetection", "TestedOnHumanData", "TestedOnNonHumanData"]
@@ -4224,6 +4232,47 @@
     "Github": "vibansal/HapCUT2",
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "HiC"],
     "Categories": ["SNPAndVariantAnalysis", "TestedOnHumanData", "AvailablityOfTestData"]
+  },
+  {
+    "Name": "Hapdup",
+    "DOIs": "10.1101/2021.03.04.433952; 10.1038/s41587-019-0072-8",
+    "Platform": "Python, Dockerfile",
+    "Description": "Pipeline to convert a haploid assembly into diploid",
+    "Code": "https://github.com/fenderglass/hapdup",
+    "Underlying_algorithms": "The major parts of the hapdup pipeline are:PEPPER, Margin, Flye",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Assembly of long, error-prone reads using repeat graphs",
+          "DOI": " 10.1038/s41587-019-0072-8",
+          "PubDate": "2019-04-01",
+          "Preprint": false,
+          "Citations": [12]
+        }
+      ],
+      "Preprints": [
+        {
+          "Title": "Haplotype-aware variant calling enables high accuracy in nanopore long-reads using deep neural networks",
+          "DOI": "10.1101/2021.03.04.433952",
+          "PubDate": "2021-03-05",
+          "Preprint": true,
+          "Citations": [12]
+        }
+      ]
+    },
+    "Citations": 24,
+    "Recent_citations": ["NA", "NA"],
+    "Publications": 1,
+    "Preprints": 1,
+    "PubDates": ["2021-03-05", "2019-04-01"],
+    "Github": "fenderglass/hapdup",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["QualityChecking"]
   },
   {
     "Name": "haplotyped-methylome",
@@ -6285,11 +6334,11 @@
           "DOI": "10.1101/2021.01.22.427687",
           "PubDate": "2021-01-24",
           "Preprint": true,
-          "Citations": [3]
+          "Citations": [2]
         }
       ]
     },
-    "Citations": 3,
+    "Citations": 2,
     "Recent_citations": ["NA"],
     "Publications": 0,
     "Preprints": 1,
@@ -8411,13 +8460,13 @@
           "DOI": "10.1093/bioinformatics/btw354",
           "PubDate": "2016-06-17",
           "Preprint": false,
-          "Citations": [1603],
+          "Citations": [1604],
           "Recent_citations": 97
         }
       ],
       "Preprints": []
     },
-    "Citations": 1603,
+    "Citations": 1604,
     "Recent_citations": [97],
     "Publications": 1,
     "Preprints": 0,
@@ -11528,7 +11577,7 @@
   },
   {
     "Name": "PEPPER-Margin-DeepVariant",
-    "DOIs": "10.1101/2021.03.04.433952",
+    "DOIs": "10.1101/2021.03.04.433952; 10.1038/s41592-021-01299-w",
     "Platform": "Python, C++",
     "Description": "Pipeline for haplotype-aware variant calling from long-read data",
     "Code": "https://github.com/kishwarshafin/pepper",
@@ -11541,7 +11590,15 @@
     "BionanoGenomics": false,
     "HiC": false,
     "Refs": {
-      "Publications": [],
+      "Publications": [
+        {
+          "Title": "Haplotype-aware variant calling with PEPPER-Margin-DeepVariant enables high accuracy in nanopore long-reads",
+          "DOI": " 10.1038/s41592-021-01299-w",
+          "PubDate": "2021-11-01",
+          "Preprint": false,
+          "Citations": [12]
+        }
+      ],
       "Preprints": [
         {
           "Title": "Haplotype-aware variant calling enables high accuracy in nanopore long-reads using deep neural networks",
@@ -11552,11 +11609,11 @@
         }
       ]
     },
-    "Citations": 12,
-    "Recent_citations": ["NA"],
-    "Publications": 0,
+    "Citations": 24,
+    "Recent_citations": ["NA", "NA"],
+    "Publications": 1,
     "Preprints": 1,
-    "PubDates": ["2021-03-05"],
+    "PubDates": ["2021-03-05", "2021-11-01"],
     "Github": "kishwarshafin/pepper",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["SNPAndVariantAnalysis", "TestedOnHumanData", "AnalysisPipelines"]
@@ -11791,12 +11848,12 @@
           "DOI": "10.1371/journal.pone.0112963",
           "PubDate": "2014-11-20",
           "Preprint": false,
-          "Citations": [3343]
+          "Citations": [3344]
         }
       ],
       "Preprints": []
     },
-    "Citations": 3343,
+    "Citations": 3344,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -12927,13 +12984,13 @@
           "DOI": "10.1093/bioinformatics/btt086",
           "PubDate": "2013-02-20",
           "Preprint": false,
-          "Citations": [3391],
+          "Citations": [3392],
           "Recent_citations": 49
         }
       ],
       "Preprints": []
     },
-    "Citations": 3391,
+    "Citations": 3392,
     "Recent_citations": [49],
     "Publications": 1,
     "Preprints": 0,
@@ -14916,12 +14973,12 @@
           "DOI": "10.1089/cmb.2012.0021",
           "PubDate": "2012-04-16",
           "Preprint": false,
-          "Citations": [11952]
+          "Citations": [11953]
         }
       ],
       "Preprints": []
     },
-    "Citations": 11952,
+    "Citations": 11953,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
