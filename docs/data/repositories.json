@@ -380,7 +380,8 @@
     "BioC": ["bambu"]
   },
   "FLAMES": {
-    "Ignored": ["PyPI/flames"]
+    "Ignored": ["PyPI/flames"],
+    "BioC": ["FLAMES"]
   },
   "xPore": {
     "Ignored": ["PyPI/xpore"]
@@ -443,7 +444,8 @@
     "PyPI": ["snvoter"]
   },
   "Freddie": {
-    "Ignored": ["PyPI/freddie"]
+    "Ignored": ["PyPI/freddie"],
+    "PyPI": ["Freddie"]
   },
   "DeepSignal-plant": {
     "PyPI": ["deepsignal-plant"]
