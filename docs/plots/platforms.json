@@ -5,9 +5,10 @@
       "width": [0.95, 0.95, 0.95, 0.95, 0.949999999999999, 0.949999999999999],
       "base": [0, 0, 0, 0, 0, 0],
       "x": [1, 2, 3, 4, 5, 6],
-      "y": [310, 58, 184, 184, 55, 42],
-      "text": ["Platform: Python<br />Count: 310<br />Percent: 37.2", "Platform: R<br />Count:  58<br />Percent: 7", "Platform: C<br />Count: 184<br />Percent: 22.1", "Platform: C++<br />Count: 184<br />Percent: 22.1", "Platform: Other<br />Count:  55<br />Percent: 6.6", "Platform: Unknown<br />Count:  42<br />Percent: 5"],
+      "y": [315, 59, 185, 185, 55, 42],
+      "text": ["Platform: Python<br />Count: 315<br />Percent: 37.5", "Platform: R<br />Count:  59<br />Percent: 7", "Platform: C<br />Count: 185<br />Percent: 22", "Platform: C++<br />Count: 185<br />Percent: 22", "Platform: Other<br />Count:  55<br />Percent: 6.5", "Platform: Unknown<br />Count:  42<br />Percent: 5"],
       "type": "bar",
+      "textposition": "none",
       "marker": {
         "autocolorscale": false,
         "color": "rgba(199,121,81,1)",
@@ -24,9 +25,9 @@
     },
     {
       "x": [1],
-      "y": [338.35],
-      "text": "37.2%",
-      "hovertext": "Platform: Python<br />Count: 310<br />Percent: 37.2",
+      "y": [343.65],
+      "text": "37.5%",
+      "hovertext": "Platform: Python<br />Count: 315<br />Percent: 37.5",
       "textfont": {
         "size": 15.1181102362205,
         "color": "rgba(248,118,109,1)"
@@ -44,9 +45,9 @@
     },
     {
       "x": [2],
-      "y": [86.35],
+      "y": [87.65],
       "text": "7%",
-      "hovertext": "Platform: R<br />Count:  58<br />Percent: 7",
+      "hovertext": "Platform: R<br />Count:  59<br />Percent: 7",
       "textfont": {
         "size": 15.1181102362205,
         "color": "rgba(248,118,109,1)"
@@ -64,9 +65,9 @@
     },
     {
       "x": [3],
-      "y": [212.35],
-      "text": "22.1%",
-      "hovertext": "Platform: C<br />Count: 184<br />Percent: 22.1",
+      "y": [213.65],
+      "text": "22%",
+      "hovertext": "Platform: C<br />Count: 185<br />Percent: 22",
       "textfont": {
         "size": 15.1181102362205,
         "color": "rgba(248,118,109,1)"
@@ -84,9 +85,9 @@
     },
     {
       "x": [4],
-      "y": [212.35],
-      "text": "22.1%",
-      "hovertext": "Platform: C++<br />Count: 184<br />Percent: 22.1",
+      "y": [213.65],
+      "text": "22%",
+      "hovertext": "Platform: C++<br />Count: 185<br />Percent: 22",
       "textfont": {
         "size": 15.1181102362205,
         "color": "rgba(248,118,109,1)"
@@ -104,9 +105,9 @@
     },
     {
       "x": [5],
-      "y": [83.35],
-      "text": "6.6%",
-      "hovertext": "Platform: Other<br />Count:  55<br />Percent: 6.6",
+      "y": [83.65],
+      "text": "6.5%",
+      "hovertext": "Platform: Other<br />Count:  55<br />Percent: 6.5",
       "textfont": {
         "size": 15.1181102362205,
         "color": "rgba(248,118,109,1)"
@@ -124,7 +125,7 @@
     },
     {
       "x": [6],
-      "y": [70.35],
+      "y": [70.65],
       "text": "5%",
       "hovertext": "Platform: Unknown<br />Count:  42<br />Percent: 5",
       "textfont": {
@@ -211,7 +212,7 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-16.9175, 355.2675],
+      "range": [-17.1825, 360.8325],
       "tickmode": "array",
       "ticktext": ["0", "100", "200", "300"],
       "tickvals": [0, 100, 200, 300],
@@ -280,18 +281,19 @@
   },
   "config": {
     "doubleClick": "reset",
+    "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"],
     "showSendToCloud": false
   },
   "source": "A",
   "attrs": {
-    "27821924449": {
+    "676037cd22b7": {
       "x": {},
       "weight": {},
       "fill": {},
       "text": {},
       "type": "bar"
     },
-    "278246723fb": {
+    "67607874358d": {
       "x": {},
       "weight": {},
       "fill": {},
@@ -301,10 +303,10 @@
       "colour": {}
     }
   },
-  "cur_data": "27821924449",
+  "cur_data": "676037cd22b7",
   "visdat": {
-    "27821924449": ["function (y) ", "x"],
-    "278246723fb": ["function (y) ", "x"]
+    "676037cd22b7": ["function (y) ", "x"],
+    "67607874358d": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
