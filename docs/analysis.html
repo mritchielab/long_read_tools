@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-M94D2L6');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!--// Metadata ---------------------------------------------------- -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Long Read Tools</title>
+  <meta name="description" content="A catalogue of long read analysis tools" />
+  <meta name="author" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="long-read-tools" />
+  <meta property="og:url" content="https://long-read-tools.org/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="A catalogue of long read analysis tools" />
+  <meta property="og:image" content="https://github.com/shaniAmare/long_read_tools/blob/master/docs/img/icon.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@long_read_tools" />
+  <meta name="twitter:title" content="A catalogue of long read analysis tools" />
+  <meta name="twitter:description"
+    content="Long read sequencing technologies have gained rapid popularity due to their strengths over short read sequencing technologies.  Here we present a catalogue of available long read sequence analysis tools, which can be sorted and filtered by technology or their functions." />
+  <meta name="twitter:image" content="" />
+
+  <!-- Google Verification -->
+  <meta name="google-site-verification" content="BK2sZjBnvxJFb4w42KjJcYUBF4d1-WwjjJGle6fnP3E" />
+
+  <script>
+    (function (i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-130126727-1', 'auto');
+    ga('send', 'pageview')
+    </script>
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./img/fav.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/fav.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/fav.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/akottr/dragtable/e9162640/dragtable.css">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/filter-control/bootstrap-table-filter-control.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/style.css?v5.0003">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css?v5.0003">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css?v5.0003">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+     <!-- Google Tag Manager (noscript) -->
+   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M94D2L6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Navigation
+    ==========================================-->
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+
+    </nav>
+    <!-- Header -->
+
+    <!-- Features Section -->
+    <div id="features" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12  section-title letf-align">
+                    <h2>Statistics</h2>
+                </div>
+            </div>
+              <div class="row">
+                  <div class="col-12">
+                      <div class="panel panel-default">
+                          <div class="panel-body">
+                              <div class="row">
+                                  <div class="plot col-xs-12 col-md-12">
+                                    <div class="plot-module">
+                                      <div id="number"></div>
+                                     </div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="plot col-xs-12 col-md-4">
+                                    <div class="plot-module">
+                                      <div id="publication"></div>
+                                    </div>
+                                  </div>
+                                  <div class="plot col-xs-12 col-md-4">
+                                      <div class="plot-module">
+                                        <div id="platforms"></div>
+                                      </div>
+                                  </div>
+                                  <div class="plot col-xs-12 col-md-4">
+                                    <div class="plot-module">
+                                      <div id="technology"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="plot col-xs-20 col-md-12">
+                                      <div id="categories"></div>
+                                  </div>
+                              </div>
+                              <!--<div class="row">
+                                  <div class="plot col-xs-14 col-md-12">
+                                      <div id="nanopore_cat"></div>
+                                  </div>
+                                  <div class="plot col-xs-12 col-md-12">
+                                      <div id="pacbio_cat"></div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="plot col-xs-12 col-md-4">
+                                      <div id="tenx_cat"></div>
+                                  </div>
+                                  <div class="plot col-xs-12 col-md-4">
+                                      <div id="bionano_cat"></div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="plot col-xs-12 col-md-4">
+                                      <div id="hic_cat"></div>
+                                  </div>
+                              </div>-->
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+  </div>
+
+
+    <div id="contact" class="padding-top-10">
+        <div class="container">
+            <div class="col-md-12" id="footer">
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="jsv3/bootstrap.js"></script>
+    <script type="text/javascript" src="jsv3/nivo-lightbox.js"></script>
+    <script type="text/javascript" src="jsv3/main.js?v5.0003"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://cdn.rawgit.com/akottr/dragtable/e9162640/jquery.dragtable.js"></script>
+    <script
+        src="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/reorder-columns/bootstrap-table-reorder-columns.js">
+    </script>
+    <script
+        src="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/filter-control/bootstrap-table-filter-control.js">
+    </script>
+    <script
+        src="https://cdn.rawgit.com/wenzhixin/bootstrap-table/6350315f/src/extensions/export/bootstrap-table-export.js">
+    </script>
+    <script src="https://cdn.rawgit.com/hhurz/tableExport.jquery.plugin/475fb511/tableExport.min.js"></script>
+    <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    
+      <script>
+          jQuery.getJSON('plots/number.json', function(data) {
+              Plotly.newPlot('number', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/publication.json', function(data) {
+              Plotly.newPlot('publication', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/platforms.json', function(data) {
+              Plotly.newPlot('platforms', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/technologies.json', function(data) {
+              Plotly.newPlot('technology', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/categories.json', function(data) {
+              Plotly.newPlot('categories', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/categories_OxfordNanopore.json', function(data) {
+              Plotly.newPlot('nanopore_cat', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/categories_PacBio.json', function(data) {
+              Plotly.newPlot('pacbio_cat', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/categories_tenxGenomics.json', function(data) {
+              Plotly.newPlot('tenx_cat', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/categories_BionanoGenomics.json', function(data) {
+              Plotly.newPlot('bionano_cat', data.data, data.layout, data.config)
+          })
+          jQuery.getJSON('plots/categories_HiC.json', function(data) {
+              Plotly.newPlot('hic_cat', data.data, data.layout, data.config)
+          })
+    </script>
+    
+
+    <!--<script>
+        var p1 = new pym.Parent('number', 'plots/number.html', {})
+        var p2 = new pym.Parent('publication', 'plots/publication.html', {})
+        var p3 = new pym.Parent('platforms', 'plots/platforms.html', {})
+        var p4 = new pym.Parent('technology', 'plots/technologies.html', {})
+        var p5 = new pym.Parent('categories', 'plots/categories.html', {})
+        var p6 = new pym.Parent('nanopore_cat', 'plots/categories_OxfordNanopore.html', {})
+        var p7 = new pym.Parent('pacbio_cat', 'plots/categories_PacBio.html', {})
+        var p8 = new pym.Parent('tenx_cat', 'plots/categories_tenxGenomics.html', {})
+        var p9 = new pym.Parent('bionano_cat', 'plots/categories_BionanoGenomics.html', {})
+        var p10 = new pym.Parent('hic_cat', 'plots/categories_HiC.html', {})
+    </script> -->
+</body>
+
+</html>

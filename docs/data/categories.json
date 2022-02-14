@@ -1,0 +1,6866 @@
+[
+  {
+    "Category": "Alignment",
+    "Tools": [
+      {
+        "Name": "2passtools",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "abPOA",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "AlignGraph2",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "Automation",
+        "Citations": 24,
+        "Publications": 1
+      },
+      {
+        "Name": "BELLA",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "BugSeq",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "bwa-sw",
+        "Citations": 6835,
+        "Publications": 1
+      },
+      {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
+      {
+        "Name": "cwDTW",
+        "Citations": 9,
+        "Publications": 1
+      },
+      {
+        "Name": "deSALT",
+        "Citations": 15,
+        "Publications": 1
+      },
+      {
+        "Name": "Duesselpore",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "DuploMap",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "edyeet"
+      },
+      {
+        "Name": "FALCON",
+        "Citations": 1041,
+        "Publications": 1
+      },
+      {
+        "Name": "FastRemap",
+        "Publications": 1
+      },
+      {
+        "Name": "GraphAligner",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "GraphMap",
+        "Citations": 246,
+        "Publications": 1
+      },
+      {
+        "Name": "isoseq_manuscript_resources",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "IsoTV",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "Kart",
+        "Citations": 29,
+        "Publications": 1
+      },
+      {
+        "Name": "kass",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "LAMSA",
+        "Citations": 13,
+        "Publications": 1
+      },
+      {
+        "Name": "LAST",
+        "Citations": 785,
+        "Publications": 1
+      },
+      {
+        "Name": "last-rna"
+      },
+      {
+        "Name": "longread-UMI-pipeline"
+      },
+      {
+        "Name": "lordFAST",
+        "Citations": 11,
+        "Publications": 1
+      },
+      {
+        "Name": "LRA",
+        "Citations": 9,
+        "Publications": 1
+      },
+      {
+        "Name": "Magic-BLAST",
+        "Citations": 99,
+        "Publications": 1
+      },
+      {
+        "Name": "marginAlign",
+        "Citations": 443,
+        "Publications": 1,
+        "PyPI": "marginAlign"
+      },
+      {
+        "Name": "MashMap",
+        "Citations": 24,
+        "Publications": 1
+      },
+      {
+        "Name": "MECAT",
+        "Citations": 184,
+        "Publications": 1
+      },
+      {
+        "Name": "Meta-aligner",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "MetaPORE",
+        "Citations": 324,
+        "Publications": 1
+      },
+      {
+        "Name": "minialign"
+      },
+      {
+        "Name": "minimap2",
+        "Citations": 3124,
+        "Publications": 1
+      },
+      {
+        "Name": "minoTour"
+      },
+      {
+        "Name": "minoTourApp"
+      },
+      {
+        "Name": "mm2-fast"
+      },
+      {
+        "Name": "NanoASPipe",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoBLASTer",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoDJ",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoGalaxy",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoPipe"
+      },
+      {
+        "Name": "Nanopype"
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "NGMLR",
+        "Citations": 604,
+        "Publications": 1
+      },
+      {
+        "Name": "Organelle_PBA",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "PacRAT",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "pb-assembly"
+      },
+      {
+        "Name": "pbalign"
+      },
+      {
+        "Name": "pbbioconda"
+      },
+      {
+        "Name": "pbmm2"
+      },
+      {
+        "Name": "Picky",
+        "Citations": 47,
+        "Publications": 1
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
+      },
+      {
+        "Name": "poremap"
+      },
+      {
+        "Name": "poreTally",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "PRINCESS",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "pycoSnake",
+        "Publications": 1
+      },
+      {
+        "Name": "QAlign",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "QIAGEN Digital Insights Long Read Support (beta) plugin"
+      },
+      {
+        "Name": "RawMap"
+      },
+      {
+        "Name": "Rebaler"
+      },
+      {
+        "Name": "ReMILO"
+      },
+      {
+        "Name": "RUBRIC",
+        "Citations": 15,
+        "Publications": 1
+      },
+      {
+        "Name": "S-conLSH",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "selectION"
+      },
+      {
+        "Name": "Sigmap",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "SneakySnake",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "Strainberry",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "TandemTools",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "TideHunter",
+        "Citations": 9,
+        "Publications": 1
+      },
+      {
+        "Name": "uLTRA",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "UNAGI",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "UNCALLED",
+        "Citations": 48,
+        "Publications": 1
+      },
+      {
+        "Name": "V-MAP",
+        "Publications": 1
+      },
+      {
+        "Name": "VG",
+        "Citations": 239,
+        "Publications": 1
+      },
+      {
+        "Name": "Vulcan",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "WHdenovo",
+        "Citations": 10,
+        "Publications": 1
+      },
+      {
+        "Name": "Winnowmap",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "Winnowmap2",
+        "Citations": 16,
+        "Publications": 0
+      }
+    ],
+    "Description": "Alignment of long reads to a reference"
+  },
+  {
+    "Category": "AnalysisPipelines",
+    "Tools": [
+      {
+        "Name": "ARTIC"
+      },
+      {
+        "Name": "ASHURE",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "Athlon",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "bionano-tools"
+      },
+      {
+        "Name": "CarrierSeq",
+        "Citations": 10,
+        "Publications": 1
+      },
+      {
+        "Name": "CRuMPIT",
+        "Citations": 70,
+        "Publications": 1
+      },
+      {
+        "Name": "davidcoffey-MinION",
+        "Citations": 181,
+        "Publications": 1
+      },
+      {
+        "Name": "DeepSimulator",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "Duesselpore",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Ecoli_assembly_pipeline",
+        "Citations": 804,
+        "Publications": 1
+      },
+      {
+        "Name": "Epi2me"
+      },
+      {
+        "Name": "F5c"
+      },
+      {
+        "Name": "FLAMES",
+        "Citations": 13,
+        "Publications": 0,
+        "BioC": "FLAMES"
+      },
+      {
+        "Name": "haplotyped-methylome",
+        "Citations": 54,
+        "Publications": 1
+      },
+      {
+        "Name": "HLA-PRG-LA",
+        "Citations": 65,
+        "Publications": 1
+      },
+      {
+        "Name": "isoseq_manuscript_resources",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "IsoSeq3"
+      },
+      {
+        "Name": "IsoTV",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "Japsa"
+      },
+      {
+        "Name": "Katuali"
+      },
+      {
+        "Name": "Krocus",
+        "Citations": 11,
+        "Publications": 1,
+        "PyPI": "krocus"
+      },
+      {
+        "Name": "LeafGo",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "longread-UMI-pipeline"
+      },
+      {
+        "Name": "loreta"
+      },
+      {
+        "Name": "LoRTIA"
+      },
+      {
+        "Name": "LRCstats",
+        "Citations": 9,
+        "Publications": 1
+      },
+      {
+        "Name": "LRSDAY",
+        "Citations": 27,
+        "Publications": 1
+      },
+      {
+        "Name": "LSC",
+        "Citations": 228,
+        "Publications": 1
+      },
+      {
+        "Name": "LSCplus",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "MasterOfPores",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
+        "Name": "MetaPORE",
+        "Citations": 324,
+        "Publications": 1
+      },
+      {
+        "Name": "METEORE",
+        "Citations": 28,
+        "Publications": 1
+      },
+      {
+        "Name": "MicroPIPE",
+        "Citations": 0,
+        "Publications": 1,
+        "PyPI": "MicroPipe"
+      },
+      {
+        "Name": "minoTourApp"
+      },
+      {
+        "Name": "modPhred ",
+        "Publications": 0
+      },
+      {
+        "Name": "MUFFIN",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "Mykrobe_tb_workflow"
+      },
+      {
+        "Name": "nano-snakemake",
+        "Citations": 76,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoASPipe",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoCLUST",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "nanoflow"
+      },
+      {
+        "Name": "NanoGalaxy",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoGrid"
+      },
+      {
+        "Name": "nanoMLST",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "NanopolishComp",
+        "PyPI": "NanopolishComp"
+      },
+      {
+        "Name": "nanopore"
+      },
+      {
+        "Name": "nanopore-sv-evaluation",
+        "Citations": 15,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanopype"
+      },
+      {
+        "Name": "NanoRTax",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "ont-assembly-polish"
+      },
+      {
+        "Name": "PALMER",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "pbsmrtpipe"
+      },
+      {
+        "Name": "PEPPER-Margin-DeepVariant",
+        "Citations": 32,
+        "Publications": 1
+      },
+      {
+        "Name": "PGAS",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "Picky",
+        "Citations": 47,
+        "Publications": 1
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
+      },
+      {
+        "Name": "pomoxis",
+        "PyPI": "pomoxis"
+      },
+      {
+        "Name": "poreCov",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "poreFUME"
+      },
+      {
+        "Name": "poremap"
+      },
+      {
+        "Name": "Poretools",
+        "Citations": 327,
+        "Publications": 1,
+        "PyPI": "poretools"
+      },
+      {
+        "Name": "PRINCESS",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "pycoMeth",
+        "Publications": 1
+      },
+      {
+        "Name": "pycoSnake",
+        "Publications": 1
+      },
+      {
+        "Name": "Reticulatus"
+      },
+      {
+        "Name": "rMETL",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "SiCeLoRe",
+        "Citations": 43,
+        "Publications": 1
+      },
+      {
+        "Name": "SMIS"
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "SneakySnake",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "Strainberry",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "TALON",
+        "Citations": 37,
+        "Publications": 0
+      },
+      {
+        "Name": "VG",
+        "Citations": 239,
+        "Publications": 1
+      },
+      {
+        "Name": "Zika bioinformatics pipeline",
+        "Citations": 549,
+        "Publications": 1
+      }
+    ],
+    "Description": "A chain of processing steps that can be used to perform analyses in multiple areas of a study"
+  },
+  {
+    "Category": "AvailablityOfTestData",
+    "Tools": [
+      {
+        "Name": "ABruijn",
+        "Citations": 133,
+        "Publications": 1
+      },
+      {
+        "Name": "BlockPolish",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "Centrifuge",
+        "Citations": 583,
+        "Publications": 1
+      },
+      {
+        "Name": "Chiron",
+        "Citations": 80,
+        "Publications": 1,
+        "PyPI": "chiron"
+      },
+      {
+        "Name": "Clair",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "Clairvoyante",
+        "Citations": 55,
+        "Publications": 1
+      },
+      {
+        "Name": "CRuMPIT",
+        "Citations": 70,
+        "Publications": 1
+      },
+      {
+        "Name": "Deepbinner",
+        "Citations": 90,
+        "Publications": 1
+      },
+      {
+        "Name": "Deepore"
+      },
+      {
+        "Name": "DeepVariant",
+        "Citations": 341,
+        "Publications": 1
+      },
+      {
+        "Name": "DRUMMER",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "Duesselpore",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Fast-SG",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "FLAIR"
+      },
+      {
+        "Name": "FLAME",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "HALC",
+        "Citations": 44,
+        "Publications": 1
+      },
+      {
+        "Name": "HapCUT2",
+        "Citations": 178,
+        "Publications": 1
+      },
+      {
+        "Name": "haplotyped-methylome",
+        "Citations": 54,
+        "Publications": 1
+      },
+      {
+        "Name": "HECIL",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "HELLO",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "HLA-PRG-LA",
+        "Citations": 65,
+        "Publications": 1
+      },
+      {
+        "Name": "I-CONVEX",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Inspector",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "IsoCon",
+        "Citations": 33,
+        "Publications": 1,
+        "PyPI": "IsoCon"
+      },
+      {
+        "Name": "Kaiju",
+        "Citations": 695,
+        "Publications": 1
+      },
+      {
+        "Name": "Krocus",
+        "Citations": 11,
+        "Publications": 1,
+        "PyPI": "krocus"
+      },
+      {
+        "Name": "LeafGo",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "LJA",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "LongPhase",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "marginPhase",
+        "Citations": 5,
+        "Publications": 0
+      },
+      {
+        "Name": "MBG",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "mdBG",
+        "Citations": 14,
+        "Publications": 1
+      },
+      {
+        "Name": "MEGAN-LR",
+        "Citations": 91,
+        "Publications": 1
+      },
+      {
+        "Name": "Meta-NanoSim",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoAmpli-Seq",
+        "Citations": 54,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoASPipe",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "nanopore-sv-evaluation",
+        "Citations": 15,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoRTax",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSatellite",
+        "Citations": 25,
+        "Publications": 1
+      },
+      {
+        "Name": "nanotest"
+      },
+      {
+        "Name": "NGMLR",
+        "Citations": 604,
+        "Publications": 1
+      },
+      {
+        "Name": "npAnalysis",
+        "Citations": 59,
+        "Publications": 1
+      },
+      {
+        "Name": "NPGREAT",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "nPhase",
+        "Citations": 3,
+        "Publications": 1,
+        "PyPI": "nPhase"
+      },
+      {
+        "Name": "npScarf",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "One-Codex",
+        "Citations": 65,
+        "Publications": 0
+      },
+      {
+        "Name": "Organelle_PBA",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "PacRAT",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "PBJelly",
+        "Citations": 694,
+        "Publications": 1
+      },
+      {
+        "Name": "PGAS",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "phasebook",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "pistis",
+        "PyPI": "pistis"
+      },
+      {
+        "Name": "Polypolish",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "PRINCESS",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "proovframe",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "SDip",
+        "Citations": 6,
+        "Publications": 0
+      },
+      {
+        "Name": "Sigmap",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "SMALR",
+        "Citations": 66,
+        "Publications": 1
+      },
+      {
+        "Name": "spectrassembler",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "SquiggleNet",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "Strainberry",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "tandem-genotypes",
+        "Citations": 50,
+        "Publications": 1
+      },
+      {
+        "Name": "Tiptoft",
+        "Citations": 0,
+        "Publications": 1,
+        "PyPI": "tiptoft"
+      },
+      {
+        "Name": "TSD",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "UNAGI",
+        "Citations": 0,
+        "Publications": 1
+      }
+    ],
+    "Description": "If any datasets were made available with the tool or through the pulblication"
+  },
+  {
+    "Category": "Basecalling",
+    "Tools": [
+      {
+        "Name": "Albacore"
+      },
+      {
+        "Name": "basecRAWller",
+        "Citations": 15,
+        "Publications": 0
+      },
+      {
+        "Name": "Bonito"
+      },
+      {
+        "Name": "C3POa"
+      },
+      {
+        "Name": "CATCaller",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "Causalcall",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "Chiron",
+        "Citations": 80,
+        "Publications": 1,
+        "PyPI": "chiron"
+      },
+      {
+        "Name": "DeepConsensus",
+        "Citations": 1,
+        "Publications": 0,
+        "PyPI": "deepconsensus"
+      },
+      {
+        "Name": "DeepNano",
+        "Citations": 119,
+        "Publications": 1
+      },
+      {
+        "Name": "DeepNano-blitz",
+        "Citations": 11,
+        "Publications": 1
+      },
+      {
+        "Name": "Deepore"
+      },
+      {
+        "Name": "DeepSimulator",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "flappie"
+      },
+      {
+        "Name": "Guppy"
+      },
+      {
+        "Name": "Halcyon",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "Katuali"
+      },
+      {
+        "Name": "Megalodon"
+      },
+      {
+        "Name": "MicroPIPE",
+        "Citations": 0,
+        "Publications": 1,
+        "PyPI": "MicroPipe"
+      },
+      {
+        "Name": "Nanocall",
+        "Citations": 67,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoDJ",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanonet"
+      },
+      {
+        "Name": "Nanopype"
+      },
+      {
+        "Name": "pbdagcon",
+        "Citations": 2962,
+        "Publications": 1
+      },
+      {
+        "Name": "pbssc",
+        "Citations": 17,
+        "Publications": 1
+      },
+      {
+        "Name": "poreduck"
+      },
+      {
+        "Name": "PoreOver",
+        "Citations": 4,
+        "Publications": 0
+      },
+      {
+        "Name": "Poreplex",
+        "PyPI": "poreplex"
+      },
+      {
+        "Name": "R2C2",
+        "Citations": 106,
+        "Publications": 1
+      },
+      {
+        "Name": "Read-Until",
+        "Citations": 149,
+        "Publications": 1
+      },
+      {
+        "Name": "ReadBouncer",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "ReadFish",
+        "Citations": 46,
+        "Publications": 1,
+        "PyPI": "readfish"
+      },
+      {
+        "Name": "Rerio"
+      },
+      {
+        "Name": "RUBRIC",
+        "Citations": 15,
+        "Publications": 1
+      },
+      {
+        "Name": "Runnie"
+      },
+      {
+        "Name": "SACall",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "scrappie",
+        "PyPI": "scrappie"
+      },
+      {
+        "Name": "sloika"
+      },
+      {
+        "Name": "squiggler"
+      },
+      {
+        "Name": "taiyaki"
+      },
+      {
+        "Name": "unanimity"
+      },
+      {
+        "Name": "WaveNano",
+        "Citations": 10,
+        "Publications": 1
+      }
+    ],
+    "Description": "Detection of change of electrical current produced by ONT sequencers and translate it to a DNA sequence"
+  },
+  {
+    "Category": "BaseModificationDetection",
+    "Tools": [
+      {
+        "Name": "Amortized-HMM",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "basemods"
+      },
+      {
+        "Name": "D-NAscent",
+        "Citations": 46,
+        "Publications": 1
+      },
+      {
+        "Name": "DeepMod"
+      },
+      {
+        "Name": "DeepMP",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "DeepSignal",
+        "Citations": 90,
+        "Publications": 1,
+        "PyPI": "deepsignal"
+      },
+      {
+        "Name": "DeepSignal-plant",
+        "Citations": 8,
+        "Publications": 1,
+        "PyPI": "deepsignal-plant"
+      },
+      {
+        "Name": "DENA",
+        "Publications": 1
+      },
+      {
+        "Name": "differr",
+        "Citations": 128,
+        "Publications": 1
+      },
+      {
+        "Name": "DNAModAnnot",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "DRUMMER",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "EpiNano",
+        "Citations": 149,
+        "Publications": 1,
+        "PyPI": "Epinano"
+      },
+      {
+        "Name": "F5c"
+      },
+      {
+        "Name": "Fast5Mod",
+        "PyPI": "fast5mod"
+      },
+      {
+        "Name": "Guppy"
+      },
+      {
+        "Name": "haplotyped-methylome",
+        "Citations": 54,
+        "Publications": 1
+      },
+      {
+        "Name": "kineticsTools"
+      },
+      {
+        "Name": "mCaller",
+        "Citations": 78,
+        "Publications": 1
+      },
+      {
+        "Name": "Megalodon"
+      },
+      {
+        "Name": "MeMoRe"
+      },
+      {
+        "Name": "METEORE",
+        "Citations": 28,
+        "Publications": 1
+      },
+      {
+        "Name": "methBERT",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "methylartist",
+        "Citations": 1,
+        "Publications": 0,
+        "PyPI": "methylartist"
+      },
+      {
+        "Name": "MINES",
+        "Citations": 73,
+        "Publications": 1
+      },
+      {
+        "Name": "modPhred ",
+        "Publications": 0
+      },
+      {
+        "Name": "MotifFinder"
+      },
+      {
+        "Name": "MotifMaker"
+      },
+      {
+        "Name": "MultiNanopolish",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "MultiNanopolish",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanocompore",
+        "Citations": 36,
+        "Publications": 0,
+        "PyPI": "nanocompore"
+      },
+      {
+        "Name": "nanodisco",
+        "Citations": 5,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoMethPhase",
+        "Citations": 7,
+        "Publications": 1,
+        "PyPI": "nanomethphase"
+      },
+      {
+        "Name": "nanomod"
+      },
+      {
+        "Name": "NanoMod",
+        "Citations": 27,
+        "Publications": 1
+      },
+      {
+        "Name": "nanopolish",
+        "Citations": 474,
+        "Publications": 1
+      },
+      {
+        "Name": "nanopore-methylation"
+      },
+      {
+        "Name": "Nanopore_methylation_utilities"
+      },
+      {
+        "Name": "Nanopype"
+      },
+      {
+        "Name": "nanoraw",
+        "Citations": 118,
+        "Publications": 0,
+        "PyPI": "nanoraw"
+      },
+      {
+        "Name": "NanoRMS",
+        "Citations": 6,
+        "Publications": 0
+      },
+      {
+        "Name": "NP-SMLR",
+        "Citations": 19,
+        "Publications": 1
+      },
+      {
+        "Name": "PRINCESS",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "pycoMeth",
+        "Publications": 1
+      },
+      {
+        "Name": "pycoSnake",
+        "Publications": 1
+      },
+      {
+        "Name": "R-kinetics"
+      },
+      {
+        "Name": "RepNano",
+        "Citations": 17,
+        "Publications": 1
+      },
+      {
+        "Name": "Rerio"
+      },
+      {
+        "Name": "SignalAlign",
+        "Citations": 269,
+        "Publications": 1,
+        "PyPI": "signalAlign"
+      },
+      {
+        "Name": "SMALR",
+        "Citations": 66,
+        "Publications": 1
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "taiyaki"
+      },
+      {
+        "Name": "Tombo"
+      },
+      {
+        "Name": "xPore",
+        "Citations": 24,
+        "Publications": 1
+      },
+      {
+        "Name": "Yanocomp",
+        "Citations": 3,
+        "Publications": 0
+      }
+    ],
+    "Description": "Identification of modifications to individual bases like 5-methylcytosine, 5-hydroxymethylcytosine, and N6-methyladenine in DNA sequences"
+  },
+  {
+    "Category": "CoexpressionAnalysis",
+    "Tools": [
+      {
+        "Name": "Acorde",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Duesselpore",
+        "Citations": 0,
+        "Publications": 0
+      }
+    ],
+    "Description": "Co expression of multiple genes or isoforms in a biologically important network"
+  },
+  {
+    "Category": "DataStructures",
+    "Tools": [
+      {
+        "Name": "CoLoRd",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "FastqCLS",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "SLOW5",
+        "Citations": 0,
+        "Publications": 0
+      }
+    ],
+    "Description": "Providing alternative data structures for ONT native FAST5 format"
+  },
+  {
+    "Category": "Demultiplexing",
+    "Tools": [
+      {
+        "Name": "BugSeq",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Deepbinner",
+        "Citations": 90,
+        "Publications": 1
+      },
+      {
+        "Name": "Deeplexicon",
+        "Citations": 11,
+        "Publications": 1
+      },
+      {
+        "Name": "lima"
+      },
+      {
+        "Name": "longread-UMI-pipeline"
+      },
+      {
+        "Name": "MicroPIPE",
+        "Citations": 0,
+        "Publications": 1,
+        "PyPI": "MicroPipe"
+      },
+      {
+        "Name": "Minibar",
+        "Citations": 58,
+        "Publications": 1
+      },
+      {
+        "Name": "nanoMLST",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanopype"
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "npBarcode",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "PacRAT",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "qcat",
+        "PyPI": "qcat"
+      },
+      {
+        "Name": "Zika bioinformatics pipeline",
+        "Citations": 549,
+        "Publications": 1
+      }
+    ],
+    "Description": "Using barcode or other information to know which sequences came from which samples in a pool of samples"
+  },
+  {
+    "Category": "DenovoAssembly",
+    "Tools": [
+      {
+        "Name": "ABruijn",
+        "Citations": 133,
+        "Publications": 1
+      },
+      {
+        "Name": "AlignGraph2",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "ALLPATHS-LG",
+        "Citations": 1250,
+        "Publications": 1
+      },
+      {
+        "Name": "Alpaca",
+        "Citations": 36,
+        "Publications": 1
+      },
+      {
+        "Name": "Architect",
+        "Citations": 26,
+        "Publications": 1
+      },
+      {
+        "Name": "ARCS",
+        "Citations": 90,
+        "Publications": 1
+      },
+      {
+        "Name": "bionano-tools"
+      },
+      {
+        "Name": "BLASR"
+      },
+      {
+        "Name": "BugSeq",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Canu",
+        "Citations": 3109,
+        "Publications": 1
+      },
+      {
+        "Name": "centroFlye",
+        "Citations": 22,
+        "Publications": 1
+      },
+      {
+        "Name": "Cerulean"
+      },
+      {
+        "Name": "Circlator",
+        "Citations": 494,
+        "Publications": 1,
+        "PyPI": "circlator"
+      },
+      {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
+      {
+        "Name": "DALIGNER",
+        "Citations": 101,
+        "Publications": 1
+      },
+      {
+        "Name": "darwin",
+        "Citations": 35,
+        "Publications": 1
+      },
+      {
+        "Name": "DBG2OLC",
+        "Citations": 174,
+        "Publications": 1
+      },
+      {
+        "Name": "DR2S"
+      },
+      {
+        "Name": "DraftPolisher"
+      },
+      {
+        "Name": "FALCON",
+        "Citations": 1041,
+        "Publications": 1
+      },
+      {
+        "Name": "FALCON-Phase"
+      },
+      {
+        "Name": "FALCON-sense",
+        "Citations": 1041,
+        "Publications": 1
+      },
+      {
+        "Name": "FALCON-Unzip",
+        "Citations": 1041,
+        "Publications": 1
+      },
+      {
+        "Name": "Fast-SG",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "FinisherSC",
+        "Citations": 80,
+        "Publications": 1
+      },
+      {
+        "Name": "Flye",
+        "Citations": 3532,
+        "Publications": 4
+      },
+      {
+        "Name": "GALA",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "HALC",
+        "Citations": 44,
+        "Publications": 1
+      },
+      {
+        "Name": "HASLR",
+        "Citations": 12,
+        "Publications": 1
+      },
+      {
+        "Name": "HGAP",
+        "Citations": 2962,
+        "Publications": 1
+      },
+      {
+        "Name": "HiCanu",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "Hifiasm",
+        "Publications": 0
+      },
+      {
+        "Name": "Hifiasm-meta"
+      },
+      {
+        "Name": "Hinge",
+        "Citations": 66,
+        "Publications": 1
+      },
+      {
+        "Name": "IPA"
+      },
+      {
+        "Name": "IsoTV",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "kass",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "Katuali"
+      },
+      {
+        "Name": "LazyB",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "LeafGo",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "LINKS",
+        "Citations": 135,
+        "Publications": 1
+      },
+      {
+        "Name": "LJA",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "LongReadSelfCorrect"
+      },
+      {
+        "Name": "loreta"
+      },
+      {
+        "Name": "LRSDAY",
+        "Citations": 27,
+        "Publications": 1
+      },
+      {
+        "Name": "MARVEL",
+        "Citations": 282,
+        "Publications": 1
+      },
+      {
+        "Name": "MaSuRCA",
+        "Citations": 738,
+        "Publications": 1
+      },
+      {
+        "Name": "MBG",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "mdBG",
+        "Citations": 14,
+        "Publications": 1
+      },
+      {
+        "Name": "MECAT",
+        "Citations": 184,
+        "Publications": 1
+      },
+      {
+        "Name": "MHAP",
+        "Citations": 660,
+        "Publications": 1
+      },
+      {
+        "Name": "MicroPIPE",
+        "Citations": 0,
+        "Publications": 1,
+        "PyPI": "MicroPipe"
+      },
+      {
+        "Name": "miniasm",
+        "Citations": 718,
+        "Publications": 1
+      },
+      {
+        "Name": "MUFFIN",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoDJ",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoGalaxy",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "nanotatoR",
+        "BioC": "nanotatoR"
+      },
+      {
+        "Name": "NextDenovo"
+      },
+      {
+        "Name": "npGraph",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "NPGREAT",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "npScarf",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "ont-assembly-polish"
+      },
+      {
+        "Name": "ONTrack",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "OPERA-MS",
+        "Citations": 95,
+        "Publications": 1
+      },
+      {
+        "Name": "Organelle_PBA",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "pb-assembly"
+      },
+      {
+        "Name": "PBcR",
+        "Citations": 660,
+        "Publications": 1
+      },
+      {
+        "Name": "PBJelly",
+        "Citations": 694,
+        "Publications": 1
+      },
+      {
+        "Name": "Peregrine",
+        "Citations": 39,
+        "Publications": 0
+      },
+      {
+        "Name": "Peregrine-2021"
+      },
+      {
+        "Name": "PGAS",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "phasebook",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "Platanus-allee",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "Poreplex",
+        "PyPI": "poreplex"
+      },
+      {
+        "Name": "PoreSeq",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "QIAGEN Digital Insights Long Read Support (beta) plugin"
+      },
+      {
+        "Name": "Ra",
+        "Citations": 6,
+        "Publications": 0
+      },
+      {
+        "Name": "RaGOO"
+      },
+      {
+        "Name": "RagTag",
+        "Citations": 188,
+        "Publications": 1,
+        "PyPI": "RagTag"
+      },
+      {
+        "Name": "Rattle",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "Raven",
+        "Citations": 25,
+        "Publications": 0
+      },
+      {
+        "Name": "Reticulatus"
+      },
+      {
+        "Name": "scallop-LR",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "SDA",
+        "Citations": 87,
+        "Publications": 1
+      },
+      {
+        "Name": "Shasta",
+        "Citations": 139,
+        "Publications": 1
+      },
+      {
+        "Name": "SMARTdenovo",
+        "Citations": 10,
+        "Publications": 1
+      },
+      {
+        "Name": "SMIS"
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "SPAdes",
+        "Citations": 12705,
+        "Publications": 1
+      },
+      {
+        "Name": "Sparc",
+        "Citations": 25,
+        "Publications": 1
+      },
+      {
+        "Name": "spectrassembler",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "Strainberry",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "StringTie2",
+        "Citations": 248,
+        "Publications": 1
+      },
+      {
+        "Name": "SuperNova"
+      },
+      {
+        "Name": "tigmint",
+        "Citations": 47,
+        "Publications": 1,
+        "PyPI": "tigmint"
+      },
+      {
+        "Name": "Traphlor",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "TULIP",
+        "Publications": 1
+      },
+      {
+        "Name": "Unicycler",
+        "Citations": 2343,
+        "Publications": 1
+      },
+      {
+        "Name": "Wengan",
+        "Citations": 5,
+        "Publications": 0
+      },
+      {
+        "Name": "wtdbg2",
+        "Citations": 373,
+        "Publications": 1
+      }
+    ],
+    "Description": "Assembly of long reads"
+  },
+  {
+    "Category": "ErrorCorrectionAndPolishing",
+    "Tools": [
+      {
+        "Name": "abPOA",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "Apollo",
+        "Citations": 10,
+        "Publications": 1
+      },
+      {
+        "Name": "Arrow"
+      },
+      {
+        "Name": "BlockPolish",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "CARNAC-LR",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
+        "Name": "centroFlye",
+        "Citations": 22,
+        "Publications": 1
+      },
+      {
+        "Name": "CoLoRMap",
+        "Citations": 39,
+        "Publications": 1
+      },
+      {
+        "Name": "CONSENT",
+        "Citations": 14,
+        "Publications": 1
+      },
+      {
+        "Name": "daccord",
+        "Citations": 34,
+        "Publications": 0
+      },
+      {
+        "Name": "DAMAPPER"
+      },
+      {
+        "Name": "DASCRUBBER"
+      },
+      {
+        "Name": "DeepConsensus",
+        "Citations": 1,
+        "Publications": 0,
+        "PyPI": "deepconsensus"
+      },
+      {
+        "Name": "DraftPolisher"
+      },
+      {
+        "Name": "ectools"
+      },
+      {
+        "Name": "FALCON",
+        "Citations": 1041,
+        "Publications": 1
+      },
+      {
+        "Name": "FALCON-sense",
+        "Citations": 1041,
+        "Publications": 1
+      },
+      {
+        "Name": "Fast-SG",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "FinisherSC",
+        "Citations": 80,
+        "Publications": 1
+      },
+      {
+        "Name": "FLAIR"
+      },
+      {
+        "Name": "FLAS"
+      },
+      {
+        "Name": "Flye",
+        "Citations": 3532,
+        "Publications": 4
+      },
+      {
+        "Name": "FMLRC",
+        "Citations": 54,
+        "Publications": 1
+      },
+      {
+        "Name": "GALA",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Hapo-G",
+        "Citations": 12,
+        "Publications": 1
+      },
+      {
+        "Name": "HECIL",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "HELEN"
+      },
+      {
+        "Name": "Hercules"
+      },
+      {
+        "Name": "HG-CoLoR",
+        "Citations": 19,
+        "Publications": 1
+      },
+      {
+        "Name": "HGAP",
+        "Citations": 2962,
+        "Publications": 1
+      },
+      {
+        "Name": "Homopolish",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "HyPo"
+      },
+      {
+        "Name": "IDP",
+        "Citations": 234,
+        "Publications": 1
+      },
+      {
+        "Name": "ILRA",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "INC-Seq",
+        "Citations": 98,
+        "Publications": 1
+      },
+      {
+        "Name": "Inspector",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "isONcorrect",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "isoseq_manuscript_resources",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "IsoSeq3"
+      },
+      {
+        "Name": "Jabba",
+        "Citations": 51,
+        "Publications": 1
+      },
+      {
+        "Name": "Katuali"
+      },
+      {
+        "Name": "LazyB",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "levelfind_poreseq"
+      },
+      {
+        "Name": "LJA",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "longread-UMI-pipeline"
+      },
+      {
+        "Name": "LongReadSelfCorrect"
+      },
+      {
+        "Name": "LongStitch",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "LoRDEC",
+        "Citations": 401,
+        "Publications": 1
+      },
+      {
+        "Name": "LoRMA",
+        "Citations": 36,
+        "Publications": 1
+      },
+      {
+        "Name": "LRCstats",
+        "Citations": 9,
+        "Publications": 1
+      },
+      {
+        "Name": "LRECE"
+      },
+      {
+        "Name": "LRSDAY",
+        "Citations": 27,
+        "Publications": 1
+      },
+      {
+        "Name": "LSC",
+        "Citations": 228,
+        "Publications": 1
+      },
+      {
+        "Name": "LSCplus",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "marginPolish"
+      },
+      {
+        "Name": "MARVEL",
+        "Citations": 282,
+        "Publications": 1
+      },
+      {
+        "Name": "MECAT",
+        "Citations": 184,
+        "Publications": 1
+      },
+      {
+        "Name": "medaka",
+        "PyPI": "medaka"
+      },
+      {
+        "Name": "MicroPIPE",
+        "Citations": 0,
+        "Publications": 1,
+        "PyPI": "MicroPipe"
+      },
+      {
+        "Name": "MiRCA",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "mosaicFlye",
+        "Citations": 4,
+        "Publications": 0
+      },
+      {
+        "Name": "MUFFIN",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "MultiNanopolish",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "MultiNanopolish",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanocorr",
+        "Citations": 261,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanocorrect",
+        "Citations": 804,
+        "Publications": 1
+      },
+      {
+        "Name": "nanopolish",
+        "Citations": 474,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoReviser",
+        "Citations": 12,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "NaS",
+        "Citations": 140,
+        "Publications": 1
+      },
+      {
+        "Name": "NeuralPolish",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "NextPolish",
+        "Citations": 105,
+        "Publications": 1
+      },
+      {
+        "Name": "NPGREAT",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "ntEdit",
+        "Citations": 30,
+        "Publications": 1
+      },
+      {
+        "Name": "ont-assembly-polish"
+      },
+      {
+        "Name": "Organelle_PBA",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "Pacasus",
+        "Citations": 10,
+        "Publications": 1
+      },
+      {
+        "Name": "ParLECH",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "pb-assembly"
+      },
+      {
+        "Name": "pbbioconda"
+      },
+      {
+        "Name": "PBcR",
+        "Citations": 660,
+        "Publications": 1
+      },
+      {
+        "Name": "PEPPER"
+      },
+      {
+        "Name": "PGAS",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "Pilon",
+        "Citations": 3667,
+        "Publications": 1
+      },
+      {
+        "Name": "pinfish"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "Polypolish",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "Porechop"
+      },
+      {
+        "Name": "poreTally",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "PRAPI",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
+        "Name": "proovframe",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "proovread",
+        "Citations": 352,
+        "Publications": 1
+      },
+      {
+        "Name": "QIAGEN Digital Insights Long Read Support (beta) plugin"
+      },
+      {
+        "Name": "quickmerge",
+        "Citations": 99,
+        "Publications": 1
+      },
+      {
+        "Name": "Racon",
+        "Citations": 1006,
+        "Publications": 1
+      },
+      {
+        "Name": "Ratatosk",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "Rattle",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "Rebaler"
+      },
+      {
+        "Name": "ReMILO"
+      },
+      {
+        "Name": "ReorientExpress",
+        "Citations": 3,
+        "Publications": 1,
+        "PyPI": "reorientexpress"
+      },
+      {
+        "Name": "Reticulatus"
+      },
+      {
+        "Name": "sarlacc"
+      },
+      {
+        "Name": "SiCeLoRe",
+        "Citations": 43,
+        "Publications": 1
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "Socru",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "Sparc",
+        "Citations": 25,
+        "Publications": 1
+      },
+      {
+        "Name": "Sprai",
+        "Citations": 61,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI2",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI3",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SquiggleKit",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "Strainberry",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "Sviper"
+      },
+      {
+        "Name": "TALC",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "TallyNN"
+      },
+      {
+        "Name": "TAMA",
+        "Citations": 12,
+        "Publications": 0
+      },
+      {
+        "Name": "TandemTools",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "TideHunter",
+        "Citations": 9,
+        "Publications": 1
+      },
+      {
+        "Name": "tigmint",
+        "Citations": 47,
+        "Publications": 1,
+        "PyPI": "tigmint"
+      },
+      {
+        "Name": "TranscriptClean",
+        "Citations": 24,
+        "Publications": 1
+      },
+      {
+        "Name": "Trycycler"
+      },
+      {
+        "Name": "wtdbg2",
+        "Citations": 373,
+        "Publications": 1
+      },
+      {
+        "Name": "Zika bioinformatics pipeline",
+        "Citations": 549,
+        "Publications": 1
+      }
+    ],
+    "Description": "Correcting the errors to improve the genome assembly or reads before assembly. Some tools use a hybrid method of using short reads to achieve long reads with high accuracy"
+  },
+  {
+    "Category": "EvaluatingExisitingMethods",
+    "Tools": [
+      {
+        "Name": "Basecaller_comparisons",
+        "Citations": 781,
+        "Publications": 1
+      },
+      {
+        "Name": "DeepSimulator",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "ELECTOR",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "LRCstats",
+        "Citations": 9,
+        "Publications": 1
+      },
+      {
+        "Name": "LRECE"
+      },
+      {
+        "Name": "nanopore-sv-evaluation",
+        "Citations": 15,
+        "Publications": 1
+      },
+      {
+        "Name": "RNAseqEval",
+        "Citations": 45,
+        "Publications": 1
+      },
+      {
+        "Name": "SquiggleKit",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "taiyaki"
+      },
+      {
+        "Name": "TAMA",
+        "Citations": 12,
+        "Publications": 0
+      }
+    ],
+    "Description": "Benchmarking and evaluating functionality of existing tools and/or generating synthetic long read datasets"
+  },
+  {
+    "Category": "fast5FileProcessing",
+    "Tools": [
+      {
+        "Name": "Bonito"
+      },
+      {
+        "Name": "fast5_fetcher"
+      },
+      {
+        "Name": "longread-UMI-pipeline"
+      },
+      {
+        "Name": "Nanopype"
+      },
+      {
+        "Name": "npReader",
+        "Citations": 23,
+        "Publications": 1
+      },
+      {
+        "Name": "picopore",
+        "Citations": 1,
+        "Publications": 1,
+        "PyPI": "picopore"
+      },
+      {
+        "Name": "poredb"
+      },
+      {
+        "Name": "Porejuicer"
+      },
+      {
+        "Name": "PyPore",
+        "PyPI": "pypore"
+      },
+      {
+        "Name": "Runnie"
+      },
+      {
+        "Name": "SquiggleKit",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "SquiggleNet",
+        "Citations": 3,
+        "Publications": 1
+      }
+    ],
+    "Description": "Extracting fast5 files for reads of interest for downstream processing and reducing the weight on the search time and space"
+  },
+  {
+    "Category": "FusionDetection",
+    "Tools": [
+      {
+        "Name": "AERON",
+        "Citations": 6,
+        "Publications": 0
+      },
+      {
+        "Name": "LongGF",
+        "Citations": 2,
+        "Publications": 1
+      }
+    ],
+    "Description": "Detection of two or more distinct genes being fused into a single gene"
+  },
+  {
+    "Category": "GapFilling",
+    "Tools": [
+      {
+        "Name": "ARCS",
+        "Citations": 90,
+        "Publications": 1
+      },
+      {
+        "Name": "bionano-tools"
+      },
+      {
+        "Name": "BNG-FlagSiteRepair"
+      },
+      {
+        "Name": "Cobbler",
+        "Citations": 20,
+        "Publications": 1
+      },
+      {
+        "Name": "DraftPolisher"
+      },
+      {
+        "Name": "Elloreas",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "GALA",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Gmcloser",
+        "Citations": 30,
+        "Publications": 1
+      },
+      {
+        "Name": "LR_Gapcloser",
+        "Citations": 67,
+        "Publications": 1
+      },
+      {
+        "Name": "PBJelly",
+        "Citations": 694,
+        "Publications": 1
+      },
+      {
+        "Name": "Raven",
+        "Citations": 25,
+        "Publications": 0
+      },
+      {
+        "Name": "TGS-GapCloser",
+        "Citations": 28,
+        "Publications": 1
+      },
+      {
+        "Name": "Vulcan",
+        "Citations": 0,
+        "Publications": 1
+      }
+    ],
+    "Description": "Localised alignment and assembly to improve and existing assembly"
+  },
+  {
+    "Category": "GeneratingConsensusSequence",
+    "Tools": [
+      {
+        "Name": "abPOA",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "ABruijn",
+        "Citations": 133,
+        "Publications": 1
+      },
+      {
+        "Name": "Arrow"
+      },
+      {
+        "Name": "ARTIC"
+      },
+      {
+        "Name": "ASHURE",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "Athlon",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "BlockPolish",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "BugSeq",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "C3S-LAA",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "Canu",
+        "Citations": 3109,
+        "Publications": 1
+      },
+      {
+        "Name": "centroFlye",
+        "Citations": 22,
+        "Publications": 1
+      },
+      {
+        "Name": "Cerulean"
+      },
+      {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
+      {
+        "Name": "DraftPolisher"
+      },
+      {
+        "Name": "FALCON",
+        "Citations": 1041,
+        "Publications": 1
+      },
+      {
+        "Name": "FALCON-sense",
+        "Citations": 1041,
+        "Publications": 1
+      },
+      {
+        "Name": "Fast-SG",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "FLAIR"
+      },
+      {
+        "Name": "HALC",
+        "Citations": 44,
+        "Publications": 1
+      },
+      {
+        "Name": "HGAP",
+        "Citations": 2962,
+        "Publications": 1
+      },
+      {
+        "Name": "Hinge",
+        "Citations": 66,
+        "Publications": 1
+      },
+      {
+        "Name": "isoseq_manuscript_resources",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "IsoSeq3"
+      },
+      {
+        "Name": "Katuali"
+      },
+      {
+        "Name": "LazyB",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "LJA",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "longread-UMI-pipeline"
+      },
+      {
+        "Name": "LongStitch",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "LRSDAY",
+        "Citations": 27,
+        "Publications": 1
+      },
+      {
+        "Name": "MicroPIPE",
+        "Citations": 0,
+        "Publications": 1,
+        "PyPI": "MicroPipe"
+      },
+      {
+        "Name": "MultiNanopolish",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "MultiNanopolish",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "nanoMLST",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "nanopolish",
+        "Citations": 474,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "NPGREAT",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "nPhase",
+        "Citations": 3,
+        "Publications": 1,
+        "PyPI": "nPhase"
+      },
+      {
+        "Name": "Ococo"
+      },
+      {
+        "Name": "ont-assembly-polish"
+      },
+      {
+        "Name": "PacRAT",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "pb-assembly"
+      },
+      {
+        "Name": "pbdagcon",
+        "Citations": 2962,
+        "Publications": 1
+      },
+      {
+        "Name": "pbmm2"
+      },
+      {
+        "Name": "pbssc",
+        "Citations": 17,
+        "Publications": 1
+      },
+      {
+        "Name": "PGAS",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "phasebook",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "pinfish"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "poreCov",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "pychopper"
+      },
+      {
+        "Name": "quickmerge",
+        "Citations": 99,
+        "Publications": 1
+      },
+      {
+        "Name": "Ra",
+        "Citations": 6,
+        "Publications": 0
+      },
+      {
+        "Name": "Rebaler"
+      },
+      {
+        "Name": "sarlacc"
+      },
+      {
+        "Name": "SiCeLoRe",
+        "Citations": 43,
+        "Publications": 1
+      },
+      {
+        "Name": "SMARTdenovo",
+        "Citations": 10,
+        "Publications": 1
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "SneakySnake",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "spectrassembler",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "Strainberry",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "TideHunter",
+        "Citations": 9,
+        "Publications": 1
+      },
+      {
+        "Name": "Trycycler"
+      },
+      {
+        "Name": "TULIP",
+        "Publications": 1
+      },
+      {
+        "Name": "unanimity"
+      }
+    ],
+    "Description": "Generating a consensus sequence from the assembled reads"
+  },
+  {
+    "Category": "IsoformDetection",
+    "Tools": [
+      {
+        "Name": "2passtools",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "bambu",
+        "BioC": "bambu"
+      },
+      {
+        "Name": "BLAT",
+        "Citations": 3048,
+        "Publications": 1
+      },
+      {
+        "Name": "cDNA_Cupcake"
+      },
+      {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
+      {
+        "Name": "deSALT",
+        "Citations": 15,
+        "Publications": 1
+      },
+      {
+        "Name": "Duesselpore",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "FLAIR"
+      },
+      {
+        "Name": "FLAME",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "FLAMES",
+        "Citations": 13,
+        "Publications": 0,
+        "BioC": "FLAMES"
+      },
+      {
+        "Name": "Freddie",
+        "Citations": 0,
+        "Publications": 0,
+        "PyPI": "Freddie"
+      },
+      {
+        "Name": "Gmap",
+        "Citations": 1457,
+        "Publications": 1
+      },
+      {
+        "Name": "I-CONVEX",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "IDP",
+        "Citations": 234,
+        "Publications": 1
+      },
+      {
+        "Name": "IsoCon",
+        "Citations": 33,
+        "Publications": 1,
+        "PyPI": "IsoCon"
+      },
+      {
+        "Name": "IsoSeq3"
+      },
+      {
+        "Name": "IsoTools",
+        "Citations": 0,
+        "Publications": 0,
+        "PyPI": "isotools"
+      },
+      {
+        "Name": "IsoTV",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "last-rna"
+      },
+      {
+        "Name": "LoRTIA"
+      },
+      {
+        "Name": "Mandalorion",
+        "Citations": 223,
+        "Publications": 1
+      },
+      {
+        "Name": "MetaSV",
+        "Citations": 100,
+        "Publications": 1
+      },
+      {
+        "Name": "MUFFIN",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoASPipe",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSplicer",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "pbbioconda"
+      },
+      {
+        "Name": "pinfish"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
+      },
+      {
+        "Name": "PRAPI",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
+        "Name": "QIAGEN Digital Insights Long Read Support (beta) plugin"
+      },
+      {
+        "Name": "Rattle",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "SiCeLoRe",
+        "Citations": 43,
+        "Publications": 1
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI2",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI3",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SquiggleKit",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "SURVIVOR",
+        "Citations": 216,
+        "Publications": 1,
+        "CRAN": "survivoR"
+      },
+      {
+        "Name": "Swan",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "TAMA",
+        "Citations": 12,
+        "Publications": 0
+      },
+      {
+        "Name": "TAPIS",
+        "Citations": 283,
+        "Publications": 1
+      },
+      {
+        "Name": "ToFU",
+        "Citations": 138,
+        "Publications": 1
+      },
+      {
+        "Name": "TranscriptClean",
+        "Citations": 24,
+        "Publications": 1
+      },
+      {
+        "Name": "UNAGI",
+        "Citations": 0,
+        "Publications": 1
+      }
+    ],
+    "Description": "Identification of multiple isoforms encoded by a single gene due to alternative splicing"
+  },
+  {
+    "Category": "LongReadOverlapping",
+    "Tools": [
+      {
+        "Name": "BELLA",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "BLASR"
+      },
+      {
+        "Name": "CARNAC-LR",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
+        "Name": "cuteSV",
+        "Citations": 30,
+        "Publications": 1
+      },
+      {
+        "Name": "cwDTW",
+        "Citations": 9,
+        "Publications": 1
+      },
+      {
+        "Name": "DALIGNER",
+        "Citations": 101,
+        "Publications": 1
+      },
+      {
+        "Name": "Hinge",
+        "Citations": 66,
+        "Publications": 1
+      },
+      {
+        "Name": "MARVEL",
+        "Citations": 282,
+        "Publications": 1
+      },
+      {
+        "Name": "MECAT",
+        "Citations": 184,
+        "Publications": 1
+      },
+      {
+        "Name": "MHAP",
+        "Citations": 660,
+        "Publications": 1
+      },
+      {
+        "Name": "minimap2",
+        "Citations": 3124,
+        "Publications": 1
+      },
+      {
+        "Name": "ont-assembly-polish"
+      },
+      {
+        "Name": "SneakySnake",
+        "Citations": 5,
+        "Publications": 1
+      }
+    ],
+    "Description": "Finds pairs of reads that align to each other"
+  },
+  {
+    "Category": "Metagenomics",
+    "Tools": [
+      {
+        "Name": "ASHURE",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "BugSeq",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "BusyBee",
+        "Citations": 42,
+        "Publications": 1
+      },
+      {
+        "Name": "Centrifuge",
+        "Citations": 583,
+        "Publications": 1
+      },
+      {
+        "Name": "Hifiasm-meta"
+      },
+      {
+        "Name": "Kaiju",
+        "Citations": 695,
+        "Publications": 1
+      },
+      {
+        "Name": "Kraken",
+        "Citations": 2291,
+        "Publications": 1
+      },
+      {
+        "Name": "Krocus",
+        "Citations": 11,
+        "Publications": 1,
+        "PyPI": "krocus"
+      },
+      {
+        "Name": "MARTi"
+      },
+      {
+        "Name": "Mash",
+        "Citations": 1156,
+        "Publications": 1
+      },
+      {
+        "Name": "mdBG",
+        "Citations": 14,
+        "Publications": 1
+      },
+      {
+        "Name": "MeGAMerge",
+        "Citations": 30,
+        "Publications": 1
+      },
+      {
+        "Name": "MEGAN-LR",
+        "Citations": 91,
+        "Publications": 1
+      },
+      {
+        "Name": "Meta-NanoSim",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "MetaMaps"
+      },
+      {
+        "Name": "MetaPORE",
+        "Citations": 324,
+        "Publications": 1
+      },
+      {
+        "Name": "minoTourApp"
+      },
+      {
+        "Name": "MUFFIN",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoAmpli-Seq",
+        "Citations": 54,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoARG",
+        "Citations": 30,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoCLUST",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "nanodisco",
+        "Citations": 5,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoGalaxy",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoMAP",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoRTax",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "One-Codex",
+        "Citations": 65,
+        "Publications": 0
+      },
+      {
+        "Name": "OPERA-MS",
+        "Citations": 95,
+        "Publications": 1
+      },
+      {
+        "Name": "poreFUME"
+      },
+      {
+        "Name": "proovframe",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "Reticulatus"
+      },
+      {
+        "Name": "rkmh"
+      },
+      {
+        "Name": "sketchy"
+      },
+      {
+        "Name": "SneakySnake",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "Strainberry",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "streamformatics"
+      },
+      {
+        "Name": "WIMP",
+        "Citations": 55,
+        "Publications": 0
+      },
+      {
+        "Name": "Zika bioinformatics pipeline",
+        "Citations": 549,
+        "Publications": 1
+      }
+    ],
+    "Description": "Studying genetic material recovered directly from environmental samples"
+  },
+  {
+    "Category": "Normalisation",
+    "Tools": [
+      {
+        "Name": "Duesselpore",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Mandalorion",
+        "Citations": 223,
+        "Publications": 1
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
+      }
+    ],
+    "Description": "Removing unwanted variation that may affect results"
+  },
+  {
+    "Category": "polyALengthEstimation",
+    "Tools": [
+      {
+        "Name": "BoostNano"
+      },
+      {
+        "Name": "nanopolish",
+        "Citations": 474,
+        "Publications": 1
+      },
+      {
+        "Name": "tailfindr",
+        "Citations": 27,
+        "Publications": 1
+      }
+    ],
+    "Description": "Algorithms that can estimate the length of the ployA region from a read"
+  },
+  {
+    "Category": "ProvideSummaryStatistics",
+    "Tools": [
+      {
+        "Name": "Alfred",
+        "Citations": 32,
+        "Publications": 1
+      },
+      {
+        "Name": "Badread",
+        "Citations": 28,
+        "Publications": 1
+      },
+      {
+        "Name": "bionano-tools"
+      },
+      {
+        "Name": "CRuMPIT",
+        "Citations": 70,
+        "Publications": 1
+      },
+      {
+        "Name": "Duesselpore",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "ectools"
+      },
+      {
+        "Name": "ELECTOR",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "FastQC"
+      },
+      {
+        "Name": "lima"
+      },
+      {
+        "Name": "LongQC",
+        "Citations": 19,
+        "Publications": 1
+      },
+      {
+        "Name": "marginAlign",
+        "Citations": 443,
+        "Publications": 1,
+        "PyPI": "marginAlign"
+      },
+      {
+        "Name": "MicroPIPE",
+        "Citations": 0,
+        "Publications": 1,
+        "PyPI": "MicroPipe"
+      },
+      {
+        "Name": "minion_MultiQC"
+      },
+      {
+        "Name": "MinIONQC",
+        "Citations": 64,
+        "Publications": 1
+      },
+      {
+        "Name": "MinKNOW"
+      },
+      {
+        "Name": "minoTour"
+      },
+      {
+        "Name": "NanoASPipe",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoComp",
+        "Citations": 641,
+        "Publications": 1,
+        "PyPI": "NanoComp"
+      },
+      {
+        "Name": "nanoget",
+        "PyPI": "nanoget"
+      },
+      {
+        "Name": "NanoOK",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoPack",
+        "Citations": 641,
+        "Publications": 1,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "nanoQC",
+        "Citations": 641,
+        "Publications": 1,
+        "PyPI": "NanoQC"
+      },
+      {
+        "Name": "NanoR",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoRTax",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSatelliteR",
+        "Citations": 25,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "nanotatoR",
+        "BioC": "nanotatoR"
+      },
+      {
+        "Name": "Ococo"
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
+      },
+      {
+        "Name": "poRe",
+        "Citations": 69,
+        "Publications": 1
+      },
+      {
+        "Name": "poRe GUIs",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "poreduck"
+      },
+      {
+        "Name": "PoreKit"
+      },
+      {
+        "Name": "Poreplex",
+        "PyPI": "poreplex"
+      },
+      {
+        "Name": "pycoQC",
+        "Citations": 42,
+        "Publications": 1,
+        "PyPI": "pycoQC"
+      },
+      {
+        "Name": "pycoSnake",
+        "Publications": 1
+      },
+      {
+        "Name": "R_poRe",
+        "Citations": 69,
+        "Publications": 1
+      },
+      {
+        "Name": "RNAseqEval",
+        "Citations": 45,
+        "Publications": 1
+      },
+      {
+        "Name": "Shiny-apps"
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "Socru",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI2",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI3",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SquiggleKit",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "ToulligQC",
+        "PyPI": "toulligqc"
+      },
+      {
+        "Name": "WhatsHap",
+        "Citations": 41,
+        "Publications": 1,
+        "PyPI": "whatshap"
+      },
+      {
+        "Name": "WIMP",
+        "Citations": 55,
+        "Publications": 0
+      },
+      {
+        "Name": "wub"
+      },
+      {
+        "Name": "Zika bioinformatics pipeline",
+        "Citations": 549,
+        "Publications": 1
+      }
+    ],
+    "Description": "Providing statistics that could be looked at to evaluate the quality of data"
+  },
+  {
+    "Category": "QualityChecking",
+    "Tools": [
+      {
+        "Name": "Alfred",
+        "Citations": 32,
+        "Publications": 1
+      },
+      {
+        "Name": "AlignQC",
+        "Citations": 227,
+        "Publications": 1,
+        "PyPI": "AlignQC"
+      },
+      {
+        "Name": "BamSlam"
+      },
+      {
+        "Name": "BaseModsTools"
+      },
+      {
+        "Name": "BioNano-Access"
+      },
+      {
+        "Name": "bionano-tools"
+      },
+      {
+        "Name": "DASCRUBBER"
+      },
+      {
+        "Name": "Epi2me"
+      },
+      {
+        "Name": "FastQC"
+      },
+      {
+        "Name": "Hapdup",
+        "Citations": 32,
+        "Publications": 1
+      },
+      {
+        "Name": "HPG-Pore",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "ideel"
+      },
+      {
+        "Name": "Inspector",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "IONiseR",
+        "BioC": "IONiseR"
+      },
+      {
+        "Name": "IsoTools",
+        "Citations": 0,
+        "Publications": 0,
+        "PyPI": "isotools"
+      },
+      {
+        "Name": "LongQC",
+        "Citations": 19,
+        "Publications": 1
+      },
+      {
+        "Name": "longread_plots"
+      },
+      {
+        "Name": "LoopViz",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "minion_MultiQC"
+      },
+      {
+        "Name": "MinIONQC",
+        "Citations": 64,
+        "Publications": 1
+      },
+      {
+        "Name": "MiniScrub",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "minoTour"
+      },
+      {
+        "Name": "MUFFIN",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "MultiQC",
+        "Citations": 1854,
+        "Publications": 1,
+        "PyPI": "multiqc"
+      },
+      {
+        "Name": "NanoComp",
+        "Citations": 641,
+        "Publications": 1,
+        "PyPI": "NanoComp"
+      },
+      {
+        "Name": "NanoDJ",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "nanoget",
+        "PyPI": "nanoget"
+      },
+      {
+        "Name": "NanoOK",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoPack",
+        "Citations": 641,
+        "Publications": 1,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "nanoQC",
+        "Citations": 641,
+        "Publications": 1,
+        "PyPI": "NanoQC"
+      },
+      {
+        "Name": "NanoR",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoStat",
+        "PyPI": "NanoStat"
+      },
+      {
+        "Name": "pauvre",
+        "PyPI": "pauvre"
+      },
+      {
+        "Name": "PhaseMe",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "pistis",
+        "PyPI": "pistis"
+      },
+      {
+        "Name": "poRe",
+        "Citations": 69,
+        "Publications": 1
+      },
+      {
+        "Name": "poRe GUIs",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "PoreKit"
+      },
+      {
+        "Name": "poreminion",
+        "Citations": 29,
+        "Publications": 0
+      },
+      {
+        "Name": "PRINCESS",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "PRINSEQ",
+        "Citations": 3027,
+        "Publications": 1
+      },
+      {
+        "Name": "pycoQC",
+        "Citations": 42,
+        "Publications": 1,
+        "PyPI": "pycoQC"
+      },
+      {
+        "Name": "pycoSnake",
+        "Publications": 1
+      },
+      {
+        "Name": "QUAST",
+        "Citations": 3682,
+        "Publications": 1,
+        "PyPI": "quast"
+      },
+      {
+        "Name": "QUAST-LG",
+        "Citations": 298,
+        "Publications": 1
+      },
+      {
+        "Name": "R_poRe",
+        "Citations": 69,
+        "Publications": 1
+      },
+      {
+        "Name": "RabbitQC",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "RichPoreTK"
+      },
+      {
+        "Name": "RNAseqEval",
+        "Citations": 45,
+        "Publications": 1
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI2",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI3",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "TandemTools",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "ToulligQC",
+        "PyPI": "toulligqc"
+      },
+      {
+        "Name": "wub"
+      }
+    ],
+    "Description": "Providing a measure of the quality of the reads"
+  },
+  {
+    "Category": "QualityFiltering",
+    "Tools": [
+      {
+        "Name": "ARTIC"
+      },
+      {
+        "Name": "BioNano-Access"
+      },
+      {
+        "Name": "DNAModAnnot",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "Filtlong"
+      },
+      {
+        "Name": "IsoSeq3"
+      },
+      {
+        "Name": "longread-UMI-pipeline"
+      },
+      {
+        "Name": "MiniScrub",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "MUFFIN",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoFilt",
+        "Citations": 641,
+        "Publications": 1,
+        "PyPI": "NanoFilt"
+      },
+      {
+        "Name": "NanoLyse"
+      },
+      {
+        "Name": "NanoR",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSplit",
+        "PyPI": "NanoSplit"
+      },
+      {
+        "Name": "poreCov",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "PRAPI",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
+        "Name": "pycoSnake",
+        "Publications": 1
+      },
+      {
+        "Name": "sandy"
+      },
+      {
+        "Name": "SQANTI",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI2",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI3",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "Zika bioinformatics pipeline",
+        "Citations": 549,
+        "Publications": 1
+      }
+    ],
+    "Description": "Removing low quality reads based on a specified quality threshold"
+  },
+  {
+    "Category": "QualityTrimming",
+    "Tools": [
+      {
+        "Name": "Albacore"
+      },
+      {
+        "Name": "BioNano-Access"
+      },
+      {
+        "Name": "bionano-tools"
+      },
+      {
+        "Name": "BoostNano"
+      },
+      {
+        "Name": "Canu",
+        "Citations": 3109,
+        "Publications": 1
+      },
+      {
+        "Name": "DASCRUBBER"
+      },
+      {
+        "Name": "lima"
+      },
+      {
+        "Name": "longread-UMI-pipeline"
+      },
+      {
+        "Name": "NanoASPipe",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoDJ",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoFilt",
+        "Citations": 641,
+        "Publications": 1,
+        "PyPI": "NanoFilt"
+      },
+      {
+        "Name": "NanoPack",
+        "Citations": 641,
+        "Publications": 1,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "pbssc",
+        "Citations": 17,
+        "Publications": 1
+      },
+      {
+        "Name": "Porechop"
+      },
+      {
+        "Name": "Poreplex",
+        "PyPI": "poreplex"
+      },
+      {
+        "Name": "PRINSEQ",
+        "Citations": 3027,
+        "Publications": 1
+      },
+      {
+        "Name": "pychopper"
+      },
+      {
+        "Name": "R2C2",
+        "Citations": 106,
+        "Publications": 1
+      },
+      {
+        "Name": "sarlacc"
+      },
+      {
+        "Name": "SQANTI3",
+        "Citations": 118,
+        "Publications": 1
+      }
+    ],
+    "Description": "Removing low-quality reads"
+  },
+  {
+    "Category": "ReadQuantification",
+    "Tools": [
+      {
+        "Name": "AERON",
+        "Citations": 6,
+        "Publications": 0
+      },
+      {
+        "Name": "Alfred",
+        "Citations": 32,
+        "Publications": 1
+      },
+      {
+        "Name": "bambu",
+        "BioC": "bambu"
+      },
+      {
+        "Name": "CARNAC-LR",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
+        "Name": "Duesselpore",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "FLAME",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "I-CONVEX",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "isoseq_manuscript_resources",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "IsoTools",
+        "Citations": 0,
+        "Publications": 0,
+        "PyPI": "isotools"
+      },
+      {
+        "Name": "IsoTV",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "Mandalorion",
+        "Citations": 223,
+        "Publications": 1
+      },
+      {
+        "Name": "MUFFIN",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "Nanopype"
+      },
+      {
+        "Name": "NanoRTax",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
+      },
+      {
+        "Name": "pycoQC",
+        "Citations": 42,
+        "Publications": 1,
+        "PyPI": "pycoQC"
+      },
+      {
+        "Name": "QIAGEN Digital Insights Long Read Support (beta) plugin"
+      },
+      {
+        "Name": "Rattle",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "sarlacc"
+      },
+      {
+        "Name": "TallyNN"
+      },
+      {
+        "Name": "TALON",
+        "Citations": 37,
+        "Publications": 0
+      },
+      {
+        "Name": "TAMA",
+        "Citations": 12,
+        "Publications": 0
+      },
+      {
+        "Name": "UNAGI",
+        "Citations": 0,
+        "Publications": 1
+      }
+    ],
+    "Description": "Quantification of expression from reads"
+  },
+  {
+    "Category": "RNAStructure",
+    "Tools": [
+      {
+        "Name": "m6anet",
+        "PyPI": "m6anet"
+      },
+      {
+        "Name": "nanoDoc",
+        "Citations": 4,
+        "Publications": 0
+      },
+      {
+        "Name": "nanoSHAPE",
+        "Citations": 9,
+        "Publications": 0
+      },
+      {
+        "Name": "PORE-cupine"
+      },
+      {
+        "Name": "xPore",
+        "Citations": 24,
+        "Publications": 1
+      }
+    ],
+    "Description": "Using raw current signal from nanopore sequencing to detect the presence of RNA modifications"
+  },
+  {
+    "Category": "Scaffolding",
+    "Tools": [
+      {
+        "Name": "AlignGraph2",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "Architect",
+        "Citations": 26,
+        "Publications": 1
+      },
+      {
+        "Name": "ARCS",
+        "Citations": 90,
+        "Publications": 1
+      },
+      {
+        "Name": "BioNano-Access"
+      },
+      {
+        "Name": "DAMAPPER"
+      },
+      {
+        "Name": "fragScaff",
+        "Citations": 110,
+        "Publications": 1
+      },
+      {
+        "Name": "ILRA",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Katuali"
+      },
+      {
+        "Name": "LINKS",
+        "Citations": 135,
+        "Publications": 1
+      },
+      {
+        "Name": "LongStitch",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "npScarf",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "OPERA-MS",
+        "Citations": 95,
+        "Publications": 1
+      },
+      {
+        "Name": "Organelle_PBA",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "PGAS",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "Platanus-allee",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "RAILS",
+        "Citations": 20,
+        "Publications": 1
+      },
+      {
+        "Name": "SALSA",
+        "Citations": 96,
+        "Publications": 1
+      },
+      {
+        "Name": "SLR-superscaffolder",
+        "Citations": 4,
+        "Publications": 0
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "Strainberry",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "tigmint",
+        "Citations": 47,
+        "Publications": 1,
+        "PyPI": "tigmint"
+      },
+      {
+        "Name": "Vulcan",
+        "Citations": 0,
+        "Publications": 1
+      }
+    ],
+    "Description": "Link together non-contigous series of genomic sequences that may contain gaps of known length"
+  },
+  {
+    "Category": "Simulators",
+    "Tools": [
+      {
+        "Name": "Badread",
+        "Citations": 28,
+        "Publications": 1
+      },
+      {
+        "Name": "DeepSimulator",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "ectools"
+      },
+      {
+        "Name": "FASTQSim"
+      },
+      {
+        "Name": "lathe"
+      },
+      {
+        "Name": "LongISLND",
+        "Citations": 15,
+        "Publications": 1
+      },
+      {
+        "Name": "loresim"
+      },
+      {
+        "Name": "loresim2"
+      },
+      {
+        "Name": "LRSIM"
+      },
+      {
+        "Name": "Meta-NanoSim",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoDJ",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "nanopore-methylation"
+      },
+      {
+        "Name": "NanoSim",
+        "Citations": 52,
+        "Publications": 1
+      },
+      {
+        "Name": "pblibsim"
+      },
+      {
+        "Name": "PBSIM",
+        "Citations": 198,
+        "Publications": 1
+      },
+      {
+        "Name": "RandomReads"
+      },
+      {
+        "Name": "ReadSim"
+      },
+      {
+        "Name": "SiLiCO",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "SimLoRD",
+        "Citations": 53,
+        "Publications": 1,
+        "PyPI": "simlord"
+      },
+      {
+        "Name": "SNaReSim",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "taeper",
+        "PyPI": "taeper"
+      },
+      {
+        "Name": "Trans-NanoSim",
+        "Citations": 6,
+        "Publications": 1
+      }
+    ],
+    "Description": "Simulating a sequencing process and produce <i>in-silico<\/i> reads"
+  },
+  {
+    "Category": "SNPAndVariantAnalysis",
+    "Tools": [
+      {
+        "Name": "Arrow"
+      },
+      {
+        "Name": "ARTIC"
+      },
+      {
+        "Name": "AsmVar",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "Assemblytics",
+        "Citations": 150,
+        "Publications": 1
+      },
+      {
+        "Name": "BioNano-Access"
+      },
+      {
+        "Name": "bionano-tools"
+      },
+      {
+        "Name": "BugSeq",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Clair",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "Clairvoyante",
+        "Citations": 55,
+        "Publications": 1
+      },
+      {
+        "Name": "cuteSV",
+        "Citations": 30,
+        "Publications": 1
+      },
+      {
+        "Name": "davidcoffey-MinION",
+        "Citations": 181,
+        "Publications": 1
+      },
+      {
+        "Name": "DeBreak",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "DeepVariant",
+        "Citations": 341,
+        "Publications": 1
+      },
+      {
+        "Name": "DuploMap",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "FALCON-Unzip",
+        "Citations": 1041,
+        "Publications": 1
+      },
+      {
+        "Name": "FreeBayes"
+      },
+      {
+        "Name": "Hap10",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "HapCUT2",
+        "Citations": 178,
+        "Publications": 1
+      },
+      {
+        "Name": "HELLO",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "HLA-PRG-LA",
+        "Citations": 65,
+        "Publications": 1
+      },
+      {
+        "Name": "Inspector",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "IPA"
+      },
+      {
+        "Name": "Jasmine",
+        "Citations": 5,
+        "Publications": 0
+      },
+      {
+        "Name": "Krocus",
+        "Citations": 11,
+        "Publications": 1,
+        "PyPI": "krocus"
+      },
+      {
+        "Name": "last-genotype"
+      },
+      {
+        "Name": "LongPhase",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "longread-UMI-pipeline"
+      },
+      {
+        "Name": "Longshot",
+        "Citations": 66,
+        "Publications": 1
+      },
+      {
+        "Name": "loreta"
+      },
+      {
+        "Name": "LoRTE",
+        "Citations": 17,
+        "Publications": 1
+      },
+      {
+        "Name": "LRcaller"
+      },
+      {
+        "Name": "LRSDAY",
+        "Citations": 27,
+        "Publications": 1
+      },
+      {
+        "Name": "marginAlign",
+        "Citations": 443,
+        "Publications": 1,
+        "PyPI": "marginAlign"
+      },
+      {
+        "Name": "marginPhase",
+        "Citations": 5,
+        "Publications": 0
+      },
+      {
+        "Name": "Megalodon"
+      },
+      {
+        "Name": "minorseq"
+      },
+      {
+        "Name": "minoTour"
+      },
+      {
+        "Name": "MultiNanopolish",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "MultiNanopolish",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "Mykrobe_tb_workflow"
+      },
+      {
+        "Name": "nanoMLST",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanopanel2",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "nanopolish",
+        "Citations": 474,
+        "Publications": 1
+      },
+      {
+        "Name": "nanopore-sv-evaluation",
+        "Citations": 15,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanopype"
+      },
+      {
+        "Name": "NanoRTax",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSatellite",
+        "Citations": 25,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSV",
+        "Citations": 181,
+        "Publications": 1,
+        "PyPI": "NanoSV"
+      },
+      {
+        "Name": "nanotatoR",
+        "BioC": "nanotatoR"
+      },
+      {
+        "Name": "NanoVar",
+        "Citations": 17,
+        "Publications": 1,
+        "PyPI": "nanovar"
+      },
+      {
+        "Name": "ncov-tools"
+      },
+      {
+        "Name": "NGMLR",
+        "Citations": 604,
+        "Publications": 1
+      },
+      {
+        "Name": "Noise-Cancelling Repeat Finder",
+        "Citations": 19,
+        "Publications": 1
+      },
+      {
+        "Name": "nPhase",
+        "Citations": 3,
+        "Publications": 1,
+        "PyPI": "nPhase"
+      },
+      {
+        "Name": "npInv"
+      },
+      {
+        "Name": "Ococo"
+      },
+      {
+        "Name": "PacmonSTR",
+        "Citations": 47,
+        "Publications": 1
+      },
+      {
+        "Name": "PacRAT",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "PALMER",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "pandora"
+      },
+      {
+        "Name": "pbbioconda"
+      },
+      {
+        "Name": "PBHoney",
+        "Citations": 107,
+        "Publications": 1
+      },
+      {
+        "Name": "pbsv"
+      },
+      {
+        "Name": "Pbsv_polish"
+      },
+      {
+        "Name": "PEPPER"
+      },
+      {
+        "Name": "PEPPER-Margin-DeepVariant",
+        "Citations": 32,
+        "Publications": 1
+      },
+      {
+        "Name": "PGAS",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "phasebook",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "Picky",
+        "Citations": 47,
+        "Publications": 1
+      },
+      {
+        "Name": "Pilon",
+        "Citations": 3667,
+        "Publications": 1
+      },
+      {
+        "Name": "Platanus-allee",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "poreCov",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "PRINCESS",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "pycoSnake",
+        "Publications": 1
+      },
+      {
+        "Name": "RagTag",
+        "Citations": 188,
+        "Publications": 1,
+        "PyPI": "RagTag"
+      },
+      {
+        "Name": "Ratatosk",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "rMETL",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "SDA",
+        "Citations": 87,
+        "Publications": 1
+      },
+      {
+        "Name": "SDip",
+        "Citations": 6,
+        "Publications": 0
+      },
+      {
+        "Name": "shishir-reddy_nanopore-pipeline"
+      },
+      {
+        "Name": "SiCeLoRe",
+        "Citations": 43,
+        "Publications": 1
+      },
+      {
+        "Name": "smartie-sv",
+        "Citations": 181,
+        "Publications": 1
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "SMRT-SV",
+        "Citations": 548,
+        "Publications": 1
+      },
+      {
+        "Name": "SneakySnake",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "Sniffles",
+        "Citations": 604,
+        "Publications": 1,
+        "PyPI": "sniffles"
+      },
+      {
+        "Name": "SNVoter",
+        "PyPI": "snvoter"
+      },
+      {
+        "Name": "Socru",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "SquiggleKit",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "Straglr",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "Strainberry",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "STRique",
+        "Citations": 60,
+        "Publications": 1
+      },
+      {
+        "Name": "super-minityper"
+      },
+      {
+        "Name": "SVCollector",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "SVIM",
+        "Citations": 68,
+        "Publications": 1,
+        "PyPI": "svim"
+      },
+      {
+        "Name": "SVJedi",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "SVNN",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "SyRI",
+        "Citations": 48,
+        "Publications": 1
+      },
+      {
+        "Name": "TAMA",
+        "Citations": 12,
+        "Publications": 0
+      },
+      {
+        "Name": "tandem-genotypes",
+        "Citations": 50,
+        "Publications": 1
+      },
+      {
+        "Name": "TELR"
+      },
+      {
+        "Name": "TLDR",
+        "Citations": 36,
+        "Publications": 1
+      },
+      {
+        "Name": "TRiCoLOR",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "TSD",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "Vanir",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "VG",
+        "Citations": 239,
+        "Publications": 1
+      },
+      {
+        "Name": "VISOR",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "Vulcan",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "WhatsHap",
+        "Citations": 41,
+        "Publications": 1,
+        "PyPI": "whatshap"
+      },
+      {
+        "Name": "Zika bioinformatics pipeline",
+        "Citations": 549,
+        "Publications": 1
+      }
+    ],
+    "Description": "Detection or use of variants"
+  },
+  {
+    "Category": "SuitableForSingleCellExperiments",
+    "Tools": [
+      {
+        "Name": "Apollo",
+        "Citations": 10,
+        "Publications": 1
+      },
+      {
+        "Name": "cDNA_Cupcake"
+      },
+      {
+        "Name": "JAFFAL",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "Mandalorion",
+        "Citations": 223,
+        "Publications": 1
+      },
+      {
+        "Name": "sarlacc"
+      },
+      {
+        "Name": "SiCeLoRe",
+        "Citations": 43,
+        "Publications": 1
+      },
+      {
+        "Name": "SPAdes",
+        "Citations": 12705,
+        "Publications": 1
+      },
+      {
+        "Name": "TallyNN"
+      }
+    ],
+    "Description": "Algorithms that can be used for analysing/processing single-cell data generated by long read sequencing platforms"
+  },
+  {
+    "Category": "TaxonomicClassification",
+    "Tools": [
+      {
+        "Name": "BASTA",
+        "Citations": 30,
+        "Publications": 1
+      },
+      {
+        "Name": "BugSeq",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "BusyBee",
+        "Citations": 42,
+        "Publications": 1
+      },
+      {
+        "Name": "Centrifuge",
+        "Citations": 583,
+        "Publications": 1
+      },
+      {
+        "Name": "Kaiju",
+        "Citations": 695,
+        "Publications": 1
+      },
+      {
+        "Name": "Kraken",
+        "Citations": 2291,
+        "Publications": 1
+      },
+      {
+        "Name": "MEGAN-LR",
+        "Citations": 91,
+        "Publications": 1
+      },
+      {
+        "Name": "MetaMaps"
+      },
+      {
+        "Name": "MetaPORE",
+        "Citations": 324,
+        "Publications": 1
+      },
+      {
+        "Name": "MUFFIN",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoAmpli-Seq",
+        "Citations": 54,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoRTax",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "One-Codex",
+        "Citations": 65,
+        "Publications": 0
+      },
+      {
+        "Name": "Organelle_PBA",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "poreFUME"
+      },
+      {
+        "Name": "rkmh"
+      },
+      {
+        "Name": "Strainberry",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "streamformatics"
+      },
+      {
+        "Name": "WIMP",
+        "Citations": 55,
+        "Publications": 0
+      }
+    ],
+    "Description": "Algorithms that can be used to classify long read sequences based on taxonomy"
+  },
+  {
+    "Category": "TestedOnHumanData",
+    "Tools": [
+      {
+        "Name": "Albacore"
+      },
+      {
+        "Name": "Apollo",
+        "Citations": 10,
+        "Publications": 1
+      },
+      {
+        "Name": "ASHURE",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "Athlon",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "BlockPolish",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "BugSeq",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "CATCaller",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "Causalcall",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "centroFlye",
+        "Citations": 22,
+        "Publications": 1
+      },
+      {
+        "Name": "Circlator",
+        "Citations": 494,
+        "Publications": 1,
+        "PyPI": "circlator"
+      },
+      {
+        "Name": "Clair",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "Clairvoyante",
+        "Citations": 55,
+        "Publications": 1
+      },
+      {
+        "Name": "CONSENT",
+        "Citations": 14,
+        "Publications": 1
+      },
+      {
+        "Name": "cuteSV",
+        "Citations": 30,
+        "Publications": 1
+      },
+      {
+        "Name": "DBG2OLC",
+        "Citations": 174,
+        "Publications": 1
+      },
+      {
+        "Name": "DeepMP",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "DeepSignal-plant",
+        "Citations": 8,
+        "Publications": 1,
+        "PyPI": "deepsignal-plant"
+      },
+      {
+        "Name": "DeepVariant",
+        "Citations": 341,
+        "Publications": 1
+      },
+      {
+        "Name": "differr",
+        "Citations": 128,
+        "Publications": 1
+      },
+      {
+        "Name": "DRUMMER",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "Duesselpore",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "DuploMap",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "Elloreas",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "Fast-SG",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "FLAIR"
+      },
+      {
+        "Name": "GALA",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Guppy"
+      },
+      {
+        "Name": "HapCUT2",
+        "Citations": 178,
+        "Publications": 1
+      },
+      {
+        "Name": "HELLO",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "Hifiasm-meta"
+      },
+      {
+        "Name": "HLA-PRG-LA",
+        "Citations": 65,
+        "Publications": 1
+      },
+      {
+        "Name": "Homopolish",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "I-CONVEX",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "IDP",
+        "Citations": 234,
+        "Publications": 1
+      },
+      {
+        "Name": "Inspector",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "IsoCon",
+        "Citations": 33,
+        "Publications": 1,
+        "PyPI": "IsoCon"
+      },
+      {
+        "Name": "LJA",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "LongPhase",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "LongStitch",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "LRcaller"
+      },
+      {
+        "Name": "Mandalorion",
+        "Citations": 223,
+        "Publications": 1
+      },
+      {
+        "Name": "marginPhase",
+        "Citations": 5,
+        "Publications": 0
+      },
+      {
+        "Name": "MashMap",
+        "Citations": 24,
+        "Publications": 1
+      },
+      {
+        "Name": "MBG",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "mdBG",
+        "Citations": 14,
+        "Publications": 1
+      },
+      {
+        "Name": "METEORE",
+        "Citations": 28,
+        "Publications": 1
+      },
+      {
+        "Name": "methBERT",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "MicroPIPE",
+        "Citations": 0,
+        "Publications": 1,
+        "PyPI": "MicroPipe"
+      },
+      {
+        "Name": "mosaicFlye",
+        "Citations": 4,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoASPipe",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanocall",
+        "Citations": 67,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoMAP",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "Nanopanel2",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSatellite",
+        "Citations": 25,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoVar",
+        "Citations": 17,
+        "Publications": 1,
+        "PyPI": "nanovar"
+      },
+      {
+        "Name": "NeuralPolish",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "NextPolish",
+        "Citations": 105,
+        "Publications": 1
+      },
+      {
+        "Name": "NGMLR",
+        "Citations": 604,
+        "Publications": 1
+      },
+      {
+        "Name": "NPGREAT",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "ONTrack",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "PacRAT",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "PEPPER-Margin-DeepVariant",
+        "Citations": 32,
+        "Publications": 1
+      },
+      {
+        "Name": "Peregrine",
+        "Citations": 39,
+        "Publications": 0
+      },
+      {
+        "Name": "PGAS",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "phasebook",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "Picky",
+        "Citations": 47,
+        "Publications": 1
+      },
+      {
+        "Name": "polya_analysis",
+        "Citations": 191,
+        "Publications": 1
+      },
+      {
+        "Name": "PRINCESS",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "Racon",
+        "Citations": 1006,
+        "Publications": 1
+      },
+      {
+        "Name": "Ratatosk",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "Rattle",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "SACall",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "SDip",
+        "Citations": 6,
+        "Publications": 0
+      },
+      {
+        "Name": "SLR-superscaffolder",
+        "Citations": 4,
+        "Publications": 0
+      },
+      {
+        "Name": "SneakySnake",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "SNVoter",
+        "PyPI": "snvoter"
+      },
+      {
+        "Name": "SquiggleNet",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "Straglr",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "SVCollector",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "SVNN",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "TALON",
+        "Citations": 37,
+        "Publications": 0
+      },
+      {
+        "Name": "TAMA",
+        "Citations": 12,
+        "Publications": 0
+      },
+      {
+        "Name": "tandem-genotypes",
+        "Citations": 50,
+        "Publications": 1
+      },
+      {
+        "Name": "tigmint",
+        "Citations": 47,
+        "Publications": 1,
+        "PyPI": "tigmint"
+      },
+      {
+        "Name": "TLDR",
+        "Citations": 36,
+        "Publications": 1
+      },
+      {
+        "Name": "Trycycler"
+      },
+      {
+        "Name": "Unicycler",
+        "Citations": 2343,
+        "Publications": 1
+      },
+      {
+        "Name": "V-MAP",
+        "Publications": 1
+      },
+      {
+        "Name": "VG",
+        "Citations": 239,
+        "Publications": 1
+      },
+      {
+        "Name": "Vulcan",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "WhatsHap",
+        "Citations": 41,
+        "Publications": 1,
+        "PyPI": "whatshap"
+      },
+      {
+        "Name": "xPore",
+        "Citations": 24,
+        "Publications": 1
+      }
+    ],
+    "Description": "Evidence in publications to have been successfully employed to analyse human data"
+  },
+  {
+    "Category": "TestedOnNonHumanData",
+    "Tools": [
+      {
+        "Name": "ABruijn",
+        "Citations": 133,
+        "Publications": 1
+      },
+      {
+        "Name": "Albacore"
+      },
+      {
+        "Name": "Apollo",
+        "Citations": 10,
+        "Publications": 1
+      },
+      {
+        "Name": "basemods"
+      },
+      {
+        "Name": "BELLA",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "BlockPolish",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "BugSeq",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "BusyBee",
+        "Citations": 42,
+        "Publications": 1
+      },
+      {
+        "Name": "CarrierSeq",
+        "Citations": 10,
+        "Publications": 1
+      },
+      {
+        "Name": "Causalcall",
+        "Citations": 16,
+        "Publications": 1
+      },
+      {
+        "Name": "Centrifuge",
+        "Citations": 583,
+        "Publications": 1
+      },
+      {
+        "Name": "Cerulean"
+      },
+      {
+        "Name": "Circlator",
+        "Citations": 494,
+        "Publications": 1,
+        "PyPI": "circlator"
+      },
+      {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
+      {
+        "Name": "CRuMPIT",
+        "Citations": 70,
+        "Publications": 1
+      },
+      {
+        "Name": "DBG2OLC",
+        "Citations": 174,
+        "Publications": 1
+      },
+      {
+        "Name": "DeepMP",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "Deepore"
+      },
+      {
+        "Name": "DeepSignal",
+        "Citations": 90,
+        "Publications": 1,
+        "PyPI": "deepsignal"
+      },
+      {
+        "Name": "DRUMMER",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "Dyss",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "Elloreas",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "FLAIR"
+      },
+      {
+        "Name": "GALA",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "GOTHiC",
+        "Citations": 41,
+        "Publications": 1,
+        "BioC": "GOTHiC"
+      },
+      {
+        "Name": "Guppy"
+      },
+      {
+        "Name": "HALC",
+        "Citations": 44,
+        "Publications": 1
+      },
+      {
+        "Name": "haplotyped-methylome",
+        "Citations": 54,
+        "Publications": 1
+      },
+      {
+        "Name": "HECIL",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "ILRA",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "Inspector",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "Kaiju",
+        "Citations": 695,
+        "Publications": 1
+      },
+      {
+        "Name": "Kraken",
+        "Citations": 2291,
+        "Publications": 1
+      },
+      {
+        "Name": "Krocus",
+        "Citations": 11,
+        "Publications": 1,
+        "PyPI": "krocus"
+      },
+      {
+        "Name": "LazyB",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "LeafGo",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "LINKS",
+        "Citations": 135,
+        "Publications": 1
+      },
+      {
+        "Name": "LJA",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "LoReAn",
+        "Citations": 26,
+        "Publications": 1
+      },
+      {
+        "Name": "loreta"
+      },
+      {
+        "Name": "LRSDAY",
+        "Citations": 27,
+        "Publications": 1
+      },
+      {
+        "Name": "Mash",
+        "Citations": 1156,
+        "Publications": 1
+      },
+      {
+        "Name": "MashMap",
+        "Citations": 24,
+        "Publications": 1
+      },
+      {
+        "Name": "MBG",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "mCaller",
+        "Citations": 78,
+        "Publications": 1
+      },
+      {
+        "Name": "mdBG",
+        "Citations": 14,
+        "Publications": 1
+      },
+      {
+        "Name": "MEGAN-LR",
+        "Citations": 91,
+        "Publications": 1
+      },
+      {
+        "Name": "MeMoRe"
+      },
+      {
+        "Name": "methBERT",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "miniasm",
+        "Citations": 718,
+        "Publications": 1
+      },
+      {
+        "Name": "mosaicFlye",
+        "Citations": 4,
+        "Publications": 0
+      },
+      {
+        "Name": "MotifFinder"
+      },
+      {
+        "Name": "MotifMaker"
+      },
+      {
+        "Name": "Mykrobe_tb_workflow"
+      },
+      {
+        "Name": "NanoAmpli-Seq",
+        "Citations": 54,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoASPipe",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoBLASTer",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanocall",
+        "Citations": 67,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoCLUST",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "nanodisco",
+        "Citations": 5,
+        "Publications": 0
+      },
+      {
+        "Name": "nanomod"
+      },
+      {
+        "Name": "NanoMod",
+        "Citations": 27,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoRTax",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "nanotest"
+      },
+      {
+        "Name": "NaS",
+        "Citations": 140,
+        "Publications": 1
+      },
+      {
+        "Name": "NeuralPolish",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "NextPolish",
+        "Citations": 105,
+        "Publications": 1
+      },
+      {
+        "Name": "npAnalysis",
+        "Citations": 59,
+        "Publications": 1
+      },
+      {
+        "Name": "nPhase",
+        "Citations": 3,
+        "Publications": 1,
+        "PyPI": "nPhase"
+      },
+      {
+        "Name": "npScarf",
+        "Citations": 71,
+        "Publications": 1
+      },
+      {
+        "Name": "One-Codex",
+        "Citations": 65,
+        "Publications": 0
+      },
+      {
+        "Name": "ont-assembly-polish"
+      },
+      {
+        "Name": "Organelle_PBA",
+        "Citations": 41,
+        "Publications": 1
+      },
+      {
+        "Name": "PacRAT",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "pistis",
+        "PyPI": "pistis"
+      },
+      {
+        "Name": "Polypolish",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "proovframe",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "quickmerge",
+        "Citations": 99,
+        "Publications": 1
+      },
+      {
+        "Name": "Racon",
+        "Citations": 1006,
+        "Publications": 1
+      },
+      {
+        "Name": "Rattle",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "Reticulatus"
+      },
+      {
+        "Name": "Sigmap",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "SMALR",
+        "Citations": 66,
+        "Publications": 1
+      },
+      {
+        "Name": "SneakySnake",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "Socru",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "spectrassembler",
+        "Citations": 4,
+        "Publications": 1
+      },
+      {
+        "Name": "SquiggleNet",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "Strainberry",
+        "Citations": 3,
+        "Publications": 0
+      },
+      {
+        "Name": "SVCollector",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "TALON",
+        "Citations": 37,
+        "Publications": 0
+      },
+      {
+        "Name": "TAMA",
+        "Citations": 12,
+        "Publications": 0
+      },
+      {
+        "Name": "tandem-genotypes",
+        "Citations": 50,
+        "Publications": 1
+      },
+      {
+        "Name": "Tiptoft",
+        "Citations": 0,
+        "Publications": 1,
+        "PyPI": "tiptoft"
+      },
+      {
+        "Name": "TSD",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "UNAGI",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "Unicycler",
+        "Citations": 2343,
+        "Publications": 1
+      },
+      {
+        "Name": "Vulcan",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "WhatsHap",
+        "Citations": 41,
+        "Publications": 1,
+        "PyPI": "whatshap"
+      },
+      {
+        "Name": "WIMP",
+        "Citations": 55,
+        "Publications": 0
+      }
+    ],
+    "Description": "Evidence in publications to have been successfully employed to analyse non-human data"
+  },
+  {
+    "Category": "Transcriptomics",
+    "Tools": [
+      {
+        "Name": "2passtools",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "Acorde",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "AERON",
+        "Citations": 6,
+        "Publications": 0
+      },
+      {
+        "Name": "Alfred",
+        "Citations": 32,
+        "Publications": 1
+      },
+      {
+        "Name": "bambu",
+        "BioC": "bambu"
+      },
+      {
+        "Name": "BLAT",
+        "Citations": 3048,
+        "Publications": 1
+      },
+      {
+        "Name": "cDNA_Cupcake"
+      },
+      {
+        "Name": "Cogent",
+        "PyPI": "cogent"
+      },
+      {
+        "Name": "deSALT",
+        "Citations": 15,
+        "Publications": 1
+      },
+      {
+        "Name": "differr",
+        "Citations": 128,
+        "Publications": 1
+      },
+      {
+        "Name": "DRUMMER",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "Duesselpore",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "FLAIR"
+      },
+      {
+        "Name": "FLAME",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "FLAMES",
+        "Citations": 13,
+        "Publications": 0,
+        "BioC": "FLAMES"
+      },
+      {
+        "Name": "Freddie",
+        "Citations": 0,
+        "Publications": 0,
+        "PyPI": "Freddie"
+      },
+      {
+        "Name": "Gmap",
+        "Citations": 1457,
+        "Publications": 1
+      },
+      {
+        "Name": "GOTHiC",
+        "Citations": 41,
+        "Publications": 1,
+        "BioC": "GOTHiC"
+      },
+      {
+        "Name": "HBA-DEALS",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "I-CONVEX",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "IDP",
+        "Citations": 234,
+        "Publications": 1
+      },
+      {
+        "Name": "isoCirc",
+        "Citations": 27,
+        "Publications": 1,
+        "PyPI": "isocirc"
+      },
+      {
+        "Name": "IsoCon",
+        "Citations": 33,
+        "Publications": 1,
+        "PyPI": "IsoCon"
+      },
+      {
+        "Name": "isONclust",
+        "Citations": 18,
+        "Publications": 1,
+        "PyPI": "isONclust"
+      },
+      {
+        "Name": "isONcorrect",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "isoseq_manuscript_resources",
+        "Citations": 7,
+        "Publications": 1
+      },
+      {
+        "Name": "IsoSeq3"
+      },
+      {
+        "Name": "IsoSplitter",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "IsoTools",
+        "Citations": 0,
+        "Publications": 0,
+        "PyPI": "isotools"
+      },
+      {
+        "Name": "IsoTV",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "JAFFAL",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "last-rna"
+      },
+      {
+        "Name": "LIQA",
+        "Citations": 10,
+        "Publications": 1,
+        "PyPI": "liqa"
+      },
+      {
+        "Name": "LongGF",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "LORALS",
+        "Citations": 8,
+        "Publications": 0
+      },
+      {
+        "Name": "LoReAn",
+        "Citations": 26,
+        "Publications": 1
+      },
+      {
+        "Name": "LoRTIA"
+      },
+      {
+        "Name": "lr2rmats"
+      },
+      {
+        "Name": "Mandalorion",
+        "Citations": 223,
+        "Publications": 1
+      },
+      {
+        "Name": "MetaSV",
+        "Citations": 100,
+        "Publications": 1
+      },
+      {
+        "Name": "MINES",
+        "Citations": 73,
+        "Publications": 1
+      },
+      {
+        "Name": "MUFFIN",
+        "Citations": 1,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoASPipe",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanocompore",
+        "Citations": 36,
+        "Publications": 0,
+        "PyPI": "nanocompore"
+      },
+      {
+        "Name": "NanoCount",
+        "Publications": 1,
+        "PyPI": "NanoCount"
+      },
+      {
+        "Name": "nanopolish",
+        "Citations": 474,
+        "Publications": 1
+      },
+      {
+        "Name": "Nanopype"
+      },
+      {
+        "Name": "NanoRMS",
+        "Citations": 6,
+        "Publications": 0
+      },
+      {
+        "Name": "NanoSplicer",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "pbbioconda"
+      },
+      {
+        "Name": "pinfish"
+      },
+      {
+        "Name": "pipeline-nanopore-denovo-isoforms"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "pipeline-transcriptome-de"
+      },
+      {
+        "Name": "polya_analysis",
+        "Citations": 191,
+        "Publications": 1
+      },
+      {
+        "Name": "PRAPI",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
+        "Name": "QAlign",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "QIAGEN Digital Insights Long Read Support (beta) plugin"
+      },
+      {
+        "Name": "Rattle",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "sarlacc"
+      },
+      {
+        "Name": "ScNapBar",
+        "Citations": 2,
+        "Publications": 0
+      },
+      {
+        "Name": "SiCeLoRe",
+        "Citations": 43,
+        "Publications": 1
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI2",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SQANTI3",
+        "Citations": 118,
+        "Publications": 1
+      },
+      {
+        "Name": "SquiggleKit",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "StringTie2",
+        "Citations": 248,
+        "Publications": 1
+      },
+      {
+        "Name": "SURVIVOR",
+        "Citations": 216,
+        "Publications": 1,
+        "CRAN": "survivoR"
+      },
+      {
+        "Name": "Swan",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "tailfindr",
+        "Citations": 27,
+        "Publications": 1
+      },
+      {
+        "Name": "TallyNN"
+      },
+      {
+        "Name": "TALON",
+        "Citations": 37,
+        "Publications": 0
+      },
+      {
+        "Name": "TAMA",
+        "Citations": 12,
+        "Publications": 0
+      },
+      {
+        "Name": "TAPIS",
+        "Citations": 283,
+        "Publications": 1
+      },
+      {
+        "Name": "tappAS",
+        "Citations": 14,
+        "Publications": 1
+      },
+      {
+        "Name": "ToFU",
+        "Citations": 138,
+        "Publications": 1
+      },
+      {
+        "Name": "Trans-NanoSim",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "TranscriptClean",
+        "Citations": 24,
+        "Publications": 1
+      },
+      {
+        "Name": "Traphlor",
+        "Citations": 5,
+        "Publications": 1
+      },
+      {
+        "Name": "UNAGI",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "VG",
+        "Citations": 239,
+        "Publications": 1
+      },
+      {
+        "Name": "Yanocomp",
+        "Citations": 3,
+        "Publications": 0
+      }
+    ],
+    "Description": "Tools that enable isoform identification, quantification and differntial expression studies"
+  },
+  {
+    "Category": "Visualisation",
+    "Tools": [
+      {
+        "Name": "ABruijn",
+        "Citations": 133,
+        "Publications": 1
+      },
+      {
+        "Name": "BamSlam"
+      },
+      {
+        "Name": "Betaduck"
+      },
+      {
+        "Name": "BioNano-Access"
+      },
+      {
+        "Name": "BoardION",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "BulkVis",
+        "Citations": 100,
+        "Publications": 1
+      },
+      {
+        "Name": "BusyBee",
+        "Citations": 42,
+        "Publications": 1
+      },
+      {
+        "Name": "Clair",
+        "Citations": 40,
+        "Publications": 1
+      },
+      {
+        "Name": "Clairvoyante",
+        "Citations": 55,
+        "Publications": 1
+      },
+      {
+        "Name": "D-GENIES",
+        "Citations": 178,
+        "Publications": 1
+      },
+      {
+        "Name": "DENA",
+        "Publications": 1
+      },
+      {
+        "Name": "dscam_nanopore"
+      },
+      {
+        "Name": "Duesselpore",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "haplotyped-methylome",
+        "Citations": 54,
+        "Publications": 1
+      },
+      {
+        "Name": "ideel"
+      },
+      {
+        "Name": "IsoTools",
+        "Citations": 0,
+        "Publications": 0,
+        "PyPI": "isotools"
+      },
+      {
+        "Name": "Japsa"
+      },
+      {
+        "Name": "LongQC",
+        "Citations": 19,
+        "Publications": 1
+      },
+      {
+        "Name": "LoopViz",
+        "Citations": 0,
+        "Publications": 0
+      },
+      {
+        "Name": "MashMap",
+        "Citations": 24,
+        "Publications": 1
+      },
+      {
+        "Name": "MetaPORE",
+        "Citations": 324,
+        "Publications": 1
+      },
+      {
+        "Name": "methplotlib",
+        "Citations": 16,
+        "Publications": 1,
+        "PyPI": "methplotlib"
+      },
+      {
+        "Name": "methylartist",
+        "Citations": 1,
+        "Publications": 0,
+        "PyPI": "methylartist"
+      },
+      {
+        "Name": "Minidot",
+        "Citations": 718,
+        "Publications": 1
+      },
+      {
+        "Name": "minion_MultiQC"
+      },
+      {
+        "Name": "MinIONQC",
+        "Citations": 64,
+        "Publications": 1
+      },
+      {
+        "Name": "MinKNOW"
+      },
+      {
+        "Name": "minoTour"
+      },
+      {
+        "Name": "NanoDJ",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoMethViz",
+        "Citations": 2,
+        "Publications": 0,
+        "BioC": "NanoMethViz"
+      },
+      {
+        "Name": "NanoOK RT",
+        "Citations": 96,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoPack",
+        "Citations": 641,
+        "Publications": 1,
+        "PyPI": "nanopack"
+      },
+      {
+        "Name": "NanoPlot",
+        "Citations": 641,
+        "Publications": 1,
+        "PyPI": "NanoPlot"
+      },
+      {
+        "Name": "nanoplotter",
+        "Citations": 5,
+        "Publications": 1,
+        "PyPI": "nanoplotter"
+      },
+      {
+        "Name": "Nanopore_methylation_utilities"
+      },
+      {
+        "Name": "NanoRTax",
+        "Citations": 0,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSatelliteR",
+        "Citations": 25,
+        "Publications": 1
+      },
+      {
+        "Name": "NanoSPC",
+        "Citations": 6,
+        "Publications": 1
+      },
+      {
+        "Name": "ncov-tools"
+      },
+      {
+        "Name": "pauvre",
+        "PyPI": "pauvre"
+      },
+      {
+        "Name": "pinfish"
+      },
+      {
+        "Name": "pipeline-pinfish-analysis"
+      },
+      {
+        "Name": "plotnanopolish"
+      },
+      {
+        "Name": "PoreKit"
+      },
+      {
+        "Name": "poremap"
+      },
+      {
+        "Name": "POREquality"
+      },
+      {
+        "Name": "PRAPI",
+        "Citations": 18,
+        "Publications": 1
+      },
+      {
+        "Name": "PRINCESS",
+        "Citations": 1,
+        "Publications": 1
+      },
+      {
+        "Name": "pycoMeth",
+        "Publications": 1
+      },
+      {
+        "Name": "pycoQC",
+        "Citations": 42,
+        "Publications": 1,
+        "PyPI": "pycoQC"
+      },
+      {
+        "Name": "R_poRe",
+        "Citations": 69,
+        "Publications": 1
+      },
+      {
+        "Name": "Ribbon",
+        "Citations": 12,
+        "Publications": 1
+      },
+      {
+        "Name": "Shiny-apps"
+      },
+      {
+        "Name": "SMRT-Link",
+        "Citations": 226,
+        "Publications": 1
+      },
+      {
+        "Name": "SquiggleKit",
+        "Citations": 3,
+        "Publications": 1
+      },
+      {
+        "Name": "streamformatics"
+      },
+      {
+        "Name": "Swan",
+        "Citations": 2,
+        "Publications": 1
+      },
+      {
+        "Name": "TSD",
+        "Citations": 8,
+        "Publications": 1
+      },
+      {
+        "Name": "WhatsHap",
+        "Citations": 41,
+        "Publications": 1,
+        "PyPI": "whatshap"
+      },
+      {
+        "Name": "WIMP",
+        "Citations": 55,
+        "Publications": 0
+      },
+      {
+        "Name": "wub"
+      },
+      {
+        "Name": "Zika bioinformatics pipeline",
+        "Citations": 549,
+        "Publications": 1
+      }
+    ],
+    "Description": "Functions for visualising some aspect of long read data or analysis"
+  }
+]
