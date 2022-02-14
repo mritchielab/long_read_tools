@@ -3478,13 +3478,13 @@
           "DOI": "10.1101/gr.210641.116",
           "PubDate": "2016-10-18",
           "Preprint": false,
-          "Citations": [583],
+          "Citations": [584],
           "Recent_citations": 71
         }
       ],
       "Preprints": []
     },
-    "Citations": 583,
+    "Citations": 584,
     "Recent_citations": [71],
     "Publications": 1,
     "Preprints": 0,
@@ -3943,13 +3943,11 @@
           "Title": "A multi-task convolutional deep neural network for variant calling in single molecule sequencing",
           "DOI": "10.1038/s41467-019-09025-z",
           "PubDate": "2019-03-01",
-          "Preprint": false,
-          "Citations": [55]
+          "Preprint": false
         }
       ],
       "Preprints": []
     },
-    "Citations": 55,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -8324,7 +8322,6 @@
   {
     "Name": "flopp",
     "DOIs": "10.1089/cmb.2021.0436",
-    "Platform": "Rust, Python",
     "Description": "Long-Read Polyploid Haplotype Phasing by Uniform Tree Partitioning",
     "Code": "https://github.com/bluenote-1577/flopp",
     "OxfordNanopore": true,
@@ -8465,15 +8462,22 @@
           "PubDate": ["2019-04-01"],
           "Preprint": false,
           "Citations": [883]
+        },
+        {
+          "Title": "Assembly of long, error-prone reads using repeat graphs",
+          "DOI": "10.1038/s41587-019-0072-8",
+          "PubDate": ["2019-04-01"],
+          "Preprint": false,
+          "Citations": [883]
         }
       ],
       "Preprints": []
     },
-    "Citations": 3532,
-    "Recent_citations": ["NA", "NA", "NA", "NA"],
-    "Publications": 4,
+    "Citations": 4415,
+    "Recent_citations": ["NA", "NA", "NA", "NA", "NA"],
+    "Publications": 5,
     "Preprints": 0,
-    "PubDates": ["2019-04-01", "2019-04-01", "2019-04-01", "2019-04-01"],
+    "PubDates": ["2019-04-01", "2019-04-01", "2019-04-01", "2019-04-01", "2019-04-01"],
     "Github": "fenderglass/Flye",
     "Technologies": ["OxfordNanopore", "PacBio", "tenxGenomics", "BionanoGenomics", "HiC"],
     "Categories": ["DenovoAssembly", "ErrorCorrectionAndPolishing"]
@@ -8668,12 +8672,13 @@
           "DOI": "10.1101/2021.01.20.427493",
           "PubDate": "2021-01-22",
           "Preprint": true,
-          "Citations": [0]
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
     "Citations": 0,
-    "Recent_citations": ["NA"],
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2021-01-22"],
@@ -9613,13 +9618,13 @@
           "DOI": "10.1093/nar/gkz107",
           "PubDate": "2019-02-18",
           "Preprint": false,
-          "Citations": [54],
+          "Citations": [55],
           "Recent_citations": 29
         }
       ],
       "Preprints": []
     },
-    "Citations": 54,
+    "Citations": 55,
     "Recent_citations": [29],
     "Publications": 1,
     "Preprints": 0,
@@ -15839,12 +15844,12 @@
           "DOI": "10.1186/s13059-016-0997-x",
           "PubDate": "2016-06-20",
           "Preprint": false,
-          "Citations": [1156]
+          "Citations": [1157]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1156,
+    "Citations": 1157,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -16961,13 +16966,13 @@
           "DOI": "10.1093/bioinformatics/btv204",
           "PubDate": "2015-04-11",
           "Preprint": false,
-          "Citations": [100],
+          "Citations": [101],
           "Recent_citations": 13
         }
       ],
       "Preprints": []
     },
-    "Citations": 100,
+    "Citations": 101,
     "Recent_citations": [13],
     "Publications": 1,
     "Preprints": 0,
@@ -17791,12 +17796,12 @@
           "DOI": "10.1093/bioinformatics/bty191",
           "PubDate": "2018-05-04",
           "Preprint": false,
-          "Citations": [3124]
+          "Citations": [3125]
         }
       ],
       "Preprints": []
     },
-    "Citations": 3124,
+    "Citations": 3125,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -18851,13 +18856,13 @@
           "DOI": "10.1093/bioinformatics/btw354",
           "PubDate": "2016-06-17",
           "Preprint": false,
-          "Citations": [1854],
+          "Citations": [1856],
           "Recent_citations": 97
         }
       ],
       "Preprints": []
     },
-    "Citations": 1854,
+    "Citations": 1856,
     "Recent_citations": [97],
     "Publications": 1,
     "Preprints": 0,
@@ -28256,12 +28261,12 @@
           "DOI": "10.1093/bioinformatics/btr026",
           "PubDate": "2011-01-29",
           "Preprint": false,
-          "Citations": [3027]
+          "Citations": [3028]
         }
       ],
       "Preprints": []
     },
-    "Citations": 3027,
+    "Citations": 3028,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -29023,12 +29028,12 @@
           "DOI": "10.1093/bioinformatics/bty266",
           "PubDate": "2018-04-12",
           "Preprint": false,
-          "Citations": [298]
+          "Citations": [299]
         }
       ],
       "Preprints": []
     },
-    "Citations": 298,
+    "Citations": 299,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -36697,11 +36702,13 @@
           "Title": "Rapid de novo assembly of the European eel genome from nanopore sequencing reads",
           "DOI": "10.1038/s41598-017-07650-6",
           "PubDate": "2017-07-28",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [76]
         }
       ],
       "Preprints": []
     },
+    "Citations": 76,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -37026,13 +37033,14 @@
           "DOI": "10.1371/journal.pcbi.1005595",
           "PubDate": "2017-06-08",
           "Preprint": false,
-          "Citations": [2343]
+          "Citations": [2343],
+          "Recent_citations": 317
         }
       ],
       "Preprints": []
     },
     "Citations": 2343,
-    "Recent_citations": ["NA"],
+    "Recent_citations": [317],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-06-08"],
