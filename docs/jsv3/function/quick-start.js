@@ -153,55 +153,57 @@ function bindWorkflow(value, callback) {
         '</div>' +
         '</div>' +
         '</div>' +
-        '</div>' +
-        '<div class="col-lg-7">' +
-        '<div class="panel panel-default">' +
-        '<div class="panel-body">' +
-        '<div class="cat-outer">';
-
-    let catLength = workflowData.categories.length
+        '</div>';
+    let catLength = workflowData.categories ? workflowData.categories.length : 0
     let countCat = 0;
+    if (catLength > 0) {
+        HTML += '<div class="col-lg-7">' +
+            '<div class="panel panel-default">' +
+            '<div class="panel-body">' +
+            '<div class="cat-outer">';
 
-    $.each(workflowData.categories, function (index, category) {
-        countCat++;
+        $.each(workflowData.categories, function (index, category) {
+            countCat++;
 
-        HTML += '<div class=" category-box">' +
-            '<div>';
+            HTML += '<div class=" category-box">' +
+                '<div>';
 
-        var linkedCat = [];
-        $.each(category.category, function (index, cat) {
-            linkedCat.push(genareteUserFriendlyNames(cat))
-        })
+            var linkedCat = [];
+            $.each(category.category, function (index, cat) {
+                linkedCat.push(genareteUserFriendlyNames(cat))
+            })
 
-        HTML += '<p class="cat-name">' + linkedCat.join(", ") + '</p>';
-        HTML += '</div>' +
-            '<div class="tool-description-block' + index + '" style="display: block;">';
-        $.each(category.best_tool, function (index, tool) {
-            if (typeof getTool(tool) !== "undefined") {
-                HTML += generateToolSection(getTool(tool), tool)
-            } else {
-                HTML += '<div class="panel panel-default"><div class="collapsedhead panel-heading" role="tab" id="heading' + removeSpecialChar(tool) + '"><h4 class="panel-title FastQC"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" title="We do not have this tool in our database" href="#collapse' + removeSpecialChar(tool) + '" aria-expanded="false" aria-controls="collapse' + removeSpecialChar(tool) + '"> ' + tool.replace(/-/g, ' ').replace(/_/g, ' ') + '</a></h4></div></div>'
+            HTML += '<p class="cat-name">' + linkedCat.join(", ") + '</p>';
+            HTML += '</div>' +
+                '<div class="tool-description-block' + index + '" style="display: block;">';
+            $.each(category.best_tool, function (index, tool) {
+                if (typeof getTool(tool) !== "undefined") {
+                    HTML += generateToolSection(getTool(tool), tool)
+                } else {
+                    HTML += '<div class="panel panel-default"><div class="collapsedhead panel-heading" role="tab" id="heading' + removeSpecialChar(tool) + '"><h4 class="panel-title FastQC"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" title="We do not have this tool in our database" href="#collapse' + removeSpecialChar(tool) + '" aria-expanded="false" aria-controls="collapse' + removeSpecialChar(tool) + '"> ' + tool.replace(/-/g, ' ').replace(/_/g, ' ') + '</a></h4></div></div>'
+                }
+            })
+
+            let linkDes = category.category.length > 1 ? 'More tools in these categories' : 'More tools in this category'
+            HTML += '<p class="tool-description"><a target="_blank"  href="tools.html?sort=Name&cat=' + category.category + '&tec=" >' + linkDes + '</a></p>' +
+                '</div>' +
+                '</div>';
+            if (catLength != countCat) {
+                HTML += '<div class=" align-center">' +
+                    '<span class="glyphicon glyphicon-arrow-down"></span>' +
+                    '</div>';
             }
+
         })
 
-        let linkDes = category.category.length > 1 ? 'More tools in these categories' : 'More tools in this category'
-        HTML += '<p class="tool-description"><a target="_blank"  href="tools.html?sort=Name&cat=' + category.category + '&tec=" >' + linkDes + '</a></p>' +
+        HTML += '</div>' +
+
+            '</div>' +
             '</div>' +
             '</div>';
-        if (catLength != countCat) {
-            HTML += '<div class=" align-center">' +
-                '<span class="glyphicon glyphicon-arrow-down"></span>' +
-                '</div>';
-        }
-
-    })
-
+    }
+    
     HTML += '</div>' +
-
-        '</div>' +
-        '</div>' +
-        '</div>' +
-        '</div>' +
         '</div>' +
         '</div>';
 

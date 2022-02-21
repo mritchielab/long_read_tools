@@ -875,3 +875,25 @@ table thead {
 .serch-box >div >div> button{
 	border-radius: 0px 50px 50px 0px;
 }
+
+
+
+#scrollTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 15px;
+	border: 1px solid;
+	outline: none;
+	background: linear-gradient(to right, #f1ad41 0%, #704b25 100%);
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+  }
+  
+  #scrollTop:hover {
+	background-color: #555;
+  }
