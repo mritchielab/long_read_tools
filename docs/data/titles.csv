@@ -717,22 +717,49 @@ https://doi.org/10.3389/fimmu.2020.582927,"Efficient Sequencing, Assembly, and A
 10.46471/gigabyte.15,SMARTdenovo: a de novo assembler using long noisy reads,2021-03-08
 10.1101/2021.05.29.446291,Vulcan: Improved long-read mapping and structural variant calling via dual-mode alignment,2021-05-31
 10.1101/2020.06.18.160010,Detection of differential RNA modifications from direct RNA sequencing of human cell lines,2020-06-20
+10.1101/2021.06.28.450135,DeepMP: a deep learning tool to detect DNA base modifications on Nanopore sequencing data,2021-06-28
+10.1101/2021.02.07.430077,Genome-wide Detection of Cytosine Methylations in Plant from Nanopore sequencing data using Deep Learning,2021-02-08
+10.1101/2021.06.02.444084,"Chromosome-level de novo genome assembly of Telopea speciosissima (New South Wales waratah) using long-reads, linked-reads and Hi-C",2021-06-02
+10.1101/810812,GraphAligner: Rapid and Versatile Sequence-to-Graph Alignment,2019-10-21
+10.1038/s41587-019-0072-8,"Assembly of long, error-prone reads using repeat graphs",2019-04-01
+10.1101/2020.12.14.422624,"Hapo-G, Haplotype-Aware Polishing Of Genome Assemblies",2020-12-16
+10.1101/2020.09.09.289793,LIQA: Long-read Isoform Quantification and Analysis,2020-09-11
+10.1093/bioinformatics/btac058,LongPhase: an ultra-fast chromosome-scale phasing algorithm for small and large variants,2022-01-26
+10.1186/s12859-021-04451-7,LongStitch: high-quality genome assembly correction and scaffolding using long reads,2021-10-30
+10.1101/2021.06.09.447586,Minimizer-space de Bruijn graphs,2021-06-10
+10.1101/2020.10.14.340315,Systematic benchmarking of tools for CpG methylation detection from Nanopore sequencing,2020-10-15
+10.1101/2021.02.02.429319,MicroPIPE: An end-to-end solution for high-quality complete bacterial genome construction,2021-02-03
+10.1101/180406,Rapid profiling of the preterm infant gut microbiota using nanopore sequencing aids pathogen diagnostics,2017-08-25
+10.1101/2020.11.06.370858,Nanopanel2 calls phased low-frequency variants in Nanopore panel sequencing data,2020-11-08
+10.1038/s41592-021-01299-w,Haplotype-aware variant calling with PEPPER-Margin-DeepVariant enables high accuracy in nanopore long-reads,2021-11-01
+10.1101/2021.07.02.450883,phasebook: haplotype-aware de novo assembly of diploid genomes from long reads,2021-07-04
+10.46471/gigabyte.15,SMARTdenovo: a de novo assembler using long noisy reads,2021-03-08
+10.1101/2021.05.29.446291,Vulcan: Improved long-read mapping and structural variant calling via dual-mode alignment,2021-05-31
+10.1101/2020.06.18.160010,Detection of differential RNA modifications from direct RNA sequencing of human cell lines,2020-06-20
+10.1038/s41467-022-29497-w,acorde unravels functionally interpretable networks of isoform co-usage from single cell data,2022-04-05
  10.1101/2021.06.28.450135,DeepMP: a deep learning tool to detect DNA base modifications on Nanopore sequencing data,2021-06-28
  10.1101/2021.02.07.430077,Genome-wide Detection of Cytosine Methylations in Plant from Nanopore sequencing data using Deep Learning,2021-02-08
- 10.1101/2021.06.02.444084,"Chromosome-level de novo genome assembly of Telopea speciosissima (New South Wales waratah) using long-reads, linked-reads and Hi-C",2021-06-02
+ 10.1101/2021.06.02.444084,"Chromosome-level <i>de novo</i> genome assembly of <i>Telopea speciosissima</i> (New South Wales waratah) using long-reads, linked-reads and Hi-C",2021-06-02
  10.1101/810812,GraphAligner: Rapid and Versatile Sequence-to-Graph Alignment,2019-10-21
  10.1038/s41587-019-0072-8,"Assembly of long, error-prone reads using repeat graphs",2019-04-01
  10.1101/2020.12.14.422624,"Hapo-G, Haplotype-Aware Polishing Of Genome Assemblies",2020-12-16
+10.1093/bioinformatics/btw742,Training alignment parameters for arbitrary sequencers with LAST-TRAIN,2016-11-18
  10.1101/2020.09.09.289793,LIQA: Long-read Isoform Quantification and Analysis,2020-09-11
  10.1093/bioinformatics/btac058,LongPhase: an ultra-fast chromosome-scale phasing algorithm for small and large variants,2022-01-26
  10.1186/s12859-021-04451-7,LongStitch: high-quality genome assembly correction and scaffolding using long reads,2021-10-30
  10.1101/2021.06.09.447586,Minimizer-space de Bruijn graphs,2021-06-10
+10.1038/s41592-022-01445-y,"Merfin: improved variant filtering, assembly evaluation and polishing via k-mer validation",2022-03-31
  10.1101/2020.10.14.340315,Systematic benchmarking of tools for CpG methylation detection from Nanopore sequencing,2020-10-15
- 10.1101/2021.02.02.429319,MicroPIPE: An end-to-end solution for high-quality complete bacterial genome construction,2021-02-03
+ 10.1101/2021.02.02.429319,MicroPIPE: <i>An end-to-end solution for high-quality complete bacterial genome construction</i>,2021-02-03
+10.1186/s13059-021-02472-2,NanoCaller for accurate detection of SNPs and indels in difficult-to-map regions from long-read sequencing by haplotype-aware deep neural networks,2021-09-06
  10.1101/180406,Rapid profiling of the preterm infant gut microbiota using nanopore sequencing aids pathogen diagnostics,2017-08-25
  10.1101/2020.11.06.370858,Nanopanel2 calls phased low-frequency variants in Nanopore panel sequencing data,2020-11-08
  10.1038/s41592-021-01299-w,Haplotype-aware variant calling with PEPPER-Margin-DeepVariant enables high accuracy in nanopore long-reads,2021-11-01
  10.1101/2021.07.02.450883,phasebook: haplotype-aware de novo assembly of diploid genomes from long reads,2021-07-04
+10.1093/bioinformatics/btac196,plotsr: visualizing structural similarities and rearrangements between multiple genomes,2022-04-14
+10.1101/2022.04.18.488678,Read2Tree: scalable and accurate phylogenetic trees from raw reads,2022-04-21
+10.1186/s12859-022-04686-y,RODAN: a fully convolutional architecture for basecalling nanopore RNA sequencing data,2022-04-20
  10.46471/gigabyte.15,SMARTdenovo: a de novo assembler using long noisy reads,2021-03-08
  10.1101/2021.05.29.446291,Vulcan: Improved long-read mapping and structural variant calling via dual-mode alignment,2021-05-31
+ 10.1038/s41592-022-01457-8,Long-read mapping to repetitive reference sequences using Winnowmap2,2022-04-04
  10.1101/2020.06.18.160010,Detection of differential RNA modifications from direct RNA sequencing of human cell lines,2020-06-20
