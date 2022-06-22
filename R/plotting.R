@@ -273,6 +273,7 @@ plot_platforms <- function(swsheet) {
                                     label = Label, 
                                     colour = "#c77951"),
                        size = 4) +
+    ggplot2::ylab("Number of tools") +
     ggplot2::ggtitle("Platforms") +
     cowplot::theme_cowplot() +
     ggplot2::theme(axis.title.x    = ggplot2::element_blank(),
