@@ -88,7 +88,7 @@ and improve this resource for the community are greatly appreciated!
 
 The following people have made significant contributions to the long-read-tools
 database or website:
-
+* [@shaniAmare](https://github.com/shaniAmare) -  Lead designer and developer of the database
 * [@mritchieau](https://github.com/mritchie) - Concept of the database and 
 suggests new tools
 * [@QGouil](https://github.com/QGouil) - Adds new tools and updates existing entries 
