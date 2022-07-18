@@ -545,5 +545,35 @@
   },
   "AERON": {
     "Ignored": ["PyPI/aeron"]
+  },
+  "BLAZE": {
+    "Ignored": ["PyPI/blaze", "Conda/blaze"]
+  },
+  "Dorado": {
+    "Ignored": ["PyPI/dorado"]
+  },
+  "Dyss": {
+    "Ignored": ["CRAN/DySS"]
+  },
+  "Emu": {
+    "Ignored": ["PyPI/emu"]
+  },
+  "Modbamtools": {
+    "PyPI": ["modbamtools"]
+  },
+  "PatMat": {
+    "Ignored": ["PyPI/patmat"]
+  },
+  "PRIMROSE": {
+    "Ignored": ["PyPI/primrose"]
+  },
+  "remora": {
+    "Ignored": ["PyPI/remora"]
+  },
+  "sockeye": {
+    "Ignored": ["PyPI/sockeye"]
+  },
+  "Bookend": {
+    "Ignored": ["PyPI/bookend"]
   }
 }
