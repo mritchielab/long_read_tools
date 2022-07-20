@@ -6,9 +6,9 @@
 get_cached_titles <- function() {
   futile.logger::flog.info("Getting cached titles...")
   
-  if (!file.exists("docs/data/titles.csv")) {
+  if (!file.exists("docs/data/titles.csv")) {#if no cache, create an empty CSV with the right column names.
     futile.logger::flog.info("Cache file missing, creating...")
-    write_lines("DOI,Title", "docs/data/titles.csv")
+    write_lines("DOI,Title,PubDate", "docs/data/titles.csv")
   }
   
   titles <- readr::read_csv("docs/data/titles.csv",
@@ -33,9 +33,9 @@ add_to_titles_cache <- function(swsheet, titles_cache) {
   futile.logger::flog.info("Adding new titles to cache...")
   
   n_added <- 0
-  for (dois in swsheet$DOIs) {
-    for (doi in stringr::str_split(dois, ";")[[1]]) {
-      if (!is.na(doi) & !(doi %in% titles_cache$DOI)) {
+  for (dois in swsheet$DOIs) {#for each Tool, even if multiple dois.
+    for (doi in str_trim(stringr::str_split(dois, ";")[[1]])) { #for each pub for that Tool. Be mindful of leading/trailing spaces.
+      if (!is.na(doi) && !(doi %in% titles_cache$DOI)) { #if the pub isn’t already in the cache and is not empty. this doesn’t seem to skip Flye.
         
         if (stringr::str_detect(doi, "arxiv")) {
           id <- stringr::str_remove(doi, "arxiv/")
