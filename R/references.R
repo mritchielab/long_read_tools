@@ -50,24 +50,24 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
         if (skip_cites=="FALSE") {
             cites <- sapply(dois, function(doi) {
                 cite <- tryCatch({
-                    rcrossref::cr_citation_count(doi)
+                    rcrossref::cr_citation_count(str_trim(doi))
                 }, error = function(e) {
                     NA
                 })
 
-                Sys.sleep(sample(seq(0, 1, 0.1), 1))
+                Sys.sleep(0.01)
 
                 return(cite)
             })
             
             recent_cites <- sapply(dois, function(doi){
                 recent_cite <- tryCatch({
-                    suppressWarnings(get_recent_cite(doi))
+                    suppressWarnings(get_recent_cite(str_trim(doi)))
                 }, error = function(e){
                     NA
                 })
                 
-                Sys.sleep(sample(seq(0, 1, 0.1), 1))
+                Sys.sleep(0.01)
                 
                 return(recent_cite)
             })
@@ -77,7 +77,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
         }
 
         dates <- sapply(dois, function(doi) {
-          as.character(dplyr::pull(titles_cache[titles_cache$DOI == doi, ], "PubDate"))
+          as.character(dplyr::pull(titles_cache[titles_cache$DOI == str_trim(doi), ], "PubDate"))
         })
         
         titles <- get_titles(dois, titles_cache)
