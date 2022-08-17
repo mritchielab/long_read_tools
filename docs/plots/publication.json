@@ -3,10 +3,10 @@
     {
       "orientation": "v",
       "width": 1,
-      "base": 269,
+      "base": 274,
       "x": [1],
-      "y": [385],
-      "text": "Type: Published<br />Count: 385<br />Percent: 58.9",
+      "y": [391],
+      "text": "Type: Published<br />Count: 391<br />Percent: 58.8",
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -28,10 +28,10 @@
     {
       "orientation": "v",
       "width": 1,
-      "base": 183,
+      "base": 182,
       "x": [1],
-      "y": [86],
-      "text": "Type: Preprint<br />Count:  86<br />Percent: 13.1",
+      "y": [92],
+      "text": "Type: Preprint<br />Count:  92<br />Percent: 13.8",
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -55,8 +55,8 @@
       "width": 1,
       "base": 0,
       "x": [1],
-      "y": [183],
-      "text": "Type: Not Published<br />Count: 183<br />Percent: 28",
+      "y": [182],
+      "text": "Type: Not Published<br />Count: 182<br />Percent: 27.4",
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -77,9 +77,9 @@
     },
     {
       "x": [1],
-      "y": [461.5],
-      "text": "Published 58.9%",
-      "hovertext": "Type: Published<br />Count: 385<br />Percent: 58.9",
+      "y": [469.5],
+      "text": "Published 58.8%",
+      "hovertext": "Type: Published<br />Count: 391<br />Percent: 58.8",
       "textfont": {
         "size": 11.3385826771654,
         "color": "rgba(255,255,255,1)"
@@ -97,9 +97,9 @@
     },
     {
       "x": [1],
-      "y": [226],
-      "text": "Preprint 13.1%",
-      "hovertext": "Type: Preprint<br />Count:  86<br />Percent: 13.1",
+      "y": [228],
+      "text": "Preprint 13.8%",
+      "hovertext": "Type: Preprint<br />Count:  92<br />Percent: 13.8",
       "textfont": {
         "size": 11.3385826771654,
         "color": "rgba(255,255,255,1)"
@@ -117,9 +117,9 @@
     },
     {
       "x": [1],
-      "y": [91.5],
-      "text": "Not Published 28%",
-      "hovertext": "Type: Not Published<br />Count: 183<br />Percent: 28",
+      "y": [91],
+      "text": "Not Published 27.4%",
+      "hovertext": "Type: Not Published<br />Count: 182<br />Percent: 27.4",
       "textfont": {
         "size": 11.3385826771654,
         "color": "rgba(255,255,255,1)"
@@ -204,7 +204,7 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-32.7, 686.7],
+      "range": [-33.25, 698.25],
       "tickmode": "array",
       "ticktext": ["0", "200", "400", "600"],
       "tickvals": [0, 200, 400, 600],
@@ -278,14 +278,14 @@
   },
   "source": "A",
   "attrs": {
-    "91d863f0f665": {
+    "a4c96cd8c561": {
       "x": {},
       "fill": {},
       "weight": {},
       "text": {},
       "type": "bar"
     },
-    "91d860c09425": {
+    "a4c9b869b1b": {
       "x": {},
       "fill": {},
       "weight": {},
@@ -294,10 +294,10 @@
       "label": {}
     }
   },
-  "cur_data": "91d863f0f665",
+  "cur_data": "a4c96cd8c561",
   "visdat": {
-    "91d863f0f665": ["function (y) ", "x"],
-    "91d860c09425": ["function (y) ", "x"]
+    "a4c96cd8c561": ["function (y) ", "x"],
+    "a4c9b869b1b": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
