@@ -9930,6 +9930,40 @@
     "Categories": ["ErrorCorrectionAndPolishing"]
   },
   {
+    "Name": "MIrROR",
+    "DOIs": "10.1128/spectrum.02017-21",
+    "Platform": "Python",
+    "Description": "Analysis tool for metataxonomics using 16S-23S rRNA operon region",
+    "Code": "https://github.com/seoldh/MIrROR",
+    "License": "MIT License",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Microbial Identification Using rRNA Operon Region: Database and Tool for Metataxonomics with Long-Read Sequence",
+          "DOI": "10.1128/spectrum.02017-21",
+          "PubDate": "2022-03-30",
+          "Preprint": false,
+          "Citations": [2],
+          "Recent_citations": 0
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 2,
+    "Recent_citations": [0],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2022-03-30"],
+    "Github": "seoldh/MIrROR",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["AnalysisPipelines", "Metagenomics", "TaxonomicClassification"]
+  },
+  {
     "Name": "MitoHiFi",
     "Platform": "Python, Dockerfile",
     "Description": "A python workflow that assembles mitogenomes from Pacbio HiFi reads",
@@ -15443,7 +15477,7 @@
           "DOI": "10.5281/zenodo.3629254",
           "PubDate": [],
           "Preprint": false,
-          "Citations": [0],
+          "Citations": [1],
           "Recent_citations": 0
         }
       ],
@@ -15453,11 +15487,11 @@
           "DOI": "10.1101/2022.02.16.480699",
           "PubDate": ["2022-02-19"],
           "Preprint": true,
-          "Citations": [0]
+          "Citations": [1]
         }
       ]
     },
-    "Citations": 0,
+    "Citations": 2,
     "Recent_citations": ["NA", 0],
     "Publications": 1,
     "Preprints": 1,
@@ -16369,7 +16403,7 @@
     "Description": "Methylation/modified base calling separated from basecalling",
     "Code": "https://github.com/nanoporetech/remora",
     "License": "Oxford Nanopore Technologies, Ltd. Public License Version 1.0",
-    "Underlying_algorithms": "in combination with basecaller (guppy, bonito,É)",
+    "Underlying_algorithms": "in combination with basecaller (guppy, bonito,?",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
@@ -18074,7 +18108,7 @@
     "Code": "https://github.com/nanoporetech/sockeye",
     "License": "Oxford Nanopore Technologies, Ltd. Public License Version 1.0",
     "Underlying_algorithms": "editdistance, parasail, bedtools, umap, vsearch, minimap2, pysam, samtools",
-    "Underlying_assumptions": "10X 5Õ or 3Õ data",
+    "Underlying_assumptions": "10X 5?or 3?data",
     "OxfordNanopore": true,
     "PacBio": false,
     "tenxGenomics": false,
