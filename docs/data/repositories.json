@@ -611,5 +611,17 @@
   },
   "MIrROR": {
     "Ignored": ["PyPI/mirror"]
+  },
+  "chopper": {
+    "Ignored": ["PyPI/chopper"]
+  },
+  "MethylMap": {
+    "PyPI": ["methylmap"]
+  },
+  "Snapper": {
+    "Ignored": ["PyPI/snapper"]
+  },
+  "VISOR": {
+    "Ignored": ["PyPI/visor"]
   }
 }
