@@ -5,8 +5,8 @@
       "width": [0.95, 0.95, 0.95, 0.95, 0.949999999999999, 0.949999999999999],
       "base": [0, 0, 0, 0, 0, 0],
       "x": [1, 2, 3, 4, 5, 6],
-      "y": [391, 86, 218, 218, 68, 50],
-      "text": ["Platform: Python<br />Count: 391<br />Percent: 37.9", "Platform: R<br />Count:  86<br />Percent: 8.3", "Platform: C<br />Count: 218<br />Percent: 21.1", "Platform: C++<br />Count: 218<br />Percent: 21.1", "Platform: Other<br />Count:  68<br />Percent: 6.6", "Platform: Unknown<br />Count:  50<br />Percent: 4.8"],
+      "y": [395, 89, 220, 220, 68, 50],
+      "text": ["Platform: Python<br />Count: 395<br />Percent: 37.9", "Platform: R<br />Count:  89<br />Percent: 8.5", "Platform: C<br />Count: 220<br />Percent: 21.1", "Platform: C++<br />Count: 220<br />Percent: 21.1", "Platform: Other<br />Count:  68<br />Percent: 6.5", "Platform: Unknown<br />Count:  50<br />Percent: 4.8"],
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -25,9 +25,9 @@
     },
     {
       "x": [1],
-      "y": [426.1],
+      "y": [430.45],
       "text": "37.9%",
-      "hovertext": "Platform: Python<br />Count: 391<br />Percent: 37.9",
+      "hovertext": "Platform: Python<br />Count: 395<br />Percent: 37.9",
       "textfont": {
         "size": 15.1181102362205,
         "color": "rgba(248,118,109,1)"
@@ -45,9 +45,9 @@
     },
     {
       "x": [2],
-      "y": [121.1],
-      "text": "8.3%",
-      "hovertext": "Platform: R<br />Count:  86<br />Percent: 8.3",
+      "y": [124.45],
+      "text": "8.5%",
+      "hovertext": "Platform: R<br />Count:  89<br />Percent: 8.5",
       "textfont": {
         "size": 15.1181102362205,
         "color": "rgba(248,118,109,1)"
@@ -65,9 +65,9 @@
     },
     {
       "x": [3],
-      "y": [253.1],
+      "y": [255.45],
       "text": "21.1%",
-      "hovertext": "Platform: C<br />Count: 218<br />Percent: 21.1",
+      "hovertext": "Platform: C<br />Count: 220<br />Percent: 21.1",
       "textfont": {
         "size": 15.1181102362205,
         "color": "rgba(248,118,109,1)"
@@ -85,9 +85,9 @@
     },
     {
       "x": [4],
-      "y": [253.1],
+      "y": [255.45],
       "text": "21.1%",
-      "hovertext": "Platform: C++<br />Count: 218<br />Percent: 21.1",
+      "hovertext": "Platform: C++<br />Count: 220<br />Percent: 21.1",
       "textfont": {
         "size": 15.1181102362205,
         "color": "rgba(248,118,109,1)"
@@ -105,9 +105,9 @@
     },
     {
       "x": [5],
-      "y": [103.1],
-      "text": "6.6%",
-      "hovertext": "Platform: Other<br />Count:  68<br />Percent: 6.6",
+      "y": [103.45],
+      "text": "6.5%",
+      "hovertext": "Platform: Other<br />Count:  68<br />Percent: 6.5",
       "textfont": {
         "size": 15.1181102362205,
         "color": "rgba(248,118,109,1)"
@@ -125,7 +125,7 @@
     },
     {
       "x": [6],
-      "y": [85.1],
+      "y": [85.45],
       "text": "4.8%",
       "hovertext": "Platform: Unknown<br />Count:  50<br />Percent: 4.8",
       "textfont": {
@@ -212,7 +212,7 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-21.305, 447.405],
+      "range": [-21.5225, 451.9725],
       "tickmode": "array",
       "ticktext": ["0", "100", "200", "300", "400"],
       "tickvals": [0, 100, 200, 300, 400],
@@ -286,14 +286,14 @@
   },
   "source": "A",
   "attrs": {
-    "7592587b3d6f": {
+    "ba131c6298b0": {
       "x": {},
       "weight": {},
       "fill": {},
       "text": {},
       "type": "bar"
     },
-    "75922fe6fcb": {
+    "ba13d16595f": {
       "x": {},
       "weight": {},
       "fill": {},
@@ -303,10 +303,10 @@
       "colour": {}
     }
   },
-  "cur_data": "7592587b3d6f",
+  "cur_data": "ba131c6298b0",
   "visdat": {
-    "7592587b3d6f": ["function (y) ", "x"],
-    "75922fe6fcb": ["function (y) ", "x"]
+    "ba131c6298b0": ["function (y) ", "x"],
+    "ba13d16595f": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
