@@ -11,9 +11,11 @@ git push
 #once updates to database csv. file have been made, build and check database
 cd ~/Documents/long-read-tools
 Rscript build_lrs_db.R 
-python docs/test_server.py
+#make sure python script is launched just in terminal, not in active python session
+python3 docs/test_server.py
 #Got to http://127.0.0.1:5000/index.html to check
 #If happy, push to fork and then request merge with the upstream official mritchielab repo.
 git add *
+#change commit message to what i've actually added/updated for tracking purposes
 git commit -m "database build updated"
 git push
