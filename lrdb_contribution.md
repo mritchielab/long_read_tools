@@ -9,7 +9,7 @@ git checkout master
 git merge upstream/master
 git push 
 #once updates to database csv. file have been made, build and check database
-cd ~/Documents/long-read-tools
+cd ~/Documents/long_read_tools
 Rscript build_lrs_db.R 
 #make sure python script is launched just in terminal, not in active python session
 python3 docs/test_server.py
@@ -17,5 +17,5 @@ python3 docs/test_server.py
 #If happy, push to fork and then request merge with the upstream official mritchielab repo.
 git add *
 #change commit message to what i've actually added/updated for tracking purposes
-git commit -m "Fixed bug in DOI links not showing if 2 or more publications. Added/made changes to IsoQuant, MitoHifi, GFAse, Nanomonsv, SemiBin2, HQAlign."
+git commit -m "Added more tools posted in slack, updated some publications"
 git push
