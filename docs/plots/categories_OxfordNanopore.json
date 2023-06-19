@@ -2,18 +2,18 @@
   "data": [
     {
       "orientation": "v",
-      "width": [0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999, 0.899999999999999],
+      "width": [0.89999999999999991, 0.90000000000000013, 0.90000000000000036, 0.90000000000000036, 0.90000000000000036, 0.90000000000000036, 0.90000000000000036, 0.89999999999999947, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858],
       "base": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "x": ["Tested On Non Human Data", "Tested On Human Data", "Availablity Of Test Data", "SNP And Variant Analysis", "Error Correction And Polishing", "Analysis Pipelines", "Transcriptomics", "Alignment", "Denovo Assembly", "Visualisation", "Base Modification Detection", "Provide Summary Statistics", "Quality Checking", "Generating Consensus Sequence", "Isoform Detection", "Basecalling", "Metagenomics", "Read Quantification", "Scaffolding", "Taxonomic Classification", "fast5 File Processing", "Quality Filtering", "Long Read Overlapping", "Quality Trimming", "Simulators", "Demultiplexing", "Suitable For Single Cell Experiments", "Gap Filling", "Evaluating Exisiting Methods", "polyA Length Estimation", "Normalisation"],
-      "y": [0.190849673202614, 0.189542483660131, 0.169934640522876, 0.166013071895425, 0.143790849673203, 0.138562091503268, 0.133333333333333, 0.13202614379085, 0.120261437908497, 0.104575163398693, 0.0875816993464052, 0.0810457516339869, 0.0810457516339869, 0.0784313725490196, 0.073202614379085, 0.0640522875816993, 0.061437908496732, 0.0418300653594771, 0.0300653594771242, 0.0300653594771242, 0.0287581699346405, 0.0274509803921569, 0.0235294117647059, 0.0235294117647059, 0.0235294117647059, 0.0222222222222222, 0.0222222222222222, 0.0196078431372549, 0.0169934640522876, 0.00915032679738562, 0.00522875816993464],
-      "text": ["count: 0.190849673<br />Category: Tested On Non Human Data<br />Prop: 0.190849673<br />Count: 146 <br /> Percent: 19.1", "count: 0.189542484<br />Category: Tested On Human Data<br />Prop: 0.189542484<br />Count: 145 <br /> Percent: 19", "count: 0.169934641<br />Category: Availablity Of Test Data<br />Prop: 0.169934641<br />Count: 130 <br /> Percent: 17", "count: 0.166013072<br />Category: SNP And Variant Analysis<br />Prop: 0.166013072<br />Count: 127 <br /> Percent: 16.6", "count: 0.143790850<br />Category: Error Correction And Polishing<br />Prop: 0.143790850<br />Count: 110 <br /> Percent: 14.4", "count: 0.138562092<br />Category: Analysis Pipelines<br />Prop: 0.138562092<br />Count: 106 <br /> Percent: 13.9", "count: 0.133333333<br />Category: Transcriptomics<br />Prop: 0.133333333<br />Count: 102 <br /> Percent: 13.3", "count: 0.132026144<br />Category: Alignment<br />Prop: 0.132026144<br />Count: 101 <br /> Percent: 13.2", "count: 0.120261438<br />Category: Denovo Assembly<br />Prop: 0.120261438<br />Count: 92 <br /> Percent: 12", "count: 0.104575163<br />Category: Visualisation<br />Prop: 0.104575163<br />Count: 80 <br /> Percent: 10.5", "count: 0.087581699<br />Category: Base Modification Detection<br />Prop: 0.087581699<br />Count: 67 <br /> Percent: 8.8", "count: 0.081045752<br />Category: Provide Summary Statistics<br />Prop: 0.081045752<br />Count: 62 <br /> Percent: 8.1", "count: 0.081045752<br />Category: Quality Checking<br />Prop: 0.081045752<br />Count: 62 <br /> Percent: 8.1", "count: 0.078431373<br />Category: Generating Consensus Sequence<br />Prop: 0.078431373<br />Count: 60 <br /> Percent: 7.8", "count: 0.073202614<br />Category: Isoform Detection<br />Prop: 0.073202614<br />Count: 56 <br /> Percent: 7.3", "count: 0.064052288<br />Category: Basecalling<br />Prop: 0.064052288<br />Count: 49 <br /> Percent: 6.4", "count: 0.061437908<br />Category: Metagenomics<br />Prop: 0.061437908<br />Count: 47 <br /> Percent: 6.1", "count: 0.041830065<br />Category: Read Quantification<br />Prop: 0.041830065<br />Count: 32 <br /> Percent: 4.2", "count: 0.030065359<br />Category: Scaffolding<br />Prop: 0.030065359<br />Count: 23 <br /> Percent: 3", "count: 0.030065359<br />Category: Taxonomic Classification<br />Prop: 0.030065359<br />Count: 23 <br /> Percent: 3", "count: 0.028758170<br />Category: fast5 File Processing<br />Prop: 0.028758170<br />Count: 22 <br /> Percent: 2.9", "count: 0.027450980<br />Category: Quality Filtering<br />Prop: 0.027450980<br />Count: 21 <br /> Percent: 2.7", "count: 0.023529412<br />Category: Long Read Overlapping<br />Prop: 0.023529412<br />Count: 18 <br /> Percent: 2.4", "count: 0.023529412<br />Category: Quality Trimming<br />Prop: 0.023529412<br />Count: 18 <br /> Percent: 2.4", "count: 0.023529412<br />Category: Simulators<br />Prop: 0.023529412<br />Count: 18 <br /> Percent: 2.4", "count: 0.022222222<br />Category: Demultiplexing<br />Prop: 0.022222222<br />Count: 17 <br /> Percent: 2.2", "count: 0.022222222<br />Category: Suitable For Single Cell Experiments<br />Prop: 0.022222222<br />Count: 17 <br /> Percent: 2.2", "count: 0.019607843<br />Category: Gap Filling<br />Prop: 0.019607843<br />Count: 15 <br /> Percent: 2", "count: 0.016993464<br />Category: Evaluating Exisiting Methods<br />Prop: 0.016993464<br />Count: 13 <br /> Percent: 1.7", "count: 0.009150327<br />Category: polyA Length Estimation<br />Prop: 0.009150327<br />Count: 7 <br /> Percent: 0.9", "count: 0.005228758<br />Category: Normalisation<br />Prop: 0.005228758<br />Count: 4 <br /> Percent: 0.5"],
+      "x": ["Tested On Human Data", "Tested On Non Human Data", "Availablity Of Test Data", "SNP And Variant Analysis", "Analysis Pipelines", "Alignment", "Error Correction And Polishing", "Transcriptomics", "Denovo Assembly", "Visualisation", "Base Modification Detection", "Generating Consensus Sequence", "Quality Checking", "Provide Summary Statistics", "Isoform Detection", "Basecalling", "Metagenomics", "Read Quantification", "Taxonomic Classification", "fast5 File Processing", "Scaffolding", "Long Read Overlapping", "Quality Filtering", "Quality Trimming", "Demultiplexing", "Simulators", "Suitable For Single Cell Experiments", "Gap Filling", "Evaluating Exisiting Methods", "polyA Length Estimation", "Normalisation"],
+      "y": [0.19500000000000001, 0.19500000000000001, 0.18375, 0.16875000000000001, 0.16125, 0.14374999999999999, 0.14374999999999999, 0.12875, 0.12125, 0.1075, 0.091249999999999998, 0.087499999999999994, 0.082500000000000004, 0.078750000000000001, 0.071249999999999994, 0.066250000000000003, 0.0625, 0.042500000000000003, 0.033750000000000002, 0.032500000000000001, 0.029999999999999999, 0.028750000000000001, 0.028750000000000001, 0.026249999999999999, 0.025000000000000001, 0.025000000000000001, 0.021250000000000002, 0.02, 0.018749999999999999, 0.0087500000000000008, 0.0050000000000000001],
+      "text": ["count: 0.19500<br />Category: Tested On Human Data<br />Prop: 0.19500<br />Count: 156 <br /> Percent: 19.5", "count: 0.19500<br />Category: Tested On Non Human Data<br />Prop: 0.19500<br />Count: 156 <br /> Percent: 19.5", "count: 0.18375<br />Category: Availablity Of Test Data<br />Prop: 0.18375<br />Count: 147 <br /> Percent: 18.4", "count: 0.16875<br />Category: SNP And Variant Analysis<br />Prop: 0.16875<br />Count: 135 <br /> Percent: 16.9", "count: 0.16125<br />Category: Analysis Pipelines<br />Prop: 0.16125<br />Count: 129 <br /> Percent: 16.1", "count: 0.14375<br />Category: Alignment<br />Prop: 0.14375<br />Count: 115 <br /> Percent: 14.4", "count: 0.14375<br />Category: Error Correction And Polishing<br />Prop: 0.14375<br />Count: 115 <br /> Percent: 14.4", "count: 0.12875<br />Category: Transcriptomics<br />Prop: 0.12875<br />Count: 103 <br /> Percent: 12.9", "count: 0.12125<br />Category: Denovo Assembly<br />Prop: 0.12125<br />Count: 97 <br /> Percent: 12.1", "count: 0.10750<br />Category: Visualisation<br />Prop: 0.10750<br />Count: 86 <br /> Percent: 10.8", "count: 0.09125<br />Category: Base Modification Detection<br />Prop: 0.09125<br />Count: 73 <br /> Percent: 9.1", "count: 0.08750<br />Category: Generating Consensus Sequence<br />Prop: 0.08750<br />Count: 70 <br /> Percent: 8.8", "count: 0.08250<br />Category: Quality Checking<br />Prop: 0.08250<br />Count: 66 <br /> Percent: 8.2", "count: 0.07875<br />Category: Provide Summary Statistics<br />Prop: 0.07875<br />Count: 63 <br /> Percent: 7.9", "count: 0.07125<br />Category: Isoform Detection<br />Prop: 0.07125<br />Count: 57 <br /> Percent: 7.1", "count: 0.06625<br />Category: Basecalling<br />Prop: 0.06625<br />Count: 53 <br /> Percent: 6.6", "count: 0.06250<br />Category: Metagenomics<br />Prop: 0.06250<br />Count: 50 <br /> Percent: 6.2", "count: 0.04250<br />Category: Read Quantification<br />Prop: 0.04250<br />Count: 34 <br /> Percent: 4.2", "count: 0.03375<br />Category: Taxonomic Classification<br />Prop: 0.03375<br />Count: 27 <br /> Percent: 3.4", "count: 0.03250<br />Category: fast5 File Processing<br />Prop: 0.03250<br />Count: 26 <br /> Percent: 3.2", "count: 0.03000<br />Category: Scaffolding<br />Prop: 0.03000<br />Count: 24 <br /> Percent: 3", "count: 0.02875<br />Category: Long Read Overlapping<br />Prop: 0.02875<br />Count: 23 <br /> Percent: 2.9", "count: 0.02875<br />Category: Quality Filtering<br />Prop: 0.02875<br />Count: 23 <br /> Percent: 2.9", "count: 0.02625<br />Category: Quality Trimming<br />Prop: 0.02625<br />Count: 21 <br /> Percent: 2.6", "count: 0.02500<br />Category: Demultiplexing<br />Prop: 0.02500<br />Count: 20 <br /> Percent: 2.5", "count: 0.02500<br />Category: Simulators<br />Prop: 0.02500<br />Count: 20 <br /> Percent: 2.5", "count: 0.02125<br />Category: Suitable For Single Cell Experiments<br />Prop: 0.02125<br />Count: 17 <br /> Percent: 2.1", "count: 0.02000<br />Category: Gap Filling<br />Prop: 0.02000<br />Count: 16 <br /> Percent: 2", "count: 0.01875<br />Category: Evaluating Exisiting Methods<br />Prop: 0.01875<br />Count: 15 <br /> Percent: 1.9", "count: 0.00875<br />Category: polyA Length Estimation<br />Prop: 0.00875<br />Count: 7 <br /> Percent: 0.9", "count: 0.00500<br />Category: Normalisation<br />Prop: 0.00500<br />Count: 4 <br /> Percent: 0.5"],
       "type": "bar",
       "textposition": "none",
       "marker": {
         "autocolorscale": false,
         "color": "rgba(159,199,81,1)",
         "line": {
-          "width": 1.88976377952756,
+          "width": 1.8897637795275593,
           "color": "transparent"
         }
       },
@@ -34,14 +34,14 @@
     "font": {
       "color": "rgba(0,0,0,1)",
       "family": "",
-      "size": 18.5969281859693
+      "size": 18.596928185969279
     },
     "title": {
       "text": "<b> Oxford Nanopore focused <\/b>",
       "font": {
         "color": "rgba(0,0,0,1)",
         "family": "",
-        "size": 15.9402241594022
+        "size": 15.940224159402243
       },
       "x": 0,
       "xref": "paper"
@@ -51,27 +51,27 @@
       "automargin": true,
       "type": "category",
       "autorange": true,
-      "range": [0.4, 31.6],
+      "range": [0.40000000000000002, 31.600000000000001],
       "tickmode": "auto",
-      "ticktext": ["Tested On Non Human Data", "Tested On Human Data", "Availablity Of Test Data", "SNP And Variant Analysis", "Error Correction And Polishing", "Analysis Pipelines", "Transcriptomics", "Alignment", "Denovo Assembly", "Visualisation", "Base Modification Detection", "Provide Summary Statistics", "Quality Checking", "Generating Consensus Sequence", "Isoform Detection", "Basecalling", "Metagenomics", "Read Quantification", "Scaffolding", "Taxonomic Classification", "fast5 File Processing", "Quality Filtering", "Long Read Overlapping", "Quality Trimming", "Simulators", "Demultiplexing", "Suitable For Single Cell Experiments", "Gap Filling", "Evaluating Exisiting Methods", "polyA Length Estimation", "Normalisation"],
+      "ticktext": ["Tested On Human Data", "Tested On Non Human Data", "Availablity Of Test Data", "SNP And Variant Analysis", "Analysis Pipelines", "Alignment", "Error Correction And Polishing", "Transcriptomics", "Denovo Assembly", "Visualisation", "Base Modification Detection", "Generating Consensus Sequence", "Quality Checking", "Provide Summary Statistics", "Isoform Detection", "Basecalling", "Metagenomics", "Read Quantification", "Taxonomic Classification", "fast5 File Processing", "Scaffolding", "Long Read Overlapping", "Quality Filtering", "Quality Trimming", "Demultiplexing", "Simulators", "Suitable For Single Cell Experiments", "Gap Filling", "Evaluating Exisiting Methods", "polyA Length Estimation", "Normalisation"],
       "tickvals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
       "categoryorder": "array",
-      "categoryarray": ["Tested On Non Human Data", "Tested On Human Data", "Availablity Of Test Data", "SNP And Variant Analysis", "Error Correction And Polishing", "Analysis Pipelines", "Transcriptomics", "Alignment", "Denovo Assembly", "Visualisation", "Base Modification Detection", "Provide Summary Statistics", "Quality Checking", "Generating Consensus Sequence", "Isoform Detection", "Basecalling", "Metagenomics", "Read Quantification", "Scaffolding", "Taxonomic Classification", "fast5 File Processing", "Quality Filtering", "Long Read Overlapping", "Quality Trimming", "Simulators", "Demultiplexing", "Suitable For Single Cell Experiments", "Gap Filling", "Evaluating Exisiting Methods", "polyA Length Estimation", "Normalisation"],
+      "categoryarray": ["Tested On Human Data", "Tested On Non Human Data", "Availablity Of Test Data", "SNP And Variant Analysis", "Analysis Pipelines", "Alignment", "Error Correction And Polishing", "Transcriptomics", "Denovo Assembly", "Visualisation", "Base Modification Detection", "Generating Consensus Sequence", "Quality Checking", "Provide Summary Statistics", "Isoform Detection", "Basecalling", "Metagenomics", "Read Quantification", "Taxonomic Classification", "fast5 File Processing", "Scaffolding", "Long Read Overlapping", "Quality Filtering", "Quality Trimming", "Demultiplexing", "Simulators", "Suitable For Single Cell Experiments", "Gap Filling", "Evaluating Exisiting Methods", "polyA Length Estimation", "Normalisation"],
       "nticks": null,
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
-      "ticklen": 4.64923204649232,
-      "tickwidth": 0.66417600664176,
+      "ticklen": 4.6492320464923198,
+      "tickwidth": 0.66417600664176002,
       "showticklabels": true,
       "tickfont": {
         "color": "rgba(0,0,0,1)",
         "family": "",
-        "size": 11.9551681195517
+        "size": 11.955168119551683
       },
       "tickangle": -60,
       "showline": true,
       "linecolor": "rgba(0,0,0,1)",
-      "linewidth": 0.66417600664176,
+      "linewidth": 0.66417600664176002,
       "showgrid": false,
       "gridcolor": null,
       "gridwidth": 0,
@@ -92,27 +92,27 @@
       "automargin": true,
       "type": "linear",
       "autorange": true,
-      "range": [-0.00954248366013072, 0.200392156862745],
+      "range": [-0.0097500000000000017, 0.20475000000000002],
       "tickmode": "auto",
       "ticktext": ["0%", "5%", "10%", "15%", "20%"],
-      "tickvals": [0, 0.05, 0.1, 0.15, 0.2],
+      "tickvals": [0, 0.050000000000000003, 0.10000000000000003, 0.15000000000000002, 0.20000000000000001],
       "categoryorder": "array",
       "categoryarray": ["0%", "5%", "10%", "15%", "20%"],
       "nticks": null,
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
-      "ticklen": 4.64923204649232,
-      "tickwidth": 0.66417600664176,
+      "ticklen": 4.6492320464923216,
+      "tickwidth": 0.66417600664176002,
       "showticklabels": true,
       "tickfont": {
         "color": "rgba(0,0,0,1)",
         "family": "",
-        "size": 11.9551681195517
+        "size": 11.955168119551683
       },
       "tickangle": -0,
       "showline": true,
       "linecolor": "rgba(0,0,0,1)",
-      "linewidth": 0.66417600664176,
+      "linewidth": 0.66417600664176002,
       "showgrid": false,
       "gridcolor": null,
       "gridwidth": 0,
@@ -123,7 +123,7 @@
         "font": {
           "color": "rgba(0,0,0,1)",
           "family": "",
-          "size": 18.5969281859693
+          "size": 18.596928185969279
         }
       },
       "hoverformat": ".2f"
@@ -153,7 +153,7 @@
       "font": {
         "color": "rgba(0,0,0,1)",
         "family": "",
-        "size": 13.2835201328352
+        "size": 13.283520132835198
       }
     },
     "hovermode": "closest",
@@ -166,23 +166,23 @@
   },
   "source": "A",
   "attrs": {
-    "1419e1de87975": {
+    "9e411118b952": {
       "x": {},
       "weight": {},
       "text": {},
       "type": "bar"
     }
   },
-  "cur_data": "1419e1de87975",
+  "cur_data": "9e411118b952",
   "visdat": {
-    "1419e1de87975": ["function (y) ", "x"]
+    "9e411118b952": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
     "persistent": false,
     "dynamic": false,
     "selectize": false,
-    "opacityDim": 0.2,
+    "opacityDim": 0.20000000000000001,
     "selected": {
       "opacity": 1
     },

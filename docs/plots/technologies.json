@@ -2,18 +2,18 @@
   "data": [
     {
       "orientation": "v",
-      "width": [0.9, 0.9, 0.9, 0.9, 0.9],
+      "width": [0.89999999999999991, 0.90000000000000013, 0.90000000000000036, 0.90000000000000036, 0.90000000000000036],
       "base": [0, 0, 0, 0, 0],
       "x": [1, 2, 3, 4, 5],
-      "y": [0.840522875816993, 0.562091503267974, 0.0640522875816993, 0.0366013071895425, 0.0313725490196078],
-      "text": ["Technology: Oxford Nanopore<br />Count: 643 <br /> Percent: 84.1", "Technology: PacBio<br />Count: 430 <br /> Percent: 56.2", "Technology: 10X Genomics<br />Count: 49 <br /> Percent: 6.4", "Technology: Hi-C<br />Count: 28 <br /> Percent: 3.7", "Technology: Bionano Genomics<br />Count: 24 <br /> Percent: 3.1"],
+      "y": [0.83750000000000002, 0.56125000000000003, 0.063750000000000001, 0.035000000000000003, 0.03125],
+      "text": ["Technology: Oxford Nanopore<br />Count: 670 <br /> Percent: 83.8", "Technology: PacBio<br />Count: 449 <br /> Percent: 56.1", "Technology: 10X Genomics<br />Count: 51 <br /> Percent: 6.4", "Technology: Hi-C<br />Count: 28 <br /> Percent: 3.5", "Technology: Bionano Genomics<br />Count: 25 <br /> Percent: 3.1"],
       "type": "bar",
       "textposition": "none",
       "marker": {
         "autocolorscale": false,
         "color": "rgba(81,159,199,1)",
         "line": {
-          "width": 1.88976377952756,
+          "width": 1.8897637795275593,
           "color": "transparent"
         }
       },
@@ -34,14 +34,14 @@
     "font": {
       "color": "rgba(0,0,0,1)",
       "family": "",
-      "size": 18.5969281859693
+      "size": 18.596928185969279
     },
     "title": {
       "text": "<b> Technologies <\/b>",
       "font": {
         "color": "rgba(0,0,0,1)",
         "family": "",
-        "size": 26.5670402656704
+        "size": 26.567040265670396
       },
       "x": 0,
       "xref": "paper"
@@ -51,7 +51,7 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [0.4, 5.6],
+      "range": [0.40000000000000002, 5.5999999999999996],
       "tickmode": "array",
       "ticktext": ["Oxford Nanopore", "PacBio", "10X Genomics", "Hi-C", "Bionano Genomics"],
       "tickvals": [1, 2, 3, 4, 5],
@@ -60,18 +60,18 @@
       "nticks": null,
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
-      "ticklen": 4.64923204649232,
-      "tickwidth": 0.66417600664176,
+      "ticklen": 4.6492320464923198,
+      "tickwidth": 0.66417600664176002,
       "showticklabels": true,
       "tickfont": {
         "color": "rgba(0,0,0,1)",
         "family": "",
-        "size": 13.2835201328352
+        "size": 13.283520132835198
       },
       "tickangle": -60,
       "showline": true,
       "linecolor": "rgba(0,0,0,1)",
-      "linewidth": 0.66417600664176,
+      "linewidth": 0.66417600664176002,
       "showgrid": false,
       "gridcolor": null,
       "gridwidth": 0,
@@ -92,27 +92,27 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-0.0420261437908497, 0.882549019607843],
+      "range": [-0.041875000000000002, 0.87937500000000002],
       "tickmode": "array",
       "ticktext": ["0%", "20%", "40%", "60%", "80%"],
-      "tickvals": [0, 0.2, 0.4, 0.6, 0.8],
+      "tickvals": [0, 0.20000000000000004, 0.40000000000000002, 0.60000000000000009, 0.80000000000000004],
       "categoryorder": "array",
       "categoryarray": ["0%", "20%", "40%", "60%", "80%"],
       "nticks": null,
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
-      "ticklen": 4.64923204649232,
-      "tickwidth": 0.66417600664176,
+      "ticklen": 4.6492320464923216,
+      "tickwidth": 0.66417600664176002,
       "showticklabels": true,
       "tickfont": {
         "color": "rgba(0,0,0,1)",
         "family": "",
-        "size": 13.2835201328352
+        "size": 13.283520132835198
       },
       "tickangle": -0,
       "showline": true,
       "linecolor": "rgba(0,0,0,1)",
-      "linewidth": 0.66417600664176,
+      "linewidth": 0.66417600664176002,
       "showgrid": false,
       "gridcolor": null,
       "gridwidth": 0,
@@ -123,7 +123,7 @@
         "font": {
           "color": "rgba(0,0,0,1)",
           "family": "",
-          "size": 18.5969281859693
+          "size": 18.596928185969279
         }
       },
       "hoverformat": ".2f"
@@ -153,7 +153,7 @@
       "font": {
         "color": "rgba(0,0,0,1)",
         "family": "",
-        "size": 15.9402241594022
+        "size": 15.940224159402243
       }
     },
     "hovermode": "closest",
@@ -166,23 +166,23 @@
   },
   "source": "A",
   "attrs": {
-    "1419e43cdf39": {
+    "9e4130c8a44b": {
       "x": {},
       "weight": {},
       "text": {},
       "type": "bar"
     }
   },
-  "cur_data": "1419e43cdf39",
+  "cur_data": "9e4130c8a44b",
   "visdat": {
-    "1419e43cdf39": ["function (y) ", "x"]
+    "9e4130c8a44b": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
     "persistent": false,
     "dynamic": false,
     "selectize": false,
-    "opacityDim": 0.2,
+    "opacityDim": 0.20000000000000001,
     "selected": {
       "opacity": 1
     },
