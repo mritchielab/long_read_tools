@@ -2,18 +2,18 @@
   "data": [
     {
       "orientation": "v",
-      "width": [0.95, 0.95, 0.95, 0.95, 0.949999999999999, 0.949999999999999],
+      "width": [0.95000000000000007, 0.95000000000000018, 0.95000000000000018, 0.94999999999999973, 0.94999999999999929, 0.94999999999999929],
       "base": [0, 0, 0, 0, 0, 0],
       "x": [1, 2, 3, 4, 5, 6],
-      "y": [432, 95, 230, 230, 78, 52],
-      "text": ["Platform: Python<br />Count: 432<br />Percent: 38.7", "Platform: R<br />Count:  95<br />Percent: 8.5", "Platform: C<br />Count: 230<br />Percent: 20.6", "Platform: C++<br />Count: 230<br />Percent: 20.6", "Platform: Other<br />Count:  78<br />Percent: 7", "Platform: Unknown<br />Count:  52<br />Percent: 4.7"],
+      "y": [455, 102, 239, 239, 81, 53],
+      "text": ["Platform: Python<br />Count: 455<br />Percent: 38.9", "Platform: R<br />Count: 102<br />Percent: 8.7", "Platform: C<br />Count: 239<br />Percent: 20.4", "Platform: C++<br />Count: 239<br />Percent: 20.4", "Platform: Other<br />Count:  81<br />Percent: 6.9", "Platform: Unknown<br />Count:  53<br />Percent: 4.5"],
       "type": "bar",
       "textposition": "none",
       "marker": {
         "autocolorscale": false,
         "color": "rgba(199,121,81,1)",
         "line": {
-          "width": 1.88976377952756,
+          "width": 1.8897637795275593,
           "color": "transparent"
         }
       },
@@ -25,11 +25,11 @@
     },
     {
       "x": [1],
-      "y": [470.25],
-      "text": "38.7%",
-      "hovertext": "Platform: Python<br />Count: 432<br />Percent: 38.7",
+      "y": [495],
+      "text": "38.9%",
+      "hovertext": "Platform: Python<br />Count: 455<br />Percent: 38.9",
       "textfont": {
-        "size": 15.1181102362205,
+        "size": 15.118110236220474,
         "color": "rgba(248,118,109,1)"
       },
       "type": "scatter",
@@ -45,11 +45,11 @@
     },
     {
       "x": [2],
-      "y": [133.25],
-      "text": "8.5%",
-      "hovertext": "Platform: R<br />Count:  95<br />Percent: 8.5",
+      "y": [142],
+      "text": "8.7%",
+      "hovertext": "Platform: R<br />Count: 102<br />Percent: 8.7",
       "textfont": {
-        "size": 15.1181102362205,
+        "size": 15.118110236220474,
         "color": "rgba(248,118,109,1)"
       },
       "type": "scatter",
@@ -65,11 +65,11 @@
     },
     {
       "x": [3],
-      "y": [268.25],
-      "text": "20.6%",
-      "hovertext": "Platform: C<br />Count: 230<br />Percent: 20.6",
+      "y": [279],
+      "text": "20.4%",
+      "hovertext": "Platform: C<br />Count: 239<br />Percent: 20.4",
       "textfont": {
-        "size": 15.1181102362205,
+        "size": 15.118110236220474,
         "color": "rgba(248,118,109,1)"
       },
       "type": "scatter",
@@ -85,11 +85,11 @@
     },
     {
       "x": [4],
-      "y": [268.25],
-      "text": "20.6%",
-      "hovertext": "Platform: C++<br />Count: 230<br />Percent: 20.6",
+      "y": [279],
+      "text": "20.4%",
+      "hovertext": "Platform: C++<br />Count: 239<br />Percent: 20.4",
       "textfont": {
-        "size": 15.1181102362205,
+        "size": 15.118110236220474,
         "color": "rgba(248,118,109,1)"
       },
       "type": "scatter",
@@ -105,11 +105,11 @@
     },
     {
       "x": [5],
-      "y": [116.25],
-      "text": "7%",
-      "hovertext": "Platform: Other<br />Count:  78<br />Percent: 7",
+      "y": [121],
+      "text": "6.9%",
+      "hovertext": "Platform: Other<br />Count:  81<br />Percent: 6.9",
       "textfont": {
-        "size": 15.1181102362205,
+        "size": 15.118110236220474,
         "color": "rgba(248,118,109,1)"
       },
       "type": "scatter",
@@ -125,11 +125,11 @@
     },
     {
       "x": [6],
-      "y": [90.25],
-      "text": "4.7%",
-      "hovertext": "Platform: Unknown<br />Count:  52<br />Percent: 4.7",
+      "y": [93],
+      "text": "4.5%",
+      "hovertext": "Platform: Unknown<br />Count:  53<br />Percent: 4.5",
       "textfont": {
-        "size": 15.1181102362205,
+        "size": 15.118110236220474,
         "color": "rgba(248,118,109,1)"
       },
       "type": "scatter",
@@ -154,14 +154,14 @@
     "font": {
       "color": "rgba(0,0,0,1)",
       "family": "",
-      "size": 18.5969281859693
+      "size": 18.596928185969279
     },
     "title": {
       "text": "<b> Platforms <\/b>",
       "font": {
         "color": "rgba(0,0,0,1)",
         "family": "",
-        "size": 26.5670402656704
+        "size": 26.567040265670396
       },
       "x": 0,
       "xref": "paper"
@@ -171,27 +171,27 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [0.4, 6.6],
+      "range": [0.40000000000000002, 6.5999999999999996],
       "tickmode": "array",
       "ticktext": ["Python", "R", "C", "C++", "Other", "Unknown"],
-      "tickvals": [1, 2, 3, 4, 5, 6],
+      "tickvals": [1, 2, 3, 3.9999999999999996, 5, 6],
       "categoryorder": "array",
       "categoryarray": ["Python", "R", "C", "C++", "Other", "Unknown"],
       "nticks": null,
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
-      "ticklen": 4.64923204649232,
-      "tickwidth": 0.66417600664176,
+      "ticklen": 4.6492320464923198,
+      "tickwidth": 0.66417600664176002,
       "showticklabels": true,
       "tickfont": {
         "color": "rgba(0,0,0,1)",
         "family": "",
-        "size": 15.9402241594022
+        "size": 15.940224159402243
       },
       "tickangle": -60,
       "showline": true,
       "linecolor": "rgba(0,0,0,1)",
-      "linewidth": 0.66417600664176,
+      "linewidth": 0.66417600664176002,
       "showgrid": false,
       "gridcolor": null,
       "gridwidth": 0,
@@ -212,27 +212,27 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-23.5125, 493.7625],
+      "range": [-24.75, 519.75],
       "tickmode": "array",
-      "ticktext": ["0", "100", "200", "300", "400"],
-      "tickvals": [0, 100, 200, 300, 400],
+      "ticktext": ["0", "100", "200", "300", "400", "500"],
+      "tickvals": [0, 100, 200, 300, 400, 500],
       "categoryorder": "array",
-      "categoryarray": ["0", "100", "200", "300", "400"],
+      "categoryarray": ["0", "100", "200", "300", "400", "500"],
       "nticks": null,
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
-      "ticklen": 4.64923204649232,
-      "tickwidth": 0.66417600664176,
+      "ticklen": 4.6492320464923216,
+      "tickwidth": 0.66417600664176002,
       "showticklabels": true,
       "tickfont": {
         "color": "rgba(0,0,0,1)",
         "family": "",
-        "size": 15.9402241594022
+        "size": 15.940224159402243
       },
       "tickangle": -0,
       "showline": true,
       "linecolor": "rgba(0,0,0,1)",
-      "linewidth": 0.66417600664176,
+      "linewidth": 0.66417600664176002,
       "showgrid": false,
       "gridcolor": null,
       "gridwidth": 0,
@@ -243,7 +243,7 @@
         "font": {
           "color": "rgba(0,0,0,1)",
           "family": "",
-          "size": 18.5969281859693
+          "size": 18.596928185969279
         }
       },
       "hoverformat": ".2f"
@@ -273,7 +273,7 @@
       "font": {
         "color": "rgba(0,0,0,1)",
         "family": "",
-        "size": 15.9402241594022
+        "size": 15.940224159402243
       }
     },
     "hovermode": "closest",
@@ -286,14 +286,14 @@
   },
   "source": "A",
   "attrs": {
-    "1419e71886c64": {
+    "9e416d1da173": {
       "x": {},
       "weight": {},
       "fill": {},
       "text": {},
       "type": "bar"
     },
-    "1419e33845377": {
+    "9e413452bcfc": {
       "x": {},
       "weight": {},
       "fill": {},
@@ -303,17 +303,17 @@
       "colour": {}
     }
   },
-  "cur_data": "1419e71886c64",
+  "cur_data": "9e416d1da173",
   "visdat": {
-    "1419e71886c64": ["function (y) ", "x"],
-    "1419e33845377": ["function (y) ", "x"]
+    "9e416d1da173": ["function (y) ", "x"],
+    "9e413452bcfc": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
     "persistent": false,
     "dynamic": false,
     "selectize": false,
-    "opacityDim": 0.2,
+    "opacityDim": 0.20000000000000001,
     "selected": {
       "opacity": 1
     },
