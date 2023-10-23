@@ -17,5 +17,5 @@ python3 docs/test_server.py
 #If happy, push to fork and then request merge with the upstream official mritchielab repo.
 git add *
 #change commit message to what i've actually added/updated for tracking purposes
-git commit -m "Added more tools posted in slack, updated some publications"
+git commit -m "Added 10 tools posted in slack, updated some publications"
 git push
