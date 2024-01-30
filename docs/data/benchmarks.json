@@ -85,7 +85,7 @@
   },
   {
     "Title": "Comprehensive benchmark and architectural analysis of deep learning models for nanopore sequencing basecalling",
-    "Authors": "Marc Pagès-Gallego, Jeroen de Ridder",
+    "Authors": "Marc Pages-Gallego, Jeroen de Ridder",
     "Year": "2023",
     "Journal": "Genome Biology",
     "Issue": "24",
@@ -96,11 +96,11 @@
     "Categories": "Basecalling, EvalutatingExistingMethods",
     "ToolsCompared": "MinCall, CausalCall, URNano, SACall, CATCaller, Bonito, Halcyon",
     "BenchmarkData": "Nanopore sequencing data for Human, Bacteria and Lambda phage",
-    "Recommendations": " The CNN-LSTM-CRF combination will give the most competitive performance"
+    "Recommendations": "The CNN-LSTM-CRF combination will give the most competetive performance"
   },
   {
     "Title": "A comparison of short-read, HiFi long-read, and hybrid strategies for genome-resolved metagenomics",
-    "Authors": "Raphael Eisenhofer, Joseph Nesme, Luisa Santos-Bay, Adam Koziol,  Søren Johannes Sørensen,  Antton Alberdi,  Ostaizka Aizpurua",
+    "Authors": "Raphael Eisenhofer, Joseph Nesme, Luisa Santos-Bay, Adam Koziol, Soren Johannes Sorenson, Antoon Alberdi, Ostaizka Aizpurua",
     "Year": "2023",
     "Journal": "bioRxiv",
     "Abstract": "Background: Shotgun metagenomics enables the reconstruction of complex microbial communities at a high level of detail. Such an approach can be conducted using both short-read and long-read sequencing data, as well as a combination of both. To assess the pros and cons of these different approaches, we used 22 faecal DNA extracts collected weekly for 11 weeks from two respective lab mice to study seven performance metrics over four combinations of sequencing depth and technology: i) 20 Gbp of Illumina short-read data, ii) 40 Gbp of short-read data, iii) 20 Gbp of PacBio HiFi long-read data, and iv) 40 Gbp of hybrid (20 Gbp of short-read + 20 Gbp of long-read) data. No strategy was best for all metrics, but instead, each one excelled across different metrics. The long-read approach yielded the best assembly statistics, with the highest N50 and lowest number of contigs. The 40 Gbp short-read approach yielded the highest number of refined bins. Finally, the hybrid approach yielded the longest assemblies, and the highest mapping rate to the bacterial genomes. Our results suggest that while long-read sequencing significantly improves the quality of reconstructed bacterial genomes, it is more expensive and requires deeper sequencing than short-read approaches to recover a comparable amount of reconstructed genomes. The most optimal strategy is study-specific, and depends on how researchers assess the tradeoff between the quantity and quality of recovered genomes.",
@@ -112,7 +112,7 @@
   },
   {
     "Title": "Different structural variant prediction tools yield considerably different results in Caenorhabditis elegans",
-    "Authors": "Kyle Lesack, Grace M. Mariene, Erik C. Andersen, James D. Wasmuth ",
+    "Authors": "Kyle Lesack, Grace M. Mariene, Erik C. Andersen, James D. Wasmuth",
     "Year": "2022",
     "Journal": "PLOS ONE",
     "Issue": "17",
@@ -127,7 +127,7 @@
   },
   {
     "Title": "Comprehensive Assessment of Eleven de novo HiFi Assemblers on Complex Eukaryotic Genomes and Metagenomes",
-    "Authors": "Wenjuan Yu, Haohui Luo, Jinbao Yang, Shengchen Zhang, Heling Jiang, Xianjia Zhao, Xingqi Hui, Da Sun, Liang Li, Xiu-qing Wei, Stefano Lonardi, Weihua Pan",
+    "Authors": "Wenjuan Yu, Haohui Luo, Jinbao Yang, Shengchen Zhang, Heling Jiang, Xianjia Zhao, Xingqi Hui, Da Sun, Liang Li, Xiu-qing Wei, Stefano Lonardi, Weihua Pan",
     "Year": "2023",
     "Journal": "bioRxiv",
     "Abstract": "Background: Pacific Bioscience HiFi sequencing technology generates long reads (>10 kbp) with very high accuracy (less than 0.01% sequencing error). While several de novo assembly tools are available for HiFi reads, there are no comprehensive studies on the evaluation of these assemblers.",
@@ -140,7 +140,7 @@
   },
   {
     "Title": "Whole-genome long-read sequencing downsampling and its effect on variant calling precision and recall",
-    "Authors": "William T. Harvey,  Peter Ebert,  Jana Ebler,  Peter A. Audano,  Katherine M. Munson,  Kendra Hoekzema,  David Porubsky,  Christine R. Beck,  Tobias Marschall,  Kiran Garimella,  Evan E. Eichler",
+    "Authors": "William T. Harvey,  Peter Ebert,  Jana Ebler,  Peter A. Audano,  Katherine M. Munson,  Kendra Hoekzema,  David Porubsky,  Christine R. Beck,  Tobias Marschall,  Kiran Garimella,  Evan E. Eichler",
     "Year": "2023",
     "Journal": "bioRxiv",
     "Abstract": "Background: Advances in long-read sequencing (LRS) technology continue to make whole-genome sequencing more complete, affordable, and accurate. LRS provides significant advantages over short-read sequencing approaches, including phased de novo genome assembly, access to previously excluded genomic regions, and discovery of more complex structural variants (SVs) associated with disease. Limitations remain with respect to cost, scalability, and platform-dependent read accuracy and the tradeoffs between sequence coverage and sensitivity of variant discovery are important experimental considerations for the application of LRS. We compare the genetic variant calling precision and recall of Oxford Nanopore Technologies (ONT) and PacBio HiFi platforms over a range of sequence coverages. For read-based applications, LRS sensitivity begins to plateau around 12-fold coverage with a majority of variants called with reasonable accuracy (F1 score above 0.5), and both platforms perform well for SV detection. Genome assembly increases variant calling precision and recall of SVs and indels in HiFi datasets with HiFi outperforming ONT in quality as measured by the F1 score of assembly-based variant callsets. While both technologies continue to evolve, our work offers guidance to design cost-effective experimental strategies that do not compromise on discovering novel biology.",
@@ -158,7 +158,7 @@
     "Journal": "Genes",
     "Issue": "13",
     "Volume": "1583",
-    "Abstract": "Background: The goal of biomarker testing, in the field of personalized medicine, is to guide treat- ments to achieve the best possible results for each patient. The accurate and reliable identification of everyone’s genome variants is essential for the success of clinical genomics, employing third- generation sequencing. Different variant calling techniques have been used and recommended by both Oxford Nanopore Technologies (ONT) and Nanopore communities. A thorough examination of the variant callers might give critical guidance for third-generation sequencing-based clinical genomics. In this study, two reference genome sample datasets (NA12878) and (NA24385) and the set of high-confidence variant calls provided by the Genome in a Bottle (GIAB) were used to allow the evaluation of the performance of six variant calling tools, including Human-SNP-wf, Clair3, Clair, NanoCaller, Longshot, and Medaka, as an integral step in the in-house variant detection workflow. Out of the six variant callers understudy, Clair3 and Human-SNP-wf that has Clair3 incorporated into it achieved the highest performance rates in comparison to the other variant callers. Evaluation of the results for the tool was expressed in terms of Precision, Recall, and F1-score using Hap.py tools for the comparison. In conclusion, our findings give important insights for identifying accurate variants from third-generation sequencing of personal genomes using different variant detection tools available for long-read sequencing.",
+    "Abstract": "Background: The goal of biomarker testing, in the field of personalized medicine, is to guide treat- ments to achieve the best possible results for each patient. The accurate and reliable identification of everyones genome variants is essential for the success of clinical genomics, employing third- generation sequencing. Different variant calling techniques have been used and recommended by both Oxford Nanopore Technologies (ONT) and Nanopore communities. A thorough examination of the variant callers might give critical guidance for third-generation sequencing-based clinical genomics. In this study, two reference genome sample datasets (NA12878) and (NA24385) and the set of high-confidence variant calls provided by the Genome in a Bottle (GIAB) were used to allow the evaluation of the performance of six variant calling tools, including Human-SNP-wf, Clair3, Clair, NanoCaller, Longshot, and Medaka, as an integral step in the in-house variant detection workflow. Out of the six variant callers understudy, Clair3 and Human-SNP-wf that has Clair3 incorporated into it achieved the highest performance rates in comparison to the other variant callers. Evaluation of the results for the tool was expressed in terms of Precision, Recall, and F1-score using Hap.py tools for the comparison. In conclusion, our findings give important insights for identifying accurate variants from third-generation sequencing of personal genomes using different variant detection tools available for long-read sequencing.",
     "doi": "https://doi.org/10.3390/ genes13091583",
     "Technology": "Oxford Nanopore",
     "Categories": "SNPAndVariantAnalysis",
@@ -179,11 +179,11 @@
     "Categories": "SNPAndVariantAnalysis",
     "ToolsCompared": "SVIM-asm, SVIM, Sniffles, PBSV, MAMnet",
     "BenchmarkData": "ALT1 and ALT2 C.elegans PacBio HiFi datasets",
-    "Recommendations": "By directly comparing accurate and noisy long-read sequencing technologies, the results of the present study demonstrate that improvements in true- and false-positive variant calling can be achieved using HiFi instead of CLR. Furthermore, we present a HiFi experimental design that allows cost-effective and high-quality variant calling with consideration of the high cost per base pair of HiFi. Our findings also demonstrate that 10___HiFi data are sufficient for efficient variant detection and that genome assembly is recommended prior to variant calling, even at low depths. "
+    "Recommendations": "By directly comparing accurate and noisy long-read sequencing technologies, the results of the present study demonstrate that improvements in true- and false-positive variant calling can be achieved using HiFi instead of CLR. Furthermore, we present a HiFi experimental design that allows cost-effective and high-quality variant calling with consideration of the high cost per base pair of HiFi. Our findings also demonstrate that By directly comparing accurate and noisy long-read sequencing technologies, the results of the present study demonstrate that improvements in true- and false-positive variant calling can be achieved using HiFi instead of CLR. Furthermore, we present a HiFi experimental design that allows cost-effective and high-quality variant calling with consideration of the high cost per base pair of HiFi. Our findings also demonstrate that 10X HiFi data are sufficient for efficient variant detection and that genome assembly is recommended prior to variant calling, even at low depths.HiFi data are sufficient for efficient variant detection and that genome assembly is recommended prior to variant calling, even at low depths. "
   },
   {
     "Title": "Systematic comparison of tools used for m6A mapping from nanopore direct RNA sequencing",
-    "Authors": "Zhen-Dong Zhong, Ying-Yuan Xie, Hong-Xuan Chen, Ye-Lin Lan, Xue-Hong Liu, Jing-Yun Ji, Fu Wu, Lingmei Jin, Jiekai Chen, Daniel W. Mak, Zhang Zhang & Guan-Zheng Luo ",
+    "Authors": "Zhen-Dong Zhong, Ying-Yuan Xie, Hong-Xuan Chen, Ye-Lin Lan, Xue-Hong Liu, Jing-Yun Ji, Fu Wu, Lingmei Jin, Jiekai Chen, Daniel W. Mak, Zhang Zhang & Guan-Zheng Luo",
     "Year": "2023",
     "Journal": "Nature Communitcations",
     "Issue": "14",
@@ -198,7 +198,7 @@
   },
   {
     "Title": "When do longer reads matter? A benchmark of long read de novo assembly tools for eukaryotic genomes",
-    "Authors": "Bianca-Maria Cosma,  Ramin Shirali Hossein Zade, Erin Noel Jordan, Paul van Lent, Chengyao Peng, Stephanie Pillay, Thomas Abeel",
+    "Authors": "Bianca-Maria Cosma,  Ramin Shirali Hossein Zade, Erin Noel Jordan, Paul van Lent, Chengyao Peng, Stephanie Pillay, Thomas Abeel",
     "Year": "2023",
     "Journal": "bioRxiv",
     "Abstract": "Background: Assembly algorithm choice should be a deliberate, well-justified decision when researchers create genome assemblies for eukaryotic organisms from third-generation sequencing technologies. While third-generation sequencing by Oxford Nanopore Technologies (ONT) and Pacific Biosciences (PacBio) have overcome the disadvantages of short read lengths specific to next-generation sequencing (NGS), third-generation sequencers are known to produce more error-prone reads, thereby generating a new set of challenges for assembly algorithms and pipelines. Since the introduction of third-generation sequencing technologies, many tools have been developed that aim to take advantage of the longer reads, and researchers need to choose the correct assembler for their projects.",
@@ -224,7 +224,7 @@
   },
   {
     "Title": "Comprehensive evaluation of structural variant genotyping methods based on long-read sequencing data",
-    "Authors": "Xiaoke Duan, Mingpei Pan & Shaohua Fan ",
+    "Authors": "Xiaoke Duan, Mingpei Pan & Shaohua Fan",
     "Year": "2022",
     "Journal": "BMC Genomics",
     "Issue": "23",
@@ -239,12 +239,14 @@
   },
   {
     "Title": "Benchmarking of small and large variants across tandem repeats",
-    "Authors": "Adam English,  Egor Dolzhenko,  Helyaneh Ziaei Jam,  Sean Mckenzie,  Nathan D. Olson,  Wouter De Coster,  Jonghun Park,  Bida Gu,  Justin Wagner,   Michael A Eberle, Melissa Gymrek, Mark J.P. Chaisson,  Justin M. Zook,  Fritz J Sedlazeck",
+    "Authors": "Adam English,  Egor Dolzhenko,  Helyaneh Ziaei Jam,  Sean Mckenzie,  Nathan D. Olson,  Wouter De Coster,  Jonghun Park,  Bida Gu,  Justin Wagner,  Michael A Eberle, Melissa Gymrek, Mark J.P. Chaisson,  Justin M. Zook,  Fritz J Sedlazeck",
     "Year": "2023",
     "Journal": "bioRxiv",
     "Abstract": "Background: Tandem repeats (TRs) are highly polymorphic in the human genome, have thousands of associated molecular traits, and are linked to over 60 disease phenotypes. However, their complexity often excludes them from at-scale studies due to challenges with variant calling, representation, and lack of a genome-wide standard. To promote TR methods development, we create a comprehensive catalog of TR regions and explore its properties across 86 samples. We then curate variants from the GIAB HG002 individual to create a tandem repeat benchmark. We also present a variant comparison method that handles small and large alleles and varying allelic representation. The 8.1% of the genome covered by the TR catalog holds _24.9% of variants per individual, including 124,728 small and 17,988 large variants for the GIAB HG002 TR benchmark. We work with the GIAB community to demonstrate the utility of this benchmark across short and long read technologies.",
-    "doi": "doi.org/10.1101/2023.10.29.564632",
+    "doi": "https://doi.org/10.1101/2023.10.29.564632",
     "Technology": "Oxford Nanopore, Pacific Biosciences",
-    "Categories": "SNPAndVariantAnalysis"
+    "Categories": "SNPAndVariantAnalysis",
+    "ToolsCompared": "TRGT, Medakka, HipSTR, GangSTR, GIAB",
+    "BenchmarkData": "HG002"
   }
 ]
