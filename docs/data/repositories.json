@@ -361,7 +361,8 @@
     "Ignored": ["PyPI/megalodon"]
   },
   "pandora": {
-    "Ignored": ["PyPI/pandora"]
+    "Ignored": ["PyPI/pandora"],
+    "CRAN": ["Pandora"]
   },
   "pycoMeth": {
     "Ignored": ["PyPI/pycoMeth"]
@@ -628,7 +629,8 @@
     "Ignored": ["PyPI/hiss"]
   },
   "Sketching": {
-    "Ignored": ["CRAN/sketching"]
+    "Ignored": ["CRAN/sketching"],
+    "PyPI": ["sketching"]
   },
   "TrEMOLO": {
     "PyPI": ["tremolo"]
@@ -717,5 +719,36 @@
   },
   "TALC": {
     "PyPI": ["talc"]
+  },
+  "HERO": {
+    "CRAN": ["hero"],
+    "PyPI": ["hero"]
+  },
+  "LAPA": {
+    "PyPI": ["lapa"]
+  },
+  "Mana": {
+    "PyPI": ["mana"]
+  },
+  "MisER": {
+    "PyPI": ["MisER"]
+  },
+  "nanoseq": {
+    "PyPI": ["nanoSeq"]
+  },
+  "QUILT": {
+    "PyPI": ["quilt"]
+  },
+  "RAFT": {
+    "PyPI": ["raft"]
+  },
+  "Severus": {
+    "PyPI": ["severus"]
+  },
+  "SLSim": {
+    "PyPI": ["slsim"]
+  },
+  "Xron": {
+    "PyPI": ["xron"]
   }
 }

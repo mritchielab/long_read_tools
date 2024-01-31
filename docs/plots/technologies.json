@@ -5,8 +5,8 @@
       "width": [0.89999999999999991, 0.90000000000000013, 0.90000000000000036, 0.90000000000000036, 0.90000000000000036],
       "base": [0, 0, 0, 0, 0],
       "x": [1, 2, 3, 4, 5],
-      "y": [0.84330143540669855, 0.55980861244019142, 0.065789473684210523, 0.034688995215311005, 0.029904306220095694],
-      "text": ["Technology: Oxford Nanopore<br />Count: 705 <br /> Percent: 84.3", "Technology: PacBio<br />Count: 468 <br /> Percent: 56", "Technology: 10X Genomics<br />Count: 55 <br /> Percent: 6.6", "Technology: Hi-C<br />Count: 29 <br /> Percent: 3.5", "Technology: Bionano Genomics<br />Count: 25 <br /> Percent: 3"],
+      "y": [0, 0, 0, 0, 0],
+      "text": ["Technology: Bionano Genomics<br />Count: NA <br /> Percent: NA", "Technology: Hi-C<br />Count: NA <br /> Percent: NA", "Technology: Oxford Nanopore<br />Count: NA <br /> Percent: NA", "Technology: PacBio<br />Count: NA <br /> Percent: NA", "Technology: 10X Genomics<br />Count: NA <br /> Percent: NA"],
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -53,10 +53,10 @@
       "autorange": false,
       "range": [0.40000000000000002, 5.5999999999999996],
       "tickmode": "array",
-      "ticktext": ["Oxford Nanopore", "PacBio", "10X Genomics", "Hi-C", "Bionano Genomics"],
+      "ticktext": ["Bionano Genomics", "Hi-C", "Oxford Nanopore", "PacBio", "10X Genomics"],
       "tickvals": [1, 2, 3, 4, 5],
       "categoryorder": "array",
-      "categoryarray": ["Oxford Nanopore", "PacBio", "10X Genomics", "Hi-C", "Bionano Genomics"],
+      "categoryarray": ["Bionano Genomics", "Hi-C", "Oxford Nanopore", "PacBio", "10X Genomics"],
       "nticks": null,
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
@@ -92,12 +92,12 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-0.042165071770334933, 0.88546650717703346],
+      "range": [-0.050000000000000003, 0.050000000000000003],
       "tickmode": "array",
-      "ticktext": ["0%", "20%", "40%", "60%", "80%"],
-      "tickvals": [0, 0.20000000000000004, 0.40000000000000002, 0.60000000000000009, 0.80000000000000004],
+      "ticktext": ["-5.0%", "-2.5%", "0.0%", "2.5%", "5.0%"],
+      "tickvals": [-0.050000000000000003, -0.025000000000000001, 0, 0.025000000000000008, 0.050000000000000003],
       "categoryorder": "array",
-      "categoryarray": ["0%", "20%", "40%", "60%", "80%"],
+      "categoryarray": ["-5.0%", "-2.5%", "0.0%", "2.5%", "5.0%"],
       "nticks": null,
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
@@ -166,16 +166,16 @@
   },
   "source": "A",
   "attrs": {
-    "7b5b25447401": {
+    "1044e446dc587": {
       "x": {},
       "weight": {},
       "text": {},
       "type": "bar"
     }
   },
-  "cur_data": "7b5b25447401",
+  "cur_data": "1044e446dc587",
   "visdat": {
-    "7b5b25447401": ["function (y) ", "x"]
+    "1044e446dc587": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
