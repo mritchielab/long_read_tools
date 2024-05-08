@@ -497,7 +497,8 @@
     "PyPI": ["isotools"]
   },
   "Kart": {
-    "Ignored": ["PyPI/kart"]
+    "Ignored": ["PyPI/kart"],
+    "PyPI": ["Kart"]
   },
   "m6anet": {
     "PyPI": ["m6anet"]
@@ -750,5 +751,57 @@
   },
   "Xron": {
     "PyPI": ["xron"]
+  },
+  "CLAW": {
+    "PyPI": ["claw"]
+  },
+  "HaplotagLR": {
+    "PyPI": ["HaplotagLR"]
+  },
+  "Klumpy": {
+    "PyPI": ["klumpy"]
+  },
+  "mAFIA": {
+    "PyPI": ["mafia"]
+  },
+  "MeOW": {
+    "PyPI": ["meow"]
+  },
+  "Nanomotif": {
+    "PyPI": ["nanomotif"]
+  },
+  "NEMO": {
+    "PyPI": ["NEMO"]
+  },
+  "Paraphase": {
+    "PyPI": ["paraphase"]
+  },
+  "pathSTR": {
+    "PyPI": ["pathstr"]
+  },
+  "pbAA": {
+    "PyPI": ["pbaa"]
+  },
+  "PRO": {
+    "CRAN": ["pro"],
+    "PyPI": ["pro"]
+  },
+  "REViewer": {
+    "PyPI": ["reviewer"]
+  },
+  "rhea": {
+    "PyPI": ["rhea"]
+  },
+  "RUBICON": {
+    "PyPI": ["rubicon"]
+  },
+  "TREAT": {
+    "PyPI": ["treat"]
+  },
+  "Uncalled4": {
+    "PyPI": ["uncalled4"]
+  },
+  "YaHS": {
+    "PyPI": ["yahs"]
   }
 }
