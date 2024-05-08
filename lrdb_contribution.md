@@ -19,3 +19,4 @@ git add *
 #change commit message to what i've actually added/updated for tracking purposes
 git commit -m "Added 10 tools posted in slack, updated some publications"
 git push
+
