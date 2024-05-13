@@ -34,7 +34,6 @@
     "Authors": "Surui Pei, Tao Liu, Xue Ren, Weizhong Li, Chongjian Chen, Zhi Xie",
     "Year": "2020",
     "Journal": "Briefings in Bioinformatics",
-    "Issue": "bbaa",
     "Volume": "148",
     "Abstract": "DNA variants represent an important source of genetic variations among individuals. Next- generation sequencing (NGS) is the most popular technology for genome-wide variant calling. Third-generation sequencing (TGS) has also recently been used in genetic studies. Although many variant callers are available, no single caller can call both types of variants on NGS or TGS data with high sensitivity and specificity. In this study, we systematically evaluated 11 variant callers on 12 NGS and TGS datasets. For germline variant calling, we tested DNAseq and DNAscope modes from Sentieon, HaplotypeCaller mode from GATK and WGS mode from DeepVariant. All the four callers had comparable performance on NGS data and 30√ó coverage of WGS data was recommended. For germline variant calling on TGS data, we tested DNAseq mode from Sentieon, HaplotypeCaller mode from GATK and PACBIO mode from DeepVariant. All the three callers had similar performance in SNP calling, while DeepVariant outperformed the others in InDel calling. TGS detected more variants than NGS, particularly in complex and repetitive regions. For somatic variant calling on NGS, we tested TNscope and TNseq modes from Sentieon, MuTect2 mode from GATK, NeuSomatic, VarScan2, and Strelka2. TNscope and Mutect2 outperformed the other callers. A higher proportion of tumor sample purity (from 10 to 20%) significantly increased the recall value of calling. Finally, computational costs of the callers were compared and Sentieon required the least computational cost. These results suggest that careful selection of a tool and parameters is needed for accurate SNP or InDel calling under different scenarios.",
     "doi": "https://doi.org/10.1093/bib/bbaa148",
@@ -121,7 +120,7 @@
     "doi": "https://doi.org/10.1371/journal.pone.0278424",
     "Technology": "Illumina,Pac Bio",
     "Categories": "SNPAndVariantAnalysis",
-    "ToolsCompared": "BreakDancer, cnMOPS, CNVnator, DELLY, Hydra, Lumpy, FusorSV",
+    "ToolsCompared": "BreakDancer, CnMOPS, CNVnator, DELLY, Hydra, Lumpy, FusorSV",
     "BenchmarkData": "Illumina short-read, PacBio long-read",
     "Recommendations": "The results obtained from simulated data indicate that the best performing tool is contingent on the type and size of the variant, as well as the sequencing depth of coverage"
   },
@@ -134,7 +133,7 @@
     "doi": "https://doi.org/10.1101/2023.06.29.546998",
     "Technology": "Pac Bio",
     "Categories": "Metagenomics, DenovoAssembly",
-    "ToolsCompared": "HiCanu, hifiasm, HiFlye, MECAT2, miniasm, NextDenovo, Shasta, Peregrine, Verkko",
+    "ToolsCompared": "HiCanu, Hifiasm, HiFlye, MECAT2, Miniasm, NextDenovo, Shasta, Peregrine, Verkko",
     "BenchmarkData": "PacBio HiFi genomic data, simulated datasets",
     "Recommendations": "On complex eukaryotic genomes, Hifiasm had a clear advantage over the other assemblers in all tested experiments. On synthetic datasets, Hifiasm, HiCanu, and HiFlye performed equally well. Shasta and Peregrine had good performance across varying ploidy, but required high computational resources. On metagenomic datasets, Hifiasm-meta demonstrated a clear advantage over other assemblers."
   },
@@ -147,7 +146,7 @@
     "doi": "https://doi.org/10.1101/2023.05.04.539448",
     "Technology": "Oxford Nanopore,Pac Bio",
     "Categories": "SNPAndVariantAnalysis",
-    "ToolsCompared": "Clair3, cuteSV, DeepVariant, Delly, PEPPER-Margin-DeepVariant, Sniffles, PBSV, SVIM, PAV, SVIM-asm",
+    "ToolsCompared": "Clair3, CuteSV, DeepVariant, Delly, PEPPER-Margin-DeepVariant, Sniffles, PBSV, SVIM, PAV, SVIM-asm",
     "BenchmarkData": "HG00733, HG002 WGS on Nanopore and PacBio platforms",
     "Recommendations": "In summary, when deciding LRS depth targets, the intended purpose of the project must be considered. If the goal is recovery and characterization of SNVs at a population scale, low-depth read-based methods will provide the right balance of maximizing discovery and number of samples in the study. However, if the goal is sequence resolution of large and complex variants at the level of individual patients, assembly-based methods, in particular hifiasm, are currently one of the most accurate strategies for building phased genome assemblies but require greater investment in terms of sequence coverage (well beyond 15X) and computational processing."
   },
@@ -179,7 +178,7 @@
     "Categories": "SNPAndVariantAnalysis",
     "ToolsCompared": "SVIM-asm, SVIM, Sniffles, PBSV, MAMnet",
     "BenchmarkData": "ALT1 and ALT2 C.elegans PacBio HiFi datasets",
-    "Recommendations": "By directly comparing accurate and noisy long-read sequencing technologies, the results of the present study demonstrate that improvements in true- and false-positive variant calling can be achieved using HiFi instead of CLR. Furthermore, we present a HiFi experimental design that allows cost-effective and high-quality variant calling with consideration of the high cost per base pair of HiFi. Our findings also demonstrate that By directly comparing accurate and noisy long-read sequencing technologies, the results of the present study demonstrate that improvements in true- and false-positive variant calling can be achieved using HiFi instead of CLR. Furthermore, we present a HiFi experimental design that allows cost-effective and high-quality variant calling with consideration of the high cost per base pair of HiFi. Our findings also demonstrate that 10X HiFi data are sufficient for efficient variant detection and that genome assembly is recommended prior to variant calling, even at low depths.HiFi data are sufficient for efficient variant detection and that genome assembly is recommended prior to variant calling, even at low depths. "
+    "Recommendations": "By directly comparing accurate and noisy long-read sequencing technologies, the results of the present study demonstrate that improvements in true- and false-positive variant calling can be achieved using HiFi instead of CLR. Furthermore, we present a HiFi experimental design that allows cost-effective and high-quality variant calling with consideration of the high cost per base pair of HiFi. Our findings also demonstrate that By directly comparing accurate and noisy long-read sequencing technologies, the results of the present study demonstrate that improvements in true- and false-positive variant calling can be achieved using HiFi instead of CLR. Furthermore, we present a HiFi experimental design that allows cost-effective and high-quality variant calling with consideration of the high cost per base pair of HiFi. Our findings also demonstrate that 10X HiFi data are sufficient for efficient variant detection and that genome assembly is recommended prior to variant calling, even at low depths.HiFi data are sufficient for efficient variant detection and that genome assembly is recommended prior to variant calling, even at low depths"
   },
   {
     "Title": "Systematic comparison of tools used for m6A mapping from nanopore direct RNA sequencing",
@@ -192,7 +191,7 @@
     "doi": "https://doi.org/10.1038/s41467-023-37596-5",
     "Technology": "Oxford Nanopore",
     "Categories": "BaseModificationDetection",
-    "ToolsCompared": "Tombo, MINES, Nanom6A, m6Anet, ELIGOS, Epinano",
+    "ToolsCompared": "Tombo, MINES, Nanom6A, M6Anet, ELIGOS, Epinano",
     "BenchmarkData": "Nanopore DRS data, Illumina validation datasets",
     "Recommendations": "m6Anet, xPore and Nanocompore achieved the highest precision at the cost of lowest recall, while Tombo and Tombo_com achieved the opposite. Nevertheless, integrated predictions from all tools achieved better performance than individual tools, especially when using m6A sites which were supported by multiple tools (>4). As for quantitation, methylation rates reported by Tombo/Tombo_com, Nanom6A and xPore showed positive correlation to the enrichment score determined by MeRIP-seq, but were poorly agreed across ONT tools or with the methylation rates quantified by m6A-REF-seq. Taken together, there is still room for improvement in the algorithms for the identification and quantification of RNA modifications from ONT DRS datasets."
   },
@@ -218,7 +217,7 @@
     "doi": "https://doi.org/10.21203/rs.3.rs-2176102/v1",
     "Technology": "Oxford Nanopore,Pac Bio",
     "Categories": "SNPAndVariantAnalysis",
-    "ToolsCompared": "PBHoney, NanoSV, Smartie-sv, Sniffles, SVIM, cuteSV, NanoVar, pbsv, SKSV, MAMnet, DeBreak, Sniffles2, Dipcall, Smartie-sv, SVIM-asm, PAV",
+    "ToolsCompared": "PBHoney, NanoSV, Smartie-sv, Sniffles, SVIM, CuteSV, NanoVar, Pbsv, SKSV, MAMnet, DeBreak, Sniffles2, Dipcall, Smartie-sv, SVIM-asm, PAV",
     "BenchmarkData": "PacBio CLR and HiFi data, ONT WGS dataset",
     "Recommendations": "The SV calling performance of assembly-based tools did not diminish significantly until se-quencing coverage dropped to 10x or less. Our analysisfor assembly break in HifiL1 suggests that the assem-bly quality is worse at low coverage (e.g. 20x) versushigh coverage (e.g. 50x), and it influences genotypeaccuracy the most."
   },
@@ -233,7 +232,7 @@
     "doi": "https://doi.org/10.1186/s12864-022-08548-y",
     "Technology": "Oxford Nanopore,Pac Bio",
     "Categories": "SNPAndVariantAnalysis",
-    "ToolsCompared": "cuteSV, LRcaller, Sniffles, SVJedi, VaPoR",
+    "ToolsCompared": "CuteSV, LRcaller, Sniffles, SVJedi, VaPoR",
     "BenchmarkData": "HG002, HG005, simulated data",
     "Recommendations": "RS-based genotyping methods not only genotyped higher numbers of SVs, but also yielded better accuracy than the SRS-based methods. For example, cuteSV and LRcaller genotyped 99.98% (12,743 of 12,745) and 100% (12,745 of 12,745) of Tier 1 SVs of HG002. In comparison, a prior study [35] showed that vg and paragraph, two SRS-based methods, genotyped 88.76% (11,313 of 12,745) and 93.17% (11,874 of 12,745). In addition, we found 10,074 consistent genotypes for cuteSV, LRcaller, and Tier 1 SVs of HG002, which is higher than the number (6612) between vg [23] and paragraph [22], suggesting a better congruence of LRS-based genotyping methods than the SRS-based methods."
   },
@@ -249,5 +248,59 @@
     "ToolsCompared": "TRGT, Medakka, HipSTR, GangSTR, Truvari",
     "BenchmarkData": "HG002",
     "Recommendations": "Recommend the use of their TR catalog and benchmark for short and long read technology when investigating variants. They present improvements to a popular variant comparison tool Truvari"
+  },
+  {
+    "Title": "Benchmarking of computational methods for m6A profiling with Nanopore direct RNA sequencing",
+    "Authors": "Simone Maestri, Mattia Furlan, Logan Mulroney, Lucia Coscujuela Tarrero, Camilla Ugolini, Fabio Dalla Pozza, Tommaso Leonardi, Ewan Birney, Francesco Nicassio, Mattia Pelizzola",
+    "Year": "2024",
+    "Journal": "Briefings in Bioinformatics",
+    "Issue": "2",
+    "Volume": "25",
+    "Abstract": "N6-methyladenosine (m6A) is the most abundant internal eukaryotic mRNA modification, and is involved in the regulation of various biological processes. Direct Nanopore sequencing of native RNA (dRNA-seq) emerged as a leading approach for its identification. Several software were published for m6A detection and there is a strong need for independent studies benchmarking their performance on data from different species, and against various reference datasets. Moreover, a computational workflow is needed to streamline the execution of tools whose installation and execution remains complicated. We developed NanOlympicsMod, a Nextflow pipeline exploiting containerized technology for comparing 14 tools for m6A detection on dRNA-seq data. NanOlympicsMod was tested on dRNA-seq data generated from in vitro (un)modified synthetic oligos. The m6A hits returned by each tool were compared to the m6A position known by design of the oligos. In addition, NanOlympicsMod was used on dRNA-seq datasets from wild-type and m6A-depleted yeast, mouse and human, and each tool’s hits were compared to reference m6A sets generated by leading orthogonal methods. The performance of the tools markedly differed across datasets, and methods adopting different approaches showed different preferences in terms of precision and recall. Changing the stringency cut-offs allowed for tuning the precision-recall trade-off towards user preferences. Finally, we determined that precision and recall of tools are markedly influenced by sequencing depth, and that additional sequencing would likely reveal additional m6A sites. Thanks to the possibility of including novel tools, NanOlympicsMod will streamline the benchmarking of m6A detection tools on dRNA-seq data, improving future RNA modification characterization.",
+    "doi": "https://doi.org/10.1093/bib/bbae001",
+    "Technology": "Oxford Nanopore",
+    "Categories": "BaseModificationDetection",
+    "ToolsCompared": "Tombo, Yanocomp, Nanocompore ,XPore, ELIGOS, DiffErr, NanoDoc, DRUMMER, EpiNano-Error, EpiNano-SVM, Nanom6A, M6Anet, MINES, DENA",
+    "BenchmarkData": "Nanopore dRNA, HEK293T cells, SK1 yeast strain, mouse. Oligos",
+    "Recommendations": "The tools that can handle multiple samples performed better in the yeast dataset. Single sample tools such as m6Anet and DENA performed better in human and mouse datasets, which may indiciate they can handle more complex transcriptomes. Overall they recommend focusing on high-coverage regions which markedly increases every tools' performance."
+  },
+  {
+    "Title": "Benchmarking reveals superiority of deep learning variant callers on bacterial nanopore sequence data",
+    "Authors": "Michael B. Hall, Ryan R. Wick, Louise M. Judd, An N. T. Nguyen, Eike J. Steinig, Ouli Xie, Mark R. Davies, Torsten Seemann, Timothy P. Stinear, Lachlan J. M. Coin",
+    "Year": "2024",
+    "Journal": "bioRxiv",
+    "Abstract": "Variant calling is fundamental in bacterial genomics, underpinning the identification of disease transmission clusters, the construction of phylogenetic trees, and antimicrobial resistance prediction. This study presents a comprehensive benchmarking of SNP and indel variant calling accuracy across 14 diverse bacterial species using Oxford Nanopore Technologies (ONT) and Illumina sequencing. We generate gold standard reference genomes and project variations from closelyrelated strains onto them, creating biologically realistic distributions of SNPs and indels.Our results demonstrate that ONT variant calls from deep learning-based tools delivered higher SNP and indel accuracy than traditional methods and Illumina, with Clair3 providing the most accurate results overall. We investigate the causes of missed and false calls, highlighting the limitations inherent in short reads and discover that ONT’s traditional limitations with homopolymerinduced indel errors are absent with high-accuracy basecalling models and deep learning-based variant calls. Furthermore, our findings on the impact of read depth on variant calling offer valuable insights for sequencing projects with limited resources, showing that 10x depth is sufficient to achieve variant calls that match or exceed Illumina.In conclusion, our research highlights the superior accuracy of deep learning tools in SNP and indel detection with ONT sequencing, challenging the primacy of short-read sequencing. The reduction of systematic errors and the ability to attain high accuracy at lower read depths enhance the viability of ONT for widespread use in clinical and public health bacterial genomics.",
+    "doi": "https://doi.org/10.1101/2024.03.15.585313",
+    "Technology": "Oxford Nanopore",
+    "Categories": "SNPAndVariantAnalysis",
+    "ToolsCompared": "BCFtools, Clair3, DeppVariant, FreeBayes, Longshot, NanoCaller",
+    "BenchmarkData": "Baceria WGS on nanopore with variant truthset, and complimentary illumina data",
+    "Recommendations": "Long read data analysed with Clari3 or DeepVariant were evaluated as the best tools compared to others"
+  },
+  {
+    "Title": "Assembly Arena: Benchmarking RNA isoform reconstruction algorithms for nanopore sequencing",
+    "Authors": "Mélanie Sagniez, Anshul Budhraja, Bastien Paré, Shawn M. Simpson, Clément Vinet-Ouellette, Marieke Rozendaal, Martin A. Smith",
+    "Year": "2024",
+    "Journal": "bioRxiv",
+    "Abstract": "Resolving the transcriptomes of higher eukaryotes is more tangible with the advent of long read sequencing, which greatly facilitates the identification of new transcripts and their splicing isoforms. However, the computational analysis of long read RNA sequencing data remains challenging as it is difficult to disentangle technical artifacts from bona fide biological information. To address this, we evaluated the performance of multiple leading transcriptome assembly algorithms on their ability to accurately reconstruct RNA transcript isoforms. We specifically focused on deep nanopore sequencing of synthetic RNA spike-in controls (Sequins™ and SIRVs) across different chemistries, including cDNA and direct RNA protocols. Our systematic comparative benchmarking exposes the strengths and limitations of the different surveyed strategies. We also highlight conceptual and technical challenges with the annotation of transcriptomes and the formalization of assembly quality metrics. Our results complement similar recent endeavors, helping forge a path towards a gold standard analytical pipeline for long read transcriptome assembly.",
+    "doi": "https://doi.org/10.1101/2024.03.21.586080",
+    "Technology": "Oxford Nanopore",
+    "Categories": "IsoformDetection",
+    "ToolsCompared": "Bambu, FLAIR, FLAMES, IsONclust, IsONclust2, IsoQuant, Mandalorion, RATTLE, RNAbloom, RNAbloom2, Stringtie2, TALON, TALON_reco",
+    "BenchmarkData": "Nanopore ligation & dRNA sequencing data of synthetic RNA spike-ins. Sequins & SIRV module 4",
+    "Recommendations": "They conclude there is no 'one-size fits-all' solution when it comes to transcriptome assembly, and that further development is required"
+  },
+  {
+    "Title": "Analysis and benchmarking of small and large genomic variants across tandem repeats",
+    "Authors": "Adam C. English, Egor Dolzhenko, Helyaneh Ziaei Jam, Sean K. McKenzie, Nathan D. Olson, Wouter De Coster, Jonghun Park, Bida Gu, Justin Wagner, Michael A. Eberle, Melissa Gymrek, Mark J. P. Chaisson, Justin M. Zook & Fritz J. Sedlazeck",
+    "Year": "2024",
+    "Journal": "Nature Biotechnology",
+    "Abstract": "Tandem repeats (TRs) are highly polymorphic in the human genome, have thousands of associated molecular traits and are linked to over 60 disease phenotypes. However, they are often excluded from at-scale studies because of challenges with variant calling and representation, as well as a lack of a genome-wide standard. Here, to promote the development of TR methods, we created a catalog of TR regions and explored TR properties across 86 haplotype-resolved long-read human assemblies. We curated variants from the Genome in a Bottle (GIAB) HG002 individual to create a TR dataset to benchmark existing and future TR analysis methods. We also present an improved variant comparison method that handles variants greater than 4 bp in length and varying allelic representation. The 8.1% of the genome covered by the TR catalog holds ~24.9% of variants per individual, including 124,728 small and 17,988 large variants for the GIAB HG002 ‘truth-set’ TR benchmark. We demonstrate the utility of this pipeline across short-read and long-read technologies.",
+    "doi": "https://doi.org/10.1038/s41587-024-02225-z",
+    "Technology": "Oxford Nanopore",
+    "Categories": "EvaluatingExistingMethods, AnalysisPipelines",
+    "ToolsCompared": "Rtg-tools, Truvari, HipSTR, GangSTR, Medaka, TRGT, DeepVariant, BioGraph, Sniffles",
+    "BenchmarkData": "TR catalogue, HG002",
+    "Recommendations": "They caution against the overinterpretation of their results as they are not representative of any particular pipeline’s limitations. Instead, the aim in these experiments was only to exemplify the use of the benchmark in hopes that developers of TR discovery pipelines may fully explore the relative strengths and weaknesses of their technologies."
   }
 ]
