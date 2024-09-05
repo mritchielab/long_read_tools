@@ -279,7 +279,7 @@
   },
   {
     "Title": "Assembly Arena: Benchmarking RNA isoform reconstruction algorithms for nanopore sequencing",
-    "Authors": "Mélanie Sagniez, Anshul Budhraja, Bastien Paré, Shawn M. Simpson, Clément Vinet-Ouellette, Marieke Rozendaal, Martin A. Smith",
+    "Authors": "Melanie Sagniez, Anshul Budhraja, Bastien Pare, Shawn M. Simpson, Clement Vinet-Ouellette, Marieke Rozendaal, Martin A. Smith",
     "Year": "2024",
     "Journal": "bioRxiv",
     "Abstract": "Resolving the transcriptomes of higher eukaryotes is more tangible with the advent of long read sequencing, which greatly facilitates the identification of new transcripts and their splicing isoforms. However, the computational analysis of long read RNA sequencing data remains challenging as it is difficult to disentangle technical artifacts from bona fide biological information. To address this, we evaluated the performance of multiple leading transcriptome assembly algorithms on their ability to accurately reconstruct RNA transcript isoforms. We specifically focused on deep nanopore sequencing of synthetic RNA spike-in controls (Sequins™ and SIRVs) across different chemistries, including cDNA and direct RNA protocols. Our systematic comparative benchmarking exposes the strengths and limitations of the different surveyed strategies. We also highlight conceptual and technical challenges with the annotation of transcriptomes and the formalization of assembly quality metrics. Our results complement similar recent endeavors, helping forge a path towards a gold standard analytical pipeline for long read transcriptome assembly.",
@@ -302,5 +302,20 @@
     "ToolsCompared": "Rtg-tools, Truvari, HipSTR, GangSTR, Medaka, TRGT, DeepVariant, BioGraph, Sniffles",
     "BenchmarkData": "TR catalogue, HG002",
     "Recommendations": "They caution against the overinterpretation of their results as they are not representative of any particular pipeline’s limitations. Instead, the aim in these experiments was only to exemplify the use of the benchmark in hopes that developers of TR discovery pipelines may fully explore the relative strengths and weaknesses of their technologies."
+  },
+  {
+    "Title": "Easing genomic surveillance: A comprehensive performance evaluation of long-read assemblers across multi-strain mixture data of HIV-1 and Other pathogenic viruses for constructing a user-friendly bioninformatic pipeline",
+    "Authors": "Sara Wattansombat, Siripong Tongjai",
+    "Year": "2024",
+    "Journal": "f1000Research",
+    "Issue": "13",
+    "Volume": "556",
+    "Abstract": "Determining the appropriate computational requirements and software performance is essential for efficient genomic surveillance. The lack of standardized benchmarking complicates software selection, especially with limited resources.",
+    "doi": "https://doi.org/10.12688/f1000research.149577.1",
+    "Technology": "Oxford Nanopore",
+    "Categories": "EvaluatingExistingMethods, DenovoAssembly",
+    "ToolsCompared": "Canu, GoldRush, MetaFlye, Strainline, HaploDMF, iGDA, RVHaplo",
+    "BenchmarkData": "Simulated nanopore data, HIV-1 genome mixtures",
+    "Recommendations": "The assembler choice significantly impacts assembly time, with CPU and memory usage having minimal effect. Assembler selection influences the size of contigs, with minimum read length of 2kb required for quality assembly. A 4kb read length improves quality further. Each assembler had their own advantages, they do not disclose which is best overall but suggest Strainline, MetaFlye and HaploDMF deliver successful assemblies on their simulated data."
   }
 ]
