@@ -317,5 +317,33 @@
     "ToolsCompared": "Canu, GoldRush, MetaFlye, Strainline, HaploDMF, iGDA, RVHaplo",
     "BenchmarkData": "Simulated nanopore data, HIV-1 genome mixtures",
     "Recommendations": "The assembler choice significantly impacts assembly time, with CPU and memory usage having minimal effect. Assembler selection influences the size of contigs, with minimum read length of 2kb required for quality assembly. A 4kb read length improves quality further. Each assembler had their own advantages, they do not disclose which is best overall but suggest Strainline, MetaFlye and HaploDMF deliver successful assemblies on their simulated data."
+  },
+  {
+    "Title": "Performance of somatic structural variant calling in lung cancer using Oxford Nanopore sequencing technology",
+    "Authors": "Lingchen Liu, Jia Zhang, Scott Wood, Felicity Newell, Conrad Leonard, Lambros T. Koufariotis, Katia Nones, Andrew J. Dalley, Haarika Chittoory, Farzad Bashirzadeh, Jung Hwa Son, Daniel Steinfort, Jonathan P. Williamson, Michael Bint, Carl Pahoff, Phan T. Nguyen, Scott Twaddell, David Arnold, Christopher Grainge, Peter T. Simpson, David Fielding, Nicola Waddel & John V. Pearson",
+    "Year": "2024",
+    "Journal": "BMC Genomics",
+    "Issue": "25",
+    "Volume": "898",
+    "Abstract": "Lung cancer is a heterogeneous disease and the primary cause of cancer-related mortality worldwide. Somatic mutations, including large structural variants, are important biomarkers in lung cancer for selecting targeted therapy. Genomic studies in lung cancer have been conducted using short-read sequencing. Emerging long-read sequencing technologies are a promising alternative to study somatic structural variants, however there is no current consensus on how to process data and call somatic events. In this study, we preformed whole genome sequencing of lung cancer and matched non-tumour samples using long and short read sequencing to comprehensively benchmark three sequence aligners and seven structural variant callers comprised of generic callers (SVIM, Sniffles2, DELLY in generic mode and cuteSV) and somatic callers (Severus, SAVANA, nanomonsv and DELLY in somatic modes).",
+    "doi": "https://doi.org/10.1186/s12864-024-10792-3",
+    "Technology": "Oxford Nanopore",
+    "Categories": "EvaluatingExistingMethods, SNPAndVariantAnalysis",
+    "ToolsCompared": "minimap2, Winnowmap, NGMLR, SVIM, Sniffles2, DELLY, cuteSV, Severus, SAVANA, nanomonsv",
+    "BenchmarkData": "Seven SCLC cell lines sequenced on Oxford Nanopore's PromethION",
+    "Recommendations": "Aligner choice had minimal impact on SV calling, but minimap2 was best due to speed. Somatic callers detect more high-confidence SV events compated to generic approaches"
+  },
+  {
+    "Title": "Predicting RNA modifications by nanopore sequencing: The RMaP challenge",
+    "Authors": "Nicolo Alagna, Jannes Spangenberg, Stefan Mundnich, Anne Busch, Stefan Pastore, Anna Wierczeiko, Winfried Goettsch, Vincent Dietrich, Leszek Pryszcz, Sonia Cruciani, Eva Maria Novoa, Kanarp Joshi, Ranjan Perera, Salvatore Di Giorgio, Paola Arrubarrena, Irem Tellioglu, Chi-Lam Poon, Yuk Wan, Jonathan Goke, Andreas Hildebrand, Christoph Dieterich, Mark Helm, Manja Marz, Susanne Gerber",
+    "Year": "2024",
+    "Journal": "Nature Portfolio",
+    "Abstract": "The field of epitranscriptomics is undergoing a technology-driven revolution. During past decades, RNA modifications like N6-methyladenosine (m6A), pseudouridine (_), and 5-methylcytosine (m5C) became acknowledged for playing critical roles in gene expression regulation, RNA stability, and translation efficiency. Among modification-aware sequencing approaches, direct RNA sequencing by Oxford Nanopore Technologies (ONT) enabled the detection of modifications in native RNA, by capturing and storing properties of noncanonical RNA nucleosides in raw data. Consequently, the field's cutting edge has a heavy component in computer science, opening new avenues of cooperation across the community, as exchanging data is as impactful as exchanging samples. Therefore, we seize the occasion to bring scientists together within the RMaP challenge to advance solutions for RNA modification detection and discuss current ideas, problems and approaches. Here, we show several computational methods to detect the most researched mRNA modifications (m6A, _, and m5C). Results demonstrate that a low prediction error and a high prediction accuracy can be achieved on these modifications across different approaches and algorithms. The RMaP challenge marks a substantial step towards improving algorithms' comparability, reliability, and consistency in RNA modification prediction. It points out the deficits in this young field that need to be addressed in further challenges.",
+    "doi": "https://doi.org/10.21203/rs.3.rs-5241143/v1",
+    "Technology": "Oxford Nanopore",
+    "Categories": "EvaluatingExistingMethods, BaseModificationDetection",
+    "ToolsCompared": "guppy, dorado, tombo, bayespore, CHEUI, PseudoDec, scikit-learn, m6anet",
+    "BenchmarkData": "synthetic ONT datasets",
+    "Recommendations": "Methods using bayespore and CHEUI performed best overall. However, the datasets were produced using old direct-RNA chemistry and are now obsolete"
   }
 ]
