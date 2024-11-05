@@ -91,7 +91,8 @@ database or website:
 * [@shaniAmare](https://github.com/shaniAmare) -  Lead designer and developer of the database
 * [@mritchieau](https://github.com/mritchie) - Concept of the database and 
 suggests new tools
-* [@QGouil](https://github.com/QGouil) - Adds new tools and updates existing entries 
+* [@QGouil](https://github.com/QGouil) - Adds new tools and updates existing entries
+* [@jlancaster95]([](https://github.com/jlancaster95) - Adds new tools and updates existing entries
 * [@EllenConti](https://www.ellenconti.com/about) - For creating a fabulous logo to match our crazy ideas
 * [@TamaraJBeck](https://twitter.com/TamaraJBeck?s=20) - Fixed up the super logo
 * [@_lazappi_](https://github.com/lazappi) - scRNA-tools source (https://github.com/Oshlack/scRNA-tools) that was re-used for this repository
