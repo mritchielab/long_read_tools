@@ -139,6 +139,7 @@
         },
         "yref": "paper",
         "xref": "paper",
+        "layer": "below",
         "x0": 0,
         "x1": 1,
         "y0": 0,
@@ -166,16 +167,16 @@
   },
   "source": "A",
   "attrs": {
-    "33542f31771d": {
+    "26ad1822c089": {
       "x": {},
       "weight": {},
       "text": {},
       "type": "bar"
     }
   },
-  "cur_data": "33542f31771d",
+  "cur_data": "26ad1822c089",
   "visdat": {
-    "33542f31771d": ["function (y) ", "x"]
+    "26ad1822c089": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",

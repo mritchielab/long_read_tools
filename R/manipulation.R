@@ -61,7 +61,7 @@ tidy_swsheet_cat <- function(swsheet) {
                   QualityTrimming,AvailablityOfTestData,Transcriptomics,GapFilling,
                   AnalysisPipelines, QualityFiltering, Metagenomics, Simulators, Demultiplexing, 
                   TaxonomicClassification, polyALengthEstimation, FusionDetection,
-                  CoexpressionAnalysis,	DataStructures) %>%
+                  CoexpressionAnalysis,	DataStructures,cfDNActDNA) %>%
         dplyr::filter(Val == TRUE) %>%
         dplyr::select(-Val) %>%
         dplyr::arrange(Name)

@@ -5,7 +5,7 @@
   },
   {
     "Category": "AvailablityOfTestData",
-    "Description": "If any datasets were made available with the tool or through the pulblication"
+    "Description": "If any datasets were made available with the tool or through the publication"
   },
   {
     "Category": "Basecalling",
@@ -125,7 +125,7 @@
   },
   {
     "Category": "Transcriptomics",
-    "Description": "Tools that enable isoform identification, quantification and differntial expression studies"
+    "Description": "Tools that enable isoform identification, quantification and differential expression studies"
   },
   {
     "Category": "Scaffolding",
@@ -142,5 +142,9 @@
   {
     "Category": "fast5FileProcessing",
     "Description": "Extracting fast5 files for reads of interest for downstream processing and reducing the weight on the search time and space"
+  },
+  {
+    "Category": "cfDNActDNA",
+    "Description": "For cell-free DNA (cfDNA) or circulating tumour DNA (ctDNA) analysis"
   }
 ]

@@ -34,7 +34,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
         msg <- "Skipping downloading of citations from Crossref!"
         futile.logger::flog.warn(msg)
     }
-
+    else{
     doi_list <- swsheet %>%
         dplyr::mutate(DOIs = stringr::str_split(DOIs, ";")) %>%
         dplyr::pull(DOIs) %>%
@@ -118,5 +118,6 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
         dplyr::mutate(Citations = purrr::flatten_dbl(Citations),
                       Publications = purrr::flatten_int(Publications),
                       Preprints = purrr::flatten_int(Preprints))
+}
 	return(swsheet)
 }

@@ -259,10 +259,11 @@
     "Ignored": ["CRAN/sda", "PyPI/sda"]
   },
   "GOTHiC": {
-    "BioC": ["GOTHiC"]
+    "BioC": ["GOTHiC"],
+    "Ignored": ["PyPI/gothic"]
   },
   "BASTA": {
-    "Ignored": ["CRAN/BaSTA"]
+    "Ignored": ["CRAN/BaSTA", "PyPI/BASTA"]
   },
   "Clair": {
     "Ignored": ["PyPI/clair"]
@@ -615,7 +616,7 @@
     "Ignored": ["PyPI/mirror"]
   },
   "chopper": {
-    "Ignored": ["PyPI/chopper"]
+    "Ignored": ["PyPI/chopper", "CRAN/chopper"]
   },
   "MethylMap": {
     "PyPI": ["methylmap"]
@@ -624,7 +625,7 @@
     "Ignored": ["PyPI/snapper"]
   },
   "VISOR": {
-    "Ignored": ["PyPI/visor"]
+    "Ignored": ["PyPI/visor", "CRAN/visor"]
   },
   "HISS": {
     "Ignored": ["PyPI/hiss"]
@@ -882,5 +883,74 @@
   },
   "Strainy": {
     "PyPI": ["strainy"]
+  },
+  "Argo": {
+    "Ignored": ["CRAN/argo", "PyPI/argo"]
+  },
+  "Blackbird": {
+    "Ignored": ["PyPI/blackbird"]
+  },
+  "Coral": {
+    "Ignored": ["PyPI/coral"]
+  },
+  "DeepARG": {
+    "PyPI": ["DeepARG"]
+  },
+  "GFHunter": {
+    "PyPI": ["GFHunter"]
+  },
+  "ISAtools": {
+    "Ignored": ["PyPI/isatools"]
+  },
+  "isONform": {
+    "PyPI": ["isONform"]
+  },
+  "MBG": {
+    "Ignored": ["CRAN/mbg", "PyPI/mbg"]
+  },
+  "Modena": {
+    "Ignored": ["PyPI/modena"]
+  },
+  "modkit": {
+    "Ignored": ["PyPI/modkit"]
+  },
+  "nanoCEM": {
+    "PyPI": ["nanoCEM"]
+  },
+  "nanoDoc": {
+    "Ignored": ["PyPI/nanodoc"]
+  },
+  "NoTrAmp": {
+    "Ignored": ["PyPI/notramp"]
+  },
+  "OnRamp": {
+    "Ignored": ["PyPI/onramp"]
+  },
+  "pod5viewer": {
+    "PyPI": ["pod5Viewer"]
+  },
+  "QuickEd": {
+    "Ignored": ["PyPI/QuickEd"]
+  },
+  "SAKit": {
+    "Ignored": ["PyPI/sakit"]
+  },
+  "Sigmap": {
+    "Ignored": ["PyPI/sigmap"]
+  },
+  "Sparc": {
+    "Ignored": ["PyPI/sparc"]
+  },
+  "STRkit": {
+    "Ignored": ["PyPI/strkit"]
+  },
+  "SUMMER": {
+    "Ignored": ["CRAN/SUMMER", "PyPI/summer"]
+  },
+  "TiPPo": {
+    "Ignored": ["PyPI/tippo"]
+  },
+  "Vanir": {
+    "Ignored": ["PyPI/vanir"]
   }
 }
