@@ -5,8 +5,8 @@
       "width": [0.95000000000000007, 0.95000000000000018, 0.95000000000000018, 0.94999999999999973, 0.94999999999999929, 0.94999999999999929],
       "base": [0, 0, 0, 0, 0, 0],
       "x": [1, 2, 3, 4, 5, 6],
-      "y": [604, 140, 297, 297, 105, 62],
-      "text": ["Platform: Python<br />Count: 604<br />Percent: 40.1", "Platform: R<br />Count: 140<br />Percent: 9.3", "Platform: C<br />Count: 297<br />Percent: 19.7", "Platform: C++<br />Count: 297<br />Percent: 19.7", "Platform: Other<br />Count: 105<br />Percent: 7", "Platform: Unknown<br />Count:  62<br />Percent: 4.1"],
+      "y": [604, 141, 298, 298, 105, 61],
+      "text": ["Platform: Python<br />Count: 604<br />Percent: 40.1", "Platform: R<br />Count: 141<br />Percent: 9.4", "Platform: C<br />Count: 298<br />Percent: 19.8", "Platform: C++<br />Count: 298<br />Percent: 19.8", "Platform: Other<br />Count: 105<br />Percent: 7", "Platform: Unknown<br />Count:  61<br />Percent: 4"],
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -25,7 +25,7 @@
     },
     {
       "x": [1],
-      "y": [656.10000000000002],
+      "y": [656.14999999999998],
       "text": "40.1%",
       "hovertext": "Platform: Python<br />Count: 604<br />Percent: 40.1",
       "textfont": {
@@ -45,9 +45,9 @@
     },
     {
       "x": [2],
-      "y": [192.09999999999999],
-      "text": "9.3%",
-      "hovertext": "Platform: R<br />Count: 140<br />Percent: 9.3",
+      "y": [193.15000000000001],
+      "text": "9.4%",
+      "hovertext": "Platform: R<br />Count: 141<br />Percent: 9.4",
       "textfont": {
         "size": 15.118110236220474,
         "color": "rgba(248,118,109,1)"
@@ -65,9 +65,9 @@
     },
     {
       "x": [3],
-      "y": [349.10000000000002],
-      "text": "19.7%",
-      "hovertext": "Platform: C<br />Count: 297<br />Percent: 19.7",
+      "y": [350.14999999999998],
+      "text": "19.8%",
+      "hovertext": "Platform: C<br />Count: 298<br />Percent: 19.8",
       "textfont": {
         "size": 15.118110236220474,
         "color": "rgba(248,118,109,1)"
@@ -85,9 +85,9 @@
     },
     {
       "x": [4],
-      "y": [349.10000000000002],
-      "text": "19.7%",
-      "hovertext": "Platform: C++<br />Count: 297<br />Percent: 19.7",
+      "y": [350.14999999999998],
+      "text": "19.8%",
+      "hovertext": "Platform: C++<br />Count: 298<br />Percent: 19.8",
       "textfont": {
         "size": 15.118110236220474,
         "color": "rgba(248,118,109,1)"
@@ -105,7 +105,7 @@
     },
     {
       "x": [5],
-      "y": [157.09999999999999],
+      "y": [157.15000000000001],
       "text": "7%",
       "hovertext": "Platform: Other<br />Count: 105<br />Percent: 7",
       "textfont": {
@@ -125,9 +125,9 @@
     },
     {
       "x": [6],
-      "y": [114.09999999999999],
-      "text": "4.1%",
-      "hovertext": "Platform: Unknown<br />Count:  62<br />Percent: 4.1",
+      "y": [113.15000000000001],
+      "text": "4%",
+      "hovertext": "Platform: Unknown<br />Count:  61<br />Percent: 4",
       "textfont": {
         "size": 15.118110236220474,
         "color": "rgba(248,118,109,1)"
@@ -212,7 +212,7 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-32.805, 688.90499999999997],
+      "range": [-32.807499999999997, 688.95749999999998],
       "tickmode": "array",
       "ticktext": ["0", "200", "400", "600"],
       "tickvals": [0, 200, 400, 600],
@@ -287,14 +287,14 @@
   },
   "source": "A",
   "attrs": {
-    "3e5b348c8053": {
+    "a85632ead715": {
       "x": {},
       "weight": {},
       "fill": {},
       "text": {},
       "type": "bar"
     },
-    "3e5b743ce418": {
+    "a85657cebdd0": {
       "x": {},
       "weight": {},
       "fill": {},
@@ -304,10 +304,10 @@
       "colour": {}
     }
   },
-  "cur_data": "3e5b348c8053",
+  "cur_data": "a85632ead715",
   "visdat": {
-    "3e5b348c8053": ["function (y) ", "x"],
-    "3e5b743ce418": ["function (y) ", "x"]
+    "a85632ead715": ["function (y) ", "x"],
+    "a85657cebdd0": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
