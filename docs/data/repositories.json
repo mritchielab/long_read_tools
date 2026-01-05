@@ -955,5 +955,26 @@
   },
   "KMA": {
     "PyPI": ["kma"]
+  },
+  "Alice": {
+    "Ignored": ["PyPI/alice"]
+  },
+  "Barbell": {
+    "Ignored": ["PyPI/barbell"]
+  },
+  "DAMAPPER": {
+    "Ignored": ["PyPI/damapper"]
+  },
+  "isoLASER": {
+    "PyPI": ["isolaser"]
+  },
+  "MECAT": {
+    "Ignored": ["PyPI/mecat"]
+  },
+  "needLR": {
+    "Ignored": ["PyPI/needlr"]
+  },
+  "SWARM": {
+    "Ignored": ["CRAN/swaRm", "PyPI/Swarm"]
   }
 }
