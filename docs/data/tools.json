@@ -1136,12 +1136,12 @@
           "DOI": "10.1186/1471-2105-13-238",
           "PubDate": "2012-09-19",
           "Preprint": false,
-          "Citations": [1060]
+          "Citations": [1061]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1060,
+    "Citations": 1061,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -1784,12 +1784,12 @@
           "DOI": "10.1093/bioinformatics/bty841",
           "PubDate": "2018-10-12",
           "Preprint": false,
-          "Citations": [245]
+          "Citations": [246]
         }
       ],
       "Preprints": []
     },
-    "Citations": 245,
+    "Citations": 246,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -1973,12 +1973,12 @@
           "DOI": "10.1101/2020.11.09.374165",
           "PubDate": "2020-11-10",
           "Preprint": true,
-          "Citations": [6],
+          "Citations": [5],
           "Recent_citations": 2
         }
       ]
     },
-    "Citations": 6,
+    "Citations": 5,
     "Recent_citations": [2],
     "Publications": 0,
     "Preprints": 1,
@@ -2047,13 +2047,13 @@
           "DOI": "10.1371/journal.pcbi.1011870",
           "PubDate": "2024-02-09",
           "Preprint": false,
-          "Citations": [0],
+          "Citations": [1],
           "Recent_citations": 1
         }
       ],
       "Preprints": []
     },
-    "Citations": 0,
+    "Citations": 1,
     "Recent_citations": [1],
     "Publications": 1,
     "Preprints": 0,
@@ -2370,12 +2370,12 @@
           "DOI": "10.1101/gr.215087.116",
           "PubDate": "2017-03-16",
           "Preprint": false,
-          "Citations": [6668]
+          "Citations": [6671]
         }
       ],
       "Preprints": []
     },
-    "Citations": 6668,
+    "Citations": 6671,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -2558,13 +2558,13 @@
           "DOI": "10.1186/s13059-015-0849-0",
           "PubDate": "2015-12-29",
           "Preprint": false,
-          "Citations": [1029],
+          "Citations": [1030],
           "Recent_citations": 67
         }
       ],
       "Preprints": []
     },
-    "Citations": 1029,
+    "Citations": 1030,
     "Recent_citations": [67],
     "Publications": 1,
     "Preprints": 0,
@@ -2660,13 +2660,13 @@
           "DOI": "10.1038/s43588-022-00387-x",
           "PubDate": "2022-12-19",
           "Preprint": false,
-          "Citations": [294],
+          "Citations": [295],
           "Recent_citations": 125
         }
       ],
       "Preprints": []
     },
-    "Citations": 294,
+    "Citations": 295,
     "Recent_citations": [125],
     "Publications": 1,
     "Preprints": 0,
@@ -3284,6 +3284,41 @@
     "Categories": ["DenovoAssembly", "ProvideSummaryStatistics", "AnalysisPipelines"]
   },
   {
+    "Name": "CycSim",
+    "DOIs": "10.64898/2025.12.04.692264",
+    "Platform": "Rust",
+    "Description": "Context-aware long-read simulator with Bayesian optimization for parameter tuning.",
+    "Code": "https://github.com/BioEarthDigital/CycSim",
+    "License": "MIT License",
+    "Underlying_algorithms": "K-mer context-dependent error modeling; Bayesian optimization (Optuna).",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "Context-aware simulation enables systematic optimization of long-read mapping parameters",
+          "DOI": "10.64898/2025.12.04.692264",
+          "PubDate": "2025-12-08",
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 0,
+    "Recent_citations": [0],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2025-12-08"],
+    "Github": "BioEarthDigital/CycSim",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["Simulators"]
+  },
+  {
     "Name": "D-GENIES",
     "DOIs": "10.7717/peerj.4958",
     "Platform": "Python",
@@ -3573,12 +3608,12 @@
           "DOI": "10.1186/s13059-021-02598-3",
           "PubDate": "2022-01-17",
           "Preprint": false,
-          "Citations": [65]
+          "Citations": [66]
         }
       ],
       "Preprints": []
     },
-    "Citations": 65,
+    "Citations": 66,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -4033,12 +4068,12 @@
           "DOI": "10.1186/s13059-023-02921-0",
           "PubDate": "2023-04-17",
           "Preprint": false,
-          "Citations": [30]
+          "Citations": [31]
         }
       ],
       "Preprints": []
     },
-    "Citations": 30,
+    "Citations": 31,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -4519,12 +4554,12 @@
           "DOI": "10.1038/nbt.4235",
           "PubDate": "2018-09-24",
           "Preprint": false,
-          "Citations": [1437]
+          "Citations": [1441]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1437,
+    "Citations": 1441,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -4782,13 +4817,13 @@
           "DOI": "10.1093/nar/gkaa829",
           "PubDate": "2020-09-23",
           "Preprint": false,
-          "Citations": [16],
+          "Citations": [17],
           "Recent_citations": 5
         }
       ],
       "Preprints": []
     },
-    "Citations": 16,
+    "Citations": 17,
     "Recent_citations": [5],
     "Publications": 1,
     "Preprints": 0,
@@ -5136,12 +5171,12 @@
           "DOI": "10.1038/s41467-019-11713-9",
           "PubDate": "2019-09-09",
           "Preprint": false,
-          "Citations": [435]
+          "Citations": [436]
         }
       ],
       "Preprints": []
     },
-    "Citations": 435,
+    "Citations": 436,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -6144,12 +6179,12 @@
           "DOI": "10.1038/s41587-019-0072-8",
           "PubDate": "2019-04-01",
           "Preprint": false,
-          "Citations": [4924]
+          "Citations": [4926]
         }
       ],
       "Preprints": []
     },
-    "Citations": 4924,
+    "Citations": 4926,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -6505,12 +6540,13 @@
           "DOI": "10.1101/2023.02.21.529152",
           "PubDate": "2023-02-22",
           "Preprint": true,
-          "Citations": [11]
+          "Citations": [11],
+          "Recent_citations": 9
         }
       ]
     },
     "Citations": 22,
-    "Recent_citations": ["NA", 0],
+    "Recent_citations": [9, 0],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2023-02-22", "2024-04-16"],
@@ -6810,12 +6846,12 @@
           "DOI": "10.1093/bioinformatics/bti310",
           "PubDate": "2005-02-22",
           "Preprint": false,
-          "Citations": [2104]
+          "Citations": [2105]
         }
       ],
       "Preprints": []
     },
-    "Citations": 2104,
+    "Citations": 2105,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -7353,13 +7389,13 @@
           "DOI": "10.1186/s12859-021-04311-4",
           "PubDate": "2021-08-14",
           "Preprint": false,
-          "Citations": [12],
+          "Citations": [13],
           "Recent_citations": 4
         }
       ],
       "Preprints": []
     },
-    "Citations": 12,
+    "Citations": 13,
     "Recent_citations": [4],
     "Publications": 1,
     "Preprints": 0,
@@ -7432,12 +7468,12 @@
           "DOI": "10.1101/2024.05.18.594796",
           "PubDate": "2024-05-21",
           "Preprint": true,
-          "Citations": [46],
+          "Citations": [47],
           "Recent_citations": 0
         }
       ]
     },
-    "Citations": 46,
+    "Citations": 47,
     "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
@@ -8056,12 +8092,12 @@
           "DOI": "10.1101/gr.263566.120",
           "PubDate": "2020-08-14",
           "Preprint": false,
-          "Citations": [647]
+          "Citations": [648]
         }
       ],
       "Preprints": []
     },
-    "Citations": 647,
+    "Citations": 648,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -9695,12 +9731,12 @@
           "DOI": "10.1038/ncomms11257",
           "PubDate": "2016-04-13",
           "Preprint": false,
-          "Citations": [1763]
+          "Citations": [1764]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1763,
+    "Citations": 1764,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -10181,12 +10217,12 @@
           "DOI": "10.1101/2020.12.10.420448",
           "PubDate": "2020-12-12",
           "Preprint": true,
-          "Citations": [6],
+          "Citations": [5],
           "Recent_citations": 5
         }
       ]
     },
-    "Citations": 6,
+    "Citations": 5,
     "Recent_citations": [5],
     "Publications": 0,
     "Preprints": 1,
@@ -10255,12 +10291,12 @@
           "DOI": "10.1371/journal.pcbi.1009078",
           "PubDate": "2021-06-21",
           "Preprint": false,
-          "Citations": [83]
+          "Citations": [84]
         }
       ],
       "Preprints": []
     },
-    "Citations": 83,
+    "Citations": 84,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -11647,12 +11683,12 @@
           "DOI": "10.1038/nature25458",
           "PubDate": "2018-01-30",
           "Preprint": false,
-          "Citations": [479]
+          "Citations": [480]
         }
       ],
       "Preprints": []
     },
-    "Citations": 479,
+    "Citations": 480,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -12019,12 +12055,12 @@
           "DOI": "10.1093/bioinformatics/btt476",
           "PubDate": "2013-08-29",
           "Preprint": false,
-          "Citations": [1320]
+          "Citations": [1321]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1320,
+    "Citations": 1321,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -12244,13 +12280,13 @@
           "DOI": "10.1038/ncomms16027",
           "PubDate": "2017-07-19",
           "Preprint": false,
-          "Citations": [346],
+          "Citations": [347],
           "Recent_citations": 85
         }
       ],
       "Preprints": []
     },
-    "Citations": 346,
+    "Citations": 347,
     "Recent_citations": [85],
     "Publications": 1,
     "Preprints": 0,
@@ -12311,12 +12347,12 @@
           "DOI": "10.1186/s13059-016-0997-x",
           "PubDate": "2016-06-20",
           "Preprint": false,
-          "Citations": [2817]
+          "Citations": [2818]
         }
       ],
       "Preprints": []
     },
-    "Citations": 2817,
+    "Citations": 2818,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -12690,12 +12726,12 @@
           "DOI": "10.1186/s13073-015-0220-9",
           "PubDate": "2015-09-24",
           "Preprint": false,
-          "Citations": [473]
+          "Citations": [474]
         }
       ],
       "Preprints": []
     },
-    "Citations": 473,
+    "Citations": 474,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -13065,12 +13101,12 @@
           "DOI": "10.1093/bioinformatics/btw152",
           "PubDate": "2016-03-20",
           "Preprint": false,
-          "Citations": [1375]
+          "Citations": [1376]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1375,
+    "Citations": 1376,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -13552,12 +13588,12 @@
           "DOI": "10.1093/bioinformatics/btw354",
           "PubDate": "2016-06-16",
           "Preprint": false,
-          "Citations": [8209]
+          "Citations": [8221]
         }
       ],
       "Preprints": []
     },
-    "Citations": 8209,
+    "Citations": 8221,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -13640,13 +13676,13 @@
           "DOI": "10.1186/s13059-021-02510-z",
           "PubDate": "2021-11-16",
           "Preprint": false,
-          "Citations": [180],
+          "Citations": [181],
           "Recent_citations": 60
         }
       ],
       "Preprints": []
     },
-    "Citations": 180,
+    "Citations": 181,
     "Recent_citations": [60],
     "Publications": 1,
     "Preprints": 0,
@@ -13711,12 +13747,12 @@
           "DOI": "10.1038/s41592-018-0001-7",
           "PubDate": "2018-04-27",
           "Preprint": false,
-          "Citations": [1470]
+          "Citations": [1471]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1470,
+    "Citations": 1471,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -13983,12 +14019,12 @@
           "DOI": "10.1016/j.molcel.2019.11.017",
           "PubDate": "2019-12-12",
           "Preprint": false,
-          "Citations": [208]
+          "Citations": [209]
         }
       ],
       "Preprints": []
     },
-    "Citations": 208,
+    "Citations": 209,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -14359,12 +14395,12 @@
           "DOI": "10.1093/bioinformatics/bty149",
           "PubDate": "2018-03-12",
           "Preprint": false,
-          "Citations": [2645]
+          "Citations": [2646]
         }
       ],
       "Preprints": []
     },
-    "Citations": 2645,
+    "Citations": 2646,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -14598,12 +14634,12 @@
           "DOI": "10.1093/bioinformatics/bty149",
           "PubDate": "2018-03-12",
           "Preprint": false,
-          "Citations": [2645]
+          "Citations": [2646]
         }
       ],
       "Preprints": []
     },
-    "Citations": 2645,
+    "Citations": 2646,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -14967,7 +15003,7 @@
           "DOI": "10.1038/s41564-019-0626-z",
           "PubDate": "2019-12-16",
           "Preprint": false,
-          "Citations": [138]
+          "Citations": [139]
         }
       ],
       "Preprints": [
@@ -14976,12 +15012,12 @@
           "DOI": "10.1101/180406",
           "PubDate": "2017-08-25",
           "Preprint": true,
-          "Citations": [138],
+          "Citations": [139],
           "Recent_citations": 11
         }
       ]
     },
-    "Citations": 276,
+    "Citations": 278,
     "Recent_citations": ["NA", 11],
     "Publications": 1,
     "Preprints": 1,
@@ -15009,12 +15045,12 @@
           "DOI": "10.1093/bioinformatics/bty149",
           "PubDate": "2018-03-12",
           "Preprint": false,
-          "Citations": [2645]
+          "Citations": [2646]
         }
       ],
       "Preprints": []
     },
-    "Citations": 2645,
+    "Citations": 2646,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -15107,12 +15143,12 @@
           "DOI": "10.1093/bioinformatics/bty149",
           "PubDate": "2018-03-12",
           "Preprint": false,
-          "Citations": [2645]
+          "Citations": [2646]
         }
       ],
       "Preprints": []
     },
-    "Citations": 2645,
+    "Citations": 2646,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -17358,13 +17394,13 @@
           "DOI": "10.1016/j.molcel.2021.02.034",
           "PubDate": "2021-03-18",
           "Preprint": false,
-          "Citations": [91],
+          "Citations": [92],
           "Recent_citations": 35
         }
       ],
       "Preprints": []
     },
-    "Citations": 91,
+    "Citations": 92,
     "Recent_citations": [35],
     "Publications": 1,
     "Preprints": 0,
@@ -17520,12 +17556,12 @@
           "DOI": "10.1093/bioinformatics/btr026",
           "PubDate": "2011-01-29",
           "Preprint": false,
-          "Citations": [4462]
+          "Citations": [4463]
         }
       ],
       "Preprints": []
     },
-    "Citations": 4462,
+    "Citations": 4463,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -17551,13 +17587,14 @@
           "DOI": "10.1016/j.fmre.2024.04.014",
           "PubDate": "2024-04-25",
           "Preprint": false,
-          "Citations": [1]
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
     "Citations": 1,
-    "Recent_citations": ["NA"],
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-04-25"],
@@ -17903,12 +17940,12 @@
           "DOI": "10.1101/705616",
           "PubDate": "2019-07-17",
           "Preprint": true,
-          "Citations": [87],
+          "Citations": [88],
           "Recent_citations": 34
         }
       ]
     },
-    "Citations": 87,
+    "Citations": 88,
     "Recent_citations": [34],
     "Publications": 0,
     "Preprints": 1,
@@ -18117,12 +18154,12 @@
           "DOI": "10.1371/journal.pone.0112963",
           "PubDate": "2014-11-20",
           "Preprint": false,
-          "Citations": [8331]
+          "Citations": [8333]
         }
       ],
       "Preprints": []
     },
-    "Citations": 8331,
+    "Citations": 8333,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -18475,12 +18512,12 @@
           "DOI": "10.1093/bioadv/vbac085",
           "PubDate": "2022-11-20",
           "Preprint": false,
-          "Citations": [113]
+          "Citations": [114]
         }
       ],
       "Preprints": []
     },
-    "Citations": 113,
+    "Citations": 114,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -18695,12 +18732,13 @@
           "DOI": "10.1101/2024.03.07.584013",
           "PubDate": "2024-03-11",
           "Preprint": true,
-          "Citations": [6]
+          "Citations": [6],
+          "Recent_citations": 0
         }
       ]
     },
     "Citations": 6,
-    "Recent_citations": ["NA"],
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-03-11"],
@@ -18727,12 +18765,15 @@
           "Title": "QAlign: aligning nanopore reads accurately using current-level modeling",
           "DOI": "10.1093/bioinformatics/btaa875",
           "PubDate": "2020-09-29",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [9],
+          "Recent_citations": 4
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 9,
+    "Recent_citations": [4],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-09-29"],
@@ -18774,11 +18815,13 @@
           "Title": "QUAST: quality assessment tool for genome assemblies",
           "DOI": "10.1093/bioinformatics/btt086",
           "PubDate": "2013-02-20",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [9278]
         }
       ],
       "Preprints": []
     },
+    "Citations": 9278,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -18805,11 +18848,13 @@
           "Title": "Versatile genome assembly evaluation with QUAST-LG",
           "DOI": "10.1093/bioinformatics/bty266",
           "PubDate": "2018-04-12",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1283]
         }
       ],
       "Preprints": []
     },
+    "Citations": 1283,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -18835,11 +18880,13 @@
           "Title": "Rapid genotype imputation from sequence with reference panels",
           "DOI": "10.1038/s41588-021-00877-0",
           "PubDate": "2021-06-03",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [91]
         }
       ],
       "Preprints": []
     },
+    "Citations": 91,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -18869,11 +18916,14 @@
           "Title": "Rapid and accurate genotype imputation from low coverage short read, long read, and cell free DNA sequence",
           "DOI": "10.1101/2024.07.18.604149",
           "PubDate": "2024-07-23",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [2],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-07-23"],
@@ -18900,11 +18950,14 @@
           "Title": "QuickEd: High-performance exact sequence alignment based on bound-and-align",
           "DOI": "10.1101/2024.09.13.612714",
           "PubDate": "2024-09-19",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [2],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-09-19"],
@@ -18950,11 +19003,13 @@
           "Title": "Improving nanopore read accuracy with the R2C2 method enables the sequencing of highly multiplexed full-length single-cell cDNA",
           "DOI": "10.1073/pnas.1806447115",
           "PubDate": "2018-09-10",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [229]
         }
       ],
       "Preprints": []
     },
+    "Citations": 229,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -19002,11 +19057,14 @@
           "Title": "Telomere-to-telomere assembly by preserving contained reads",
           "DOI": "10.1101/2023.11.07.565066",
           "PubDate": "2023-11-11",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [3],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2023-11-11"],
@@ -19033,18 +19091,55 @@
           "Title": "RAILS and Cobbler: Scaffolding and automated finishing of draft genomes using long DNA sequences",
           "DOI": "10.21105/joss.00116",
           "PubDate": "2016-11-17",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [43],
+          "Recent_citations": 7
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 43,
+    "Recent_citations": [7],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-11-17"],
     "Github": "bcgsc/RAILS",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["Scaffolding"]
+  },
+  {
+    "Name": "RAPID",
+    "DOIs": "10.64898/2025.12.30.25342835",
+    "Platform": "Snakemake, Python",
+    "Description": "Targeted long-read RNA workflow for clinical resolution of splicing VUS in rare disease.",
+    "Code": "https://github.com/KylieMontgomery/RAPID",
+    "Underlying_algorithms": "Splice-aware alignment (minimap2); Proportional isoform usage comparison.",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "RAPID: A Targeted Long-Read RNA Workflow for Functional Resolution of Splicing Variants in Rare Disease",
+          "DOI": "10.64898/2025.12.30.25342835",
+          "PubDate": "2026-01-03",
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 0,
+    "Recent_citations": [0],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2026-01-03"],
+    "Github": "KylieMontgomery/RAPID",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["TestedOnHumanData", "Transcriptomics", "AnalysisPipelines"]
   },
   {
     "Name": "RAPiD",
@@ -19063,12 +19158,15 @@
           "Title": "RAPiD: a rapid and accurate plant pathogen identification pipeline for on-site nanopore sequencing",
           "DOI": "10.7717/peerj.17893",
           "PubDate": "2024-09-25",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [2],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-09-25"],
@@ -19095,12 +19193,15 @@
           "Title": "REViewer: haplotype-resolved visualization of read alignments in and around tandem repeats",
           "DOI": "10.1186/s13073-022-01085-z",
           "PubDate": "2022-08-10",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [42],
+          "Recent_citations": 21
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 42,
+    "Recent_citations": [21],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-08-10"],
@@ -19127,12 +19228,15 @@
           "Title": "Biochemical-free enrichment or depletion of RNA classes in real-time during direct RNA sequencing with RISER",
           "DOI": "10.1038/s41467-024-48673-8",
           "PubDate": "2024-05-24",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [5],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 5,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-05-24"],
@@ -19159,18 +19263,55 @@
           "Title": "RMNet: An RNA m6A Cross-species Methylation Detection Method for Nanopore Sequencing",
           "DOI": "10.2174/0113894501405283250627072052",
           "PubDate": "2025-07-07",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2025-07-07"],
     "Github": "liqingwen98/RMNet",
     "Technologies": ["OxfordNanopore"],
     "Categories": ["BaseModificationDetection", "Transcriptomics"]
+  },
+  {
+    "Name": "RNA BaseCode",
+    "DOIs": "10.64898/2025.12.09.693136",
+    "Platform": "Python, Shell",
+    "Description": "Synthetic long-read RNA sequencing method using error-prone reverse transcription barcoding on short-read platforms.",
+    "Code": "https://github.com/BasicGenomics/Base-CodeGenerate",
+    "Underlying_algorithms": "Mutation-pattern clustering; Spectral error alignment; Full-length cDNA reconstruction.",
+    "OxfordNanopore": false,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "RNA BaseCode: Long-Read RNA Sequences with Short-Read Accuracy",
+          "DOI": "10.64898/2025.12.09.693136",
+          "PubDate": "2025-12-11",
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 0,
+    "Recent_citations": [0],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2025-12-11"],
+    "Github": "BasicGenomics/Base-CodeGenerate",
+    "Technologies": {},
+    "Categories": ["IsoformDetection", "SuitableForSingleCellExperiments", "Transcriptomics"]
   },
   {
     "Name": "RNA-Bloom2",
@@ -19191,11 +19332,14 @@
           "Title": "Reference-free assembly of long-read transcriptome sequencing data with RNA-Bloom2",
           "DOI": "10.1101/2022.08.07.503110",
           "PubDate": "2022-08-08",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [3],
+          "Recent_citations": 3
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [3],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2022-08-08"],
@@ -19222,11 +19366,14 @@
           "Title": "RNA-tailor: accurate gene-level identification of transcript isoform diversity from long reads",
           "DOI": "10.1101/2025.09.09.673982",
           "PubDate": "2025-09-13",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2025-09-13"],
@@ -19272,12 +19419,15 @@
           "Title": "Evaluation of tools for long read RNA-seq splice-aware alignment",
           "DOI": "10.1093/bioinformatics/btx668",
           "PubDate": "2017-10-18",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [63],
+          "Recent_citations": 23
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 63,
+    "Recent_citations": [23],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-10-18"],
@@ -19303,12 +19453,15 @@
           "Title": "RNNHC: A hybrid error correction algorithm for long reads based on Recurrent Neural Network",
           "DOI": "10.21203/rs.3.rs-3309460/v1",
           "PubDate": "2023-09-07",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 1
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [1],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-09-07"],
@@ -19336,11 +19489,14 @@
           "Title": "ROBIN: A unified nanopore-based sequencing assay integrating real-time, intraoperative methylome classification and next-day comprehensive molecular brain tumour profiling for ultra-rapid tumour diagnostics",
           "DOI": "10.1101/2024.09.10.24313398",
           "PubDate": "2024-09-11",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [7],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 7,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-09-11"],
@@ -19368,12 +19524,15 @@
           "Title": "RODAN: a fully convolutional architecture for basecalling nanopore RNA sequencing data",
           "DOI": "10.1186/s12859-022-04686-y",
           "PubDate": "2022-04-20",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [29],
+          "Recent_citations": 6
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 29,
+    "Recent_citations": [6],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-04-20"],
@@ -19400,12 +19559,15 @@
           "Title": "RUBICON: a framework for designing efficient deep learning-based genomic basecallers",
           "DOI": "10.1186/s13059-024-03181-2",
           "PubDate": "2024-02-16",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [13],
+          "Recent_citations": 7
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 13,
+    "Recent_citations": [7],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-02-16"],
@@ -19432,12 +19594,15 @@
           "Title": "Real-Time Selective Sequencing with RUBRIC: Read Until with Basecall and Reference-Informed Criteria",
           "DOI": "10.1038/s41598-019-47857-3",
           "PubDate": "2019-08-07",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [51],
+          "Recent_citations": 14
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 51,
+    "Recent_citations": [14],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-08-07"],
@@ -19462,12 +19627,15 @@
           "Title": "poRe: an R package for the visualization and analysis of nanopore sequencing data",
           "DOI": "10.1093/bioinformatics/btu590",
           "PubDate": "2014-08-31",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [81],
+          "Recent_citations": 27
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 81,
+    "Recent_citations": [27],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2014-08-31"],
@@ -19493,11 +19661,14 @@
           "Title": "Yet another de novo genome assembler",
           "DOI": "10.1101/656306",
           "PubDate": "2019-05-31",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [12],
+          "Recent_citations": 7
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 12,
+    "Recent_citations": [7],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2019-05-31"],
@@ -19523,11 +19694,13 @@
           "Title": "RaGOO: fast and accurate reference-guided scaffolding of draft genomes",
           "DOI": "10.1186/s13059-019-1829-6",
           "PubDate": "2019-10-28",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [589]
         }
       ],
       "Preprints": []
     },
+    "Citations": 589,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -19556,11 +19729,13 @@
           "Title": "RabbitQC: high-speed scalable quality control for sequencing data",
           "DOI": "10.1093/bioinformatics/btaa719",
           "PubDate": "2020-08-08",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [15]
         }
       ],
       "Preprints": []
     },
+    "Citations": 15,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -19587,11 +19762,13 @@
           "Title": "Fast and accurate de novo genome assembly from long uncorrected reads",
           "DOI": "10.1101/gr.214270.116",
           "PubDate": "2017-01-19",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [2782]
         }
       ],
       "Preprints": []
     },
+    "Citations": 2782,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -19618,11 +19795,13 @@
           "Title": "Automated assembly scaffolding using RagTag elevates a new tomato system for high-throughput genome editing",
           "DOI": "10.1186/s13059-022-02823-7",
           "PubDate": "2022-12-15",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [694]
         }
       ],
       "Preprints": []
     },
+    "Citations": 694,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -19671,11 +19850,14 @@
           "Title": "Ratatosk – Hybrid error correction of long reads enables accurate variant calling and assembly",
           "DOI": "10.1101/2020.07.15.204925",
           "PubDate": "2020-07-16",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [2],
+          "Recent_citations": 1
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [1],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2020-07-16"],
@@ -19701,7 +19883,9 @@
           "Title": "RATTLE: reference-free reconstruction and quantification of transcriptomes from Nanopore sequencing",
           "DOI": "10.1186/s13059-022-02715-w",
           "PubDate": "2022-07-08",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [40],
+          "Recent_citations": 12
         }
       ],
       "Preprints": [
@@ -19709,11 +19893,14 @@
           "Title": "RATTLE: Reference-free reconstruction and quantification of transcriptomes from Nanopore sequencing",
           "DOI": "10.1101/2020.02.08.939942",
           "PubDate": "2020-02-11",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [40],
+          "Recent_citations": 2
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 80,
+    "Recent_citations": [12, 2],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2022-07-08", "2020-02-11"],
@@ -19740,11 +19927,14 @@
           "Title": "Raven: a de novo genome assembler for long reads",
           "DOI": "10.1101/2020.08.07.242461",
           "PubDate": "2020-08-10",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [51],
+          "Recent_citations": 30
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 51,
+    "Recent_citations": [30],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2020-08-10"],
@@ -19792,10 +19982,12 @@
           "Title": "RawHash: Enabling Fast and Accurate Real-Time Analysis of Raw Nanopore Signals for Large Genomes",
           "DOI": "10.1101/2023.01.22.525080",
           "PubDate": "2023-01-23",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [3]
         }
       ]
     },
+    "Citations": 3,
     "Recent_citations": ["NA"],
     "Publications": 0,
     "Preprints": 1,
@@ -19822,12 +20014,15 @@
           "Title": "RawHash2: mapping raw nanopore signals using hash-based seeding and adaptive quantization",
           "DOI": "10.1093/bioinformatics/btae478",
           "PubDate": "2024-07-30",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [11],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 11,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-07-30"],
@@ -19855,11 +20050,14 @@
           "Title": "Rapid Real-time Squiggle Classification for Read Until Using RawMap",
           "DOI": "10.1101/2022.11.22.517599",
           "PubDate": "2022-11-24",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [3],
+          "Recent_citations": 1
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [1],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2022-11-24"],
@@ -19884,12 +20082,14 @@
         {
           "DOI": "10.48550/arXiv.2410.17801",
           "PubDate": [],
-          "Preprint": false
+          "Preprint": false,
+          "Citations": ["NA"],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["character(0)"],
@@ -19937,11 +20137,13 @@
           "Title": "Real-time selective sequencing using nanopore technology",
           "DOI": "10.1038/nmeth.3930",
           "PubDate": "2016-07-25",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [367]
         }
       ],
       "Preprints": []
     },
+    "Citations": 367,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -19969,11 +20171,14 @@
           "Title": "Read2Tree: scalable and accurate phylogenetic trees from raw reads",
           "DOI": "10.1101/2022.04.18.488678",
           "PubDate": "2022-04-21",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2022-04-21"],
@@ -20001,7 +20206,8 @@
           "Title": "ReadBouncer: precise and scalable adaptive sampling for nanopore sequencing",
           "DOI": "10.1093/bioinformatics/btac223",
           "PubDate": "2022-04-14",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [6]
         }
       ],
       "Preprints": [
@@ -20009,11 +20215,14 @@
           "Title": "ReadBouncer: Precise and Scalable Adaptive Sampling for Nanopore Sequencing",
           "DOI": "10.1101/2022.02.01.478636",
           "PubDate": "2022-02-02",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [6],
+          "Recent_citations": 3
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 12,
+    "Recent_citations": [3, "NA"],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2022-02-02", "2022-04-14"],
@@ -20040,11 +20249,13 @@
           "Title": "Readfish enables targeted nanopore sequencing of gigabase-sized genomes",
           "DOI": "10.1038/s41587-020-00746-x",
           "PubDate": "2020-11-30",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [317]
         }
       ],
       "Preprints": []
     },
+    "Citations": 317,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -20090,12 +20301,15 @@
           "Title": "Readon: a novel algorithm to identify read-through transcripts with long-read sequencing data",
           "DOI": "10.1093/bioinformatics/btae336",
           "PubDate": "2024-05-29",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-05-29"],
@@ -20122,11 +20336,14 @@
           "Title": "Realfreq: Real-time base modification analysis for nanopore sequencing",
           "DOI": "10.1101/2025.01.23.634192",
           "PubDate": "2025-01-27",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2025-01-27"],
@@ -20175,12 +20392,15 @@
           "Title": "RNA m6A detection using raw current signals and basecalling errors from Nanopore direct RNA sequencing reads",
           "DOI": "10.1093/bioinformatics/btae375",
           "PubDate": "2024-06-18",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [10],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 10,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-06-18"],
@@ -20206,12 +20426,15 @@
           "Title": "ReorientExpress: reference-free orientation of nanopore cDNA reads with deep learning",
           "DOI": "10.1186/s13059-019-1884-z",
           "PubDate": "2019-11-29",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [10],
+          "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 10,
+    "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-11-29"],
@@ -20237,12 +20460,15 @@
           "Title": "FORK-seq: replication landscape of the Saccharomyces cerevisiae genome by nanopore sequencing",
           "DOI": "10.1186/s13059-020-02013-3",
           "PubDate": "2020-05-26",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [71],
+          "Recent_citations": 23
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 71,
+    "Recent_citations": [23],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-05-26"],
@@ -20291,7 +20517,9 @@
         {
           "DOI": " 10.1093/nargab/lqad108",
           "PubDate": "2023-12-23",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 2
         }
       ],
       "Preprints": [
@@ -20299,11 +20527,14 @@
           "Title": "Restrander: rapid orientation and QC of long-read cDNA data",
           "DOI": "10.1101/2023.05.02.539165",
           "PubDate": "2023-05-04",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 0,
+    "Recent_citations": [0, 2],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2023-05-04", "2023-12-23"],
@@ -20353,12 +20584,15 @@
           "Title": "Advanced analysis of retrotransposon variation in the human genome with nanopore sequencing using RetroInspector",
           "DOI": "10.1038/s41598-025-98847-7",
           "PubDate": "2025-04-25",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2025-04-25"],
@@ -20384,12 +20618,15 @@
           "Title": "Ribbon: intuitive visualization for complex genomic variation",
           "DOI": "10.1093/bioinformatics/btaa680",
           "PubDate": "2020-08-04",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [70],
+          "Recent_citations": 21
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 70,
+    "Recent_citations": [21],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-08-04"],
@@ -20438,11 +20675,14 @@
           "Title": "Rockfish: A Transformer-based Model for Accurate 5-Methylcytosine Prediction from Nanopore Sequencing",
           "DOI": "10.1101/2022.11.11.513492",
           "PubDate": "2022-11-15",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [6],
+          "Recent_citations": 1
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 6,
+    "Recent_citations": [1],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2022-11-15"],
@@ -20489,12 +20729,15 @@
           "Title": "S-conLSH: alignment-free gapped mapping of noisy long reads",
           "DOI": "10.1186/s12859-020-03918-3",
           "PubDate": "2021-02-11",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [13],
+          "Recent_citations": 6
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 13,
+    "Recent_citations": [6],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2021-02-11"],
@@ -20522,12 +20765,15 @@
           "Title": "SACall: A Neural Network Basecaller for Oxford Nanopore Sequencing Data Based on Self-Attention Mechanism",
           "DOI": "10.1109/TCBB.2020.3039244",
           "PubDate": "2020-11-20",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [29],
+          "Recent_citations": 11
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 29,
+    "Recent_citations": [11],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-11-20"],
@@ -20553,11 +20799,14 @@
           "Title": "SAKit: an all-in-one analysis pipeline for identifying novel protein caused by variant events at genomic and transcriptic level",
           "DOI": "10.1101/2023.03.06.531407",
           "PubDate": "2023-03-08",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2023-03-08"],
@@ -20582,11 +20831,13 @@
           "Title": "Scaffolding of long read assemblies using long range contact information",
           "DOI": "10.1186/s12864-017-3879-z",
           "PubDate": "2017-07-12",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [262]
         }
       ],
       "Preprints": []
     },
+    "Citations": 262,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -20613,12 +20864,15 @@
           "Title": "The SAMBA tool uses long reads to improve the contiguity of genome assemblies",
           "DOI": "10.1371/journal.pcbi.1009860",
           "PubDate": "2022-02-04",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [43],
+          "Recent_citations": 20
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 43,
+    "Recent_citations": [20],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-02-04"],
@@ -20645,11 +20899,14 @@
           "Title": "Single-fiber nucleosome density shapes the regulatory output of a mammalian chromatin remodeling enzyme",
           "DOI": "10.1101/2021.12.10.472156",
           "PubDate": "2021-12-15",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [4],
+          "Recent_citations": 2
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 4,
+    "Recent_citations": [2],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2021-12-15"],
@@ -20676,11 +20933,14 @@
           "Title": "SAVANA: reliable analysis of somatic structural variants and copy number aberrations in clinical samples using long-read sequencing",
           "DOI": "10.1101/2024.07.25.604944",
           "PubDate": "2024-07-26",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [10],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 10,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-07-26"],
@@ -20707,11 +20967,14 @@
           "Title": "Single-Cell Omics for Transcriptome CHaracterization (SCOTCH): isoform-level characterization of gene expression through long-read single-cell RNA sequencing",
           "DOI": "10.1101/2024.04.29.590597",
           "PubDate": "2024-04-30",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [2],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-04-30"],
@@ -20739,11 +21002,13 @@
           "Title": "Long-read sequence and assembly of segmental duplications",
           "DOI": "10.1038/s41592-018-0236-3",
           "PubDate": "2018-12-07",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [196]
         }
       ],
       "Preprints": []
     },
+    "Citations": 196,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -20771,11 +21036,14 @@
           "Title": "SDip: A novel graph-based approach to haplotype-aware assembly based structural variant calling in targeted segmental duplications sequencing",
           "DOI": "10.1101/2020.02.25.964445",
           "PubDate": "2020-02-26",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [10],
+          "Recent_citations": 7
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 10,
+    "Recent_citations": [7],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2020-02-26"],
@@ -20821,12 +21089,15 @@
           "Title": "SLHSD: hybrid scaffolding method based on short and long reads",
           "DOI": "10.1093/bib/bbad169",
           "PubDate": "2023-05-04",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-05-04"],
@@ -20854,11 +21125,14 @@
           "Title": "SLOW5: a new file format enables massive acceleration of nanopore sequencing data analysis",
           "DOI": "10.1101/2021.06.29.450255",
           "PubDate": "2021-07-01",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2021-07-01"],
@@ -20885,11 +21159,14 @@
           "Title": "SLR-superscaffolder: a <i>de novo<\/i> scaffolding tool for synthetic long reads using a top-to-bottom scheme",
           "DOI": "10.1101/762385",
           "PubDate": "2019-09-09",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [4],
+          "Recent_citations": 4
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 4,
+    "Recent_citations": [4],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2019-09-09"],
@@ -20937,12 +21214,15 @@
           "Title": "Single molecule-level detection and long read-based phasing of epigenetic variations in bacterial methylomes",
           "DOI": "10.1038/ncomms8438",
           "PubDate": "2015-06-15",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [96],
+          "Recent_citations": 15
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 96,
+    "Recent_citations": [15],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-06-15"],
@@ -20968,7 +21248,9 @@
           "Title": "SMARTdenovo: a de novo assembler using long noisy reads",
           "DOI": "10.46471/gigabyte.15",
           "PubDate": "2021-03-08",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [8],
+          "Recent_citations": 56
         }
       ],
       "Preprints": [
@@ -20976,11 +21258,14 @@
           "Title": "&lt;strong&gt;SMARTdenov&lt;/strong&gt;&lt;strong&gt;o: A &lt;em&gt;de novo&lt;/em&gt; Assembler Using Long Noisy Reads&lt;/strong&gt;",
           "DOI": "10.20944/preprints202009.0207.v1",
           "PubDate": "2020-09-11",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [8],
+          "Recent_citations": 5
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 16,
+    "Recent_citations": [5, 56],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2020-09-11", "2021-03-08"],
@@ -21027,11 +21312,13 @@
           "Title": "Characterization of DNA methyltransferase specificities using single-molecule, real-time DNA sequencing",
           "DOI": "10.1093/nar/gkr1146",
           "PubDate": "2011-12-08",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [294]
         }
       ],
       "Preprints": []
     },
+    "Citations": 294,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -21058,11 +21345,13 @@
           "Title": "Resolving the complexity of the human genome using single-molecule sequencing",
           "DOI": "10.1038/nature13907",
           "PubDate": "2014-11-10",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [736]
         }
       ],
       "Preprints": []
     },
+    "Citations": 736,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -21111,16 +21400,54 @@
           "Title": "SNaReSim: Synthetic Nanopore Read Simulator",
           "DOI": "10.1101/133652",
           "PubDate": "2017-05-23",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2017-05-23"],
     "Technologies": ["OxfordNanopore"],
     "Categories": ["Simulators"]
+  },
+  {
+    "Name": "SNooPy",
+    "DOIs": "10.64898/2025.12.01.691549",
+    "Platform": "Python",
+    "Description": "Statistical framework for metagenomic variant calling agnostic to ploidy/strain count.",
+    "Code": "https://github.com/rolandfaure/SNooPy",
+    "License": "GPL-3.0 License",
+    "Underlying_algorithms": "Non-parametric correlation test of read columns; Linkage disequilibrium analysis.",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "Title": "SNooPy: a statistical framework for long-read metagenomic variant calling",
+          "DOI": "10.64898/2025.12.01.691549",
+          "PubDate": "2025-12-08",
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
+        }
+      ],
+      "Preprints": []
+    },
+    "Citations": 0,
+    "Recent_citations": [0],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["2025-12-08"],
+    "Github": "rolandfaure/SNooPy",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["SNPAndVariantAnalysis", "Metagenomics"]
   },
   {
     "Name": "SOSTAR",
@@ -21141,12 +21468,15 @@
           "Title": "Fine mapping of RNA isoform diversity using an innovative targeted long-read RNA sequencing protocol with novel dedicated bioinformatics pipeline",
           "DOI": "10.1186/s12864-024-10741-0",
           "PubDate": "2024-09-30",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [3],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-09-30"],
@@ -21172,11 +21502,13 @@
           "Title": "SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing",
           "DOI": "10.1089/cmb.2012.0021",
           "PubDate": "2012-04-16",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [22951]
         }
       ],
       "Preprints": []
     },
+    "Citations": 22951,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -21201,12 +21533,15 @@
           "Title": "Comprehensive analysis of full-length transcripts reveals novel splicing abnormalities and oncogenic transcripts in liver cancer",
           "DOI": "10.1371/journal.pgen.1010342",
           "PubDate": "2022-08-04",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [28],
+          "Recent_citations": 15
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 28,
+    "Recent_citations": [15],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-08-04"],
@@ -21232,11 +21567,13 @@
           "Title": "SQANTI: extensive characterization of long-read transcript sequences for quality control in full-length transcriptome identification and quantification",
           "DOI": "10.1101/gr.222976.117",
           "PubDate": "2018-02-09",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [377]
         }
       ],
       "Preprints": []
     },
+    "Citations": 377,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -21262,7 +21599,8 @@
         {
           "DOI": " 10.1186/s13059-023-03127-0",
           "PubDate": "2023-12-11",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [0]
         }
       ],
       "Preprints": [
@@ -21270,11 +21608,14 @@
           "Title": "SQANTI-SIM: a simulator of controlled transcript novelty for lrRNA-seq benchmark",
           "DOI": "10.1101/2023.08.23.554392",
           "PubDate": "2023-08-24",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 0,
+    "Recent_citations": [0, "NA"],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2023-08-24", "2023-12-11"],
@@ -21302,11 +21643,14 @@
           "Title": "SQANTI-reads: a tool for the quality assessment of long read data in multi-sample lrRNA-seq experiments",
           "DOI": "10.1101/2024.08.23.609463",
           "PubDate": "2024-08-26",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [3],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-08-26"],
@@ -21332,11 +21676,13 @@
           "Title": "SQANTI: extensive characterization of long-read transcript sequences for quality control in full-length transcriptome identification and quantification",
           "DOI": "10.1101/gr.222976.117",
           "PubDate": "2018-02-09",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [377]
         }
       ],
       "Preprints": []
     },
+    "Citations": 377,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -21363,7 +21709,8 @@
           "Title": "SQANTI: extensive characterization of long-read transcript sequences for quality control in full-length transcriptome identification and quantification",
           "DOI": "10.1101/gr.222976.117",
           "PubDate": "2018-02-09",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [377]
         }
       ],
       "Preprints": [
@@ -21371,11 +21718,14 @@
           "Title": "SQANTI3: curation of long-read transcriptomes for accurate identification of known and novel isoforms",
           "DOI": "10.1101/2023.05.17.541248",
           "PubDate": "2023-05-22",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [377],
+          "Recent_citations": 10
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 754,
+    "Recent_citations": ["NA", 10],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2018-02-09", "2023-05-22"],
@@ -21422,11 +21772,14 @@
           "Title": "STIX: Long-reads based Accurate Structural Variation Annotation at Population Scale",
           "DOI": "10.1101/2024.09.30.615931",
           "PubDate": "2024-10-01",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [7],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 7,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-10-01"],
@@ -21453,12 +21806,15 @@
           "Title": "Analysis of short tandem repeat expansions and their methylation state with nanopore sequencing",
           "DOI": "10.1038/s41587-019-0293-x",
           "PubDate": "2019-11-18",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [167],
+          "Recent_citations": 49
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 167,
+    "Recent_citations": [49],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-11-18"],
@@ -21485,11 +21841,14 @@
           "Title": "STRkit: precise, read-level genotyping of short tandem repeats using long reads and single-nucleotide variation",
           "DOI": "10.1101/2025.03.25.645269",
           "PubDate": "2025-03-29",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2025-03-29"],
@@ -21515,12 +21874,15 @@
           "Title": "SUMMER: an integrated nanopore sequencing pipeline for variants detection and clinical annotation on the human genome",
           "DOI": "10.1007/s10142-025-01534-z",
           "PubDate": "2025-01-21",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2025-01-21"],
@@ -21546,11 +21908,13 @@
           "Title": "Transient structural variations have strong effects on quantitative traits and reproductive isolation in fission yeast",
           "DOI": "10.1038/ncomms14061",
           "PubDate": "2017-01-24",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [653]
         }
       ],
       "Preprints": []
     },
+    "Citations": 653,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -21578,12 +21942,15 @@
           "Title": "SV-JIM, detailed pairwise structural variant calling using long-reads and genome assemblies",
           "DOI": "10.1016/j.ymeth.2024.12.015",
           "PubDate": "2025-01-17",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2025-01-17"],
@@ -21609,12 +21976,15 @@
           "Title": "Optimized sample selection for cost-efficient long-read population sequencing",
           "DOI": "10.1101/gr.264879.120",
           "PubDate": "2021-04-02",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [7],
+          "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 7,
+    "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2021-04-02"],
@@ -21640,7 +22010,9 @@
           "Title": "SVDSS: structural variation discovery in hard-to-call genomic regions using sample-specific strings from accurate long reads",
           "DOI": "10.1038/s41592-022-01674-1",
           "PubDate": "2022-12-22",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [2],
+          "Recent_citations": 9
         }
       ],
       "Preprints": [
@@ -21648,11 +22020,14 @@
           "Title": "Improved structural variant discovery in hard-to-call regions using sample-specific string detection from accurate long reads",
           "DOI": "10.1101/2022.02.12.480198",
           "PubDate": "2022-02-14",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [2],
+          "Recent_citations": 2
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 4,
+    "Recent_citations": [2, 9],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2022-02-14", "2022-12-22"],
@@ -21678,12 +22053,15 @@
           "Title": "SVIM: structural variant identification using mapped long reads",
           "DOI": "10.1093/bioinformatics/btz041",
           "PubDate": "2019-01-17",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [283],
+          "Recent_citations": 35
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 283,
+    "Recent_citations": [35],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-01-17"],
@@ -21711,12 +22089,15 @@
           "Title": "SVJedi: genotyping structural variations with long reads",
           "DOI": "10.1093/bioinformatics/btaa527",
           "PubDate": "2020-05-18",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [13],
+          "Recent_citations": 7
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 13,
+    "Recent_citations": [7],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-05-18"],
@@ -21742,12 +22123,15 @@
           "Title": "SVNN: an efficient PacBio-specific pipeline for structural variations calling using neural networks",
           "DOI": "10.1186/s12859-021-04184-7",
           "PubDate": "2021-06-19",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [2],
+          "Recent_citations": 1
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [1],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2021-06-19"],
@@ -21773,11 +22157,14 @@
           "Title": "Resolving somatic SVs via full-length sequence model-based local graph-genome optimization",
           "DOI": "10.1101/2025.02.11.636543",
           "PubDate": "2025-02-15",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2025-02-15"],
@@ -21802,12 +22189,15 @@
           "Title": "SVcnn: an accurate deep learning-based method for detecting structural variation based on long-read data",
           "DOI": "10.1186/s12859-023-05324-x",
           "PubDate": "2023-05-23",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [9],
+          "Recent_citations": 6
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 9,
+    "Recent_citations": [6],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-05-23"],
@@ -21834,12 +22224,15 @@
           "Title": "SVision: a deep learning approach to resolve complex structural variants",
           "DOI": "10.1038/s41592-022-01609-w",
           "PubDate": "2022-09-15",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [74],
+          "Recent_citations": 29
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 74,
+    "Recent_citations": [29],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-09-15"],
@@ -21863,12 +22256,15 @@
           "Title": "Detecting complex indels with wide length-spectrum from the third generation sequencing data",
           "DOI": "10.1109/BIBM.2017.8217965",
           "PubDate": "2017-12-21",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-12-21"],
@@ -21893,12 +22289,15 @@
           "Title": "SWARM: A Single-Molecule Workflow for High-Precision Profiling of RNA Modifications",
           "DOI": "10.64898/2025.12.18.695332",
           "PubDate": "2025-12-21",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2025-12-21"],
@@ -21925,12 +22324,15 @@
           "Title": "Strand-seq enables reliable separation of long reads by chromosome via expectation maximization",
           "DOI": "10.1093/bioinformatics/bty290",
           "PubDate": "2018-04-16",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [28],
+          "Recent_citations": 5
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 28,
+    "Recent_citations": [5],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-04-16"],
@@ -21956,7 +22358,9 @@
           "Title": "Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling",
           "DOI": "10.1093/bioinformatics/btaf136",
           "PubDate": "2025-04-09",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [5],
+          "Recent_citations": 0
         }
       ],
       "Preprints": [
@@ -21964,11 +22368,14 @@
           "Title": "Sawfish: Improving long-read structural variant discovery and genotyping with local haplotype modeling",
           "DOI": "10.1101/2024.08.19.608674",
           "PubDate": "2024-08-20",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [5],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 10,
+    "Recent_citations": [0, 0],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2024-08-20", "2025-04-09"],
@@ -21995,11 +22402,14 @@
           "Title": "ScIsoX: A Multidimensional Framework for Measuring Isoform-Level Transcriptomic Complexity in Single Cells",
           "DOI": "10.1101/2025.04.28.650897",
           "PubDate": "2025-05-01",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [2],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2025-05-01"],
@@ -22025,11 +22435,13 @@
           "Title": "Full-Length Spatial Transcriptomics Reveals the Unexplored Isoform Diversity of the Myocardium Post-MI",
           "DOI": "10.3389/fgene.2022.912572",
           "PubDate": "2022-07-22",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [30]
         }
       ],
       "Preprints": []
     },
+    "Citations": 30,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -22057,11 +22469,14 @@
           "Title": "Single cell transcriptome sequencing on the Nanopore platform with ScNapBar",
           "DOI": "10.1101/2020.10.16.342626",
           "PubDate": "2020-10-17",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [3],
+          "Recent_citations": 2
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [2],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2020-10-17"],
@@ -22087,12 +22502,15 @@
           "Title": "ScanExitronLR: characterization and quantification of exitron splicing events in long-read RNA-seq data",
           "DOI": "10.1093/bioinformatics/btac626",
           "PubDate": "2022-09-13",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [5],
+          "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 5,
+    "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-09-13"],
@@ -22117,12 +22535,15 @@
           "Title": "ScisorWiz: visualizing differential isoform expression in single-cell long-read data",
           "DOI": "10.1093/bioinformatics/btac340",
           "PubDate": "2022-05-23",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [23],
+          "Recent_citations": 12
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 23,
+    "Recent_citations": [12],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-05-23"],
@@ -22148,7 +22569,9 @@
           "Title": "Scywalker: Scalable end-to-end data analysis workflow for long-read single-cell transcriptome sequencing",
           "DOI": "10.1093/bioinformatics/btae549",
           "PubDate": "2024-09-10",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ],
       "Preprints": [
@@ -22156,11 +22579,14 @@
           "Title": "Scywalker: scalable end-to-end data analysis workflow for nanopore single-cell transcriptome sequencing",
           "DOI": "10.1101/2024.02.22.581508",
           "PubDate": "2024-02-27",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [1],
+          "Recent_citations": 2
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 2,
+    "Recent_citations": [2, 0],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2024-02-27", "2024-09-10"],
@@ -22185,7 +22611,9 @@
           "Title": "SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing",
           "DOI": "10.1093/bioinformatics/btad209",
           "PubDate": "2023-06-30",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [4],
+          "Recent_citations": 42
         }
       ],
       "Preprints": [
@@ -22193,11 +22621,14 @@
           "Title": "SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing",
           "DOI": "10.1101/2023.01.09.523201",
           "PubDate": "2023-01-10",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [4],
+          "Recent_citations": 2
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 8,
+    "Recent_citations": [2, 42],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2023-01-10", "2023-06-30"],
@@ -22223,11 +22654,14 @@
           "Title": "SeqTagger, a rapid and accurate tool to demultiplex direct RNA nanopore sequencing datasets",
           "DOI": "10.1101/2024.10.29.620808",
           "PubDate": "2024-10-31",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [3],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-10-31"],
@@ -22274,11 +22708,13 @@
           "Title": "Nanopore sequencing and the Shasta toolkit enable efficient de novo assembly of eleven human genomes",
           "DOI": "10.1038/s41587-020-0503-6",
           "PubDate": "2020-05-04",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [477]
         }
       ],
       "Preprints": []
     },
+    "Citations": 477,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -22328,12 +22764,15 @@
           "Title": "High throughput error corrected Nanopore single cell transcriptome sequencing",
           "DOI": "10.1038/s41467-020-17800-6",
           "PubDate": "2020-08-12",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [202],
+          "Recent_citations": 64
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 202,
+    "Recent_citations": [64],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-08-12"],
@@ -22360,11 +22799,14 @@
           "Title": "SiLiCO: A Simulator of Long Read Sequencing in PacBio and Oxford Nanopore",
           "DOI": "10.1101/076901",
           "PubDate": "2016-09-23",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [5],
+          "Recent_citations": 2
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 5,
+    "Recent_citations": [2],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2016-09-23"],
@@ -22391,12 +22833,15 @@
           "Title": "Real-time mapping of nanopore raw signals",
           "DOI": "10.1093/bioinformatics/btab264",
           "PubDate": "2021-05-03",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [65],
+          "Recent_citations": 30
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 65,
+    "Recent_citations": [30],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2021-05-03"],
@@ -22423,11 +22868,14 @@
           "Title": "Sigmoni: classification of nanopore signal with a compressed pangenome index",
           "DOI": "10.1101/2023.08.15.553308",
           "PubDate": "2023-08-17",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [3],
+          "Recent_citations": 1
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [1],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2023-08-17"],
@@ -22454,11 +22902,13 @@
           "Title": "Mapping DNA methylation with high-throughput nanopore sequencing",
           "DOI": "10.1038/nmeth.4189",
           "PubDate": "2017-02-21",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [463]
         }
       ],
       "Preprints": []
     },
+    "Citations": 463,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -22485,12 +22935,15 @@
           "Title": "SimLoRD: Simulation of Long Read Data",
           "DOI": "10.1093/bioinformatics/btw286",
           "PubDate": "2016-05-10",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [88],
+          "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 88,
+    "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-05-10"],
@@ -22514,10 +22967,12 @@
           "Title": "Single-Molecule Direct RNA Sequencing Reveals the Shaping of Epitranscriptome Across Multiple Species",
           "DOI": "10.1101/2023.11.16.567334",
           "PubDate": "2023-11-17",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [4]
         }
       ]
     },
+    "Citations": 4,
     "Recent_citations": ["NA"],
     "Publications": 0,
     "Preprints": 1,
@@ -22542,12 +22997,15 @@
           "Title": "SituSeq: an offline protocol for rapid and remote Nanopore 16S rRNA amplicon sequence analysis",
           "DOI": "10.1038/s43705-023-00239-3",
           "PubDate": "2023-04-20",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [22],
+          "Recent_citations": 13
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 22,
+    "Recent_citations": [13],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-04-20"],
@@ -22573,12 +23031,15 @@
           "Title": "Sketching and sampling approaches for fast and accurate long read classification",
           "DOI": "10.1186/s12859-022-05014-0",
           "PubDate": "2022-10-31",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [4],
+          "Recent_citations": 2
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 4,
+    "Recent_citations": [2],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-10-31"],
@@ -22605,7 +23066,9 @@
         {
           "DOI": " 10.1093/bioinformatics/btad702",
           "PubDate": "2023-11-17",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ],
       "Preprints": [
@@ -22613,11 +23076,14 @@
           "Title": "Snapper: a high-sensitive algorithm to detect methylation motifs based on Oxford Nanopore reads",
           "DOI": "10.1101/2022.11.15.516621",
           "PubDate": "2022-11-17",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 2,
+    "Recent_citations": [0, 0],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2022-11-17", "2023-11-17"],
@@ -22645,12 +23111,15 @@
           "Title": "SneakySnake: a fast and accurate universal genome pre-alignment filter for CPUs, GPUs and FPGAs",
           "DOI": "10.1093/bioinformatics/btaa1015",
           "PubDate": "2020-11-25",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [32],
+          "Recent_citations": 11
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 32,
+    "Recent_citations": [11],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-11-25"],
@@ -22676,11 +23145,13 @@
           "Title": "Accurate detection of complex structural variations using single-molecule sequencing",
           "DOI": "10.1038/s41592-018-0001-7",
           "PubDate": "2018-04-27",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1471]
         }
       ],
       "Preprints": []
     },
+    "Citations": 1471,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -22707,7 +23178,8 @@
         {
           "DOI": " 10.1038/s41587-023-02024-y",
           "PubDate": "2024-01-02",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [76]
         }
       ],
       "Preprints": [
@@ -22715,10 +23187,12 @@
           "Title": "Comprehensive Structural Variant Detection: From Mosaic to Population-Level",
           "DOI": "10.1101/2022.04.04.487055",
           "PubDate": "2022-04-05",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [76]
         }
       ]
     },
+    "Citations": 152,
     "Recent_citations": ["NA", "NA"],
     "Publications": 1,
     "Preprints": 1,
@@ -22745,12 +23219,15 @@
           "Title": "socru: typing of genome-level order and orientation around ribosomal operons in bacteria",
           "DOI": "10.1099/mgen.0.000396",
           "PubDate": "2020-06-25",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [18],
+          "Recent_citations": 12
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 18,
+    "Recent_citations": [12],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-06-25"],
@@ -22776,12 +23253,15 @@
           "Title": "Sparc: a sparsity-based consensus algorithm for long erroneous sequencing reads",
           "DOI": "10.7717/peerj.2016",
           "PubDate": "2016-06-08",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [37],
+          "Recent_citations": 5
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 37,
+    "Recent_citations": [5],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-06-08"],
@@ -22807,11 +23287,14 @@
           "Title": "SpliceCoord: A computational toolkit to identify coordinated exon splicing events from long-read transcriptome sequencing data",
           "DOI": "10.1101/2025.08.20.671187",
           "PubDate": "2025-08-24",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2025-08-24"],
@@ -22837,11 +23320,13 @@
           "Title": "Performance comparison of second- and third-generation sequencers using a bacterial genome with two chromosomes",
           "DOI": "10.1186/1471-2164-15-699",
           "PubDate": "2014-08-21",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [83]
         }
       ],
       "Preprints": []
     },
+    "Citations": 83,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -22867,12 +23352,15 @@
           "Title": "SqueezeCall: nanopore basecalling using a Squeezeformer network",
           "DOI": "10.46471/gigabyte.148",
           "PubDate": "2025-02-14",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2025-02-14"],
@@ -22898,12 +23386,15 @@
           "Title": "SquiggleKit: a toolkit for manipulating nanopore signal data",
           "DOI": "10.1093/bioinformatics/btz586",
           "PubDate": "2019-07-22",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [22],
+          "Recent_citations": 8
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 22,
+    "Recent_citations": [8],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-07-22"],
@@ -22931,12 +23422,15 @@
           "Title": "SquiggleNet: real-time, direct classification of nanopore signals",
           "DOI": "10.1186/s13059-021-02511-y",
           "PubDate": "2021-10-27",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [61],
+          "Recent_citations": 27
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 61,
+    "Recent_citations": [27],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2021-10-27"],
@@ -22962,12 +23456,15 @@
           "Title": "Simulation of nanopore sequencing signal data with tunable parameters",
           "DOI": "10.1101/gr.278730.123",
           "PubDate": "2024-05-01",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [10],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 10,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-05-01"],
@@ -22994,11 +23491,14 @@
           "Title": "StarPhase: Comprehensive Phase-Aware Pharmacogenomic Diplotyper for Long-Read Sequencing Data",
           "DOI": "10.1101/2024.12.10.627527",
           "PubDate": "2024-12-13",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [5],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 5,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-12-13"],
@@ -23024,11 +23524,13 @@
           "Title": "STAR: ultrafast universal RNA-seq aligner",
           "DOI": "10.1093/bioinformatics/bts635",
           "PubDate": "2012-10-27",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [46412]
         }
       ],
       "Preprints": []
     },
+    "Citations": 46412,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -23055,12 +23557,15 @@
           "Title": "Straglr: discovering and genotyping tandem repeat expansions using whole genome long-read sequences",
           "DOI": "10.1186/s13059-021-02447-3",
           "PubDate": "2021-08-13",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [86],
+          "Recent_citations": 15
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 86,
+    "Recent_citations": [15],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2021-08-13"],
@@ -23088,11 +23593,14 @@
           "Title": "Automated strain separation in low-complexity metagenomes using long reads",
           "DOI": "10.1101/2021.02.24.429166",
           "PubDate": "2021-02-25",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [3],
+          "Recent_citations": 3
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [3],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2021-02-25"],
@@ -23118,7 +23626,9 @@
           "Title": "Strainy: phasing and assembly of strain haplotypes from long-read metagenome sequencing",
           "DOI": "10.1038/s41592-024-02424-1",
           "PubDate": "2024-09-26",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [9],
+          "Recent_citations": 0
         }
       ],
       "Preprints": [
@@ -23126,11 +23636,14 @@
           "Title": "stRainy: assembly-based metagenomic strain phasing using long reads",
           "DOI": "10.1101/2023.01.31.526521",
           "PubDate": "2023-02-06",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [9],
+          "Recent_citations": 9
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 18,
+    "Recent_citations": [9, 0],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2023-02-06", "2024-09-26"],
@@ -23157,11 +23670,13 @@
           "Title": "Transcriptome assembly from long-read RNA-seq alignments with StringTie2",
           "DOI": "10.1186/s13059-019-1910-1",
           "PubDate": "2019-12-16",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1683]
         }
       ],
       "Preprints": []
     },
+    "Citations": 1683,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -23188,11 +23703,13 @@
           "Title": "Ultra-fast deep-learned CNS tumour classification during surgery",
           "DOI": "10.1038/s41586-023-06615-2",
           "PubDate": "2023-10-11",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [158]
         }
       ],
       "Preprints": []
     },
+    "Citations": 158,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -23220,12 +23737,15 @@
           "Title": "A fast algorithm for constructing suffix arrays for DNA alphabets",
           "DOI": "10.1016/j.jksuci.2022.04.015",
           "PubDate": "2022-05-06",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [2],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-05-06"],
@@ -23294,12 +23814,15 @@
           "Title": "De novo and somatic structural variant discovery with SVision-pro",
           "DOI": "10.1038/s41587-024-02190-7",
           "PubDate": "2024-03-22",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [16],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 16,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-03-22"],
@@ -23324,12 +23847,15 @@
           "Title": "SVsearcher: A more accurate structural variation detection method in long read data",
           "DOI": "10.1016/j.compbiomed.2023.106843",
           "PubDate": "2023-04-01",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [4],
+          "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 4,
+    "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-04-01"],
@@ -23357,12 +23883,15 @@
           "Title": "Swan: a library for the analysis and visualization of long-read transcriptomes",
           "DOI": "10.1093/bioinformatics/btaa836",
           "PubDate": "2020-09-16",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [27],
+          "Recent_citations": 7
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 27,
+    "Recent_citations": [7],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-09-16"],
@@ -23388,11 +23917,13 @@
           "Title": "SyRI: finding genomic rearrangements and local sequence differences from whole-genome assemblies",
           "DOI": "10.1186/s13059-019-1911-0",
           "PubDate": "2019-12-16",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [798]
         }
       ],
       "Preprints": []
     },
+    "Citations": 798,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -23420,11 +23951,14 @@
           "Title": "T1K: efficient and accurate KIR and HLA genotyping with next-generation sequencing data",
           "DOI": "10.1101/2022.10.26.513955",
           "PubDate": "2022-10-28",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [5],
+          "Recent_citations": 4
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 5,
+    "Recent_citations": [4],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2022-10-28"],
@@ -23449,12 +23983,15 @@
           "Title": "TAGET: a toolkit for analyzing full-length transcripts from long-read sequencing",
           "DOI": "10.1038/s41467-023-41649-0",
           "PubDate": "2023-09-23",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [12],
+          "Recent_citations": 7
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 12,
+    "Recent_citations": [7],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-09-23"],
@@ -23480,12 +24017,15 @@
           "Title": "TALC: Transcript-level Aware Long-read Correction",
           "DOI": "10.1093/bioinformatics/btaa634",
           "PubDate": "2020-07-10",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [14],
+          "Recent_citations": 10
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 14,
+    "Recent_citations": [10],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-07-10"],
@@ -23512,11 +24052,14 @@
           "Title": "A technology-agnostic long-read analysis pipeline for transcriptome discovery and quantification",
           "DOI": "10.1101/672931",
           "PubDate": "2019-06-18",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [144],
+          "Recent_citations": 29
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 144,
+    "Recent_citations": [29],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2019-06-18"],
@@ -23543,11 +24086,14 @@
           "Title": "Illuminating the dark side of the human transcriptome with TAMA Iso-Seq analysis",
           "DOI": "10.1101/780015",
           "PubDate": "2019-09-25",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [12],
+          "Recent_citations": 12
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 12,
+    "Recent_citations": [12],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2019-09-25"],
@@ -23572,11 +24118,13 @@
           "Title": "A survey of the sorghum transcriptome using single-molecule long reads",
           "DOI": "10.1038/ncomms11706",
           "PubDate": "2016-06-24",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [450]
         }
       ],
       "Preprints": []
     },
+    "Citations": 450,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -23601,12 +24149,15 @@
           "Title": "TDFPS-Designer: an efficient toolkit for barcode design and selection in nanopore sequencing",
           "DOI": "10.1186/s13059-024-03423-3",
           "PubDate": "2024-11-04",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-11-04"],
@@ -23652,11 +24203,13 @@
           "Title": "TGS-GapCloser: A fast and accurate gap closer for large genomes with low coverage of error-prone long reads",
           "DOI": "10.1093/gigascience/giaa094",
           "PubDate": "2020-09-07",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [380]
         }
       ],
       "Preprints": []
     },
+    "Citations": 380,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -23684,11 +24237,14 @@
           "Title": "TKSM: Highly modular, user-customizable, and scalable transcriptomic sequencing long-read simulator",
           "DOI": "10.1101/2023.06.12.544410",
           "PubDate": "2023-06-13",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2023-06-13"],
@@ -23714,12 +24270,15 @@
           "Title": "Nanopore Sequencing Enables Comprehensive Transposable Element Epigenomic Profiling",
           "DOI": "10.1016/j.molcel.2020.10.024",
           "PubDate": "2020-11-12",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [175],
+          "Recent_citations": 68
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 175,
+    "Recent_citations": [68],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-11-12"],
@@ -23745,11 +24304,14 @@
           "Title": "Characterising tandem repeat complexities across long-read sequencing platforms with TREAT",
           "DOI": "10.1101/2024.03.15.585288",
           "PubDate": "2024-03-17",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [3],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-03-17"],
@@ -23775,7 +24337,9 @@
         {
           "DOI": " 10.1038/s41587-023-02057-3",
           "PubDate": "2024-01-02",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [17],
+          "Recent_citations": 42
         }
       ],
       "Preprints": [
@@ -23783,11 +24347,13 @@
           "Title": "Resolving the unsolved: Comprehensive assessment of tandem repeats at scale",
           "DOI": "10.1101/2023.05.12.540470",
           "PubDate": "2023-05-15",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [17]
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 34,
+    "Recent_citations": ["NA", 42],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2023-05-15", "2024-01-02"],
@@ -23815,11 +24381,14 @@
           "Title": "TRGT-denovo: accurate detection of<i>de novo<\/i>tandem repeat mutations",
           "DOI": "10.1101/2024.07.16.600745",
           "PubDate": "2024-07-19",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [4],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 4,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-07-19"],
@@ -23867,12 +24436,15 @@
           "Title": "TRiCoLOR: tandem repeat profiling using whole-genome long-read sequencing data",
           "DOI": "10.1093/gigascience/giaa101",
           "PubDate": "2020-10-07",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [25],
+          "Recent_citations": 8
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 25,
+    "Recent_citations": [8],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-10-07"],
@@ -23898,12 +24470,15 @@
           "Title": "TRsv: simultaneous detection of tandem repeat variations, structural variations, and short indels using long read sequencing data",
           "DOI": "10.1186/s13059-025-03718-z",
           "PubDate": "2025-08-19",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2025-08-19"],
@@ -23928,12 +24503,15 @@
           "Title": "TSD: A Computational Tool To Study the Complex Structural Variants Using PacBio Targeted Sequencing Data",
           "DOI": "10.1534/g3.118.200900",
           "PubDate": "2019-03-09",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [17],
+          "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 17,
+    "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-03-09"],
@@ -23958,12 +24536,15 @@
           "Title": "Rapid de novo assembly of the European eel genome from nanopore sequencing reads",
           "DOI": "10.1038/s41598-017-07650-6",
           "PubDate": "2017-07-28",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [97],
+          "Recent_citations": 48
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 97,
+    "Recent_citations": [48],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-07-28"],
@@ -23989,12 +24570,15 @@
           "Title": "Nanopore sequencing of single-cell transcriptomes with scCOLOR-seq",
           "DOI": "10.1038/s41587-021-00965-w",
           "PubDate": "2021-07-01",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [104],
+          "Recent_citations": 38
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 104,
+    "Recent_citations": [38],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2021-07-01"],
@@ -24017,11 +24601,13 @@
           "Title": "Transferable deep learning enables identification of multiple types of RNA modifications using nanopore direct RNA sequencing",
           "DOI": "10.21203/rs.3.rs-2802013/v1",
           "PubDate": "2023-04-14",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1]
         }
       ],
       "Preprints": []
     },
+    "Citations": 1,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -24047,12 +24633,15 @@
           "Title": "TandemTools: mapping long reads and assessing/improving assembly quality in extra-long tandem repeats",
           "DOI": "10.1093/bioinformatics/btaa440",
           "PubDate": "2020-05-04",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [53],
+          "Recent_citations": 24
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 53,
+    "Recent_citations": [24],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-05-04"],
@@ -24079,11 +24668,14 @@
           "Title": "TeloSearchLR: an algorithm to detect novel telomere repeat motifs using long sequencing reads",
           "DOI": "10.1101/2024.10.29.617943",
           "PubDate": "2024-11-02",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-11-02"],
@@ -24109,12 +24701,15 @@
           "Title": "High-throughput telomere length measurement at nucleotide resolution using the PacBio high fidelity sequencing platform",
           "DOI": "10.1038/s41467-023-35823-7",
           "PubDate": "2023-01-17",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [51],
+          "Recent_citations": 28
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 51,
+    "Recent_citations": [28],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-01-17"],
@@ -24142,11 +24737,14 @@
           "Title": "TIPPo: A User-Friendly Tool for De Novo Assembly of Organellar Genomes with HiFi Data",
           "DOI": "10.1101/2024.01.29.577798",
           "PubDate": "2024-01-31",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [2],
+          "Recent_citations": 2
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [2],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-01-31"],
@@ -24172,11 +24770,13 @@
           "Title": "TideHunter: efficient and sensitive tandem repeat detection from noisy long-reads using seed-and-chain",
           "DOI": "10.1093/bioinformatics/btz376",
           "PubDate": "2019-05-09",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [46]
         }
       ],
       "Preprints": []
     },
+    "Citations": 46,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -24203,12 +24803,15 @@
           "Title": "TipToft: detecting plasmids contained in uncorrected long read sequencing data",
           "DOI": "10.21105/joss.01021",
           "PubDate": "2019-03-01",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-03-01"],
@@ -24233,12 +24836,15 @@
           "Title": "Comprehensive transcriptome analysis using synthetic long-read sequencing reveals molecular co-association of distant splicing events",
           "DOI": "10.1038/nbt.3242",
           "PubDate": "2015-05-18",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [204],
+          "Recent_citations": 22
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 204,
+    "Recent_citations": [22],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-05-18"],
@@ -24306,12 +24912,15 @@
           "Title": "TrAnnoScope: A Modular Snakemake Pipeline for Full-Length Transcriptome Analysis and Functional Annotation",
           "DOI": "10.3390/genes15121547",
           "PubDate": "2024-11-29",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-11-29"],
@@ -24339,7 +24948,9 @@
           "Title": "TrEMOLO: accurate transposable element allele frequency estimation using long-read sequencing data combining assembly and mapping-based approaches",
           "DOI": "10.1186/s13059-023-02911-2",
           "PubDate": "2023-04-03",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 16
         }
       ],
       "Preprints": [
@@ -24347,11 +24958,14 @@
           "Title": "TrEMOLO: Accurate transposable element allele frequency estimation using long-read sequencing data combining assembly and mapping-based approaches",
           "DOI": "10.1101/2022.07.21.500944",
           "PubDate": "2022-07-22",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 0,
+    "Recent_citations": [0, 16],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2022-07-22", "2023-04-03"],
@@ -24378,11 +24992,14 @@
           "Title": "Enhancing transcriptome expression quantification through accurate assignment of long RNA sequencing reads with TranSigner",
           "DOI": "10.1101/2024.04.13.589356",
           "PubDate": "2024-04-17",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [3],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-04-17"],
@@ -24409,11 +25026,14 @@
           "Title": "Tranquillyzer: A Flexible Neural Network Framework for Structural Annotation and Demultiplexing of Long-Read Transcriptomes",
           "DOI": "10.1101/2025.07.25.666829",
           "PubDate": "2025-07-31",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2025-07-31"],
@@ -24439,12 +25059,15 @@
           "Title": "Trans-NanoSim characterizes and simulates nanopore RNA-sequencing data",
           "DOI": "10.1093/gigascience/giaa061",
           "PubDate": "2020-06-10",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [28],
+          "Recent_citations": 8
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 28,
+    "Recent_citations": [8],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-06-10"],
@@ -24470,12 +25093,15 @@
           "Title": "TranscriptClean: variant-aware correction of indels, mismatches and splice junctions in long-read transcripts",
           "DOI": "10.1093/bioinformatics/bty483",
           "PubDate": "2018-06-13",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [64],
+          "Recent_citations": 10
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 64,
+    "Recent_citations": [10],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-06-13"],
@@ -24501,12 +25127,15 @@
           "Title": "On using Longer RNA-seq Reads to Improve Transcript Prediction Accuracy",
           "DOI": "10.5220/0005819702720277",
           "PubDate": "2016-04-28",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [6],
+          "Recent_citations": 2
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 6,
+    "Recent_citations": [2],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2016-04-28"],
@@ -24532,11 +25161,14 @@
           "Title": "Precise and ultrafast tandem repeat variant detection in massively parallel sequencing reads",
           "DOI": "10.1101/2023.02.15.528687",
           "PubDate": "2023-02-16",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [2],
+          "Recent_citations": 1
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [1],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2023-02-16"],
@@ -24582,12 +25214,15 @@
           "Title": "UNAGI: an automated pipeline for nanopore full-length cDNA sequencing uncovers novel transcripts and isoforms in yeast",
           "DOI": "10.1007/s10142-020-00732-1",
           "PubDate": "2020-01-18",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [10],
+          "Recent_citations": 2
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 10,
+    "Recent_citations": [2],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-01-18"],
@@ -24613,11 +25248,13 @@
           "Title": "Targeted nanopore sequencing by real-time mapping of raw electrical signal with UNCALLED",
           "DOI": "10.1038/s41587-020-0731-9",
           "PubDate": "2020-11-30",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [217]
         }
       ],
       "Preprints": []
     },
+    "Citations": 217,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -24645,11 +25282,14 @@
           "Title": "Uncalled4 improves nanopore DNA and RNA modification detection via fast and accurate signal alignment",
           "DOI": "10.1101/2024.03.05.583511",
           "PubDate": "2024-03-11",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [12],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 12,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-03-11"],
@@ -24676,11 +25316,13 @@
           "Title": "Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads",
           "DOI": "10.1371/journal.pcbi.1005595",
           "PubDate": "2017-06-08",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [7412]
         }
       ],
       "Preprints": []
     },
+    "Citations": 7412,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -24706,12 +25348,14 @@
         {
           "DOI": "10.4230/LIPIcs.WABI.2019.7",
           "PubDate": [],
-          "Preprint": false
+          "Preprint": false,
+          "Citations": ["NA"],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["character(0)"],
@@ -24738,11 +25382,14 @@
           "Title": "VACmap: An Accurate Long-Read Aligner for Unraveling Complex Genomic Rearrangements",
           "DOI": "10.1101/2023.08.03.551566",
           "PubDate": "2023-08-06",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2023-08-06"],
@@ -24769,11 +25416,14 @@
           "Title": "Visualization and review of reads alignment on the graphical pan-genome with VAG",
           "DOI": "10.1101/2023.01.20.524849",
           "PubDate": "2023-01-21",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [2],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2023-01-21"],
@@ -24801,13 +25451,17 @@
           "Title": "Variation graph toolkit improves read mapping by representing genetic variation in the reference",
           "DOI": "10.1038/nbt.4227",
           "PubDate": "2018-08-20",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [672],
+          "Recent_citations": 137
         },
         {
           "Title": "Haplotype-aware pantranscriptome analyses using spliced pangenome graphs",
           "DOI": "10.1038/s41592-022-01731-9",
           "PubDate": "2023-01-16",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [672],
+          "Recent_citations": 23
         }
       ],
       "Preprints": [
@@ -24815,11 +25469,14 @@
           "Title": "Rapid, accurate long- and short-read mapping to large pangenome graphs with vg Giraffe",
           "DOI": "10.1101/2025.09.29.678807",
           "PubDate": "2025-10-01",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [672],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA", "NA", "NA"],
+    "Citations": 2016,
+    "Recent_citations": [137, 23, 0],
     "Publications": 2,
     "Preprints": 1,
     "PubDates": ["2018-08-20", "2023-01-16", "2025-10-01"],
@@ -24846,11 +25503,14 @@
           "Title": "MOLGENIS VIP: an open-source and modular pipeline for high-throughput and integrated DNA variant analysis",
           "DOI": "10.1101/2024.04.11.24305656",
           "PubDate": "2024-04-15",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [3],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-04-15"],
@@ -24878,12 +25538,15 @@
           "Title": "VISOR: a versatile haplotype-aware structural variant simulator for short- and long-read sequencing",
           "DOI": "10.1093/bioinformatics/btz719",
           "PubDate": "2019-10-01",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [43],
+          "Recent_citations": 5
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 43,
+    "Recent_citations": [5],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-10-01"],
@@ -24908,12 +25571,15 @@
           "Title": "VIsoQLR: an interactive tool for the detection, quantification and fine-tuning of isoforms in selected genes using long-read sequencing",
           "DOI": "10.1007/s00439-023-02539-z",
           "PubDate": "2023-03-07",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [3],
+          "Recent_citations": 2
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 3,
+    "Recent_citations": [2],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-03-07"],
@@ -24940,11 +25606,14 @@
           "Title": "VRP Assembler: haplotype-resolved<i>de novo<\/i>assembly of diploid and polyploid genomes using quantum computing",
           "DOI": "10.1101/2023.10.19.563028",
           "PubDate": "2023-10-22",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2023-10-22"],
@@ -24968,12 +25637,15 @@
           "Title": "VANIR—NextFlow Pipeline for Viral Variant Calling and de Novo Assembly of Nanopore and Illumina Reads for High-Quality dsDNA Viral Genomes",
           "DOI": "10.3390/proceedings2020050117",
           "PubDate": "2020-07-07",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [2],
+          "Recent_citations": 1
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [1],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-07-07"],
@@ -24998,7 +25670,9 @@
           "Title": "VeChat: correcting errors in long reads using variation graphs",
           "DOI": "10.1038/s41467-022-34381-8",
           "PubDate": "2022-11-04",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [2],
+          "Recent_citations": 10
         }
       ],
       "Preprints": [
@@ -25006,11 +25680,14 @@
           "Title": "VeChat: Correcting errors in long reads using variation graphs",
           "DOI": "10.1101/2022.01.30.478352",
           "PubDate": "2022-02-02",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [2],
+          "Recent_citations": 2
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 4,
+    "Recent_citations": [2, 10],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2022-02-02", "2022-11-04"],
@@ -25036,12 +25713,15 @@
           "Title": "Fast and accurate mapping of long reads to complete genome assemblies with VerityMap",
           "DOI": "10.1101/gr.276871.122",
           "PubDate": "2022-11-15",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [18],
+          "Recent_citations": 12
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 18,
+    "Recent_citations": [12],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-11-15"],
@@ -25068,7 +25748,8 @@
           "Title": "Telomere-to-telomere assembly of diploid chromosomes with Verkko",
           "DOI": "10.1038/s41587-023-01662-6",
           "PubDate": "2023-02-16",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [38]
         }
       ],
       "Preprints": [
@@ -25076,11 +25757,14 @@
           "Title": "Verkko: telomere-to-telomere assembly of diploid chromosomes",
           "DOI": "10.1101/2022.06.24.497523",
           "PubDate": "2022-06-27",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [38],
+          "Recent_citations": 31
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 76,
+    "Recent_citations": [31, "NA"],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2022-06-27", "2023-02-16"],
@@ -25106,12 +25790,15 @@
           "Title": "Verkko2 integrates proximity-ligation data with long-read De Bruijn graphs for efficient telomere-to-telomere genome assembly, phasing, and scaffolding",
           "DOI": "10.1101/gr.280383.124",
           "PubDate": "2025-05-19",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [13],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 13,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2025-05-19"],
@@ -25137,12 +25824,15 @@
           "Title": "ViMOP: A user-friendly and field-applicable pipeline for untargeted viral genome nanopore sequencing",
           "DOI": "10.1093/bioinformatics/btaf687",
           "PubDate": "2025-12-27",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2025-12-27"],
@@ -25167,12 +25857,15 @@
           "Title": "VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing",
           "DOI": "10.1093/bioinformatics/btaf029",
           "PubDate": "2025-01-21",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [2],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2025-01-21"],
@@ -25198,12 +25891,15 @@
           "Title": "VirPipe: an easy-to-use and customizable pipeline for detecting viral genomes from Nanopore sequencing",
           "DOI": "10.1093/bioinformatics/btad293",
           "PubDate": "2023-05-02",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [16],
+          "Recent_citations": 10
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 16,
+    "Recent_citations": [10],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-05-02"],
@@ -25230,12 +25926,15 @@
           "Title": "ViralConsensus: a fast and memory-efficient tool for calling viral consensus genome sequences directly from read alignment data",
           "DOI": "10.1093/bioinformatics/btad317",
           "PubDate": "2023-05-12",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [12],
+          "Recent_citations": 8
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 12,
+    "Recent_citations": [8],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-05-12"],
@@ -25261,12 +25960,15 @@
           "Title": "VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing",
           "DOI": "10.1038/s41467-024-51282-0",
           "PubDate": "2024-08-13",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [5],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 5,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-08-13"],
@@ -25294,7 +25996,9 @@
           "Title": "Vulcan: Improved long-read mapping and structural variant calling via dual-mode alignment",
           "DOI": "10.1093/gigascience/giab063",
           "PubDate": "2021-09-25",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [18],
+          "Recent_citations": 11
         }
       ],
       "Preprints": [
@@ -25302,11 +26006,14 @@
           "Title": "Vulcan: Improved long-read mapping and structural variant calling via dual-mode alignment",
           "DOI": "10.1101/2021.05.29.446291",
           "PubDate": "2021-05-31",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [18],
+          "Recent_citations": 2
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 36,
+    "Recent_citations": [11, 2],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2021-09-25", "2021-05-31"],
@@ -25331,12 +26038,15 @@
           "Title": "A haplotype-aware <i>de novo<\/i> assembly of related individuals using pedigree sequence graph",
           "DOI": "10.1093/bioinformatics/btz942",
           "PubDate": "2019-12-18",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [25],
+          "Recent_citations": 9
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 25,
+    "Recent_citations": [9],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-12-18"],
@@ -25361,10 +26071,12 @@
           "Title": "What's in my pot? Real-time species identification on the MinION",
           "DOI": "10.1101/030742",
           "PubDate": "2015-11-07",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [98]
         }
       ]
     },
+    "Citations": 98,
     "Recent_citations": ["NA"],
     "Publications": 0,
     "Preprints": 1,
@@ -25435,11 +26147,14 @@
           "Title": "WarpDemuX-tRNA: barcode multiplexing for nanopore tRNA sequencing",
           "DOI": "10.1101/2025.03.21.644602",
           "PubDate": "2025-03-24",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2025-03-24"],
@@ -25467,11 +26182,14 @@
           "Title": "WarpSTR: Determining tandem repeat lengths using raw nanopore signals",
           "DOI": "10.1101/2022.11.05.515275",
           "PubDate": "2022-11-06",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2022-11-06"],
@@ -25495,12 +26213,15 @@
           "Title": "WaveNano: a signal-level nanopore base-caller via simultaneous prediction of nucleotide labels and move labels through bi-directional WaveNets",
           "DOI": "10.1007/s40484-018-0155-4",
           "PubDate": "2018-11-24",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [13],
+          "Recent_citations": 6
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 13,
+    "Recent_citations": [6],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-11-24"],
@@ -25526,12 +26247,15 @@
           "Title": "WeFaceNano: a user-friendly pipeline for complete ONT sequence assembly and detection of antibiotic resistance in multi-plasmid bacterial isolates",
           "DOI": "10.1186/s12866-021-02225-y",
           "PubDate": "2021-06-07",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2021-06-07"],
@@ -25561,11 +26285,14 @@
           "Title": "WENGAN: Efficient and high quality hybrid <i>de novo<\/i> assembly of human genomes",
           "DOI": "10.1101/840447",
           "PubDate": "2019-11-25",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [5],
+          "Recent_citations": 6
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 5,
+    "Recent_citations": [6],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2019-11-25"],
@@ -25591,17 +26318,22 @@
           "Title": "A graph-based approach to diploid genome assembly",
           "DOI": "10.1093/bioinformatics/bty279",
           "PubDate": "2018-04-16",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [64],
+          "Recent_citations": 20
         },
         {
           "DOI": " 10.1093/bioadv/vbad149",
           "PubDate": "2023-10-19",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [64],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 128,
+    "Recent_citations": [20, 0],
     "Publications": 2,
     "Preprints": 0,
     "PubDates": ["2018-04-16", "2023-10-19"],
@@ -25628,11 +26360,13 @@
           "Title": "Weighted minimizer sampling improves long read mapping",
           "DOI": "10.1093/bioinformatics/btaa435",
           "PubDate": "2020-05-04",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [185]
         }
       ],
       "Preprints": []
     },
+    "Citations": 185,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -25659,7 +26393,9 @@
           "Title": "Long-read mapping to repetitive reference sequences using Winnowmap2",
           "DOI": "10.1038/s41592-022-01457-8",
           "PubDate": "2022-04-04",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [23],
+          "Recent_citations": 73
         }
       ],
       "Preprints": [
@@ -25667,11 +26403,14 @@
           "Title": "A long read mapping method for highly repetitive reference sequences",
           "DOI": "10.1101/2020.11.01.363887",
           "PubDate": "2020-11-03",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [23],
+          "Recent_citations": 23
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 46,
+    "Recent_citations": [23, 73],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2020-11-03", "2022-04-04"],
@@ -25733,12 +26472,12 @@
           "DOI": "10.1093/bioinformatics/bts456",
           "PubDate": "2012-07-25",
           "Preprint": false,
-          "Citations": [72]
+          "Citations": [73]
         }
       ],
       "Preprints": []
     },
-    "Citations": 72,
+    "Citations": 73,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -25767,12 +26506,12 @@
           "DOI": "10.1093/bioinformatics/btac808",
           "PubDate": "2022-12-16",
           "Preprint": false,
-          "Citations": [1805]
+          "Citations": [1810]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1805,
+    "Citations": 1810,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -25836,13 +26575,14 @@
           "DOI": "10.1016/j.ymeth.2022.04.003",
           "PubDate": "2022-04-13",
           "Preprint": false,
-          "Citations": [12]
+          "Citations": [12],
+          "Recent_citations": 6
         }
       ],
       "Preprints": []
     },
     "Citations": 12,
-    "Recent_citations": ["NA"],
+    "Recent_citations": [6],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-04-13"],
@@ -26241,12 +26981,12 @@
           "DOI": "10.1093/bioinformatics/btp698",
           "PubDate": "2010-01-15",
           "Preprint": false,
-          "Citations": [10910]
+          "Citations": [10912]
         }
       ],
       "Preprints": []
     },
-    "Citations": 10910,
+    "Citations": 10912,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -26364,13 +27104,13 @@
           "DOI": "10.1038/s41587-020-0582-4",
           "PubDate": "2020-07-14",
           "Preprint": false,
-          "Citations": [58],
+          "Citations": [59],
           "Recent_citations": 29
         }
       ],
       "Preprints": []
     },
-    "Citations": 58,
+    "Citations": 59,
     "Recent_citations": [29],
     "Publications": 1,
     "Preprints": 0,
@@ -26636,20 +27376,20 @@
           "DOI": "10.1186/s13059-020-02107-y",
           "PubDate": "2020-08-03",
           "Preprint": false,
-          "Citations": [318]
+          "Citations": [319]
         },
         {
           "Title": "Structural Variant Detection from Long-Read Sequencing Data with cuteSV",
           "DOI": "10.1007/978-1-0716-2293-3_9",
           "PubDate": "2022-06-25",
           "Preprint": false,
-          "Citations": [318],
+          "Citations": [319],
           "Recent_citations": 2
         }
       ],
       "Preprints": []
     },
-    "Citations": 636,
+    "Citations": 638,
     "Recent_citations": ["NA", 2],
     "Publications": 2,
     "Preprints": 0,
@@ -26855,12 +27595,12 @@
           "DOI": "10.7554/eLife.49658",
           "PubDate": "2020-01-13",
           "Preprint": false,
-          "Citations": [448]
+          "Citations": [451]
         }
       ],
       "Preprints": []
     },
-    "Citations": 448,
+    "Citations": 451,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -28684,12 +29424,12 @@
           "DOI": "10.1093/bioinformatics/btw152",
           "PubDate": "2016-03-20",
           "Preprint": false,
-          "Citations": [1375]
+          "Citations": [1376]
         }
       ],
       "Preprints": []
     },
-    "Citations": 1375,
+    "Citations": 1376,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -28717,12 +29457,12 @@
           "DOI": "10.1093/bioinformatics/bty191",
           "PubDate": "2018-05-04",
           "Preprint": false,
-          "Citations": [13082]
+          "Citations": [13098]
         }
       ],
       "Preprints": []
     },
-    "Citations": 13082,
+    "Citations": 13098,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -29341,12 +30081,12 @@
           "DOI": "10.1093/bioinformatics/bty149",
           "PubDate": "2018-03-12",
           "Preprint": false,
-          "Citations": [2645]
+          "Citations": [2646]
         }
       ],
       "Preprints": []
     },
-    "Citations": 2645,
+    "Citations": 2646,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -30941,12 +31681,12 @@
           "DOI": "10.1038/s41592-019-0617-2",
           "PubDate": "2019-11-18",
           "Preprint": false,
-          "Citations": [608]
+          "Citations": [609]
         }
       ],
       "Preprints": []
     },
-    "Citations": 608,
+    "Citations": 609,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -31433,11 +32173,13 @@
           "Title": "Contiguous and accurate<i>de novo<\/i>assembly of metazoan genomes with modest long read coverage",
           "DOI": "10.1093/nar/gkw654",
           "PubDate": "2016-07-26",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [220]
         }
       ],
       "Preprints": []
     },
+    "Citations": 220,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -31465,12 +32207,15 @@
           "Title": "rHAT: fast alignment of noisy long reads with regional hashing",
           "DOI": "10.1093/bioinformatics/btv662",
           "PubDate": "2015-11-15",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [33],
+          "Recent_citations": 4
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 33,
+    "Recent_citations": [4],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2015-11-15"],
@@ -31499,12 +32244,15 @@
           "Title": "rMETL: sensitive mobile element insertion detection with long read realignment",
           "DOI": "10.1093/bioinformatics/btz106",
           "PubDate": "2019-02-13",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [19],
+          "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 19,
+    "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-02-13"],
@@ -31575,11 +32323,14 @@
           "Title": "Reference-free Structural Variant Detection in Microbiomes via Long-read Coassembly Graphs",
           "DOI": "10.1101/2024.01.25.577285",
           "PubDate": "2024-01-30",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [1],
+          "Recent_citations": 1
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [1],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-01-30"],
@@ -31607,11 +32358,14 @@
           "Title": "Ribotin: Automated assembly and phasing of rDNA morphs",
           "DOI": "10.1101/2023.09.29.560103",
           "PubDate": "2023-10-02",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 1,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2023-10-02"],
@@ -31634,12 +32388,15 @@
           "Title": "ricME: Long-Read Based Mobile Element Variant Detection Using Sequence Realignment and Identity Calculation",
           "DOI": "10.1007/978-981-99-7074-2_13",
           "PubDate": "2023-10-07",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [2],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 2,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-10-07"],
@@ -31684,11 +32441,13 @@
           "Title": "rnaSPAdes: a de novo transcriptome assembler and its application to RNA-Seq data",
           "DOI": "10.1093/gigascience/giz100",
           "PubDate": "2019-09-03",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [705]
         }
       ],
       "Preprints": []
     },
+    "Citations": 705,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -31715,12 +32474,15 @@
           "Title": "Haplotype-aware pantranscriptome analyses using spliced pangenome graphs",
           "DOI": "10.1038/s41592-022-01731-9",
           "PubDate": "2023-01-16",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [47],
+          "Recent_citations": 23
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 47,
+    "Recent_citations": [23],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-01-16"],
@@ -31745,12 +32507,15 @@
           "Title": "Detecting transposable elements in long-read genomes using sTELLeR",
           "DOI": "10.1093/bioinformatics/btae686",
           "PubDate": "2024-11-19",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [4],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 4,
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2024-11-19"],
@@ -31821,11 +32586,14 @@
           "Title": "Delineating genotypes and phenotypes of individual cells from long-read single cell transcriptomes",
           "DOI": "10.1101/2023.01.24.525264",
           "PubDate": "2023-01-25",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2023-01-25"],
@@ -31851,12 +32619,15 @@
           "Title": "scNanoHi-C: a single-cell long-read concatemer sequencing method to reveal high-order chromatin structures within individual cells",
           "DOI": "10.1038/s41592-023-01978-w",
           "PubDate": "2023-08-28",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [46],
+          "Recent_citations": 19
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 46,
+    "Recent_citations": [19],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-08-28"],
@@ -31881,7 +32652,9 @@
           "Title": "Fast and accurate matching of cellular barcodes across short-reads and long-reads of single-cell RNA-seq experiments",
           "DOI": "10.1016/j.isci.2022.104530",
           "PubDate": "2022-06-07",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 9
         }
       ],
       "Preprints": [
@@ -31889,11 +32662,14 @@
           "Title": "scTagger: Fast and accurate matching of cellular barcodes across short- and long-reads of single-cell RNA-seq experiments",
           "DOI": "10.1101/2022.04.21.489097",
           "PubDate": "2022-05-18",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [1],
+          "Recent_citations": 1
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 2,
+    "Recent_citations": [1, 9],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2022-05-18", "2022-06-07"],
@@ -31919,12 +32695,15 @@
           "Title": "Quantifying the benefit offered by transcript assembly with Scallop-LR on single-molecule long reads",
           "DOI": "10.1186/s13059-019-1883-0",
           "PubDate": "2019-12-18",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [17],
+          "Recent_citations": 6
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 17,
+    "Recent_citations": [6],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-12-18"],
@@ -31970,12 +32749,15 @@
           "Title": "High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing",
           "DOI": "10.1038/s41467-023-38324-9",
           "PubDate": "2023-05-06",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [58],
+          "Recent_citations": 33
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 58,
+    "Recent_citations": [33],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-05-06"],
@@ -32003,11 +32785,14 @@
           "Title": "Snakemake Workflows for Long-read Bacterial Genome Assembly and Evaluation",
           "DOI": "10.20944/preprints202208.0191.v1",
           "PubDate": "2022-08-10",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 0,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2022-08-10"],
@@ -32076,7 +32861,9 @@
           "Title": "End-to-end simulation of nanopore sequencing signals with feed-forward transformers",
           "DOI": "10.1093/bioinformatics/btae744",
           "PubDate": "2024-12-16",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ],
       "Preprints": [
@@ -32084,11 +32871,14 @@
           "Title": "End-to-end simulation of nanopore sequencing signals with feed-forward transformers",
           "DOI": "10.1101/2024.08.12.607296",
           "PubDate": "2024-08-15",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [1],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 2,
+    "Recent_citations": [0, 0],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2024-08-15", "2024-12-16"],
@@ -32115,12 +32905,14 @@
         {
           "DOI": "10.57844/arcadia-cxn6-ch62",
           "PubDate": [],
-          "Preprint": false
+          "Preprint": false,
+          "Citations": ["NA"],
+          "Recent_citations": 0
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Recent_citations": [0],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["character(0)"],
@@ -32146,11 +32938,13 @@
           "Title": "SeqScreen-Nano: a computational platform for streaming, in-field characterization of microbial pathogens",
           "DOI": "10.1145/3584371.3612960",
           "PubDate": "2023-10-04",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [1]
         }
       ],
       "Preprints": []
     },
+    "Citations": 1,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -32259,7 +33053,9 @@
           "Title": "Streamlining remote nanopore data access with <i>slow5curl<\/i>",
           "DOI": "10.1093/gigascience/giae016",
           "PubDate": "2024-03-19",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ],
       "Preprints": [
@@ -32267,11 +33063,14 @@
           "Title": "Streamlining remote nanopore data access with<i>slow5curl<\/i>",
           "DOI": "10.1101/2023.11.28.569128",
           "PubDate": "2023-11-30",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [0],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 0,
+    "Recent_citations": [0, 0],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2023-11-30", "2024-03-19"],
@@ -32318,11 +33117,13 @@
           "Title": "High-resolution comparative analysis of great ape genomes",
           "DOI": "10.1126/science.aar6343",
           "PubDate": "2018-06-07",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [335]
         }
       ],
       "Preprints": []
     },
+    "Citations": 335,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -32349,12 +33150,15 @@
           "Title": "smsMap: mapping single molecule sequencing reads by locating the alignment starting positions",
           "DOI": "10.1186/s12859-020-03698-w",
           "PubDate": "2020-08-04",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [9],
+          "Recent_citations": 5
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 9,
+    "Recent_citations": [5],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-08-04"],
@@ -32403,12 +33207,15 @@
           "Title": "A spectral algorithm for fast de novo layout of uncorrected long nanopore reads",
           "DOI": "10.1093/bioinformatics/btx370",
           "PubDate": "2017-06-06",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [8],
+          "Recent_citations": 2
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 8,
+    "Recent_citations": [2],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2017-06-06"],
@@ -32455,7 +33262,9 @@
           "Title": "Interactive visualisation of nanopore sequencing signal data with Squigualiser",
           "DOI": "10.1093/bioinformatics/btae501",
           "PubDate": "2024-08-13",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [4],
+          "Recent_citations": 0
         }
       ],
       "Preprints": [
@@ -32463,11 +33272,14 @@
           "Title": "Interactive visualisation of raw nanopore signal data with Squigualiser",
           "DOI": "10.1101/2024.02.19.581111",
           "PubDate": "2024-02-27",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [4],
+          "Recent_citations": 4
         }
       ]
     },
-    "Recent_citations": ["NA", "NA"],
+    "Citations": 8,
+    "Recent_citations": [4, 0],
     "Publications": 1,
     "Preprints": 1,
     "PubDates": ["2024-02-27", "2024-08-13"],
@@ -32494,12 +33306,15 @@
           "Title": "Analyzing rare mutations in metagenomes assembled using long and accurate reads",
           "DOI": "10.1101/gr.276917.122",
           "PubDate": "2022-11-24",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [6],
+          "Recent_citations": 3
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 6,
+    "Recent_citations": [3],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-11-24"],
@@ -32590,12 +33405,15 @@
           "Title": "<i>tailfindr<\/i>: alignment-free poly(A) length measurement for Oxford Nanopore RNA and DNA sequencing",
           "DOI": "10.1261/rna.071332.119",
           "PubDate": "2019-07-02",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [94],
+          "Recent_citations": 17
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 94,
+    "Recent_citations": [17],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-07-02"],
@@ -32642,12 +33460,15 @@
           "Title": "Tandem-genotypes: robust detection of tandem repeat expansions from long DNA reads",
           "DOI": "10.1186/s13059-019-1667-6",
           "PubDate": "2019-10-15",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [141],
+          "Recent_citations": 30
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 141,
+    "Recent_citations": [30],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2019-10-15"],
@@ -32672,12 +33493,15 @@
           "Title": "tappAS: a comprehensive computational framework for the analysis of the functional impact of differential splicing",
           "DOI": "10.1186/s13059-020-02028-w",
           "PubDate": "2020-05-18",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [58],
+          "Recent_citations": 20
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 58,
+    "Recent_citations": [20],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2020-05-18"],
@@ -32702,12 +33526,15 @@
           "Title": "Tigmint: correcting assembly errors using linked reads from large molecules",
           "DOI": "10.1186/s12859-018-2425-6",
           "PubDate": "2018-10-26",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [105],
+          "Recent_citations": 12
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 105,
+    "Recent_citations": [12],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2018-10-26"],
@@ -32735,11 +33562,13 @@
           "Title": "Accurate spliced alignment of long RNA sequencing reads",
           "DOI": "10.1093/bioinformatics/btab540",
           "PubDate": "2021-07-20",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [37]
         }
       ],
       "Preprints": []
     },
+    "Citations": 37,
     "Recent_citations": ["NA"],
     "Publications": 1,
     "Preprints": 0,
@@ -32766,12 +33595,15 @@
           "Title": "Decomposing mosaic tandem repeats accurately from long reads",
           "DOI": "10.1093/bioinformatics/btad185",
           "PubDate": "2023-04-11",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [10],
+          "Recent_citations": 6
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 10,
+    "Recent_citations": [6],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2023-04-11"],
@@ -32819,12 +33651,15 @@
           "Title": "viralFlye: assembling viruses and identifying their hosts from long-read metagenomics data",
           "DOI": "10.1186/s13059-021-02566-x",
           "PubDate": "2022-02-21",
-          "Preprint": false
+          "Preprint": false,
+          "Citations": [21],
+          "Recent_citations": 10
         }
       ],
       "Preprints": []
     },
-    "Recent_citations": ["NA"],
+    "Citations": 21,
+    "Recent_citations": [10],
     "Publications": 1,
     "Preprints": 0,
     "PubDates": ["2022-02-21"],
@@ -32871,11 +33706,14 @@
           "Title": "wgbstools: A computational suite for DNA methylation sequencing data representation, visualization, and analysis",
           "DOI": "10.1101/2024.05.08.593132",
           "PubDate": "2024-05-11",
-          "Preprint": true
+          "Preprint": true,
+          "Citations": [17],
+          "Recent_citations": 0
         }
       ]
     },
-    "Recent_citations": ["NA"],
+    "Citations": 17,
+    "Recent_citations": [0],
     "Publications": 0,
     "Preprints": 1,
     "PubDates": ["2024-05-11"],
@@ -33031,11 +33869,13 @@
           "DOI": "10.7554/eLife.76562",
           "PubDate": "2022-04-06",
           "Preprint": false,
+          "Citations": [37],
           "Recent_citations": 18
         }
       ],
       "Preprints": []
     },
+    "Citations": 37,
     "Recent_citations": [18],
     "Publications": 1,
     "Preprints": 0,

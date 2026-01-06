@@ -5,8 +5,8 @@
       "width": 1,
       "base": 440,
       "x": [1],
-      "y": [620],
-      "text": "Type: Published<br />Count: 620<br />Percent: 58.5",
+      "y": [624],
+      "text": "Type: Published<br />Count: 624<br />Percent: 58.6",
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -56,7 +56,7 @@
       "base": 0,
       "x": [1],
       "y": [218],
-      "text": "Type: Not Published<br />Count: 218<br />Percent: 20.6",
+      "text": "Type: Not Published<br />Count: 218<br />Percent: 20.5",
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -77,9 +77,9 @@
     },
     {
       "x": [1],
-      "y": [750],
-      "text": "Published 58.5%",
-      "hovertext": "Type: Published<br />Count: 620<br />Percent: 58.5",
+      "y": [752],
+      "text": "Published 58.6%",
+      "hovertext": "Type: Published<br />Count: 624<br />Percent: 58.6",
       "textfont": {
         "size": 11.338582677165356,
         "color": "rgba(255,255,255,1)"
@@ -118,8 +118,8 @@
     {
       "x": [1],
       "y": [109],
-      "text": "Not Published 20.6%",
-      "hovertext": "Type: Not Published<br />Count: 218<br />Percent: 20.6",
+      "text": "Not Published 20.5%",
+      "hovertext": "Type: Not Published<br />Count: 218<br />Percent: 20.5",
       "textfont": {
         "size": 11.338582677165356,
         "color": "rgba(255,255,255,1)"
@@ -204,12 +204,12 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-53, 1113],
+      "range": [-53.200000000000003, 1117.2],
       "tickmode": "array",
-      "ticktext": ["0", "250", "500", "750", "1000"],
-      "tickvals": [0, 250, 500, 750, 1000],
+      "ticktext": ["0", "300", "600", "900"],
+      "tickvals": [0, 300, 600, 900],
       "categoryorder": "array",
-      "categoryarray": ["0", "250", "500", "750", "1000"],
+      "categoryarray": ["0", "300", "600", "900"],
       "nticks": null,
       "ticks": "",
       "tickcolor": null,
@@ -279,14 +279,14 @@
   },
   "source": "A",
   "attrs": {
-    "13c273e756199": {
+    "185975a78d17e": {
       "x": {},
       "fill": {},
       "weight": {},
       "text": {},
       "type": "bar"
     },
-    "13c27c5aa3d8": {
+    "185973201d599": {
       "x": {},
       "fill": {},
       "weight": {},
@@ -295,10 +295,10 @@
       "label": {}
     }
   },
-  "cur_data": "13c273e756199",
+  "cur_data": "185975a78d17e",
   "visdat": {
-    "13c273e756199": ["function (y) ", "x"],
-    "13c27c5aa3d8": ["function (y) ", "x"]
+    "185975a78d17e": ["function (y) ", "x"],
+    "185973201d599": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
