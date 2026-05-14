@@ -40,6 +40,27 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
         dplyr::pull(DOIs) %>%
         setNames(swsheet$Name)
 
+    if (skip_cites == "FALSE") {
+        futile.logger::flog.info("Prefetching citations in parallel...")
+        all_dois <- unique(stringr::str_trim(unlist(doi_list)))
+        all_dois <- all_dois[!is.na(all_dois)]
+        
+        cites_dict <- unlist(parallel::mclapply(all_dois, function(doi) {
+            res <- tryCatch({
+                rcrossref::cr_citation_count(doi)
+            }, error = function(e) NA)
+            if (is.data.frame(res)) res$count else NA
+        }, mc.cores = parallel::detectCores()))
+        names(cites_dict) <- all_dois
+        
+        recent_cites_dict <- unlist(parallel::mclapply(all_dois, function(doi) {
+            tryCatch({
+                suppressWarnings(get_recent_cite(doi))
+            }, error = function(e) NA)
+        }, mc.cores = parallel::detectCores()))
+        names(recent_cites_dict) <- all_dois
+    }
+
     ref_list <- pbapply::pbsapply(names(doi_list), function(x) {
         dois <- doi_list[[x]]
 
@@ -48,32 +69,12 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
         }
 
         if (skip_cites=="FALSE") {
-            cites <- sapply(dois, function(doi) {
-                cite <- tryCatch({
-                    rcrossref::cr_citation_count(str_trim(doi))
-                }, error = function(e) {
-                    NA
-                })
-
-                Sys.sleep(0.01)
-
-                return(cite)
-            })
-            
-            recent_cites <- sapply(dois, function(doi){
-                recent_cite <- tryCatch({
-                    suppressWarnings(get_recent_cite(str_trim(doi)))
-                }, error = function(e){
-                    NA
-                })
-                
-                Sys.sleep(0.01)
-                
-                return(recent_cite)
-            })
-            
+            trimmed_dois <- stringr::str_trim(dois)
+            cites <- as.numeric(cites_dict[trimmed_dois])
+            recent_cites <- as.numeric(recent_cites_dict[trimmed_dois])
         } else {
             cites <- rep(NA, length(dois))
+            recent_cites <- rep(NA, length(dois))
         }
 
         dates <- sapply(dois, function(doi) {
@@ -90,7 +91,7 @@ add_refs <- function(swsheet, titles_cache, skip_cites) {
                                                                             paste("10.21203/", stringr::regex("([^/]+$)", ignore_case = TRUE), sep=""),
                                                                             paste("10.20944/", stringr::regex("([^/]+$)", ignore_case = TRUE), sep=""),
                                                                             "arxiv"), collapse ="|")),
-                              Citations = cites[2],
+                              Citations = cites,
                               Recent_citations = recent_cites)
     })
 
