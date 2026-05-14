@@ -18,7 +18,12 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Install Python Dependencies
+        run: pip install google-genai
+
       - name: Run Tool Search
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python search_tools.py
 
       - name: Setup R
