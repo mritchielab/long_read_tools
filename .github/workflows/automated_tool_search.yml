@@ -1,0 +1,59 @@
+name: Automated Weekly Tool Search
+
+on:
+  schedule:
+    # Run every Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  search_and_check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Python Dependencies
+        run: pip install google-genai
+
+      - name: Run Tool Search
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python search_tools.py
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: 'release'
+
+      - name: Install R Dependencies
+        run: |
+          install.packages(c("readr", "jsonlite", "docopt", "pbapply", "magrittr", "futile.logger", "aRxiv", "anytime", "citecorp", "stringr", "tidyverse", "gh", "here"))
+        shell: Rscript {0}
+
+      - name: Run Submission Check
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: Rscript -e "source('new_submission_check.R'); check_new_submission()"
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: weekly automated tool search"
+          title: "Automated Weekly Tool Search Results"
+          body: |
+            This PR contains potential new tools found during the weekly automated search.
+            
+            Please review the generated files:
+            - `new_submissions_no_conflicts.csv`
+            - `new_submissions_conflicts.csv`
+            
+            Merge these manually into `long_read_tools_master.csv` if they are valid.
+          branch: automated-tool-search
+          delete-branch: true
