@@ -143,7 +143,7 @@ check_new_submission <- function() {
   if (!is.null(conflicts)){write_csv(conflicts,here("new_submissions_conflicts.csv"))}
   
   #reinitialise new_submissions.csv
-  write.table(t(colnames(swsheet)), sep = ',', file = here("new_submissions.csv"), col.names = FALSE, row.names = FALSE, quote = FALSE)
-  
+  orig_cols <- colnames(readr::read_csv(here("long_read_tools_master.csv"), n_max = 0))
+  write.table(t(orig_cols), sep = ',', file = here("new_submissions.csv"), col.names = FALSE, row.names = FALSE, quote = FALSE)
 }
 
