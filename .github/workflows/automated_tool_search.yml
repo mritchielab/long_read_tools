@@ -19,7 +19,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install Python Dependencies
-        run: pip install google-genai
+        run: pip install google-genai flask
 
       - name: Run Tool Search
         env:
@@ -33,13 +33,23 @@ jobs:
 
       - name: Install R Dependencies
         run: |
-          install.packages(c("readr", "jsonlite", "docopt", "pbapply", "magrittr", "futile.logger", "aRxiv", "anytime", "citecorp", "stringr", "tidyverse", "gh", "here"))
+          install.packages(c("readr", "jsonlite", "docopt", "pbapply", "magrittr", "futile.logger", "aRxiv", "anytime", "citecorp", "stringr", "tidyverse", "gh", "here", "rcrossref", "xml2", "rvest", "lubridate", "scales", "viridis", "plotly", "htmlwidgets"))
         shell: Rscript {0}
 
       - name: Run Submission Check
         env:
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         run: Rscript -e "source('new_submission_check.R'); check_new_submission()"
+
+      - name: Update Database Build
+        run: Rscript build_lrs_db.R --no-packages
+
+      - name: Test Website Server
+        run: |
+          python docs/test_server.py &
+          sleep 5
+          curl -f http://127.0.0.1:5000/
+          kill %1
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
