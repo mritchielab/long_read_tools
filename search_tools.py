@@ -6,6 +6,12 @@ import re
 from datetime import datetime, timedelta
 import os
 
+try:
+    import certifi
+    os.environ['SSL_CERT_FILE'] = certifi.where()
+except ImportError:
+    pass
+
 def search_europe_pmc(days_back=7):
     today = datetime.now()
     past = today - timedelta(days=days_back)
