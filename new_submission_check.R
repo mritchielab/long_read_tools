@@ -108,7 +108,7 @@ check_new_submission <- function() {
                   Code = Source)
   
   #Check for duplication
-  sub$Duplicated <- sub$Name %in% swsheet$Name | sub$Code %in% swsheet$Code
+  sub$Duplicated <- (sub$Name %in% swsheet$Name) | (!is.na(sub$Code) & sub$Code %in% swsheet$Code)
   
   # Check Language and License annotations
   # Add field indicating Github repositories, languages and license

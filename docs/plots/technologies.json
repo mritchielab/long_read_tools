@@ -5,8 +5,8 @@
       "width": [0.89999999999999991, 0.90000000000000013, 0.90000000000000036, 0.90000000000000036, 0.90000000000000036],
       "base": [0, 0, 0, 0, 0],
       "x": [1, 2, 3, 4, 5],
-      "y": [0.85608170844939646, 0.56453110492107705, 0.065923862581244191, 0.029712163416898793, 0.02414113277623027],
-      "text": ["Technology: Oxford Nanopore<br />Count: 922 <br /> Percent: 85.6", "Technology: PacBio<br />Count: 608 <br /> Percent: 56.5", "Technology: 10X Genomics<br />Count: 71 <br /> Percent: 6.6", "Technology: Hi-C<br />Count: 32 <br /> Percent: 3", "Technology: Bionano Genomics<br />Count: 26 <br /> Percent: 2.4"],
+      "y": [0.85462962962962963, 0.56388888888888888, 0.065740740740740738, 0.029629629629629631, 0.024074074074074074],
+      "text": ["Technology: Oxford Nanopore<br />Count: 923 <br /> Percent: 85.5", "Technology: PacBio<br />Count: 609 <br /> Percent: 56.4", "Technology: 10X Genomics<br />Count: 71 <br /> Percent: 6.6", "Technology: Hi-C<br />Count: 32 <br /> Percent: 3", "Technology: Bionano Genomics<br />Count: 26 <br /> Percent: 2.4"],
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -92,10 +92,10 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-0.042804085422469829, 0.89888579387186629],
+      "range": [-0.042731481481481481, 0.89736111111111105],
       "tickmode": "array",
       "ticktext": ["0%", "25%", "50%", "75%"],
-      "tickvals": [0, 0.25, 0.5, 0.75],
+      "tickvals": [0, 0.25, 0.49999999999999994, 0.75],
       "categoryorder": "array",
       "categoryarray": ["0%", "25%", "50%", "75%"],
       "nticks": null,
@@ -167,16 +167,16 @@
   },
   "source": "A",
   "attrs": {
-    "1690f384dc1bc": {
+    "31a8572fb724": {
       "x": {},
       "weight": {},
       "text": {},
       "type": "bar"
     }
   },
-  "cur_data": "1690f384dc1bc",
+  "cur_data": "31a8572fb724",
   "visdat": {
-    "1690f384dc1bc": ["function (y) ", "x"]
+    "31a8572fb724": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
