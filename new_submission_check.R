@@ -131,11 +131,21 @@ check_new_submission <- function() {
   no_conflicts <- NULL
   conflicts <- NULL
   ## compare data
-  for (i in 1:dim(sub)[1]){ #for each newly submitted tool
-    if (sub[i,'Platform'] == sub[i, 'Platform_auto'] & sub[i,'License'] == sub[i, 'License_auto'] & sub[i,'Duplicated']==FALSE){
-      no_conflicts <- bind_rows(no_conflicts, select(sub, colnames(swsheet))[i,])
+  for (i in 1:nrow(sub)){ #for each newly submitted tool
+    plat_match <- isTRUE(sub$Platform[i] == sub$Platform_auto[i])
+    lic_match <- isTRUE(sub$License[i] == sub$License_auto[i])
+    is_dup <- isTRUE(sub$Duplicated[i])
+    
+    # If both are NA, we treat it as a match (no conflict to resolve) or you can treat it as conflict. 
+    # Let's treat NA == NA as TRUE so they don't block tools without github links.
+    if (is.na(sub$Platform[i]) && is.na(sub$Platform_auto[i])) plat_match <- TRUE
+    if (is.na(sub$License[i]) && is.na(sub$License_auto[i])) lic_match <- TRUE
+
+    if (plat_match && lic_match && !is_dup){
+      no_conflicts <- bind_rows(no_conflicts, select(sub, all_of(colnames(swsheet)))[i,])
+    } else {
+      conflicts <- bind_rows(conflicts, sub[i,])
     }
-    else conflicts <- bind_rows(conflicts, sub[i,])
   }
   
   # Write outputs
