@@ -20,7 +20,12 @@ def search_europe_pmc(days_back=7):
     
     tools = []
     try:
-        with urllib.request.urlopen(req) as response:
+        import ssl
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        
+        with urllib.request.urlopen(req, context=ctx) as response:
             data = json.loads(response.read().decode())
             
         for result in data.get('resultList', {}).get('result', []):
