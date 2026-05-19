@@ -66,20 +66,19 @@ jobs:
           curl -f http://127.0.0.1:5000/
           kill %1
 
+      - name: Generate PR Message
+        if: steps.check_subs.outputs.has_new == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python generate_pr_message.py
+
       - name: Create Pull Request
         if: steps.check_subs.outputs.has_new == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore: weekly automated tool search"
+          commit-message: "chore: weekly automated tool search update"
           title: "Automated Weekly Tool Search Results"
-          body: |
-            This PR contains potential new tools found during the weekly automated search.
-            
-            Please review the generated files:
-            - `new_submissions_no_conflicts.csv`
-            - `new_submissions_conflicts.csv`
-            
-            Merge these manually into `long_read_tools_master.csv` if they are valid.
+          body-path: pr_message.txt
           branch: automated-tool-search
           delete-branch: true
