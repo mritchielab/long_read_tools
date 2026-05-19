@@ -181,7 +181,7 @@
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
       "ticklen": 4.6492320464923198,
-      "tickwidth": 0,
+      "tickwidth": 0.66417600664176002,
       "showticklabels": true,
       "tickfont": {
         "color": "rgba(0,0,0,1)",
@@ -191,7 +191,7 @@
       "tickangle": -60,
       "showline": true,
       "linecolor": "rgba(0,0,0,1)",
-      "linewidth": 0,
+      "linewidth": 0.66417600664176002,
       "showgrid": false,
       "gridcolor": null,
       "gridwidth": 0,
@@ -222,7 +222,7 @@
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
       "ticklen": 4.6492320464923216,
-      "tickwidth": 0,
+      "tickwidth": 0.66417600664176002,
       "showticklabels": true,
       "tickfont": {
         "color": "rgba(0,0,0,1)",
@@ -232,7 +232,7 @@
       "tickangle": -0,
       "showline": true,
       "linecolor": "rgba(0,0,0,1)",
-      "linewidth": 0,
+      "linewidth": 0.66417600664176002,
       "showgrid": false,
       "gridcolor": null,
       "gridwidth": 0,
@@ -248,24 +248,7 @@
       },
       "hoverformat": ".2f"
     },
-    "shapes": [
-      {
-        "type": "rect",
-        "fillcolor": null,
-        "line": {
-          "color": null,
-          "width": 0,
-          "linetype": []
-        },
-        "yref": "paper",
-        "xref": "paper",
-        "layer": "below",
-        "x0": 0,
-        "x1": 1,
-        "y0": 0,
-        "y1": 1
-      }
-    ],
+    "shapes": [],
     "showlegend": false,
     "legend": {
       "bgcolor": null,
@@ -287,14 +270,14 @@
   },
   "source": "A",
   "attrs": {
-    "31a8279b7a6e": {
+    "20199a5abfc": {
       "x": {},
       "weight": {},
       "fill": {},
       "text": {},
       "type": "bar"
     },
-    "31a85082e012": {
+    "20197daecd8c": {
       "x": {},
       "weight": {},
       "fill": {},
@@ -304,10 +287,10 @@
       "colour": {}
     }
   },
-  "cur_data": "31a8279b7a6e",
+  "cur_data": "20199a5abfc",
   "visdat": {
-    "31a8279b7a6e": ["function (y) ", "x"],
-    "31a85082e012": ["function (y) ", "x"]
+    "20199a5abfc": ["function (y) ", "x"],
+    "20197daecd8c": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",

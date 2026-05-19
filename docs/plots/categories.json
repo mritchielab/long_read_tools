@@ -61,7 +61,7 @@
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
       "ticklen": 4.6492320464923198,
-      "tickwidth": 0,
+      "tickwidth": 0.66417600664176002,
       "showticklabels": true,
       "tickfont": {
         "color": "rgba(0,0,0,1)",
@@ -71,7 +71,7 @@
       "tickangle": -60,
       "showline": true,
       "linecolor": "rgba(0,0,0,1)",
-      "linewidth": 0,
+      "linewidth": 0.66417600664176002,
       "showgrid": false,
       "gridcolor": null,
       "gridwidth": 0,
@@ -102,7 +102,7 @@
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
       "ticklen": 4.6492320464923216,
-      "tickwidth": 0,
+      "tickwidth": 0.66417600664176002,
       "showticklabels": true,
       "tickfont": {
         "color": "rgba(0,0,0,1)",
@@ -112,7 +112,7 @@
       "tickangle": -0,
       "showline": true,
       "linecolor": "rgba(0,0,0,1)",
-      "linewidth": 0,
+      "linewidth": 0.66417600664176002,
       "showgrid": false,
       "gridcolor": null,
       "gridwidth": 0,
@@ -128,24 +128,7 @@
       },
       "hoverformat": ".2f"
     },
-    "shapes": [
-      {
-        "type": "rect",
-        "fillcolor": null,
-        "line": {
-          "color": null,
-          "width": 0,
-          "linetype": []
-        },
-        "yref": "paper",
-        "xref": "paper",
-        "layer": "below",
-        "x0": 0,
-        "x1": 1,
-        "y0": 0,
-        "y1": 1
-      }
-    ],
+    "shapes": [],
     "showlegend": false,
     "legend": {
       "bgcolor": null,
@@ -167,16 +150,16 @@
   },
   "source": "A",
   "attrs": {
-    "31a8231b52d3": {
+    "20197959bcdf": {
       "x": {},
       "weight": {},
       "text": {},
       "type": "bar"
     }
   },
-  "cur_data": "31a8231b52d3",
+  "cur_data": "20197959bcdf",
   "visdat": {
-    "31a8231b52d3": ["function (y) ", "x"]
+    "20197959bcdf": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",

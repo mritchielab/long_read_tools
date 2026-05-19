@@ -240,24 +240,7 @@
       },
       "hoverformat": ".2f"
     },
-    "shapes": [
-      {
-        "type": "rect",
-        "fillcolor": null,
-        "line": {
-          "color": null,
-          "width": 0,
-          "linetype": []
-        },
-        "yref": "paper",
-        "xref": "paper",
-        "layer": "below",
-        "x0": 0,
-        "x1": 1,
-        "y0": 0,
-        "y1": 1
-      }
-    ],
+    "shapes": [],
     "showlegend": false,
     "legend": {
       "bgcolor": null,
@@ -279,14 +262,14 @@
   },
   "source": "A",
   "attrs": {
-    "31a82777ad72": {
+    "20194cded0e4": {
       "x": {},
       "fill": {},
       "weight": {},
       "text": {},
       "type": "bar"
     },
-    "31a8221c2b9c": {
+    "201919518bfe": {
       "x": {},
       "fill": {},
       "weight": {},
@@ -295,10 +278,10 @@
       "label": {}
     }
   },
-  "cur_data": "31a82777ad72",
+  "cur_data": "20194cded0e4",
   "visdat": {
-    "31a82777ad72": ["function (y) ", "x"],
-    "31a8221c2b9c": ["function (y) ", "x"]
+    "20194cded0e4": ["function (y) ", "x"],
+    "201919518bfe": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
