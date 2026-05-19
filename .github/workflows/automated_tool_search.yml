@@ -45,7 +45,7 @@ jobs:
       - name: Install R Dependencies
         if: steps.check_subs.outputs.has_new == 'true'
         run: |
-          install.packages(c("readr", "jsonlite", "docopt", "pbapply", "magrittr", "futile.logger", "aRxiv", "anytime", "citecorp", "stringr", "tidyverse", "gh", "here", "rcrossref", "xml2", "rvest", "lubridate", "scales", "viridis", "plotly", "htmlwidgets", "reshape2", "cowplot"))
+          install.packages(c("readr", "jsonlite", "docopt", "pbapply", "magrittr", "futile.logger", "aRxiv", "anytime", "citecorp", "stringr", "tidyverse", "gh", "here", "rcrossref", "xml2", "rvest", "lubridate", "scales", "viridis", "plotly", "htmlwidgets", "reshape2", "cowplot", "widgetframe", "fs", "plyr", "progress"))
         shell: Rscript {0}
 
       - name: Run Submission Check
