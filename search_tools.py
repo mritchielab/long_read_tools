@@ -62,47 +62,54 @@ def classify_with_gemini(paper, headers):
     
     prompt = f"""
 You are an expert bioinformatician curating a database of long-read sequencing tools.
-Read the following paper metadata and extract the tool's details.
+Your task is to analyze the following scientific paper and find/infer the correct metadata for the tool it describes.
 
 Title: {paper['title']}
 DOI: {paper['doi']}
 Abstract: {paper['abstract']}
+
+CRITICAL: Since this paper abstract or metadata alone might be missing critical information (such as the repository URL, exact programming languages, or license), you MUST use Google Search to find the tool's official code repository (typically on GitHub, GitLab, etc.), verify the programming languages used in the repository, identify the license of the repository, and determine any other missing metadata.
+
+Please use Google Search to look up the tool name and find its official repository.
 
 Return a JSON object with EXACTLY these keys. 
 For text fields, provide a concise summary or leave empty ("") if unknown.
 For boolean fields, answer strictly with the string "TRUE" or "FALSE".
 
 Required keys:
-- Tool: Name of the tool
+- Tool: Name of the tool (properly capitalized)
 - DOI: {paper['doi']}
-- Details: A short 1-2 sentence description of what it does
-- Source: Any URL for the code (e.g. GitHub) found or inferable
-- Programming_Language: e.g. Python, R, C++
-- License: Open source license if mentioned
-- Underlying_algorithms: Main algorithms used
-- Underlying_assumptions: Main assumptions
-- Strengths_weaknesses: Strengths and weaknesses
-- Overall_performance: Overall performance metrics if any
+- Details: A short 1-2 sentence description of what the tool does.
+- Source: The official source code repository URL (prefer GitHub, GitLab, etc.). Search the web to find and verify this.
+- Programming_Language: The primary programming languages used (e.g., Python, C++, R, Rust, Go). Search the repository or paper to be as accurate as possible.
+- License: The open-source license of the tool (e.g., MIT, GPL-3.0, Apache-2.0). Search the repository to verify.
+- Underlying_algorithms: Main algorithms or methods used by the tool.
+- Underlying_assumptions: Main assumptions of the tool.
+- Strengths_weaknesses: Key strengths and weaknesses of the tool.
+- Overall_performance: Performance metrics if mentioned.
 
-Boolean keys (answer "TRUE" or "FALSE"):
+Boolean keys (answer strictly "TRUE" or "FALSE" based on the tool's capabilities and supported technologies/data):
 """
     for h in headers[10:]:
         prompt += f"- {h}\n"
         
-    prompt += "\nRespond ONLY with valid JSON."
+    prompt += "\nRespond ONLY with a valid JSON object. Do not include markdown code block syntax (such as ```json) in your response, just the raw JSON."
 
     try:
         response = client.models.generate_content(
-            model='gemini-2.5-flash',
+            model='gemini-3.5-flash',
             contents=prompt,
+            config=types.GenerateContentConfig(
+                tools=[types.Tool(google_search=types.GoogleSearch())]
+            )
         )
         
-        # Clean markdown formatting if present
-        text = response.text
-        if text.startswith("```json"):
-            text = text[7:]
+        text = response.text.strip()
+        # Robustly clean markdown code block if present
+        if text.startswith("```"):
+            text = re.sub(r'^```(json)?\s*', '', text)
         if text.endswith("```"):
-            text = text[:-3]
+            text = re.sub(r'\s*```$', '', text)
             
         result = json.loads(text.strip())
         return result

@@ -131,7 +131,7 @@ check_new_submission <- function() {
   no_conflicts <- NULL
   conflicts <- NULL
   ## compare data
-  for (i in 1:nrow(sub)){ #for each newly submitted tool
+  for (i in seq_len(nrow(sub))){ #for each newly submitted tool
     plat_match <- isTRUE(sub$Platform[i] == sub$Platform_auto[i])
     lic_match <- isTRUE(sub$License[i] == sub$License_auto[i])
     is_dup <- isTRUE(sub$Duplicated[i])
