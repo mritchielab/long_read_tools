@@ -5,8 +5,8 @@
       "width": [0.89999999999999991, 0.90000000000000013, 0.90000000000000036, 0.90000000000000036, 0.90000000000000036, 0.90000000000000036, 0.90000000000000036, 0.89999999999999947, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858, 0.89999999999999858],
       "base": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "x": ["Tested On Human Data", "Availablity Of Test Data", "SNP And Variant Analysis", "Analysis Pipelines", "Tested On Non Human Data", "Denovo Assembly", "Transcriptomics", "Error Correction And Polishing", "Alignment", "Isoform Detection", "Generating Consensus Sequence", "Visualisation", "Quality Checking", "Metagenomics", "Provide Summary Statistics", "Read Quantification", "Base Modification Detection", "Suitable For Single Cell Experiments", "Scaffolding", "Long Read Overlapping", "Gap Filling", "Taxonomic Classification", "Simulators", "Quality Filtering", "Quality Trimming", "Demultiplexing", "Evaluating Exisiting Methods", "polyA Length Estimation", "Basecalling", "Normalisation", "fast5 File Processing"],
-      "y": [0.17592592592592593, 0.17499999999999999, 0.16574074074074074, 0.13333333333333333, 0.12962962962962962, 0.11296296296296296, 0.11203703703703703, 0.1111111111111111, 0.093518518518518515, 0.074999999999999997, 0.072222222222222215, 0.05648148148148148, 0.03888888888888889, 0.035185185185185187, 0.033333333333333333, 0.032407407407407406, 0.031481481481481478, 0.029629629629629631, 0.026851851851851852, 0.022222222222222223, 0.017592592592592594, 0.017592592592592594, 0.014814814814814815, 0.012962962962962963, 0.012037037037037037, 0.0083333333333333332, 0.0074074074074074077, 0.0055555555555555558, 0.0046296296296296294, 0.0037037037037037038, 0.00092592592592592596],
-      "text": ["count: 0.1759259259<br />Category: Tested On Human Data<br />Prop: 0.1759259259<br />Count: 190 <br /> Percent: 17.6", "count: 0.1750000000<br />Category: Availablity Of Test Data<br />Prop: 0.1750000000<br />Count: 189 <br /> Percent: 17.5", "count: 0.1657407407<br />Category: SNP And Variant Analysis<br />Prop: 0.1657407407<br />Count: 179 <br /> Percent: 16.6", "count: 0.1333333333<br />Category: Analysis Pipelines<br />Prop: 0.1333333333<br />Count: 144 <br /> Percent: 13.3", "count: 0.1296296296<br />Category: Tested On Non Human Data<br />Prop: 0.1296296296<br />Count: 140 <br /> Percent: 13", "count: 0.1129629630<br />Category: Denovo Assembly<br />Prop: 0.1129629630<br />Count: 122 <br /> Percent: 11.3", "count: 0.1120370370<br />Category: Transcriptomics<br />Prop: 0.1120370370<br />Count: 121 <br /> Percent: 11.2", "count: 0.1111111111<br />Category: Error Correction And Polishing<br />Prop: 0.1111111111<br />Count: 120 <br /> Percent: 11.1", "count: 0.0935185185<br />Category: Alignment<br />Prop: 0.0935185185<br />Count: 101 <br /> Percent: 9.4", "count: 0.0750000000<br />Category: Isoform Detection<br />Prop: 0.0750000000<br />Count: 81 <br /> Percent: 7.5", "count: 0.0722222222<br />Category: Generating Consensus Sequence<br />Prop: 0.0722222222<br />Count: 78 <br /> Percent: 7.2", "count: 0.0564814815<br />Category: Visualisation<br />Prop: 0.0564814815<br />Count: 61 <br /> Percent: 5.6", "count: 0.0388888889<br />Category: Quality Checking<br />Prop: 0.0388888889<br />Count: 42 <br /> Percent: 3.9", "count: 0.0351851852<br />Category: Metagenomics<br />Prop: 0.0351851852<br />Count: 38 <br /> Percent: 3.5", "count: 0.0333333333<br />Category: Provide Summary Statistics<br />Prop: 0.0333333333<br />Count: 36 <br /> Percent: 3.3", "count: 0.0324074074<br />Category: Read Quantification<br />Prop: 0.0324074074<br />Count: 35 <br /> Percent: 3.2", "count: 0.0314814815<br />Category: Base Modification Detection<br />Prop: 0.0314814815<br />Count: 34 <br /> Percent: 3.1", "count: 0.0296296296<br />Category: Suitable For Single Cell Experiments<br />Prop: 0.0296296296<br />Count: 32 <br /> Percent: 3", "count: 0.0268518519<br />Category: Scaffolding<br />Prop: 0.0268518519<br />Count: 29 <br /> Percent: 2.7", "count: 0.0222222222<br />Category: Long Read Overlapping<br />Prop: 0.0222222222<br />Count: 24 <br /> Percent: 2.2", "count: 0.0175925926<br />Category: Gap Filling<br />Prop: 0.0175925926<br />Count: 19 <br /> Percent: 1.8", "count: 0.0175925926<br />Category: Taxonomic Classification<br />Prop: 0.0175925926<br />Count: 19 <br /> Percent: 1.8", "count: 0.0148148148<br />Category: Simulators<br />Prop: 0.0148148148<br />Count: 16 <br /> Percent: 1.5", "count: 0.0129629630<br />Category: Quality Filtering<br />Prop: 0.0129629630<br />Count: 14 <br /> Percent: 1.3", "count: 0.0120370370<br />Category: Quality Trimming<br />Prop: 0.0120370370<br />Count: 13 <br /> Percent: 1.2", "count: 0.0083333333<br />Category: Demultiplexing<br />Prop: 0.0083333333<br />Count: 9 <br /> Percent: 0.8", "count: 0.0074074074<br />Category: Evaluating Exisiting Methods<br />Prop: 0.0074074074<br />Count: 8 <br /> Percent: 0.7", "count: 0.0055555556<br />Category: polyA Length Estimation<br />Prop: 0.0055555556<br />Count: 6 <br /> Percent: 0.6", "count: 0.0046296296<br />Category: Basecalling<br />Prop: 0.0046296296<br />Count: 5 <br /> Percent: 0.5", "count: 0.0037037037<br />Category: Normalisation<br />Prop: 0.0037037037<br />Count: 4 <br /> Percent: 0.4", "count: 0.0009259259<br />Category: fast5 File Processing<br />Prop: 0.0009259259<br />Count: 1 <br /> Percent: 0.1"],
+      "y": [0.17576318223866791, 0.17483811285846437, 0.16558741905642924, 0.1332099907493062, 0.12950971322849214, 0.11285846438482887, 0.11193339500462535, 0.11100832562442182, 0.093432007400555045, 0.074930619796484743, 0.072155411655874191, 0.056429232192414434, 0.038852913968547641, 0.03515263644773358, 0.03330249768732655, 0.032377428307123035, 0.03145235892691952, 0.02960222016651249, 0.026827012025901941, 0.022201665124884366, 0.01757631822386679, 0.01757631822386679, 0.014801110083256245, 0.012950971322849213, 0.012025901942645698, 0.0083256244218316375, 0.0074005550416281225, 0.0055504162812210914, 0.0046253469010175763, 0.0037002775208140612, 0.00092506938020351531],
+      "text": ["count: 0.1757631822<br />Category: Tested On Human Data<br />Prop: 0.1757631822<br />Count: 190 <br /> Percent: 17.6", "count: 0.1748381129<br />Category: Availablity Of Test Data<br />Prop: 0.1748381129<br />Count: 189 <br /> Percent: 17.5", "count: 0.1655874191<br />Category: SNP And Variant Analysis<br />Prop: 0.1655874191<br />Count: 179 <br /> Percent: 16.6", "count: 0.1332099907<br />Category: Analysis Pipelines<br />Prop: 0.1332099907<br />Count: 144 <br /> Percent: 13.3", "count: 0.1295097132<br />Category: Tested On Non Human Data<br />Prop: 0.1295097132<br />Count: 140 <br /> Percent: 13", "count: 0.1128584644<br />Category: Denovo Assembly<br />Prop: 0.1128584644<br />Count: 122 <br /> Percent: 11.3", "count: 0.1119333950<br />Category: Transcriptomics<br />Prop: 0.1119333950<br />Count: 121 <br /> Percent: 11.2", "count: 0.1110083256<br />Category: Error Correction And Polishing<br />Prop: 0.1110083256<br />Count: 120 <br /> Percent: 11.1", "count: 0.0934320074<br />Category: Alignment<br />Prop: 0.0934320074<br />Count: 101 <br /> Percent: 9.3", "count: 0.0749306198<br />Category: Isoform Detection<br />Prop: 0.0749306198<br />Count: 81 <br /> Percent: 7.5", "count: 0.0721554117<br />Category: Generating Consensus Sequence<br />Prop: 0.0721554117<br />Count: 78 <br /> Percent: 7.2", "count: 0.0564292322<br />Category: Visualisation<br />Prop: 0.0564292322<br />Count: 61 <br /> Percent: 5.6", "count: 0.0388529140<br />Category: Quality Checking<br />Prop: 0.0388529140<br />Count: 42 <br /> Percent: 3.9", "count: 0.0351526364<br />Category: Metagenomics<br />Prop: 0.0351526364<br />Count: 38 <br /> Percent: 3.5", "count: 0.0333024977<br />Category: Provide Summary Statistics<br />Prop: 0.0333024977<br />Count: 36 <br /> Percent: 3.3", "count: 0.0323774283<br />Category: Read Quantification<br />Prop: 0.0323774283<br />Count: 35 <br /> Percent: 3.2", "count: 0.0314523589<br />Category: Base Modification Detection<br />Prop: 0.0314523589<br />Count: 34 <br /> Percent: 3.1", "count: 0.0296022202<br />Category: Suitable For Single Cell Experiments<br />Prop: 0.0296022202<br />Count: 32 <br /> Percent: 3", "count: 0.0268270120<br />Category: Scaffolding<br />Prop: 0.0268270120<br />Count: 29 <br /> Percent: 2.7", "count: 0.0222016651<br />Category: Long Read Overlapping<br />Prop: 0.0222016651<br />Count: 24 <br /> Percent: 2.2", "count: 0.0175763182<br />Category: Gap Filling<br />Prop: 0.0175763182<br />Count: 19 <br /> Percent: 1.8", "count: 0.0175763182<br />Category: Taxonomic Classification<br />Prop: 0.0175763182<br />Count: 19 <br /> Percent: 1.8", "count: 0.0148011101<br />Category: Simulators<br />Prop: 0.0148011101<br />Count: 16 <br /> Percent: 1.5", "count: 0.0129509713<br />Category: Quality Filtering<br />Prop: 0.0129509713<br />Count: 14 <br /> Percent: 1.3", "count: 0.0120259019<br />Category: Quality Trimming<br />Prop: 0.0120259019<br />Count: 13 <br /> Percent: 1.2", "count: 0.0083256244<br />Category: Demultiplexing<br />Prop: 0.0083256244<br />Count: 9 <br /> Percent: 0.8", "count: 0.0074005550<br />Category: Evaluating Exisiting Methods<br />Prop: 0.0074005550<br />Count: 8 <br /> Percent: 0.7", "count: 0.0055504163<br />Category: polyA Length Estimation<br />Prop: 0.0055504163<br />Count: 6 <br /> Percent: 0.6", "count: 0.0046253469<br />Category: Basecalling<br />Prop: 0.0046253469<br />Count: 5 <br /> Percent: 0.5", "count: 0.0037002775<br />Category: Normalisation<br />Prop: 0.0037002775<br />Count: 4 <br /> Percent: 0.4", "count: 0.0009250694<br />Category: fast5 File Processing<br />Prop: 0.0009250694<br />Count: 1 <br /> Percent: 0.1"],
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -61,7 +61,7 @@
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
       "ticklen": 4.6492320464923198,
-      "tickwidth": 0,
+      "tickwidth": 0.66417600664176002,
       "showticklabels": true,
       "tickfont": {
         "color": "rgba(0,0,0,1)",
@@ -71,7 +71,7 @@
       "tickangle": -60,
       "showline": true,
       "linecolor": "rgba(0,0,0,1)",
-      "linewidth": 0,
+      "linewidth": 0.66417600664176002,
       "showgrid": false,
       "gridcolor": null,
       "gridwidth": 0,
@@ -92,17 +92,17 @@
       "automargin": true,
       "type": "linear",
       "autorange": true,
-      "range": [-0.0087962962962962968, 0.18472222222222223],
+      "range": [-0.0087881591119333951, 0.18455134135060131],
       "tickmode": "auto",
       "ticktext": ["0%", "5%", "10%", "15%"],
-      "tickvals": [0, 0.050000000000000003, 0.10000000000000001, 0.15000000000000002],
+      "tickvals": [0, 0.05000000000000001, 0.10000000000000001, 0.15000000000000002],
       "categoryorder": "array",
       "categoryarray": ["0%", "5%", "10%", "15%"],
       "nticks": null,
       "ticks": "outside",
       "tickcolor": "rgba(0,0,0,1)",
       "ticklen": 4.6492320464923216,
-      "tickwidth": 0,
+      "tickwidth": 0.66417600664176002,
       "showticklabels": true,
       "tickfont": {
         "color": "rgba(0,0,0,1)",
@@ -112,7 +112,7 @@
       "tickangle": -0,
       "showline": true,
       "linecolor": "rgba(0,0,0,1)",
-      "linewidth": 0,
+      "linewidth": 0.66417600664176002,
       "showgrid": false,
       "gridcolor": null,
       "gridwidth": 0,
@@ -128,24 +128,7 @@
       },
       "hoverformat": ".2f"
     },
-    "shapes": [
-      {
-        "type": "rect",
-        "fillcolor": null,
-        "line": {
-          "color": null,
-          "width": 0,
-          "linetype": []
-        },
-        "yref": "paper",
-        "xref": "paper",
-        "layer": "below",
-        "x0": 0,
-        "x1": 1,
-        "y0": 0,
-        "y1": 1
-      }
-    ],
+    "shapes": [],
     "showlegend": false,
     "legend": {
       "bgcolor": null,
@@ -167,16 +150,16 @@
   },
   "source": "A",
   "attrs": {
-    "31a83e823e3f": {
+    "9751c72f4e5": {
       "x": {},
       "weight": {},
       "text": {},
       "type": "bar"
     }
   },
-  "cur_data": "31a83e823e3f",
+  "cur_data": "9751c72f4e5",
   "visdat": {
-    "31a83e823e3f": ["function (y) ", "x"]
+    "9751c72f4e5": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
