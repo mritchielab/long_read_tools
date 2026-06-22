@@ -1,0 +1,34 @@
+# PR: Weekly Long-Read Sequencing Tools Update
+
+This automated PR updates the long-read sequencing tools database with the latest findings from this week's automated search. 
+
+## 1. Tools Ready to Merge (No Conflicts)
+The following **11 tools** successfully passed all automated validation checks and are ready to be integrated:
+*   **Aardvark**
+*   **Circtools**
+*   **From**
+*   **Genetic**
+*   **&lt;i&gt;In**
+*   **Long-read** (2 entries detected)
+*   **NanoSimFormer**
+*   **Rapid**
+*   **segSHAPE**
+*   **The**
+
+*Note: A few names (e.g., "From", "The", "&lt;i&gt;In") appear to be parsing artifacts from paper titles/HTML and may require quick manual renaming.*
+
+## 2. Tools Requiring Manual Review (Conflicts)
+One tool was flagged and held back from automatic merging:
+
+*   **needLR**: Flagged as **`"Duplicated": "TRUE"`**. 
+    *   *Reason:* An entry for this tool already exists in the database. The automated script blocked it to prevent overwriting existing metadata.
+
+## 3. Action Items for Maintainer
+
+Please follow these steps to resolve the conflicts and complete the merge:
+
+1. **Verify the Duplicate:** Compare the incoming metadata for **needLR** against the existing database entry. 
+   * If the new entry contains updated repository URLs, citations, or descriptions, merge the new details into the existing entry.
+   * If it is an identical duplicate, discard the incoming entry.
+2. **Review Artifact Names:** Check the parsed names of the ready-to-merge tools (specifically "From", "The", and "&lt;i&gt;In") and correct them to their actual software names if necessary.
+3. **Merge:** Once the duplicates are resolved and names are verified, approve and merge this pull request.
