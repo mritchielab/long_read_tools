@@ -54,11 +54,11 @@ tidy_swsheet_cat <- function(swsheet) {
 
     tidyr::gather(swsheet, key = 'Category', value = 'Val',
                   fast5FileProcessing, Basecalling, LongReadOverlapping, DenovoAssembly,Alignment, Scaffolding,
-                  GeneratingConsensusSequence,ErrorCorrectionAndPolishing,EvaluatingExisitingMethods,
+                  GeneratingConsensusSequence,ErrorCorrectionAndPolishing,EvaluatingExistingMethods,
                   IsoformDetection,	BaseModificationDetection,	QualityChecking,SNPAndVariantAnalysis,
                   Visualisation,	ReadQuantification,	RNAStructure, SuitableForSingleCellExperiments,
                   TestedOnHumanData,TestedOnNonHumanData,Normalisation,ProvideSummaryStatistics,
-                  QualityTrimming,AvailablityOfTestData,Transcriptomics,GapFilling,
+                  QualityTrimming,AvailabilityOfTestData,Transcriptomics,GapFilling,
                   AnalysisPipelines, QualityFiltering, Metagenomics, Simulators, Demultiplexing, 
                   TaxonomicClassification, polyALengthEstimation, FusionDetection,
                   CoexpressionAnalysis,	DataStructures,cfDNActDNA) %>%

@@ -60,7 +60,7 @@ categories are assigned based on whether the tool:
 * **Demultiplexing** - Uses barcode or other information to know which sequences came from which samples in a pool of samples
 * **Denovo Assembly** - Assembles long reads
 * **Error Correction And Polishing** - Corrects the errors to improve the genome assembly or reads before assembly. Some use a hybrid method of using short reads to achieve long reads with high accuracy
-* **Evaluating Exisiting Methods** - Benchmarks and/or evaluates functionality of existing tools and/or generating synthetic long read datasets
+* **Evaluating Existing Methods** - Benchmarks and/or evaluates functionality of existing tools and/or generating synthetic long read datasets
 * **Gap Filling** - Improves existing assemblies based on localised alignment and assembly
 * **Gene Expression Analysis** - Tests of differential expression across samples
 * **Generating Consensus Sequence** - Generate a consensus sequence from the assembled reads

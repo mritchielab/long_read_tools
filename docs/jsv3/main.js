@@ -175,8 +175,8 @@ function appendWorkflow() {
     '<input type="checkbox" value="ErrorCorrectionAndPolishing" id="wf' + index + '-ErrorCorrectionAndPolishing" name="categories-wf' + index + '"> Error Correction And/Or Polishing</label>' +
     '</div>' +
     '<div class="checkbox">' +
-    '<label for="EvaluatingExisitingMethods">' +
-    '<input type="checkbox" value="EvaluatingExisitingMethods" id="wf' + index + '-EvaluatingExisitingMethods" name="categories-wf' + index + '"> Evaluating Existing Methods</label>' +
+    '<label for="EvaluatingExistingMethods">' +
+    '<input type="checkbox" value="EvaluatingExistingMethods" id="wf' + index + '-EvaluatingExistingMethods" name="categories-wf' + index + '"> Evaluating Existing Methods</label>' +
     '</div>' +
     '<div class="checkbox">' +
     '<label for="GapFilling">' +
