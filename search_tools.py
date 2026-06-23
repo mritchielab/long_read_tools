@@ -162,27 +162,35 @@ Boolean keys (answer strictly "TRUE" or "FALSE" based on the tool's capabilities
         
     prompt += "\nRespond ONLY with a valid JSON object. Do not include markdown code block syntax (such as ```json) in your response, just the raw JSON."
 
-    try:
-        response = client.models.generate_content(
-            model='gemini-3.5-flash',
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                tools=[types.Tool(google_search=types.GoogleSearch())]
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            response = client.models.generate_content(
+                model='gemini-3.5-flash',
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    tools=[types.Tool(google_search=types.GoogleSearch())]
+                )
             )
-        )
-        
-        text = response.text.strip()
-        # Robustly clean markdown code block if present
-        if text.startswith("```"):
-            text = re.sub(r'^```(json)?\s*', '', text)
-        if text.endswith("```"):
-            text = re.sub(r'\s*```$', '', text)
             
-        result = json.loads(text.strip())
-        return result
-    except Exception as e:
-        print(f"Gemini API error: {e}")
-        return None
+            text = response.text.strip()
+            # Robustly clean markdown code block if present
+            if text.startswith("```"):
+                text = re.sub(r'^```(json)?\s*', '', text)
+            if text.endswith("```"):
+                text = re.sub(r'\s*```$', '', text)
+                
+            result = json.loads(text.strip())
+            return result
+        except Exception as e:
+            print(f"Gemini API error (attempt {attempt + 1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                sleep_time = 10 * (attempt + 1)
+                print(f"Rate limited or API error. Sleeping {sleep_time} seconds before retry...")
+                time.sleep(sleep_time)
+            else:
+                print("All Gemini API attempts failed.")
+                return None
 
 def main():
     papers = search_europe_pmc()
@@ -223,6 +231,9 @@ def main():
                 row['DOI'] = p['doi']
                 row['Details'] = p['abstract'][:500]
                 writer.writerow(row)
+                
+            # Cooldown sleep between calls to avoid hitting Gemini API rate limits
+            time.sleep(2)
             
     print("Finished updating new_submissions.csv")
 
