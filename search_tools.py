@@ -5,6 +5,7 @@ import csv
 import re
 from datetime import datetime, timedelta
 import os
+import time
 
 try:
     import certifi
@@ -25,6 +26,46 @@ def search_europe_pmc(days_back=7):
     req.add_header('User-Agent', 'LongReadToolsBot/1.0')
     
     tools = []
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            import ssl
+            ctx = ssl.create_default_context()
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+            
+            print(f"Attempting to query Europe PMC (attempt {attempt + 1}/{max_retries})...")
+            with urllib.request.urlopen(req, context=ctx) as response:
+                data = json.loads(response.read().decode())
+                
+            for result in data.get('resultList', {}).get('result', []):
+                tools.append({
+                    'title': result.get('title', ''),
+                    'doi': result.get('doi', ''),
+                    'abstract': result.get('abstractText', '')
+                })
+            # If successful, return tools
+            return tools
+        except Exception as e:
+            print(f"Attempt {attempt + 1} failed fetching from Europe PMC: {e}")
+            if attempt < max_retries - 1:
+                sleep_time = 2 ** attempt
+                print(f"Retrying in {sleep_time} seconds...")
+                time.sleep(sleep_time)
+            else:
+                print("All Europe PMC attempts failed.")
+                
+    return tools
+
+def search_pubmed(days_back=7):
+    print("Falling back to PubMed via NCBI E-utilities...")
+    query = '("long read sequencing" OR "nanopore" OR "pacbio") AND ("software" OR "pipeline" OR "tool")'
+    encoded_query = urllib.parse.quote(query)
+    url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={encoded_query}&retmode=json&reldate={days_back}&datetype=pdat"
+    
+    req = urllib.request.Request(url)
+    req.add_header('User-Agent', 'LongReadToolsBot/1.0')
+    
     try:
         import ssl
         ctx = ssl.create_default_context()
@@ -32,18 +73,44 @@ def search_europe_pmc(days_back=7):
         ctx.verify_mode = ssl.CERT_NONE
         
         with urllib.request.urlopen(req, context=ctx) as response:
-            data = json.loads(response.read().decode())
-            
-        for result in data.get('resultList', {}).get('result', []):
-            tools.append({
-                'title': result.get('title', ''),
-                'doi': result.get('doi', ''),
-                'abstract': result.get('abstractText', '')
-            })
-    except Exception as e:
-        print("Error fetching from Europe PMC:", e)
+            res = json.loads(response.read().decode())
         
-    return tools
+        pmids = res.get("esearchresult", {}).get("idlist", [])
+        if not pmids:
+            return []
+            
+        print(f"Found {len(pmids)} PMIDs in PubMed search.")
+        
+        # Fetch summaries in chunks of 50
+        tools = []
+        chunk_size = 50
+        for i in range(0, len(pmids), chunk_size):
+            chunk = pmids[i:i+chunk_size]
+            ids_str = ",".join(chunk)
+            summary_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id={ids_str}&retmode=json"
+            summary_req = urllib.request.Request(summary_url)
+            summary_req.add_header('User-Agent', 'LongReadToolsBot/1.0')
+            
+            with urllib.request.urlopen(summary_req, context=ctx) as response:
+                summary_res = json.loads(response.read().decode())
+                
+            results = summary_res.get('result', {})
+            for uid in results.get('uids', []):
+                summary = results.get(uid, {})
+                title = summary.get('title', '')
+                doi = ''
+                for articleid in summary.get('articleids', []):
+                    if articleid.get('idtype') == 'doi':
+                        doi = articleid.get('value', '')
+                tools.append({
+                    'title': title,
+                    'doi': doi,
+                    'abstract': ''  # Abstract is left empty; Gemini will resolve details via Google Search
+                })
+        return tools
+    except Exception as e:
+        print("Error fetching from PubMed:", e)
+        return []
 
 def classify_with_gemini(paper, headers):
     try:
@@ -120,7 +187,11 @@ Boolean keys (answer strictly "TRUE" or "FALSE" based on the tool's capabilities
 def main():
     papers = search_europe_pmc()
     if not papers:
-        print("No new papers found this week.")
+        print("Europe PMC search returned no results. Checking PubMed...")
+        papers = search_pubmed()
+        
+    if not papers:
+        print("No new papers found this week from either Europe PMC or PubMed.")
         return
         
     print(f"Found {len(papers)} potential new papers.")
