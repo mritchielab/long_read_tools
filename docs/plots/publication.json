@@ -5,8 +5,8 @@
       "width": 1,
       "base": 446,
       "x": [1],
-      "y": [651],
-      "text": "Type: Published<br />Count: 651<br />Percent: 59.3",
+      "y": [653],
+      "text": "Type: Published<br />Count: 653<br />Percent: 59.4",
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -77,9 +77,9 @@
     },
     {
       "x": [1],
-      "y": [771.5],
-      "text": "Published 59.3%",
-      "hovertext": "Type: Published<br />Count: 651<br />Percent: 59.3",
+      "y": [772.5],
+      "text": "Published 59.4%",
+      "hovertext": "Type: Published<br />Count: 653<br />Percent: 59.4",
       "textfont": {
         "size": 11.338582677165356,
         "color": "rgba(255,255,255,1)"
@@ -204,10 +204,10 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-54.850000000000001, 1151.8499999999999],
+      "range": [-54.950000000000003, 1153.95],
       "tickmode": "array",
       "ticktext": ["0", "300", "600", "900"],
-      "tickvals": [0, 300.00000000000006, 600, 900],
+      "tickvals": [0, 300, 599.99999999999989, 900],
       "categoryorder": "array",
       "categoryarray": ["0", "300", "600", "900"],
       "nticks": null,
@@ -262,14 +262,14 @@
   },
   "source": "A",
   "attrs": {
-    "c90b4d35c3e8": {
+    "a4e748b40d61": {
       "x": {},
       "fill": {},
       "weight": {},
       "text": {},
       "type": "bar"
     },
-    "c90b4d0dbf2": {
+    "a4e724da8091": {
       "x": {},
       "fill": {},
       "weight": {},
@@ -278,10 +278,10 @@
       "label": {}
     }
   },
-  "cur_data": "c90b4d35c3e8",
+  "cur_data": "a4e748b40d61",
   "visdat": {
-    "c90b4d35c3e8": ["function (y) ", "x"],
-    "c90b4d0dbf2": ["function (y) ", "x"]
+    "a4e748b40d61": ["function (y) ", "x"],
+    "a4e724da8091": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
