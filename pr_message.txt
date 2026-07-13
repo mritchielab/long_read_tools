@@ -1,0 +1,46 @@
+## Automated Tool Database Update
+
+This automated pull request proposes updates to the long-read sequencing tools database. We have identified **8 new tools** with no conflicts that are ready for merging, and **2 tools** requiring manual review due to metadata discrepancies.
+
+---
+
+### 1. Tools Ready to Merge (No Conflicts)
+The following tools have passed all automated validation checks and are ready to be integrated:
+
+* **de**
+* **Integrated**
+* **Unraveling**
+* **Benchmarking**
+* **A**
+* **QutRNA2**
+* **Non-canonical**
+* **A**
+
+*(Note: Some tool names appear to be text-mining artifacts from paper titles and may benefit from a quick manual sanity check before finalizing).*
+
+---
+
+### 2. Tools Requiring Manual Review (Conflicts)
+The following tools were flagged and placed in the conflicts list. Please review the reasons below to resolve them:
+
+#### 🔴 **Fedrann**
+* **Issue:** **Platform Mismatch**
+* **Details:** The existing metadata lists the platform as `Python`, but the automated detection identified both `Python, C++` in the repository. 
+* **Action Required:** Verify if the tool requires C++ compilation or is primarily a Python package, and update the `Platform` field accordingly.
+
+#### 🔴 **AgileStructure**
+* **Issue:** **Missing Required Field**
+* **Details:** The automated tool detected the platform/language as `C#` (`Platform_auto`), but the primary `Platform` field is missing from the database entry.
+* **Action Required:** Manually populate the `Platform` field (likely with `C#`) to resolve the validation error.
+
+---
+
+### 3. Quick Instructions for the Maintainer
+
+To resolve these conflicts and complete the merge:
+
+1. **Open the conflicts file** (or review the JSON payloads directly in this branch).
+2. **Resolve Fedrann:** Update `"Platform": "Python"` to `"Python, C++"` (or keep Python if C++ is just an internal dependency).
+3. **Resolve AgileStructure:** Add the missing `"Platform": "C#"` field to the JSON object.
+4. Move both resolved tools from the `Conflicts` list to the main database file.
+5. Commit the changes and merge this Pull Request.
