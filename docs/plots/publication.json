@@ -5,8 +5,8 @@
       "width": 1,
       "base": 446,
       "x": [1],
-      "y": [660],
-      "text": "Type: Published<br />Count: 660<br />Percent: 59.7",
+      "y": [661],
+      "text": "Type: Published<br />Count: 661<br />Percent: 59.7",
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -77,9 +77,9 @@
     },
     {
       "x": [1],
-      "y": [776],
+      "y": [776.5],
       "text": "Published 59.7%",
-      "hovertext": "Type: Published<br />Count: 660<br />Percent: 59.7",
+      "hovertext": "Type: Published<br />Count: 661<br />Percent: 59.7",
       "textfont": {
         "size": 11.338582677165356,
         "color": "rgba(255,255,255,1)"
@@ -204,7 +204,7 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-55.300000000000004, 1161.3],
+      "range": [-55.350000000000001, 1162.3499999999999],
       "tickmode": "array",
       "ticktext": ["0", "300", "600", "900"],
       "tickvals": [0, 300, 600, 900],
@@ -262,14 +262,14 @@
   },
   "source": "A",
   "attrs": {
-    "b1ba7bdf9bda": {
+    "163fa5f02ab29": {
       "x": {},
       "fill": {},
       "weight": {},
       "text": {},
       "type": "bar"
     },
-    "b1ba157144bf": {
+    "163fa2833417a": {
       "x": {},
       "fill": {},
       "weight": {},
@@ -278,10 +278,10 @@
       "label": {}
     }
   },
-  "cur_data": "b1ba7bdf9bda",
+  "cur_data": "163fa5f02ab29",
   "visdat": {
-    "b1ba7bdf9bda": ["function (y) ", "x"],
-    "b1ba157144bf": ["function (y) ", "x"]
+    "163fa5f02ab29": ["function (y) ", "x"],
+    "163fa2833417a": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
