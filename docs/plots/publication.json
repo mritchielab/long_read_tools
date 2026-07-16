@@ -5,8 +5,8 @@
       "width": 1,
       "base": 446,
       "x": [1],
-      "y": [661],
-      "text": "Type: Published<br />Count: 661<br />Percent: 59.7",
+      "y": [662],
+      "text": "Type: Published<br />Count: 662<br />Percent: 59.7",
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -56,7 +56,7 @@
       "base": 0,
       "x": [1],
       "y": [221],
-      "text": "Type: Not Published<br />Count: 221<br />Percent: 20",
+      "text": "Type: Not Published<br />Count: 221<br />Percent: 19.9",
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -77,9 +77,9 @@
     },
     {
       "x": [1],
-      "y": [776.5],
+      "y": [777],
       "text": "Published 59.7%",
-      "hovertext": "Type: Published<br />Count: 661<br />Percent: 59.7",
+      "hovertext": "Type: Published<br />Count: 662<br />Percent: 59.7",
       "textfont": {
         "size": 11.338582677165356,
         "color": "rgba(255,255,255,1)"
@@ -118,8 +118,8 @@
     {
       "x": [1],
       "y": [110.5],
-      "text": "Not Published 20%",
-      "hovertext": "Type: Not Published<br />Count: 221<br />Percent: 20",
+      "text": "Not Published 19.9%",
+      "hovertext": "Type: Not Published<br />Count: 221<br />Percent: 19.9",
       "textfont": {
         "size": 11.338582677165356,
         "color": "rgba(255,255,255,1)"
@@ -204,10 +204,10 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-55.350000000000001, 1162.3499999999999],
+      "range": [-55.400000000000006, 1163.4000000000001],
       "tickmode": "array",
       "ticktext": ["0", "300", "600", "900"],
-      "tickvals": [0, 300, 600, 900],
+      "tickvals": [7.1054273576010019e-15, 300, 600, 900],
       "categoryorder": "array",
       "categoryarray": ["0", "300", "600", "900"],
       "nticks": null,
@@ -262,14 +262,14 @@
   },
   "source": "A",
   "attrs": {
-    "163fa5f02ab29": {
+    "f111505845b4": {
       "x": {},
       "fill": {},
       "weight": {},
       "text": {},
       "type": "bar"
     },
-    "163fa2833417a": {
+    "f111534855a1": {
       "x": {},
       "fill": {},
       "weight": {},
@@ -278,10 +278,10 @@
       "label": {}
     }
   },
-  "cur_data": "163fa5f02ab29",
+  "cur_data": "f111505845b4",
   "visdat": {
-    "163fa5f02ab29": ["function (y) ", "x"],
-    "163fa2833417a": ["function (y) ", "x"]
+    "f111505845b4": ["function (y) ", "x"],
+    "f111534855a1": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",
