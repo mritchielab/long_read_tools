@@ -1,0 +1,34 @@
+## Automated Tool Database Update - Week Summary
+
+This automated pull request adds newly discovered long-read sequencing tools to the database. All tools processed this week have successfully passed validation checks and are ready to be merged.
+
+### 🚀 Tools Ready to Merge (No Conflicts)
+The following **8 tools** had no validation issues and have been automatically formatted and added to the database:
+*   **Bacteriophage**
+*   **Benchmarking**
+*   **Clinical**
+*   **Durum**
+*   **Epidemiological**
+*   **Feasibility**
+*   **Genome**
+*   **Long-read**
+
+---
+
+### ⚠️ Conflict Review
+**Conflicts Found: 0**
+
+For your information, tools are diverted to the `Conflicts` list for manual review if they trigger any of the following automated flags:
+*   **Missing Fields:** Required metadata (e.g., repository URL, publication link, or primary description) is absent.
+*   **Mismatched Language:** The primary programming language detected in the GitHub repository does not match the language described in the publication.
+*   **Duplicate Entry:** The tool name or repository URL already exists in the database.
+
+Since no tools failed these checks this week, the conflict list is empty.
+
+---
+
+### 🛠️ Quick Instructions for Maintainers
+
+To merge these changes:
+1. **Quick Review:** Briefly scan the file diff to ensure the metadata formatting for the 8 new tools looks correct.
+2. **Approve and Merge:** If the diff looks good, squash and merge this pull request. The database will automatically update.
