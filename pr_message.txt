@@ -1,0 +1,32 @@
+# Automated Tool Update: 5 New Long-Read Tools Added
+
+This pull request automatically updates the long-read sequencing tool database with the results from this week's automated search. 
+
+## 🚀 Tools Ready to Merge
+The following **5 tools** successfully passed all automated validation checks and are ready to be added to the database:
+*   **Long-read**
+*   **Surveying**
+*   **Whole-genome**
+*   **PALM-Scan**
+*   **Annotated**
+
+---
+
+## 🔍 Conflict Resolution Report
+**There are currently 0 tools in the conflict queue.**
+
+During our weekly automation run, tools are flagged and placed in the **CONFLICTS** list for manual review if they meet any of the following criteria:
+*   **Missing Fields:** The tool entry is missing critical metadata, such as a description, repository URL, or license.
+*   **Mismatched Language:** The primary programming language detected in the tool's GitHub repository does not match the language asserted in its publication.
+*   **Duplicate Entry:** The tool already exists in our database (matched by name or repository URL).
+
+Because none of this week's retrieved tools triggered these validation flags, no manual intervention is required for conflicts.
+
+---
+
+## 🛠️ Quick Instructions for Maintainers
+Please follow these quick steps to review and merge this pull request:
+
+1. **Verify the Diff:** Briefly review the changes in the `Files changed` tab to ensure the JSON formatting is correct.
+2. **Check CI/CD:** Ensure that the automated database schema validation tests have passed successfully.
+3. **Merge:** If everything looks correct, click **Merge pull request** to deploy these additions to the production database.
