@@ -1,0 +1,50 @@
+## Automated Long-Read Tool Database Update
+
+This automated pull request updates the long-read sequencing tool database with the results from this week's automated search. 
+
+### Summary of New Tools (No Conflicts)
+The following **22 tools** had no conflicts during validation and are ready to be merged into the database:
+
+*   **A**
+*   **An**
+*   **Annotated**
+*   **Benchmarking**
+*   **Characterizing**
+*   **Concordance**
+*   **ECHO**
+*   **Facile**
+*   **Fast**
+*   **Genome**
+*   **Hunting**
+*   **Labyrinthula**
+*   **Long-read**
+*   **Molecular**
+*   **Mycobacterium**
+*   **Nanopore**
+*   **Pangenome**
+*   **Performance**
+*   **Spatial**
+*   **Spectrum**
+*   **Validation**
+*   **Variants**
+
+---
+
+### Conflict Review
+**No conflicts were detected in this week's run!** 
+
+For your information, tools are flagged and placed in the "Conflicts" list for manual review if they trigger any of the following validation rules:
+*   **Missing Fields:** Required metadata (such as repository URL, publication link, or primary purpose) is missing.
+*   **Language Mismatch:** The primary programming language detected in the repository does not align with what was extracted from the paper.
+*   **Duplicate Entry:** The tool name or repository URL already exists within the database.
+
+Since the conflicts list is empty, no manual troubleshooting of metadata is required for this batch.
+
+---
+
+### Instructions for Maintainer
+
+To complete this update, please follow these quick steps:
+1. **Review Diff:** Check the changes in the target JSON database file to ensure the new entries are formatted correctly.
+2. **Verify CI/CD:** Confirm that the automated validation tests/linter passed for this branch.
+3. **Merge:** If everything looks correct, merge this PR to update the production database.
