@@ -1,0 +1,36 @@
+# Automated Tool Database Update
+
+This automated pull request adds the latest long-read sequencing tools identified during this week's search to the database. 
+
+## Summary of Changes
+
+### Tools Ready to Merge (25 entries)
+The following tools passed all automated validation checks and are ready to be integrated:
+
+* **Bioinformatics Tools & Pipelines:**
+  * `VicMAG`
+  * `'PePApipe'`
+  * `NANOCUTSIGHT`
+  * `ERGA-BGE`
+* **Parsed Keywords/Generic Terms (Requires Sanity Check):**
+  * *Note: The parser flagged several terms from literature titles that may be generic keywords rather than software names. Please review these before merging:* `Long-read`, `Long`, `Recurrent`, `Optical`, `Benchmarking`, `Cross-Platform`, `Mapping`, `Transgenerational`, `Reference-Guided`, `Satellite`, `Genomic`, `Population`, `The` (duplicate), `Chromosome-scale`, `Additional`, `Transposon`, `Hide`, `Liquid`, `Comparative`, `Integrating`.
+
+---
+
+## Conflict Report
+
+**Conflicts Detected: 0**
+
+### Why tools get placed in the Conflicts list (for reference):
+When tools are flagged with conflicts, they are held back from merging for manual review. Common triggers include:
+1. **Missing Critical Fields:** Entries lacking essential metadata such as repository URL, main programming language, or description.
+2. **Language Mismatch:** Discrepancies between the primary language stated in the publication/metadata and the codebase detected on GitHub.
+3. **Duplicate Entry:** The tool name already exists in the database with different metadata.
+4. **Incorrect Repository Link:** Automated scraper links pointing to non-existent (404) repositories.
+
+---
+
+## Maintainer Action Items
+
+1. **Review Generic Names:** Quickly scan the listed tool names above. If any parsed words (e.g., *"The"*, *"Additional"*, *"Hide"*) are false positives from paper titles rather than actual tool names, remove them from the JSON payload.
+2. **Merge PR:** Once false positives are filtered, click **Merge pull request** to update the database.
