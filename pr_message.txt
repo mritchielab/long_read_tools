@@ -1,0 +1,56 @@
+# Pull Request: Automated Long-Read Tool Database Update
+
+This automated pull request updates the long-read sequencing tool database with the latest search results. Please review the summary of changes and the conflicts requiring manual intervention before merging.
+
+---
+
+## 1. Summary of Tools Ready to Merge
+
+The automated pipeline identified **25 tool entries** with no conflicts. These are ready to be merged directly into the main database:
+
+*   Nanopore
+*   "NanoDel"
+*   Customizable
+*   Accurate
+*   Antibody
+*   Mechanistic
+*   Pangenomic
+*   Oxford
+*   Nanopore *(duplicate entry in incoming list)*
+*   Parallel
+*   Protocol
+*   Mutational
+*   Influence
+*   Pangenomic *(duplicate entry in incoming list)*
+*   Report
+*   Whole
+*   Circulating
+*   Genomic
+*   Molecular
+*   Transposable
+*   Pangenome
+*   A
+*   Laboratory
+*   Application
+
+---
+
+## 2. Tools Requiring Manual Review (Conflicts)
+
+The following tool was flagged and placed in the conflicts list for manual review:
+
+| Tool Name | Issue Description | Reason for Conflict |
+| :--- | :--- | :--- |
+| **Linear** | Duplicated Entry | This tool was flagged as a duplicate (`"Duplicated": "TRUE"`), indicating it already exists in the database or appears multiple times in the source data with conflicting metadata. |
+
+---
+
+## 3. Instructions for Maintainer
+
+To resolve these conflicts and finalize the merge, please follow these steps:
+
+1.  **Review the Conflict**: Open the conflicts file and inspect the entry for `Linear`. Cross-reference it with the existing database to determine if it is a true duplicate or a new tool/version with a shared name.
+2.  **Resolve**: 
+    *   If it is a true duplicate, discard the incoming `Linear` entry.
+    *   If it is a unique tool/update, resolve the naming collision (e.g., append a version number or publisher name) and move it to the approved list.
+3.  **Merge**: Once conflicts are resolved in the JSON schema, approve and merge this Pull Request.
