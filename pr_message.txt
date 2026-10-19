@@ -1,0 +1,27 @@
+## 🤖 Automated Weekly Tool Search Results
+
+This automated pull request updates the long-read sequencing tool database with the latest findings from this week's search pipeline.
+
+---
+
+### 📑 Summary of Ready Tools (No Conflicts)
+A total of **25 entry records** passed all automated validation checks with no errors or metadata mismatches and are ready to be merged:
+
+- **Tools:** Systematic, TNRSim, Towards, Targeted, A, Antibody, HURDLER, The, Culture-Dependent, Vagal, Emergence, Integrated, Molecular, Genomic, Antifungal, Micro, Prevalence, The, Juvenile, Isolation, Comparative, Context-dependent, Whole-genome, The, Single-cell.
+
+---
+
+### ⚠️ Conflict Resolution & Flagging Logic
+**Current Conflict Count:** `0` (No tools flagged this week)
+
+For context and future review cycles, tools are automatically moved to the **Conflicts** list requiring manual review whenever:
+1. **Missing Required Fields:** Mandatory metadata (such as repository URL, publication DOI, or tool description) is missing or incomplete.
+2. **Language Mismatch:** The primary programming language stated in the publication does not match the primary language detected in the linked GitHub/GitLab repository.
+3. **Duplicate Record:** The tool name, publication link, or repository URL collides with an existing record in the database.
+
+---
+
+### 🛠️ Maintainer Merge Instructions
+1. **Review Diff:** Quickly verify the additions in the `Files changed` tab.
+2. **Check Records:** Ensure metadata formatting adheres to database guidelines.
+3. **Approve & Merge:** If everything looks correct, approve and merge this PR into the main branch.
