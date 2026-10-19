@@ -5,8 +5,8 @@
       "width": [0.89999999999999991, 0.90000000000000013, 0.90000000000000036, 0.90000000000000036, 0.90000000000000036],
       "base": [0, 0, 0, 0, 0],
       "x": [1, 2, 3, 4, 5],
-      "y": [0.85831062670299729, 0.55949137148047234, 0.06630336058128973, 0.029972752043596729, 0.023614895549500452],
-      "text": ["Technology: Oxford Nanopore<br />Count: 945 <br /> Percent: 85.8", "Technology: PacBio<br />Count: 616 <br /> Percent: 55.9", "Technology: 10X Genomics<br />Count: 73 <br /> Percent: 6.6", "Technology: Hi-C<br />Count: 33 <br /> Percent: 3", "Technology: Bionano Genomics<br />Count: 26 <br /> Percent: 2.4"],
+      "y": [0.85958595859585962, 0.55895589558955894, 0.065706570657065713, 0.029702970297029702, 0.023402340234023402],
+      "text": ["Technology: Oxford Nanopore<br />Count: 955 <br /> Percent: 86", "Technology: PacBio<br />Count: 621 <br /> Percent: 55.9", "Technology: 10X Genomics<br />Count: 73 <br /> Percent: 6.6", "Technology: Hi-C<br />Count: 33 <br /> Percent: 3", "Technology: Bionano Genomics<br />Count: 26 <br /> Percent: 2.3"],
       "type": "bar",
       "textposition": "none",
       "marker": {
@@ -92,10 +92,10 @@
       "automargin": true,
       "type": "linear",
       "autorange": false,
-      "range": [-0.042915531335149866, 0.90122615803814721],
+      "range": [-0.042979297929792985, 0.90256525652565256],
       "tickmode": "array",
       "ticktext": ["0%", "25%", "50%", "75%"],
-      "tickvals": [0, 0.25, 0.5, 0.75],
+      "tickvals": [0, 0.25, 0.49999999999999994, 0.75],
       "categoryorder": "array",
       "categoryarray": ["0%", "25%", "50%", "75%"],
       "nticks": null,
@@ -150,16 +150,16 @@
   },
   "source": "A",
   "attrs": {
-    "1136a71fbf000": {
+    "12c962e1d0b3": {
       "x": {},
       "weight": {},
       "text": {},
       "type": "bar"
     }
   },
-  "cur_data": "1136a71fbf000",
+  "cur_data": "12c962e1d0b3",
   "visdat": {
-    "1136a71fbf000": ["function (y) ", "x"]
+    "12c962e1d0b3": ["function (y) ", "x"]
   },
   "highlight": {
     "on": "plotly_click",

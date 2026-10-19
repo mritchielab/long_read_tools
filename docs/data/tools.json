@@ -3739,6 +3739,40 @@
     "Categories": ["SNPAndVariantAnalysis"]
   },
   {
+    "Name": "DeCoRE",
+    "DOIs": "10.1126/sciadv.aef0670",
+    "Platform": "Python",
+    "Description": "DeCoRE is a computational method to resolve RNA structural heterogeneity and deconvolve complex RNA structural ensembles from direct RNA sequencing structure probing data.",
+    "Code": "https://github.com/huangyon20/DeCoRe",
+    "License": "Not Available",
+    "Underlying_algorithms": "Chemical structure probing signal detection, single-molecule read clustering, RNA structural ensemble deconvolution",
+    "Underlying_assumptions": "Requires Oxford Nanopore direct RNA sequencing data combined with chemical structure probing (e.g. SHAPE, DMS).",
+    "Strengths_weaknesses": "Resolves alternative coexisting RNA conformations and cotranscriptional folding intermediates at single-nucleotide and single-molecule resolution.",
+    "Overall_performance": "Successfully deconvolved alternative conformations in riboswitches and uncovered cotranscriptional folding pathways in ribosomal RNA.",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1126/sciadv.aef0670",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
+    },
+    "Recent_citations": ["NA"],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "huangyon20/DeCoRe",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["RNAStructure", "TestedOnNonHumanData", "ProvideSummaryStatistics", "AvailabilityOfTestData", "Transcriptomics"]
+  },
+  {
     "Name": "Decoil",
     "DOIs": "10.1101/2023.11.15.567169",
     "Platform": "R",
@@ -8771,6 +8805,40 @@
     "Categories": ["IsoformDetection", "TestedOnHumanData", "AvailabilityOfTestData", "Transcriptomics"]
   },
   {
+    "Name": "IsoGraph",
+    "DOIs": "10.64898/2026.10.04.756439",
+    "Platform": "Python",
+    "Description": "IsoGraph is a gene-centered framework that models coordinated transcript choice and gene abundance as paired network channels to identify splicing and isoform modules.",
+    "Code": "https://github.com/heart-gen/IsoGraph",
+    "License": "Not Available",
+    "Underlying_algorithms": "Gene-aware latent network inference, paired channel graph modeling, isoform module identification",
+    "Underlying_assumptions": "Requires transcript-level quantification data from bulk or long-read RNA-seq.",
+    "Strengths_weaknesses": "Separates coordinated alternative splicing regulation from total gene expression changes to identify disease- and aging-associated transcriptomic signatures.",
+    "Overall_performance": "Demonstrated robust discovery of age-associated splicing shifts and disease-linked transcript choices in human brain datasets.",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.64898/2026.10.04.756439",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
+    },
+    "Recent_citations": ["NA"],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "heart-gen/IsoGraph",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["IsoformDetection", "TestedOnHumanData", "ProvideSummaryStatistics", "AvailabilityOfTestData", "Transcriptomics", "CoexpressionAnalysis"]
+  },
+  {
     "Name": "IsoLamp",
     "Platform": "Shell, R",
     "Description": "A bash pipeline for the identification of known and novel isoforms from targeted amplicon long-read sequencing",
@@ -13450,6 +13518,40 @@
     "Categories": ["Alignment", "ErrorCorrectionAndPolishing", "BaseModificationDetection", "SNPAndVariantAnalysis", "AnalysisPipelines"]
   },
   {
+    "Name": "Nailpolish",
+    "DOIs": "10.64898/2026.09.25.754331",
+    "Platform": "Rust",
+    "Description": "Nailpolish is a tool for reference-free UMI deduplication and consensus read generation from long-read sequencing data using partial order alignment (POA).",
+    "Code": "https://github.com/davidsongroup/nailpolish",
+    "License": "MIT License",
+    "Underlying_algorithms": "Partial order alignment (POA), barcode/UMI clustering, false duplicate separation",
+    "Underlying_assumptions": "Requires long-read sequencing data tagged with UMIs/barcodes.",
+    "Strengths_weaknesses": "Lightweight and high performance in Rust; generates error-corrected consensus reads directly from PCR duplicates without requiring a reference genome.",
+    "Overall_performance": "Efficiently resolves UMI collisions and produces high-fidelity consensus reads across bulk, single-cell, and targeted long-read datasets.",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.64898/2026.09.25.754331",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
+    },
+    "Recent_citations": ["NA"],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "davidsongroup/nailpolish",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["GeneratingConsensusSequence", "ErrorCorrectionAndPolishing", "SuitableForSingleCellExperiments", "TestedOnHumanData", "TestedOnNonHumanData", "ProvideSummaryStatistics", "AvailabilityOfTestData", "Demultiplexing"]
+  },
+  {
     "Name": "Nallo",
     "DOIs": "10.1093/bioinformatics/btag086;10.5281/zenodo.13748210",
     "Platform": "Nextflow",
@@ -17433,6 +17535,40 @@
     "Categories": ["DenovoAssembly"]
   },
   {
+    "Name": "Perseus",
+    "DOIs": "10.1093/bioinformatics/btag687",
+    "Platform": "Python",
+    "Description": "Perseus is a lineage-aware post-processing framework that refines Kraken2 taxonomic classifications for long-read metagenomes using hierarchical CNN confidence estimation.",
+    "Code": "https://github.com/matnguyen/perseus",
+    "License": "Not Available",
+    "Underlying_algorithms": "Multi-headed convolutional neural network (CNN), spatial k-mer match consistency modeling, hierarchical back-off confidence scoring",
+    "Underlying_assumptions": "Requires Kraken2 classification outputs and long reads or assembled contigs.",
+    "Strengths_weaknesses": "Reduces false-positive species-level classifications in novel or divergent metagenomic samples by backing off to higher taxonomic ranks or abstaining.",
+    "Overall_performance": "Significantly improves classification precision over standard Kraken2 on simulated and real long-read metagenomic datasets.",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1093/bioinformatics/btag687",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
+    },
+    "Recent_citations": ["NA"],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "matnguyen/perseus",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["EvaluatingExistingMethods", "TestedOnHumanData", "TestedOnNonHumanData", "ProvideSummaryStatistics", "AvailabilityOfTestData", "Metagenomics", "TaxonomicClassification"]
+  },
+  {
     "Name": "PhaseDancer",
     "DOIs": "10.1186/s13059-023-03022-8",
     "Platform": "Python",
@@ -17704,6 +17840,40 @@
     "Github": "schneebergerlab/plotsr",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["Visualisation"]
+  },
+  {
+    "Name": "PolyAnalysis",
+    "DOIs": "10.1186/s12915-026-02749-7",
+    "Platform": "Python",
+    "Description": "PolyAnalysis is a deep learning-based framework for nanopore-based poly(A) tail length estimation and 3′-end regulation profiling from raw signal data.",
+    "Code": "https://github.com/tianqx0726/PolyAnalysis",
+    "License": "Not Available",
+    "Underlying_algorithms": "CNN-BiLSTM region classification network, multi-task connectionist temporal classification (CTC) decoding, adenine-aware training",
+    "Underlying_assumptions": "Requires Oxford Nanopore raw electrical current signals (FAST5/POD5) from direct RNA sequencing data.",
+    "Strengths_weaknesses": "Operates directly on raw ionic current signals to overcome homopolymer-related basecalling errors in poly(A) tails; profiles alternative polyadenylation (APA) and PAS boundaries.",
+    "Overall_performance": "Accurately estimates poly(A) tail lengths and profiles 3′-end regulation across diverse transcriptomes and nanopore chemistries (RNA002 and RNA004).",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1186/s12915-026-02749-7",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
+    },
+    "Recent_citations": ["NA"],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "tianqx0726/PolyAnalysis",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["fast5FileProcessing", "TestedOnHumanData", "TestedOnNonHumanData", "ProvideSummaryStatistics", "AvailabilityOfTestData", "Transcriptomics", "polyALengthEstimation"]
   },
   {
     "Name": "PolyAtailor",
@@ -21010,6 +21180,39 @@
     "Categories": ["SNPAndVariantAnalysis"]
   },
   {
+    "Name": "SSL-InsNet",
+    "DOIs": "10.1109/tcbbio.2026.3742332",
+    "Platform": "Python",
+    "Description": "SSL-InsNet is a sequence structured labeling framework for large-scale genomic insertion detection from long reads leveraging a time-distributed dual transformer.",
+    "Code": "Not Available",
+    "License": "Not Available",
+    "Underlying_algorithms": "Time-distributed dual transformer, sequence structured labeling, structural variation detection",
+    "Underlying_assumptions": "Requires long-read sequencing alignment data (Oxford Nanopore or PacBio).",
+    "Strengths_weaknesses": "Maintains structural consistency across ultra-long genomic insertions spanning extensive intervals.",
+    "Overall_performance": "Demonstrates high precision and sensitivity in detecting large-scale genomic insertions on benchmark sequencing datasets.",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1109/tcbbio.2026.3742332",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
+    },
+    "Recent_citations": ["NA"],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["SNPAndVariantAnalysis", "TestedOnHumanData", "ProvideSummaryStatistics", "AvailabilityOfTestData"]
+  },
+  {
     "Name": "STIX",
     "DOIs": "10.1101/2024.09.30.615931",
     "Platform": "C, HTML",
@@ -23398,6 +23601,40 @@
     "Github": "adamewing/tldr",
     "Technologies": ["OxfordNanopore", "PacBio"],
     "Categories": ["SNPAndVariantAnalysis", "TestedOnHumanData"]
+  },
+  {
+    "Name": "TNRSim",
+    "DOIs": "10.3389/fbinf.2026.1694068",
+    "Platform": "Python",
+    "Description": "TNRSim is a simulator of truncated Oxford Nanopore direct RNA sequencing reads, modeling realistic fragmentation patterns, quality scores, and errors for isoform benchmarking.",
+    "Code": "https://github.com/Artemiy-Saharov/TNRSim",
+    "License": "Not Available",
+    "Underlying_algorithms": "Parametric 5′-truncation modeling, empirical error rate simulation, quality score distribution sampling",
+    "Underlying_assumptions": "Simulates Oxford Nanopore direct RNA sequencing transcriptomic libraries.",
+    "Strengths_weaknesses": "Specifically replicates empirical mRNA truncation phenomena in direct RNA-seq to benchmark transcript quantification and isoform detection algorithms.",
+    "Overall_performance": "Accurately simulates direct RNA-seq error and truncation profiles matching experimental benchmarks.",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.3389/fbinf.2026.1694068",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
+    },
+    "Recent_citations": ["NA"],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "Artemiy-Saharov/TNRSim",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["IsoformDetection", "ProvideSummaryStatistics", "AvailabilityOfTestData", "Transcriptomics", "Simulators"]
   },
   {
     "Name": "TREAT",
@@ -32311,6 +32548,40 @@
     "Categories": ["SNPAndVariantAnalysis"]
   },
   {
+    "Name": "tRNAZAP",
+    "DOIs": "10.64898/2026.09.28.755067",
+    "Platform": "Python",
+    "Description": "tRNAZAP is a deep learning toolkit for nanopore direct tRNA sequencing analysis, performing signal segmentation, tRNA isodecoder classification, and reference-guided alignment.",
+    "Code": "https://github.com/genometechlab/tRNAZAP",
+    "License": "MIT License",
+    "Underlying_algorithms": "Transformer-based deep learning models, raw ionic current segmentation, sequence classification, pairwise reference alignment",
+    "Underlying_assumptions": "Requires raw ionic current signals (FAST5/POD5) from Oxford Nanopore tRNA sequencing.",
+    "Strengths_weaknesses": "Operates directly on raw current signals to overcome short length and modification density challenges in transfer RNA basecalling. Requires GPU for optimal deep learning performance.",
+    "Overall_performance": "Accurately segments adapter/splint/tRNA regions and classifies isodecoders for high-precision reference-guided alignment.",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.64898/2026.09.28.755067",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
+    },
+    "Recent_citations": ["NA"],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "genometechlab/tRNAZAP",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["fast5FileProcessing", "Alignment", "RNAStructure", "TestedOnHumanData", "TestedOnNonHumanData", "ProvideSummaryStatistics", "AvailabilityOfTestData", "Transcriptomics", "AnalysisPipelines", "QualityFiltering"]
+  },
+  {
     "Name": "taeper",
     "Platform": "Python",
     "Description": "A small python program to simulate a real-time Nanopore sequencing run based on previous experiment.",
@@ -32560,6 +32831,74 @@
     "Github": "PacificBiosciences/unanimity",
     "Technologies": ["PacBio"],
     "Categories": ["Basecalling", "GeneratingConsensusSequence"]
+  },
+  {
+    "Name": "unduliner",
+    "DOIs": "10.64898/2026.10.08.757715",
+    "Platform": "Python",
+    "Description": "unduliner is a deep learning framework for predicting and linking somatic single-nucleotide and structural variants to localized DNA methylation changes using nanopore long reads.",
+    "Code": "https://github.com/Chisomgold/unduliner",
+    "License": "MIT License",
+    "Underlying_algorithms": "Convolutional neural network (CNN), phased variant analysis, haplotype-specific differentially methylated region (DMR) integration",
+    "Underlying_assumptions": "Requires Oxford Nanopore sequencing with modified base calls (5mC) and phased somatic variants.",
+    "Strengths_weaknesses": "Directly links genetic variants to functional epigenetic consequences; quantifies direction and magnitude of methylation shifts.",
+    "Overall_performance": "Accurately associates SNVs and SVs with aberrant methylation profiles across cancer genomes including breast and pancreatic cancers.",
+    "OxfordNanopore": true,
+    "PacBio": false,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.64898/2026.10.08.757715",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
+    },
+    "Recent_citations": ["NA"],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "Chisomgold/unduliner",
+    "Technologies": ["OxfordNanopore"],
+    "Categories": ["BaseModificationDetection", "SNPAndVariantAnalysis", "TestedOnHumanData", "ProvideSummaryStatistics", "AvailabilityOfTestData"]
+  },
+  {
+    "Name": "virCHap",
+    "DOIs": "10.1101/gr.281975.126",
+    "Platform": "Python",
+    "Description": "virCHap is a reference-based viral haplotype phasing and reconstruction tool for resolving viral quasispecies and strains from long-read sequencing data.",
+    "Code": "https://github.com/gaoyun-25/virCHap",
+    "License": "Not Available",
+    "Underlying_algorithms": "Graph partitioning, read clustering, iterative cluster merging, viral strain abundance estimation",
+    "Underlying_assumptions": "Requires aligned long-read sequencing data (Oxford Nanopore or PacBio) and a reference viral genome.",
+    "Strengths_weaknesses": "Accurately phases viral haplotypes even with unknown strain numbers, high sequence similarity, and low abundance variants.",
+    "Overall_performance": "Outperforms existing viral haplotyping tools in recall, read clustering accuracy, and strain abundance estimation on VZV, PVY, and SARS-CoV-2 data.",
+    "OxfordNanopore": true,
+    "PacBio": true,
+    "tenxGenomics": false,
+    "BionanoGenomics": false,
+    "HiC": false,
+    "Refs": {
+      "Publications": [
+        {
+          "DOI": "10.1101/gr.281975.126",
+          "PubDate": [],
+          "Preprint": false
+        }
+      ],
+      "Preprints": []
+    },
+    "Recent_citations": ["NA"],
+    "Publications": 1,
+    "Preprints": 0,
+    "PubDates": ["character(0)"],
+    "Github": "gaoyun-25/virCHap",
+    "Technologies": ["OxfordNanopore", "PacBio"],
+    "Categories": ["GeneratingConsensusSequence", "SNPAndVariantAnalysis", "TestedOnNonHumanData", "ProvideSummaryStatistics", "AvailabilityOfTestData"]
   },
   {
     "Name": "viralFlye",
