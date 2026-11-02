@@ -1,0 +1,46 @@
+## Automated Tool Search Results — Weekly Summary
+
+This automated pull request updates the long-read sequencing tools database with the latest batch of discovered tools.
+
+---
+
+### 📦 Tools Ready to Merge (No Conflicts)
+A total of **24 entry updates** passed automated validation with no conflicts and are ready to be added:
+
+* **A** (multiple entries)
+* **ANME-2a**
+* **BacPath**
+* **Chromosome-scale**
+* **Comparative**
+* **Cryo-EM**
+* **Diagnostic**
+* **DirectClean** (multiple entries)
+* **Diversity**
+* **Extensive**
+* **Haplotype-resolved**
+* **Integrative**
+* **Microbiology**
+* **Nuclear**
+* **Rutin**
+* **Technology**
+* **The** (multiple entries)
+* **Thirteen**
+* **Validated**
+* **When**
+
+---
+
+### ⚠️ Tools Requiring Manual Review (Conflicts)
+
+The following tool was flagged and moved to the conflict list:
+
+* **Gapless**
+  * **Reason for Conflict:** Flagged as a duplicate (`Duplicated: TRUE`). Existing database records indicate this tool may already be cataloged.
+
+---
+
+### 📋 Instructions for Maintainer
+
+1. **Review Conflicts:** Check the `Gapless` metadata entry to verify whether it is a duplicate of an existing tool or a separate tool requiring a unique identifier.
+2. **Merge Safe Records:** If the non-conflicting additions look good, approve and merge this PR.
+3. **Resolve or Discard:** Update the record for `Gapless` manually or discard the duplicate entry as appropriate.
