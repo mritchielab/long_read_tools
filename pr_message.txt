@@ -1,0 +1,23 @@
+## Automated Long-Read Tool Database Update
+
+This automated PR updates the long-read sequencing tools database with the latest search results.
+
+### 🟢 Ready to Merge
+The following **1** tool passed all automated validation checks and is ready to be added to the database:
+* **Breakpoint**
+
+---
+
+### ⚠️ Conflicts & Manual Review Needed
+**0 tools require manual review this week.**
+
+For reference, tools are placed in the **CONFLICTS** list if any of the following automated checks fail:
+* **Missing Fields:** Key metadata (e.g., repository link, publication DOI, or license) is missing or incomplete.
+* **Language Mismatch:** The primary programming language reported in the paper does not match the GitHub repository metadata.
+* **Duplicate Entry:** The tool name, repository link, or publication matches an entry already present in the database.
+
+---
+
+### 📋 Instructions for Maintainer
+1. **Review Entry:** Briefly verify the JSON/metadata file generated for **Breakpoint**.
+2. **Merge PR:** Since there are no conflicting tools to manually review, approve and merge this PR to ingest the new entry.
