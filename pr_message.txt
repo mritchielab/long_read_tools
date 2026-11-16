@@ -1,0 +1,27 @@
+## Automated Database Update: New Long-Read Sequencing Tools
+
+This PR adds the latest batch of long-read sequencing tools discovered during this week's automated search.
+
+### Summary of Ready Tools
+A total of **23 tools** passed all automated validation checks with no conflicts and are ready to be merged into the database:
+
+* **Systematic**, **Rapid**, **Absolute**, **Multimodal**, **EMtrace**, **Integrated**, **Quantifying**, **Integer**, **High-Fidelity**, **Hybrid**, **Women’s**, **Genetic**, **RNA**, **Benchmarking**, **Fast**, **Truncating**, **Electrode-associated**, **Micro**, **Safety**, **Satellite**, **Development**, **Multi-omics**, **Vertebrate**
+
+---
+
+### Conflict Resolution & Validation Status
+* **Conflicts Found:** 0
+
+**Note on Conflict Checking Criteria:**
+Tools are automatically routed to the CONFLICTS list for manual review if any of the following triggers are met:
+* **Missing Required Fields:** Incomplete metadata (e.g., missing repository URL, documentation, or publication links).
+* **Language Mismatch:** Discrepancies between the primary language reported in the associated paper and the repository's detected language.
+* **Duplicate Detection:** The tool name or repository URL matches an entry already present in the database.
+
+All 23 tools in this update satisfied these validation criteria.
+
+---
+
+### Maintainer Next Steps
+1. **Quick Audit:** Briefly review the list of 23 newly added tools above.
+2. **Merge:** Since there are no flagged conflicts requiring manual metadata fixes, this PR can be safely approved and merged.
