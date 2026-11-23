@@ -1,0 +1,51 @@
+# Automated Long-Read Sequencing Tool Database Update
+
+## 📄 Summary of Additions
+This automated Pull Request includes newly identified long-read sequencing tools from this week's database scan. A total of **25 tools** passed validation with no conflicts and are ready for integration.
+
+### 🟢 Tools Ready to Merge (25 Total)
+The following tools have met all automated checks and contain complete, validated metadata:
+
+- **Adaptive**
+- **Chromosome-level**
+- **DeGenRESOLVE**
+- **Tradeoffs**
+- **Genomic**
+- **Human**
+- **A**
+- **Evaluating** (2 entries)
+- **Perosomus**
+- **VPHYL**
+- **No**
+- **Deciphering**
+- **Single-molecule**
+- **Genome**
+- **Sheep**
+- **Analysis**
+- **Transposons**
+- **Next-Generation**
+- **Biosynthesis**
+- **Ambient**
+- **Urban**
+- **Experimental**
+- **Comparative**
+- **Molecular**
+
+---
+
+## ⚠️ Conflicts & Manual Review Status
+**Status:** `0 Conflicts Found`
+
+No tools were flagged for manual review during this run. 
+
+For reference, tools are placed in the **CONFLICTS** list when automated validation fails due to:
+* **Missing Required Fields:** Incomplete metadata (e.g., missing repository links, publication DOIs, or description).
+* **Language Mismatch:** Discrepancies between the primary programming language identified in the published paper versus the linked GitHub repository.
+* **Duplicate Detection:** The tool name, repository URL, or publication is already present in the database.
+
+---
+
+## 🛠️ Instructions for Maintainers
+
+1. **Review:** Give a quick sanity check to the list of 25 newly added tools above.
+2. **Merge:** Since there are no conflicting files requiring manual resolution, click **Approve and Merge** to add these tools to the main database.
